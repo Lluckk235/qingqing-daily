@@ -539,6 +539,14 @@ textarea {
   align-items: center;
 }
 
+.note-actions select {
+  padding: 7px 10px;
+}
+
+.note-actions .btn-primary {
+  padding: 7px 14px;
+}
+
 .note-card {
   padding: 12px;
   border: 1px solid var(--border-light);
