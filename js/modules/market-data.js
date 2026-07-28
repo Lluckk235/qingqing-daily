@@ -4,6 +4,7 @@
 
 const MarketData = {
   cache: {},
+  stockCache: {},
   lastFetch: 0,
   cacheDuration: 2 * 60 * 1000,
 
@@ -56,11 +57,77 @@ const MarketData = {
       console.warn('Market fetch:', e.message);
     }
     this.updateUI();
+    this.fetchWatchlistStocks();
   },
 
-  // 个股不再通过API，保留占位
-  fetchWatchlistStocks() {},
-  updateWatchlistPrices() {},
+  // 个股通过新浪 script 标签加载
+  fetchWatchlistStocks() {
+    const list = Storage.getArray(CONFIG.storageKeys.watchlist);
+    if (list.length === 0) return;
+
+    const codes = list.map(item => {
+      const sym = item.symbol.toUpperCase();
+      if (item.market === 'cn') {
+        return sym.startsWith('6') ? 's_sh' + sym.replace(/\.(SH|SZ)/i, '') : 's_sz' + sym.replace(/\.(SH|SZ)/i, '');
+      } else if (item.market === 'hk') {
+        return 'rt_hk' + sym.replace('.HK', '').padStart(4, '0');
+      } else {
+        return 'gb_' + sym.toLowerCase().replace(/[^a-z]/g, '');
+      }
+    });
+
+    const script = document.createElement('script');
+    script.src = 'https://hq.sinajs.cn/list=' + codes.join(',') + '?_=' + Date.now();
+    script.charset = 'gbk';
+    script.onload = () => {
+      this.parseStockData(codes);
+      this.updateWatchlistPrices();
+      script.remove();
+    };
+    script.onerror = () => { script.remove(); };
+    document.head.appendChild(script);
+  },
+
+  parseStockData(codes) {
+    codes.forEach(code => {
+      const raw = window['hq_str_' + code];
+      if (!raw || typeof raw !== 'string') return;
+      const f = raw.split(',');
+      if (f.length < 4) return;
+      let price, change, changePct;
+      if (code.startsWith('gb_')) { price = parseFloat(f[1]); changePct = parseFloat(f[2]); change = parseFloat(f[4]); }
+      else if (code.startsWith('s_')) { price = parseFloat(f[1]); change = parseFloat(f[2]); changePct = parseFloat(f[3]); }
+      else if (code.startsWith('rt_hk')) { price = parseFloat(f[2]); const prev = parseFloat(f[3]); change = price - prev; changePct = parseFloat(f[8]) || (prev ? change/prev*100 : 0); }
+      if (!isNaN(price)) {
+        const sym = code.replace('gb_', '').replace('s_sh', '').replace('s_sz', '').replace('rt_hk', '').toUpperCase();
+        this.stockCache[sym] = { price, change: change || 0, changePct: changePct || 0 };
+      }
+      delete window['hq_str_' + code];
+    });
+  },
+
+  updateWatchlistPrices() {
+    const list = Storage.getArray(CONFIG.storageKeys.watchlist);
+    const items = document.querySelectorAll('.watchlist-item');
+    items.forEach((item, idx) => {
+      const wl = list[idx];
+      if (!wl) return;
+      const cleanSym = wl.symbol.toUpperCase().replace(/\.(SH|SZ|HK)/i, '').replace(/[^A-Z0-9]/g, '');
+      let data = this.stockCache[cleanSym] || this.stockCache[wl.symbol.toUpperCase()];
+      if (!data) { for (const [k, v] of Object.entries(this.stockCache)) { if (k === cleanSym || cleanSym.includes(k)) { data = v; break; } } }
+
+      const old = item.querySelector('.wl-price');
+      if (old) old.remove();
+
+      if (data && data.price) {
+        const span = document.createElement('span');
+        span.className = 'wl-price ' + (data.change >= 0 ? 'up' : 'down');
+        span.textContent = data.price.toFixed(2);
+        const right = item.querySelector('.wl-right');
+        if (right) right.prepend(span);
+      }
+    });
+  },
 
   formatPrice(val) {
     if (val == null) return '--';
