@@ -1,13 +1,11 @@
 /* ========================================
-   卿卿日常 · 市场行情模块 (v7 - 同域代理)
+   卿卿日常 · 市场行情 (v8 - 静态JSON)
    ======================================== */
 
 const MarketData = {
   cache: {},
-  stockCache: {},
   lastFetch: 0,
-  stockLastFetch: 0,
-  cacheDuration: 3 * 60 * 1000,
+  cacheDuration: 2 * 60 * 1000,
 
   init() {
     this.loadCache();
@@ -35,87 +33,34 @@ const MarketData = {
     } catch (e) {}
   },
 
-  fetchAll() {
-    this.fetchIndexes();
-    this.fetchStocks();
-  },
-
-  async fetchIndexes() {
+  async fetchAll() {
+    if (this.lastFetch && (Date.now() - this.lastFetch < this.cacheDuration)) {
+      this.updateUI();
+      return;
+    }
     try {
-      const resp = await fetch('/api/market');
+      const resp = await fetch('data/market.json', { cache: 'no-cache' });
       if (!resp.ok) throw new Error('Status ' + resp.status);
-      const data = await resp.json();
-      const keyMap = { nasdaq: 'nasdaq', hs300: 'hs300', sh: 'sh', hsi: 'hsi' };
-      for (const [k, v] of Object.entries(data)) {
-        if (keyMap[k] && v.price) {
-          this.cache[keyMap[k]] = { price: v.price, change: v.change || 0, changePct: v.changePct || 0, time: Date.now() };
+      const json = await resp.json();
+      if (json.data) {
+        const keyMap = { nasdaq: 'nasdaq', hs300: 'hs300', sh: 'sh', hsi: 'hsi' };
+        for (const [k, v] of Object.entries(json.data)) {
+          if (keyMap[k] && v.price) {
+            this.cache[keyMap[k]] = { price: v.price, change: v.change || 0, changePct: v.changePct || 0, time: Date.now() };
+          }
         }
+        this.lastFetch = Date.now();
+        this.saveCache();
       }
-      this.lastFetch = Date.now();
-      this.saveCache();
     } catch (e) {
-      console.warn('Index fetch:', e.message);
+      console.warn('Market fetch:', e.message);
     }
     this.updateUI();
   },
 
-  async fetchStocks() {
-    const list = Storage.getArray(CONFIG.storageKeys.watchlist);
-    if (list.length === 0) return;
-
-    const codes = list.map(item => {
-      const sym = item.symbol.toUpperCase();
-      if (item.market === 'cn') {
-        if (sym.startsWith('6')) return 's_sh' + sym.replace(/\.(SH|SZ)/i, '');
-        return 's_sz' + sym.replace(/\.(SH|SZ)/i, '');
-      } else if (item.market === 'hk') {
-        return 'rt_hk' + sym.replace('.HK', '').padStart(4, '0');
-      } else {
-        return 'gb_' + sym.toLowerCase().replace(/[^a-z]/g, '');
-      }
-    });
-
-    try {
-      const resp = await fetch('/api/stock?codes=' + encodeURIComponent(codes.join(',')));
-      if (!resp.ok) throw new Error('Stock proxy error');
-      const data = await resp.json();
-      this.stockCache = data;
-      this.stockLastFetch = Date.now();
-    } catch (e) {
-      console.warn('Stock fetch:', e.message);
-    }
-    this.updateWatchlistPrices();
-  },
-
-  updateWatchlistPrices() {
-    const list = Storage.getArray(CONFIG.storageKeys.watchlist);
-    const items = document.querySelectorAll('.watchlist-item');
-    if (items.length === 0) return;
-
-    items.forEach((item, idx) => {
-      const wl = list[idx];
-      if (!wl) return;
-      const sym = wl.symbol.toUpperCase();
-      const cleanSym = sym.replace(/\.(SH|SZ|HK)/i, '').replace(/[^A-Z0-9]/g, '');
-      let data = this.stockCache[cleanSym] || this.stockCache[sym];
-      if (!data) {
-        for (const [k, v] of Object.entries(this.stockCache)) {
-          if (k === cleanSym || cleanSym.includes(k) || k.includes(cleanSym)) { data = v; break; }
-        }
-      }
-
-      const oldPrice = item.querySelector('.wl-price');
-      if (oldPrice) oldPrice.remove();
-
-      if (data && data.price) {
-        const span = document.createElement('span');
-        span.className = 'wl-price ' + (data.change >= 0 ? 'up' : 'down');
-        span.textContent = data.price.toFixed(2);
-        const right = item.querySelector('.wl-right');
-        if (right) right.prepend(span);
-      }
-    });
-  },
+  // 个股不再通过API，保留占位
+  fetchWatchlistStocks() {},
+  updateWatchlistPrices() {},
 
   formatPrice(val) {
     if (val == null) return '--';
