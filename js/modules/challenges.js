@@ -66,8 +66,9 @@ const Challenges = {
       return;
     }
 
-    const colors = ['#FF6B6B','#FF8E53','#FFD93D','#6BCB77','#4D96FF','#9B59B6',
-                    '#FF6B8A','#FFA07A','#FFE066','#69DB7C','#74C0FC','#DA77F2'];
+    // 莫兰迪色系
+    const colors = ['#8B9D83','#7B9EA8','#C4826C','#D4B896','#9B8E83','#8A9B8F',
+                    '#A4B0A0','#B8956E','#6B8F9B','#C8A882','#95A8A0','#BFB5AB'];
 
     let html = '';
     list.forEach((item, idx) => {
