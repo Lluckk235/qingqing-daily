@@ -42,12 +42,22 @@ const App = {
         this.navigateTo(panel);
       });
     });
+    // 移动端底部导航
+    document.querySelectorAll('.mobile-nav a').forEach(a => {
+      a.addEventListener('click', () => {
+        const panel = a.dataset.panel;
+        this.navigateTo(panel);
+      });
+    });
   },
 
   navigateTo(panel, save = true) {
     // 更新导航高亮
     document.querySelectorAll('.nav-item').forEach(n => {
       n.classList.toggle('active', n.dataset.panel === panel);
+    });
+    document.querySelectorAll('.mobile-nav a').forEach(a => {
+      a.classList.toggle('active', a.dataset.panel === panel);
     });
 
     // 更新面板显示
