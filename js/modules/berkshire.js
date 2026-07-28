@@ -105,23 +105,26 @@ const Berkshire = {
       time: Date.now(),
     });
 
-    // 记录活动
     Dashboard.addActivity('research', `研究：${company} (${typeName})`);
 
-    // 构建 slash command
     const command = `/${researchType} ${company}`;
-
-    // 复制命令到剪贴板
     Helpers.copyToClipboard(command);
-
-    // 提示用户
     this.showResearchPrompt(company, typeName, command);
     this.renderHistory();
   },
 
   showResearchPrompt(company, typeName, command) {
-    // 使用 toast 通知
-    Helpers.showToast(`研究命令已就绪：${command}`, 'success', 4000);
+    // 弹窗提示
+    const overlay = document.getElementById('researchModalOverlay');
+    document.getElementById('researchCommand').textContent = command;
+    document.getElementById('researchCompanyName').textContent = company;
+    document.getElementById('researchTypeName').textContent = typeName;
+    overlay.classList.remove('hidden');
+
+    // 绑定关闭
+    const close = () => overlay.classList.add('hidden');
+    document.getElementById('btnCloseResearch').onclick = close;
+    overlay.onclick = (e) => { if (e.target === overlay) close(); };
   },
 
   // --- 可用 Skills ---

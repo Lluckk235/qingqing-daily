@@ -27,6 +27,14 @@
   font-weight: 600;
   color: var(--text);
   user-select: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background var(--transition);
+}
+
+.logo:hover {
+  background: var(--bg-warm);
 }
 
 .topbar-divider {
@@ -379,6 +387,29 @@
   .btn-lg { padding: 8px 14px; font-size: 0.82rem; }
   .modal { width: 95vw; }
   .form-row { flex-direction: column; }
+
+  /* 侧边栏弹出（logo点击） */
+  .sidebar.sidebar-open {
+    display: flex !important;
+    position: fixed;
+    left: 0;
+    top: 44px;
+    bottom: 0;
+    width: 220px;
+    z-index: 200;
+    flex-direction: column;
+    box-shadow: 2px 0 16px rgba(0,0,0,0.12);
+  }
+  .sidebar.sidebar-open .nav-item {
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.88rem;
+    text-align: left;
+    min-width: auto;
+    padding: 10px 14px;
+  }
+  .sidebar.sidebar-open .sidebar-footer { display: block; }
+  .sidebar.sidebar-open .sidebar-nav { flex-direction: column; padding: 8px; }
 }
 
 /* 隐藏旧的底部导航栏 */

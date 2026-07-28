@@ -31,6 +31,11 @@ const App = {
       Helpers.showToast('已刷新', 'info');
     });
 
+    // Logo 点击切换侧边栏（手机端）
+    document.getElementById('logoClick').addEventListener('click', () => {
+      document.getElementById('sidebar').classList.toggle('sidebar-open');
+    });
+
     // 显示初始面板
     this.navigateTo(this.currentPanel, false);
   },

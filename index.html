@@ -15,7 +15,7 @@
   <!-- 顶部导航栏 -->
   <header class="topbar" id="topbar">
     <div class="topbar-left">
-      <h1 class="logo">☀️ 卿卿日常</h1>
+      <h1 class="logo" id="logoClick">☀️ 卿卿日常</h1>
       <span class="topbar-divider"></span>
       <span class="date-display" id="dateDisplay"></span>
     </div>
@@ -215,6 +215,28 @@
           </div>
         </div>
       </section>
+
+      <!-- 研究命令弹窗 -->
+      <div class="modal-overlay hidden" id="researchModalOverlay">
+        <div class="modal">
+          <div class="modal-header">
+            <h3>📋 研究命令已就绪</h3>
+            <button class="btn-icon" id="btnCloseResearch">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body" style="text-align:center;">
+            <p style="margin-bottom:12px;">研究 <strong id="researchCompanyName">--</strong> · <span id="researchTypeName">--</span></p>
+            <div style="background:var(--bg-warm);padding:12px;border-radius:6px;font-family:var(--font-mono);font-size:0.9rem;margin-bottom:12px;" id="researchCommand">--</div>
+            <p style="font-size:0.8rem;color:var(--text-muted);">已复制到剪贴板，在 WorkBuddy 对话中粘贴即可</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn-primary" onclick="document.getElementById('researchModalOverlay').classList.add('hidden')">知道了</button>
+          </div>
+        </div>
+      </div>
 
       <!-- GEX 分析面板 -->
       <section class="panel" id="panel-gex">
