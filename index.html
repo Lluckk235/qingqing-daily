@@ -49,6 +49,10 @@
           <span class="nav-emoji">📊</span>
           <span>GEX 分析</span>
         </a>
+        <a class="nav-item" data-panel="challenges">
+          <span class="nav-emoji">🎯</span>
+          <span>Done List</span>
+        </a>
         <a class="nav-item" data-panel="notes">
           <span class="nav-emoji">📝</span>
           <span>每日复盘</span>
@@ -354,6 +358,29 @@
         </div>
       </section>
 
+      <!-- 30 Challenges 面板 -->
+      <section class="panel" id="panel-challenges">
+        <div class="panel-header">
+          <h2>30 Challenges</h2>
+          <p>每天完成一个小目标</p>
+        </div>
+        <div class="challenges-container">
+          <div class="card">
+            <div class="card-body">
+              <div class="challenge-form">
+                <input type="text" id="challengeInput" class="input-lg" placeholder="输入新目标..." maxlength="50">
+                <button class="btn-primary" id="btnAddChallenge">添加</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="challenges-grid" id="challengesGrid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- 笔记面板 -->
       <section class="panel" id="panel-notes">
         <div class="panel-header">
@@ -447,6 +474,7 @@
   <script src="js/modules/dashboard.js"></script>
   <script src="js/modules/berkshire.js"></script>
   <script src="js/modules/gex-analyzer.js"></script>
+  <script src="js/modules/challenges.js"></script>
   <script src="js/modules/notes.js"></script>
   <script src="js/app.js"></script>
 </body>

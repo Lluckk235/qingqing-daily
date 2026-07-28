@@ -832,6 +832,107 @@ textarea {
   animation: fadeIn 0.3s ease;
 }
 
+/* --- 30 Challenges --- */
+.challenge-form {
+  display: flex;
+  gap: 8px;
+}
+.challenge-form input {
+  flex: 1;
+}
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px 12px;
+  padding: 8px 0;
+}
+.challenge-dot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+}
+.challenge-dot-wrapper.empty {
+  opacity: 0.3;
+}
+.challenge-dot {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--dot-color, #ddd);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+.challenge-dot.done {
+  background: var(--dot-color, #6BCB77);
+  border-color: var(--dot-color, #6BCB77);
+}
+.challenge-dot.done .challenge-num {
+  color: #fff;
+}
+.challenge-dot:not(.done):hover {
+  background: color-mix(in srgb, var(--dot-color) 15%, transparent);
+  transform: scale(1.08);
+}
+.challenge-dot.empty-dot {
+  border-color: #e0e0e0;
+  cursor: default;
+}
+.challenge-num {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.challenge-label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.challenge-del {
+  position: absolute;
+  top: -6px;
+  right: 6px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background: #fff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.challenge-dot-wrapper:hover .challenge-del {
+  opacity: 1;
+}
+.challenge-del:hover {
+  color: var(--accent-negative);
+}
+
+@media (max-width: 480px) {
+  .challenges-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px 8px;
+  }
+  .challenge-dot {
+    width: 38px;
+    height: 38px;
+  }
+}
+
 /* --- 响应式补充 --- */
 @media (max-width: 768px) {
   .levels-grid {

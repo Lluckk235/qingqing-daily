@@ -8,7 +8,7 @@ const App = {
   init() {
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
-    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'notes'].includes(savedPanel)) {
+    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
@@ -18,6 +18,7 @@ const App = {
     Dashboard.init();
     Berkshire.init();
     GexAnalyzer.init();
+    Challenges.init();
     Notes.init();
 
     // 导航绑定
