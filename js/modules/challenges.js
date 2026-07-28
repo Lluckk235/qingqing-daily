@@ -12,11 +12,11 @@ const Challenges = {
   },
 
   getList() {
-    return Storage.getArray('challenges_list');
+    return Storage.getArray('challenges_v2');
   },
 
   saveList(list) {
-    Storage.set('challenges_list', list);
+    Storage.set('challenges_v2', list);
   },
 
   add() {
@@ -25,12 +25,13 @@ const Challenges = {
     if (!text) return;
 
     const list = this.getList();
-    if (list.length >= 30) {
-      Helpers.showToast('最多30个目标', 'error');
-      return;
-    }
-
-    list.push({ id: Helpers.uid(), text, done: false, time: Date.now() });
+    list.push({
+      id: Helpers.uid(),
+      text,
+      done: 0,       // 已打卡次数
+      total: 30,     // 总共30次
+      time: Date.now(),
+    });
     this.saveList(list);
     input.value = '';
     this.render();
@@ -39,7 +40,13 @@ const Challenges = {
   toggle(id) {
     const list = this.getList();
     const item = list.find(i => i.id === id);
-    if (item) item.done = !item.done;
+    if (item) {
+      if (item.done < item.total) {
+        item.done++;
+      } else {
+        item.done = 0; // 满了重置
+      }
+    }
     this.saveList(list);
     this.render();
   },
@@ -54,46 +61,54 @@ const Challenges = {
     const grid = document.getElementById('challengesGrid');
     const list = this.getList();
 
-    // 生成30个格子
-    let html = '';
-    const colors = ['#FF6B6B','#FF8E53','#FFD93D','#6BCB77','#4D96FF','#9B59B6',
-                    '#FF6B8A','#FFA07A','#FFE066','#69DB7C','#74C0FC','#DA77F2',
-                    '#F06595','#FF922B','#FCC419','#51CF66','#339AF0','#CC5DE8',
-                    '#E64980','#FD7E14','#FAB005','#40C057','#228BE6','#BE4BDB',
-                    '#D6336C','#E8590C','#F08C00','#2F9E44','#1C7ED6','#9C36B5'];
+    if (list.length === 0) {
+      grid.innerHTML = '<div class="empty-hint">添加一个目标，开始 30 天挑战</div>';
+      return;
+    }
 
-    for (let i = 0; i < 30; i++) {
-      const item = list[i];
-      const color = colors[i];
-      if (item) {
-        html += `<div class="challenge-dot-wrapper" title="${Dashboard.escapeHtml(item.text)}">
-          <div class="challenge-dot ${item.done ? 'done' : ''}" style="--dot-color:${color}" data-id="${item.id}">
-            <span class="challenge-num">${i+1}</span>
-          </div>
-          <span class="challenge-label">${Dashboard.escapeHtml(item.text.length > 6 ? item.text.slice(0,6)+'..' : item.text)}</span>
-          <span class="challenge-del" data-del="${item.id}">×</span>
-        </div>`;
-      } else {
-        html += `<div class="challenge-dot-wrapper empty">
-          <div class="challenge-dot empty-dot">
-            <span class="challenge-num">${i+1}</span>
-          </div>
+    const colors = ['#FF6B6B','#FF8E53','#FFD93D','#6BCB77','#4D96FF','#9B59B6',
+                    '#FF6B8A','#FFA07A','#FFE066','#69DB7C','#74C0FC','#DA77F2'];
+
+    let html = '';
+    list.forEach((item, idx) => {
+      const color = colors[idx % colors.length];
+      html += `<div class="challenge-module">
+        <div class="challenge-module-header">
+          <span class="challenge-module-title">${Dashboard.escapeHtml(item.text)}</span>
+          <span class="challenge-module-count">${item.done}/${item.total}</span>
+          <span class="challenge-module-del" data-del="${item.id}">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+          </span>
+        </div>
+        <div class="challenge-dots">`;
+
+      for (let i = 0; i < item.total; i++) {
+        const filled = i < item.done;
+        html += `<div class="challenge-dot ${filled ? 'done' : ''}" 
+          style="--dot-color:${color}" data-id="${item.id}" data-idx="${i}" title="第${i+1}天">
+          <span class="challenge-num">${i+1}</span>
         </div>`;
       }
-    }
+
+      html += `</div></div>`;
+    });
 
     grid.innerHTML = html;
 
-    // 点击切换完成状态
-    grid.querySelectorAll('.challenge-dot:not(.empty-dot)').forEach(dot => {
+    // 点击打卡
+    grid.querySelectorAll('.challenge-dot').forEach(dot => {
       dot.addEventListener('click', () => this.toggle(dot.dataset.id));
     });
 
-    // 删除
-    grid.querySelectorAll('.challenge-del').forEach(del => {
+    // 删除模块
+    grid.querySelectorAll('.challenge-module-del').forEach(del => {
       del.addEventListener('click', (e) => {
         e.stopPropagation();
-        this.remove(del.dataset.del);
+        if (confirm('删除这个挑战？')) {
+          this.remove(del.dataset.del);
+        }
       });
     });
   },
