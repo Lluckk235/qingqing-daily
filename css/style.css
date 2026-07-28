@@ -1,0 +1,114 @@
+/* ========================================
+   卿卿日常 · Notion 风格主题
+   ======================================== */
+
+/* --- CSS 变量 --- */
+:root {
+  /* Notion 风格配色 */
+  --bg: #FFFFFF;
+  --bg-warm: #F7F6F3;
+  --card: #FFFFFF;
+  --card-hover: #F7F6F3;
+  --text: #37352F;
+  --text-secondary: #6B6966;
+  --text-muted: #9B9A97;
+  --border: #E9E9E7;
+  --border-light: #F1F1EF;
+
+  /* 强调色 - 保持莫兰迪低饱和度 */
+  --accent-positive: #5A8F6C;
+  --accent-positive-bg: #EDF3EF;
+  --accent-negative: #C4826C;
+  --accent-negative-bg: #F9F0ED;
+  --accent-info: #6B8F9B;
+  --accent-info-bg: #EEF2F4;
+  --accent-highlight: #D4B896;
+  --accent-highlight-bg: #F9F4EE;
+
+  /* 侧边栏 */
+  --sidebar-bg: #FBFBFA;
+  --sidebar-text: #6B6966;
+  --sidebar-active: #37352F;
+  --sidebar-hover-bg: #F1F1EF;
+
+  /* 阴影 - Notion 风格几乎无阴影 */
+  --shadow-sm: 0 0 0 1px rgba(15, 15, 15, 0.05);
+  --shadow-md: 0 0 0 1px rgba(15, 15, 15, 0.08);
+  --shadow-lg: 0 0 0 1px rgba(15, 15, 15, 0.08), 0 2px 8px rgba(15, 15, 15, 0.06);
+
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+
+  /* 字体 */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --font-mono: "SF Mono", "Cascadia Code", "Consolas", "Monaco", monospace;
+
+  /* 过渡 */
+  --transition: 0.15s ease;
+  --transition-slow: 0.25s ease;
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* --- 排版 --- */
+h1 { font-size: 1.15rem; font-weight: 600; }
+h2 { font-size: 0.95rem; font-weight: 600; color: var(--text); }
+h3 { font-size: 0.9rem; font-weight: 600; }
+p  { color: var(--text-secondary); font-size: 0.85rem; }
+
+a { color: var(--accent-info); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* --- 滚动条 --- */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #DDD; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #CCC; }
+
+/* --- 通用动画 --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-4px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* --- 通用工具类 --- */
+.hidden { display: none !important; }
+.empty-hint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 2rem 1rem;
+}

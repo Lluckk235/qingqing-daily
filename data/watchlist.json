@@ -1,0 +1,7 @@
+[
+  { "symbol": "AAPL", "name": "苹果", "market": "us" },
+  { "symbol": "NVDA", "name": "英伟达", "market": "us" },
+  { "symbol": "SPY", "name": "标普500 ETF", "market": "us" },
+  { "symbol": "QQQ", "name": "纳斯达克100 ETF", "market": "us" },
+  { "symbol": "600519.SH", "name": "贵州茅台", "market": "cn" }
+]

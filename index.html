@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☀️ 卿卿日常</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="topbar" id="topbar">
+    <div class="topbar-left">
+      <h1 class="logo">☀️ 卿卿日常</h1>
+      <span class="topbar-divider"></span>
+      <span class="date-display" id="dateDisplay"></span>
+    </div>
+    <div class="topbar-center">
+      <div class="market-indicators" id="marketIndicators">
+        <span class="market-dot loading" id="usMarketDot"></span>
+        <span class="market-label">美股 <span id="usMarketStatus">加载中</span></span>
+        <span class="market-dot loading" id="cnMarketDot"></span>
+        <span class="market-label">A股 <span id="cnMarketStatus">加载中</span></span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <button class="btn-icon" id="btnRefresh" title="刷新" style="font-size:1.1rem;">🔄</button>
+    </div>
+  </header>
+
+  <!-- 主体布局 -->
+  <div class="main-container">
+    <!-- 左侧导航 -->
+    <aside class="sidebar" id="sidebar">
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-panel="dashboard">
+          <span class="nav-emoji">🏠</span>
+          <span>首页</span>
+        </a>
+        <a class="nav-item" data-panel="berkshire">
+          <span class="nav-emoji">🔬</span>
+          <span>公司研究</span>
+        </a>
+        <a class="nav-item" data-panel="gex">
+          <span class="nav-emoji">📊</span>
+          <span>GEX 分析</span>
+        </a>
+        <a class="nav-item" data-panel="notes">
+          <span class="nav-emoji">📝</span>
+          <span>每日复盘</span>
+        </a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="sidebar-quote" id="sidebarQuote"></div>
+      </div>
+    </aside>
+
+    <!-- 中央主面板 -->
+    <main class="content" id="mainContent">
+      <!-- Dashboard 面板 -->
+      <section class="panel active" id="panel-dashboard">
+        <!-- 快捷入口卡片 -->
+        <div class="quick-actions">
+          <div class="action-card" data-goto="berkshire">
+            <div class="action-icon sage">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <div class="action-text">
+              <h3>公司深度研究</h3>
+              <p>AI Berkshire · 四大师视角分析</p>
+            </div>
+          </div>
+          <div class="action-card" data-goto="gex">
+            <div class="action-icon rose">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+            </div>
+            <div class="action-text">
+              <h3>GEX 期权分析</h3>
+              <p>SPY / QQQ · 0DTE & 1DTE</p>
+            </div>
+          </div>
+          <div class="action-card" data-goto="notes">
+            <div class="action-icon blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+              </svg>
+            </div>
+            <div class="action-text">
+              <h3>每日复盘</h3>
+              <p>交易记录 · 投资思考 · 待办事项</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 两栏布局 -->
+        <div class="dashboard-grid">
+          <!-- 今日关注 -->
+          <div class="card watchlist-card">
+            <div class="card-header">
+              <h2>今日关注</h2>
+              <button class="btn-sm" id="btnAddWatch">+ 添加</button>
+            </div>
+            <div class="card-body" id="watchlistContainer">
+              <div class="empty-hint">点击 "+ 添加" 添加关注的公司</div>
+            </div>
+          </div>
+
+          <!-- 市场概览 -->
+          <div class="card market-card">
+            <div class="card-header">
+              <h2>市场概览</h2>
+              <span class="badge" id="marketTimeBadge">--</span>
+            </div>
+            <div class="card-body">
+              <div class="market-grid">
+                <div class="market-item">
+                  <span class="market-name">上证指数</span>
+                  <span class="market-value" id="shValue">--</span>
+                  <span class="market-change" id="shChange">--</span>
+                </div>
+                <div class="market-item">
+                  <span class="market-name">沪深300</span>
+                  <span class="market-value" id="hs300Value">--</span>
+                  <span class="market-change" id="hs300Change">--</span>
+                </div>
+                <div class="market-item">
+                  <span class="market-name">恒生指数</span>
+                  <span class="market-value" id="hsiValue">--</span>
+                  <span class="market-change" id="hsiChange">--</span>
+                </div>
+                <div class="market-item">
+                  <span class="market-name">NASDAQ</span>
+                  <span class="market-value" id="nasdaqValue">--</span>
+                  <span class="market-change" id="nasdaqChange">--</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- 公司研究面板 -->
+      <section class="panel" id="panel-berkshire">
+        <div class="panel-header">
+          <h2>公司深度研究</h2>
+          <p>AI Berkshire · 巴菲特/芒格/段永平/李录 四大师视角</p>
+        </div>
+        <div class="berkshire-container">
+          <!-- 研究表单 -->
+          <div class="card research-form-card">
+            <div class="card-body">
+              <div class="research-form">
+                <div class="form-row">
+                  <div class="form-group" style="flex:2">
+                    <label>公司名称 / 代码</label>
+                    <input type="text" id="companyInput" placeholder="例如：腾讯、AAPL、茅台..." class="input-lg">
+                    <div class="search-hints" id="searchHints"></div>
+                  </div>
+                  <div class="form-group" style="flex:1">
+                    <label>研究类型</label>
+                    <select id="researchType" class="input-lg">
+                      <option value="investment-research">深度研究（推荐）</option>
+                      <option value="investment-team">多Agent并行研究</option>
+                      <option value="earnings-review">财报精读</option>
+                      <option value="industry-research">行业研究</option>
+                      <option value="quality-screen">质量筛选</option>
+                      <option value="investment-checklist">投资清单检查</option>
+                      <option value="portfolio-review">组合回顾</option>
+                      <option value="news-pulse">异动归因</option>
+                    </select>
+                  </div>
+                  <div class="form-group" style="flex:0 0 auto;align-self:flex-end">
+                    <button class="btn-primary btn-lg" id="btnStartResearch">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                      </svg>
+                      开始研究
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 可用的 Skills 一览 -->
+          <div class="card">
+            <div class="card-header">
+              <h2>可用研究技能</h2>
+            </div>
+            <div class="card-body">
+              <div class="skills-grid" id="skillsGrid"></div>
+            </div>
+          </div>
+
+          <!-- 研究历史 -->
+          <div class="card">
+            <div class="card-header">
+              <h2>研究历史</h2>
+              <button class="btn-sm btn-text" id="btnClearHistory">清空</button>
+            </div>
+            <div class="card-body" id="researchHistory">
+              <div class="empty-hint">还没有研究记录，输入公司名称开始第一次研究</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GEX 分析面板 -->
+      <section class="panel" id="panel-gex">
+        <div class="panel-header">
+          <h2>GEX 期权分析</h2>
+          <p>上传 SPY 或 QQQ 期权分析截图，自动识别 GEX 关键数据</p>
+        </div>
+        <div class="gex-container">
+          <div class="gex-tabs">
+            <button class="gex-tab active" data-symbol="SPY">SPY</button>
+            <button class="gex-tab" data-symbol="QQQ">QQQ</button>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="17 8 12 3 7 8"/>
+                    <line x1="12" y1="3" x2="12" y2="15"/>
+                  </svg>
+                </div>
+                <p class="upload-text">拖拽或点击上传 SPY 期权分析截图</p>
+                <p class="upload-hint">支持 PNG / JPG / WebP，建议 GEX 分析图</p>
+                <input type="file" id="fileInput" accept="image/*" hidden>
+                <button class="btn-secondary" id="btnUpload">选择图片</button>
+              </div>
+              <div class="upload-preview hidden" id="uploadPreview">
+                <img id="previewImage" src="" alt="预览">
+                <div class="preview-actions">
+                  <button class="btn-primary" id="btnAnalyze">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                    开始分析
+                  </button>
+                  <button class="btn-text" id="btnCancelUpload">重新上传</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="analysis-result hidden" id="analysisResult">
+            <div class="card">
+              <div class="card-header">
+                <h2 id="analysisTitle">分析结果</h2>
+                <span class="badge" id="analysisBadge">SPY</span>
+              </div>
+              <div class="card-body">
+                <div class="gex-data-grid">
+                  <div class="gex-data-item">
+                    <span class="data-label">Gamma 敞口 (GEX)</span>
+                    <span class="data-value" id="gexGamma">--</span>
+                  </div>
+                  <div class="gex-data-item">
+                    <span class="data-label">成交量分布</span>
+                    <span class="data-value" id="gexVolume">--</span>
+                  </div>
+                  <div class="gex-data-item">
+                    <span class="data-label">Put/Call 比率</span>
+                    <span class="data-value" id="gexPutCall">--</span>
+                  </div>
+                  <div class="gex-data-item">
+                    <span class="data-label">IV / HV</span>
+                    <span class="data-value" id="gexIVHV">--</span>
+                  </div>
+                  <div class="gex-data-item full-width">
+                    <span class="data-label">关键行权价</span>
+                    <span class="data-value" id="gexStrikes">--</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header"><h2>短期关注 · 0DTE & 1DTE</h2></div>
+              <div class="card-body">
+                <div class="dte-grid" id="dteAnalysis"></div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header"><h2>关键价位</h2></div>
+              <div class="card-body">
+                <div class="levels-grid" id="levelsGrid"></div>
+              </div>
+            </div>
+
+            <div class="card conclusion-card">
+              <div class="card-header"><h2>盘前结论</h2></div>
+              <div class="card-body">
+                <div class="market-bias" id="marketBias"></div>
+                <p class="conclusion-text" id="conclusionText"></p>
+              </div>
+            </div>
+
+            <div class="card action-plan-card">
+              <div class="card-header"><h2>执行方案</h2></div>
+              <div class="card-body">
+                <div class="action-plan" id="actionPlan"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h2>分析历史</h2>
+              <button class="btn-sm btn-text" id="btnClearGexHistory">清空</button>
+            </div>
+            <div class="card-body" id="gexHistory">
+              <div class="empty-hint">还没有分析记录</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 笔记面板 -->
+      <section class="panel" id="panel-notes">
+        <div class="panel-header">
+          <h2>每日复盘</h2>
+          <p>交易记录 · 投资思考 · 待办事项</p>
+        </div>
+        <div class="notes-container">
+          <div class="card">
+            <div class="card-body">
+              <div class="note-editor">
+                <input type="text" id="noteTitle" class="input-lg" placeholder="笔记标题...">
+                <textarea id="noteContent" class="input-lg" placeholder="写下你的想法..." rows="4"></textarea>
+                <div class="note-actions">
+                  <select id="noteCategory" class="input-sm">
+                    <option value="thought">投资思考</option>
+                    <option value="trade">交易记录</option>
+                    <option value="todo">待办事项</option>
+                    <option value="research">研究笔记</option>
+                  </select>
+                  <button class="btn-primary" id="btnSaveNote">保存笔记</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h2>笔记列表</h2>
+              <button class="btn-sm btn-text" id="btnClearNotes">清空</button>
+            </div>
+            <div class="card-body" id="notesList">
+              <div class="empty-hint">还没有笔记</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Toast 通知 -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- 添加关注 Modal -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>添加关注</h3>
+        <button class="btn-icon" id="btnCloseModal">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>公司代码</label>
+          <input type="text" id="watchSymbol" class="input-lg" placeholder="如 AAPL, 700.HK, 600519.SH">
+        </div>
+        <div class="form-group">
+          <label>名称（可选）</label>
+          <input type="text" id="watchName" class="input-lg" placeholder="如 苹果">
+        </div>
+        <div class="form-group">
+          <label>市场</label>
+          <select id="watchMarket" class="input-lg">
+            <option value="us">美股</option>
+            <option value="cn">A股</option>
+            <option value="hk">港股</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-text" id="btnCancelModal">取消</button>
+        <button class="btn-primary" id="btnConfirmAdd">确认添加</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils/storage.js"></script>
+  <script src="js/utils/helpers.js"></script>
+  <script src="js/modules/market-status.js"></script>
+  <script src="js/modules/market-data.js"></script>
+  <script src="js/modules/dashboard.js"></script>
+  <script src="js/modules/berkshire.js"></script>
+  <script src="js/modules/gex-analyzer.js"></script>
+  <script src="js/modules/notes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
