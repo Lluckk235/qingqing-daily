@@ -37,15 +37,18 @@ const Challenges = {
     this.render();
   },
 
-  toggle(id) {
+  toggle(id, idx) {
     const list = this.getList();
     const item = list.find(i => i.id === id);
-    if (item) {
-      if (item.done < item.total) {
-        item.done++;
-        if (item.done >= item.total) {
-          Helpers.showToast(`🎉「${item.text}」挑战成功！30天完成！`, 'success', 4000);
-        }
+    if (!item) return;
+    const targetDay = parseInt(idx) + 1;
+
+    if (item.done >= targetDay) {
+      item.done = targetDay - 1;
+    } else if (item.done === targetDay - 1) {
+      item.done = targetDay;
+      if (item.done >= item.total) {
+        Helpers.showToast(`🎉「${item.text}」挑战成功！30天完成！`, 'success', 4000);
       }
     }
     this.saveList(list);
@@ -101,7 +104,7 @@ const Challenges = {
 
     // 点击打卡
     grid.querySelectorAll('.challenge-dot').forEach(dot => {
-      dot.addEventListener('click', () => this.toggle(dot.dataset.id));
+      dot.addEventListener('click', () => this.toggle(dot.dataset.id, dot.dataset.idx));
     });
 
     // 删除模块
