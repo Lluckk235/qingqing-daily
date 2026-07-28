@@ -43,8 +43,9 @@ const Challenges = {
     if (item) {
       if (item.done < item.total) {
         item.done++;
-      } else {
-        item.done = 0; // 满了重置
+        if (item.done >= item.total) {
+          Helpers.showToast(`🎉「${item.text}」挑战成功！30天完成！`, 'success', 4000);
+        }
       }
     }
     this.saveList(list);
