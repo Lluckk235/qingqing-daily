@@ -311,8 +311,61 @@
 }
 
 @media (max-width: 480px) {
-  .sidebar { display: none; }
-  .content { padding: 14px 10px; max-width: 100%; padding-bottom: 70px; }
+  .main-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    z-index: 100;
+    background: #fff;
+    border-top: 1px solid var(--border);
+    padding: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .sidebar-nav {
+    flex-direction: row;
+    padding: 0;
+    flex: 1;
+    justify-content: space-around;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-item {
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 10px;
+    min-height: auto;
+    min-width: 56px;
+    font-size: 0.68rem;
+    margin: 0;
+    border-radius: 0;
+    text-align: center;
+  }
+  .nav-emoji {
+    font-size: 1.2rem;
+    width: auto;
+  }
+  .sidebar-footer { display: none; }
+
+  .content {
+    padding: 14px 12px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    max-width: 100%;
+  }
+
+  .topbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
   .quick-actions { gap: 8px; }
   .action-card { padding: 14px; }
   .action-icon { width: 36px; height: 36px; }
@@ -325,44 +378,10 @@
   .market-value { font-size: 0.9rem; }
   .btn-lg { padding: 8px 14px; font-size: 0.82rem; }
   .modal { width: 95vw; }
-  .topbar { position: fixed; width: 100%; }
+  .form-row { flex-direction: column; }
 }
 
-/* 移动端底部导航栏 */
+/* 隐藏旧的底部导航栏 */
 .mobile-nav {
-  display: none;
-}
-
-@media (max-width: 480px) {
-  .mobile-nav {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #fff;
-    border-top: 1px solid var(--border);
-    padding: 6px 8px;
-    padding-bottom: max(6px, env(safe-area-inset-bottom));
-    z-index: 100;
-    justify-content: space-around;
-  }
-  .mobile-nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    text-decoration: none;
-    color: var(--text-secondary);
-    font-size: 0.65rem;
-    padding: 4px 8px;
-    border-radius: 6px;
-  }
-  .mobile-nav a.active {
-    color: var(--text);
-    font-weight: 600;
-  }
-  .mobile-nav .m-emoji {
-    font-size: 1.2rem;
-  }
+  display: none !important;
 }
