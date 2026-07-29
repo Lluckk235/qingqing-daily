@@ -355,6 +355,9 @@
     border-radius: 0;
     text-align: center;
   }
+  .nav-item span {
+    display: block;
+  }
   .nav-emoji {
     font-size: 1.2rem;
     width: auto;
@@ -407,6 +410,9 @@
     text-align: left;
     min-width: auto;
     padding: 10px 14px;
+  }
+  .sidebar.sidebar-open .nav-item span {
+    display: inline;
   }
   .sidebar.sidebar-open .sidebar-footer { display: block; }
   .sidebar.sidebar-open .sidebar-nav { flex-direction: column; padding: 8px; }
