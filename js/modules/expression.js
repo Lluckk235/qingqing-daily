@@ -15,7 +15,7 @@ const Expression = {
     {
       name: '红苹果',
       emoji: '🍎',
-      imageSeed: 'red-apple-fruit',
+      bgGradient: 'linear-gradient(135deg, #f3e1d5 0%, #e8c9b0 30%, #d4a08a 60%, #c4826c 100%)',
       description: `今天我们来描述这个红苹果。
 
 看它的颜色——不是单调的红，而是从深红到浅绯的渐变，像傍晚天边那一抹晚霞被揉进了果皮里。表面光滑，带着微微的蜡质感，灯光打上去，有一个柔和的高光点。
@@ -33,7 +33,7 @@ const Expression = {
     {
       name: '燃烧的蜡烛',
       emoji: '🕯️',
-      imageSeed: 'burning-candle-flame',
+      bgGradient: 'linear-gradient(135deg, #f5efe6 0%, #ebe0d0 30%, #d4c4a8 60%, #c4a97d 100%)',
       description: `让我们来聊聊这支蜡烛。
 
 白色的蜡柱，安静地立在铜制烛台上。火焰不大，却稳定——外层是几乎透明的蓝，中间是明亮的金黄，最里面是一小簇幽蓝的芯。它轻轻摇曳，像在跳一支没有音乐的舞。
@@ -53,7 +53,7 @@ const Expression = {
     {
       name: '咖啡杯',
       emoji: '☕',
-      imageSeed: 'coffee-cup-ceramic',
+      bgGradient: 'linear-gradient(135deg, #ede8e0 0%, #ddd5c8 30%, #c4b8a7 60%, #a89880 100%)',
       description: `一个白色的陶瓷咖啡杯，静静地冒着热气。
 
 杯壁很厚，捧在掌心，热度透过陶瓷缓缓渗透进皮肤——不是烫，是刚刚好的温暖。杯口有一圈手绘的深蓝色条纹，不完美，有轻微的粗细变化，正是手工上釉的痕迹。
@@ -71,7 +71,7 @@ const Expression = {
     {
       name: '旧书',
       emoji: '📖',
-      imageSeed: 'old-vintage-book',
+      bgGradient: 'linear-gradient(135deg, #e8d5c4 0%, #d4b896 30%, #c4a382 60%, #a07850 100%)',
       description: `这是一本旧书，拿在手里沉甸甸的。
 
 封面是暗红色的布面装帧，边角已经磨得发白，露出下面的纸板。书名是烫金的，大半已经褪色，只剩下若隐若现的压痕。翻开书页，纸张泛着均匀的黄褐色——不是霉斑，而是岁月均匀涂抹的颜色。
@@ -89,7 +89,7 @@ const Expression = {
     {
       name: '绿植盆栽',
       emoji: '🌿',
-      imageSeed: 'green-plant-pot',
+      bgGradient: 'linear-gradient(135deg, #dce8d5 0%, #c5d8b5 30%, #a8c49a 60%, #8b9d83 100%)',
       description: `这盆绿植放在窗台上，阳光正好穿过它。
 
 叶子是心形的，每一片都有手掌那么大。叶脉清晰，从中间的主脉向两侧对称延伸，像一片微缩的绿色地图。新长出来的嫩叶是半透明的浅绿，老叶则是浓郁的墨绿，一层一层叠在一起，有了深浅的层次。
@@ -107,7 +107,7 @@ const Expression = {
     {
       name: '镜子',
       emoji: '🪞',
-      imageSeed: 'vintage-mirror-reflection',
+      bgGradient: 'linear-gradient(135deg, #e8eef0 0%, #d0dce2 30%, #b8c8d4 60%, #7b9ea8 100%)',
       description: `这是一面圆形的梳妆镜，镶在黄铜色的边框里。
 
 镜面擦得很干净，几乎没有一丝指纹。你看向它的时候，它诚实地回望你——你的眼睛、你的表情、你微微歪头的角度，全被它原封不动地还回来。镜子不说话，但它从不撒谎。
@@ -125,7 +125,7 @@ const Expression = {
     {
       name: '老钥匙',
       emoji: '🔑',
-      imageSeed: 'old-vintage-key',
+      bgGradient: 'linear-gradient(135deg, #f0e8d8 0%, #e0d0b0 30%, #c8b080 60%, #b8956e 100%)',
       description: `一把黄铜钥匙，躺在手心，凉凉的，沉沉的。
 
 匙柄是一个精致的镂空花纹——可能是藤蔓，也可能是字母，岁月的磨损让它变得模糊不清。匙杆上有一道道细密的齿，每一道齿都曾经严丝合缝地对准锁芯里的弹子。
@@ -143,7 +143,7 @@ const Expression = {
     {
       name: '雨伞',
       emoji: '☂️',
-      imageSeed: 'colorful-umbrella-rain',
+      bgGradient: 'linear-gradient(135deg, #d5dce8 0%, #c0cde0 30%, #8ba0c0 60%, #6b8f9b 100%)',
       description: `一把长柄雨伞，靠在门边，伞面上还挂着没干的水珠。
 
 它是深蓝色的，像暴风雨前的天空。伞布绷得很紧，手指弹上去有"嘭嘭"的闷响。伞骨是黑色的金属，八根骨架均匀分布，撑开的时候像一朵绽放的蓝色花朵。
@@ -163,7 +163,7 @@ const Expression = {
     {
       name: '毛线球',
       emoji: '🧶',
-      imageSeed: 'yarn-ball-wool',
+      bgGradient: 'linear-gradient(135deg, #f5f0e8 0%, #ede0d0 30%, #dcc8b0 60%, #bfb5ab 100%)',
       description: `一个毛线球，松松地蜷在竹篮里。
 
 线是燕麦色的——不是纯白，是带一点暖调的米色，像早晨第一杯奶茶的颜色。毛线表面有细密的绒毛，在光线下能看到一层柔和的晕圈。
@@ -181,7 +181,7 @@ const Expression = {
     {
       name: '沙漏',
       emoji: '⏳',
-      imageSeed: 'hourglass-sand-timer',
+      bgGradient: 'linear-gradient(135deg, #f0ebe0 0%, #e8dcc8 30%, #d4c4a0 60%, #c8a882 100%)',
       description: `一个玻璃沙漏，立在桌面上，沙子正在流动。
 
 上下两个对称的玻璃球，中间是一道细细的瓶颈。上方的沙子堆成一个小山丘，沙粒一颗一颗地从瓶颈挤过去，落到底部，堆成另一个小山丘。上方的在减少，下方的在增多——时间被沙子翻译成了一场缓慢的迁徙。
@@ -199,7 +199,7 @@ const Expression = {
     {
       name: '肥皂泡',
       emoji: '🫧',
-      imageSeed: 'soap-bubbles-rainbow',
+      bgGradient: 'linear-gradient(135deg, #e8e8f0 0%, #d8d8f0 30%, #c0c8e8 60%, #a0a8d8 100%)',
       description: `一串肥皂泡从塑料环上飞出来，飘向天空。
 
 最大的那个有乒乓球大小。它的表面不是透明的——是流动的彩虹。粉紫、翠绿、钴蓝，在薄膜上不停旋转、变换，像一层极薄的液态宝石。这是因为光线在肥皂膜的两层表面之间来回反射，产生了干涉。
@@ -219,7 +219,7 @@ const Expression = {
     {
       name: '河边的石头',
       emoji: '🪨',
-      imageSeed: 'smooth-river-stone',
+      bgGradient: 'linear-gradient(135deg, #e0e4e8 0%, #d0d8e0 30%, #b8c4d0 60%, #9b8e83 100%)',
       description: `一块鹅卵石，灰蓝色的，安静地躺在掌心。
 
 它的表面光滑得不可思议——不是人工打磨的那种光滑，而是被水流冲刷了千万次之后，大自然用手一点一点磨出来的。摸上去凉丝丝的，像刚从冰箱里取出来。
@@ -239,7 +239,7 @@ const Expression = {
     {
       name: '丝带',
       emoji: '🎀',
-      imageSeed: 'silk-ribbon-colorful',
+      bgGradient: 'linear-gradient(135deg, #e8e0d8 0%, #d8ccc0 30%, #c0b0a0 60%, #8a9b8f 100%)',
       description: `一条墨绿色的丝带，搭在手指上，像一片温柔的瀑布。
 
 它是真丝的——对着光看，有珍珠一样柔和的光泽。丝带表面光滑得几乎没有摩擦力，从指间滑过的时候，你能感觉到那种"抓不住"的柔顺感。轻轻一抖，它就在空气中荡漾开来，像水波一样起伏。
@@ -259,7 +259,7 @@ const Expression = {
     {
       name: '落叶',
       emoji: '🍂',
-      imageSeed: 'autumn-fallen-leaf',
+      bgGradient: 'linear-gradient(135deg, #f0d8c0 0%, #e8c8a0 30%, #d4a878 60%, #c4826c 100%)',
       description: `一片枫叶，落在人行道上，颜色像一团燃烧的火焰。
 
 从叶柄到叶尖，颜色在渐变——根部是残留的绿，中间是饱满的黄，边缘是浓烈的红。一片叶子上，浓缩了整个秋天的色谱。叶脉从中间向五个叶尖放射，像一张精密的微型交通网络。
@@ -279,7 +279,7 @@ const Expression = {
     {
       name: '月亮',
       emoji: '🌙',
-      imageSeed: 'full-moon-night-sky',
+      bgGradient: 'linear-gradient(135deg, #d8dce8 0%, #c0c8e0 30%, #8898c0 60%, #6b7b9b 100%)',
       description: `抬头看，今晚的月亮很圆，挂在深蓝色的天幕上。
 
 它不是惨白的，是温润的象牙白，边缘有一圈极淡的光晕——那是月光穿过大气层时被散射形成的。月亮表面有一些暗色的斑块，那是月海，是远古火山喷发后留下的玄武岩平原。
@@ -347,10 +347,10 @@ const Expression = {
   render() {
     if (!this.current) return;
 
-    // 图片（使用 Picsum 随机图）
-    const imgUrl = `https://picsum.photos/seed/${this.current.imageSeed}/600/400`;
-    document.getElementById('expressionImage').src = imgUrl;
-    document.getElementById('expressionImage').alt = this.current.name;
+    // Emoji 展示区（用渐变背景 + 大号 emoji 代替不相关的随机图片）
+    const wrap = document.getElementById('expressionImageWrap');
+    wrap.style.background = this.current.bgGradient;
+    document.getElementById('expressionEmoji').textContent = this.current.emoji;
 
     // 物品名称
     document.getElementById('expressionName').textContent =
