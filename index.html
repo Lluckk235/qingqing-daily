@@ -57,6 +57,10 @@
           <span class="nav-emoji">📝</span>
           <span>每日复盘</span>
         </a>
+        <a class="nav-item" data-panel="expression">
+          <span class="nav-emoji">💬</span>
+          <span>表达训练</span>
+        </a>
       </nav>
       <div class="sidebar-footer">
         <div class="sidebar-quote" id="sidebarQuote"></div>
@@ -416,6 +420,42 @@
           </div>
         </div>
       </section>
+
+      <!-- 表达训练 Panel -->
+      <section class="panel" id="panel-expression">
+        <div class="panel-header">
+          <h2>表达训练</h2>
+          <p>借物表达 · 每天一分钟 · 提升镜头感</p>
+        </div>
+        <div class="expression-container">
+          <div class="expression-card">
+            <div class="expression-image-wrap">
+              <img id="expressionImage" src="" alt="" class="expression-image">
+            </div>
+            <div class="expression-body">
+              <div class="expression-header">
+                <h3 id="expressionName"></h3>
+                <span id="expressionTodayBadge" class="expression-today-badge">📋 今日待练习</span>
+              </div>
+              <div class="expression-section">
+                <div class="expression-section-header">
+                  <h4>📖 一分钟描述词</h4>
+                  <button class="btn-sm btn-text" id="btnCopyDescription">📋 复制</button>
+                </div>
+                <div class="expression-description" id="expressionDescription"></div>
+              </div>
+              <div class="expression-section">
+                <h4>🎯 表达方法拆解</h4>
+                <div class="expression-techniques" id="expressionTechniques"></div>
+              </div>
+              <div class="expression-actions">
+                <button class="btn-primary" id="btnExpressionDone">✅ 标记已练习</button>
+                <button class="btn-secondary" id="btnExpressionRefresh">🔄 换一个</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
@@ -476,6 +516,7 @@
   <script src="js/modules/gex-analyzer.js"></script>
   <script src="js/modules/challenges.js"></script>
   <script src="js/modules/notes.js"></script>
+  <script src="js/modules/expression.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

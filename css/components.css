@@ -947,3 +947,166 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- 表达训练 --- */
+.expression-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.expression-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  overflow: hidden;
+}
+.expression-image-wrap {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.expression-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.expression-body {
+  padding: 20px 24px;
+}
+.expression-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.expression-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.expression-today-badge {
+  font-size: 0.78rem;
+  padding: 4px 12px;
+  border-radius: 100px;
+  background: var(--bg);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+.expression-today-badge.done {
+  background: var(--accent-positive-bg);
+  color: var(--accent-positive);
+}
+.expression-section {
+  margin-bottom: 20px;
+}
+.expression-section h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 10px 0;
+}
+.expression-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.expression-section-header h4 {
+  margin: 0;
+}
+.expression-description {
+  background: var(--bg);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: var(--text);
+  white-space: pre-line;
+  max-height: 420px;
+  overflow-y: auto;
+}
+.expression-techniques {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.expression-technique {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  background: var(--bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+.expression-technique-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent-info);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.expression-technique-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.expression-technique-body strong {
+  font-size: 0.82rem;
+  color: var(--text);
+}
+.expression-technique-body span {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.expression-actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+  flex-wrap: wrap;
+}
+.expression-actions .btn-primary.done {
+  background: var(--accent-positive);
+  border-color: var(--accent-positive);
+  opacity: 0.8;
+  cursor: default;
+}
+
+@media (max-width: 480px) {
+  .expression-body {
+    padding: 16px;
+  }
+  .expression-description {
+    padding: 14px 16px;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    max-height: 320px;
+  }
+  .expression-header h3 {
+    font-size: 1.05rem;
+  }
+  .expression-technique {
+    padding: 10px 12px;
+  }
+  .expression-actions {
+    flex-direction: column;
+  }
+  .expression-actions .btn-primary,
+  .expression-actions .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
