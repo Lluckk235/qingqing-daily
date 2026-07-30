@@ -61,6 +61,10 @@
           <span class="nav-emoji">💬</span>
           <span>表达训练</span>
         </a>
+        <a class="nav-item" data-panel="ai-news">
+          <span class="nav-emoji">📡</span>
+          <span>AI资讯</span>
+        </a>
       </nav>
       <div class="sidebar-footer">
         <div class="sidebar-quote" id="sidebarQuote"></div>
@@ -111,17 +115,6 @@
 
         <!-- 两栏布局 -->
         <div class="dashboard-grid">
-          <!-- 今日关注 -->
-          <div class="card watchlist-card">
-            <div class="card-header">
-              <h2>今日关注</h2>
-              <button class="btn-sm" id="btnAddWatch">+ 添加</button>
-            </div>
-            <div class="card-body" id="watchlistContainer">
-              <div class="empty-hint">点击 "+ 添加" 添加关注的公司</div>
-            </div>
-          </div>
-
           <!-- 市场行情 -->
           <div class="card market-card">
             <div class="card-header">
@@ -457,55 +450,23 @@
           </div>
         </div>
       </section>
+
+      <!-- AI一周资讯 Panel -->
+      <section class="panel" id="panel-ai-news">
+        <div class="panel-header">
+          <h2>AI一周资讯</h2>
+          <p>每周五更新 · 大模型 · AI产品 · 投资融资 · 监管政策</p>
+        </div>
+        <div class="ai-news-container" id="aiNewsContainer">
+          <div class="empty-hint">加载中...</div>
+        </div>
+      </section>
     </main>
   </div>
 
   <!-- Toast 通知 -->
   <div class="toast-container" id="toastContainer"></div>
 
-  <!-- 添加关注 Modal -->
-  <div class="modal-overlay hidden" id="modalOverlay">
-    <div class="modal">
-      <div class="modal-header">
-        <h3>添加关注</h3>
-        <button class="btn-icon" id="btnCloseModal">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-          <label>公司代码</label>
-          <input type="text" id="watchSymbol" class="input-lg" placeholder="如 AAPL, 700.HK, 600519.SH">
-        </div>
-        <div class="form-group">
-          <label>名称（可选）</label>
-          <input type="text" id="watchName" class="input-lg" placeholder="如 苹果">
-        </div>
-        <div class="form-group">
-          <label>市场</label>
-          <select id="watchMarket" class="input-lg">
-            <option value="us">美股</option>
-            <option value="cn">A股</option>
-            <option value="hk">港股</option>
-          </select>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button class="btn-text" id="btnCancelModal">取消</button>
-        <button class="btn-primary" id="btnConfirmAdd">确认添加</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- 移动端底部导航栏 -->
-  <nav class="mobile-nav" id="mobileNav">
-    <a data-panel="dashboard" class="active"><span class="m-emoji">🏠</span>首页</a>
-    <a data-panel="berkshire"><span class="m-emoji">🔬</span>研究</a>
-    <a data-panel="gex"><span class="m-emoji">📊</span>GEX</a>
-    <a data-panel="notes"><span class="m-emoji">📝</span>复盘</a>
-  </nav>
 
   <script src="js/config.js"></script>
   <script src="js/utils/storage.js"></script>
@@ -518,6 +479,7 @@
   <script src="js/modules/challenges.js"></script>
   <script src="js/modules/notes.js"></script>
   <script src="js/modules/expression.js"></script>
+  <script src="js/modules/ai-news.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

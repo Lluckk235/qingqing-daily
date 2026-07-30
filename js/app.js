@@ -8,7 +8,7 @@ const App = {
   init() {
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
-    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression'].includes(savedPanel)) {
+    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression', 'ai-news'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
@@ -21,6 +21,7 @@ const App = {
     Challenges.init();
     Notes.init();
     Expression.init();
+    AiNews.init();
 
     // 导航绑定
     this.bindNavigation();
@@ -31,11 +32,6 @@ const App = {
       MarketData.fetchAll();
       Dashboard.showRandomQuote();
       Helpers.showToast('已刷新', 'info');
-    });
-
-    // Logo 点击切换侧边栏（手机端）
-    document.getElementById('logoClick').addEventListener('click', () => {
-      document.getElementById('sidebar').classList.toggle('sidebar-open');
     });
 
     // 显示初始面板
@@ -49,22 +45,12 @@ const App = {
         this.navigateTo(panel);
       });
     });
-    // 移动端底部导航
-    document.querySelectorAll('.mobile-nav a').forEach(a => {
-      a.addEventListener('click', () => {
-        const panel = a.dataset.panel;
-        this.navigateTo(panel);
-      });
-    });
   },
 
   navigateTo(panel, save = true) {
     // 更新导航高亮
     document.querySelectorAll('.nav-item').forEach(n => {
       n.classList.toggle('active', n.dataset.panel === panel);
-    });
-    document.querySelectorAll('.mobile-nav a').forEach(a => {
-      a.classList.toggle('active', a.dataset.panel === panel);
     });
 
     // 更新面板显示

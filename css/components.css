@@ -1131,3 +1131,222 @@ textarea {
     justify-content: center;
   }
 }
+
+/* --- AI一周资讯 --- */
+.ai-news-container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.ai-news-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--bg-warm);
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ai-news-update {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.ai-news-section {
+  margin-bottom: 24px;
+}
+.ai-news-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 14px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ai-news-count {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-warm);
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+.ai-news-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ai-news-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  background: var(--card);
+  transition: border-color 0.2s;
+}
+.ai-news-item:hover {
+  border-color: var(--accent-info);
+}
+.ai-news-item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.ai-news-date {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-info);
+  background: var(--accent-info-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.ai-news-category {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  background: var(--bg-warm);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.ai-news-fact-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+.ai-news-fact-badge.fact {
+  background: var(--accent-positive-bg);
+  color: var(--accent-positive);
+}
+.ai-news-fact-badge.preview {
+  background: var(--accent-highlight-bg);
+  color: #b8956e;
+}
+.ai-news-fact-badge.rumor {
+  background: var(--accent-negative-bg);
+  color: var(--accent-negative);
+}
+.ai-news-item-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+}
+.ai-news-item-why {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+.ai-news-item-why strong {
+  color: var(--text);
+}
+.ai-news-item-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.ai-news-source {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+.ai-news-link {
+  font-size: 0.75rem;
+  color: var(--accent-info);
+  text-decoration: none;
+  font-weight: 500;
+}
+.ai-news-link:hover {
+  text-decoration: underline;
+}
+.ai-news-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ai-news-tag {
+  font-size: 0.7rem;
+  color: var(--accent-info);
+  opacity: 0.7;
+}
+/* 可跟进机会 */
+.ai-news-opportunities {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ai-news-opp-item {
+  display: flex;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  border-left: 3px solid var(--accent-highlight);
+}
+.ai-news-opp-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-highlight-bg);
+  color: #b8956e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.ai-news-opp-body h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 6px 0;
+}
+.ai-news-opp-body p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0 0 6px 0;
+}
+.ai-news-opp-for {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+/* 下周观察 */
+.ai-news-next-week {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ai-news-next-week li {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  padding: 8px 14px;
+  background: var(--bg-warm);
+  border-radius: var(--radius-md);
+  border-left: 2px solid var(--accent-info);
+}
+
+@media (max-width: 480px) {
+  .ai-news-item {
+    padding: 12px 14px;
+  }
+  .ai-news-item-title {
+    font-size: 0.85rem;
+  }
+  .ai-news-opp-item {
+    padding: 12px 14px;
+  }
+}
