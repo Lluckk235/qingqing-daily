@@ -4,6 +4,7 @@
 
 const App = {
   currentPanel: 'dashboard',
+  sidebarOpen: false,
 
   init() {
     // 恢复上次面板
@@ -34,6 +35,16 @@ const App = {
       Helpers.showToast('已刷新', 'info');
     });
 
+    // Logo 点击打开/关闭侧边栏（手机端抽屉菜单）
+    document.getElementById('logoClick').addEventListener('click', () => {
+      this.toggleSidebar();
+    });
+
+    // 点击遮罩关闭侧边栏
+    document.getElementById('sidebarOverlay').addEventListener('click', () => {
+      this.closeSidebar();
+    });
+
     // 显示初始面板
     this.navigateTo(this.currentPanel, false);
   },
@@ -43,8 +54,29 @@ const App = {
       item.addEventListener('click', () => {
         const panel = item.dataset.panel;
         this.navigateTo(panel);
+        this.closeSidebar();
       });
     });
+  },
+
+  toggleSidebar() {
+    this.sidebarOpen = !this.sidebarOpen;
+    this.updateSidebarState();
+  },
+
+  openSidebar() {
+    this.sidebarOpen = true;
+    this.updateSidebarState();
+  },
+
+  closeSidebar() {
+    this.sidebarOpen = false;
+    this.updateSidebarState();
+  },
+
+  updateSidebarState() {
+    document.getElementById('sidebar').classList.toggle('sidebar-open', this.sidebarOpen);
+    document.getElementById('sidebarOverlay').classList.toggle('active', this.sidebarOpen);
   },
 
   navigateTo(panel, save = true) {
