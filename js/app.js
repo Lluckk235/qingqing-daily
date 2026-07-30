@@ -6,7 +6,10 @@ const App = {
   currentPanel: 'dashboard',
   sidebarOpen: false,
 
-  init() {
+  async init() {
+    // 先从云端同步数据（解决跨设备数据不一致问题）
+    await Storage.syncFromCloud();
+
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
     if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression'].includes(savedPanel)) {

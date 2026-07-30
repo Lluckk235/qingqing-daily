@@ -1,1 +1,4 @@
 .codebuddy/skills/
+node_modules/
+package.json
+package-lock.json
