@@ -536,11 +536,12 @@ textarea {
 .note-actions {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .note-actions select {
   padding: 7px 10px;
+  height: auto;
 }
 
 .note-actions .btn-primary {
