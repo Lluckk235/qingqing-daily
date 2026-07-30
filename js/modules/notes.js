@@ -43,7 +43,6 @@ const Notes = {
     };
 
     Storage.pushArray(CONFIG.storageKeys.notes, note);
-    Dashboard.addActivity('note', `新建笔记：${note.title}`);
 
     // 清空表单
     document.getElementById('noteTitle').value = '';
