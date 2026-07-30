@@ -61,10 +61,6 @@
           <span class="nav-emoji">💬</span>
           <span>表达训练</span>
         </a>
-        <a class="nav-item" data-panel="ai-news">
-          <span class="nav-emoji">📡</span>
-          <span>AI资讯</span>
-        </a>
       </nav>
       <div class="sidebar-footer">
         <div class="sidebar-quote" id="sidebarQuote"></div>
@@ -148,6 +144,16 @@
           </div>
         </div>
 
+        <!-- AI热点 -->
+        <div class="card ai-hot-card" id="aiHotCard">
+          <div class="card-header">
+            <h2>🔥本周AI热点</h2>
+            <span class="badge" id="aiHotWeekLabel">--</span>
+          </div>
+          <div class="card-body" id="aiHotContainer">
+            <div class="empty-hint">加载中...</div>
+          </div>
+        </div>
 
       </section>
 
@@ -451,16 +457,6 @@
         </div>
       </section>
 
-      <!-- AI一周资讯 Panel -->
-      <section class="panel" id="panel-ai-news">
-        <div class="panel-header">
-          <h2>AI一周资讯</h2>
-          <p>每周五更新 · 大模型 · AI产品 · 投资融资 · 监管政策</p>
-        </div>
-        <div class="ai-news-container" id="aiNewsContainer">
-          <div class="empty-hint">加载中...</div>
-        </div>
-      </section>
     </main>
   </div>
 

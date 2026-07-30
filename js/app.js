@@ -8,7 +8,7 @@ const App = {
   init() {
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
-    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression', 'ai-news'].includes(savedPanel)) {
+    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
