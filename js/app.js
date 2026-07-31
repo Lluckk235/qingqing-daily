@@ -8,7 +8,10 @@ const App = {
 
   async init() {
     // 先从云端同步数据（解决跨设备数据不一致问题）
-    await Storage.syncFromCloud();
+    await Promise.race([
+      Storage.syncFromCloud(),
+      new Promise(r => setTimeout(r, 3000))
+    ]);
 
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
@@ -27,6 +30,7 @@ const App = {
     Expression.init();
     AiNews.init();
     Checkin.init();
+    DailyQuote.init();
 
     // 导航绑定
     this.bindNavigation();
