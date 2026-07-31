@@ -5,7 +5,7 @@
 const Dashboard = {
   init() {
     this.updateDate();
-    this.showRandomQuote();
+    DailyQuote.init();
 
     document.querySelectorAll('.action-card[data-goto]').forEach(card => {
       card.addEventListener('click', () => {
@@ -19,11 +19,6 @@ const Dashboard = {
     setInterval(() => {
       document.getElementById('dateDisplay').textContent = Helpers.formatDate();
     }, 60000);
-  },
-
-  showRandomQuote() {
-    const quote = Helpers.randomPick(CONFIG.quotes);
-    document.getElementById('sidebarQuote').textContent = `"${quote}"`;
   },
 
   escapeHtml(str) {

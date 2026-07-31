@@ -26,6 +26,7 @@ const App = {
     Notes.init();
     Expression.init();
     AiNews.init();
+    Checkin.init();
 
     // 导航绑定
     this.bindNavigation();
@@ -34,7 +35,6 @@ const App = {
     document.getElementById('btnRefresh').addEventListener('click', () => {
       MarketStatus.updateUI();
       MarketData.fetchAll();
-      Dashboard.showRandomQuote();
       Helpers.showToast('已刷新', 'info');
     });
 

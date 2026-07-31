@@ -40,6 +40,10 @@
   <div class="main-container">
     <!-- 左侧导航 -->
     <aside class="sidebar" id="sidebar">
+      <div class="checkin-section" id="checkinSection">
+        <button class="checkin-btn is-loading" disabled>加载中…</button>
+        <div class="checkin-streak">连续坚持 <strong>--</strong> 天</div>
+      </div>
       <nav class="sidebar-nav">
         <a class="nav-item active" data-panel="dashboard">
           <span class="nav-emoji">🏠</span>
@@ -66,9 +70,7 @@
           <span>表达训练</span>
         </a>
       </nav>
-      <div class="sidebar-footer">
-        <div class="sidebar-quote" id="sidebarQuote"></div>
-      </div>
+      <div class="daily-quote-section" id="dailyQuoteSection"></div>
     </aside>
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
@@ -483,6 +485,8 @@
   <script src="js/modules/notes.js"></script>
   <script src="js/modules/expression.js"></script>
   <script src="js/modules/ai-news.js"></script>
+  <script src="js/modules/checkin.js"></script>
+  <script src="js/modules/daily-quote.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

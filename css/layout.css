@@ -155,17 +155,90 @@
   opacity: 1;
 }
 
-.sidebar-footer {
+/* --- 打卡签到 --- */
+.checkin-section {
+  padding: 10px 10px 12px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.checkin-btn {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 6px;
+  background: var(--text);
+  color: #FFFFFF;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font);
+  transition: all var(--transition);
+}
+
+.checkin-btn:hover { opacity: 0.85; }
+.checkin-btn:disabled { opacity: 0.5; cursor: default; }
+.checkin-btn.is-done { background: var(--bg-warm); color: var(--text-secondary); }
+
+.checkin-streak {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.checkin-streak strong { color: var(--text); font-size: 0.8rem; }
+
+/* --- 每日一句 --- */
+.daily-quote-section {
   padding: 12px 10px;
   border-top: 1px solid var(--border);
 }
 
-.sidebar-quote {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-style: italic;
-  line-height: 1.5;
+.quote-body { margin-bottom: 8px; }
+
+.quote-zh {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.55;
+  margin-bottom: 4px;
 }
+
+.quote-en {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.quote-action {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  background: var(--bg-warm);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.quote-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.quote-refresh-btn {
+  padding: 2px 8px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+  font-family: var(--font);
+  transition: color var(--transition);
+}
+
+.quote-refresh-btn:hover { color: var(--text); }
 
 /* --- 主内容区 --- */
 .content {
@@ -324,7 +397,8 @@
     width: 20px;
     text-align: center;
   }
-  .sidebar-footer { display: block; }
+  .checkin-section { display: none; }
+  .daily-quote-section { display: block; }
 
   .sidebar-overlay {
     display: none;
