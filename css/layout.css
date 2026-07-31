@@ -414,7 +414,7 @@
     display: block;
   }
 
-  .content { padding: 20px 16px; max-width: 100%; padding-top: 52px; }
+  .content { padding: 20px 16px 24px; max-width: 100%; padding-top: 52px; padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
   .quick-actions { grid-template-columns: 1fr; }
   .dashboard-grid { grid-template-columns: 1fr; }
   .topbar-center { display: none; }
@@ -442,7 +442,8 @@
 
 @media (max-width: 480px) {
   .content {
-    padding: 14px 12px;
+    padding: 14px 12px 24px;
     padding-top: 50px;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom));
   }
 }

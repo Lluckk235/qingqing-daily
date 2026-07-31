@@ -1144,7 +1144,7 @@ textarea {
 }
 
 .daily-news-body {
-  padding: 20px 24px;
+  padding: 20px 24px 28px;
 }
 
 /* --- 标题区 --- */
@@ -1431,7 +1431,8 @@ textarea {
 
 @media (max-width: 768px) {
   .daily-news-body {
-    padding: 14px 12px;
+    padding: 14px 12px 32px;
+    padding-bottom: calc(32px + env(safe-area-inset-bottom));
   }
 
   .daily-news-grid {
@@ -1460,7 +1461,8 @@ textarea {
 
 @media (max-width: 480px) {
   .daily-news-body {
-    padding: 10px 8px;
+    padding: 10px 8px 36px;
+    padding-bottom: calc(36px + env(safe-area-inset-bottom));
   }
 
   .daily-news-card {
