@@ -28,7 +28,7 @@ const App = {
     Challenges.init();
     Notes.init();
     Expression.init();
-    AiNews.init();
+    DailyNews.init();
     Checkin.init();
     DailyQuote.init();
 

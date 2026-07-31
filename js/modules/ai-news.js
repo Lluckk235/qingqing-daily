@@ -1,116 +1,320 @@
 /* ========================================
-   卿卿日常 · AI热点模块（嵌入首页Dashboard）
-   每周五更新 · 联网检索权威来源
+   卿卿日常 · 今日热点资讯（每日版）
+   优先从 Supabase 读取（跨设备同步），失败则用本地 JSON
    ======================================== */
 
-const AiNews = {
-  data: {
-    weekLabel: '7月26日 — 8月1日',
-    highlights: [
-      {
-        date: '7/31',
-        title: '国内AI三连发：阿里Qwen3-Coder-Flash、阶跃Step 3开源、Manus Wide Research',
-        why: '阿里编码模型可在33GB内存本地运行；阶跃Step 3（321B MoE）多模态推理开源SOTA；Manus支持100+并行Agent。',
-        sourceUrl: 'https://news.qq.com/rain/a/20250802A00M4300',
-        tags: ['开源', 'Agent', '阿里', '阶跃'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/30',
-        title: '字节豆包图像编辑3.0 + 同声传译2.0（延迟降至2-3秒）+ 开源扣子',
-        why: '同声传译实现0样本声音复刻；扣子平台以Apache 2.0开源，降低AI应用开发门槛。',
-        sourceUrl: 'https://news.qq.com/rain/a/20250802A00M4300',
-        tags: ['字节', '豆包', '语音AI'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/28',
-        title: '智谱GLM-4.5发布：Agent综合能力开源SOTA，API价格极具竞争力',
-        why: '12个评测基准全球第三、国产第一。输入仅0.8元/百万tokens，公开52道评测题供复现。',
-        sourceUrl: 'https://news.qq.com/rain/a/20250802A00M4300',
-        tags: ['智谱', 'GLM', '开源SOTA'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/28',
-        title: '阿里Wan2.2视频生成模型发布，超越Sora/Kling 2.0，5B版本地可跑',
-        why: '在运动质量、画面质量等测试中超越闭源商业模型，RTX 3060即可本地部署。',
-        sourceUrl: 'https://news.qq.com/rain/a/20250802A00M4300',
-        tags: ['阿里', '视频生成', '开源'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/28',
-        title: '腾讯开源HunyuanWorld-1.0 3D世界模型 + CodeBuddy IDE国际版',
-        why: '文字/图片即可生成完整3D世界，支持360°漫游；IDE整合Claude/GPT/Gemini。',
-        sourceUrl: 'https://news.qq.com/rain/a/20250802A00M4300',
-        tags: ['腾讯', '3D生成', 'IDE'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/28',
-        title: '全球首个设计AI Agent Lovart上线（腾讯混元支持）+ 特斯拉Optimus Gen 3入华计划',
-        why: 'AI Agent从通用走向垂直专业领域；特斯拉人形机器人计划2025年进入中国C端。',
-        sourceUrl: 'https://fangx.ai/july-2025-ai-major-events-summary-and-review/',
-        tags: ['Agent', '机器人', '硬件'],
-        factLevel: '事实',
-      },
-      {
-        date: '7/26',
-        title: 'OpenAI确认GPT-5 8月初发布；阿里夸克AI眼镜首次亮相WAIC',
-        why: 'GPT-5可能重新定义行业格局；夸克眼镜整合通义千问+高德+支付宝+淘宝生态。',
-        sourceUrl: 'https://fangx.ai/july-2025-ai-major-events-summary-and-review/',
-        tags: ['GPT-5', 'AI眼镜', 'OpenAI'],
-        factLevel: '预告',
-      },
-    ],
-    nextWeek: [
-      'OpenAI GPT-5 预计8月初正式发布',
-      '关注GPT-5发布后美股AI板块反应（微软、NVIDIA）',
-      '8月2日欧盟《通用AI行为准则》正式实施',
-      '国内关注字节/百度/华为是否有新回应',
-    ],
+const DailyNews = {
+  data: null,
+  activeCategory: 'all',
+  expanded: false,
+
+  categories: [
+    { key: 'all', label: '全部' },
+    { key: 'ai-tech', label: 'AI 技术' },
+    { key: 'business', label: '商业' },
+    { key: 'product', label: '产品' },
+    { key: 'finance', label: '金融/市场' },
+  ],
+
+  categoryIcons: {
+    'ai-tech': '◇',
+    'business': '○',
+    'product': '□',
+    'finance': '△',
   },
 
-  init() {
+  async init() {
+    await this.loadNews();
     this.render();
   },
 
+  // ====================================
+  // 数据加载（Supabase → 本地 JSON → cache）
+  // ====================================
+
+  async loadNews(forceRefresh = false) {
+    // 1. 优先从 Supabase 加载（当天数据）
+    try {
+      const today = new Date().toISOString().slice(0, 10);
+      const sbData = await Supabase.fetch(`daily_news?news_date=eq.${today}&order=rank.asc&limit=12`);
+      if (sbData && Array.isArray(sbData) && sbData.length > 0) {
+        this.data = this.mapFromSupabase(sbData);
+        this.cacheData(this.data);
+        console.log(`📡 从 Supabase 加载 ${sbData.length} 条新闻`);
+        return;
+      }
+    } catch (err) {
+      console.warn('Supabase 加载失败，尝试本地 JSON:', err.message);
+    }
+
+    // 2. 降级：本地 JSON
+    try {
+      const url = forceRefresh
+        ? `data/daily-news.json?t=${Date.now()}`
+        : 'data/daily-news.json';
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const json = await resp.json();
+      if (!json.news || !Array.isArray(json.news)) throw new Error('Invalid format');
+      this.data = json;
+      this.cacheData(json);
+      console.log(`📄 从本地 JSON 加载 ${json.news.length} 条新闻`);
+      return;
+    } catch (err) {
+      console.warn('本地 JSON 加载失败，尝试缓存:', err.message);
+    }
+
+    // 3. 最终降级：localStorage 缓存
+    this.loadFromCache();
+  },
+
+  // 分类 → 前端展示字段的映射
+  _catMap: {
+    'ai-tech':  { label: 'AI 技术',   badge: 'AI NEWS',   icon: '◇' },
+    'business': { label: '商业',     badge: 'INSIGHT',  icon: '○' },
+    'product':  { label: '产品',     badge: 'PRODUCT',  icon: '□' },
+    'finance':  { label: '金融/市场', badge: 'ANALYSIS', icon: '△' },
+  },
+
+  _extractDomain(url) {
+    try { return new URL(url).hostname.replace('www.', ''); }
+    catch { return ''; }
+  },
+
+  _relativeTime(iso) {
+    if (!iso) return '';
+    const diff = (Date.now() - new Date(iso).getTime()) / 1000 / 3600;
+    if (diff < 1)   return `${Math.max(1, Math.floor(diff * 60))} 分钟前`;
+    if (diff < 24)  return `${Math.floor(diff)} 小时前`;
+    if (diff < 48)  return '昨天';
+    return `${Math.floor(diff / 24)} 天前`;
+  },
+
+  mapFromSupabase(rows) {
+    const news = rows.map(row => {
+      const cat = this._catMap[row.category] || this._catMap['ai-tech'];
+      return {
+        id: row.id,
+        title: row.title,
+        category: row.category,
+        categoryLabel: cat.label,
+        badge: cat.badge,
+        source: row.source,
+        sourceDomain: this._extractDomain(row.url),
+        sourceUrl: row.url,
+        published: row.published_at,
+        relativeTime: this._relativeTime(row.published_at),
+        summary: Array.isArray(row.summary) ? row.summary : [],
+        whyImportant: row.why_important,
+        tags: [],
+        rank: row.rank || 0,
+      };
+    });
+    news.sort((a, b) => a.rank - b.rank);
+    const today = new Date().toISOString().slice(0, 10);
+    return {
+      date: today,
+      total: news.length,
+      defaultDisplay: 6,
+      news,
+    };
+  },
+
+  cacheData(json) {
+    try {
+      localStorage.setItem('daily_news_cache', JSON.stringify(json));
+    } catch (e) { /* ignore */ }
+  },
+
+  loadFromCache() {
+    try {
+      const raw = localStorage.getItem('daily_news_cache');
+      if (raw) {
+        this.data = JSON.parse(raw);
+        console.log('已加载本地缓存新闻');
+        return;
+      }
+    } catch (e) { /* ignore */ }
+    this.data = null;
+  },
+
+  async refresh() {
+    const btn = document.getElementById('dailyNewsRefresh');
+    if (btn) {
+      btn.classList.add('spinning');
+      btn.disabled = true;
+    }
+    await this.loadNews(true);
+    this.activeCategory = 'all';
+    this.expanded = false;
+    this.render();
+    if (btn) {
+      btn.classList.remove('spinning');
+      btn.disabled = false;
+    }
+  },
+
+  // ====================================
+  // 渲染
+  // ====================================
+
   render() {
-    const container = document.getElementById('aiHotContainer');
-    const weekLabel = document.getElementById('aiHotWeekLabel');
-    const d = this.data;
+    const container = document.getElementById('dailyNewsContainer');
+    if (!container) return;
 
-    weekLabel.textContent = d.weekLabel;
+    if (!this.data || !this.data.news || this.data.news.length === 0) {
+      container.innerHTML = '<div class="empty-hint">暂无今日新闻，点击刷新重试</div>';
+      return;
+    }
 
-    let html = '<div class="ai-hot-list">';
+    const dateLabel = this.data.date || '';
+    const totalCount = this.filteredNews().length;
+    const displayNews = this.getDisplayNews();
+    const hasMore = !this.expanded && totalCount > displayNews.length;
 
-    d.highlights.forEach((h) => {
-      const factCls = h.factLevel === '事实' ? 'fact' : 'preview';
+    let html = '';
+
+    // 标题区
+    html += this.renderHeader(dateLabel, totalCount);
+
+    // 分类 tab
+    html += this.renderTabs();
+
+    // 卡片网格
+    html += '<div class="daily-news-grid">';
+    if (displayNews.length === 0) {
+      html += '<div class="empty-hint">该分类下暂无新闻</div>';
+    } else {
+      displayNews.forEach((item) => {
+        html += this.renderCard(item);
+      });
+    }
+    html += '</div>';
+
+    // 展开更多
+    if (hasMore) {
       html += `
-        <div class="ai-hot-item">
-          <div class="ai-hot-item-top">
-            <span class="ai-hot-date">${h.date}</span>
-            <span class="ai-hot-fact ${factCls}">${h.factLevel}</span>
-            <span class="ai-hot-tags">${h.tags.map(t => `<span class="ai-hot-tag">#${t}</span>`).join(' ')}</span>
-          </div>
-          <div class="ai-hot-title">${h.title}</div>
-          <div class="ai-hot-why">${h.why}</div>
-          <a href="${h.sourceUrl}" target="_blank" rel="noopener" class="ai-hot-link">查看来源 →</a>
+        <div class="daily-news-more" id="dailyNewsMore">
+          <button class="btn-text" onclick="DailyNews.expand()">
+            展开更多 <span class="more-count">(${totalCount - displayNews.length} 条)</span>
+          </button>
         </div>
       `;
-    });
-
-    html += '</div>';
-
-    // 下周观察
-    html += '<div class="ai-hot-next">';
-    html += '<div class="ai-hot-next-title">👀 下周观察</div>';
-    d.nextWeek.forEach(item => {
-      html += `<div class="ai-hot-next-item">· ${item}</div>`;
-    });
-    html += '</div>';
+    }
 
     container.innerHTML = html;
+  },
+
+  renderHeader(dateLabel, totalCount) {
+    return `
+      <div class="daily-news-header">
+        <div class="daily-news-title-row">
+          <div>
+            <h2 class="daily-news-title">🔥 今日热点资讯</h2>
+            <p class="daily-news-subtitle">实时追踪全球科技与商业领域最具影响力的技术突破与商业变革。</p>
+          </div>
+          <div class="daily-news-meta">
+            <span class="daily-news-date">${dateLabel}</span>
+            <span class="daily-news-count">${totalCount} 条</span>
+            <button class="btn-icon daily-news-refresh" id="dailyNewsRefresh" onclick="DailyNews.refresh()" title="刷新">
+              ↻
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  renderTabs() {
+    return `
+      <div class="daily-news-tabs" id="dailyNewsTabs">
+        ${this.categories
+          .map(
+            (cat) => `
+          <button
+            class="daily-news-tab ${cat.key === this.activeCategory ? 'active' : ''}"
+            data-category="${cat.key}"
+            onclick="DailyNews.switchCategory('${cat.key}')"
+          >${cat.label}</button>
+        `
+          )
+          .join('')}
+      </div>
+    `;
+  },
+
+  renderCard(item) {
+    const icon = this.categoryIcons[item.category] || '○';
+    const domain = item.sourceDomain || '';
+    return `
+      <div class="daily-news-card">
+        <div class="dnc-top">
+          <span class="dnc-badge badge-${item.category}">${item.badge || 'AI NEWS'}</span>
+          <span class="dnc-time">${item.relativeTime || ''}</span>
+        </div>
+        <div class="dnc-source">
+          <span class="dnc-cat-icon">${icon}</span>
+          <span class="dnc-cat-label">${item.categoryLabel || ''}</span>
+          <span class="dnc-sep">·</span>
+          <span class="dnc-source-name">${item.source || domain}</span>
+        </div>
+        <div class="dnc-title">${this.escapeHtml(item.title)}</div>
+        <div class="dnc-summary">
+          ${(item.summary || [])
+            .slice(0, 3)
+            .map((s) => `<p>${this.escapeHtml(this.cleanHtml(s))}</p>`)
+            .join('')}
+        </div>
+        <a href="${item.sourceUrl}" target="_blank" rel="noopener" class="dnc-link">
+          阅读全文 →
+        </a>
+      </div>
+    `;
+  },
+
+  // ====================================
+  // 交互
+  // ====================================
+
+  switchCategory(key) {
+    this.activeCategory = key;
+    this.expanded = false;
+    document.querySelectorAll('.daily-news-tab').forEach((tab) => {
+      tab.classList.toggle('active', tab.dataset.category === key);
+    });
+    this.render();
+  },
+
+  expand() {
+    this.expanded = true;
+    this.render();
+  },
+
+  // ====================================
+  // 工具
+  // ====================================
+
+  filteredNews() {
+    if (!this.data || !this.data.news) return [];
+    if (this.activeCategory === 'all') return this.data.news;
+    return this.data.news.filter((item) => item.category === this.activeCategory);
+  },
+
+  getDisplayNews() {
+    const filtered = this.filteredNews();
+    if (this.expanded) return filtered;
+    return filtered.slice(0, this.data.defaultDisplay || 6);
+  },
+
+  escapeHtml(str) {
+    if (!str) return '';
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  },
+
+  cleanHtml(str) {
+    if (!str) return '';
+    return str.replace(/&#?\w+;/g, '').replace(/\s+/g, ' ').trim();
   },
 };

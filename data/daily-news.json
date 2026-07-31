@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-31",
+  "generated": "2026-07-31T17:42:51.346059+08:00",
+  "total": 10,
+  "defaultDisplay": 6,
+  "news": [
+    {
+      "id": "ba8391556804",
+      "title": "Apple says gaming slowdown and App Store changes hurt services growth",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/",
+      "published": "2026-07-30T22:37:06+00:00",
+      "relativeTime": "11 小时前",
+      "summary": [
+        "Apple said a slowdown in mobile gaming and changes to the App Store’s business model — including court-ordered payment rule changes in the U.S. — weighed on its services business, even as the company topped 1.5 billion paid subscriptions."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": []
+    },
+    {
+      "id": "93e1eb3c7f13",
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "published": "2026-07-30T18:29:45-04:00",
+      "relativeTime": "11 小时前",
+      "summary": [
+        "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": []
+    },
+    {
+      "id": "f41c7307b777",
+      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "published": "2026-07-30T18:57:58+00:00",
+      "relativeTime": "14 小时前",
+      "summary": [
+        "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": []
+    },
+    {
+      "id": "dc18fde4e6bc",
+      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "published": "2026-07-30T18:05:21+00:00",
+      "relativeTime": "15 小时前",
+      "summary": [
+        "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": []
+    },
+    {
+      "id": "30e234bd3fe1",
+      "title": "Meta says AI is making it easier to build new apps — and more are coming",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+      "published": "2026-07-30T15:41:16+00:00",
+      "relativeTime": "18 小时前",
+      "summary": [
+        "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": []
+    },
+    {
+      "id": "17a5fb999fac",
+      "title": "Apple stockpiles inventory as it braces for ‘significant supply constraints’",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/",
+      "published": "2026-07-30T23:28:05+00:00",
+      "relativeTime": "10 小时前",
+      "summary": [
+        "Apple is worried enough about supply shortages that it reported about $11.1 billion in inventory, which is almost double the $5.7 billion it reported last September."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": []
+    },
+    {
+      "id": "97625a3cb9dd",
+      "title": "Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/",
+      "published": "2026-07-30T17:50:11+00:00",
+      "relativeTime": "15 小时前",
+      "summary": [
+        "Add another member to the fast-and-furious AI unicorn club: Simile."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": []
+    },
+    {
+      "id": "46d862acec6b",
+      "title": "开云的转折：在中国，做一个AI乐观派",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "36氪",
+      "sourceDomain": "36kr.com",
+      "sourceUrl": "https://36kr.com/p/3919225763540611?f=rss",
+      "published": "2026-07-30T21:42:51.308722+00:00",
+      "relativeTime": "",
+      "summary": [
+        "作者 |&nbsp;谢芸子 黄绎达 编辑 |&nbsp;张帆 开云的转型初见成效",
+        "7月28日，法国开云集团Kering发布2026年上半年财报，实现营收72.2亿欧元，可比口径下同比增长1%",
+        "更关键的信号藏在第二季度——单季营收36.52亿欧元，同比增长2%"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": []
+    },
+    {
+      "id": "b43ed6d2237c",
+      "title": "The Download: a chip talent battle, and deflating AI hype",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
+      "published": "2026-07-29T12:10:00+00:00",
+      "relativeTime": "昨天",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s been clocking out on time and heading&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": []
+    },
+    {
+      "id": "a6a27b1c9208",
+      "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "bbc.com",
+      "sourceUrl": "https://www.bbc.com/news/articles/cn0nqv05g0do",
+      "published": "2026-07-31T07:33:10+00:00",
+      "relativeTime": "2 小时前",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": []
+    }
+  ]
+}
