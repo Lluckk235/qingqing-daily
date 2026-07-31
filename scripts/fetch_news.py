@@ -109,7 +109,7 @@ TITLE_SIMILARITY_THRESHOLD = 0.7
 MAX_CANDIDATES = 80
 MAX_PER_CATEGORY = 3
 TARGET_TOTAL = 12
-CN_MIN_RATIO = 0.5  # 至少 50% 中文
+EN_TARGET_RATIO = 0.55  # 目标英文 50%-60%，中文化展示
 DEFAULT_DISPLAY = 6
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
@@ -494,35 +494,73 @@ def process_articles(candidates: list[dict]) -> list[dict]:
 
     print(f"\n📊 候选: 中文 {len(cn_articles)} 条, 英文 {len(en_articles)} 条")
 
-    # 最终选择：优先填中文，不够用英文补
-    cn_slots = max(int(TARGET_TOTAL * CN_MIN_RATIO), 4)  # 至少 4 条中文
-    en_slots = TARGET_TOTAL - cn_slots
+    # 策略：ai-tech / finance 优先英文源，business / product 中文优先
+    # 目标：英文 50%-60%，展示语言全中文
+    EN_PRIORITY_CATS = {"ai-tech", "finance"}
 
     category_counts = {k: 0 for k in CATEGORY_RULES}
     final = []
 
-    def fill_from(pool, slots):
-        """从池中选文章，每类不超过 MAX_PER_CATEGORY"""
+    def fill_category_from(pool, cat_key, max_slots):
+        """从池中选指定分类的文章"""
         filled = []
         for article in pool:
-            if len(filled) >= slots:
+            if len(filled) >= max_slots:
                 break
-            cat = article["category"]
-            if category_counts[cat] < MAX_PER_CATEGORY:
-                category_counts[cat] += 1
+            if article["category"] == cat_key and category_counts[cat_key] < MAX_PER_CATEGORY:
+                category_counts[cat_key] += 1
                 filled.append(article)
         return filled
 
-    # 先填中文槽位
-    final = fill_from(cn_articles, cn_slots)
-    actual_cn = len(final)
+    # Step 1: ai-tech 和 finance 优先从英文池选
+    for cat in EN_PRIORITY_CATS:
+        final += fill_category_from(en_articles, cat, 2)
 
-    # 剩余的英文槽位（如果中文不够，英文可以多填）
-    remaining = TARGET_TOTAL - actual_cn
-    final += fill_from(en_articles, remaining)
+    # Step 2: 中文池补 ai-tech / finance 不足的槽位
+    for cat in EN_PRIORITY_CATS:
+        remaining = MAX_PER_CATEGORY - category_counts[cat]
+        if remaining > 0:
+            final += fill_category_from(cn_articles, cat, remaining)
+
+    # Step 3: business / product 优先中文
+    for cat in ("business", "product"):
+        final += fill_category_from(cn_articles, cat, 2)
+
+    # Step 4: business / product 英文补位
+    for cat in ("business", "product"):
+        remaining = MAX_PER_CATEGORY - category_counts[cat]
+        if remaining > 0:
+            final += fill_category_from(en_articles, cat, remaining)
+
+    # Step 5: 总数不够，从英文池补充（不限分类）
+    if len(final) < 10:
+        for article in en_articles:
+            if len(final) >= TARGET_TOTAL:
+                break
+            if article not in final:
+                cat = article["category"]
+                if category_counts[cat] < MAX_PER_CATEGORY:
+                    category_counts[cat] += 1
+                    final.append(article)
+
+    # Step 6: 还不到10，中文池兜底
+    if len(final) < 10:
+        for article in cn_articles:
+            if len(final) >= TARGET_TOTAL:
+                break
+            if article not in final:
+                cat = article["category"]
+                if category_counts[cat] < MAX_PER_CATEGORY:
+                    category_counts[cat] += 1
+                    final.append(article)
 
     # 翻译英文文章
     final = translate_articles(final)
+
+    # 统计最终比例
+    cn_final = sum(1 for a in final if a.get("isNativeCN"))
+    en_final = len(final) - cn_final
+    print(f"✅ 最终: {len(final)} 条 (中文源 {cn_final} / 英文源 {en_final})")
 
     # 添加 rank
     for i, article in enumerate(final):

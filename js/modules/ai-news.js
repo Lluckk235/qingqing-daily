@@ -266,7 +266,7 @@ const DailyNews = {
             .join('')}
         </div>
         <a href="${item.sourceUrl}" target="_blank" rel="noopener" class="dnc-link">
-          阅读全文 →
+          打开原文 / 浏览器翻译阅读 →
         </a>
       </div>
     `;
