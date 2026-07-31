@@ -190,7 +190,8 @@
 
 /* --- 每日一句 --- */
 .daily-quote-section {
-  padding: 12px 10px;
+  padding: 12px 10px 16px;
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
   border-top: 1px solid var(--border);
 }
 
@@ -376,7 +377,8 @@
     width: 220px;
     height: 100vh;
     z-index: 200;
-    padding: 12px 10px;
+    padding: 12px 10px 32px;
+    padding-bottom: calc(32px + env(safe-area-inset-bottom));
     background: var(--sidebar-bg);
     box-shadow: 2px 0 20px rgba(0,0,0,0.12);
     transition: left 0.25s ease;
