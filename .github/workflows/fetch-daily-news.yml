@@ -1,0 +1,37 @@
+name: 每日热点新闻抓取
+
+on:
+  schedule:
+    # 北京时间每天早上 8:00 (UTC+8 = 00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  fetch-and-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Fetch & sync to Supabase
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python scripts/fetch_news.py
+
+      - name: Commit daily-news.json (optional fallback)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/daily-news.json
+          git diff --staged --quiet || git commit -m "📡 更新每日热点新闻 [skip ci]"
+          git push
