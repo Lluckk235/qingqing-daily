@@ -16,6 +16,8 @@ from difflib import SequenceMatcher
 from urllib.parse import urlparse
 
 import feedparser
+from deep_translator import GoogleTranslator
+
 import requests
 
 # ============================================================
@@ -30,13 +32,17 @@ SUPABASE_SERVICE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 SYNC_TO_SUPABASE = bool(SUPABASE_SERVICE_KEY)
 
 RSS_SOURCES = [
-    {"url": "https://www.technologyreview.com/feed/", "name": "MIT Tech Review", "weight": 2},
-    {"url": "https://techcrunch.com/feed/", "name": "TechCrunch", "weight": 2},
-    {"url": "https://news.ycombinator.com/rss", "name": "Hacker News", "weight": 1},
-    {"url": "https://www.theverge.com/rss/index.xml", "name": "The Verge", "weight": 2},
-    {"url": "https://36kr.com/feed", "name": "36氪", "weight": 1},
-    {"url": "https://www.geekpark.net/rss", "name": "极客公园", "weight": 1},
-    {"url": "https://sspai.com/feed", "name": "少数派", "weight": 1},
+    # 英文源
+    {"url": "https://www.technologyreview.com/feed/", "name": "MIT Tech Review", "weight": 2, "lang": "en"},
+    {"url": "https://techcrunch.com/feed/", "name": "TechCrunch", "weight": 2, "lang": "en"},
+    {"url": "https://news.ycombinator.com/rss", "name": "Hacker News", "weight": 1, "lang": "en"},
+    {"url": "https://www.theverge.com/rss/index.xml", "name": "The Verge", "weight": 2, "lang": "en"},
+    # 中文源
+    {"url": "https://36kr.com/feed", "name": "36氪", "weight": 2, "lang": "zh"},
+    {"url": "https://www.geekpark.net/rss", "name": "极客公园", "weight": 2, "lang": "zh"},
+    {"url": "https://sspai.com/feed", "name": "少数派", "weight": 2, "lang": "zh"},
+    {"url": "https://www.qbitai.com/feed", "name": "量子位", "weight": 2, "lang": "zh"},
+    {"url": "https://www.ithome.com/rss/", "name": "IT之家", "weight": 2, "lang": "zh"},
 ]
 
 CATEGORY_RULES = {
@@ -98,11 +104,12 @@ WHY_TEMPLATES = {
 }
 
 TZ_SHANGHAI = timezone(timedelta(hours=8))
-REQUEST_TIMEOUT = 15
+REQUEST_TIMEOUT = 20
 TITLE_SIMILARITY_THRESHOLD = 0.7
-MAX_CANDIDATES = 50
+MAX_CANDIDATES = 80
 MAX_PER_CATEGORY = 3
 TARGET_TOTAL = 12
+CN_MIN_RATIO = 0.5  # 至少 50% 中文
 DEFAULT_DISPLAY = 6
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
@@ -234,6 +241,52 @@ def should_exclude(title: str, summary: str) -> bool:
     return bool(EXCLUDE_KEYWORDS.search(text))
 
 
+def is_chinese(text: str) -> bool:
+    """判断文本是否包含中文"""
+    return bool(re.search(r'[\u4e00-\u9fff]', text))
+
+
+def translate_text(text: str, max_len: int = 200) -> str:
+    """将英文翻译为中文（使用 Google 翻译免费接口）"""
+    if not text or is_chinese(text):
+        return text
+    try:
+        truncated = text[:max_len]
+        result = GoogleTranslator(source='en', target='zh-CN').translate(truncated)
+        return result if result else text
+    except Exception as e:
+        print(f"  ⚠ 翻译失败: {str(e)[:60]}")
+        return text
+
+
+def translate_articles(articles: list[dict]) -> list[dict]:
+    """翻译英文文章的标题和摘要"""
+    zh_count = sum(1 for a in articles if a.get('isNativeCN'))
+    en_count = len(articles) - zh_count
+    print(f"\n🌐 中/英文分布: {zh_count}/{en_count}")
+
+    translated = 0
+    for article in articles:
+        if article.get('isNativeCN'):
+            continue
+        old_title = article['title']
+        article['title'] = translate_text(old_title)
+        if article['title'] != old_title:
+            translated += 1
+
+        # 翻译摘要
+        new_summary = []
+        for point in article.get('summary', []):
+            new_summary.append(translate_text(point, max_len=150))
+        article['summary'] = new_summary
+
+        # 翻译 why_important
+        article['whyImportant'] = translate_text(article.get('whyImportant', ''), max_len=100)
+
+    print(f"  ✓ 翻译了 {translated} 篇文章")
+    return articles
+
+
 # ============================================================
 # Supabase 同步
 # ============================================================
@@ -346,6 +399,7 @@ def fetch_all_sources() -> list[dict]:
                         "source_weight": src["weight"],
                         "domain": extract_domain(link),
                         "published_raw": published_str,
+                        "lang": src["lang"],
                     }
                 )
                 count += 1
@@ -386,15 +440,13 @@ def deduplicate(articles: list[dict]) -> list[dict]:
 
 
 def process_articles(candidates: list[dict]) -> list[dict]:
-    """分类、评分、排序、截断"""
+    """分类、评分、排序、截断（优先中文 + 英文翻译）"""
     now = datetime.now(timezone.utc)
     processed = []
 
     for article in candidates:
-        # 计算相对时间
         rel_time = relative_time(article["published_raw"])
 
-        # 估算小时数用于评分
         try:
             pub_dt = datetime.strptime(article["published_raw"], "%a, %d %b %Y %H:%M:%S %z")
         except Exception:
@@ -404,22 +456,15 @@ def process_articles(candidates: list[dict]) -> list[dict]:
                 pub_dt = now - timedelta(hours=12)
 
         hours_ago = (now - pub_dt).total_seconds() / 3600
-
-        # 分类
         cat_key, cat_label, badge = classify_article(article["title"], article["summary_raw"])
-
-        # 评分
         score = score_article(
             article["source_weight"], article["title"], article["summary_raw"], cat_key, hours_ago
         )
-
-        # 提取要点
         summary_points = extract_summary_points(
             type("Entry", (), {"summary": article["summary_raw"], "title": article["title"]})()
         )
-
-        # 生成 ID
         uid = hashlib.md5(article["url"].encode()).hexdigest()[:12]
+        is_cn = article["lang"] == "zh" or is_chinese(article["title"])
 
         processed.append(
             {
@@ -437,35 +482,51 @@ def process_articles(candidates: list[dict]) -> list[dict]:
                 "whyImportant": WHY_TEMPLATES.get(cat_key, "值得关注"),
                 "tags": [],
                 "score": score,
+                "isNativeCN": is_cn,
             }
         )
 
-    # 按评分排序
+    # 按评分排序后，分中英文两路
     processed.sort(key=lambda x: x["score"], reverse=True)
 
-    # 每类最多 MAX_PER_CATEGORY 条，总数 TARGET_TOTAL
+    cn_articles = [a for a in processed if a["isNativeCN"]]
+    en_articles = [a for a in processed if not a["isNativeCN"]]
+
+    print(f"\n📊 候选: 中文 {len(cn_articles)} 条, 英文 {len(en_articles)} 条")
+
+    # 最终选择：优先填中文，不够用英文补
+    cn_slots = max(int(TARGET_TOTAL * CN_MIN_RATIO), 4)  # 至少 4 条中文
+    en_slots = TARGET_TOTAL - cn_slots
+
     category_counts = {k: 0 for k in CATEGORY_RULES}
     final = []
 
-    for article in processed:
-        cat = article["category"]
-        if category_counts[cat] < MAX_PER_CATEGORY and len(final) < TARGET_TOTAL:
-            category_counts[cat] += 1
-            final.append(article)
-
-    # 如果不够 10 条，补充其他类中分数最高的
-    if len(final) < 10:
-        for article in processed:
-            if article not in final:
-                cat = article["category"]
+    def fill_from(pool, slots):
+        """从池中选文章，每类不超过 MAX_PER_CATEGORY"""
+        filled = []
+        for article in pool:
+            if len(filled) >= slots:
+                break
+            cat = article["category"]
+            if category_counts[cat] < MAX_PER_CATEGORY:
                 category_counts[cat] += 1
-                final.append(article)
-                if len(final) >= TARGET_TOTAL:
-                    break
+                filled.append(article)
+        return filled
 
-    # 移除临时评分字段，添�� rank
+    # 先填中文槽位
+    final = fill_from(cn_articles, cn_slots)
+    actual_cn = len(final)
+
+    # 剩余的英文槽位（如果中文不够，英文可以多填）
+    remaining = TARGET_TOTAL - actual_cn
+    final += fill_from(en_articles, remaining)
+
+    # 翻译英文文章
+    final = translate_articles(final)
+
+    # 添加 rank
     for i, article in enumerate(final):
-        del article["score"]
+        article["score"] = article.get("score", 0)
         article["rank"] = i + 1
 
     return final
