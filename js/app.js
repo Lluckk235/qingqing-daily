@@ -15,7 +15,7 @@ const App = {
 
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
-    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression'].includes(savedPanel)) {
+    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression', 'mood'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
@@ -31,6 +31,8 @@ const App = {
     DailyNews.init();
     Checkin.init();
     DailyQuote.init();
+    MoodCalendar.init();
+    GoalProgress.init();
 
     // 导航绑定
     this.bindNavigation();
@@ -54,6 +56,10 @@ const App = {
     document.getElementById('logoClick').addEventListener('click', () => {
       this.toggleSidebar();
     });
+
+    // 汉堡按钮打开侧边栏（手机端抽屉菜单）
+    const hb = document.getElementById('hamburger');
+    if (hb) hb.addEventListener('click', () => this.openSidebar());
 
     // 点击遮罩关闭侧边栏
     document.getElementById('sidebarOverlay').addEventListener('click', () => {

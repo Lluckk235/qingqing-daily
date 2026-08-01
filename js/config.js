@@ -120,6 +120,7 @@ const CONFIG = {
     gexHistory: 'iw_gex_history',
     notes: 'iw_notes',
     activity: 'iw_activity',
+    moodCalendar: 'iw_mood_calendar',
     currentPanel: 'iw_current_panel',
   },
 };
