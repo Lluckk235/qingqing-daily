@@ -1661,8 +1661,11 @@ textarea {
 }
 
 .mood-cal-cell.today {
-  border: 1.5px solid var(--text);
   background: color-mix(in srgb, #FFD1E6 22%, var(--card));
+}
+
+.mood-cal-cell.today:not(.empty):hover {
+  background: color-mix(in srgb, #FFD1E6 42%, var(--card));
 }
 
 .mood-cal-day {
