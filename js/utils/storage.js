@@ -38,7 +38,7 @@ const Storage = {
   // --- 云端操作 ---
   async _cloudUpsert(key, value) {
     try {
-      const { error } = await supabase
+      const { error } = await window.supabaseClient
         .from('user_data')
         .upsert({ key, value, updated_at: new Date().toISOString() }, { onConflict: 'key' });
       if (error) console.warn('Cloud upsert failed:', key, error.message);
@@ -49,7 +49,7 @@ const Storage = {
 
   async _cloudDelete(key) {
     try {
-      const { error } = await supabase.from('user_data').delete().eq('key', key);
+      const { error } = await window.supabaseClient.from('user_data').delete().eq('key', key);
       if (error) console.warn('Cloud delete failed:', key, error.message);
     } catch (e) {
       console.warn('Cloud delete error:', key, e.message);
@@ -60,7 +60,7 @@ const Storage = {
   async syncFromCloud() {
     if (!this.cloudSync) return;
     try {
-      const { data, error } = await supabase.from('user_data').select('key,value');
+      const { data, error } = await window.supabaseClient.from('user_data').select('key,value');
       if (error) { console.warn('Cloud sync failed:', error.message); return; }
       if (!data || data.length === 0) return;
 

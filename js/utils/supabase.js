@@ -3,7 +3,7 @@
    双通道: SDK (旧模块) + 自定义 fetch (checkin/daily-quote)
    ======================================== */
 
-const supabase = window.supabase.createClient(
+window.supabaseClient = window.supabase.createClient(
   'https://prpyjwxrovckkpzwytgw.supabase.co',
   'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj'
 );
