@@ -24,23 +24,126 @@ const Challenges = {
     const text = input.value.trim();
     if (!text) return;
 
-    const list = this.getList();
-    list.push({
-      id: Helpers.uid(),
-      text,
-      done: 0,       // 已打卡次数
-      total: 30,     // 总共30次
-      unit: '次',    // 单位
-      type: 'short', // 长期/短期
-      deadline: '',  // 截止日期
-      reward: '',    // 完成奖励
-      pinned: false, // 是否置顶
-      updatedAt: Date.now(),
-      time: Date.now(),
+    this.openCreateModal(text);
+  },
+
+  openCreateModal(text) {
+    let overlay = document.getElementById('challengeCreateOverlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.className = 'modal-overlay hidden';
+      overlay.id = 'challengeCreateOverlay';
+      document.body.appendChild(overlay);
+    }
+
+    overlay.innerHTML = `
+      <div class="modal goal-detail-modal challenge-create-modal">
+        <div class="modal-header">
+          <h3>设置新目标</h3>
+          <button class="btn-icon challenge-create-close" aria-label="关闭">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="goal-detail-field">
+            <label>目标名称</label>
+            <input type="text" class="input-lg" id="challengeCreateName"
+              value="${Dashboard.escapeHtml(text)}" maxlength="50" placeholder="例如：阅读、早睡、跑步">
+          </div>
+
+          <div class="goal-detail-row">
+            <div class="goal-detail-field">
+              <label>目标类型</label>
+              <select class="input" id="challengeCreateType">
+                <option value="short" selected>短期目标</option>
+                <option value="long">长期目标</option>
+              </select>
+            </div>
+            <div class="goal-detail-field">
+              <label>目标总量</label>
+              <input type="number" class="input" id="challengeCreateTotal" value="50" min="1">
+            </div>
+          </div>
+
+          <div class="goal-detail-row">
+            <div class="goal-detail-field">
+              <label>单位（可不填）</label>
+              <input type="text" class="input" id="challengeCreateUnit" list="challengeUnitOptions"
+                value="次" placeholder="次 / 天 / 小时 / 个">
+              <datalist id="challengeUnitOptions">
+                <option value="次"></option>
+                <option value="天"></option>
+                <option value="小时"></option>
+                <option value="个"></option>
+              </datalist>
+            </div>
+            <div class="goal-detail-field">
+              <label>截止日期（可不填）</label>
+              <input type="date" class="input" id="challengeCreateDeadline">
+            </div>
+          </div>
+
+          <div class="goal-detail-field">
+            <label>完成奖励（可不填）</label>
+            <input type="text" class="input-lg" id="challengeCreateReward"
+              placeholder="例如：给自己买一杯咖啡">
+          </div>
+        </div>
+        <div class="modal-footer goal-detail-footer">
+          <button class="btn-secondary challenge-create-cancel">取消</button>
+          <button class="btn-primary challenge-create-save">保存目标</button>
+        </div>
+      </div>
+    `;
+
+    overlay.classList.remove('hidden');
+
+    const close = () => overlay.classList.add('hidden');
+    overlay.querySelectorAll('.challenge-create-close, .challenge-create-cancel').forEach(btn => {
+      btn.addEventListener('click', close);
     });
-    this.saveList(list);
-    input.value = '';
-    this.render();
+    overlay.onclick = (e) => { if (e.target === overlay) close(); };
+
+    const nameInput = overlay.querySelector('#challengeCreateName');
+    const save = () => {
+      const name = nameInput.value.trim();
+      if (!name) {
+        Helpers.showToast('请输入目标名称', 'error');
+        nameInput.focus();
+        return;
+      }
+
+      const totalInput = overlay.querySelector('#challengeCreateTotal');
+      const total = Math.max(1, parseInt(totalInput.value, 10) || 50);
+      const unit = overlay.querySelector('#challengeCreateUnit').value.trim();
+
+      const list = this.getList();
+      list.push({
+        id: Helpers.uid(),
+        text: name,
+        done: 0,
+        total,
+        unit,
+        type: overlay.querySelector('#challengeCreateType').value,
+        deadline: overlay.querySelector('#challengeCreateDeadline').value,
+        reward: overlay.querySelector('#challengeCreateReward').value.trim(),
+        pinned: false,
+        updatedAt: Date.now(),
+        time: Date.now(),
+      });
+
+      this.saveList(list);
+      document.getElementById('challengeInput').value = '';
+      this.render();
+      if (typeof GoalProgress !== 'undefined') GoalProgress.render();
+      close();
+      Helpers.showToast('目标已添加', 'success');
+    };
+
+    overlay.querySelector('.challenge-create-save').addEventListener('click', save);
+    overlay.querySelector('.challenge-create-modal').addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') save();
+      if (e.key === 'Escape') close();
+    });
+    nameInput.focus();
   },
 
   toggle(id, idx) {

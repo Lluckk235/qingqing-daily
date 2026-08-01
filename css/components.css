@@ -1579,16 +1579,16 @@ textarea {
 .mood-cal-card {
   background: var(--card);
   border-radius: var(--radius-lg);
-  padding: 18px 16px 20px;
+  padding: 14px 14px 16px;
   box-shadow: var(--shadow-sm);
-  width: min(100%, 920px);
+  width: min(100%, 760px);
 }
 
 .mood-cal-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .mood-cal-title {
@@ -1621,8 +1621,8 @@ textarea {
 .mood-cal-weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 4px;
-  margin-bottom: 6px;
+  gap: 5px;
+  margin-bottom: 4px;
 }
 
 .mood-cal-weekdays span {
@@ -1630,18 +1630,18 @@ textarea {
   font-size: 0.72rem;
   color: var(--text-muted);
   font-weight: 600;
-  padding: 4px 0;
+  padding: 2px 0;
 }
 
 .mood-cal-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
+  gap: 5px;
 }
 
 .mood-cal-cell {
   position: relative;
-  min-height: 86px;
+  height: clamp(56px, 7vw, 66px);
   border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
@@ -1686,9 +1686,9 @@ textarea {
 }
 
 .mood-cal-emoji {
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
   background-color: color-mix(in srgb, var(--mood-color, #F6A8D0) 16%, var(--card));
 }
 
@@ -1812,21 +1812,22 @@ textarea {
 @media (max-width: 480px) {
   .mood-cal-card {
     width: 100%;
-    padding: 16px 12px 18px;
+    padding: 12px 10px 14px;
   }
   .mood-cal-grid {
-    gap: 4px;
+    gap: 3px;
   }
   .mood-cal-cell {
-    min-height: 58px;
+    height: 50px;
     border-radius: var(--radius-sm);
   }
   .mood-cal-day {
     font-size: 0.76rem;
   }
   .mood-cal-emoji {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
+    border-radius: 10px;
   }
   .mood-picker-emoji {
     width: 48px;
@@ -2089,6 +2090,35 @@ textarea {
 .goal-detail-actions {
   display: flex;
   gap: 8px;
+}
+
+.challenge-create-modal .modal-body {
+  gap: 14px;
+}
+
+.challenge-create-modal .goal-detail-field label {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .goal-detail-row {
+    flex-direction: column;
+  }
+
+  .goal-detail-modal {
+    max-height: calc(100vh - 28px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    overflow: auto;
+  }
+
+  .challenge-create-modal .modal-footer {
+    flex-direction: column-reverse;
+  }
+
+  .challenge-create-modal .modal-footer button {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* 30 Challenges 编辑按钮 */

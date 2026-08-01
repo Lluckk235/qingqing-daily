@@ -7,15 +7,15 @@
 const MoodCalendar = {
   // 心情定义：使用自定义 3x3 pastel 表情图，避免系统 emoji 风格割裂。
   MOODS: [
-    { key: 'happy',     label: '开心的一天',     color: '#F6A8D0', x: '0%',   y: '0%',   aliases: ['joy'] },
-    { key: 'calm',      label: '平静的一天',     color: '#DDF3D5', x: '50%',  y: '0%' },
-    { key: 'fulfilled', label: '充实的一天',     color: '#F7D96B', x: '100%', y: '0%',   aliases: ['energy'] },
-    { key: 'normal',    label: '普通的一天',     color: '#F3E4C8', x: '0%',   y: '50%' },
-    { key: 'tired',     label: '疲惫的一天',     color: '#D8D0FF', x: '50%',  y: '50%' },
-    { key: 'sad',       label: '低落的一天',     color: '#BFD8F7', x: '100%', y: '50%' },
-    { key: 'anxious',   label: '焦虑的一天',     color: '#F5C99B', x: '0%',   y: '100%' },
-    { key: 'angry',     label: '生气的一天',     color: '#F58D85', x: '50%',  y: '100%' },
-    { key: 'unexpected',label: '意想不到的一天', color: '#CFEDEA', x: '100%', y: '100%' },
+    { key: 'happy',      label: '开心',     color: '#F6A8D0', x: '0%',   y: '0%',  aliases: ['joy'] },
+    { key: 'calm',       label: '平静',     color: '#DDF3D5', x: '50%',  y: '0%' },
+    { key: 'fulfilled',  label: '充实',     color: '#F7D96B', x: '100%', y: '0%',  aliases: ['energy'] },
+    { key: 'normal',     label: '普通',     color: '#F3E4C8', x: '0%',   y: '53%' },
+    { key: 'tired',      label: '疲惫',     color: '#D8D0FF', x: '50%',  y: '53%' },
+    { key: 'sad',        label: '低落',     color: '#BFD8F7', x: '100%', y: '53%' },
+    { key: 'anxious',    label: '焦虑',     color: '#F5C99B', x: '0%',   y: '96%' },
+    { key: 'angry',      label: '生气',     color: '#F58D85', x: '50%',  y: '96%' },
+    { key: 'unexpected', label: '意想不到', color: '#CFEDEA', x: '100%', y: '96%' },
   ],
 
   // 当前展示的年/月
