@@ -43,6 +43,42 @@ const MoodCalendar = {
       style="--mood-x:${mood.x};--mood-y:${mood.y};--mood-color:${mood.color}"></span>`;
   },
 
+  emptyDiary() {
+    return {
+      gratitude: ['', '', ''],
+      reflections: ['', ''],
+      affirmation: '',
+    };
+  },
+
+  normalizeDiary(diary) {
+    const base = this.emptyDiary();
+    if (!diary || typeof diary !== 'object') return base;
+    return {
+      gratitude: [0, 1, 2].map(i => (diary.gratitude && diary.gratitude[i]) ? String(diary.gratitude[i]) : ''),
+      reflections: [0, 1].map(i => (diary.reflections && diary.reflections[i]) ? String(diary.reflections[i]) : ''),
+      affirmation: diary.affirmation ? String(diary.affirmation) : '',
+    };
+  },
+
+  diaryHasContent(entry) {
+    if (!entry || !entry.diary) return false;
+    const diary = this.normalizeDiary(entry.diary);
+    return [
+      ...diary.gratitude,
+      ...diary.reflections,
+      diary.affirmation,
+    ].some(v => v.trim());
+  },
+
+  collectDiary(sheet) {
+    return {
+      gratitude: [0, 1, 2].map(i => sheet.querySelector(`[data-diary="gratitude"][data-index="${i}"]`).value.trim()),
+      reflections: [0, 1].map(i => sheet.querySelector(`[data-diary="reflections"][data-index="${i}"]`).value.trim()),
+      affirmation: sheet.querySelector('[data-diary="affirmation"]').value.trim(),
+    };
+  },
+
   // YYYY-MM-DD
   dateKey(y, m, d) {
     const mm = String(m + 1).padStart(2, '0');
@@ -94,14 +130,17 @@ const MoodCalendar = {
       const key = this.dateKey(y, m, d);
       const entry = data[key];
       const mood = entry ? this.moodByKey(entry.mood) : null;
+      const hasDiary = this.diaryHasContent(entry);
       const isToday = key === this.dateKey(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
       const cls = ['mood-cal-cell'];
       if (isToday) cls.push('today');
       if (mood) cls.push('has-mood');
+      if (hasDiary) cls.push('has-diary');
       html += `
         <div class="${cls.join(' ')}" data-date="${key}">
           <span class="mood-cal-day">${d}</span>
           ${mood ? this.moodIcon(mood, 'mood-cal-emoji') : ''}
+          ${hasDiary ? '<span class="mood-cal-diary-dot" title="已写 321 日记"></span>' : ''}
         </div>
       `;
     }
@@ -145,7 +184,8 @@ const MoodCalendar = {
   openPicker(dateKey) {
     const data = this.data;
     const entry = data[dateKey] || {};
-    const mood = this.moodByKey(entry.mood);
+    const diary = this.normalizeDiary(entry.diary);
+    const hasSavedContent = !!(entry.mood || entry.note || this.diaryHasContent(entry));
 
     // 创建/复用弹层
     let sheet = document.getElementById('moodPickerSheet');
@@ -166,16 +206,39 @@ const MoodCalendar = {
         <span class="mood-picker-label">${m.label}</span>
       </button>`
     ).join('');
+    const diaryField = (type, index, value, placeholder) => `
+      <textarea class="mood-diary-input" data-diary="${type}" ${index === null ? '' : `data-index="${index}"`}
+        rows="1" placeholder="${placeholder}">${Dashboard.escapeHtml(value || '')}</textarea>
+    `;
 
     sheet.innerHTML = `
       <div class="mood-picker-sheet">
         <div class="mood-picker-handle"></div>
         <div class="mood-picker-title">${dateKey} 的心情</div>
         <div class="mood-picker-options">${moodsHtml}</div>
+        <label class="mood-field-label" for="moodPickerNote">随手备注</label>
         <textarea class="mood-picker-note input-lg" id="moodPickerNote"
           placeholder="写点什么…（可选）" rows="2">${entry.note ? Dashboard.escapeHtml(entry.note) : ''}</textarea>
+        <div class="mood-diary-section">
+          <div class="mood-diary-heading">
+            <span>321 日记</span>
+            <small>3 件感恩 · 2 个反思 · 1 句肯定</small>
+          </div>
+          <div class="mood-diary-group">
+            <label>3 件感恩的小事</label>
+            ${diary.gratitude.map((v, i) => diaryField('gratitude', i, v, `感恩 ${i + 1}`)).join('')}
+          </div>
+          <div class="mood-diary-group">
+            <label>2 件事情的反思</label>
+            ${diary.reflections.map((v, i) => diaryField('reflections', i, v, `反思 ${i + 1}`)).join('')}
+          </div>
+          <div class="mood-diary-group">
+            <label>1 句对自己的肯定</label>
+            ${diaryField('affirmation', null, diary.affirmation, '今天我想肯定自己…')}
+          </div>
+        </div>
         <div class="mood-picker-actions">
-          ${entry.mood ? `<button class="btn-text mood-picker-clear" id="moodPickerClear">清除</button>` : ''}
+          ${hasSavedContent ? `<button class="btn-text mood-picker-clear" id="moodPickerClear">清除</button>` : ''}
           <button class="btn-primary mood-picker-save" id="moodPickerSave">保存</button>
         </div>
       </div>
@@ -196,19 +259,29 @@ const MoodCalendar = {
     const save = () => {
       const sel = sheet.querySelector('.mood-picker-option.selected');
       const note = sheet.querySelector('#moodPickerNote').value.trim();
+      const diaryNext = this.collectDiary(sheet);
       const cur = this.data;
-      if (sel) {
-        cur[dateKey] = { mood: sel.dataset.mood, note };
-      } else if (note) {
-        cur[dateKey] = { mood: entry.mood || '', note };
+      const hasDiary = [
+        ...diaryNext.gratitude,
+        ...diaryNext.reflections,
+        diaryNext.affirmation,
+      ].some(v => v.trim());
+      if (sel || note || hasDiary) {
+        cur[dateKey] = {
+          mood: sel ? sel.dataset.mood : (entry.mood || ''),
+          note,
+          diary: diaryNext,
+          updatedAt: new Date().toISOString(),
+        };
       } else {
         delete cur[dateKey];
       }
+      cur._updatedAt = new Date().toISOString();
       this.data = cur;
       this.render();
       this.bindEvents();
       close();
-      Helpers.showToast('已保存心情', 'success');
+      Helpers.showToast(hasDiary ? '已保存心情和复盘' : '已保存心情', 'success');
     };
     sheet.querySelector('#moodPickerSave').addEventListener('click', save);
 
@@ -217,6 +290,7 @@ const MoodCalendar = {
       clear.addEventListener('click', () => {
         const cur = this.data;
         delete cur[dateKey];
+        cur._updatedAt = new Date().toISOString();
         this.data = cur;
         this.render();
         this.bindEvents();
