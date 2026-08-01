@@ -1698,10 +1698,11 @@ textarea {
 }
 
 .mood-cal-emoji {
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  background-color: color-mix(in srgb, var(--mood-color, #F6A8D0) 16%, var(--card));
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background-color: transparent;
+  background-size: 342% 342%;
 }
 
 /* --- 心情选择器（底部弹出） --- */
@@ -1901,16 +1902,16 @@ textarea {
     gap: 3px;
   }
   .mood-cal-cell {
-    height: 50px;
+    height: 54px;
     border-radius: var(--radius-sm);
+    gap: 1px;
   }
   .mood-cal-day {
-    font-size: 0.76rem;
+    font-size: 0.72rem;
   }
   .mood-cal-emoji {
-    width: 28px;
-    height: 28px;
-    border-radius: 10px;
+    width: 39px;
+    height: 39px;
   }
   .mood-cal-diary-dot {
     right: 6px;
