@@ -139,6 +139,51 @@ const GoalProgress = {
     }
   },
 
+  showCompletion(item) {
+    let overlay = document.getElementById('goalCompleteOverlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.className = 'modal-overlay hidden';
+      overlay.id = 'goalCompleteOverlay';
+      document.body.appendChild(overlay);
+    }
+
+    const unit = item.unit || '';
+    const done = Math.min(item.done || 0, item.total || 1);
+    const total = item.total || 1;
+    const reward = (item.reward || '').trim();
+    const rewardHtml = reward ? `
+      <div class="goal-complete-reward">
+        <span class="goal-complete-reward-label">你的奖励</span>
+        <strong>${Dashboard.escapeHtml(reward)}</strong>
+      </div>
+    ` : `
+      <div class="goal-complete-reward muted">
+        <span class="goal-complete-reward-label">给自己的奖励</span>
+        <strong>认真认可这一次完成</strong>
+      </div>
+    `;
+
+    overlay.innerHTML = `
+      <div class="modal goal-complete-modal">
+        <div class="goal-complete-body">
+          <div class="goal-complete-icon">✓</div>
+          <div class="goal-complete-kicker">目标完成</div>
+          <h3>${Dashboard.escapeHtml(item.text)}</h3>
+          <p class="goal-complete-meta">已完成 ${done} / ${total}${unit ? ' ' + Dashboard.escapeHtml(unit) : ''}</p>
+          ${rewardHtml}
+          <button class="btn-primary goal-complete-close">收下奖励</button>
+        </div>
+      </div>
+    `;
+
+    overlay.classList.remove('hidden');
+
+    const close = () => overlay.classList.add('hidden');
+    overlay.querySelector('.goal-complete-close').addEventListener('click', close);
+    overlay.onclick = (e) => { if (e.target === overlay) close(); };
+  },
+
   openDetail(id) {
     const list = this.goals;
     const idx = list.findIndex(i => i.id === id);
@@ -294,8 +339,8 @@ const GoalProgress = {
       this.render();
       if (typeof Challenges !== 'undefined') Challenges.render();
       close();
-      if (justCompleted && list[idx].reward) {
-        Helpers.showToast(`🎉「${list[idx].text}」完成！奖励：${list[idx].reward}`, 'success', 4000);
+      if (justCompleted) {
+        this.showCompletion(list[idx]);
       }
     });
 

@@ -2092,6 +2092,88 @@ textarea {
   gap: 8px;
 }
 
+.goal-complete-modal {
+  width: 360px;
+  max-width: 90vw;
+  background: var(--bg);
+}
+
+.goal-complete-body {
+  padding: 28px 24px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.goal-complete-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--pastel-yellow);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+  box-shadow: 0 8px 24px rgba(212, 168, 67, 0.18);
+}
+
+.goal-complete-kicker {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.goal-complete-body h3 {
+  font-size: 1.1rem;
+  line-height: 1.35;
+  color: var(--text);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.goal-complete-meta {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.goal-complete-reward {
+  width: 100%;
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid var(--border-light);
+}
+
+.goal-complete-reward.muted {
+  background: var(--bg-warm);
+}
+
+.goal-complete-reward-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.goal-complete-reward strong {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.goal-complete-close {
+  width: 100%;
+  justify-content: center;
+}
+
 .challenge-create-modal .modal-body {
   gap: 14px;
 }

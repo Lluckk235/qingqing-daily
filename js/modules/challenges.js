@@ -157,16 +157,17 @@ const Challenges = {
     } else if (item.done === targetDay - 1) {
       item.done = targetDay;
       if (item.done >= item.total) {
-        if (item.reward) {
-          Helpers.showToast(`🎉「${item.text}」完成！奖励：${item.reward}`, 'success', 4000);
+        if (typeof GoalProgress !== 'undefined' && GoalProgress.showCompletion) {
+          GoalProgress.showCompletion(item);
         } else {
-          Helpers.showToast(`🎉「${item.text}」挑战成功！30天完成！`, 'success', 4000);
+          Helpers.showToast(`🎉「${item.text}」已完成！`, 'success', 4000);
         }
       }
     }
     item.updatedAt = Date.now();
     this.saveList(list);
     this.render();
+    if (typeof GoalProgress !== 'undefined') GoalProgress.render();
   },
 
   remove(id) {
