@@ -1,9 +1,10 @@
 /* ========================================
    卿卿日常 · Supabase REST 封装（纯 fetch，无 CDN 依赖）
    所有模块统一使用此封装访问 Supabase
+   使用 var 声明确保自动挂载到 window
    ======================================== */
 
-const Supabase = {
+var Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
 
@@ -67,35 +68,38 @@ const Supabase = {
   delete(path) { return this.fetch(path, { method: 'DELETE' }); },
 };
 
-// 暴露到 window 以便控制台诊断
+// var 已自动挂载 window.Supabase，再显式赋值做双重保险
 window.Supabase = Supabase;
 
 /**
  * 控制台诊断函数
  * 在浏览器控制台执行：await supabaseDiag()
  */
-window.supabaseDiag = async function() {
+var supabaseDiag = async function() {
   console.log('=== Supabase 诊断 ===');
   console.log('1. typeof window.supabase (CDN SDK):', typeof window.supabase);
   console.log('2. typeof window.supabaseClient (旧SDK实例):', typeof window.supabaseClient);
   console.log('3. typeof window.Supabase (REST封装):', typeof window.Supabase);
-  console.log('4. Supabase.url:', window.Supabase?.url);
+  console.log('4. Supabase.url:', window.Supabase ? window.Supabase.url : 'N/A');
 
   // 测试读取 user_data
   try {
-    const data = await window.Supabase.get('user_data?select=key&limit=5');
-    console.log('5. ✅ user_data 读取成功，行数:', data?.length, 'keys:', data?.map(r => r.key));
+    var data = await window.Supabase.get('user_data?select=key&limit=5');
+    console.log('5. ✅ user_data 读取成功，行数:', data ? data.length : 0, 'keys:', data ? data.map(function(r) { return r.key; }) : []);
   } catch (e) {
     console.log('5. ❌ user_data 读取失败:', e.message);
   }
 
   // 测试读取 checkins
   try {
-    const data = await window.Supabase.get('checkins?select=date&limit=3&order=date.desc');
-    console.log('6. ✅ checkins 读取成功，行数:', data?.length, data?.map(r => r.date));
+    var data2 = await window.Supabase.get('checkins?select=date&limit=3&order=date.desc');
+    console.log('6. ✅ checkins 读取成功，行数:', data2 ? data2.length : 0, data2 ? data2.map(function(r) { return r.date; }) : []);
   } catch (e) {
     console.log('6. ❌ checkins 读取失败:', e.message);
   }
 
   console.log('=== 诊断结束 ===');
 };
+
+// var 已自动挂载 window.supabaseDiag，再显式赋值做双重保险
+window.supabaseDiag = supabaseDiag;
