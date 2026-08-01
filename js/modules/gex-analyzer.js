@@ -294,3 +294,6 @@ const GexAnalyzer = {
     Helpers.showToast('已删除该条记录', 'info');
   },
 };
+
+// 暴露到全局
+window.GexAnalyzer = GexAnalyzer;

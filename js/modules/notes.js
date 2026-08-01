@@ -109,3 +109,6 @@ const Notes = {
     Helpers.showToast('笔记已删除', 'info');
   },
 };
+
+// 暴露到全局
+window.Notes = Notes;

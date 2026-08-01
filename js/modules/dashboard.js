@@ -27,3 +27,6 @@ const Dashboard = {
     return div.innerHTML;
   },
 };
+
+// 暴露到全局
+window.Dashboard = Dashboard;

@@ -190,3 +190,6 @@ const Berkshire = {
     });
   },
 };
+
+// 暴露到全局
+window.Berkshire = Berkshire;

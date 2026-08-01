@@ -419,3 +419,6 @@ const Expression = {
     });
   },
 };
+
+// 暴露到全局
+window.Expression = Expression;

@@ -179,3 +179,6 @@ const DailyQuote = {
     return div.innerHTML;
   },
 };
+
+// 暴露到全局
+window.DailyQuote = DailyQuote;

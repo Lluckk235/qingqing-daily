@@ -129,3 +129,6 @@ const App = {
 document.addEventListener('DOMContentLoaded', () => {
   App.init();
 });
+
+// 暴露到全局
+window.App = App;

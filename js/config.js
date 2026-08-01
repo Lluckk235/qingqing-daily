@@ -129,3 +129,6 @@ const CONFIG = {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = CONFIG;
 }
+
+// 暴露到全局
+window.CONFIG = CONFIG;

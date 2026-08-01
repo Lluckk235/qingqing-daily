@@ -319,3 +319,6 @@ const DailyNews = {
     return str.replace(/&#?\w+;/g, '').replace(/\s+/g, ' ').trim();
   },
 };
+
+// 暴露到全局
+window.DailyNews = DailyNews;

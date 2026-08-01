@@ -144,3 +144,6 @@ const Challenges = {
     });
   },
 };
+
+// 暴露到全局
+window.Challenges = Challenges;

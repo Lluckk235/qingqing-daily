@@ -176,3 +176,6 @@ const MarketData = {
     }
   },
 };
+
+// 暴露到全局
+window.MarketData = MarketData;

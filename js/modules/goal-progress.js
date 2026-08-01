@@ -311,3 +311,6 @@ const GoalProgress = {
     });
   },
 };
+
+// 暴露到全局
+window.GoalProgress = GoalProgress;

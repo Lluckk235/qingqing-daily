@@ -225,3 +225,6 @@ const MoodCalendar = {
     }
   },
 };
+
+// 暴露到全局，确保 app.js 能访问
+window.MoodCalendar = MoodCalendar;

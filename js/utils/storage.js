@@ -114,3 +114,6 @@ const Storage = {
     return filtered;
   },
 };
+
+// 暴露到全局，确保所有模块能访问
+window.Storage = Storage;

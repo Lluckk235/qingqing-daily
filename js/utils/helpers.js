@@ -108,3 +108,6 @@ const Helpers = {
     return `${y}-${m}-${day}`;
   },
 };
+
+// 暴露到全局
+window.Helpers = Helpers;

@@ -134,3 +134,6 @@ const Checkin = {
     });
   },
 };
+
+// 暴露到全局
+window.Checkin = Checkin;

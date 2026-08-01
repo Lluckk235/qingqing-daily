@@ -91,3 +91,6 @@ const MarketStatus = {
     setInterval(() => this.updateUI(), 60000); // 每分钟更新
   },
 };
+
+// 暴露到全局
+window.MarketStatus = MarketStatus;
