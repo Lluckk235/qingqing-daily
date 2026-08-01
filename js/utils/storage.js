@@ -1,5 +1,6 @@
 /* ========================================
    卿卿日常 · 存储封装（localStorage + Supabase 云端同步）
+   使用纯 REST API（fetch），不依赖 Supabase JS SDK / CDN
    ======================================== */
 
 const Storage = {
@@ -11,7 +12,7 @@ const Storage = {
       const raw = localStorage.getItem(key);
       return raw ? JSON.parse(raw) : fallback;
     } catch (e) {
-      console.warn('Storage.get failed:', key, e);
+      console.warn('[Storage] get failed:', key, e);
       return fallback;
     }
   },
@@ -20,7 +21,7 @@ const Storage = {
     try {
       localStorage.setItem(key, JSON.stringify(value));
     } catch (e) {
-      console.warn('Storage.set failed:', key, e);
+      console.warn('[Storage] set failed:', key, e);
     }
     // 云端同步
     if (this.cloudSync) this._cloudUpsert(key, value);
@@ -30,29 +31,30 @@ const Storage = {
     try {
       localStorage.removeItem(key);
     } catch (e) {
-      console.warn('Storage.remove failed:', key, e);
+      console.warn('[Storage] remove failed:', key, e);
     }
     if (this.cloudSync) this._cloudDelete(key);
   },
 
-  // --- 云端操作 ---
+  // --- 云端操作（纯 REST API） ---
+
   async _cloudUpsert(key, value) {
     try {
-      const { error } = await window.supabaseClient
-        .from('user_data')
-        .upsert({ key, value, updated_at: new Date().toISOString() }, { onConflict: 'key' });
-      if (error) console.warn('Cloud upsert failed:', key, error.message);
+      await Supabase.upsert('user_data', {
+        key,
+        value,
+        updated_at: new Date().toISOString(),
+      }, 'key');
     } catch (e) {
-      console.warn('Cloud upsert error:', key, e.message);
+      console.warn('[Storage] cloud upsert error:', key, e.message);
     }
   },
 
   async _cloudDelete(key) {
     try {
-      const { error } = await window.supabaseClient.from('user_data').delete().eq('key', key);
-      if (error) console.warn('Cloud delete failed:', key, error.message);
+      await Supabase.delete(`user_data?key=eq.${encodeURIComponent(key)}`);
     } catch (e) {
-      console.warn('Cloud delete error:', key, e.message);
+      console.warn('[Storage] cloud delete error:', key, e.message);
     }
   },
 
@@ -60,23 +62,25 @@ const Storage = {
   async syncFromCloud() {
     if (!this.cloudSync) return;
     try {
-      const { data, error } = await window.supabaseClient.from('user_data').select('key,value');
-      if (error) { console.warn('Cloud sync failed:', error.message); return; }
+      const data = await Supabase.get('user_data?select=key,value');
       if (!data || data.length === 0) return;
 
+      let synced = 0;
       for (const row of data) {
         const localRaw = localStorage.getItem(row.key);
         const localData = localRaw ? JSON.parse(localRaw) : null;
         const localTime = localData && localData._updatedAt ? new Date(localData._updatedAt).getTime() : 0;
         const cloudTime = row.value && row.value._updatedAt ? new Date(row.value._updatedAt).getTime() : 0;
 
-        // 云端更新才覆盖本地
-        if (cloudTime > localTime) {
+        // 云端更新才覆盖本地（_updatedAt 不存在时云端优先）
+        if (cloudTime >= localTime) {
           localStorage.setItem(row.key, JSON.stringify(row.value));
+          synced++;
         }
       }
+      console.log(`[Storage] 云端同步完成，同步 ${synced}/${data.length} 条`);
     } catch (e) {
-      console.warn('Cloud sync error:', e.message);
+      console.warn('[Storage] cloud sync error:', e.message);
     }
   },
 

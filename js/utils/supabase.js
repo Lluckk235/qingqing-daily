@@ -1,27 +1,25 @@
 /* ========================================
-   卿卿日常 · Supabase 客户端
-   双通道: SDK (旧模块) + 自定义 fetch (checkin/daily-quote)
+   卿卿日常 · Supabase REST 封装（纯 fetch，无 CDN 依赖）
+   所有模块统一使用此封装访问 Supabase
    ======================================== */
 
-window.supabaseClient = window.supabase.createClient(
-  'https://prpyjwxrovckkpzwytgw.supabase.co',
-  'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj'
-);
-
-// 自定义 fetch 封装，供 checkin.js / daily-quote.js 使用
 const Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
 
-  headers() {
+  headers(extra = {}) {
     return {
       'apikey': this.key,
       'Authorization': `Bearer ${this.key}`,
       'Content-Type': 'application/json',
-      'Prefer': 'return=representation',
+      ...extra,
     };
   },
 
+  /**
+   * 底层 fetch 封装
+   * path: PostgREST 路径，如 'user_data?select=key,value'
+   */
   async fetch(path, options = {}) {
     const url = `${this.url}/rest/v1/${path}`;
     const res = await fetch(url, {
@@ -29,8 +27,8 @@ const Supabase = {
       headers: { ...this.headers(), ...(options.headers || {}) },
     });
     if (!res.ok) {
-      const err = await res.text();
-      console.warn('Supabase error:', path, res.status, err);
+      const err = await res.text().catch(() => '');
+      console.warn('[Supabase] REST error:', path, res.status, err);
       throw new Error(`Supabase ${res.status}: ${err}`);
     }
     const text = await res.text();
@@ -38,7 +36,66 @@ const Supabase = {
   },
 
   get(path) { return this.fetch(path, { method: 'GET' }); },
-  post(path, body) { return this.fetch(path, { method: 'POST', body: JSON.stringify(body) }); },
-  patch(path, body) { return this.fetch(path, { method: 'PATCH', body: JSON.stringify(body) }); },
+
+  post(path, body) {
+    return this.fetch(path, { method: 'POST', body: JSON.stringify(body) });
+  },
+
+  /**
+   * Upsert：插入或更新（基于唯一约束列）
+   * path: 表名，如 'user_data'
+   * body: 要插入的对象
+   * onConflict: 冲突列名，如 'key'
+   */
+  upsert(path, body, onConflict) {
+    const query = onConflict ? `${path}?on_conflict=${onConflict}` : path;
+    return this.fetch(query, {
+      method: 'POST',
+      body: JSON.stringify(body),
+      headers: { 'Prefer': 'return=representation,resolution=merge-duplicates' },
+    });
+  },
+
+  patch(path, body) {
+    return this.fetch(path, {
+      method: 'PATCH',
+      body: JSON.stringify(body),
+      headers: { 'Prefer': 'return=representation' },
+    });
+  },
+
   delete(path) { return this.fetch(path, { method: 'DELETE' }); },
+};
+
+// 暴露到 window 以便控制台诊断
+window.Supabase = Supabase;
+
+/**
+ * 控制台诊断函数
+ * 在浏览器控制台执行：await supabaseDiag()
+ */
+window.supabaseDiag = async function() {
+  console.log('=== Supabase 诊断 ===');
+  console.log('1. typeof window.supabase (CDN SDK):', typeof window.supabase);
+  console.log('2. typeof window.supabaseClient (旧SDK实例):', typeof window.supabaseClient);
+  console.log('3. typeof window.Supabase (REST封装):', typeof window.Supabase);
+  console.log('4. Supabase.url:', window.Supabase?.url);
+
+  // 测试读取 user_data
+  try {
+    const data = await window.Supabase.get('user_data?select=key&limit=5');
+    console.log('5. ✅ user_data 读取成功，行数:', data?.length, 'keys:', data?.map(r => r.key));
+  } catch (e) {
+    console.log('5. ❌ user_data 读取失败:', e.message);
+  }
+
+  // 测试读取 checkins
+  try {
+    const data = await window.Supabase.get('checkins?select=date&limit=3&order=date.desc');
+    console.log('6. ✅ checkins 读取成功，行数:', data?.length, data?.map(r => r.date));
+  } catch (e) {
+    console.log('6. ❌ checkins 读取失败:', e.message);
+  }
+
+  console.log('=== 诊断结束 ===');
 };
