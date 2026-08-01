@@ -35,6 +35,14 @@ const App = {
     // 导航绑定
     this.bindNavigation();
 
+    // 底部 Tab 栏导航 (移动端)
+    document.querySelectorAll('.tab-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const panel = item.dataset.panel;
+        this.navigateTo(panel);
+      });
+    });
+
     // 刷新按钮
     document.getElementById('btnRefresh').addEventListener('click', () => {
       MarketStatus.updateUI();
@@ -87,9 +95,14 @@ const App = {
   },
 
   navigateTo(panel, save = true) {
-    // 更新导航高亮
+    // 更新侧边栏导航高亮
     document.querySelectorAll('.nav-item').forEach(n => {
       n.classList.toggle('active', n.dataset.panel === panel);
+    });
+
+    // 更新底部 Tab 栏高亮
+    document.querySelectorAll('.tab-item').forEach(t => {
+      t.classList.toggle('active', t.dataset.panel === panel);
     });
 
     // 更新面板显示

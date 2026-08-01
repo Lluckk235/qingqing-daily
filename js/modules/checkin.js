@@ -96,42 +96,41 @@ const Checkin = {
     const checked = this.checkedToday();
     const streak = this.calculateStreak();
 
-    const el = document.getElementById('checkinSection');
-    if (!el) return;
+    const html = checked ? `
+      <div class="checkin-done">
+        <span class="checkin-icon">✅</span>
+        <span class="checkin-label">今日已打卡</span>
+      </div>
+      <div class="checkin-streak">连续坚持 <strong>${streak}</strong> 天</div>
+    ` : `
+      <button class="checkin-btn" id="checkinBtn">
+        <span class="checkin-btn-icon">☀️</span>
+        <span>打卡签到</span>
+      </button>
+      <div class="checkin-streak">连续坚持 <strong>${streak}</strong> 天</div>
+    `;
 
-    if (checked) {
-      el.innerHTML = `
-        <div class="checkin-done">
-          <span class="checkin-icon">✅</span>
-          <span class="checkin-label">今日已打卡</span>
-        </div>
-        <div class="checkin-streak">连续坚持 <strong>${streak}</strong> 天</div>
-      `;
-    } else {
-      el.innerHTML = `
-        <button class="checkin-btn" id="checkinBtn">
-          <span class="checkin-btn-icon">☀️</span>
-          <span>打卡签到</span>
-        </button>
-        <div class="checkin-streak">连续坚持 <strong>${streak}</strong> 天</div>
-      `;
-    }
+    const el = document.getElementById('checkinSection');
+    if (el) el.innerHTML = html;
+
+    const elMobile = document.getElementById('checkinSectionMobile');
+    if (elMobile) elMobile.innerHTML = html;
   },
 
   bindEvents() {
-    const el = document.getElementById('checkinSection');
-    if (!el) return;
-    // 事件委托
-    el.addEventListener('click', (e) => {
-      const btn = e.target.closest('#checkinBtn');
-      if (btn) {
-        btn.disabled = true;
-        this.doCheckin().finally(() => {
-          if (document.getElementById('checkinBtn')) {
-            document.getElementById('checkinBtn').disabled = false;
-          }
-        });
-      }
+    // 事件委托 - 同时绑定桌面端和移动端容器
+    ['checkinSection', 'checkinSectionMobile'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('click', (e) => {
+        const btn = e.target.closest('#checkinBtn');
+        if (btn) {
+          btn.disabled = true;
+          this.doCheckin().finally(() => {
+            document.querySelectorAll('#checkinBtn').forEach(b => b.disabled = false);
+          });
+        }
+      });
     });
   },
 };

@@ -1,54 +1,65 @@
 /* ========================================
-   卿卿日常 · Notion 风格主题
+   卿卿日常 · 奶油白柔和 iOS 风格
+   奶油白底 + 浅灰卡片 + Pastel 圆点 + 黑色按钮
    ======================================== */
 
 /* --- CSS 变量 --- */
 :root {
-  /* Notion 风格配色 */
-  --bg: #FFFFFF;
-  --bg-warm: #F7F6F3;
-  --card: #FFFFFF;
-  --card-hover: #F7F6F3;
-  --text: #37352F;
-  --text-secondary: #6B6966;
-  --text-muted: #9B9A97;
-  --border: #E9E9E7;
-  --border-light: #F1F1EF;
+  /* 背景色 - 奶油白 */
+  --bg: #FFFDF6;
+  --bg-alt: #FFFCF4;
+  --bg-warm: #F5F5F2;
+  --card: #F3F3F1;
 
-  /* 强调色 - 保持莫兰迪低饱和度 */
-  --accent-positive: #5A8F6C;
-  --accent-positive-bg: #EDF3EF;
-  --accent-negative: #C4826C;
-  --accent-negative-bg: #F9F0ED;
-  --accent-info: #6B8F9B;
-  --accent-info-bg: #EEF2F4;
-  --accent-highlight: #D4B896;
-  --accent-highlight-bg: #F9F4EE;
+  /* Pastel 色块 - 柔和完成圆点用 */
+  --pastel-pink: #F6A8D0;
+  --pastel-green: #D3E99A;
+  --pastel-yellow: #F7D96B;
+  --pastel-blue: #BFD8F7;
+  --pastel-purple: #D8D0FF;
+  --pastel-gray: #F5F5F2;
 
-  /* 侧边栏 */
-  --sidebar-bg: #FBFBFA;
-  --sidebar-text: #6B6966;
-  --sidebar-active: #37352F;
-  --sidebar-hover-bg: #F1F1EF;
+  /* 文字 - 柔和黑/灰 */
+  --text: #1E1E1E;
+  --text-secondary: #6F6F6F;
+  --text-muted: #A0A0A0;
 
-  /* 阴影 - Notion 风格几乎无阴影 */
-  --shadow-sm: 0 0 0 1px rgba(15, 15, 15, 0.05);
-  --shadow-md: 0 0 0 1px rgba(15, 15, 15, 0.08);
-  --shadow-lg: 0 0 0 1px rgba(15, 15, 15, 0.08), 0 2px 8px rgba(15, 15, 15, 0.06);
+  /* 按钮主色 */
+  --btn-primary-bg: #171717;
 
-  /* 圆角 */
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 8px;
-  --radius-xl: 12px;
+  /* 边框 - 暖灰 */
+  --border: #E8E8E5;
+  --border-light: #F0F0ED;
+
+  /* 强调色 - 柔和 */
+  --accent-positive: #6BAA5D;
+  --accent-positive-bg: #E8F5E0;
+  --accent-negative: #D4736E;
+  --accent-negative-bg: #F9E4E2;
+  --accent-info: #6B8FCC;
+  --accent-info-bg: #E4EDF9;
+  --accent-highlight: #D4A843;
+  --accent-highlight-bg: #FAF0DC;
+
+  /* 阴影 - 暖色浮起感 */
+  --shadow-sm: 0 1px 3px rgba(80, 70, 40, 0.05);
+  --shadow-md: 0 4px 16px rgba(80, 70, 40, 0.07);
+  --shadow-lg: 0 8px 32px rgba(80, 70, 40, 0.09);
+
+  /* 圆角 - 大圆角 iOS 风格 */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 20px;
+  --radius-pill: 100px;
 
   /* 字体 */
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
   --font-mono: "SF Mono", "Cascadia Code", "Consolas", "Monaco", monospace;
 
   /* 过渡 */
-  --transition: 0.15s ease;
-  --transition-slow: 0.25s ease;
+  --transition: 0.2s ease;
+  --transition-slow: 0.3s ease;
 }
 
 /* --- Reset --- */
@@ -75,31 +86,32 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* --- 排版 --- */
-h1 { font-size: 1.15rem; font-weight: 600; }
-h2 { font-size: 0.95rem; font-weight: 600; color: var(--text); }
-h3 { font-size: 0.9rem; font-weight: 600; }
+h1 { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+h3 { font-size: 0.92rem; font-weight: 600; }
 p  { color: var(--text-secondary); font-size: 0.85rem; }
 
 a { color: var(--accent-info); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* --- 滚动条 --- */
-::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #DDD; border-radius: 2px; }
-::-webkit-scrollbar-thumb:hover { background: #CCC; }
+::-webkit-scrollbar-thumb { background: #D8D8D2; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #C0C0BA; }
 
 /* --- 通用动画 --- */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
+  from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slideIn {
-  from { opacity: 0; transform: translateX(-4px); }
+  from { opacity: 0; transform: translateX(-6px); }
   to { opacity: 1; transform: translateX(0); }
 }
 

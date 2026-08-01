@@ -11,8 +11,8 @@ const DAILY_QUOTE_CACHE_KEY = 'qq_daily_quote_cache';
 const FALLBACK_QUOTES = [
   { category:'成长',zh:'今天不用证明自己很厉害，只要比昨天更清楚一点。',en:'You do not need to prove yourself today. Just become a little clearer than yesterday.',action:'写下今天最重要的一件小事。' },
   { category:'成长',zh:'稳定不是每天状态都好，而是状态一般时也能做一点。',en:'Consistency means doing a little even on ordinary days.',action:'完成一个 10 分钟任务。' },
-  { category:'成长',zh:'别急着变成别人期待的样子，先把自己的节奏找回来。',en:'Do not rush to become what others expect. Return to your own rhythm first.',action:'给自己 15 分钟安静���间。' },
-  { category:'成长',zh:'你不是落后了，你只是在重新��理自己的路线。',en:'You are not behind. You are reorganizing your path.',action:'整理一个最近卡住的问题。' },
+  { category:'成长',zh:'别急着变成别人期待的样子，先把自己的节奏找回来。',en:'Do not rush to become what others expect. Return to your own rhythm first.',action:'给自己 15 分钟安静时间。' },
+  { category:'成长',zh:'你不是落后了，你只是在重新整理自己的路线。',en:'You are not behind. You are reorganizing your path.',action:'整理一个最近卡住的问题。' },
   { category:'成长',zh:'今天先不要追求完美，先让事情发生。',en:'Do not chase perfection today. Let the work begin first.',action:'打开一个任务，先做第一步。' },
   { category:'成长',zh:'真正的进步，常常发生在没人看见的重复里。',en:'Real progress often happens in unseen repetition.',action:'重复练习一个你想变好的动作。' },
   { category:'成长',zh:'今天的目标不是翻盘，而是恢复一点掌控感。',en:'Today\'s goal is to regain a little sense of control.',action:'列出三件你能控制的小事。' },
@@ -22,8 +22,8 @@ const FALLBACK_QUOTES = [
   { category:'成长',zh:'慢一点没关系，关键是不要把自己从生活里放弃掉。',en:'Moving slowly is fine. Just do not give up on your own life.',action:'做一件照顾自己的小事。' },
   { category:'成长',zh:'把注意力放回行动上，焦虑会小一点。',en:'Bring your attention back to action, and anxiety becomes smaller.',action:'选一件能立刻开始的事。' },
   { category:'成长',zh:'你不需要一次改变人生，只需要今天不原地打转。',en:'You do not need to change your whole life at once. Just stop circling today.',action:'推进一个停滞的任务。' },
-  { category:'成长',zh:'清醒不是不难过，而是难过时还能看��下一步。',en:'Clarity is not the absence of sadness. It is seeing the next step through it.',action:'写下下一步该做什么。' },
-  { category:'成长',zh:'真正的自律，��给重要的事留出位置。',en:'Real discipline is making room for what matters.',action:'删掉一个不必要的安排。' },
+  { category:'成长',zh:'清醒不是不难过，而是难过时还能看见下一步。',en:'Clarity is not the absence of sadness. It is seeing the next step through it.',action:'写下下一步该做什么。' },
+  { category:'成长',zh:'真正的自律，是给重要的事留出位置。',en:'Real discipline is making room for what matters.',action:'删掉一个不必要的安排。' },
   { category:'成长',zh:'不要用一天的情绪，否定长期的努力。',en:'Do not judge long-term effort by one day\'s mood.',action:'回顾一个最近的进步。' },
   { category:'成长',zh:'生活变好，常常不是突然突破，而是少一点混乱。',en:'Life often gets better not through a breakthrough, but through less chaos.',action:'整理一个小区域。' },
   { category:'成长',zh:'你可以重新开始很多次，每次都算数。',en:'You can begin again many times. Every beginning counts.',action:'重启一个被搁置的小计划。' },
@@ -41,14 +41,14 @@ const FALLBACK_QUOTES = [
   { category:'表达',zh:'好的表达，不是声音最大，而是让人听懂。',en:'Good expression is not the loudest voice. It is being understood.',action:'把一句话改得更简单。' },
   { category:'投资',zh:'投资先问风险，再问收益；先问能否活下来，再问能赚多少。',en:'In investing, ask about risk before return. Survival comes before profit.',action:'检查一个持仓的最大风险。' },
   { category:'投资',zh:'市场每天报价，但不每天给答案。',en:'The market gives prices every day, but not answers every day.',action:'少看一次价格，多看一个事实。' },
-  { category:'投资',zh:'好公司不等于好价格，好故事不等于好投资。',en:'A good company is not always a good price. A good story is not always a good investment.',action:'写下一个标的的��值疑问。' },
+  { category:'投资',zh:'好公司不等于好价格，好故事不等于好投资。',en:'A good company is not always a good price. A good story is not always a good investment.',action:'写下一个标的的估值疑问。' },
   { category:'投资',zh:'真正的安全边际，来自理解，而不是安慰自己。',en:'A real margin of safety comes from understanding, not self-comfort.',action:'补充一个没弄懂的数据。' },
   { category:'投资',zh:'不要因为涨了才相信，也不要因为跌了才研究。',en:'Do not believe only because it rises, and do not research only because it falls.',action:'更新一条核心事实。' },
   { category:'投资',zh:'长期主义不是拿着不动，而是知道什么变化真的重要。',en:'Long-term thinking is not doing nothing. It is knowing what changes truly matter.',action:'区分一个事实变化和情绪变化。' },
   { category:'投资',zh:'能力圈不是限制你，而是保护你慢慢变强。',en:'Your circle of competence does not limit you. It protects you while you grow.',action:'标记一个暂时看不懂的领域。' },
-  { category:'投资',zh:'一次不冲动的放弃，也��一笔好投资。',en:'A non-impulsive pass can also be a good investment.',action:'写下一个今天决定不碰的机会。' },
+  { category:'投资',zh:'一次不冲动的放弃，也是一笔好投资。',en:'A non-impulsive pass can also be a good investment.',action:'写下一个今天决定不碰的机会。' },
   { category:'投资',zh:'现金不是懒惰，现金有时是等待清晰的选择权。',en:'Cash is not laziness. Sometimes it is the option to wait for clarity.',action:'检查一次仓位舒适度。' },
-  { category:'投资',zh:'看懂一家公司��比追十个热点更有复利。',en:'Understanding one company compounds better than chasing ten trends.',action:'读一页财报或公司资料。' },
+  { category:'投资',zh:'看懂一家公司，比追十个热点更有复利。',en:'Understanding one company compounds better than chasing ten trends.',action:'读一页财报或公司资料。' },
 ];
 
 const CATEGORY_LABELS = { 成长: '🌱', 表达: '💬', 投资: '📈' };
@@ -60,10 +60,11 @@ const DailyQuote = {
   loaded: false,
 
   async init() {
-    const catEls = document.querySelectorAll('#dailyQuoteSection');
+    const catEls = document.querySelectorAll('#dailyQuoteSection, #dailyQuoteSectionMobile');
     if (!catEls.length) return;
 
     await this.load();
+    this.currentIdx = this.getDefaultIdx();
     this.render();
     this.bindEvents();
   },
@@ -133,12 +134,9 @@ const DailyQuote = {
   },
 
   render() {
-    const el = document.getElementById('dailyQuoteSection');
-    if (!el) return;
-
     const q = this.getCurrentQuote();
 
-    el.innerHTML = `
+    const html = `
       <div class="quote-body">
         <div class="quote-zh">${this.escapeHtml(q.zh)}</div>
         <div class="quote-en">${this.escapeHtml(q.en)}</div>
@@ -148,22 +146,30 @@ const DailyQuote = {
         <button class="quote-refresh-btn" id="quoteRefreshBtn" title="换一句">🔄 换一句</button>
       </div>
     `;
+
+    const el = document.getElementById('dailyQuoteSection');
+    if (el) el.innerHTML = html;
+
+    const elMobile = document.getElementById('dailyQuoteSectionMobile');
+    if (elMobile) elMobile.innerHTML = html;
   },
 
   bindEvents() {
-    const el = document.getElementById('dailyQuoteSection');
-    if (!el) return;
-
-    el.addEventListener('click', (e) => {
-      const catBtn = e.target.closest('.quote-cat-btn');
-      if (catBtn) {
-        this.switchCategory(catBtn.dataset.cat);
-        return;
-      }
-      const refreshBtn = e.target.closest('#quoteRefreshBtn');
-      if (refreshBtn) {
-        this.nextQuote();
-      }
+    // 同时绑定桌面端和移动端容器
+    ['dailyQuoteSection', 'dailyQuoteSectionMobile'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('click', (e) => {
+        const catBtn = e.target.closest('.quote-cat-btn');
+        if (catBtn) {
+          this.switchCategory(catBtn.dataset.cat);
+          return;
+        }
+        const refreshBtn = e.target.closest('#quoteRefreshBtn');
+        if (refreshBtn) {
+          this.nextQuote();
+        }
+      });
     });
   },
 

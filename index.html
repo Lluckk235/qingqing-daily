@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="卿卿日常">
-  <meta name="theme-color" content="#F5F0EB">
+  <meta name="theme-color" content="#FFFDF6">
   <link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -78,6 +78,12 @@
     <main class="content" id="mainContent">
       <!-- Dashboard 面板 -->
       <section class="panel active" id="panel-dashboard">
+        <!-- 移动端首页头部：打卡 + 每日一句 -->
+        <div class="mobile-dashboard-header">
+          <div class="checkin-section" id="checkinSectionMobile"></div>
+          <div class="daily-quote-section" id="dailyQuoteSectionMobile"></div>
+        </div>
+
         <!-- 快捷入口卡片 -->
         <div class="quick-actions">
           <div class="action-card" data-goto="berkshire">
@@ -112,6 +118,17 @@
             <div class="action-text">
               <h3>每日复盘</h3>
               <p>交易记录 · 投资思考 · 待办事项</p>
+            </div>
+          </div>
+          <div class="action-card" data-goto="expression">
+            <div class="action-icon blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <div class="action-text">
+              <h3>表达训练</h3>
+              <p>借物表达 · 每天一分钟</p>
             </div>
           </div>
         </div>
@@ -406,7 +423,7 @@
                     <option value="todo">待办事项</option>
                     <option value="research">研究笔记</option>
                   </select>
-                  <button class="btn-primary" id="btnSaveNote">保存笔记</button>
+                  <button class="btn-primary" id="btnSaveNote">保存</button>
                 </div>
               </div>
             </div>
@@ -462,6 +479,30 @@
 
     </main>
   </div>
+
+  <!-- 底部 Tab 栏 (移动端) -->
+  <nav class="bottom-tabbar" id="bottomTabbar">
+    <a class="tab-item active" data-panel="dashboard">
+      <span class="tab-emoji">🏠</span>
+      <span>首页</span>
+    </a>
+    <a class="tab-item" data-panel="berkshire">
+      <span class="tab-emoji">🔬</span>
+      <span>研究</span>
+    </a>
+    <a class="tab-item" data-panel="gex">
+      <span class="tab-emoji">📊</span>
+      <span>GEX</span>
+    </a>
+    <a class="tab-item" data-panel="notes">
+      <span class="tab-emoji">📝</span>
+      <span>复盘</span>
+    </a>
+    <a class="tab-item" data-panel="expression">
+      <span class="tab-emoji">💬</span>
+      <span>表达</span>
+    </a>
+  </nav>
 
   <!-- Toast 通知 -->
   <div class="toast-container" id="toastContainer"></div>
