@@ -229,9 +229,6 @@ const MoodCalendar = {
         <div class="mood-picker-handle"></div>
         <div class="mood-picker-title">${dateKey} 的心情</div>
         <div class="mood-picker-options">${moodsHtml}</div>
-        <label class="mood-field-label" for="moodPickerNote">随手备注</label>
-        <textarea class="mood-picker-note input-lg" id="moodPickerNote"
-          placeholder="写点什么…（可选）" rows="2">${entry.note ? Dashboard.escapeHtml(entry.note) : ''}</textarea>
         <div class="mood-diary-section">
           <div class="mood-diary-heading">
             <span>321 日记</span>
@@ -271,7 +268,6 @@ const MoodCalendar = {
 
     const save = () => {
       const sel = sheet.querySelector('.mood-picker-option.selected');
-      const note = sheet.querySelector('#moodPickerNote').value.trim();
       const diaryNext = this.collectDiary(sheet);
       const cur = this.data;
       const hasDiary = [
@@ -279,10 +275,9 @@ const MoodCalendar = {
         diaryNext.reflection,
         diaryNext.affirmation,
       ].some(v => v.trim());
-      if (sel || note || hasDiary) {
+      if (sel || hasDiary) {
         cur[dateKey] = {
           mood: sel ? sel.dataset.mood : (entry.mood || ''),
-          note,
           diary: diaryNext,
           updatedAt: new Date().toISOString(),
         };
