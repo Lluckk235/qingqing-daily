@@ -214,39 +214,24 @@ const GoalProgress = {
 
           <div class="goal-detail-row">
             <div class="goal-detail-field">
-              <label>类型</label>
-              <select class="input" id="goalDetailType">
-                <option value="short" ${item.type === 'short' ? 'selected' : ''}>短期</option>
-                <option value="long" ${item.type === 'long' ? 'selected' : ''}>长期</option>
-              </select>
-            </div>
-            <div class="goal-detail-field goal-detail-field-wide">
-              <label class="goal-detail-pin">
-                <input type="checkbox" id="goalDetailPinned" ${item.pinned ? 'checked' : ''}>
-                <span>置顶首页</span>
-              </label>
-            </div>
-          </div>
-
-          <div class="goal-detail-row">
-            <div class="goal-detail-field">
               <label>目标总量</label>
               <input type="number" class="input" id="goalDetailTotal" value="${item.total || 30}" min="1">
             </div>
             <div class="goal-detail-field">
               <label>单位</label>
-              <input type="text" class="input" id="goalDetailUnit" value="${Dashboard.escapeHtml(item.unit || '次')}" placeholder="次/页/公里">
+              <input type="text" class="input" id="goalDetailUnit" list="goalDetailUnitOptions" value="${Dashboard.escapeHtml(item.unit || '次')}" placeholder="次 / 天 / 小时">
+              <datalist id="goalDetailUnitOptions">
+                <option value="次"></option>
+                <option value="天"></option>
+                <option value="小时"></option>
+              </datalist>
             </div>
           </div>
 
           <div class="goal-detail-row">
             <div class="goal-detail-field">
               <label>当前进度</label>
-              <div class="goal-detail-stepper">
-                <button class="btn-secondary" id="goalDetailMinus">−</button>
-                <input type="number" class="input" id="goalDetailDone" value="${item.done || 0}" min="0">
-                <button class="btn-secondary" id="goalDetailPlus">+</button>
-              </div>
+              <input type="number" class="input" id="goalDetailDone" value="${item.done || 0}" min="0">
             </div>
             <div class="goal-detail-field">
               <label>截止日期</label>
@@ -279,7 +264,7 @@ const GoalProgress = {
     });
     overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
 
-    // 进度步进
+    // 进度校验
     const doneInput = overlay.querySelector('#goalDetailDone');
     const totalInput = overlay.querySelector('#goalDetailTotal');
     const clamp = () => {
@@ -290,14 +275,6 @@ const GoalProgress = {
       doneInput.value = done;
       totalInput.value = total;
     };
-    overlay.querySelector('#goalDetailPlus').addEventListener('click', () => {
-      doneInput.value = (parseInt(doneInput.value, 10) || 0) + 1;
-      clamp();
-    });
-    overlay.querySelector('#goalDetailMinus').addEventListener('click', () => {
-      doneInput.value = (parseInt(doneInput.value, 10) || 0) - 1;
-      clamp();
-    });
     doneInput.addEventListener('change', clamp);
     totalInput.addEventListener('change', clamp);
 
@@ -311,13 +288,11 @@ const GoalProgress = {
       list[idx] = {
         ...item,
         text: overlay.querySelector('#goalDetailName').value.trim() || item.text,
-        type: overlay.querySelector('#goalDetailType').value,
         unit: overlay.querySelector('#goalDetailUnit').value.trim() || '次',
         total,
         done,
         deadline: overlay.querySelector('#goalDetailDeadline').value,
         reward: overlay.querySelector('#goalDetailReward').value.trim(),
-        pinned: overlay.querySelector('#goalDetailPinned').checked,
         updatedAt: Date.now(),
       };
 

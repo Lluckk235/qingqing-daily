@@ -48,30 +48,22 @@ const Challenges = {
 
           <div class="goal-detail-row">
             <div class="goal-detail-field">
-              <label>目标类型</label>
-              <select class="input" id="challengeCreateType">
-                <option value="short" selected>短期目标</option>
-                <option value="long">长期目标</option>
-              </select>
-            </div>
-            <div class="goal-detail-field">
               <label>目标总量</label>
               <input type="number" class="input" id="challengeCreateTotal" value="50" min="1">
             </div>
-          </div>
-
-          <div class="goal-detail-row">
             <div class="goal-detail-field">
               <label>单位（可不填）</label>
               <input type="text" class="input" id="challengeCreateUnit" list="challengeUnitOptions"
-                value="次" placeholder="次 / 天 / 小时 / 个">
+                value="次" placeholder="次 / 天 / 小时">
               <datalist id="challengeUnitOptions">
                 <option value="次"></option>
                 <option value="天"></option>
                 <option value="小时"></option>
-                <option value="个"></option>
               </datalist>
             </div>
+          </div>
+
+          <div class="goal-detail-row">
             <div class="goal-detail-field">
               <label>截止日期（可不填）</label>
               <input type="date" class="input" id="challengeCreateDeadline">
@@ -119,10 +111,8 @@ const Challenges = {
         done: 0,
         total,
         unit,
-        type: overlay.querySelector('#challengeCreateType').value,
         deadline: overlay.querySelector('#challengeCreateDeadline').value,
         reward: overlay.querySelector('#challengeCreateReward').value.trim(),
-        pinned: false,
         updatedAt: Date.now(),
         time: Date.now(),
       });
