@@ -267,7 +267,7 @@ const DailyNews = {
         </div>
         ${item.whyImportant ? `<div class="dnc-why"><span class="dnc-why-label">为什么重要</span><span class="dnc-why-text">${this.escapeHtml(this.cleanHtml(item.whyImportant))}</span></div>` : ''}
         <a href="${item.sourceUrl}" target="_blank" rel="noopener" class="dnc-link">
-          打开原文 / 浏览器翻译阅读 →
+          查看全文 →
         </a>
       </div>
     `;
