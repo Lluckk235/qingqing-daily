@@ -1892,6 +1892,9 @@ textarea {
 
 .mood-picker-save {
   flex: 1;
+  justify-content: center;
+  letter-spacing: 0.18em;
+  text-indent: 0.18em;
 }
 
 .mood-picker-clear {
