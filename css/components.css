@@ -1992,25 +1992,59 @@ textarea {
 
 .goal-progress-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 16px 14px;
+  padding-top: 8px;
 }
 
 .goal-card {
+  position: relative;
   background: var(--card);
   border-radius: var(--radius-lg);
-  padding: 14px;
+  min-height: 154px;
+  padding: 24px 12px 14px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
+  gap: 9px;
+  text-align: center;
   box-shadow: var(--shadow-sm);
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   border: 1px solid var(--border-light);
 }
 
+.goal-card::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--pastel-pink);
+  border: 2px solid rgba(255, 253, 246, 0.9);
+  box-shadow:
+    0 2px 5px rgba(80, 70, 40, 0.12),
+    inset 0 -1px 2px rgba(80, 70, 40, 0.1);
+  transform: translateX(-50%);
+}
+
+.goal-card:nth-child(2n)::before {
+  background: var(--pastel-green);
+}
+
+.goal-card:nth-child(3n)::before {
+  background: var(--pastel-yellow);
+}
+
+.goal-card:nth-child(4n)::before {
+  background: var(--pastel-purple);
+}
+
 .goal-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px) rotate(-0.4deg);
   box-shadow: var(--shadow-md);
 }
 
@@ -2020,9 +2054,9 @@ textarea {
 
 .goal-ring-wrap {
   position: relative;
-  width: 56px;
-  height: 56px;
-  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 auto;
 }
 
 .goal-ring {
@@ -2052,21 +2086,24 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--text);
 }
 
 .goal-info {
-  flex: 1;
+  width: 100%;
+  flex: 0 0 auto;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  gap: 5px;
 }
 
 .goal-name {
-  font-size: 0.88rem;
+  width: 100%;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text);
   white-space: nowrap;
@@ -2080,7 +2117,7 @@ textarea {
 }
 
 .goal-completed-badge {
-  align-self: flex-start;
+  align-self: center;
   font-size: 0.68rem;
   font-weight: 600;
   color: var(--text);
