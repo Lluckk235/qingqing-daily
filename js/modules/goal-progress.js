@@ -167,9 +167,12 @@ const GoalProgress = {
     overlay.innerHTML = `
       <div class="modal goal-complete-modal">
         <div class="goal-complete-body">
-          <div class="goal-complete-icon">✓</div>
-          <div class="goal-complete-kicker">目标完成</div>
-          <h3>${Dashboard.escapeHtml(item.text)}</h3>
+          <div class="goal-complete-hero" aria-hidden="true">
+            <span class="goal-complete-glow"></span>
+            <img class="goal-complete-emoji" src="assets/rewards/goal-complete-cheer.png" alt="">
+          </div>
+          <h3>目标完成啦</h3>
+          <p class="goal-complete-target">你完成了「${Dashboard.escapeHtml(item.text)}」</p>
           <p class="goal-complete-meta">已完成 ${done} / ${total}${unit ? ' ' + Dashboard.escapeHtml(unit) : ''}</p>
           ${rewardHtml}
           <button class="btn-primary goal-complete-close">收下奖励</button>

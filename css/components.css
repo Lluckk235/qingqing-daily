@@ -726,6 +726,8 @@ textarea {
 .note-actions .btn-primary {
   padding: 10px 20px;
   border-radius: var(--radius-md);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .note-card {
@@ -2390,46 +2392,59 @@ textarea {
 }
 
 .goal-complete-body {
-  padding: 28px 24px 24px;
+  padding: 26px 24px 24px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
-.goal-complete-icon {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: var(--pastel-yellow);
-  color: var(--text);
+.goal-complete-hero {
+  position: relative;
+  width: 172px;
+  height: 142px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  font-weight: 800;
-  box-shadow: 0 8px 24px rgba(212, 168, 67, 0.18);
 }
 
-.goal-complete-kicker {
-  font-size: 0.76rem;
-  color: var(--text-muted);
-  font-weight: 700;
-  letter-spacing: 0.08em;
+.goal-complete-glow {
+  position: absolute;
+  inset: 18px 0 8px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(247, 217, 107, 0.38), rgba(255, 226, 236, 0.18) 55%, rgba(255, 253, 246, 0));
+  filter: blur(10px);
+}
+
+.goal-complete-emoji {
+  position: relative;
+  width: 152px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 18px rgba(31, 31, 29, 0.12));
 }
 
 .goal-complete-body h3 {
-  font-size: 1.1rem;
+  font-size: 1.38rem;
   line-height: 1.35;
   color: var(--text);
   max-width: 100%;
   overflow-wrap: anywhere;
 }
 
-.goal-complete-meta {
-  font-size: 0.82rem;
+.goal-complete-target {
+  font-size: 0.86rem;
+  line-height: 1.45;
   color: var(--text-secondary);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.goal-complete-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
 }
 
 .goal-complete-reward {
