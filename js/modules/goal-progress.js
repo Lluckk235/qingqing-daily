@@ -148,9 +148,9 @@ const GoalProgress = {
       document.body.appendChild(overlay);
     }
 
-    const unit = item.unit || '';
-    const done = Math.min(item.done || 0, item.total || 1);
+    const unit = item.unit || '次';
     const total = item.total || 1;
+    const done = Math.min(item.done || 0, total);
     const reward = (item.reward || '').trim();
     const rewardHtml = reward ? `
       <div class="goal-complete-reward">
@@ -171,9 +171,9 @@ const GoalProgress = {
             <span class="goal-complete-glow"></span>
             <img class="goal-complete-emoji" src="assets/rewards/goal-complete-cheer.png" alt="">
           </div>
-          <h3>目标完成啦</h3>
-          <p class="goal-complete-target">你完成了「${Dashboard.escapeHtml(item.text)}」</p>
-          <p class="goal-complete-meta">已完成 ${done} / ${total}${unit ? ' ' + Dashboard.escapeHtml(unit) : ''}</p>
+          <h3>你太棒啦！</h3>
+          <p class="goal-complete-target">完成「${Dashboard.escapeHtml(item.text)}」</p>
+          <p class="goal-complete-meta">${done} ${Dashboard.escapeHtml(unit)}</p>
           ${rewardHtml}
           <button class="btn-primary goal-complete-close">收下奖励</button>
         </div>
