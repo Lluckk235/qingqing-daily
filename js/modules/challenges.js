@@ -206,11 +206,6 @@ const Challenges = {
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
               </svg>
             </span>
-            <span class="challenge-module-del" data-del="${item.id}">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
-              </svg>
-            </span>
           </div>
         </div>
         <div class="challenge-dots">`;
@@ -239,16 +234,6 @@ const Challenges = {
         e.stopPropagation();
         if (typeof GoalProgress !== 'undefined') {
           GoalProgress.openDetail(edit.dataset.edit);
-        }
-      });
-    });
-
-    // 删除模块
-    grid.querySelectorAll('.challenge-module-del').forEach(del => {
-      del.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (confirm('删除这个挑战？')) {
-          this.remove(del.dataset.del);
         }
       });
     });

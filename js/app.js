@@ -45,13 +45,6 @@ const App = {
       });
     });
 
-    // 刷新按钮
-    document.getElementById('btnRefresh').addEventListener('click', () => {
-      MarketStatus.updateUI();
-      MarketData.fetchAll();
-      Helpers.showToast('已刷新', 'info');
-    });
-
     // Logo 点击打开/关闭侧边栏（手机端抽屉菜单）
     document.getElementById('logoClick').addEventListener('click', () => {
       this.toggleSidebar();

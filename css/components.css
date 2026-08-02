@@ -1117,21 +1117,6 @@ textarea {
   gap: 6px;
 }
 
-.challenge-module-del {
-  color: var(--text-muted);
-  cursor: pointer;
-  padding: 4px;
-  border-radius: var(--radius-sm);
-  opacity: 0;
-  transition: all 0.2s;
-}
-.challenge-module:hover .challenge-module-del {
-  opacity: 1;
-}
-.challenge-module-del:hover {
-  color: var(--accent-negative);
-  background: var(--accent-negative-bg);
-}
 .challenge-dots {
   display: flex;
   flex-wrap: wrap;
