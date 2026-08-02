@@ -40,8 +40,16 @@ const MoodCalendar = {
   moodIcon(mood, className) {
     if (!mood) return '';
     return `<img class="${className} mood-icon" src="${Dashboard.escapeHtml(mood.img)}"
-      alt="${Dashboard.escapeHtml(mood.label)}" loading="lazy"
+      alt="${Dashboard.escapeHtml(mood.label)}" draggable="false"
       style="--mood-color:${mood.color}">`;
+  },
+
+  preloadMoodImages() {
+    if (typeof Image === 'undefined') return;
+    this.MOODS.forEach(mood => {
+      const img = new Image();
+      img.src = mood.img;
+    });
   },
 
   emptyDiary() {
@@ -93,6 +101,7 @@ const MoodCalendar = {
   init() {
     this.container = document.getElementById('moodCalendarContainer');
     if (!this.container) return;
+    this.preloadMoodImages();
     this.render();
     this.bindEvents();
   },
