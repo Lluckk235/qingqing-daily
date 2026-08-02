@@ -5,17 +5,17 @@
    ======================================== */
 
 const MoodCalendar = {
-  // 心情定义：使用独立 PNG 表情图，避免九宫格裁切造成留白和方块感。
+  // 心情定义：使用轻量 WebP 表情图，减轻手机端首次加载压力。
   MOODS: [
-    { key: 'happy',      label: '开心',     color: '#F6A8D0', img: 'assets/moods/happy.png', aliases: ['joy'] },
-    { key: 'calm',       label: '平静',     color: '#DDF3D5', img: 'assets/moods/calm.png' },
-    { key: 'fulfilled',  label: '充实',     color: '#F7D96B', img: 'assets/moods/fulfilled.png', aliases: ['energy'] },
-    { key: 'normal',     label: '普通',     color: '#F3E4C8', img: 'assets/moods/normal.png' },
-    { key: 'tired',      label: '疲惫',     color: '#D8D0FF', img: 'assets/moods/tired.png' },
-    { key: 'sad',        label: '低落',     color: '#BFD8F7', img: 'assets/moods/sad.png' },
-    { key: 'anxious',    label: '焦虑',     color: '#F5C99B', img: 'assets/moods/emoji-stressed.png' },
-    { key: 'angry',      label: '生气',     color: '#F58D85', img: 'assets/moods/angry.png' },
-    { key: 'unexpected', label: '意想不到', color: '#CFEDEA', img: 'assets/moods/unexpected.png' },
+    { key: 'happy',      label: '开心',     color: '#F6A8D0', img: 'assets/moods/small/happy.webp', aliases: ['joy'] },
+    { key: 'calm',       label: '平静',     color: '#DDF3D5', img: 'assets/moods/small/calm.webp' },
+    { key: 'fulfilled',  label: '充实',     color: '#F7D96B', img: 'assets/moods/small/fulfilled.webp', aliases: ['energy'] },
+    { key: 'normal',     label: '普通',     color: '#F3E4C8', img: 'assets/moods/small/normal.webp' },
+    { key: 'tired',      label: '疲惫',     color: '#D8D0FF', img: 'assets/moods/small/tired.webp' },
+    { key: 'sad',        label: '低落',     color: '#BFD8F7', img: 'assets/moods/small/sad.webp' },
+    { key: 'anxious',    label: '焦虑',     color: '#F5C99B', img: 'assets/moods/small/emoji-stressed.webp' },
+    { key: 'angry',      label: '生气',     color: '#F58D85', img: 'assets/moods/small/angry.webp' },
+    { key: 'unexpected', label: '意想不到', color: '#CFEDEA', img: 'assets/moods/small/unexpected.webp' },
   ],
 
   // 当前展示的年/月
@@ -40,16 +40,8 @@ const MoodCalendar = {
   moodIcon(mood, className) {
     if (!mood) return '';
     return `<img class="${className} mood-icon" src="${Dashboard.escapeHtml(mood.img)}"
-      alt="${Dashboard.escapeHtml(mood.label)}" draggable="false"
+      alt="${Dashboard.escapeHtml(mood.label)}" draggable="false" loading="lazy" decoding="async"
       style="--mood-color:${mood.color}">`;
-  },
-
-  preloadMoodImages() {
-    if (typeof Image === 'undefined') return;
-    this.MOODS.forEach(mood => {
-      const img = new Image();
-      img.src = mood.img;
-    });
   },
 
   emptyDiary() {
@@ -101,7 +93,6 @@ const MoodCalendar = {
   init() {
     this.container = document.getElementById('moodCalendarContainer');
     if (!this.container) return;
-    this.preloadMoodImages();
     this.render();
     this.bindEvents();
   },
