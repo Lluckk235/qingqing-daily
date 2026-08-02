@@ -16,6 +16,10 @@ const Challenges = {
     Storage.set('challenges_v2', list);
   },
 
+  canDragSort() {
+    return window.matchMedia('(min-width: 769px) and (pointer: fine)').matches;
+  },
+
   add() {
     this.openCreateModal('');
   },
@@ -171,6 +175,7 @@ const Challenges = {
   render() {
     const grid = document.getElementById('challengesGrid');
     const list = this.getList();
+    const canDrag = this.canDragSort();
 
     if (list.length === 0) {
       grid.innerHTML = '<div class="empty-hint">添加一个目标，开始 30 天挑战</div>';
@@ -184,8 +189,15 @@ const Challenges = {
     let html = '';
     list.forEach((item, idx) => {
       const color = colors[idx % colors.length];
-      html += `<div class="challenge-module">
+      html += `<div class="challenge-module" data-id="${item.id}" ${canDrag ? 'draggable="true"' : ''}>
         <div class="challenge-module-header">
+          <span class="challenge-drag-handle" title="拖拽排序" aria-label="拖拽排序">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <circle cx="9" cy="5" r="1.5"/><circle cx="15" cy="5" r="1.5"/>
+              <circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/>
+              <circle cx="9" cy="19" r="1.5"/><circle cx="15" cy="19" r="1.5"/>
+            </svg>
+          </span>
           <span class="challenge-module-title">${Dashboard.escapeHtml(item.text)}</span>
           <span class="challenge-module-count">${item.done}/${item.total}</span>
           <div class="challenge-module-actions">
@@ -240,6 +252,84 @@ const Challenges = {
         }
       });
     });
+
+    this.bindDragSort(grid);
+  },
+
+  bindDragSort(grid) {
+    if (!this.canDragSort()) return;
+
+    let draggingId = null;
+
+    grid.querySelectorAll('.challenge-drag-handle').forEach(handle => {
+      handle.addEventListener('mousedown', () => {
+        const module = handle.closest('.challenge-module');
+        if (module) module.dataset.dragReady = 'true';
+      });
+      handle.addEventListener('mouseup', () => {
+        const module = handle.closest('.challenge-module');
+        if (module) delete module.dataset.dragReady;
+      });
+    });
+
+    grid.querySelectorAll('.challenge-module').forEach(module => {
+      module.addEventListener('dragstart', (e) => {
+        if (module.dataset.dragReady !== 'true') {
+          e.preventDefault();
+          return;
+        }
+        draggingId = module.dataset.id;
+        module.classList.add('is-dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', draggingId);
+      });
+
+      module.addEventListener('dragend', () => {
+        module.classList.remove('is-dragging');
+        delete module.dataset.dragReady;
+        draggingId = null;
+        grid.querySelectorAll('.challenge-module').forEach(el => el.classList.remove('is-drag-over'));
+      });
+
+      module.addEventListener('dragover', (e) => {
+        if (!draggingId || module.dataset.id === draggingId) return;
+        e.preventDefault();
+        module.classList.add('is-drag-over');
+      });
+
+      module.addEventListener('dragleave', () => {
+        module.classList.remove('is-drag-over');
+      });
+
+      module.addEventListener('drop', (e) => {
+        e.preventDefault();
+        module.classList.remove('is-drag-over');
+        const sourceId = e.dataTransfer.getData('text/plain') || draggingId;
+        const targetId = module.dataset.id;
+        if (!sourceId || sourceId === targetId) return;
+        const rect = module.getBoundingClientRect();
+        const position = e.clientY > rect.top + rect.height / 2 ? 'after' : 'before';
+        this.moveTo(sourceId, targetId, position);
+      });
+    });
+  },
+
+  moveTo(sourceId, targetId, position = 'before') {
+    const list = this.getList();
+    const from = list.findIndex(item => item.id === sourceId);
+    const to = list.findIndex(item => item.id === targetId);
+    if (from === -1 || to === -1 || from === to) return;
+
+    const [moved] = list.splice(from, 1);
+    const targetIndex = list.findIndex(item => item.id === targetId);
+    const insertIndex = position === 'after' ? targetIndex + 1 : targetIndex;
+    list.splice(insertIndex, 0, moved);
+    moved.updatedAt = Date.now();
+
+    this.saveList(list);
+    this.render();
+    if (typeof GoalProgress !== 'undefined') GoalProgress.render();
+    Helpers.showToast('目标排序已更新', 'success', 1600);
   },
 };
 

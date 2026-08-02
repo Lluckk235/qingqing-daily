@@ -28,25 +28,9 @@ const GoalProgress = {
     this.render();
   },
 
-  // 排序：置顶 > 未完成 > 进度高 > 最近更新
+  // 首页按目标管理中的手动顺序展示
   sortedGoals(list) {
-    return [...list].sort((a, b) => {
-      const pa = a.pinned ? 1 : 0;
-      const pb = b.pinned ? 1 : 0;
-      if (pb !== pa) return pb - pa;
-
-      const adone = (a.done || 0) >= (a.total || 1);
-      const bdone = (b.done || 0) >= (b.total || 1);
-      if (adone !== bdone) return adone ? 1 : -1;
-
-      const apct = (a.done || 0) / (a.total || 1);
-      const bpct = (b.done || 0) / (b.total || 1);
-      if (bpct !== apct) return bpct - apct;
-
-      const au = a.updatedAt || a.time || 0;
-      const bu = b.updatedAt || b.time || 0;
-      return bu - au;
-    });
+    return [...list];
   },
 
   percent(item) {
@@ -58,8 +42,8 @@ const GoalProgress = {
   render() {
     const list = this.goals;
     const sorted = this.sortedGoals(list);
-    const top = sorted.slice(0, 4);
-    const hasMore = sorted.length > 4;
+    const top = sorted.slice(0, 3);
+    const hasMore = sorted.length > 3;
 
     if (top.length === 0) {
       this.container.innerHTML = `

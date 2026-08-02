@@ -1048,6 +1048,7 @@ textarea {
   padding: 18px 20px;
   background: var(--bg-alt);
   box-shadow: var(--shadow-sm);
+  transition: opacity 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 .challenge-module-header {
   display: flex;
@@ -1055,6 +1056,44 @@ textarea {
   gap: 10px;
   margin-bottom: 12px;
 }
+
+.challenge-drag-handle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  cursor: grab;
+  opacity: 0;
+  transition: opacity 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.challenge-module:hover .challenge-drag-handle {
+  opacity: 1;
+}
+
+.challenge-drag-handle:hover {
+  color: var(--text);
+  background: var(--card);
+}
+
+.challenge-drag-handle:active {
+  cursor: grabbing;
+}
+
+.challenge-module.is-dragging {
+  opacity: 0.48;
+  transform: scale(0.99);
+}
+
+.challenge-module.is-drag-over {
+  box-shadow: 0 0 0 2px rgba(31, 31, 29, 0.12), var(--shadow-md);
+  transform: translateY(-2px);
+}
+
 .challenge-module-title {
   font-weight: 700;
   font-size: 0.9rem;
@@ -1139,6 +1178,12 @@ textarea {
   font-size: 0.64rem;
   font-weight: 700;
   color: var(--text-muted);
+}
+
+@media (max-width: 768px), (pointer: coarse) {
+  .challenge-drag-handle {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
