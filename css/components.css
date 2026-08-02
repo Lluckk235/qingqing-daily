@@ -1696,6 +1696,7 @@ textarea {
   flex: 0 0 auto;
   object-fit: contain;
   border-radius: 14px;
+  transition: transform 0.16s ease;
 }
 
 .mood-cal-emoji {
@@ -1760,22 +1761,25 @@ textarea {
   border: none;
   background: transparent;
   cursor: pointer;
-  transition: all var(--transition);
+  transition: transform var(--transition);
 }
 
-.mood-picker-option:hover {
-  background: var(--bg-warm);
+.mood-picker-option:hover .mood-picker-emoji {
+  transform: scale(1.04);
 }
 
 .mood-picker-option.selected {
-  background: color-mix(in srgb, var(--mood-color, #ccc) 20%, var(--card));
-  box-shadow: var(--shadow-sm);
+  background: transparent;
 }
 
 .mood-picker-emoji {
   width: 58px;
   height: 58px;
   border-radius: 18px;
+}
+
+.mood-picker-option.selected .mood-picker-emoji {
+  transform: scale(1.1);
 }
 
 .mood-picker-label {
