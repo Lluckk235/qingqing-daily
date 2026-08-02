@@ -28,6 +28,9 @@
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text);
@@ -37,6 +40,14 @@
   border-radius: var(--radius-pill);
   transition: background var(--transition);
   letter-spacing: -0.02em;
+}
+
+.logo-mark {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(80, 92, 105, 0.12);
 }
 
 .logo:hover {
@@ -551,7 +562,16 @@
     padding-top: env(safe-area-inset-top);
     height: calc(52px + env(safe-area-inset-top));
   }
-  .logo { font-size: 0.95rem; }
+  .logo {
+    font-size: 0.95rem;
+    padding: 5px 8px;
+    gap: 7px;
+  }
+
+  .logo-mark {
+    width: 26px;
+    height: 26px;
+  }
 
   .content {
     padding: 16px 14px 24px;
