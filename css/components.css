@@ -1864,7 +1864,7 @@ textarea {
 
 .mood-diary-input {
   width: 100%;
-  min-height: 38px;
+  min-height: 58px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: var(--bg);

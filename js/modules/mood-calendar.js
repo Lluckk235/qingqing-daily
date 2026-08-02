@@ -46,8 +46,8 @@ const MoodCalendar = {
 
   emptyDiary() {
     return {
-      gratitude: ['', '', ''],
-      reflections: ['', ''],
+      gratitude: '',
+      reflection: '',
       affirmation: '',
     };
   },
@@ -55,9 +55,12 @@ const MoodCalendar = {
   normalizeDiary(diary) {
     const base = this.emptyDiary();
     if (!diary || typeof diary !== 'object') return base;
+    const joinOldList = (value) => Array.isArray(value)
+      ? value.filter(Boolean).map(String).join('\n')
+      : (value ? String(value) : '');
     return {
-      gratitude: [0, 1, 2].map(i => (diary.gratitude && diary.gratitude[i]) ? String(diary.gratitude[i]) : ''),
-      reflections: [0, 1].map(i => (diary.reflections && diary.reflections[i]) ? String(diary.reflections[i]) : ''),
+      gratitude: joinOldList(diary.gratitude),
+      reflection: diary.reflection ? String(diary.reflection) : joinOldList(diary.reflections),
       affirmation: diary.affirmation ? String(diary.affirmation) : '',
     };
   },
@@ -66,16 +69,16 @@ const MoodCalendar = {
     if (!entry || !entry.diary) return false;
     const diary = this.normalizeDiary(entry.diary);
     return [
-      ...diary.gratitude,
-      ...diary.reflections,
+      diary.gratitude,
+      diary.reflection,
       diary.affirmation,
     ].some(v => v.trim());
   },
 
   collectDiary(sheet) {
     return {
-      gratitude: [0, 1, 2].map(i => sheet.querySelector(`[data-diary="gratitude"][data-index="${i}"]`).value.trim()),
-      reflections: [0, 1].map(i => sheet.querySelector(`[data-diary="reflections"][data-index="${i}"]`).value.trim()),
+      gratitude: sheet.querySelector('[data-diary="gratitude"]').value.trim(),
+      reflection: sheet.querySelector('[data-diary="reflection"]').value.trim(),
       affirmation: sheet.querySelector('[data-diary="affirmation"]').value.trim(),
     };
   },
@@ -209,7 +212,7 @@ const MoodCalendar = {
     ).join('');
     const diaryField = (type, index, value, placeholder) => `
       <textarea class="mood-diary-input" data-diary="${type}" ${index === null ? '' : `data-index="${index}"`}
-        rows="1" placeholder="${placeholder}">${Dashboard.escapeHtml(value || '')}</textarea>
+        rows="2" placeholder="${placeholder}">${Dashboard.escapeHtml(value || '')}</textarea>
     `;
 
     sheet.innerHTML = `
@@ -223,18 +226,18 @@ const MoodCalendar = {
         <div class="mood-diary-section">
           <div class="mood-diary-heading">
             <span>321 日记</span>
-            <small>3 件感恩 · 2 个反思 · 1 句肯定</small>
+            <small>今日感恩 · 今日反思 · 自我肯定</small>
           </div>
           <div class="mood-diary-group">
-            <label>3 件感恩的小事</label>
-            ${diary.gratitude.map((v, i) => diaryField('gratitude', i, v, `感恩 ${i + 1}`)).join('')}
+            <label>今日感恩</label>
+            ${diaryField('gratitude', null, diary.gratitude, '今天值得感恩的是…')}
           </div>
           <div class="mood-diary-group">
-            <label>2 件事情的反思</label>
-            ${diary.reflections.map((v, i) => diaryField('reflections', i, v, `反思 ${i + 1}`)).join('')}
+            <label>今日反思</label>
+            ${diaryField('reflection', null, diary.reflection, '今天我想复盘的是…')}
           </div>
           <div class="mood-diary-group">
-            <label>1 句对自己的肯定</label>
+            <label>自我肯定</label>
             ${diaryField('affirmation', null, diary.affirmation, '今天我想肯定自己…')}
           </div>
         </div>
@@ -263,8 +266,8 @@ const MoodCalendar = {
       const diaryNext = this.collectDiary(sheet);
       const cur = this.data;
       const hasDiary = [
-        ...diaryNext.gratitude,
-        ...diaryNext.reflections,
+        diaryNext.gratitude,
+        diaryNext.reflection,
         diaryNext.affirmation,
       ].some(v => v.trim());
       if (sel || note || hasDiary) {
