@@ -1053,7 +1053,7 @@ textarea {
 .challenge-module-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   margin-bottom: 12px;
 }
 
@@ -1061,9 +1061,10 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
+  width: 18px;
   height: 24px;
-  flex: 0 0 24px;
+  flex: 0 0 18px;
+  margin-left: -8px;
   color: var(--text-muted);
   border-radius: var(--radius-sm);
   cursor: grab;
