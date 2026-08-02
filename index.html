@@ -16,9 +16,26 @@
   <title>☀️ 卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260802j">
-  <link rel="stylesheet" href="css/components.css?v=20260802l">
+  <link rel="stylesheet" href="css/components.css?v=20260802m">
 </head>
 <body>
+  <!-- 每日开屏启动页 -->
+  <div class="splash-screen" id="splashScreen" aria-hidden="true">
+    <div class="splash-card">
+      <div class="splash-meta" id="splashMeta">--:-- · --月--日 星期-</div>
+      <div class="splash-orb" aria-hidden="true">
+        <span class="splash-orb-ring"></span>
+        <span class="splash-orb-dot"></span>
+      </div>
+      <div class="splash-copy">
+        <h2>嗨，宿主大人</h2>
+        <p>愿你收获满满的温柔与惊喜</p>
+        <span>开启今日的小幸运吧</span>
+      </div>
+      <button class="btn-primary splash-button" id="splashStartBtn">开始今天 ✨</button>
+    </div>
+  </div>
+
   <!-- 顶部导航栏 -->
   <header class="topbar" id="topbar">
     <div class="topbar-left">
@@ -497,6 +514,7 @@
   <script src="js/modules/checkin.js?v=20260801c"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>
   <script src="js/modules/mood-calendar.js?v=20260802g"></script>
+  <script src="js/modules/splash.js?v=20260802a"></script>
   <script src="js/app.js?v=20260801c"></script>
 </body>
 </html>
