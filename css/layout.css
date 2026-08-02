@@ -504,8 +504,8 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 80%;
-    max-width: 300px;
+    width: 70%;
+    max-width: 260px;
     z-index: 200;
     transform: translateX(-100%);
     transition: transform 0.28s ease;
@@ -531,7 +531,7 @@
   }
 
   .mobile-dashboard-header {
-    display: flex;
+    display: none;
   }
 
   .bottom-tabbar {
