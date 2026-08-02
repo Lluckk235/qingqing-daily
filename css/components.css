@@ -1779,7 +1779,7 @@ textarea {
 }
 
 .mood-picker-option.selected .mood-picker-emoji {
-  transform: scale(1.1);
+  transform: scale(1.16);
 }
 
 .mood-picker-label {
