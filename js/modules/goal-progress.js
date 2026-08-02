@@ -68,7 +68,7 @@ const GoalProgress = {
             <h2>目标进度</h2>
           </div>
           <div class="goal-empty-card">
-            <p>还没有目标，去 30 Challenges 添加一个吧</p>
+            <p>还没有目标，去目标管理添加一个吧</p>
             <button class="btn-primary goal-empty-btn" data-goto="challenges">去添加</button>
           </div>
         </div>

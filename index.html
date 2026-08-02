@@ -16,7 +16,7 @@
   <title>☀️ 卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260802j">
-  <link rel="stylesheet" href="css/components.css?v=20260802k">
+  <link rel="stylesheet" href="css/components.css?v=20260802l">
 </head>
 <body>
   <!-- 顶部导航栏 -->
@@ -63,7 +63,7 @@
         </a>
         <a class="nav-item" data-panel="challenges">
           <span class="nav-emoji">🎯</span>
-          <span>Done List</span>
+          <span>目标管理</span>
         </a>
         <a class="nav-item" data-panel="notes">
           <span class="nav-emoji">📝</span>
@@ -346,19 +346,14 @@
 
       <!-- 30 Challenges 面板 -->
       <section class="panel" id="panel-challenges">
-        <div class="panel-header">
-          <h2>🎯 Done List</h2>
-          <p>每天完成一个小目标</p>
+        <div class="panel-header challenge-panel-header">
+          <div>
+            <h2>🎯 目标管理</h2>
+            <p>每天完成一个小目标</p>
+          </div>
+          <button class="btn-primary challenge-add-btn" id="btnAddChallenge">添加</button>
         </div>
         <div class="challenges-container">
-          <div class="card">
-            <div class="card-body">
-              <div class="challenge-form">
-                <input type="text" id="challengeInput" class="input-lg" placeholder="输入新目标..." maxlength="50">
-                <button class="btn-primary" id="btnAddChallenge">添加</button>
-              </div>
-            </div>
-          </div>
           <div class="card">
             <div class="card-body">
               <div class="challenges-grid" id="challengesGrid"></div>
@@ -494,8 +489,8 @@
   <script src="js/modules/dashboard.js?v=20260801c"></script>
   <script src="js/modules/berkshire.js?v=20260801c"></script>
   <script src="js/modules/gex-analyzer.js?v=20260801c"></script>
-  <script src="js/modules/challenges.js?v=20260802h"></script>
-  <script src="js/modules/goal-progress.js?v=20260801e"></script>
+  <script src="js/modules/challenges.js?v=20260802i"></script>
+  <script src="js/modules/goal-progress.js?v=20260802a"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
   <script src="js/modules/expression.js?v=20260801c"></script>
   <script src="js/modules/ai-news.js?v=20260801c"></script>

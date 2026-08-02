@@ -6,9 +6,6 @@ const Challenges = {
   init() {
     this.render();
     document.getElementById('btnAddChallenge').addEventListener('click', () => this.add());
-    document.getElementById('challengeInput').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') this.add();
-    });
   },
 
   getList() {
@@ -20,11 +17,7 @@ const Challenges = {
   },
 
   add() {
-    const input = document.getElementById('challengeInput');
-    const text = input.value.trim();
-    if (!text) return;
-
-    this.openCreateModal(text);
+    this.openCreateModal('');
   },
 
   openCreateModal(text) {
@@ -131,7 +124,6 @@ const Challenges = {
       });
 
       this.saveList(list);
-      document.getElementById('challengeInput').value = '';
       this.render();
       if (typeof GoalProgress !== 'undefined') GoalProgress.render();
       close();
