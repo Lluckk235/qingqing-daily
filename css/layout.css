@@ -302,6 +302,10 @@
   color: var(--text);
 }
 
+.dashboard-quote-section {
+  margin-bottom: 16px;
+}
+
 /* --- 主内容区 --- */
 .content {
   flex: 1;

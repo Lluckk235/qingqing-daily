@@ -15,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <title>☀️ 卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
-  <link rel="stylesheet" href="css/layout.css?v=20260801d">
+  <link rel="stylesheet" href="css/layout.css?v=20260802i">
   <link rel="stylesheet" href="css/components.css?v=20260802h">
 </head>
 <body>
@@ -78,7 +78,6 @@
           <span>心情日历</span>
         </a>
       </nav>
-      <div class="daily-quote-section" id="dailyQuoteSection"></div>
     </aside>
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
@@ -86,10 +85,12 @@
     <main class="content" id="mainContent">
       <!-- Dashboard 面板 -->
       <section class="panel active" id="panel-dashboard">
-        <!-- 移动端首页头部：打卡 + 每日一句 -->
+        <!-- 首页顶部：每日一句优先展示 -->
+        <div class="daily-quote-section dashboard-quote-section" id="dailyQuoteSection"></div>
+
+        <!-- 移动端首页头部：打卡 -->
         <div class="mobile-dashboard-header">
           <div class="checkin-section" id="checkinSectionMobile"></div>
-          <div class="daily-quote-section" id="dailyQuoteSectionMobile"></div>
         </div>
 
         <!-- 目标进度总览 -->
