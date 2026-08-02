@@ -1692,20 +1692,14 @@ textarea {
 }
 
 .mood-icon {
-  background-image: url('../assets/moods/mood-sheet.png');
-  background-repeat: no-repeat;
-  background-position: var(--mood-x) var(--mood-y);
-  background-size: 300% 300%;
-  display: inline-block;
+  display: block;
   flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .mood-cal-emoji {
   width: 40px;
   height: 40px;
-  border-radius: 15px;
-  background-color: transparent;
-  background-size: 342% 342%;
 }
 
 /* --- 心情选择器（底部弹出） --- */
@@ -1775,8 +1769,6 @@ textarea {
 .mood-picker-emoji {
   width: 58px;
   height: 58px;
-  border-radius: 18px;
-  background-color: color-mix(in srgb, var(--mood-color, #F6A8D0) 14%, var(--card));
 }
 
 .mood-picker-label {
@@ -1915,7 +1907,6 @@ textarea {
   .mood-cal-emoji {
     width: 39px;
     height: 39px;
-    border-radius: 14px;
   }
   .mood-cal-diary-dot {
     right: 6px;
