@@ -1875,6 +1875,10 @@ textarea {
   resize: vertical;
 }
 
+.mood-diary-input[data-diary="gratitude"] {
+  min-height: 86px;
+}
+
 .mood-diary-input:focus {
   outline: none;
   border-color: var(--text-muted);
