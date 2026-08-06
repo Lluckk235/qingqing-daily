@@ -1,1 +1,4 @@
 python>=3.9
+feedparser>=6.0.0
+requests>=2.31.0
+deep-translator>=1.11.0

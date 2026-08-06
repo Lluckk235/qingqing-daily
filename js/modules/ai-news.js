@@ -206,15 +206,17 @@ const DailyNews = {
   },
 
   renderHeader(dateLabel, totalCount) {
+    // dateLabel 暂未使用 — 此前显示的具体日期在降级到本地 JSON 时会停留在旧日期（如 2026-07-31），
+    // 与"今日热点资讯"语义不符，且每张卡片已有 relativeTime 提示，因此整列移除。
+    void dateLabel;
     return `
       <div class="daily-news-header">
         <div class="daily-news-title-row">
-          <div>
+          <div class="daily-news-title-block">
             <h2 class="daily-news-title">🔥 今日热点资讯</h2>
             <p class="daily-news-subtitle">实时追踪全球科技与商业领域最具影响力的技术突破与商业变革。</p>
           </div>
           <div class="daily-news-meta">
-            <span class="daily-news-date">${dateLabel}</span>
             <span class="daily-news-count">${totalCount} 条</span>
             <button class="btn-icon daily-news-refresh" id="dailyNewsRefresh" onclick="DailyNews.refresh()" title="刷新">
               ↻

@@ -1,82 +1,82 @@
 {
-  "date": "2026-07-31",
-  "generated": "2026-07-31T20:18:29.179364+08:00",
-  "total": 9,
+  "date": "2026-08-06",
+  "generated": "2026-08-06T16:46:32.670832+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "f3a978c9efa4",
-      "title": "Govee 的便携式智能灯降至迄今为止最优惠的价格之一",
+      "id": "5ad72d3cf78b",
+      "title": "Nikita Bier 辞去 X 产品主管职务",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/nikita-bier-steps-down-as-xs-head-of-product/",
+      "published": "2026-08-05T21:30:50+00:00",
+      "relativeTime": "11 小时前",
+      "summary": [
+        "这位连续创业者在接手监督 X 的“24/7 工作”一年多后即将辞职。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "9956a069b7e3",
+      "title": "X 产品负责人尼基塔·比尔 (Nikita Bier) 一年后离职",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/973266/govee-table-lamp-classic-back-to-school-deal-sale",
-      "published": "2026-07-30T14:01:26-04:00",
-      "relativeTime": "18 小时前",
+      "sourceUrl": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
+      "published": "2026-08-05T18:19:55-04:00",
+      "relativeTime": "10 小时前",
       "summary": [
-        "为不同的房间购买多盏灯可能会很昂贵。 Govee 的可充电台灯经典版为您提供一盏灯，您可以在家里使用"
+        "X 产品负责人尼基塔·比尔 (Nikita Bier) 即将辞职，并表示他将担任顾问，并写道“是时候传递火炬并降级我了”"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "b43ed6d2237c",
-      "title": "下载：一场芯片人才之战，并抑制人工智能炒作",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
-      "published": "2026-07-29T12:10:00+00:00",
-      "relativeTime": "2 天前",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "d75e47df0c08",
-      "title": "Repeat 创始人 Ryan Williams 为一家面向私人信贷经理的人工智能初创公司筹集了 1000 万美元种子资金",
+      "id": "f4b59bdfc21b",
+      "title": "Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/07/31/repeat-founder-ryan-williams-raises-10m-seed-for-an-ai-startup-for-private-credit-managers/",
-      "published": "2026-07-31T12:00:00+00:00",
-      "relativeTime": "18 分钟前",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "published": "2026-08-05T21:21:28+00:00",
+      "relativeTime": "11 小时前",
       "summary": [
-        "Ellis AI 周四宣布获得 1000 万美元的种子资金，从隐秘状态中脱颖而出。"
+        "Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "f41c7307b777",
-      "title": "谷歌表示，得益于人工智能，六月份修复的 Chrome 错误比过去两年还要多",
+      "id": "0108300124fb",
+      "title": "Shopify 表示人工智能搜索正在推动更多流量和销售，而不是取代谷歌",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
-      "published": "2026-07-30T18:57:58+00:00",
-      "relativeTime": "17 小时前",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "published": "2026-08-05T15:56:14+00:00",
+      "relativeTime": "16 小时前",
       "summary": [
-        "正如专家在过去两年中所警告的那样，一些公司（例如微软和现在的谷歌）正在发现并修补数量呈指数级增长的错误"
+        "Shopify 表示，人工智能并没有像对待出版商那样蚕食搜索流量。相反，人工智能驱动的 Shopify 商店流量和订单量在一年内增长了两倍"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -85,26 +85,48 @@
       "rank": 4
     },
     {
-      "id": "597cbf996a0e",
-      "title": "无人机加了条腿，跳出了一个新硬件品类",
+      "id": "e72e8a1c0d59",
+      "title": "从会聊天到能管钱：Agent 进入交易时代",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/368257",
-      "published": "2026-07-31T16:16:00+08:00",
-      "relativeTime": "4 小时前",
+      "sourceUrl": "http://www.geekpark.net/news/368494",
+      "published": "2026-08-06T15:53:44+08:00",
+      "relativeTime": "52 分钟前",
       "summary": [
-        "越来越多的具身技术正先一步外溢到消费电子领域，包括这款会跳的机器人",
-        "作者｜Li Yuan 编辑｜郑玄 &nbsp; 会飞的无人机，我们见过",
-        "会跳舞的人形机器人，我们也见过"
+        "新加坡滨海湾花园，AGI Playground 2026 的主舞台灯光亮起",
+        "台下坐着 50 多家全球 VC、数百位 AI Builder，对 Agent 下一个阶段发展方向充满期待",
+        "大家都在看一个问题： 当 Agent 从对话走向执行，我们离自动交付还有多远"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "aa2676af376b",
+      "title": "任天堂 Switch 2 上市一年累计销量突破 2300 万台，相比初代更胜一筹",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/986/577.htm",
+      "published": "2026-08-05T20:46:11.507320+00:00",
+      "relativeTime": "3 分钟前",
+      "summary": [
+        "IT之家 8 月 6 日消息，任天堂 Switch 2 上市一年多后依然热销，继续成为任天堂的重要增长动力",
+        "在初代 Switch 取得巨大成功后，最新数据表明，Switch 2 在上市同期的销售表现更胜一筹，累计销量已经突破 2300 万台",
+        "任天堂在今天（6 日）公布的最新财报中进一步披露了 Switch 2 的软硬件销售数据及年度游玩用户规模"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "8c3cf383da3c",
@@ -116,7 +138,7 @@
       "sourceDomain": "geekpark.net",
       "sourceUrl": "http://www.geekpark.net/news/368196",
       "published": "2026-07-31T00:39:23+08:00",
-      "relativeTime": "19 小时前",
+      "relativeTime": "6 天前",
       "summary": [
         "小米终于进入了主流 SUV 这个正面「战场」",
         "过去两年，凭借着 SU7、YU7 两款现象级的爆款单品，小米进入汽车领域的首轮战役可谓风卷残云",
@@ -124,69 +146,89 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "97625a3cb9dd",
-      "title": "综合用户初创公司 Simile 在 A 轮融资 1 亿美元后 5 个月以 2B 美元估值筹集 2 亿美元",
+      "id": "7f74154b5765",
+      "title": "为什么 Lightspeed 全力投入创作者主导的风险投资",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/",
-      "published": "2026-07-30T17:50:11+00:00",
-      "relativeTime": "18 小时前",
+      "sourceUrl": "https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/",
+      "published": "2026-08-05T20:48:54+00:00",
+      "relativeTime": "11 小时前",
       "summary": [
-        "速度与激情的人工智能独角兽俱乐部再添一名成员：Simile。"
+        "风险投资公司正在寻求创造者在开出支票之前与下一代创始人建立信任。这是一种趋势"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "ba8391556804",
-      "title": "苹果表示游戏放缓和应用商店变化损害了服务增长",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/",
-      "published": "2026-07-30T22:37:06+00:00",
-      "relativeTime": "13 小时前",
-      "summary": [
-        "苹果表示，移动游戏的放缓以及应用商店商业模式的变化——包括美国法院下令的支付规则变化——"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "30e234bd3fe1",
-      "title": "Meta 表示，人工智能正在使构建新应用程序变得更加容易，而且更多应用程序即将推出",
+      "id": "d521367b49e4",
+      "title": "上诉法院裁定，特朗普环保局错误地取消了 20B 美元的气候基金",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules/",
+      "published": "2026-08-05T14:40:13+00:00",
+      "relativeTime": "18 小时前",
+      "summary": [
+        "在特朗普环保局命令花旗银行冻结气候非营利组织的账户一年多后，气候非营利组织可以再次获得联邦资金。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "e2be35c9d61c",
+      "title": "埃隆·马斯克对人工智能维基百科的尝试已经几个月没有更新了",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "published": "2026-08-05T20:25:10-04:00",
+      "relativeTime": "8 小时前",
+      "summary": [
+        "xAI 的 Grokipedia，这是一本包含人工智能生成文章的在线百科全书，埃隆·马斯克曾承诺，这将是对维基百科的“巨大改进”，应用程序"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "bc8f2098f4cb",
+      "title": "PSA：Apple 的 Private Relay 可能会泄露您的真实 IP 地址",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-      "published": "2026-07-30T15:41:16+00:00",
-      "relativeTime": "20 小时前",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address/",
+      "published": "2026-08-05T16:52:29+00:00",
+      "relativeTime": "15 小时前",
       "summary": [
-        "Meta 表示，人工智能使构建和推出新的消费者应用程序变得更加容易，首席执行官马克·扎克伯格告诉投资者，该公司拥有更多"
+        "Apple 在实现其“私人中继”功能时存在一个错误，理论上该功能会屏蔽用户访问网站的 IP 地址，但可能会泄露用户的真实身份。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 11
     }
   ]
 }
