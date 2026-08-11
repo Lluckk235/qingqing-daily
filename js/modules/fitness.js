@@ -48,7 +48,6 @@ const Fitness = {
   bindEvents() {
     document.getElementById('btnNewWeekPlan')?.addEventListener('click', () => this.createPlan());
     document.getElementById('btnAddExercise')?.addEventListener('click', () => this.openExerciseForm());
-    document.getElementById('btnFitnessRecovery')?.addEventListener('click', () => WorkspaceAccess.openSync());
     ['fitnessSearch', 'fitnessPlatform', 'fitnessType', 'fitnessIntensity', 'fitnessBody', 'fitnessCreator'].forEach(id => {
       document.getElementById(id)?.addEventListener('input', () => this.renderLibrary());
       document.getElementById(id)?.addEventListener('change', () => this.renderLibrary());

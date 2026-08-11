@@ -81,9 +81,6 @@ const App = {
 
   updateAccessUI() {
     document.body.classList.toggle('workspace-guest', !Supabase.isAuthenticated);
-    document.getElementById('btnWorkspaceAccess').textContent = Supabase.isAuthenticated ? '数据与访问' : '登录/邀请码';
-    document.getElementById('btnWorkspaceMembers').hidden = !Supabase.isOwner;
-    document.getElementById('btnFitnessRecovery').textContent = '开启多设备同步';
   },
 
   toggleSidebar() {
