@@ -92,6 +92,7 @@ var Supabase = {
     redirect.hash = '';
     if (inviteToken) redirect.searchParams.set('invite', inviteToken);
     const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, redirect_to: redirect.toString() }) });
+    if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
   },
 
@@ -166,6 +167,7 @@ var Supabase = {
     const res = await fetch(`${this.url}/auth/v1/user`, {
       method: 'PUT', headers: this.headers(), body: JSON.stringify({ email }),
     });
+    if (res.status === 429) throw new Error('确认邮件已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
     return res.json();
   },
