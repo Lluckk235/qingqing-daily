@@ -4,7 +4,7 @@
    ======================================== */
 
 const Fitness = {
-  exercises: [], plan: null, items: [], checkins: [],
+  exercises: [], plan: null, items: [], checkins: [], planPromise: null, addingExerciseIds: new Set(),
 
   esc(value = '') {
     return String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c]));
@@ -154,23 +154,42 @@ const Fitness = {
     return values.length ? `<div class="fitness-chips">${values.map(value => `<span>${this.esc(value)}</span>`).join('')}</div>` : '';
   },
 
-  async createPlan() {
-    if (this.plan) { Helpers.showToast('本周计划已经创建', 'info'); return; }
-    try {
-      await Supabase.post('fitness_weekly_plans', { user_id: Supabase.userId, week_start: this.weekStart() });
-      await this.load(); this.render();
-      Helpers.showToast('本周计划已创建', 'success');
-    } catch (error) { Helpers.showToast(error.message, 'error'); }
+  async ensurePlan() {
+    if (this.plan) return this.plan;
+    if (this.planPromise) return this.planPromise;
+    this.planPromise = (async () => {
+      // (user_id, week_start) 是唯一键：用 upsert 消除重复点击和旧页面状态造成的 400。
+      await Supabase.upsert('fitness_weekly_plans', { user_id: Supabase.userId, week_start: this.weekStart() }, 'user_id,week_start');
+      await this.load();
+      this.render();
+      if (!this.plan) throw new Error('本周计划未能读取，请刷新页面后重试');
+      return this.plan;
+    })();
+    try { return await this.planPromise; } finally { this.planPromise = null; }
+  },
+
+  fitnessSaveError(error, action) {
+    const message = error?.message || '';
+    if (message.includes('23505')) return `${action}已完成，请刷新查看本周清单`;
+    if (message.includes('23503')) return '动作或本周计划已更新，请刷新页面后再试';
+    if (message.includes('42501') || message.includes('403') || message.includes('401')) return '登录状态已失效，请在设置中重新登录';
+    return `${action}失败，请刷新页面后再试`;
   },
 
   async addToPlan(exerciseId) {
-    if (!this.plan) await this.createPlan();
-    if (!this.plan) return;
+    if (this.addingExerciseIds.has(exerciseId)) return;
+    if (!Supabase.isAuthenticated || !Supabase.userId) { WorkspaceAccess.openAccess(); return; }
     if (this.items.some(item => item.exercise_id === exerciseId)) { Helpers.showToast('已经在本周清单中', 'info'); return; }
+    this.addingExerciseIds.add(exerciseId);
     try {
-      await Supabase.post('fitness_plan_items', { user_id: Supabase.userId, plan_id: this.plan.id, exercise_id: exerciseId, sort_order: this.items.length });
+      const plan = await this.ensurePlan();
+      if (this.items.some(item => item.exercise_id === exerciseId)) { Helpers.showToast('已经在本周清单中', 'info'); return; }
+      await Supabase.post('fitness_plan_items', { user_id: Supabase.userId, plan_id: plan.id, exercise_id: exerciseId, sort_order: this.items.length });
       await this.load(); this.render(); Helpers.showToast('已加入本周训练', 'success');
-    } catch (error) { Helpers.showToast(error.message, 'error'); }
+    } catch (error) {
+      await this.load(); this.render();
+      Helpers.showToast(this.fitnessSaveError(error, '加入本周训练'), 'error');
+    } finally { this.addingExerciseIds.delete(exerciseId); }
   },
 
   async moveItem(id, direction) {
