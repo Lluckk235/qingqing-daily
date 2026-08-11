@@ -194,52 +194,94 @@ const Fitness = {
     try { await Supabase.delete(`fitness_plan_items?id=eq.${id}`); await this.load(); this.render(); } catch (error) { Helpers.showToast(error.message, 'error'); }
   },
 
+  platformForUrl(value) {
+    try {
+      const host = new URL(value).hostname.toLowerCase();
+      if (host.includes('douyin')) return 'douyin';
+      if (host.includes('bilibili') || host === 'b23.tv') return 'bilibili';
+    } catch (_) { /* 保存时再显示链接格式错误 */ }
+    return '';
+  },
+
+  setMetadataStatus(modal, message, type = '') {
+    const status = modal.querySelector('#fitnessMetadataStatus');
+    if (!status) return;
+    status.textContent = message;
+    status.dataset.state = type;
+  },
+
   openExerciseForm(existing = null) {
     const modal = this.modal('fitnessExerciseModal', existing ? '编辑动作素材' : '添加健身视频', `
       <label>抖音/B站链接<input class="input" id="fitnessSourceUrl" value="${this.esc(existing?.source_url || '')}" placeholder="粘贴视频分享链接"></label>
-      <button class="btn-secondary" id="btnReadVideoMeta">自动读取标题和封面</button>
-      <label>视频标题<input class="input" id="fitnessTitle" value="${this.esc(existing?.title || '')}" required></label>
-      <label>封面链接<input class="input" id="fitnessCoverUrl" value="${this.esc(existing?.cover_url || '')}"></label>
-      <label>博主<input class="input" id="fitnessCreator" value="${this.esc(existing?.creator || '')}"></label>
+      <p class="fitness-metadata-status" id="fitnessMetadataStatus" aria-live="polite">粘贴链接后将自动读取标题、封面和博主</p>
+      <details class="fitness-metadata-details" ${existing ? 'open' : ''}><summary>补充或编辑视频信息（可选）</summary>
+        <div class="fitness-form fitness-metadata-fields">
+          <label>视频标题<input class="input" id="fitnessExerciseTitle" value="${this.esc(existing?.title || '')}" placeholder="未读取时将自动使用默认标题"></label>
+          <label>封面链接<input class="input" id="fitnessExerciseCoverUrl" value="${this.esc(existing?.cover_url || '')}" placeholder="未读取封面时使用默认图标"></label>
+          <label>博主<input class="input" id="fitnessExerciseCreator" value="${this.esc(existing?.creator || '')}"></label>
+        </div>
+      </details>
       <div class="fitness-form-grid"><label>训练类型<select class="input" id="fitnessTrainingType"><option value="力量">力量</option><option value="有氧">有氧</option><option value="拉伸">拉伸</option><option value="瑜伽/普拉提">瑜伽/普拉提</option><option value="HIIT">HIIT</option></select></label><label>强度 1-5<input class="input" id="fitnessExerciseIntensity" type="number" min="1" max="5" value="${existing?.intensity || 3}"></label><label>时长（分钟）<input class="input" id="fitnessDuration" type="number" min="1" value="${existing?.duration_minutes || ''}"></label></div>
       <label>练习部位（逗号分隔）<input class="input" id="fitnessBodyParts" value="${this.esc((existing?.body_parts || []).join('、'))}" placeholder="臀腿、核心、肩背"></label>
       <label>标签（逗号分隔）<input class="input" id="fitnessTags" value="${this.esc((existing?.tags || []).join('、'))}" placeholder="居家、无器械"></label>
       <label>备注<textarea class="input" id="fitnessNote" rows="2">${this.esc(existing?.notes || '')}</textarea></label>`, '保存');
     modal.querySelector('#fitnessTrainingType').value = existing?.training_type || '力量';
-    modal.querySelector('#btnReadVideoMeta').addEventListener('click', () => this.readVideoMeta(modal));
+    const sourceInput = modal.querySelector('#fitnessSourceUrl');
+    const triggerRead = () => {
+      clearTimeout(modal._metadataTimer);
+      modal._metadataTimer = setTimeout(() => this.readVideoMeta(modal), 120);
+    };
+    sourceInput.addEventListener('change', triggerRead);
+    sourceInput.addEventListener('paste', triggerRead);
     modal.querySelector('[data-modal-save]').addEventListener('click', () => this.saveExercise(existing?.id, modal));
+    if (existing?.source_url) this.setMetadataStatus(modal, '可直接编辑已保存的信息；更换链接后会自动重新读取');
   },
 
   async readVideoMeta(modal) {
     const url = modal.querySelector('#fitnessSourceUrl').value.trim();
-    if (!url) { Helpers.showToast('先粘贴视频链接', 'error'); return; }
+    if (!url || url === modal.dataset.metadataUrl) return;
+    if (!this.platformForUrl(url)) {
+      this.setMetadataStatus(modal, '仅支持抖音和哔哩哔哩链接', 'error');
+      return;
+    }
+    modal.dataset.metadataUrl = url;
+    this.setMetadataStatus(modal, '正在读取公开视频信息…', 'loading');
     try {
       const metadata = await Supabase.invokeFunction('video-metadata', { url });
-      modal.querySelector('#fitnessTitle').value = metadata.title || '';
-      modal.querySelector('#fitnessCoverUrl').value = metadata.cover_url || '';
-      modal.querySelector('#fitnessCreator').value = metadata.creator || '';
-      Helpers.showToast('已读取公开视频信息，请检查后保存', 'success');
-    } catch (error) { Helpers.showToast('自动读取失败，可手动填写后保存', 'info'); }
+      if (metadata.canonical_url) modal.querySelector('#fitnessSourceUrl').value = metadata.canonical_url;
+      if (metadata.title) modal.querySelector('#fitnessExerciseTitle').value = metadata.title;
+      if (metadata.cover_url) modal.querySelector('#fitnessExerciseCoverUrl').value = metadata.cover_url;
+      if (metadata.creator) modal.querySelector('#fitnessExerciseCreator').value = metadata.creator;
+      const missing = metadata.missing || [];
+      const fallback = [];
+      if (missing.includes('title')) fallback.push('标题将使用默认值');
+      if (missing.includes('cover')) fallback.push('封面将使用默认图标');
+      if (missing.includes('creator')) fallback.push('未读取到博主');
+      const message = fallback.length ? `已自动读取；${fallback.join('，')}` : '已自动读取标题、封面和博主';
+      this.setMetadataStatus(modal, message, metadata.metadata_status || 'ready');
+    } catch (_) {
+      modal.dataset.metadataStatus = 'unavailable';
+      this.setMetadataStatus(modal, '平台未返回信息：仍可直接保存，标题和封面会自动兜底', 'fallback');
+    }
   },
 
   async saveExercise(id, modal) {
     const sourceUrl = modal.querySelector('#fitnessSourceUrl').value.trim();
-    const title = modal.querySelector('#fitnessTitle').value.trim();
-    if (!sourceUrl || !title) { Helpers.showToast('请填写视频链接和标题', 'error'); return; }
-    let host;
-    try { host = new URL(sourceUrl).hostname.toLowerCase(); } catch (_) { Helpers.showToast('视频链接格式不正确', 'error'); return; }
-    const platform = host.includes('douyin') ? 'douyin' : (host.includes('bilibili') || host === 'b23.tv' ? 'bilibili' : '');
+    if (!sourceUrl) { Helpers.showToast('请粘贴视频链接', 'error'); return; }
+    const platform = this.platformForUrl(sourceUrl);
     if (!platform) { Helpers.showToast('目前仅支持抖音和哔哩哔哩链接', 'error'); return; }
     const split = id => modal.querySelector(id).value.split(/[、,，]/).map(v => v.trim()).filter(Boolean);
+    const title = modal.querySelector('#fitnessExerciseTitle').value.trim() || '未命名训练视频';
+    const coverUrl = modal.querySelector('#fitnessExerciseCoverUrl').value.trim();
     const payload = {
       user_id: Supabase.userId, source_url: sourceUrl, platform, title,
-      cover_url: modal.querySelector('#fitnessCoverUrl').value.trim() || null,
-      creator: modal.querySelector('#fitnessCreator').value.trim() || null,
+      cover_url: coverUrl || null,
+      creator: modal.querySelector('#fitnessExerciseCreator').value.trim() || null,
       training_type: modal.querySelector('#fitnessTrainingType').value,
       intensity: Number(modal.querySelector('#fitnessExerciseIntensity').value) || 3,
       duration_minutes: Number(modal.querySelector('#fitnessDuration').value) || null,
       body_parts: split('#fitnessBodyParts'), tags: split('#fitnessTags'), notes: modal.querySelector('#fitnessNote').value.trim() || null,
-      metadata_status: modal.querySelector('#fitnessCoverUrl').value ? 'ready' : 'manual',
+      metadata_status: modal.dataset.metadataStatus || (coverUrl ? 'ready' : 'fallback'),
     };
     try {
       if (id) await Supabase.patch(`fitness_exercises?id=eq.${id}`, payload); else await Supabase.post('fitness_exercises', payload);
