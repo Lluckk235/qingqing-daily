@@ -3,6 +3,14 @@
 -- 1) 发布新版，在自己的原浏览器打开一次；控制台执行 Supabase.userId 复制 UUID。
 -- 2) 用该 UUID 替换下方 owner_id。确认不是朋友浏览器的 UUID 后再执行本脚本。
 
+-- 数据库内备份：不开放 API 访问，仅项目管理员可在 Dashboard 查询。
+create table if not exists public.user_data_backup_20260811 as table public.user_data;
+create table if not exists public.checkins_backup_20260811 as table public.checkins;
+alter table public.user_data_backup_20260811 enable row level security;
+alter table public.checkins_backup_20260811 enable row level security;
+revoke all on public.user_data_backup_20260811 from anon, authenticated;
+revoke all on public.checkins_backup_20260811 from anon, authenticated;
+
 do $$
 declare
   owner_id uuid := '00000000-0000-0000-0000-000000000000'; -- 必须替换
