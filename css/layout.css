@@ -505,18 +505,32 @@
 
   .topbar-center { display: none; }
   .topbar {
-    padding: 0 14px;
+    padding: 0 8px 0 10px;
     position: fixed;
     width: 100%;
     z-index: 99;
     padding-top: env(safe-area-inset-top);
     height: calc(52px + env(safe-area-inset-top));
   }
+  .topbar-left {
+    min-width: 0;
+    flex: 1;
+    gap: 2px;
+  }
+  .hamburger-btn {
+    flex: 0 0 36px;
+    padding: 4px 6px;
+  }
   .logo {
+    min-width: 0;
+    white-space: nowrap;
     font-size: 0.95rem;
-    padding: 5px 8px;
+    padding: 5px 4px;
     gap: 7px;
   }
+  .topbar-divider,
+  .date-display { display: none; }
+  .topbar-right { flex: 0 0 44px; }
 
   .logo-mark {
     width: 26px;
