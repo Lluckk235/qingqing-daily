@@ -70,6 +70,29 @@ function readJsonLd(html: string) {
   return result;
 }
 
+function bilibiliBvid(url: URL) {
+  const match = url.pathname.match(/\/video\/(BV[0-9A-Za-z]+)/i);
+  return match?.[1] || '';
+}
+
+// B 站公开页面偶尔会对云端网页抓取触发风控；其公开视频接口更稳定，且不需要账号或密钥。
+async function readBilibiliPublicMetadata(url: URL) {
+  if (!url.hostname.toLowerCase().endsWith('bilibili.com')) return { title: '', cover_url: '', creator: '' };
+  const bvid = bilibiliBvid(url);
+  if (!bvid) return { title: '', cover_url: '', creator: '' };
+  try {
+    const response = await fetch(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(bvid)}`, {
+      headers: { 'User-Agent': 'Mozilla/5.0 qingqing-daily/1.0', Accept: 'application/json' },
+      signal: AbortSignal.timeout(5000),
+    });
+    const body = await response.json();
+    const data = body?.code === 0 ? body.data : null;
+    return { title: String(data?.title || ''), cover_url: String(data?.pic || '').replace(/^http:/, 'https:'), creator: String(data?.owner?.name || '') };
+  } catch (_) {
+    return { title: '', cover_url: '', creator: '' };
+  }
+}
+
 Deno.serve(async request => {
   if (request.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
   if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405);
@@ -86,14 +109,15 @@ Deno.serve(async request => {
   if (!isAllowedHost(target.hostname.toLowerCase())) return json({ error: '仅支持抖音和哔哩哔哩链接' }, 400);
   try {
     const response = await fetch(target, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 qingqing-daily/1.0' }, signal: AbortSignal.timeout(8000) });
-    if (!response.ok) throw new Error(`upstream ${response.status}`);
     const finalUrl = new URL(response.url);
     if (!isAllowedHost(finalUrl.hostname.toLowerCase())) throw new Error('redirect host denied');
-    const html = (await response.text()).slice(0, 750000);
+    const bilibili = await readBilibiliPublicMetadata(finalUrl);
+    if (!response.ok && !bilibili.title) throw new Error(`upstream ${response.status}`);
+    const html = response.ok ? (await response.text()).slice(0, 750000) : '';
     const jsonLd = readJsonLd(html);
-    const title = readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title;
-    const cover_url = readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url;
-    const creator = readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator;
+    const title = bilibili.title || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title;
+    const cover_url = bilibili.cover_url || readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url;
+    const creator = bilibili.creator || readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator;
     const missing = [!title && 'title', !cover_url && 'cover', !creator && 'creator'].filter(Boolean);
     return json({
       title,

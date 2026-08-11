@@ -247,7 +247,11 @@ const Fitness = {
     sourceInput.addEventListener('change', triggerRead);
     sourceInput.addEventListener('paste', triggerRead);
     modal.querySelector('[data-modal-save]').addEventListener('click', () => this.saveExercise(existing?.id, modal));
-    if (existing?.source_url) this.setMetadataStatus(modal, '可直接编辑已保存的信息；更换链接后会自动重新读取');
+    if (existing?.source_url) {
+      this.setMetadataStatus(modal, '可直接编辑已保存的信息；更换链接后会自动重新读取');
+      // 旧卡片曾因平台风控而使用兜底内容时，打开编辑页自动补读，不要求重新粘贴链接。
+      if (existing.title === '未命名训练视频' || !existing.cover_url || !existing.creator) this.readVideoMeta(modal);
+    }
   },
 
   async readVideoMeta(modal) {
