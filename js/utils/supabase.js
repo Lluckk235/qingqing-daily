@@ -91,7 +91,7 @@ var Supabase = {
     const redirect = new URL(location.href);
     redirect.hash = '';
     if (inviteToken) redirect.searchParams.set('invite', inviteToken);
-    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, options: { emailRedirectTo: redirect.toString() } }) });
+    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, redirect_to: redirect.toString() }) });
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
   },
 
