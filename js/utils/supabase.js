@@ -7,16 +7,19 @@
 var Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
+  // 保留旧键，避免原浏览器的匿名身份和历史数据丢失。
   sessionKey: 'qq_anonymous_session_v1',
   session: null,
+  membership: null,
 
-  async initAnonymousSession() {
+  async initSession() {
+    await this.consumeCallback();
     this.session = this.readSession();
     if (this.session && this.session.expires_at * 1000 > Date.now() + 60000) return this.session;
     if (this.session && this.session.refresh_token) {
       try { return await this.refreshSession(this.session.refresh_token); } catch (_) { this.clearSession(); }
     }
-    return this.createAnonymousSession();
+    return null;
   },
 
   readSession() {
@@ -57,7 +60,40 @@ var Supabase = {
   },
 
   get userId() { return this.session?.user?.id || null; },
-  get isAuthenticated() { return Boolean(this.session?.access_token && this.userId); },
+  get hasSession() { return Boolean(this.session?.access_token && this.userId); },
+  get isAuthenticated() { return this.hasSession && Boolean(this.membership?.status === 'active'); },
+  get isOwner() { return this.isAuthenticated && this.membership?.role === 'owner'; },
+
+  async consumeCallback() {
+    const hash = new URLSearchParams(location.hash.slice(1));
+    const accessToken = hash.get('access_token');
+    const refreshToken = hash.get('refresh_token');
+    if (!accessToken || !refreshToken) return null;
+    const res = await fetch(`${this.url}/auth/v1/user`, { headers: { apikey: this.key, Authorization: `Bearer ${accessToken}` } });
+    if (!res.ok) throw new Error('邮件登录链接已失效，请重新发送');
+    const user = await res.json();
+    this.saveSession({ access_token: accessToken, refresh_token: refreshToken, expires_at: Math.floor(Date.now() / 1000) + Number(hash.get('expires_in') || 3600), user });
+    history.replaceState({}, document.title, `${location.pathname}${location.search}`);
+    return this.session;
+  },
+
+  async loadMembership() {
+    this.membership = null;
+    if (!this.hasSession) return null;
+    try {
+      const rows = await this.get(`workspace_members?select=role,status&user_id=eq.${encodeURIComponent(this.userId)}&limit=1`);
+      this.membership = rows?.[0] || null;
+    } catch (_) { this.membership = null; }
+    return this.membership;
+  },
+
+  async sendMagicLink(email, createUser = false, inviteToken = '') {
+    const redirect = new URL(location.href);
+    redirect.hash = '';
+    if (inviteToken) redirect.searchParams.set('invite', inviteToken);
+    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, options: { emailRedirectTo: redirect.toString() } }) });
+    if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
+  },
 
   headers(extra = {}) {
     return {
@@ -132,6 +168,11 @@ var Supabase = {
     });
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
     return res.json();
+  },
+
+  async signOut() {
+    if (this.session?.access_token) await fetch(`${this.url}/auth/v1/logout`, { method: 'POST', headers: this.headers() }).catch(() => {});
+    this.clearSession(); this.membership = null;
   },
 };
 

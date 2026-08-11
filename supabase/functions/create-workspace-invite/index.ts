@@ -1,0 +1,15 @@
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+const origin='https://lluckk235.github.io', cors={'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Headers':'authorization,apikey,content-type','Access-Control-Allow-Methods':'POST,OPTIONS'};
+const json=(body:Record<string,unknown>,status=200)=>Response.json(body,{status,headers:cors});
+const normalize=(email:string)=>email.trim().toLowerCase();
+const hash=async(value:string)=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(value)))).map(x=>x.toString(16).padStart(2,'0')).join('');
+Deno.serve(async req=>{ if(req.method==='OPTIONS') return new Response('ok',{headers:cors}); if(req.method!=='POST') return json({error:'Method not allowed'},405);
+  const auth=req.headers.get('Authorization'); if(!auth?.startsWith('Bearer ')) return json({error:'Unauthorized'},401);
+  const anon=Deno.env.get('SUPABASE_ANON_KEY')!; const url=Deno.env.get('SUPABASE_URL')!; const caller=createClient(url,anon,{global:{headers:{Authorization:auth}}}); const {data:{user}}=await caller.auth.getUser(); if(!user) return json({error:'Unauthorized'},401);
+  const service=createClient(url,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!); const {data:member}=await service.from('workspace_members').select('role,status').eq('user_id',user.id).maybeSingle(); if(member?.role!=='owner'||member.status!=='active') return json({error:'Forbidden'},403);
+  const {email}=await req.json().catch(()=>({})); const target=normalize(String(email||'')); if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(target)) return json({error:'邮箱格式不正确'},400);
+  const bytes=new Uint8Array(32); crypto.getRandomValues(bytes); const token=btoa(String.fromCharCode(...bytes)).replaceAll('+','-').replaceAll('/','_').replaceAll('=','');
+  await service.from('workspace_invitations').update({status:'revoked'}).eq('email',target).eq('status','pending');
+  const {error}=await service.from('workspace_invitations').insert({email:target,token_hash:await hash(token),expires_at:new Date(Date.now()+7*864e5).toISOString()}); if(error) return json({error:'创建邀请失败'},500);
+  return json({invite_url:`${origin}/qingqing-daily/?invite=${encodeURIComponent(token)}`});
+});

@@ -16,6 +16,7 @@ const Checkin = {
   },
 
   async load() {
+    if (!Supabase.isAuthenticated) { this.checkins = []; this.loaded = true; return; }
     // 先读本地缓存，立即渲染
     const cached = Storage.get(STORAGE_KEY);
     this.checkins = cached || [];
@@ -77,6 +78,7 @@ const Checkin = {
   },
 
   async doCheckin() {
+    if (!Supabase.isAuthenticated) return WorkspaceAccess.openAccess(Boolean(WorkspaceAccess.inviteToken));
     const today = this.getToday();
     if (this.checkins.includes(today)) return;
 

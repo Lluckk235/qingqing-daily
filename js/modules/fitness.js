@@ -48,7 +48,7 @@ const Fitness = {
   bindEvents() {
     document.getElementById('btnNewWeekPlan')?.addEventListener('click', () => this.createPlan());
     document.getElementById('btnAddExercise')?.addEventListener('click', () => this.openExerciseForm());
-    document.getElementById('btnFitnessRecovery')?.addEventListener('click', () => this.bindRecoveryEmail());
+    document.getElementById('btnFitnessRecovery')?.addEventListener('click', () => WorkspaceAccess.openSync());
     ['fitnessSearch', 'fitnessPlatform', 'fitnessType', 'fitnessIntensity', 'fitnessBody', 'fitnessCreator'].forEach(id => {
       document.getElementById(id)?.addEventListener('input', () => this.renderLibrary());
       document.getElementById(id)?.addEventListener('change', () => this.renderLibrary());
@@ -326,12 +326,6 @@ const Fitness = {
     });
   },
 
-  async bindRecoveryEmail() {
-    const email = prompt('绑定恢复邮箱（仅用于换设备后找回数据）：');
-    if (!email) return;
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { Helpers.showToast('邮箱格式不正确', 'error'); return; }
-    try { await Supabase.linkRecoveryEmail(email); Helpers.showToast('确认邮件已发送，请在邮箱中完成验证', 'success'); } catch (error) { Helpers.showToast(error.message, 'error'); }
-  },
 
   modal(id, title, body, saveText) {
     document.getElementById(id)?.remove();

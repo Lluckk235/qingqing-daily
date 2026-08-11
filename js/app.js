@@ -7,19 +7,19 @@ const App = {
   sidebarOpen: false,
 
   async init() {
-    // 自动建立浏览器专属匿名身份；不会弹出登录界面。
+    // 旧设备保留会话；新访客不再自动创建匿名可写身份。
     try {
-      await Supabase.initAnonymousSession();
+      await Supabase.initSession();
+      await WorkspaceAccess.afterSession();
+      await Supabase.loadMembership();
     } catch (error) {
       Storage.cloudSync = false;
-      console.warn('匿名身份不可用，已仅使用本机数据：', error.message);
+      console.warn('身份会话不可用：', error.message);
     }
+    Storage.cloudSync = Supabase.isAuthenticated;
 
     // 先从云端同步自己的数据（解决跨设备数据不一致问题）
-    await Promise.race([
-      Storage.syncFromCloud(),
-      new Promise(r => setTimeout(r, 3000))
-    ]);
+    if (Supabase.isAuthenticated) await Promise.race([Storage.syncFromCloud(), new Promise(r => setTimeout(r, 3000))]);
 
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
@@ -45,6 +45,8 @@ const App = {
     GoalProgress.init();
     Fitness.init();
 
+    WorkspaceAccess.init();
+    this.updateAccessUI();
     // 导航绑定
     this.bindNavigation();
 
@@ -70,10 +72,18 @@ const App = {
     document.querySelectorAll('.nav-item').forEach(item => {
       item.addEventListener('click', () => {
         const panel = item.dataset.panel;
+        if (item.dataset.private === 'true' && !Supabase.isAuthenticated) return WorkspaceAccess.openAccess(Boolean(WorkspaceAccess.inviteToken));
         this.navigateTo(panel);
         this.closeSidebar();
       });
     });
+  },
+
+  updateAccessUI() {
+    document.body.classList.toggle('workspace-guest', !Supabase.isAuthenticated);
+    document.getElementById('btnWorkspaceAccess').textContent = Supabase.isAuthenticated ? '数据与访问' : '登录/邀请码';
+    document.getElementById('btnWorkspaceMembers').hidden = !Supabase.isOwner;
+    document.getElementById('btnFitnessRecovery').textContent = '开启多设备同步';
   },
 
   toggleSidebar() {
