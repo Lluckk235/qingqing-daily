@@ -306,7 +306,7 @@ def translate_articles(articles: list[dict]) -> list[dict]:
 
 
 def sync_to_supabase(articles: list[dict], today_str: str):
-    """将新闻数据写入 Supabase（先清当天旧数据，再批量插入）"""
+    """将新闻数据写入 Supabase，并清理过期记录。"""
     if not SYNC_TO_SUPABASE:
         print("⏭ 跳过 Supabase 同步（未设置 SUPABASE_SERVICE_ROLE_KEY）")
         return
@@ -317,10 +317,30 @@ def sync_to_supabase(articles: list[dict], today_str: str):
         "Content-Type": "application/json",
     }
 
-    # 1. 删除当天旧数据
+    # 1. 清理超过时效的新闻；发布时间缺失的旧记录按写入时间清理。
+    cutoff_iso = (datetime.now(timezone.utc) - timedelta(hours=MAX_ARTICLE_AGE_HOURS)).isoformat()
     try:
-        del_url = f"{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}?news_date=eq.{today_str}"
-        resp = requests.delete(del_url, headers=headers, timeout=15)
+        del_url = f"{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}"
+        resp = requests.delete(del_url, headers=headers, params={"published_at": f"lt.{cutoff_iso}"}, timeout=15)
+        print(f"  🗑 清除超过 {MAX_ARTICLE_AGE_HOURS} 小时的新闻: {resp.status_code}")
+        resp = requests.delete(
+            del_url,
+            headers=headers,
+            params={"published_at": "is.null", "created_at": f"lt.{cutoff_iso}"},
+            timeout=15,
+        )
+        print(f"  🗑 清除无发布时间的过期新闻: {resp.status_code}")
+    except requests.RequestException as e:
+        print(f"  ⚠ 清除过期新闻失败: {e}")
+
+    # 2. 删除本轮要重建的当天数据。
+    try:
+        resp = requests.delete(
+            f"{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}",
+            headers=headers,
+            params={"news_date": f"eq.{today_str}"},
+            timeout=15,
+        )
         print(f"  🗑 清除当天旧数据: {resp.status_code}")
     except requests.RequestException as e:
         print(f"  ⚠ 清除旧数据失败: {e}")
