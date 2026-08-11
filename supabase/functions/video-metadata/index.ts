@@ -24,6 +24,16 @@ function readMeta(html: string, name: string) {
   return '';
 }
 
+function extractVideoUrl(value: unknown) {
+  const raw = String(value || '').trim();
+  const matched = raw.match(/https?:\/\/[^\s<>"'，。；、）】]+/i);
+  let candidate = matched ? matched[0] : raw.replace(/^["'【（(\s]+|["'】）)\s]+$/g, '');
+  if (!/^https?:\/\//i.test(candidate) && /^(?:[a-z0-9-]+\.)*(?:bilibili\.com|b23\.tv|douyin\.com|iesdouyin\.com)(?:\/|$)/i.test(candidate)) {
+    candidate = `https://${candidate}`;
+  }
+  return candidate;
+}
+
 function valueFromJsonLd(value: unknown): string {
   if (typeof value === 'string') return value.trim();
   if (Array.isArray(value)) return value.map(valueFromJsonLd).find(Boolean) || '';
@@ -72,7 +82,7 @@ Deno.serve(async request => {
   if (!user) return json({ error: 'Unauthorized' }, 401);
   const { url } = await request.json().catch(() => ({}));
   let target: URL;
-  try { target = new URL(url); } catch (_) { return json({ error: '链接格式不正确' }, 400); }
+  try { target = new URL(extractVideoUrl(url)); } catch (_) { return json({ error: '链接格式不正确' }, 400); }
   if (!isAllowedHost(target.hostname.toLowerCase())) return json({ error: '仅支持抖音和哔哩哔哩链接' }, 400);
   try {
     const response = await fetch(target, { redirect: 'follow', headers: { 'User-Agent': 'Mozilla/5.0 qingqing-daily/1.0' }, signal: AbortSignal.timeout(8000) });

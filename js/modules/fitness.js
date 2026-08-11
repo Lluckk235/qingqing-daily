@@ -194,11 +194,24 @@ const Fitness = {
     try { await Supabase.delete(`fitness_plan_items?id=eq.${id}`); await this.load(); this.render(); } catch (error) { Helpers.showToast(error.message, 'error'); }
   },
 
+  normalizeVideoUrl(value) {
+    const raw = String(value || '').trim();
+    if (!raw) return '';
+    // 分享文案经常带标题、【】和提示语；只取里面真正的视频网址。
+    const matched = raw.match(/https?:\/\/[^\s<>"'，。；、）】]+/i);
+    let candidate = matched ? matched[0] : raw.replace(/^["'【（(\s]+|["'】）)\s]+$/g, '');
+    // 也兼容复制时遗漏协议的 b23.tv/xxx 或 www.bilibili.com/video/xxx。
+    if (!/^https?:\/\//i.test(candidate) && /^(?:[a-z0-9-]+\.)*(?:bilibili\.com|b23\.tv|douyin\.com|iesdouyin\.com)(?:\/|$)/i.test(candidate)) {
+      candidate = `https://${candidate}`;
+    }
+    try { return new URL(candidate).toString(); } catch (_) { return ''; }
+  },
+
   platformForUrl(value) {
     try {
       const host = new URL(value).hostname.toLowerCase();
       if (host.includes('douyin')) return 'douyin';
-      if (host.includes('bilibili') || host === 'b23.tv') return 'bilibili';
+      if (host.includes('bilibili') || host === 'b23.tv' || host.endsWith('.b23.tv')) return 'bilibili';
     } catch (_) { /* 保存时再显示链接格式错误 */ }
     return '';
   },
@@ -238,12 +251,14 @@ const Fitness = {
   },
 
   async readVideoMeta(modal) {
-    const url = modal.querySelector('#fitnessSourceUrl').value.trim();
+    const sourceInput = modal.querySelector('#fitnessSourceUrl');
+    const url = this.normalizeVideoUrl(sourceInput.value);
     if (!url || url === modal.dataset.metadataUrl) return;
     if (!this.platformForUrl(url)) {
       this.setMetadataStatus(modal, '仅支持抖音和哔哩哔哩链接', 'error');
       return;
     }
+    sourceInput.value = url;
     modal.dataset.metadataUrl = url;
     this.setMetadataStatus(modal, '正在读取公开视频信息…', 'loading');
     try {
@@ -266,10 +281,12 @@ const Fitness = {
   },
 
   async saveExercise(id, modal) {
-    const sourceUrl = modal.querySelector('#fitnessSourceUrl').value.trim();
-    if (!sourceUrl) { Helpers.showToast('请粘贴视频链接', 'error'); return; }
+    const sourceInput = modal.querySelector('#fitnessSourceUrl');
+    const sourceUrl = this.normalizeVideoUrl(sourceInput.value);
+    if (!sourceUrl) { Helpers.showToast('请粘贴有效的抖音或哔哩哔哩链接', 'error'); return; }
     const platform = this.platformForUrl(sourceUrl);
     if (!platform) { Helpers.showToast('目前仅支持抖音和哔哩哔哩链接', 'error'); return; }
+    sourceInput.value = sourceUrl;
     const split = id => modal.querySelector(id).value.split(/[、,，]/).map(v => v.trim()).filter(Boolean);
     const title = modal.querySelector('#fitnessExerciseTitle').value.trim() || '未命名训练视频';
     const coverUrl = modal.querySelector('#fitnessExerciseCoverUrl').value.trim();
