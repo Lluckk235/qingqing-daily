@@ -13,6 +13,7 @@ import sys
 import time
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
+from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 
 import feedparser
@@ -111,6 +112,7 @@ MAX_PER_CATEGORY = 3
 TARGET_TOTAL = 12
 EN_TARGET_RATIO = 0.55  # 目标英文 50%-60%，中文化展示
 DEFAULT_DISPLAY = 6
+MAX_ARTICLE_AGE_HOURS = 36
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "daily-news.json")
@@ -133,10 +135,9 @@ def extract_domain(url: str) -> str:
         return ""
 
 
-def relative_time(published_str: str) -> str:
-    """将发布时间转为相对时间描述"""
+def parse_published_at(published_str: str) -> datetime | None:
+    """解析 RSS 常见发布时间，统一为 UTC。"""
     try:
-        # 尝试多种时间格式
         for fmt in [
             "%a, %d %b %Y %H:%M:%S %z",
             "%a, %d %b %Y %H:%M:%S %Z",
@@ -147,10 +148,22 @@ def relative_time(published_str: str) -> str:
                 dt = datetime.strptime(published_str, fmt)
                 if dt.tzinfo is None:
                     dt = dt.replace(tzinfo=timezone.utc)
-                break
+                return dt.astimezone(timezone.utc)
             except ValueError:
                 continue
-        else:
+        dt = parsedate_to_datetime(published_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def relative_time(published_str: str) -> str:
+    """将发布时间转为相对时间描述"""
+    try:
+        dt = parse_published_at(published_str)
+        if not dt:
             return ""
 
         now = datetime.now(timezone.utc)
@@ -447,15 +460,13 @@ def process_articles(candidates: list[dict]) -> list[dict]:
     for article in candidates:
         rel_time = relative_time(article["published_raw"])
 
-        try:
-            pub_dt = datetime.strptime(article["published_raw"], "%a, %d %b %Y %H:%M:%S %z")
-        except Exception:
-            try:
-                pub_dt = datetime.strptime(article["published_raw"], "%Y-%m-%dT%H:%M:%S%z")
-            except Exception:
-                pub_dt = now - timedelta(hours=12)
+        pub_dt = parse_published_at(article["published_raw"])
+        if not pub_dt:
+            continue
 
         hours_ago = (now - pub_dt).total_seconds() / 3600
+        if hours_ago > MAX_ARTICLE_AGE_HOURS:
+            continue
         cat_key, cat_label, badge = classify_article(article["title"], article["summary_raw"])
         score = score_article(
             article["source_weight"], article["title"], article["summary_raw"], cat_key, hours_ago
