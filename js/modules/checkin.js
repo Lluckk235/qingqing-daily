@@ -80,7 +80,7 @@ const Checkin = {
     const today = this.getToday();
     if (this.checkins.includes(today)) return;
 
-    const record = { date: today };
+    const record = { date: today, user_id: Supabase.userId };
     this.checkins.push(today);
     Storage.set(STORAGE_KEY, this.checkins);
     this.render();

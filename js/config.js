@@ -74,33 +74,6 @@ const CONFIG = {
     { code: '600036.SH', name: '招商银行', market: 'cn' },
   ],
 
-  // GEX 分析模板
-  gex: {
-    symbols: ['SPY', 'QQQ'],
-    // 分析字段
-    fields: [
-      { key: 'gamma', label: 'Gamma 敞口 (GEX)', hint: '单位：百万美元' },
-      { key: 'volume', label: '成交量分布', hint: '高成交量行权价区间' },
-      { key: 'putCall', label: 'Put/Call 比率', hint: '' },
-      { key: 'ivhv', label: 'IV / HV', hint: '隐含波动率 vs 历史波动率' },
-      { key: 'strikes', label: '关键行权价', hint: '最大GEX集中价位' },
-    ],
-    // 价位类型
-    levels: [
-      { key: 'resistance', label: '上方压力', icon: '⬆' },
-      { key: 'support', label: '下方支撑', icon: '⬇' },
-      { key: 'magnet', label: '可能吸附位', icon: '🧲' },
-      { key: 'breakdown', label: '风险破位位', icon: '⚠' },
-    ],
-    // 大盘环境
-    biases: [
-      { key: 'bullish', label: '偏多', color: 'bullish' },
-      { key: 'bearish', label: '偏空', color: 'bearish' },
-      { key: 'neutral', label: '震荡', color: 'neutral' },
-      { key: 'volatile', label: '高波动', color: 'volatile' },
-    ],
-  },
-
   // 投资名言
   quotes: [
     '别人贪婪时恐惧，别人恐惧时贪婪。',
@@ -117,7 +90,6 @@ const CONFIG = {
   storageKeys: {
     watchlist: 'iw_watchlist',
     researchHistory: 'iw_research_history',
-    gexHistory: 'iw_gex_history',
     notes: 'iw_notes',
     activity: 'iw_activity',
     moodCalendar: 'iw_mood_calendar',

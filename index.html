@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260802k">
   <link rel="stylesheet" href="css/components.css?v=20260802q">
+  <link rel="stylesheet" href="css/fitness.css?v=20260811a">
 </head>
 <body>
   <!-- 每日开屏启动页 -->
@@ -88,9 +89,9 @@
           <span class="nav-emoji">💬</span>
           <span>表达训练</span>
         </a>
-        <a class="nav-item" data-panel="gex">
-          <span class="nav-emoji">📊</span>
-          <span>GEX 分析</span>
+        <a class="nav-item" data-panel="fitness">
+          <span class="nav-emoji">🏋️</span>
+          <span>健身计划</span>
         </a>
         <a class="nav-item" data-panel="berkshire">
           <span class="nav-emoji">🔬</span>
@@ -212,118 +213,29 @@
         </div>
       </div>
 
-      <!-- GEX 分析面板 -->
-      <section class="panel" id="panel-gex">
+      <!-- 健身计划面板 -->
+      <section class="panel" id="panel-fitness">
         <div class="panel-header">
-          <h2>📊 GEX 期权分析</h2>
-          <p>上传 SPY 或 QQQ 期权分析截图，自动识别 GEX 关键数据</p>
+          <div><h2>🏋️ 健身计划</h2><p>筛选动作素材，安排本周训练并轻松打卡</p></div>
+          <button class="btn-secondary" id="btnFitnessRecovery">绑定恢复邮箱</button>
         </div>
-        <div class="gex-container">
-          <div class="gex-tabs">
-            <button class="gex-tab active" data-symbol="SPY">SPY</button>
-            <button class="gex-tab" data-symbol="QQQ">QQQ</button>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <div class="upload-area" id="uploadArea">
-                <div class="upload-icon">
-                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                    <polyline points="17 8 12 3 7 8"/>
-                    <line x1="12" y1="3" x2="12" y2="15"/>
-                  </svg>
-                </div>
-                <p class="upload-text">拖拽或点击上传 SPY 期权分析截图</p>
-                <p class="upload-hint">支持 PNG / JPG / WebP，建议 GEX 分析图</p>
-                <input type="file" id="fileInput" accept="image/*" hidden>
-                <button class="btn-secondary" id="btnUpload">选择图片</button>
-              </div>
-              <div class="upload-preview hidden" id="uploadPreview">
-                <img id="previewImage" src="" alt="预览">
-                <div class="preview-actions">
-                  <button class="btn-primary" id="btnAnalyze">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-                    </svg>
-                    开始分析
-                  </button>
-                  <button class="btn-text" id="btnCancelUpload">重新上传</button>
-                </div>
-              </div>
+        <div class="fitness-summary" id="fitnessSummary"></div>
+        <div class="card">
+          <div class="card-header"><h2>本周训练清单</h2><button class="btn-primary" id="btnNewWeekPlan">新建本周计划</button></div>
+          <div class="card-body" id="fitnessPlanList"></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2>动作库</h2><button class="btn-primary" id="btnAddExercise">添加视频</button></div>
+          <div class="card-body">
+            <div class="fitness-filters">
+              <input class="input" id="fitnessSearch" placeholder="搜索标题、博主或标签">
+              <select class="input" id="fitnessPlatform"><option value="">全部平台</option><option value="douyin">抖音</option><option value="bilibili">哔哩哔哩</option></select>
+              <select class="input" id="fitnessType"><option value="">全部类型</option><option value="力量">力量</option><option value="有氧">有氧</option><option value="拉伸">拉伸</option><option value="瑜伽/普拉提">瑜伽/普拉提</option><option value="HIIT">HIIT</option></select>
+              <select class="input" id="fitnessIntensity"><option value="">全部强度</option><option value="1">强度 1</option><option value="2">强度 2</option><option value="3">强度 3</option><option value="4">强度 4</option><option value="5">强度 5</option></select>
+              <select class="input" id="fitnessBody"><option value="">全部部位</option><option value="核心">核心</option><option value="臀腿">臀腿</option><option value="肩背">肩背</option><option value="胸">胸</option><option value="手臂">手臂</option><option value="全身">全身</option></select>
+              <input class="input" id="fitnessCreator" placeholder="筛选博主">
             </div>
-          </div>
-
-          <div class="analysis-result hidden" id="analysisResult">
-            <div class="card">
-              <div class="card-header">
-                <h2 id="analysisTitle">分析结果</h2>
-                <span class="badge" id="analysisBadge">SPY</span>
-              </div>
-              <div class="card-body">
-                <div class="gex-data-grid">
-                  <div class="gex-data-item">
-                    <span class="data-label">Gamma 敞口 (GEX)</span>
-                    <span class="data-value" id="gexGamma">--</span>
-                  </div>
-                  <div class="gex-data-item">
-                    <span class="data-label">成交量分布</span>
-                    <span class="data-value" id="gexVolume">--</span>
-                  </div>
-                  <div class="gex-data-item">
-                    <span class="data-label">Put/Call 比率</span>
-                    <span class="data-value" id="gexPutCall">--</span>
-                  </div>
-                  <div class="gex-data-item">
-                    <span class="data-label">IV / HV</span>
-                    <span class="data-value" id="gexIVHV">--</span>
-                  </div>
-                  <div class="gex-data-item full-width">
-                    <span class="data-label">关键行权价</span>
-                    <span class="data-value" id="gexStrikes">--</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header"><h2>短期关注 · 0DTE & 1DTE</h2></div>
-              <div class="card-body">
-                <div class="dte-grid" id="dteAnalysis"></div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header"><h2>关键价位</h2></div>
-              <div class="card-body">
-                <div class="levels-grid" id="levelsGrid"></div>
-              </div>
-            </div>
-
-            <div class="card conclusion-card">
-              <div class="card-header"><h2>盘前结论</h2></div>
-              <div class="card-body">
-                <div class="market-bias" id="marketBias"></div>
-                <p class="conclusion-text" id="conclusionText"></p>
-              </div>
-            </div>
-
-            <div class="card action-plan-card">
-              <div class="card-header"><h2>执行方案</h2></div>
-              <div class="card-body">
-                <div class="action-plan" id="actionPlan"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header">
-              <h2>分析历史</h2>
-              <button class="btn-sm btn-text" id="btnClearGexHistory">清空</button>
-            </div>
-            <div class="card-body" id="gexHistory">
-              <div class="empty-hint">还没有分析记录</div>
-            </div>
+            <div class="fitness-library" id="fitnessLibrary"></div>
           </div>
         </div>
       </section>
@@ -462,34 +374,6 @@
     </main>
   </div>
 
-  <!-- 底部 Tab 栏 (移动端) -->
-  <nav class="bottom-tabbar" id="bottomTabbar">
-    <a class="tab-item active" data-panel="dashboard">
-      <span class="tab-emoji">🏠</span>
-      <span>首页</span>
-    </a>
-    <a class="tab-item" data-panel="berkshire">
-      <span class="tab-emoji">🔬</span>
-      <span>研究</span>
-    </a>
-    <a class="tab-item" data-panel="gex">
-      <span class="tab-emoji">📊</span>
-      <span>GEX</span>
-    </a>
-    <a class="tab-item" data-panel="notes">
-      <span class="tab-emoji">📝</span>
-      <span>复盘</span>
-    </a>
-    <a class="tab-item" data-panel="expression">
-      <span class="tab-emoji">💬</span>
-      <span>表达</span>
-    </a>
-    <a class="tab-item" data-panel="mood">
-      <span class="tab-emoji">🌈</span>
-      <span>心情</span>
-    </a>
-  </nav>
-
   <!-- Toast 通知 -->
   <div class="toast-container" id="toastContainer"></div>
 
@@ -503,7 +387,6 @@
   <script src="js/modules/market-data.js?v=20260801c"></script>
   <script src="js/modules/dashboard.js?v=20260801c"></script>
   <script src="js/modules/berkshire.js?v=20260801c"></script>
-  <script src="js/modules/gex-analyzer.js?v=20260801c"></script>
   <script src="js/modules/challenges.js?v=20260802m"></script>
   <script src="js/modules/goal-progress.js?v=20260802q"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
@@ -512,6 +395,7 @@
   <script src="js/modules/checkin.js?v=20260801c"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>
   <script src="js/modules/mood-calendar.js?v=20260802h"></script>
+  <script src="js/modules/fitness.js?v=20260811a"></script>
   <script src="js/modules/splash.js?v=20260802a"></script>
   <script src="js/app.js?v=20260802p"></script>
 </body>

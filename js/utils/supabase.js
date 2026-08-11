@@ -7,11 +7,62 @@
 var Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
+  sessionKey: 'qq_anonymous_session_v1',
+  session: null,
+
+  async initAnonymousSession() {
+    this.session = this.readSession();
+    if (this.session && this.session.expires_at * 1000 > Date.now() + 60000) return this.session;
+    if (this.session && this.session.refresh_token) {
+      try { return await this.refreshSession(this.session.refresh_token); } catch (_) { this.clearSession(); }
+    }
+    return this.createAnonymousSession();
+  },
+
+  readSession() {
+    try { return JSON.parse(localStorage.getItem(this.sessionKey) || 'null'); } catch (_) { return null; }
+  },
+
+  saveSession(session) {
+    this.session = session;
+    localStorage.setItem(this.sessionKey, JSON.stringify(session));
+    return session;
+  },
+
+  clearSession() {
+    this.session = null;
+    localStorage.removeItem(this.sessionKey);
+  },
+
+  async createAnonymousSession() {
+    const res = await fetch(`${this.url}/auth/v1/signup`, {
+      method: 'POST',
+      headers: { 'apikey': this.key, 'Authorization': `Bearer ${this.key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ data: { app: 'qingqing-daily' } }),
+    });
+    if (!res.ok) throw new Error(`匿名身份创建失败 (${res.status})。请确认 Supabase 已启用 Anonymous Sign-Ins。`);
+    const payload = await res.json();
+    if (!payload.access_token || !payload.user?.id) throw new Error('Supabase 未返回匿名会话');
+    return this.saveSession(payload);
+  },
+
+  async refreshSession(refreshToken) {
+    const res = await fetch(`${this.url}/auth/v1/token?grant_type=refresh_token`, {
+      method: 'POST',
+      headers: { 'apikey': this.key, 'Authorization': `Bearer ${this.key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: refreshToken }),
+    });
+    if (!res.ok) throw new Error(`匿名会话刷新失败 (${res.status})`);
+    return this.saveSession(await res.json());
+  },
+
+  get userId() { return this.session?.user?.id || null; },
+  get isAuthenticated() { return Boolean(this.session?.access_token && this.userId); },
 
   headers(extra = {}) {
     return {
       'apikey': this.key,
-      'Authorization': `Bearer ${this.key}`,
+      'Authorization': `Bearer ${this.session?.access_token || this.key}`,
       'Content-Type': 'application/json',
       ...extra,
     };
@@ -66,6 +117,22 @@ var Supabase = {
   },
 
   delete(path) { return this.fetch(path, { method: 'DELETE' }); },
+
+  async invokeFunction(name, body) {
+    const res = await fetch(`${this.url}/functions/v1/${name}`, {
+      method: 'POST', headers: this.headers(), body: JSON.stringify(body),
+    });
+    if (!res.ok) throw new Error(`服务暂时无法解析视频信息 (${res.status})`);
+    return res.json();
+  },
+
+  async linkRecoveryEmail(email) {
+    const res = await fetch(`${this.url}/auth/v1/user`, {
+      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email }),
+    });
+    if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
+    return res.json();
+  },
 };
 
 // var 已自动挂载 window.Supabase，再显式赋值做双重保险

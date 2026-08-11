@@ -4,7 +4,7 @@
    ======================================== */
 
 const Storage = {
-  // 云端同步开关（true=双写，localStorage + Supabase）
+  // 云端同步仅在匿名身份建立后启用；RLS 按 user_id 隔离所有记录。
   cloudSync: true,
 
   get(key, fallback = null) {
@@ -39,20 +39,23 @@ const Storage = {
   // --- 云端操作（纯 REST API） ---
 
   async _cloudUpsert(key, value) {
+    if (!Supabase.isAuthenticated) return;
     try {
       await Supabase.upsert('user_data', {
+        user_id: Supabase.userId,
         key,
         value,
         updated_at: new Date().toISOString(),
-      }, 'key');
+      }, 'user_id,key');
     } catch (e) {
       console.warn('[Storage] cloud upsert error:', key, e.message);
     }
   },
 
   async _cloudDelete(key) {
+    if (!Supabase.isAuthenticated) return;
     try {
-      await Supabase.delete(`user_data?key=eq.${encodeURIComponent(key)}`);
+      await Supabase.delete(`user_data?user_id=eq.${encodeURIComponent(Supabase.userId)}&key=eq.${encodeURIComponent(key)}`);
     } catch (e) {
       console.warn('[Storage] cloud delete error:', key, e.message);
     }
@@ -60,9 +63,9 @@ const Storage = {
 
   // 从云端拉取所有数据并同步到本地（启动时调用）
   async syncFromCloud() {
-    if (!this.cloudSync) return;
+    if (!this.cloudSync || !Supabase.isAuthenticated) return;
     try {
-      const data = await Supabase.get('user_data?select=key,value');
+      const data = await Supabase.get(`user_data?select=key,value&user_id=eq.${encodeURIComponent(Supabase.userId)}`);
       if (!data || data.length === 0) return;
 
       let synced = 0;

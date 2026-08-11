@@ -7,7 +7,15 @@ const App = {
   sidebarOpen: false,
 
   async init() {
-    // 先从云端同步数据（解决跨设备数据不一致问题）
+    // 自动建立浏览器专属匿名身份；不会弹出登录界面。
+    try {
+      await Supabase.initAnonymousSession();
+    } catch (error) {
+      Storage.cloudSync = false;
+      console.warn('匿名身份不可用，已仅使用本机数据：', error.message);
+    }
+
+    // 先从云端同步自己的数据（解决跨设备数据不一致问题）
     await Promise.race([
       Storage.syncFromCloud(),
       new Promise(r => setTimeout(r, 3000))
@@ -15,7 +23,10 @@ const App = {
 
     // 恢复上次面板
     const savedPanel = Storage.get(CONFIG.storageKeys.currentPanel);
-    if (savedPanel && ['dashboard', 'berkshire', 'gex', 'challenges', 'notes', 'expression', 'mood'].includes(savedPanel)) {
+    // GEX 已移除：仅清理该模块的数据，不影响其他个人记录。
+    Storage.remove('iw_gex_history');
+
+    if (savedPanel && ['dashboard', 'berkshire', 'challenges', 'notes', 'expression', 'mood', 'fitness'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
@@ -24,7 +35,6 @@ const App = {
     MarketData.init();
     Dashboard.init();
     Berkshire.init();
-    GexAnalyzer.init();
     Challenges.init();
     Notes.init();
     Expression.init();
@@ -33,17 +43,10 @@ const App = {
     DailyQuote.init();
     MoodCalendar.init();
     GoalProgress.init();
+    Fitness.init();
 
     // 导航绑定
     this.bindNavigation();
-
-    // 底部 Tab 栏导航 (移动端)
-    document.querySelectorAll('.tab-item').forEach(item => {
-      item.addEventListener('click', () => {
-        const panel = item.dataset.panel;
-        this.navigateTo(panel);
-      });
-    });
 
     // Logo 点击打开/关闭侧边栏（手机端抽屉菜单）
     document.getElementById('logoClick').addEventListener('click', () => {
@@ -97,11 +100,6 @@ const App = {
     // 更新侧边栏导航高亮
     document.querySelectorAll('.nav-item').forEach(n => {
       n.classList.toggle('active', n.dataset.panel === panel);
-    });
-
-    // 更新底部 Tab 栏高亮
-    document.querySelectorAll('.tab-item').forEach(t => {
-      t.classList.toggle('active', t.dataset.panel === panel);
     });
 
     // 更新面板显示
