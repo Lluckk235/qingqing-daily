@@ -233,7 +233,7 @@ const Fitness = {
           <label>博主<input class="input" id="fitnessExerciseCreator" value="${this.esc(existing?.creator || '')}"></label>
         </div>
       </details>
-      <div class="fitness-form-grid"><label>训练类型<select class="input" id="fitnessTrainingType"><option value="力量">力量</option><option value="有氧">有氧</option><option value="拉伸">拉伸</option><option value="瑜伽/普拉提">瑜伽/普拉提</option><option value="HIIT">HIIT</option></select></label><label>强度 1-5<input class="input" id="fitnessExerciseIntensity" type="number" min="1" max="5" value="${existing?.intensity || 3}"></label><label>时长（分钟）<input class="input" id="fitnessDuration" type="number" min="1" value="${existing?.duration_minutes || ''}"></label></div>
+      <div class="fitness-form-grid"><label>训练类型<select class="input" id="fitnessTrainingType"><option value="力量">力量</option><option value="有氧">有氧</option><option value="拉伸">拉伸</option><option value="瑜伽/普拉提">瑜伽/普拉提</option><option value="HIIT">HIIT</option></select></label><label>强度 1-5<input class="input" id="fitnessExerciseIntensity" type="number" min="1" max="5" step="1" value="${existing?.intensity || 3}"></label><label>时长（分钟，整数）<input class="input" id="fitnessDuration" type="number" min="1" step="1" inputmode="numeric" value="${existing?.duration_minutes || ''}"></label></div>
       <label>练习部位（逗号分隔）<input class="input" id="fitnessBodyParts" value="${this.esc((existing?.body_parts || []).join('、'))}" placeholder="臀腿、核心、肩背"></label>
       <label>标签（逗号分隔）<input class="input" id="fitnessTags" value="${this.esc((existing?.tags || []).join('、'))}" placeholder="居家、无器械"></label>
       <label>备注<textarea class="input" id="fitnessNote" rows="2">${this.esc(existing?.notes || '')}</textarea></label>`, '保存');
@@ -293,13 +293,18 @@ const Fitness = {
     const split = id => modal.querySelector(id).value.split(/[、,，]/).map(v => v.trim()).filter(Boolean);
     const title = modal.querySelector('#fitnessExerciseTitle').value.trim() || '未命名训练视频';
     const coverUrl = modal.querySelector('#fitnessExerciseCoverUrl').value.trim();
+    const intensity = Number(modal.querySelector('#fitnessExerciseIntensity').value);
+    const durationValue = modal.querySelector('#fitnessDuration').value.trim();
+    const durationMinutes = durationValue ? Number(durationValue) : null;
+    if (!Number.isInteger(intensity) || intensity < 1 || intensity > 5) { Helpers.showToast('训练强度请填写 1 到 5 的整数', 'error'); return; }
+    if (durationMinutes !== null && (!Number.isInteger(durationMinutes) || durationMinutes < 1)) { Helpers.showToast('训练时长请填写正整数分钟，例如 10 或 30', 'error'); return; }
     const payload = {
       user_id: Supabase.userId, source_url: sourceUrl, platform, title,
       cover_url: coverUrl || null,
       creator: modal.querySelector('#fitnessExerciseCreator').value.trim() || null,
       training_type: modal.querySelector('#fitnessTrainingType').value,
-      intensity: Number(modal.querySelector('#fitnessExerciseIntensity').value) || 3,
-      duration_minutes: Number(modal.querySelector('#fitnessDuration').value) || null,
+      intensity,
+      duration_minutes: durationMinutes,
       body_parts: split('#fitnessBodyParts'), tags: split('#fitnessTags'), notes: modal.querySelector('#fitnessNote').value.trim() || null,
       metadata_status: modal.dataset.metadataStatus || (coverUrl ? 'ready' : 'fallback'),
     };
