@@ -47,7 +47,7 @@ const Fitness = {
 
   bindEvents() {
     document.getElementById('btnAddExercise')?.addEventListener('click', () => this.openExerciseForm());
-    ['fitnessSearch', 'fitnessPlatform', 'fitnessType', 'fitnessIntensity', 'fitnessBody', 'fitnessCreator'].forEach(id => {
+    ['fitnessSearch', 'fitnessPlatform', 'fitnessType', 'fitnessIntensity', 'fitnessBody'].forEach(id => {
       document.getElementById(id)?.addEventListener('input', () => this.renderLibrary());
       document.getElementById(id)?.addEventListener('change', () => this.renderLibrary());
     });
@@ -118,7 +118,6 @@ const Fitness = {
       type: document.getElementById('fitnessType')?.value || '',
       intensity: document.getElementById('fitnessIntensity')?.value || '',
       body: document.getElementById('fitnessBody')?.value || '',
-      creator: (document.getElementById('fitnessCreator')?.value || '').trim().toLowerCase(),
     };
   },
 
@@ -132,8 +131,7 @@ const Fitness = {
         && (!filter.platform || item.platform === filter.platform)
         && (!filter.type || item.training_type === filter.type)
         && (!filter.intensity || String(item.intensity) === filter.intensity)
-        && (!filter.body || (item.body_parts || []).includes(filter.body))
-        && (!filter.creator || (item.creator || '').toLowerCase().includes(filter.creator));
+        && (!filter.body || (item.body_parts || []).includes(filter.body));
     });
     container.innerHTML = list.length ? list.map(item => `<article class="fitness-card">
       <a class="fitness-cover" href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">${this.cover(item)}</a>
