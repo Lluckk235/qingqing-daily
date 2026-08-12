@@ -103,7 +103,8 @@ var Supabase = {
     // 不使用当前页面地址：手机从邮件、微信或旧路径打开时，可能把错误路径带进回跳链接并造成 GitHub Pages 404。
     const redirect = new URL(this.appUrl);
     if (inviteToken) redirect.searchParams.set('invite', inviteToken);
-    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, redirect_to: redirect.toString() }) });
+    // /auth/v1/otp 只识别 email_redirect_to；redirect_to 会被静默忽略并回落到 Site URL。
+    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, email_redirect_to: redirect.toString() }) });
     if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
   },
