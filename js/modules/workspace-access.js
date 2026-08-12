@@ -123,7 +123,7 @@ const WorkspaceAccess = {
     const loginPassword = `
       <section class="workspace-setting-section">
         <h4>登录密码</h4>
-        <p class="workspace-hint">设置后，iPhone 主屏幕版或任意新设备直接用「邮箱 + 登录密码」即可进入，无需再走邮件链接。密码至少 10 位。</p>
+        <p class="workspace-hint">设置后，iPhone 主屏幕版或任意新设备直接用「邮箱 + 登录密码」即可进入，无需再走邮件链接。密码至少 6 位。</p>
         <label>新密码<input class="input" id="wsNewPass" type="password" autocomplete="new-password" placeholder="至少 10 位"></label>
         <label>确认新密码<input class="input" id="wsConfirmPass" type="password" autocomplete="new-password" placeholder="再次输入新密码"></label>
         <button class="btn-primary" type="button" data-save-password>设置 / 修改登录密码</button>
@@ -142,7 +142,7 @@ const WorkspaceAccess = {
     modal.querySelector('[data-save-password]')?.addEventListener('click', async () => {
       const np = modal.querySelector('#wsNewPass').value;
       const cp = modal.querySelector('#wsConfirmPass').value;
-      if (np.length < 10) return Helpers.showToast('密码至少 10 位', 'error');
+      if (np.length < 6) return Helpers.showToast('密码至少 6 位', 'error');
       if (np !== cp) return Helpers.showToast('两次输入的密码不一致', 'error');
       const btn = modal.querySelector('[data-save-password]');
       btn.disabled = true; btn.textContent = '保存中…';
