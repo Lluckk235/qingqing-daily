@@ -190,7 +190,21 @@ var Supabase = {
     });
     if (res.status === 429) throw new Error('确认邮件已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
-    return res.json();
+    const user = await res.json();
+    // 保留 new_email，设置页据此判断是否真的还有一封待确认邮件。
+    if (this.session) this.saveSession({ ...this.session, user });
+    return user;
+  },
+
+  async resendPendingEmailConfirmation() {
+    const email = this.session?.user?.new_email;
+    if (!email) throw new Error('当前邮箱已经确认；请在新设备的设置中发送登录邮件');
+    const res = await fetch(`${this.url}/auth/v1/resend`, {
+      method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'email_change', email, email_redirect_to: this.appUrl }),
+    });
+    if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
+    if (!res.ok) throw new Error(`确认邮件发送失败 (${res.status})`);
   },
 
   async signOut() {

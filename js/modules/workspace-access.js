@@ -67,20 +67,21 @@ const WorkspaceAccess = {
     }
 
     const email = Supabase.session?.user?.email || '';
+    const pendingEmail = Supabase.session?.user?.new_email || '';
     const ownerSync = Supabase.isOwner
-      ? email
-        ? `<section class="workspace-setting-section"><h4>多设备同步</h4><p class="workspace-hint">已绑定 <strong>${this.escape(email)}</strong>。换设备时，在设置中输入此邮箱并打开登录邮件即可同步；网站更新不会影响身份或云端数据。</p><button class="btn-text" type="button" data-resend-confirmation>重新发送确认邮件</button></section>`
+      ? (email || pendingEmail)
+        ? `<section class="workspace-setting-section"><h4>多设备同步</h4><p class="workspace-hint">${pendingEmail ? `正在等待确认 <strong>${this.escape(pendingEmail)}</strong>。` : `已绑定 <strong>${this.escape(email)}</strong>。`}换设备时，请在新设备的设置中输入此邮箱并打开<strong>新设备发出的登录邮件</strong>；网站更新不会影响身份或云端数据。</p>${pendingEmail ? '<button class="btn-text" type="button" data-resend-confirmation>重新发送确认邮件</button>' : ''}</section>`
         : '<section class="workspace-setting-section"><h4>多设备同步</h4><p class="workspace-hint">绑定邮箱后，换手机时可恢复当前这份工作台；日常无需登录。</p><button class="btn-primary" type="button" data-open-sync>开启多设备同步</button></section>'
       : '';
     const ownerMembers = Supabase.isOwner
       ? `<section class="workspace-setting-section workspace-owner-section"><h4>成员管理</h4><p class="workspace-hint">为指定邮箱生成一次性邀请链接（7 天有效）。对方激活后只能使用自己的数据，不能查看或管理其他成员。</p><label>朋友或粉丝邮箱<input class="input" id="inviteEmail" type="email" autocomplete="email" placeholder="friend@example.com"></label><button class="btn-primary" type="button" id="btnCreateInvitation">生成专属邀请链接</button><div id="inviteResult"></div><div class="workspace-member-list" id="workspaceInviteList">加载中…</div></section>`
       : '';
-    const modal = this.modal('设置', `<section class="workspace-setting-section"><h4>数据与访问</h4><p class="workspace-detail"><span>当前邮箱</span><strong>${email ? this.escape(email) : '暂未绑定'}</strong></p><p class="workspace-hint">在新设备打开常用网址，进入设置后用同一邮箱登录，即可继续使用自己的工作台。</p><button class="btn-text workspace-danger" type="button" data-sign-out>退出当前设备</button></section>${ownerSync}${ownerMembers}`, '', '关闭');
+    const modal = this.modal('设置', `<section class="workspace-setting-section"><h4>数据与访问</h4><p class="workspace-detail"><span>当前邮箱</span><strong>${email ? this.escape(email) : pendingEmail ? `待确认：${this.escape(pendingEmail)}` : '暂未绑定'}</strong></p><p class="workspace-hint">在新设备打开常用网址，进入设置后用同一邮箱登录，即可继续使用自己的工作台。</p><button class="btn-text workspace-danger" type="button" data-sign-out>退出当前设备</button></section>${ownerSync}${ownerMembers}`, '', '关闭');
 
     modal.querySelector('[data-open-sync]')?.addEventListener('click', () => { modal.remove(); this.openSync(); });
     modal.querySelector('[data-resend-confirmation]')?.addEventListener('click', async () => {
       try {
-        await Supabase.linkRecoveryEmail(email);
+        await Supabase.resendPendingEmailConfirmation();
         Helpers.showToast('确认邮件已发送，请在邮箱中完成确认', 'success');
       } catch (error) { Helpers.showToast(error.message, 'error'); }
     });
