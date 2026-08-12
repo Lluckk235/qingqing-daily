@@ -241,7 +241,7 @@ const Fitness = {
   openExerciseForm(existing = null) {
     const modal = this.modal('fitnessExerciseModal', existing ? '编辑动作素材' : '添加健身视频', `
       <label>抖音/B站链接<input class="input" id="fitnessSourceUrl" value="${this.esc(existing?.source_url || '')}" placeholder="粘贴视频分享链接"></label>
-      <p class="fitness-metadata-status" id="fitnessMetadataStatus" aria-live="polite">粘贴链接后将自动读取标题、封面和博主</p>
+      <p class="fitness-metadata-status" id="fitnessMetadataStatus" aria-live="polite">B站自动读取标题和封面；抖音可直接保存，粘贴 App 完整分享文案可自动带入标题</p>
       <details class="fitness-metadata-details" ${existing ? 'open' : ''}><summary>补充或编辑视频信息（可选）</summary>
         <div class="fitness-form fitness-metadata-fields">
           <label>视频标题<input class="input" id="fitnessExerciseTitle" value="${this.esc(existing?.title || '')}" placeholder="未读取时将自动使用默认标题"></label>
@@ -271,7 +271,9 @@ const Fitness = {
       remove.addEventListener('click', () => this.deleteExercise(existing.id, modal, remove));
     }
     if (existing?.source_url) {
-      this.setMetadataStatus(modal, '可直接编辑已保存的信息；更换链接后会自动重新读取');
+      this.setMetadataStatus(modal, existing.platform === 'douyin'
+        ? '抖音封面受平台限制时会使用默认图；更换为 App 完整分享文案可补充标题'
+        : '可直接编辑已保存的信息；更换链接后会自动重新读取');
       // 旧卡片曾因平台风控而使用兜底内容时，打开编辑页自动补读，不要求重新粘贴链接。
       if (existing.title === '未命名训练视频' || !existing.cover_url || !existing.creator) this.readVideoMeta(modal);
     }
@@ -300,7 +302,11 @@ const Fitness = {
       if (missing.includes('title')) fallback.push('标题将使用默认值');
       if (missing.includes('cover')) fallback.push('封面将使用默认图标');
       if (missing.includes('creator')) fallback.push('未读取到博主');
-      const message = fallback.length ? `已自动读取；${fallback.join('，')}` : '已自动读取标题、封面和博主';
+      const message = fallback.length
+        ? (this.platformForUrl(url) === 'douyin'
+          ? `抖音可直接保存；${fallback.join('，')}。粘贴 App 完整分享文案可自动带入标题`
+          : `已自动读取；${fallback.join('，')}`)
+        : '已自动读取标题、封面和博主';
       this.setMetadataStatus(modal, message, metadata.metadata_status || 'ready');
     } catch (_) {
       modal.dataset.metadataStatus = 'unavailable';
