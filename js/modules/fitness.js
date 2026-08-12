@@ -262,6 +262,14 @@ const Fitness = {
     sourceInput.addEventListener('change', triggerRead);
     sourceInput.addEventListener('paste', triggerRead);
     modal.querySelector('[data-modal-save]').addEventListener('click', () => this.saveExercise(existing?.id, modal));
+    if (existing?.id) {
+      const remove = document.createElement('button');
+      remove.className = 'btn-text';
+      remove.type = 'button';
+      remove.textContent = '删除此动作';
+      modal.querySelector('.modal-footer').prepend(remove);
+      remove.addEventListener('click', () => this.deleteExercise(existing.id, modal, remove));
+    }
     if (existing?.source_url) {
       this.setMetadataStatus(modal, '可直接编辑已保存的信息；更换链接后会自动重新读取');
       // 旧卡片曾因平台风控而使用兜底内容时，打开编辑页自动补读，不要求重新粘贴链接。
@@ -329,6 +337,23 @@ const Fitness = {
       if (id) await Supabase.patch(`fitness_exercises?id=eq.${id}`, payload); else await Supabase.post('fitness_exercises', payload);
       modal.remove(); await this.load(); this.render(); Helpers.showToast('动作素材已保存', 'success');
     } catch (error) { Helpers.showToast(error.message, 'error'); }
+  },
+
+  async deleteExercise(id, modal, button) {
+    if (!confirm('删除此动作素材？它在所有周计划中的条目和相关打卡也会一起删除。')) return;
+    button.disabled = true;
+    try {
+      // 先删除计划条目；关联的打卡会由数据库外键自动删除，随后才能删除动作本身。
+      await Supabase.delete(`fitness_plan_items?exercise_id=eq.${id}`);
+      await Supabase.delete(`fitness_exercises?id=eq.${id}`);
+      modal.remove();
+      await this.load(); this.render();
+      Helpers.showToast('动作素材已删除', 'success');
+    } catch (error) {
+      button.disabled = false;
+      Helpers.showToast('删除失败，请刷新页面后重试', 'error');
+      console.warn('Fitness exercise deletion failed:', error.message);
+    }
   },
 
   openCheckin(itemId) {
