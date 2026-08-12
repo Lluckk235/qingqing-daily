@@ -109,6 +109,42 @@ var Supabase = {
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
   },
 
+  /**
+   * 日常登录：邮箱 + 密码（password grant）
+   * 复用 qq_anonymous_session_v1 的会话格式，与 Magic Link 完全一致；
+   * 因此主屏幕版、Safari、桌面共享同一套本地存储键，密码登录即获得完整私人工作台。
+   * 文档：POST /auth/v1/token?grant_type=password  body: { email, password }
+   */
+  async signInWithPassword(email, password) {
+    const res = await fetch(`${this.url}/auth/v1/token?grant_type=password`, {
+      method: 'POST',
+      headers: { apikey: this.key, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    });
+    if (res.status === 400) throw new Error('邮箱或密码错误，请检查后重试');
+    if (res.status === 429) throw new Error('尝试过于频繁，请稍后再试');
+    if (!res.ok) throw new Error(`登录失败 (${res.status})`);
+    return this.saveSession(await res.json());
+  },
+
+  /**
+   * 已登录用户修改/设置自己的登录密码（使用当前 JWT 调用 Auth 更新自身）。
+   * 不需要 service_role：用已登录用户的 access_token 作为 Authorization 即可。
+   * 文档：PUT /auth/v1/user
+   */
+  async updatePassword(newPassword) {
+    const res = await fetch(`${this.url}/auth/v1/user`, {
+      method: 'PUT',
+      headers: this.headers(),
+      body: JSON.stringify({ password: newPassword }),
+    });
+    if (res.status === 422) throw new Error('密码强度不足，请使用至少 10 位的组合');
+    if (!res.ok) throw new Error(`密码更新失败 (${res.status})`);
+    const user = await res.json();
+    if (this.session) this.saveSession({ ...this.session, user });
+    return user;
+  },
+
   headers(extra = {}) {
     return {
       'apikey': this.key,
