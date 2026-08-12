@@ -70,6 +70,42 @@ function readJsonLd(html: string) {
   return result;
 }
 
+function decodeEscaped(value: string) {
+  return value
+    .replace(/\\u([0-9a-f]{4})/gi, (_, hex) => String.fromCharCode(Number.parseInt(hex, 16)))
+    .replace(/\\\//g, '/')
+    .replace(/\\"/g, '"')
+    .replace(/&amp;/g, '&')
+    .trim();
+}
+
+// 抖音经常不输出 Open Graph，但首屏脚本中仍会携带 desc / cover_url。
+function readDouyinScriptMetadata(html: string) {
+  const find = (patterns: RegExp[]) => {
+    for (const pattern of patterns) {
+      const match = html.match(pattern);
+      if (match?.[1]) return decodeEscaped(match[1]);
+    }
+    return '';
+  };
+  return {
+    title: find([/"desc"\s*:\s*"((?:\\.|[^"\\])*)"/i, /"title"\s*:\s*"((?:\\.|[^"\\])*)"/i]),
+    cover_url: find([/"(?:cover_url|origin_cover|dynamic_cover|cover)"\s*:\s*"((?:\\.|[^"\\])*)"/i]),
+    creator: find([/"(?:nickname|author_name)"\s*:\s*"((?:\\.|[^"\\])*)"/i]),
+  };
+}
+
+function titleFromShareText(value: unknown) {
+  const text = String(value || '').replace(/https?:\/\/[^\s<>'"，。；、）】]+/gi, ' ').trim();
+  const cleaned = text
+    .replace(/[\n\r]+/g, ' ')
+    .replace(/复制此链接[，,。！!]?\s*打开抖音.*$/i, '')
+    .replace(/打开抖音.*$/i, '')
+    .replace(/#(?:抖音|douyin)\b/gi, '')
+    .trim();
+  return cleaned.length >= 2 && cleaned.length <= 140 ? cleaned : '';
+}
+
 function bilibiliBvid(url: URL) {
   const match = url.pathname.match(/\/video\/(BV[0-9A-Za-z]+)/i);
   return match?.[1] || '';
@@ -103,7 +139,7 @@ Deno.serve(async request => {
   const client = createClient(Deno.env.get('SUPABASE_URL')!, anonKey, { global: { headers: { Authorization: auth } } });
   const { data: { user } } = await client.auth.getUser();
   if (!user) return json({ error: 'Unauthorized' }, 401);
-  const { url } = await request.json().catch(() => ({}));
+  const { url, share_text } = await request.json().catch(() => ({}));
   let target: URL;
   try { target = new URL(extractVideoUrl(url)); } catch (_) { return json({ error: '链接格式不正确' }, 400); }
   if (!isAllowedHost(target.hostname.toLowerCase())) return json({ error: '仅支持抖音和哔哩哔哩链接' }, 400);
@@ -115,9 +151,10 @@ Deno.serve(async request => {
     if (!response.ok && !bilibili.title) throw new Error(`upstream ${response.status}`);
     const html = response.ok ? (await response.text()).slice(0, 750000) : '';
     const jsonLd = readJsonLd(html);
-    const title = bilibili.title || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title;
-    const cover_url = bilibili.cover_url || readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url;
-    const creator = bilibili.creator || readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator;
+    const douyin = finalUrl.hostname.toLowerCase().endsWith('douyin.com') ? readDouyinScriptMetadata(html) : { title: '', cover_url: '', creator: '' };
+    const title = bilibili.title || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title || douyin.title || titleFromShareText(share_text);
+    const cover_url = bilibili.cover_url || readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url || douyin.cover_url;
+    const creator = bilibili.creator || readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator || douyin.creator;
     const missing = [!title && 'title', !cover_url && 'cover', !creator && 'creator'].filter(Boolean);
     return json({
       title,

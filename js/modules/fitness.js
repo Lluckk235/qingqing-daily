@@ -271,6 +271,7 @@ const Fitness = {
 
   async readVideoMeta(modal) {
     const sourceInput = modal.querySelector('#fitnessSourceUrl');
+    const shareText = sourceInput.value;
     const url = this.normalizeVideoUrl(sourceInput.value);
     if (!url || url === modal.dataset.metadataUrl) return;
     if (!this.platformForUrl(url)) {
@@ -281,7 +282,7 @@ const Fitness = {
     modal.dataset.metadataUrl = url;
     this.setMetadataStatus(modal, '正在读取公开视频信息…', 'loading');
     try {
-      const metadata = await Supabase.invokeFunction('video-metadata', { url });
+      const metadata = await Supabase.invokeFunction('video-metadata', { url, share_text: shareText });
       if (metadata.canonical_url) modal.querySelector('#fitnessSourceUrl').value = metadata.canonical_url;
       if (metadata.title) modal.querySelector('#fitnessExerciseTitle').value = metadata.title;
       if (metadata.cover_url) modal.querySelector('#fitnessExerciseCoverUrl').value = metadata.cover_url;
