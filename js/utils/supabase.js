@@ -138,7 +138,13 @@ var Supabase = {
       headers: this.headers(),
       body: JSON.stringify({ password: newPassword }),
     });
-    if (res.status === 422) throw new Error('密码强度不足，请使用至少 10 位的组合');
+    if (res.status === 422) {
+      let msg = '密码不符合要求，请更换一个至少 6 位的新密码（不能与当前密码相同）';
+      if (res.headers.get('www-authenticate')?.includes('error="invalid_token"')) {
+        msg = '登录状态已过期，请先在设置中退出并用邮箱＋密码重新登录，再设置密码';
+      }
+      throw new Error(msg);
+    }
     if (!res.ok) throw new Error(`密码更新失败 (${res.status})`);
     const user = await res.json();
     if (this.session) this.saveSession({ ...this.session, user });
