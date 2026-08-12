@@ -7,6 +7,7 @@
 var Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
+  appUrl: 'https://lluckk235.github.io/qingqing-daily/',
   // 保留旧键，避免原浏览器的匿名身份和历史数据丢失。
   sessionKey: 'qq_anonymous_session_v1',
   session: null,
@@ -88,8 +89,8 @@ var Supabase = {
   },
 
   async sendMagicLink(email, createUser = false, inviteToken = '') {
-    const redirect = new URL(location.href);
-    redirect.hash = '';
+    // 不使用当前页面地址：手机从邮件、微信或旧路径打开时，可能把错误路径带进回跳链接并造成 GitHub Pages 404。
+    const redirect = new URL(this.appUrl);
     if (inviteToken) redirect.searchParams.set('invite', inviteToken);
     const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, redirect_to: redirect.toString() }) });
     if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
@@ -165,7 +166,7 @@ var Supabase = {
 
   async linkRecoveryEmail(email) {
     const res = await fetch(`${this.url}/auth/v1/user`, {
-      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email }),
+      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email, redirect_to: this.appUrl }),
     });
     if (res.status === 429) throw new Error('确认邮件已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
