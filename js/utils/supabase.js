@@ -103,8 +103,8 @@ var Supabase = {
     // 不使用当前页面地址：手机从邮件、微信或旧路径打开时，可能把错误路径带进回跳链接并造成 GitHub Pages 404。
     const redirect = new URL(this.appUrl);
     if (inviteToken) redirect.searchParams.set('invite', inviteToken);
-    // /auth/v1/otp 只识别 email_redirect_to；redirect_to 会被静默忽略并回落到 Site URL。
-    const res = await fetch(`${this.url}/auth/v1/otp`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {}, email_redirect_to: redirect.toString() }) });
+    // Supabase Auth 将回跳地址读取自 URL 查询参数，而不是 JSON 请求体。
+    const res = await fetch(`${this.url}/auth/v1/otp?redirect_to=${encodeURIComponent(redirect.toString())}`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {} }) });
     if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
   },
@@ -186,9 +186,8 @@ var Supabase = {
   },
 
   async linkRecoveryEmail(email) {
-    const res = await fetch(`${this.url}/auth/v1/user`, {
-      // GoTrue 的 update-user 接口使用 email_redirect_to；redirect_to 会被忽略。
-      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email, email_redirect_to: this.appUrl }),
+    const res = await fetch(`${this.url}/auth/v1/user?redirect_to=${encodeURIComponent(this.appUrl)}`, {
+      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email }),
     });
     if (res.status === 429) throw new Error('确认邮件已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
@@ -201,9 +200,9 @@ var Supabase = {
   async resendPendingEmailConfirmation() {
     const email = this.session?.user?.new_email;
     if (!email) throw new Error('当前邮箱已经确认；请在新设备的设置中发送登录邮件');
-    const res = await fetch(`${this.url}/auth/v1/resend`, {
+    const res = await fetch(`${this.url}/auth/v1/resend?redirect_to=${encodeURIComponent(this.appUrl)}`, {
       method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type: 'email_change', email, email_redirect_to: this.appUrl }),
+      body: JSON.stringify({ type: 'email_change', email }),
     });
     if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`确认邮件发送失败 (${res.status})`);
