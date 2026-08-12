@@ -83,11 +83,16 @@ const DailyNews = {
 
   _relativeTime(iso) {
     if (!iso) return '';
-    const diff = (Date.now() - new Date(iso).getTime()) / 1000 / 3600;
-    if (diff < 1)   return `${Math.max(1, Math.floor(diff * 60))} 分钟前`;
-    if (diff < 24)  return `${Math.floor(diff)} 小时前`;
-    if (diff < 48)  return '昨天';
-    return `${Math.floor(diff / 24)} 天前`;
+    const diffMs = Date.now() - new Date(iso).getTime();
+    // 未来时间或刚发生（容差 30 秒）→ 视为刚刚，避免误显示负分钟。
+    if (diffMs < 30000) return '刚刚';
+    const diffH = diffMs / 1000 / 3600;
+    if (diffH < 1)   return `${Math.max(1, Math.floor(diffH * 60))} 分钟前`;
+    if (diffH < 24)  return `${Math.floor(diffH)} 小时前`;
+    if (diffH < 48)  return '昨天';
+    // 超过 24 小时：直接显示真实日期（M月D日），不再伪装成“X 小时前”导致旧闻像刚发生。
+    const d = new Date(iso);
+    return `${d.getMonth() + 1}月${d.getDate()}日`;
   },
 
   mapFromSupabase(rows) {
@@ -103,7 +108,7 @@ const DailyNews = {
         sourceDomain: this._extractDomain(row.url),
         sourceUrl: row.url,
         published: row.published_at,
-        relativeTime: this._relativeTime(row.published_at),
+        relativeTime: this._relativeTime(row.published_at), // 实时计算，render 时统一用 _relativeTime 覆盖
         summary: Array.isArray(row.summary) ? row.summary : [],
         whyImportant: row.why_important,
         tags: [],
@@ -252,7 +257,7 @@ const DailyNews = {
       <div class="daily-news-card">
         <div class="dnc-top">
           <span class="dnc-badge badge-${item.category}">${item.badge || 'AI NEWS'}</span>
-          <span class="dnc-time">${item.relativeTime || ''}</span>
+          <span class="dnc-time">${this._relativeTime(item.published) || item.relativeTime || ''}</span>
         </div>
         <div class="dnc-source">
           <span class="dnc-cat-icon">${icon}</span>

@@ -1,104 +1,99 @@
 {
-  "date": "2026-08-06",
-  "generated": "2026-08-06T16:46:32.670832+08:00",
+  "date": "2026-08-12",
+  "generated": "2026-08-12T21:44:16.795748+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "5ad72d3cf78b",
-      "title": "Nikita Bier 辞去 X 产品主管职务",
+      "id": "aa04d9fec56d",
+      "title": "下载：我们的 35 名年轻创新者和“审查制度工业综合体”",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/05/nikita-bier-steps-down-as-xs-head-of-product/",
-      "published": "2026-08-05T21:30:50+00:00",
-      "relativeTime": "11 小时前",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
+      "published": "2026-08-12T12:10:00+00:00",
       "summary": [
-        "这位连续创业者在接手监督 X 的“24/7 工作”一年多后即将辞职。"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "9956a069b7e3",
-      "title": "X 产品负责人尼基塔·比尔 (Nikita Bier) 一年后离职",
+      "id": "ab860a0461b9",
+      "title": "“审查制度-产业联合体”如何改变互联网和美国政策",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
-      "published": "2026-08-05T18:19:55-04:00",
-      "relativeTime": "10 小时前",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "published": "2026-08-11T17:58:57+00:00",
       "summary": [
-        "X 产品负责人尼基塔·比尔 (Nikita Bier) 即将辞职，并表示他将担任顾问，并写道“是时候传递火炬并降级我了”"
+        "我第一次听到“审查工业综合体”这个词是在 2025 年 4 月 15 日。就在那时我得到消息说美国国务院的一个小办公室"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "f4b59bdfc21b",
-      "title": "Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理",
+      "id": "4361bd4cf51a",
+      "title": "当然，ChatGPT 狗癌症疫苗催生了一家初创公司",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-      "published": "2026-08-05T21:21:28+00:00",
-      "relativeTime": "11 小时前",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "published": "2026-08-12T12:09:34+00:00",
       "summary": [
-        "Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务。"
+        "还记得那个大肆宣传的故事吗？一位澳大利亚科技企业家使用 ChatGPT、Grok 和其他人工智能工具为人类打造个性化癌症疫苗。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "0108300124fb",
-      "title": "Shopify 表示人工智能搜索正在推动更多流量和销售，而不是取代谷歌",
+      "id": "9ebfb3cbe9d9",
+      "title": "Grok 现在是人工智能“队友”，你可以分配工作",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-      "published": "2026-08-05T15:56:14+00:00",
-      "relativeTime": "16 小时前",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "published": "2026-08-12T11:58:54+00:00",
       "summary": [
-        "Shopify 表示，人工智能并没有像对待出版商那样蚕食搜索流量。相反，人工智能驱动的 Shopify 商店流量和订单量在一年内增长了两倍"
+        "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代理服务，旨在像独立的“AI 队友”一样为您完成工作。这"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "e72e8a1c0d59",
-      "title": "从会聊天到能管钱：Agent 进入交易时代",
+      "id": "9cf6affd4889",
+      "title": "马斯克：大概再过四五年，AI 将占到 SpaceX 价值的 99%",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/368494",
-      "published": "2026-08-06T15:53:44+08:00",
-      "relativeTime": "52 分钟前",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/988/975.htm",
+      "published": "2026-08-12T13:35:37+00:00",
       "summary": [
-        "新加坡滨海湾花园，AGI Playground 2026 的主舞台灯光亮起",
-        "台下坐着 50 多家全球 VC、数百位 AI Builder，对 Agent 下一个阶段发展方向充满期待",
-        "大家都在看一个问题： 当 Agent 从对话走向执行，我们离自动交付还有多远"
+        "IT之家 8 月 12 日消息，SpaceX 创始人兼 CEO 埃隆 · 马斯克在公司 8 月 11 日发布于 X 的员工讲话中称：“我们的 AI 收入可能到 9 月，也就是下个月，就会超过 SpaceX 其他所有业务收入的总和，第四季度还会大幅超过其他业务收入",
+        "所以，AI 已经成为 SpaceX 未来极其重要的一部分",
+        "”今年早些时候，SpaceX 收购了马斯克 2023 年创立的初创公司 xAI"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -107,126 +102,116 @@
       "rank": 5
     },
     {
-      "id": "aa2676af376b",
-      "title": "任天堂 Switch 2 上市一年累计销量突破 2300 万台，相比初代更胜一筹",
+      "id": "618c36a0317e",
+      "title": "AI 代码测试初创公司 Blacksmith 的估值在不到一年的时间里上涨了近 10 倍",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/986/577.htm",
-      "published": "2026-08-05T20:46:11.507320+00:00",
-      "relativeTime": "3 分钟前",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "published": "2026-08-12T11:00:00+00:00",
       "summary": [
-        "IT之家 8 月 6 日消息，任天堂 Switch 2 上市一年多后依然热销，继续成为任天堂的重要增长动力",
-        "在初代 Switch 取得巨大成功后，最新数据表明，Switch 2 在上市同期的销售表现更胜一筹，累计销量已经突破 2300 万台",
-        "任天堂在今天（6 日）公布的最新财报中进一步披露了 Switch 2 的软硬件销售数据及年度游玩用户规模"
+        "布莱克史密斯表示，过去一年的收入增长了十倍多。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 6,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "8c3cf383da3c",
-      "title": "顶配预售价 30 万元，小米澎程不当「红米汽车」",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/368196",
-      "published": "2026-07-31T00:39:23+08:00",
-      "relativeTime": "6 天前",
-      "summary": [
-        "小米终于进入了主流 SUV 这个正面「战场」",
-        "过去两年，凭借着 SU7、YU7 两款现象级的爆款单品，小米进入汽车领域的首轮战役可谓风卷残云",
-        "累计交付超过 70 万台新车，汽车业务快速实现盈亏平衡"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "7f74154b5765",
-      "title": "为什么 Lightspeed 全力投入创作者主导的风险投资",
+      "id": "078c9caccf3e",
+      "title": "布伦丹·卡尔 (Brendan Carr) 是一名不受监管的联邦通信委员会 (FCC) 的攻击者",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/",
-      "published": "2026-08-05T20:48:54+00:00",
-      "relativeTime": "11 小时前",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/978783/trump-fcc-nominee-quorum",
+      "published": "2026-08-12T13:31:19+00:00",
       "summary": [
-        "风险投资公司正在寻求创造者在开出支票之前与下一代创始人建立信任。这是一种趋势"
+        "唐纳德·特朗普总统已经在负责监管美国通信系统的机构中拥有共和党多数席位。但有了新的提名"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
-      "id": "d521367b49e4",
-      "title": "上诉法院裁定，特朗普环保局错误地取消了 20B 美元的气候基金",
+      "id": "4d575961ffce",
+      "title": "Joby Aviation 通过 5 亿美元收购拓展国防业务",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules/",
-      "published": "2026-08-05T14:40:13+00:00",
-      "relativeTime": "18 小时前",
+      "sourceUrl": "https://techcrunch.com/2026/08/11/joby-aviation-builds-out-defense-business-with-500m-acquisition/",
+      "published": "2026-08-11T16:06:08+00:00",
       "summary": [
-        "在特朗普环保局命令花旗银行冻结气候非营利组织的账户一年多后，气候非营利组织可以再次获得联邦资金。"
+        "Joby Aviation 达成协议，收购 Resonant Sciences，这将启动其新的国防业务。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
-      "id": "e2be35c9d61c",
-      "title": "埃隆·马斯克对人工智能维基百科的尝试已经几个月没有更新了",
+      "id": "473af0c14739",
+      "title": "Threads 现在有一个 VR 应用程序",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
-      "published": "2026-08-05T20:25:10-04:00",
-      "relativeTime": "8 小时前",
+      "sourceUrl": "https://www.theverge.com/tech/978181/meta-threads-quest-vr-app",
+      "published": "2026-08-11T19:10:14+00:00",
       "summary": [
-        "xAI 的 Grokipedia，这是一本包含人工智能生成文章的在线百科全书，埃隆·马斯克曾承诺，这将是对维基百科的“巨大改进”，应用程序"
+        "Meta 周二宣布，该公司已推出适用于 Meta Quest VR 耳机的 Threads 应用程序。 Meta 将该应用程序引入雷朋 (Ray-Ban) 后推出"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     },
     {
-      "id": "bc8f2098f4cb",
-      "title": "PSA：Apple 的 Private Relay 可能会泄露您的真实 IP 地址",
+      "id": "526a4a47c3c2",
+      "title": "随着 Bluesky 的关注点扩展到应用程序之外，其活跃用户群正在萎缩",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address/",
-      "published": "2026-08-05T16:52:29+00:00",
-      "relativeTime": "15 小时前",
+      "sourceUrl": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
+      "published": "2026-08-11T17:46:14+00:00",
       "summary": [
-        "Apple 在实现其“私人中继”功能时存在一个错误，理论上该功能会屏蔽用户访问网站的 IP 地址，但可能会泄露用户的真实身份。"
+        "在大选后激增一年多后，Bluesky 的移动应用程序的活跃用户数持续下降，尽管其剩余社区规模不大。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "78c7f19432a6",
+      "title": "方块爆炸！ Apple Arcade 上无广告",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/11/2025s-most-downloaded-game-block-blast-is-going-ad-free-on-apple-arcade/",
+      "published": "2026-08-11T15:33:59+00:00",
+      "summary": [
+        "2025 年下载次数最多的手机游戏《Block Blast!》将于 9 月登陆 Apple Arcade，并且没有广告。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 11
     }

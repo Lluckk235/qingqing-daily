@@ -508,7 +508,8 @@ def process_articles(candidates: list[dict]) -> list[dict]:
                 "sourceDomain": article["domain"],
                 "sourceUrl": article["url"],
                 "published": pub_dt.isoformat(),
-                "relativeTime": rel_time,
+                # 注意：relativeTime 不再写死进 JSON —— 前端统一用 published 实时计算，
+                # 避免旧批次的预存值（如“3 分钟前”）在降级展示时误导用户。
                 "summary": summary_points,
                 "whyImportant": WHY_TEMPLATES.get(cat_key, "值得关注"),
                 "tags": [],
@@ -634,8 +635,11 @@ def main():
 
     print(f"\n✅ 已生成: {OUTPUT_FILE}")
 
-    # 5. 同步到 Supabase
-    sync_to_supabase(final, today_str)
+    # 5. 同步到 Supabase（即使失败也不影响本地 JSON 落盘与后续 git 提交）
+    try:
+        sync_to_supabase(final, today_str)
+    except Exception as e:
+        print(f"⚠ Supabase 同步整体失败（不影响本地 JSON 更新）: {e}")
 
     return 0
 
