@@ -12,6 +12,7 @@ var Supabase = {
   sessionKey: 'qq_anonymous_session_v1',
   session: null,
   membership: null,
+  refreshPromise: null,
 
   async initSession() {
     await this.consumeCallback();
@@ -58,6 +59,15 @@ var Supabase = {
     });
     if (!res.ok) throw new Error(`匿名会话刷新失败 (${res.status})`);
     return this.saveSession(await res.json());
+  },
+
+  async refreshActiveSession() {
+    if (!this.session?.refresh_token) throw new Error('登录状态已失效，请在设置中重新登录');
+    if (!this.refreshPromise) {
+      this.refreshPromise = this.refreshSession(this.session.refresh_token)
+        .finally(() => { this.refreshPromise = null; });
+    }
+    return this.refreshPromise;
   },
 
   get userId() { return this.session?.user?.id || null; },
@@ -157,10 +167,19 @@ var Supabase = {
   delete(path) { return this.fetch(path, { method: 'DELETE' }); },
 
   async invokeFunction(name, body) {
-    const res = await fetch(`${this.url}/functions/v1/${name}`, {
+    const request = () => fetch(`${this.url}/functions/v1/${name}`, {
       method: 'POST', headers: this.headers(), body: JSON.stringify(body),
     });
-    if (!res.ok) throw new Error(`服务暂时无法解析视频信息 (${res.status})`);
+    let res = await request();
+    // 页面长时间未刷新时 JWT 会过期。静默刷新后只重试一次，避免让视频解析误报 401。
+    if (res.status === 401 && this.session?.refresh_token) {
+      try { await this.refreshActiveSession(); res = await request(); } catch (_) { /* 下面给出明确登录提示 */ }
+    }
+    if (!res.ok) {
+      if (res.status === 401) throw new Error('登录状态已过期，请在设置中重新登录后再添加视频');
+      const detail = await res.json().catch(() => null);
+      throw new Error(detail?.error || `服务暂时无法解析视频信息 (${res.status})`);
+    }
     return res.json();
   },
 
