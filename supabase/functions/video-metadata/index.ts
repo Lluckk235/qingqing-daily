@@ -1,7 +1,7 @@
 // 函数内部验证 Authorization JWT；不下载或存储视频/图片。
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-const allowedHosts = ['douyin.com', 'bilibili.com', 'b23.tv'];
+const allowedHosts = ['douyin.com', 'iesdouyin.com', 'bilibili.com', 'b23.tv'];
 const isAllowedHost = (host: string) => allowedHosts.some(domain => host === domain || host.endsWith('.' + domain));
 const corsHeaders = {
   'Access-Control-Allow-Origin': 'https://lluckk235.github.io',
@@ -96,6 +96,11 @@ function readDouyinScriptMetadata(html: string) {
 }
 
 function titleFromShareText(value: unknown) {
+  const original = String(value || '').replace(/[\n\r]+/g, ' ');
+  // 抖音的「复制链接」通常是：7.66 复制打开抖音，看看【标题】的视频。
+  // 只取书名号中的标题，避免把“7.66 复制”保存进动作库。
+  const bracketed = original.match(/看看\s*【([^】]{2,140})】\s*的?视频/i)?.[1]?.trim();
+  if (bracketed) return bracketed;
   const text = String(value || '').replace(/https?:\/\/[^\s<>'"，。；、）】]+/gi, ' ').trim();
   const cleaned = text
     .replace(/[\n\r]+/g, ' ')
@@ -103,7 +108,8 @@ function titleFromShareText(value: unknown) {
     .replace(/打开抖音.*$/i, '')
     .replace(/#(?:抖音|douyin)\b/gi, '')
     .trim();
-  return cleaned.length >= 2 && cleaned.length <= 140 ? cleaned : '';
+  const withoutCode = cleaned.replace(/^\s*\d{1,3}\.\d{2}\s*复制\s*/i, '').trim();
+  return withoutCode.length >= 2 && withoutCode.length <= 140 && !/^(?:复制|打开抖音)$/i.test(withoutCode) ? withoutCode : '';
 }
 
 function bilibiliBvid(url: URL) {
@@ -129,6 +135,53 @@ async function readBilibiliPublicMetadata(url: URL) {
   }
 }
 
+function douyinAwemeId(url: URL, html = '') {
+  const pathMatch = url.pathname.match(/\/(?:video|note)\/(\d{10,})/);
+  if (pathMatch?.[1]) return pathMatch[1];
+  const htmlMatch = html.match(/(?:aweme_id|itemId|item_id)["'=:\\s]+(\d{10,})/i);
+  return htmlMatch?.[1] || '';
+}
+
+function firstUrl(value: unknown): string {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value)) return value.map(firstUrl).find(Boolean) || '';
+  if (value && typeof value === 'object') {
+    const record = value as Record<string, unknown>;
+    return firstUrl(record.url_list || record.urlList || record.url || record.uri);
+  }
+  return '';
+}
+
+// 分享页常因风控不给 HTML 元数据；该公开详情接口能在多数情况下返回同一条公开视频的信息。
+async function readDouyinPublicMetadata(url: URL, html: string) {
+  if (!url.hostname.toLowerCase().endsWith('douyin.com')) return { title: '', cover_url: '', creator: '' };
+  const awemeId = douyinAwemeId(url, html);
+  if (!awemeId) return { title: '', cover_url: '', creator: '' };
+  const endpoints = [
+    `https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?item_ids=${encodeURIComponent(awemeId)}`,
+    `https://www.douyin.com/aweme/v1/web/aweme/detail/?aweme_id=${encodeURIComponent(awemeId)}&aid=6383&device_platform=webapp`,
+  ];
+  for (const endpoint of endpoints) {
+    try {
+      const response = await fetch(endpoint, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; qingqing-daily/1.0)', Accept: 'application/json', Referer: 'https://www.douyin.com/' },
+        signal: AbortSignal.timeout(6000),
+      });
+      if (!response.ok) continue;
+      const body = await response.json();
+      const item = body?.item_list?.[0] || body?.aweme_detail || body?.data?.aweme_detail || body?.data?.[0];
+      if (!item) continue;
+      const result = {
+        title: String(item?.desc || item?.title || '').trim(),
+        cover_url: firstUrl(item?.video?.origin_cover || item?.video?.cover || item?.video?.dynamic_cover).replace(/^http:/i, 'https:'),
+        creator: String(item?.author?.nickname || item?.author?.unique_id || '').trim(),
+      };
+      if (result.title || result.cover_url || result.creator) return result;
+    } catch (_) { /* 尝试下一个公开端点 */ }
+  }
+  return { title: '', cover_url: '', creator: '' };
+}
+
 Deno.serve(async request => {
   if (request.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
   if (request.method !== 'POST') return json({ error: 'Method not allowed' }, 405);
@@ -148,13 +201,16 @@ Deno.serve(async request => {
     const finalUrl = new URL(response.url);
     if (!isAllowedHost(finalUrl.hostname.toLowerCase())) throw new Error('redirect host denied');
     const bilibili = await readBilibiliPublicMetadata(finalUrl);
-    if (!response.ok && !bilibili.title) throw new Error(`upstream ${response.status}`);
+    // 抖音分享页常返回风控页，但重定向后的 URL 仍可用来请求公开视频详情接口。
+    const isDouyin = finalUrl.hostname.toLowerCase().endsWith('douyin.com');
+    if (!response.ok && !bilibili.title && !isDouyin) throw new Error(`upstream ${response.status}`);
     const html = response.ok ? (await response.text()).slice(0, 750000) : '';
     const jsonLd = readJsonLd(html);
     const douyin = finalUrl.hostname.toLowerCase().endsWith('douyin.com') ? readDouyinScriptMetadata(html) : { title: '', cover_url: '', creator: '' };
-    const title = bilibili.title || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title || douyin.title || titleFromShareText(share_text);
-    const cover_url = bilibili.cover_url || readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url || douyin.cover_url;
-    const creator = bilibili.creator || readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator || douyin.creator;
+    const douyinPublic = await readDouyinPublicMetadata(finalUrl, html);
+    const title = bilibili.title || douyinPublic.title || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || jsonLd.title || douyin.title || titleFromShareText(share_text);
+    const cover_url = bilibili.cover_url || douyinPublic.cover_url || readMeta(html, 'og:image') || readMeta(html, 'twitter:image') || jsonLd.cover_url || douyin.cover_url;
+    const creator = bilibili.creator || douyinPublic.creator || readMeta(html, 'author') || readMeta(html, 'og:site_name') || jsonLd.creator || douyin.creator;
     const missing = [!title && 'title', !cover_url && 'cover', !creator && 'creator'].filter(Boolean);
     return json({
       title,
