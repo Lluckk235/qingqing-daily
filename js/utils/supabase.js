@@ -7,7 +7,8 @@
 var Supabase = {
   url: 'https://prpyjwxrovckkpzwytgw.supabase.co',
   key: 'sb_publishable_rWW7Vpp5hI1jgKofE34xaA_-XjFlfBj',
-  appUrl: 'https://lluckk235.github.io/qingqing-daily/',
+  // 使用具体入口文件，避免认证邮件被 GitHub Pages 误降级到账号根目录。
+  appUrl: 'https://lluckk235.github.io/qingqing-daily/index.html',
   // 保留旧键，避免原浏览器的匿名身份和历史数据丢失。
   sessionKey: 'qq_anonymous_session_v1',
   session: null,
