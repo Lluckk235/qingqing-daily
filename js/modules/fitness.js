@@ -134,8 +134,8 @@ const Fitness = {
         && (!filter.body || (item.body_parts || []).includes(filter.body));
     });
     container.innerHTML = list.length ? list.map(item => `<article class="fitness-card">
-      <a class="fitness-cover" href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer" aria-label="打开视频：${this.esc(item.title)}">${this.cover(item)}</a>
-      <div class="fitness-card-body"><h3><a class="fitness-video-title" href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">${this.esc(item.title)}</a></h3><p>${this.esc(item.creator || '未知博主')} · ${item.platform === 'douyin' ? '抖音' : '哔哩哔哩'}</p>${this.chips(item)}</div>
+      <div class="fitness-cover">${this.cover(item)}</div>
+      <div class="fitness-card-body"><h3>${this.esc(item.title)}</h3><p>${this.esc(item.creator || '未知博主')} · ${item.platform === 'douyin' ? '抖音' : '哔哩哔哩'}</p>${this.chips(item)}</div>
       <div class="fitness-card-actions"><button class="btn-secondary" data-edit-exercise="${item.id}">编辑</button><button class="btn-primary" data-add-exercise="${item.id}">加入本周</button></div>
     </article>`).join('') : '<div class="empty-hint">没有匹配动作。可以调整筛选或添加视频。</div>';
   },
