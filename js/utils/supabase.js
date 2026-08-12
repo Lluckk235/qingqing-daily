@@ -166,7 +166,8 @@ var Supabase = {
 
   async linkRecoveryEmail(email) {
     const res = await fetch(`${this.url}/auth/v1/user`, {
-      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email, redirect_to: this.appUrl }),
+      // GoTrue 的 update-user 接口使用 email_redirect_to；redirect_to 会被忽略。
+      method: 'PUT', headers: this.headers(), body: JSON.stringify({ email, email_redirect_to: this.appUrl }),
     });
     if (res.status === 429) throw new Error('确认邮件已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`恢复邮箱绑定失败 (${res.status})`);
