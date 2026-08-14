@@ -102,9 +102,9 @@ const Fitness = {
         <a class="fitness-plan-cover" href="${this.esc(exercise.source_url)}" target="_blank" rel="noopener noreferrer" aria-label="打开视频：${this.esc(exercise.title)}">${this.cover(exercise)}</a>
         <div class="fitness-plan-copy"><a class="fitness-video-title" href="${this.esc(exercise.source_url)}" target="_blank" rel="noopener noreferrer">${this.esc(exercise.title)}</a><span>${this.esc(exercise.creator || exercise.platform)} · ${this.esc(exercise.training_type || '未分类')}</span>${this.chips(exercise)}</div>
         <div class="fitness-plan-actions">
-          <button class="btn-text" data-move="${item.id}" data-direction="-1" ${index === 0 ? 'disabled' : ''}>↑</button>
-          <button class="btn-text" data-move="${item.id}" data-direction="1" ${index === this.items.length - 1 ? 'disabled' : ''}>↓</button>
-          <button class="btn-text" data-remove-item="${item.id}">移除</button>
+          <button class="btn-text" data-move="${item.id}" data-direction="-1" aria-label="上移" title="上移" ${index === 0 ? 'disabled' : ''}>↑</button>
+          <button class="btn-text" data-move="${item.id}" data-direction="1" aria-label="下移" title="下移" ${index === this.items.length - 1 ? 'disabled' : ''}>↓</button>
+          <button class="btn-text" data-remove-item="${item.id}" aria-label="移除" title="移除">移除</button>
           <button class="${checkin ? 'btn-secondary' : 'btn-primary'}" data-checkin="${item.id}">${checkin ? '已打卡' : '完成打卡'}</button>
         </div>
       </article>`;
