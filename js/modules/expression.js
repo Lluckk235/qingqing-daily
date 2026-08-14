@@ -74,7 +74,7 @@ const Expression = {
     const button = document.getElementById('btnGenerateExpression'); button.disabled = true; this.setStatus('正在把想法整理成练习卡…');
     try {
       const result = await Supabase.invokeFunction('expression-card', { action: 'create', input, source_url: sourceUrl });
-      this.cards.unshift(result.card); this.setStatus('已生成 3 种讲法，正在打开练习卡。', 'success'); this.openCard(result.card.id);
+      this.cards.unshift(result.card); this.setStatus('已生成', 'success'); this.openCard(result.card.id);
     } catch (error) { this.setStatus(error.message, 'error'); } finally { button.disabled = false; }
   },
   async rewrite(action, mode) {
