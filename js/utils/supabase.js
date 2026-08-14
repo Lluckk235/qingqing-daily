@@ -220,9 +220,9 @@ var Supabase = {
       try { await this.refreshActiveSession(); res = await request(); } catch (_) { /* 下面给出明确登录提示 */ }
     }
     if (!res.ok) {
-      if (res.status === 401) throw new Error('登录状态已过期，请在设置中重新登录后再添加视频');
+      if (res.status === 401) throw new Error('登录状态已过期，请在设置中重新登录');
       const detail = await res.json().catch(() => null);
-      throw new Error(detail?.error || `服务暂时无法解析视频信息 (${res.status})`);
+      throw new Error(detail?.error || `服务暂时不可用 (${res.status})`);
     }
     return res.json();
   },

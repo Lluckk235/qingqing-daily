@@ -16,7 +16,7 @@
   <title>卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260813a">
-  <link rel="stylesheet" href="css/components.css?v=20260814b">
+  <link rel="stylesheet" href="css/components.css?v=20260814c">
   <link rel="stylesheet" href="css/fitness.css?v=20260814b">
 </head>
 <body>
@@ -328,35 +328,24 @@
       <section class="panel" id="panel-expression">
         <div class="panel-header">
           <h2>💬 表达训练</h2>
-          <p>借物表达 · 每天一分钟 · 提升镜头感</p>
+          <p>把一个想法练成自然、有逻辑的短视频表达</p>
         </div>
         <div class="expression-container">
-          <div class="expression-card">
-            <div class="expression-image-wrap" id="expressionImageWrap">
-              <div class="expression-emoji" id="expressionEmoji"></div>
-              <div class="expression-image-label">观察这个物品，开始你的表达练习</div>
-            </div>
-            <div class="expression-body">
-              <div class="expression-header">
-                <h3 id="expressionName"></h3>
-                <span id="expressionTodayBadge" class="expression-today-badge">📋 今日待练习</span>
-              </div>
-              <div class="expression-section">
-                <div class="expression-section-header">
-                  <h4>📖 一分钟描述词</h4>
-                  <button class="btn-sm btn-text" id="btnCopyDescription">📋 复制</button>
-                </div>
-                <div class="expression-description" id="expressionDescription"></div>
-              </div>
-              <div class="expression-section">
-                <h4>🎯 表达方法拆解</h4>
-                <div class="expression-techniques" id="expressionTechniques"></div>
-              </div>
-              <div class="expression-actions">
-                <button class="btn-primary" id="btnExpressionDone">✅ 标记已练习</button>
-                <button class="btn-secondary" id="btnExpressionRefresh">🔄 换一个</button>
-              </div>
-            </div>
+          <section class="expression-composer" aria-labelledby="expressionComposerTitle">
+            <div class="expression-section-title"><span>从你的想法开始</span><small>文字或公开链接都可以</small></div>
+            <textarea class="input-lg" id="expressionIdeaInput" rows="4" maxlength="1200" placeholder="例如：我发现工具越多，反而越拖延。我想讲清楚这不是工具的问题，而是逃避开始。"></textarea>
+            <input class="input-lg expression-link-input" id="expressionLinkInput" type="url" maxlength="1200" placeholder="可选：粘贴公开文章或你主动选中的抖音链接">
+            <p class="expression-input-hint">只提炼可公开读取的内容；抖音链接不登录、不抓推荐流，读不到时会请你补一句观察。</p>
+            <div class="expression-composer-actions"><button class="btn-primary" id="btnGenerateExpression">生成练习卡</button><span id="expressionGenerateStatus" aria-live="polite"></span></div>
+          </section>
+          <section class="expression-weekly" aria-labelledby="expressionWeeklyTitle">
+            <div class="expression-section-title"><span id="expressionWeeklyTitle">本周灵感</span><small>个人/女性成长为主 · AI 工具实操为辅</small></div>
+            <div id="expressionWeeklyIdeas" class="expression-ideas"></div>
+          </section>
+          <section class="expression-card-area" id="expressionCardArea" aria-live="polite"></section>
+          <section class="expression-history" aria-labelledby="expressionHistoryTitle">
+            <div class="expression-section-title"><span id="expressionHistoryTitle">我的练习卡</span><small>仅保存可练内容，不记录打卡</small></div>
+            <div id="expressionCards" class="expression-cards"></div>
           </div>
         </div>
       </section>
@@ -389,7 +378,7 @@
   <script src="js/modules/challenges.js?v=20260802m"></script>
   <script src="js/modules/goal-progress.js?v=20260802q"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
-  <script src="js/modules/expression.js?v=20260801c"></script>
+  <script src="js/modules/expression.js?v=20260814a"></script>
   <script src="js/modules/ai-news.js?v=20260812a"></script>
   <script src="js/modules/checkin.js?v=20260811b"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>

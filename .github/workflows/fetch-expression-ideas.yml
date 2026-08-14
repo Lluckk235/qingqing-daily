@@ -1,0 +1,24 @@
+name: 每周表达训练灵感
+
+on:
+  schedule:
+    # 北京时间周一 08:20
+    - cron: '20 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  refresh-expression-ideas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Generate and sync weekly ideas
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_EXPRESSION_MODEL: deepseek-chat
+        run: python scripts/fetch_expression_ideas.py
