@@ -39,6 +39,12 @@ const Expression = {
       if (!button) return;
       const idea = this.weeklyIdeas.find(x => String(x.id) === button.dataset.expressionIdea);
       if (!idea) return;
+      const existing = this.cardForIdea(idea);
+      if (existing) {
+        this.selectedCardId = existing.id; this.selectedPathIndex = 0; this.renderCard(); this.renderHistory();
+        document.getElementById('expressionCardArea')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
       this.generate([idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n'));
     });
     document.getElementById('expressionCards')?.addEventListener('click', e => {
@@ -54,6 +60,7 @@ const Expression = {
     });
   },
   setStatus(message = '', type = '') { const el = document.getElementById('expressionGenerateStatus'); if (el) { el.textContent = message; el.dataset.state = type; } },
+  cardForIdea(idea) { return this.cards.find(card => String(card.input_text || '').includes(idea.title) || String(card.title || '').trim() === idea.title) || null; },
   async generate(value = '') {
     const rawInput = (value || document.getElementById('expressionIdeaInput').value).trim();
     const urlMatch = rawInput.match(/https:\/\/[^\s]+/i);
@@ -80,7 +87,10 @@ const Expression = {
   render() { this.renderIdeas(); this.renderCard(); this.renderHistory(); },
   renderIdeas() {
     const el = document.getElementById('expressionWeeklyIdeas'); if (!el) return;
-    el.innerHTML = this.weeklyIdeas.length ? this.weeklyIdeas.map(idea => `<article class="expression-idea"><span class="expression-category">${this.esc(idea.category)}</span><h3>${this.esc(idea.title)}</h3><p>${this.esc(idea.brief || '')}</p><footer>${this.esc(idea.source_name || '本周练习')}<button class="btn-text" data-expression-idea="${this.esc(idea.id)}">用这个练习 →</button></footer></article>`).join('') : '<div class="empty-hint">本周灵感正在准备中。</div>';
+    el.innerHTML = this.weeklyIdeas.length ? this.weeklyIdeas.map(idea => {
+      const generated = this.cardForIdea(idea);
+      return `<article class="expression-idea ${generated ? 'is-generated' : ''}"><span class="expression-category">${this.esc(idea.category)}</span><h3><button class="expression-idea-title" data-expression-idea="${this.esc(idea.id)}">${this.esc(idea.title)}</button></h3><p>${this.esc(idea.brief || '')}</p><footer>${this.esc(idea.source_name || '表达训练基础库')}<button class="btn-text" data-expression-idea="${this.esc(idea.id)}">${generated ? '已生成 · 查看练习卡 →' : '点击标题开始练习 →'}</button></footer></article>`;
+    }).join('') : '<div class="empty-hint">本周灵感正在准备中。</div>';
   },
   renderCard() {
     const el = document.getElementById('expressionCardArea'); if (!el) return;
@@ -105,6 +115,6 @@ const Expression = {
   },
   renderHistory() {
     const el = document.getElementById('expressionCards'); if (!el) return;
-    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.esc(row.card?.mode || '表达练习')}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">你的练习卡会在这里同步保存。</div>';
+    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.esc(row.card?.paths?.[0]?.mode || row.card?.mode || '表达练习')}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">生成后的练习卡会在这里沉淀成你的选题库。</div>';
   },
 };
