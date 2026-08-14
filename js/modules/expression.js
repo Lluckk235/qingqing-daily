@@ -89,7 +89,7 @@ const Expression = {
     const el = document.getElementById('expressionWeeklyIdeas'); if (!el) return;
     el.innerHTML = this.weeklyIdeas.length ? this.weeklyIdeas.map(idea => {
       const generated = this.cardForIdea(idea);
-      return `<article class="expression-idea ${generated ? 'is-generated' : ''}"><span class="expression-category">${this.esc(idea.category)}</span><h3><button class="expression-idea-title" data-expression-idea="${this.esc(idea.id)}">${this.esc(idea.title)}</button></h3><p>${this.esc(idea.brief || '')}</p><footer>${this.esc(idea.source_name || '表达训练基础库')}<button class="btn-text" data-expression-idea="${this.esc(idea.id)}">${generated ? '已生成 · 查看练习卡 →' : '点击标题开始练习 →'}</button></footer></article>`;
+      return `<article class="expression-idea ${generated ? 'is-generated' : ''}"><span class="expression-category">${this.esc(idea.category)}</span><h3><button class="expression-idea-title" data-expression-idea="${this.esc(idea.id)}">${this.esc(idea.title)}</button></h3><p>${this.esc(idea.brief || '')}</p><footer><button class="btn-text" data-expression-idea="${this.esc(idea.id)}">${generated ? '已生成 · 查看练习卡 →' : '点击标题开始练习 →'}</button></footer></article>`;
     }).join('') : '<div class="empty-hint">本周灵感正在准备中。</div>';
   },
   renderCard() {
