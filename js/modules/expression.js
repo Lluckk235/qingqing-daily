@@ -62,6 +62,7 @@ const Expression = {
   },
   setStatus(message = '', type = '') { const el = document.getElementById('expressionGenerateStatus'); if (el) { el.textContent = message; el.dataset.state = type; } },
   cardForIdea(idea) { return this.cards.find(card => String(card.input_text || '').includes(idea.title) || String(card.title || '').trim() === idea.title) || null; },
+  themeFor(card) { return this.esc(String(card?.card?.theme || card?.theme || '观点练习').slice(0, 5)); },
   openCard(id) { this.selectedCardId = id; this.selectedPathIndex = 0; this.view = 'detail'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
   showLibrary() { this.view = 'library'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
   async generate(value = '') {
@@ -118,6 +119,6 @@ const Expression = {
   },
   renderHistory() {
     const el = document.getElementById('expressionCards'); if (!el) return;
-    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.esc(row.card?.paths?.[0]?.core_sentence || row.card?.core_sentence || '表达练习')}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">生成后的练习卡会在这里沉淀成你的选题库。</div>';
+    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.themeFor(row)}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">生成后的练习卡会在这里沉淀成你的选题库。</div>';
   },
 };
