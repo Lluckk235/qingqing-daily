@@ -36,8 +36,7 @@ const Expression = {
       if (!button) return;
       const idea = this.weeklyIdeas.find(x => String(x.id) === button.dataset.expressionIdea);
       if (!idea) return;
-      document.getElementById('expressionIdeaInput').value = `${idea.title}\n${idea.brief || ''}`;
-      document.getElementById('expressionLinkInput').value = idea.source_url || '';
+      document.getElementById('expressionIdeaInput').value = [idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n');
       document.getElementById('expressionIdeaInput').focus();
       document.getElementById('expressionIdeaInput').scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
@@ -54,8 +53,10 @@ const Expression = {
   },
   setStatus(message = '', type = '') { const el = document.getElementById('expressionGenerateStatus'); if (el) { el.textContent = message; el.dataset.state = type; } },
   async generate() {
-    const input = document.getElementById('expressionIdeaInput').value.trim();
-    const sourceUrl = document.getElementById('expressionLinkInput').value.trim();
+    const rawInput = document.getElementById('expressionIdeaInput').value.trim();
+    const urlMatch = rawInput.match(/https:\/\/[^\s]+/i);
+    const sourceUrl = urlMatch ? urlMatch[0].replace(/[，。；、）】》〉]+$/, '') : '';
+    const input = rawInput.replace(/https:\/\/[^\s]+/ig, '').trim();
     if (!input && !sourceUrl) { this.setStatus('先写下一句想法，或粘贴一个公开链接。', 'error'); return; }
     if (!Supabase.isAuthenticated) return WorkspaceAccess.openAccess();
     const button = document.getElementById('btnGenerateExpression'); button.disabled = true; this.setStatus('正在把想法整理成练习卡…');
