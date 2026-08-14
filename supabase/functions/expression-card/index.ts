@@ -16,8 +16,8 @@ function urlInfo(value: unknown) {
 }
 
 function prompt(input: string, link: string, note: string, action: string, old: unknown) {
-  const task = action === 'alternative' ? '换一条表达路径：事实和核心观点不变，结构明显不同。' : action === 'enhance' ? '增强网感：保留事实，强化场景、开场和口语节奏，不制造夸张承诺。' : '生成一张可练习的中文短视频表达卡。'
-  return `你是中文短视频表达教练。${task} 面向个人成长和女性成长，拒绝鸡汤和未经确认的事实。输入：${input || '只提供链接'}；链接：${link || '无'}；提示：${note || '无'}；原卡：${old ? JSON.stringify(old) : '无'}。严格只返回 JSON：{"title":"","mode":"真实经历/问题解法/对比选择/观察评论/清单叙事/观点辩论之一","core_sentence":"","openers":["","",""],"flow":[{"label":"","text":""},{"label":"","text":""},{"label":"","text":""}],"script_30":"","script_60":"","keywords":["","","",""],"broll":"","alternative_modes":["",""]}`
+  const task = action === 'alternative' ? '保持事实和核心观点不变，重新给出三条结构明显不同的讲法。' : action === 'enhance' ? '保留事实，强化场景、开场和口语节奏，不制造夸张承诺。' : '围绕同一选题给出三条完全不同的表达路径，让用户先选讲法再练。'
+  return `你是中文短视频表达教练。${task} 面向个人成长和女性成长，拒绝鸡汤和未经确认的事实。输入：${input || '只提供链接'}；链接：${link || '无'}；提示：${note || '无'}；原卡：${old ? JSON.stringify(old) : '无'}。严格只返回 JSON：{"title":"","paths":[{"name":"例如：从真实经历讲","mode":"真实经历/问题解法/对比选择/观察评论/清单叙事/观点辩论之一","core_sentence":"","openers":["","",""],"flow":[{"label":"","text":""},{"label":"","text":""},{"label":"","text":""}],"keywords":["","","",""],"broll":"","script_60":""},{"name":"第二种讲法","mode":"","core_sentence":"","openers":["","",""],"flow":[{"label":"","text":""},{"label":"","text":""},{"label":"","text":""}],"keywords":["","","",""],"broll":"","script_60":""},{"name":"第三种讲法","mode":"","core_sentence":"","openers":["","",""],"flow":[{"label":"","text":""},{"label":"","text":""},{"label":"","text":""}],"keywords":["","","",""],"broll":"","script_60":""}]}`
 }
 
 async function generate(input: string, link: string, note: string, action: string, old: unknown) {

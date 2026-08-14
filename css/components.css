@@ -978,6 +978,7 @@ textarea {
 .expression-training-card section h3 { color: var(--text); font-size: .9rem; margin: 0 0 10px; }
 .expression-openers { display: grid; gap: 8px; }
 .expression-openers .btn-text { text-align: left; padding: 11px 12px; border-radius: var(--radius-md); background: var(--bg-alt); color: var(--text); line-height: 1.5; }
+.expression-openers .btn-text.is-selected { background: var(--accent-info); color: #fff; }
 .expression-flow { padding: 0; margin: 0; list-style: none; display: grid; gap: 9px; }
 .expression-flow li { display: grid; grid-template-columns: 74px 1fr; gap: 8px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: .85rem; line-height: 1.55; }
 .expression-flow strong { color: var(--accent-info); }

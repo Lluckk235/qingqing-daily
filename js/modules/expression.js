@@ -3,6 +3,7 @@ const Expression = {
   cards: [],
   weeklyIdeas: [],
   selectedCardId: null,
+  selectedPathIndex: 0,
   esc(value = '') { return String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c])); },
   weekStart() { const d = new Date(); const day = d.getDay() || 7; d.setDate(d.getDate() - day + 1); return d.toISOString().slice(0, 10); },
   async init() { this.bindEvents(); await this.load(); this.render(); },
@@ -38,9 +39,7 @@ const Expression = {
       if (!button) return;
       const idea = this.weeklyIdeas.find(x => String(x.id) === button.dataset.expressionIdea);
       if (!idea) return;
-      document.getElementById('expressionIdeaInput').value = [idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n');
-      document.getElementById('expressionIdeaInput').focus();
-      document.getElementById('expressionIdeaInput').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      this.generate([idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n'));
     });
     document.getElementById('expressionCards')?.addEventListener('click', e => {
       const card = e.target.closest('[data-expression-card]');
@@ -49,13 +48,14 @@ const Expression = {
     });
     document.getElementById('expressionCardArea')?.addEventListener('click', e => {
       const button = e.target.closest('[data-expression-action]');
+      if (button?.dataset.expressionAction === 'select-path') { this.selectedPathIndex = Number(button.dataset.expressionPath || 0); this.renderCard(); return; }
       if (!button) return;
       this.rewrite(button.dataset.expressionAction, button.dataset.expressionMode || '');
     });
   },
   setStatus(message = '', type = '') { const el = document.getElementById('expressionGenerateStatus'); if (el) { el.textContent = message; el.dataset.state = type; } },
-  async generate() {
-    const rawInput = document.getElementById('expressionIdeaInput').value.trim();
+  async generate(value = '') {
+    const rawInput = (value || document.getElementById('expressionIdeaInput').value).trim();
     const urlMatch = rawInput.match(/https:\/\/[^\s]+/i);
     const sourceUrl = urlMatch ? urlMatch[0].replace(/[，。；、）】》〉]+$/, '') : '';
     const input = rawInput.replace(/https:\/\/[^\s]+/ig, '').trim();
@@ -64,7 +64,7 @@ const Expression = {
     const button = document.getElementById('btnGenerateExpression'); button.disabled = true; this.setStatus('正在把想法整理成练习卡…');
     try {
       const result = await Supabase.invokeFunction('expression-card', { action: 'create', input, source_url: sourceUrl });
-      this.cards.unshift(result.card); this.selectedCardId = result.card.id; this.render(); this.setStatus('练习卡已生成。', 'success');
+      this.cards.unshift(result.card); this.selectedCardId = result.card.id; this.selectedPathIndex = 0; this.render(); this.setStatus('已生成 3 种讲法，选一种开始练。', 'success');
     } catch (error) { this.setStatus(error.message, 'error'); } finally { button.disabled = false; }
   },
   async rewrite(action, mode) {
@@ -86,17 +86,19 @@ const Expression = {
     const row = this.cards.find(x => x.id === this.selectedCardId);
     if (!row) { el.innerHTML = '<div class="expression-empty"><strong>还没有练习卡</strong><span>从上面写下一句你真正想说的话开始。</span></div>'; return; }
     const card = row.card || {}; const variants = row.variants || [];
-    const active = variants[variants.length - 1]?.content || card;
-    const modes = active.alternative_modes || [];
+    const bundle = variants[variants.length - 1]?.content || card;
+    const paths = Array.isArray(bundle.paths) && bundle.paths.length ? bundle.paths : [bundle];
+    const active = paths[Math.min(this.selectedPathIndex, paths.length - 1)] || {};
     el.innerHTML = `<article class="expression-training-card">
       <div class="expression-card-kicker"><span>${this.esc(active.mode || '观点表达')}</span>${row.source_url ? `<a href="${this.esc(row.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div>
-      <h2>${this.esc(active.title || row.title || '我的表达练习')}</h2>
+      <h2>${this.esc(bundle.title || active.title || row.title || '我的表达练习')}</h2>
       <p class="expression-core">${this.esc(active.core_sentence || '')}</p>
+      <section><h3>先选一种讲法</h3><div class="expression-openers">${paths.map((path, index) => `<button class="btn-text ${index === this.selectedPathIndex ? 'is-selected' : ''}" data-expression-action="select-path" data-expression-path="${index}">${this.esc(path.name || path.mode || `讲法 ${index + 1}`)}</button>`).join('')}</div></section>
       <section><h3>开场，任选一句</h3><div class="expression-openers">${(active.openers || []).map(x => `<button class="btn-text">${this.esc(x)}</button>`).join('')}</div></section>
       <section><h3>怎么讲才不跑题</h3><ol class="expression-flow">${(active.flow || []).map(x => `<li><strong>${this.esc(x.label || '')}</strong><span>${this.esc(x.text || '')}</span></li>`).join('')}</ol></section>
-      <section class="expression-script-grid"><div><h3>30 秒版本</h3><p>${this.esc(active.script_30 || '')}</p></div><div><h3>1 分钟版本</h3><p>${this.esc(active.script_60 || '')}</p></div></section>
       <section><h3>提词关键词</h3><div class="expression-keywords">${(active.keywords || []).map(x => `<span>${this.esc(x)}</span>`).join('')}</div><p class="expression-broll">辅助画面：${this.esc(active.broll || '用一个真实场景或截图辅助说明。')}</p></section>
-      <div class="expression-card-actions"><div><button class="btn-secondary" data-expression-action="alternative" data-expression-mode="">换一种讲法</button>${modes.slice(0, 2).map(x => `<button class="btn-text" data-expression-action="alternative" data-expression-mode="${this.esc(x)}">${this.esc(x)}</button>`).join('')}</div><button class="btn-primary" data-expression-action="enhance">增强网感</button></div>
+      <section><h3>可直接录的 1 分钟版本</h3><p>${this.esc(active.script_60 || '')}</p></section>
+      <div class="expression-card-actions"><div><button class="btn-secondary" data-expression-action="alternative" data-expression-mode="">重新给我 3 种讲法</button></div><button class="btn-primary" data-expression-action="enhance">增强网感</button></div>
       <p class="expression-card-status" aria-live="polite">${variants.length > 1 ? `已保留 ${variants.length} 个版本。` : '原版会被保留。'}</p>
     </article>`;
   },
