@@ -104,7 +104,7 @@ const Expression = {
     const active = paths[Math.min(this.selectedPathIndex, paths.length - 1)] || {};
     el.innerHTML = `<article class="expression-training-card">
       <div class="expression-detail-nav"><button class="btn-text" data-expression-action="back-library">← 返回选题库</button></div>
-      <div class="expression-card-kicker"><span>${this.esc(active.mode || '观点表达')}</span>${row.source_url ? `<a href="${this.esc(row.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div>
+      ${row.source_url ? `<div class="expression-card-kicker"><a href="${this.esc(row.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a></div>` : ''}
       <h2>${this.esc(bundle.title || active.title || row.title || '我的表达练习')}</h2>
       <p class="expression-core">${this.esc(active.core_sentence || '')}</p>
       <section><h3>先选一种讲法</h3><div class="expression-openers">${paths.map((path, index) => `<button class="btn-text ${index === this.selectedPathIndex ? 'is-selected' : ''}" data-expression-action="select-path" data-expression-path="${index}">${this.esc(path.name || path.mode || `讲法 ${index + 1}`)}</button>`).join('')}</div></section>
@@ -118,6 +118,6 @@ const Expression = {
   },
   renderHistory() {
     const el = document.getElementById('expressionCards'); if (!el) return;
-    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.esc(row.card?.paths?.[0]?.mode || row.card?.mode || '表达练习')}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">生成后的练习卡会在这里沉淀成你的选题库。</div>';
+    el.innerHTML = this.cards.length ? this.cards.map(row => `<button class="expression-history-card ${row.id === this.selectedCardId ? 'is-active' : ''}" data-expression-card="${this.esc(row.id)}"><span>${this.esc(row.card?.paths?.[0]?.core_sentence || row.card?.core_sentence || '表达练习')}</span><strong>${this.esc(row.card?.title || row.title || '未命名练习')}</strong><small>${new Date(row.updated_at || Date.now()).toLocaleDateString('zh-CN')}</small></button>`).join('') : '<div class="empty-hint">生成后的练习卡会在这里沉淀成你的选题库。</div>';
   },
 };
