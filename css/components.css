@@ -952,6 +952,10 @@ textarea {
 
 /* --- 表达训练 --- */
 .expression-container { max-width: 860px; margin: 0 auto; display: grid; gap: 16px; }
+.expression-card-area { display: none; }
+.expression-container.is-detail { max-width: 760px; }
+.expression-container.is-detail > .expression-composer, .expression-container.is-detail > .expression-weekly, .expression-container.is-detail > .expression-history { display: none; }
+.expression-container.is-detail .expression-card-area { display: block; }
 .expression-composer, .expression-weekly, .expression-training-card, .expression-history { background: var(--card); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); padding: 20px; }
 .expression-section-title { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 12px; }
 .expression-section-title span { color: var(--text); font-weight: 750; font-size: 1.05rem; }
@@ -978,6 +982,7 @@ textarea {
 .expression-training-card h2 { font-size: 1.35rem; margin: 14px 0 8px; color: var(--text); line-height: 1.35; }
 .expression-core { margin: 0 0 18px; color: var(--accent-info); line-height: 1.65; font-weight: 650; }
 .expression-training-card section { margin-top: 20px; }
+.expression-detail-nav { margin: -4px 0 16px; }
 .expression-training-card section h3 { color: var(--text); font-size: .9rem; margin: 0 0 10px; }
 .expression-openers { display: grid; gap: 8px; }
 .expression-openers .btn-text { text-align: left; padding: 11px 12px; border-radius: var(--radius-md); background: var(--bg-alt); color: var(--text); line-height: 1.5; }

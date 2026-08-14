@@ -4,6 +4,7 @@ const Expression = {
   weeklyIdeas: [],
   selectedCardId: null,
   selectedPathIndex: 0,
+  view: 'library',
   esc(value = '') { return String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c])); },
   weekStart() { const d = new Date(); const day = d.getDay() || 7; d.setDate(d.getDate() - day + 1); return d.toISOString().slice(0, 10); },
   async init() { this.bindEvents(); await this.load(); this.render(); },
@@ -41,8 +42,7 @@ const Expression = {
       if (!idea) return;
       const existing = this.cardForIdea(idea);
       if (existing) {
-        this.selectedCardId = existing.id; this.selectedPathIndex = 0; this.renderCard(); this.renderHistory();
-        document.getElementById('expressionCardArea')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        this.openCard(existing.id);
         return;
       }
       this.generate([idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n'));
@@ -50,10 +50,11 @@ const Expression = {
     document.getElementById('expressionCards')?.addEventListener('click', e => {
       const card = e.target.closest('[data-expression-card]');
       if (!card) return;
-      this.selectedCardId = card.dataset.expressionCard; this.renderCard(); this.renderHistory();
+      this.openCard(card.dataset.expressionCard);
     });
     document.getElementById('expressionCardArea')?.addEventListener('click', e => {
       const button = e.target.closest('[data-expression-action]');
+      if (button?.dataset.expressionAction === 'back-library') { this.showLibrary(); return; }
       if (button?.dataset.expressionAction === 'select-path') { this.selectedPathIndex = Number(button.dataset.expressionPath || 0); this.renderCard(); return; }
       if (!button) return;
       this.rewrite(button.dataset.expressionAction, button.dataset.expressionMode || '');
@@ -61,6 +62,8 @@ const Expression = {
   },
   setStatus(message = '', type = '') { const el = document.getElementById('expressionGenerateStatus'); if (el) { el.textContent = message; el.dataset.state = type; } },
   cardForIdea(idea) { return this.cards.find(card => String(card.input_text || '').includes(idea.title) || String(card.title || '').trim() === idea.title) || null; },
+  openCard(id) { this.selectedCardId = id; this.selectedPathIndex = 0; this.view = 'detail'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
+  showLibrary() { this.view = 'library'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
   async generate(value = '') {
     const rawInput = (value || document.getElementById('expressionIdeaInput').value).trim();
     const urlMatch = rawInput.match(/https:\/\/[^\s]+/i);
@@ -71,8 +74,7 @@ const Expression = {
     const button = document.getElementById('btnGenerateExpression'); button.disabled = true; this.setStatus('正在把想法整理成练习卡…');
     try {
       const result = await Supabase.invokeFunction('expression-card', { action: 'create', input, source_url: sourceUrl });
-      this.cards.unshift(result.card); this.selectedCardId = result.card.id; this.selectedPathIndex = 0; this.render(); this.setStatus('已生成 3 种讲法，正在打开练习卡。', 'success');
-      document.getElementById('expressionCardArea')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      this.cards.unshift(result.card); this.setStatus('已生成 3 种讲法，正在打开练习卡。', 'success'); this.openCard(result.card.id);
     } catch (error) { this.setStatus(error.message, 'error'); } finally { button.disabled = false; }
   },
   async rewrite(action, mode) {
@@ -84,7 +86,7 @@ const Expression = {
       const index = this.cards.findIndex(x => x.id === card.id); this.cards[index] = result.card; this.render();
     } catch (error) { if (status) status.textContent = error.message; }
   },
-  render() { this.renderIdeas(); this.renderCard(); this.renderHistory(); },
+  render() { document.querySelector('.expression-container')?.classList.toggle('is-detail', this.view === 'detail'); this.renderIdeas(); this.renderCard(); this.renderHistory(); },
   renderIdeas() {
     const el = document.getElementById('expressionWeeklyIdeas'); if (!el) return;
     el.innerHTML = this.weeklyIdeas.length ? this.weeklyIdeas.map(idea => {
@@ -101,6 +103,7 @@ const Expression = {
     const paths = Array.isArray(bundle.paths) && bundle.paths.length ? bundle.paths : [bundle];
     const active = paths[Math.min(this.selectedPathIndex, paths.length - 1)] || {};
     el.innerHTML = `<article class="expression-training-card">
+      <div class="expression-detail-nav"><button class="btn-text" data-expression-action="back-library">← 返回选题库</button></div>
       <div class="expression-card-kicker"><span>${this.esc(active.mode || '观点表达')}</span>${row.source_url ? `<a href="${this.esc(row.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div>
       <h2>${this.esc(bundle.title || active.title || row.title || '我的表达练习')}</h2>
       <p class="expression-core">${this.esc(active.core_sentence || '')}</p>
