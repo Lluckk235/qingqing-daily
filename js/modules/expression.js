@@ -14,7 +14,7 @@ const Expression = {
         Supabase.get(`expression_weekly_ideas?week_start=eq.${this.weekStart()}&order=sort_order.asc&limit=8`),
       ]);
       this.cards = cards || [];
-      this.weeklyIdeas = ideas || this.fallbackIdeas();
+      this.weeklyIdeas = ideas?.length ? ideas : this.fallbackIdeas();
       if (!this.selectedCardId && this.cards[0]) this.selectedCardId = this.cards[0].id;
     } catch (error) {
       console.warn('Expression load failed:', error.message);
@@ -22,12 +22,14 @@ const Expression = {
     }
   },
   fallbackIdeas() { return [
-    { id: 'local-1', category: '女性成长', title: '为什么越想成为“情绪稳定的人”，越容易压住真实感受？', source_name: '本周练习', brief: '从一次忍住不说、后来更委屈的具体场景切入。' },
-    { id: 'local-2', category: '个人成长', title: '我终于发现：拖延不是不自律，而是任务太模糊', source_name: '本周练习', brief: '讲一个把“做内容”改成下一步动作后开始推进的例子。' },
-    { id: 'local-3', category: '女性成长', title: '“我不想麻烦别人”背后，可能不是体贴', source_name: '本周练习', brief: '讨论过度独立、边界与求助之间的关系。' },
-    { id: 'local-4', category: '个人成长', title: '输入很多却讲不出来：缺的是一次自己的转述', source_name: '本周练习', brief: '用最近看过的一个观点，讲“转述”怎样变成自己的理解。' },
-    { id: 'local-5', category: '女性成长', title: '变自信不是把声音变大，而是把判断说完整', source_name: '本周练习', brief: '从一次不敢表达不同意见的场景，讲清理由和边界。' },
-    { id: 'local-6', category: 'AI 工具', title: 'AI 没让我更高效，它先逼我把问题说清楚', source_name: '本周练习', brief: '用一个真实工作场景演示：模糊提问与清晰输入的区别。' },
+    { id: 'local-1', category: '女性成长', title: '为什么越想成为“情绪稳定的人”，越容易压住真实感受？', source_name: '表达训练基础库', brief: '从一次忍住不说、后来更委屈的具体场景切入：稳定不是不表达。' },
+    { id: 'local-2', category: '个人成长', title: '拖延不是不自律，而是任务太模糊', source_name: '表达训练基础库', brief: '用“我要做内容”和“写出一个开场”之间的差别，讲清行动如何开始。' },
+    { id: 'local-3', category: '女性成长', title: '“我不想麻烦别人”背后，可能不是体贴', source_name: '表达训练基础库', brief: '从过度独立、边界和求助的关系切入，不把逞强包装成成熟。' },
+    { id: 'local-4', category: '个人成长', title: '输入很多却讲不出来：缺的是一次自己的转述', source_name: '表达训练基础库', brief: '讲一个你最近读到的观点，如何经过复述变成自己的判断。' },
+    { id: 'local-5', category: '女性成长', title: '变自信不是把声音变大，而是把判断说完整', source_name: '表达训练基础库', brief: '从一次不敢表达不同意见的场景，练习把理由、边界和选择讲完整。' },
+    { id: 'local-6', category: '女性成长', title: '别急着把“敏感”改掉：先分清是情绪，还是事实', source_name: '表达训练基础库', brief: '用一次关系里的误解，拆开感受、推测和真正需要说出口的请求。' },
+    { id: 'local-7', category: '个人成长', title: '真正拉开差距的，不是自律，是给自己留出低门槛的开始', source_name: '表达训练基础库', brief: '以一个“只做五分钟却持续下来”的经历，讲清降低启动成本的逻辑。' },
+    { id: 'local-8', category: 'AI 工具', title: 'AI 没让我更高效，它先逼我把问题说清楚', source_name: '表达训练基础库', brief: '用一个真实工作场景比较模糊提问和清晰输入的结果差异。' },
   ]; },
   bindEvents() {
     document.getElementById('btnGenerateExpression')?.addEventListener('click', () => this.generate());
