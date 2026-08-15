@@ -16,7 +16,7 @@
   <title>卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260813a">
-  <link rel="stylesheet" href="css/components.css?v=20260815h">
+  <link rel="stylesheet" href="css/components.css?v=20260815i">
   <link rel="stylesheet" href="css/fitness.css?v=20260814b">
 </head>
 <body>
@@ -354,13 +354,20 @@
 
       <!-- 灵感集 Panel：只收录并拆解公开视频参考 -->
       <section class="panel" id="panel-inspiration">
-        <div class="panel-header">
-          <h2>💡 灵感集</h2>
-          <p>把喜欢的视频拆透，再得到一版可拍的参考稿</p>
+        <div class="panel-header inspiration-header">
+          <div><h2>💡 灵感集</h2><p>把喜欢的视频拆透，再得到一版可拍的参考稿</p></div>
+          <button class="btn-primary" id="btnOpenInspirationComposer">＋ 收录视频</button>
         </div>
         <div class="inspiration-container" id="inspirationContainer">
-          <section class="inspiration-composer">
-            <div class="expression-section-title"><span>收录视频</span></div>
+          <section class="inspiration-library">
+            <div class="inspiration-library-head"><span>我的视频参考</span><small id="inspirationCount"></small></div>
+            <div id="inspirationList" class="inspiration-list"></div>
+          </section>
+          <section class="inspiration-detail" id="inspirationDetail" aria-live="polite"></section>
+        </div>
+        <div class="inspiration-composer-overlay" id="inspirationComposerModal" aria-hidden="true">
+          <section class="inspiration-composer" role="dialog" aria-modal="true" aria-labelledby="inspirationComposerTitle">
+            <div class="inspiration-composer-head"><span id="inspirationComposerTitle">收录视频</span><button class="btn-text" data-inspiration-action="close-composer" aria-label="关闭收录窗口">×</button></div>
             <textarea class="input-lg" id="inspirationInput" rows="7" maxlength="24000" placeholder="粘贴视频链接和转录文案"></textarea>
             <div class="inspiration-upload-row">
               <label class="inspiration-upload" for="inspirationImages">＋ 添加关键帧（可选，最多 8 张）</label>
@@ -368,11 +375,6 @@
               <span id="inspirationImageStatus" aria-live="polite"></span>
             </div>
             <div class="expression-composer-actions"><button class="btn-primary" id="btnSaveInspiration">收录并后台拆解</button><span id="inspirationSaveStatus" aria-live="polite"></span></div>
-          </section>
-          <section class="inspiration-detail" id="inspirationDetail" aria-live="polite"></section>
-          <section class="inspiration-library">
-            <div class="expression-section-title"><span>我的视频参考</span></div>
-            <div id="inspirationList" class="inspiration-list"></div>
           </section>
         </div>
       </section>
@@ -406,7 +408,7 @@
   <script src="js/modules/goal-progress.js?v=20260802q"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
   <script src="js/modules/expression.js?v=20260815a"></script>
-  <script src="js/modules/inspiration.js?v=20260815b"></script>
+  <script src="js/modules/inspiration.js?v=20260815c"></script>
   <script src="js/modules/ai-news.js?v=20260812a"></script>
   <script src="js/modules/checkin.js?v=20260811b"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>

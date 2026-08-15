@@ -2,7 +2,7 @@
 const Inspiration = {
   items: [],
   selectedId: '',
-  tab: 'analysis',
+  tab: 'overview',
   files: [],
   pollTimer: null,
 
@@ -27,21 +27,35 @@ const Inspiration = {
   },
 
   bindEvents() {
+    document.getElementById('btnOpenInspirationComposer')?.addEventListener('click', () => this.openComposer());
     document.getElementById('btnSaveInspiration')?.addEventListener('click', () => this.submit());
     document.getElementById('inspirationImages')?.addEventListener('change', event => this.setFiles(event.target.files));
     document.getElementById('inspirationList')?.addEventListener('click', event => {
       const card = event.target.closest('[data-inspiration-id]');
       if (!card) return;
       this.selectedId = card.dataset.inspirationId;
-      this.tab = 'analysis'; this.render();
+      this.tab = 'overview'; this.render();
     });
     document.getElementById('inspirationDetail')?.addEventListener('click', event => {
       const action = event.target.closest('[data-inspiration-action]')?.dataset.inspirationAction;
-      if (action === 'back') { this.selectedId = ''; this.render(); }
-      if (action === 'analysis' || action === 'script') { this.tab = action; this.renderDetail(); }
+      if (action === 'back') { this.selectedId = ''; this.tab = 'overview'; this.render(); }
+      if (action === 'overview' || action === 'analysis' || action === 'script') { this.tab = action; this.renderDetail(); }
       if (action === 'retry') this.retry();
       if (action === 'copy') this.copyScript();
     });
+    document.getElementById('inspirationComposerModal')?.addEventListener('click', event => {
+      if (event.target === event.currentTarget || event.target.closest('[data-inspiration-action="close-composer"]')) this.closeComposer();
+    });
+  },
+
+  openComposer() {
+    const modal = document.getElementById('inspirationComposerModal');
+    if (modal) { modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); }
+  },
+
+  closeComposer() {
+    const modal = document.getElementById('inspirationComposerModal');
+    if (modal) { modal.classList.remove('is-open'); modal.setAttribute('aria-hidden', 'true'); }
   },
 
   setFiles(fileList) {
@@ -105,10 +119,10 @@ const Inspiration = {
       const imagePaths = await this.uploadImages();
       this.setSaveStatus('已收录，后台拆解中…');
       const result = await Supabase.invokeFunction('inspiration-analyze', { action: 'create', source_url: input.sourceUrl, transcript: input.transcript, image_paths: imagePaths });
-      this.items.unshift(result.item); this.selectedId = result.item.id; this.tab = 'analysis';
+      this.items.unshift(result.item); this.selectedId = result.item.id; this.tab = 'overview';
       document.getElementById('inspirationInput').value = '';
       document.getElementById('inspirationImages').value = '';
-      this.files = []; this.setImageStatus(''); this.setSaveStatus('已收录，后台拆解中。', 'success'); this.render();
+      this.files = []; this.setImageStatus(''); this.setSaveStatus(''); this.closeComposer(); this.render();
     } catch (error) { this.setSaveStatus(error.message || '收录失败，请稍后重试。', 'error'); }
     finally { button.disabled = false; }
   },
@@ -130,22 +144,32 @@ const Inspiration = {
 
   renderList() {
     const el = document.getElementById('inspirationList'); if (!el) return;
+    const count = document.getElementById('inspirationCount'); if (count) count.textContent = this.items.length ? `${this.items.length} 条` : '';
     if (!this.items.length) { el.innerHTML = '<div class="inspiration-empty"><strong>还没有视频参考</strong><span>刷到真正想学的视频，再收进来。</span></div>'; return; }
     el.innerHTML = this.items.map(item => `<button class="inspiration-item ${item.id === this.selectedId ? 'is-selected' : ''}" data-inspiration-id="${this.esc(item.id)}">
-      <span class="inspiration-state is-${this.esc(item.status)}"></span><span class="inspiration-item-copy"><strong>${this.esc(item.title || '待拆视频')}</strong><small>${this.status(item)} · ${this.date(item.updated_at)}</small></span><span class="inspiration-arrow">›</span>
+      <span class="inspiration-list-thumb" data-inspiration-thumb="${this.esc(item.id)}"><span>💡</span></span><span class="inspiration-item-copy"><strong>${this.esc(item.title || '待拆视频')}</strong><small><i class="inspiration-state is-${this.esc(item.status)}"></i>${this.status(item)} · ${this.date(item.updated_at)}</small></span><span class="inspiration-arrow">›</span>
     </button>`).join('');
+    this.loadListThumbs();
   },
 
   renderDetail() {
     const el = document.getElementById('inspirationDetail'); if (!el) return;
     const item = this.selected();
-    if (!item) { el.innerHTML = ''; return; }
-    if (item.status === 'processing') { el.innerHTML = `<article class="inspiration-pending"><button class="btn-text" data-inspiration-action="back">← 返回灵感集</button><strong>正在后台拆解</strong><p>你可以先离开；下次打开这里会显示结果。</p></article>`; return; }
-    if (item.status === 'failed') { el.innerHTML = `<article class="inspiration-pending is-failed"><button class="btn-text" data-inspiration-action="back">← 返回灵感集</button><strong>这条暂时没拆成功</strong><p>${this.esc(item.error_message || '请稍后重试。')}</p><button class="btn-primary" data-inspiration-action="retry">重新拆解</button></article>`; return; }
+    el.classList.toggle('is-open', Boolean(item));
+    if (!item) { el.innerHTML = `<article class="inspiration-detail-empty"><span>💡</span><strong>选一条视频参考</strong><p>先看它为什么有效，再决定要学哪一部分。</p></article>`; return; }
+    if (item.status === 'processing') { el.innerHTML = `<article class="inspiration-pending"><button class="btn-text inspiration-mobile-back" data-inspiration-action="back">← 返回灵感集</button><strong>正在后台拆解</strong><p>这条已经收进素材库；你可以先看别的内容。</p></article>`; return; }
+    if (item.status === 'failed') { el.innerHTML = `<article class="inspiration-pending is-failed"><button class="btn-text inspiration-mobile-back" data-inspiration-action="back">← 返回灵感集</button><strong>这条暂时没拆成功</strong><p>${this.esc(item.error_message || '请稍后重试。')}</p><button class="btn-primary" data-inspiration-action="retry">重新拆解</button></article>`; return; }
     const analysis = item.analysis || {}; const script = item.shooting_script || {};
-    const tabButtons = `<div class="inspiration-tabs"><button class="btn-text ${this.tab === 'analysis' ? 'is-selected' : ''}" data-inspiration-action="analysis">原片拆解</button><button class="btn-text ${this.tab === 'script' ? 'is-selected' : ''}" data-inspiration-action="script">参考拍摄稿</button></div>`;
-    el.innerHTML = `<article class="inspiration-result"><div class="inspiration-detail-nav"><button class="btn-text" data-inspiration-action="back">← 返回灵感集</button>${item.source_url ? `<a href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div><h2>${this.esc(item.title || '视频参考')}</h2>${tabButtons}${this.tab === 'analysis' ? this.analysisHtml(analysis) : this.scriptHtml(script)}</article>`;
-    if (this.tab === 'analysis') this.loadImages(item);
+    const tabButtons = `<div class="inspiration-tabs"><button class="btn-text ${this.tab === 'overview' ? 'is-selected' : ''}" data-inspiration-action="overview">速览</button><button class="btn-text ${this.tab === 'analysis' ? 'is-selected' : ''}" data-inspiration-action="analysis">原片拆解</button><button class="btn-text ${this.tab === 'script' ? 'is-selected' : ''}" data-inspiration-action="script">参考拍摄稿</button></div>`;
+    const body = this.tab === 'overview' ? this.overviewHtml(analysis, script, item) : this.tab === 'analysis' ? this.analysisHtml(analysis) : this.scriptHtml(script);
+    el.innerHTML = `<article class="inspiration-result"><div class="inspiration-detail-nav"><button class="btn-text inspiration-mobile-back" data-inspiration-action="back">← 返回灵感集</button>${item.source_url ? `<a href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div><div class="inspiration-result-head"><div class="inspiration-detail-cover" id="inspirationDetailCover"><span>💡</span></div><div><h2>${this.esc(item.title || '视频参考')}</h2><p>${this.esc(analysis.one_line || '这条正在等待拆解结果。')}</p></div></div>${tabButtons}${body}</article>`;
+    this.loadImages(item);
+  },
+
+  overviewHtml(analysis, script, item) {
+    const hook = analysis.hook || {}; const structure = Array.isArray(analysis.structure) ? analysis.structure : []; const mechanisms = Array.isArray(analysis.mechanisms) ? analysis.mechanisms.slice(0, 3) : [];
+    const visual = analysis.visual?.summary || (Array.isArray(item.image_paths) && item.image_paths.length ? '已上传关键帧，点击原片拆解看画面细节。' : '没有关键帧时，先从文案与结构学习。');
+    return `<div class="inspiration-overview"><section class="inspiration-overview-takeaway"><span>这条最值得学</span><strong>${this.esc(analysis.one_line || '等待拆解完成')}</strong></section><div class="inspiration-quick-grid"><article><small>开头</small><strong>${this.esc(hook.what || '—')}</strong></article><article><small>结构</small><strong>${this.esc(structure.map(row => row.segment).slice(0, 3).join(' → ') || '—')}</strong></article><article><small>画面</small><strong>${this.esc(visual)}</strong></article><article><small>可复用机制</small><strong>${this.esc(mechanisms.join(' · ') || '—')}</strong></article></div><section class="inspiration-timeline"><h3>结构推进</h3><ol>${structure.map(row => `<li><strong>${this.esc(row.segment)}</strong><span>${this.esc(row.purpose)}</span></li>`).join('') || '<li><span>暂未生成</span></li>'}</ol></section><section class="inspiration-overview-actions"><button class="btn-secondary" data-inspiration-action="analysis">看原片拆解</button><button class="btn-primary" data-inspiration-action="script">看参考拍摄稿</button></section></div>`;
   },
 
   analysisHtml(analysis) {
@@ -175,12 +199,30 @@ const Inspiration = {
     return `<div class="inspiration-sections inspiration-script"><section><h3>核心句</h3><p class="inspiration-lead">${this.esc(script.core)}</p></section><section><h3>可直接拍的参考稿</h3><p class="inspiration-script-copy">${this.esc(script.script)}</p><button class="btn-secondary" data-inspiration-action="copy">复制参考稿</button></section><section><h3>逐段画面提示</h3><ol class="inspiration-structure">${beats.map(row => `<li><strong>${this.esc(row.segment)}</strong><span>${this.esc(row.spoken)}</span><small>画面：${this.esc(row.visual)}<br>文字：${this.esc(row.text)}<br>声音：${this.esc(row.sound)}</small></li>`).join('') || '<p class="inspiration-muted">暂未生成</p>'}</ol></section><section><h3>拍摄提醒</h3><ul class="inspiration-bullets">${(script.notes || []).map(note => `<li>${this.esc(note)}</li>`).join('')}</ul></section></div>`;
   },
 
+  async loadListThumbs() {
+    const visibleItems = this.items.slice(0, 60);
+    await Promise.all(visibleItems.map(async item => {
+      const path = Array.isArray(item.image_paths) ? item.image_paths[0] : '';
+      if (!path) return;
+      try {
+        const url = await Supabase.privateFileUrl('inspiration-assets', path);
+        const target = document.querySelector(`[data-inspiration-thumb="${item.id}"]`);
+        if (url && target) target.innerHTML = `<img src="${this.esc(url)}" alt="">`;
+      } catch (_) { /* 没有缩略图不影响素材浏览 */ }
+    }));
+  },
+
   async loadImages(item) {
-    const paths = Array.isArray(item.image_paths) ? item.image_paths : []; const el = document.getElementById('inspirationImagesView');
-    if (!paths.length || !el) return;
+    const paths = Array.isArray(item.image_paths) ? item.image_paths : [];
+    if (!paths.length) return;
     try {
       const urls = await Promise.all(paths.map(path => Supabase.privateFileUrl('inspiration-assets', path)));
-      if (this.selectedId === item.id && this.tab === 'analysis') el.innerHTML = urls.filter(Boolean).map((url, index) => `<img src="${this.esc(url)}" alt="关键帧 ${index + 1}">`).join('');
+      if (this.selectedId !== item.id) return;
+      const validUrls = urls.filter(Boolean);
+      const cover = document.getElementById('inspirationDetailCover');
+      if (cover && validUrls[0]) cover.innerHTML = `<img src="${this.esc(validUrls[0])}" alt="关键帧">`;
+      const frames = document.getElementById('inspirationImagesView');
+      if (frames) frames.innerHTML = validUrls.map((url, index) => `<img src="${this.esc(url)}" alt="关键帧 ${index + 1}">`).join('');
     } catch (_) { /* 截图加载失败不影响文字拆解 */ }
   },
 
