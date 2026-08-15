@@ -5,6 +5,8 @@ const Inspiration = {
   tab: 'overview',
   files: [],
   pollTimer: null,
+  tagFilter: 'all',
+  sortOrder: 'updated_desc',
 
   async init() {
     this.bindEvents();
@@ -30,6 +32,12 @@ const Inspiration = {
     document.getElementById('btnOpenInspirationComposer')?.addEventListener('click', () => this.openComposer());
     document.getElementById('btnSaveInspiration')?.addEventListener('click', () => this.submit());
     document.getElementById('inspirationImages')?.addEventListener('change', event => this.setFiles(event.target.files));
+    document.getElementById('inspirationTagFilter')?.addEventListener('change', event => {
+      this.tagFilter = event.target.value || 'all'; this.renderList();
+    });
+    document.getElementById('inspirationSort')?.addEventListener('change', event => {
+      this.sortOrder = event.target.value || 'updated_desc'; this.renderList();
+    });
     document.getElementById('inspirationList')?.addEventListener('click', event => {
       const card = event.target.closest('[data-inspiration-id]');
       if (!card) return;
@@ -137,17 +145,50 @@ const Inspiration = {
 
   selected() { return this.items.find(item => item.id === this.selectedId) || null; },
   esc(value) { const el = document.createElement('div'); el.textContent = String(value || ''); return el.innerHTML; },
-  date(value) { return new Date(value || Date.now()).toLocaleDateString('zh-CN', { month: 'numeric', day: 'numeric' }); },
+  date(value) { return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(value || Date.now())).replaceAll('/', '-'); },
   status(item) { return item.status === 'ready' ? '完成' : item.status === 'failed' ? '拆解失败' : '拆解中'; },
+  tagsFor(item) {
+    const analysis = item.analysis || {};
+    const text = `${item.title || ''} ${analysis.one_line || ''} ${(analysis.mechanisms || []).join(' ')}`.toLowerCase();
+    if (/(英语|单词|课程|课堂|教学|学习)/.test(text)) return ['知识科普', '教学表达'];
+    if (/(ai|人工智能|workbuddy|提示词|工具|效率)/.test(text)) return ['AI 工具', '实操演示'];
+    if (/(行动|拖延|自律|成长|情绪|焦虑|职业选手)/.test(text)) return ['个人成长', '观点口播'];
+    if (/(女性|女孩|女生|关系|职场)/.test(text)) return ['女性成长', '观点口播'];
+    return ['视频表达', '结构参考'];
+  },
+  sourceLabel(sourceUrl) {
+    if (!sourceUrl) return '未填写来源';
+    try { return new URL(sourceUrl).hostname.replace(/^www\./, ''); }
+    catch (_) { return '查看原视频'; }
+  },
+  visibleItems() {
+    const list = this.tagFilter === 'all' ? [...this.items] : this.items.filter(item => this.tagsFor(item).includes(this.tagFilter));
+    const field = this.sortOrder.startsWith('updated') ? 'updated_at' : 'created_at';
+    const multiplier = this.sortOrder.endsWith('asc') ? 1 : -1;
+    return list.sort((a, b) => multiplier * (new Date(a[field] || 0) - new Date(b[field] || 0)));
+  },
+
+  renderFilterOptions() {
+    const filter = document.getElementById('inspirationTagFilter'); const sort = document.getElementById('inspirationSort');
+    if (!filter) return;
+    const tags = [...new Set(this.items.flatMap(item => this.tagsFor(item)))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+    filter.innerHTML = `<option value="all">全部标签</option>${tags.map(tag => `<option value="${this.esc(tag)}">${this.esc(tag)}</option>`).join('')}`;
+    filter.value = tags.includes(this.tagFilter) ? this.tagFilter : 'all';
+    if (filter.value === 'all') this.tagFilter = 'all';
+    if (sort) sort.value = this.sortOrder;
+  },
 
   render() { this.renderList(); this.renderDetail(); },
 
   renderList() {
     const el = document.getElementById('inspirationList'); if (!el) return;
-    const count = document.getElementById('inspirationCount'); if (count) count.textContent = this.items.length ? `${this.items.length} 条` : '';
+    this.renderFilterOptions();
+    const visibleItems = this.visibleItems();
+    const count = document.getElementById('inspirationCount'); if (count) count.textContent = this.items.length ? `${visibleItems.length}/${this.items.length} 条` : '';
     if (!this.items.length) { el.innerHTML = '<div class="inspiration-empty"><strong>还没有视频参考</strong><span>刷到真正想学的视频，再收进来。</span></div>'; return; }
-    el.innerHTML = this.items.map(item => `<button class="inspiration-item ${item.id === this.selectedId ? 'is-selected' : ''}" data-inspiration-id="${this.esc(item.id)}">
-      <span class="inspiration-list-thumb" data-inspiration-thumb="${this.esc(item.id)}"><span>💡</span></span><span class="inspiration-item-copy"><strong>${this.esc(item.title || '待拆视频')}</strong><small><i class="inspiration-state is-${this.esc(item.status)}"></i>${this.status(item)} · ${this.date(item.updated_at)}</small></span><span class="inspiration-arrow">›</span>
+    if (!visibleItems.length) { el.innerHTML = '<div class="inspiration-empty"><strong>这个标签下还没有视频</strong><span>换一个标签看看。</span></div>'; return; }
+    el.innerHTML = visibleItems.map(item => `<button class="inspiration-item ${item.id === this.selectedId ? 'is-selected' : ''}" data-inspiration-id="${this.esc(item.id)}">
+      <span class="inspiration-list-thumb" data-inspiration-thumb="${this.esc(item.id)}"><span>💡</span></span><span class="inspiration-item-copy"><strong>${this.esc(item.title || '待拆视频')}</strong><span class="inspiration-item-tags">${this.tagsFor(item).map(tag => `<em>${this.esc(tag)}</em>`).join('')}</span><small><i class="inspiration-state is-${this.esc(item.status)}"></i>${this.status(item)} <span class="inspiration-meta-dot">·</span> ${this.date(item.created_at)}</small></span><span class="inspiration-arrow">›</span>
     </button>`).join('');
     this.loadListThumbs();
   },
@@ -162,7 +203,8 @@ const Inspiration = {
     const analysis = item.analysis || {}; const script = item.shooting_script || {};
     const tabButtons = `<div class="inspiration-tabs"><button class="btn-text ${this.tab === 'overview' ? 'is-selected' : ''}" data-inspiration-action="overview">速览</button><button class="btn-text ${this.tab === 'analysis' ? 'is-selected' : ''}" data-inspiration-action="analysis">原片拆解</button><button class="btn-text ${this.tab === 'script' ? 'is-selected' : ''}" data-inspiration-action="script">参考拍摄稿</button></div>`;
     const body = this.tab === 'overview' ? this.overviewHtml(analysis, script, item) : this.tab === 'analysis' ? this.analysisHtml(analysis) : this.scriptHtml(script);
-    el.innerHTML = `<article class="inspiration-result"><div class="inspiration-detail-nav"><button class="btn-text inspiration-mobile-back" data-inspiration-action="back">← 返回灵感集</button>${item.source_url ? `<a href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>` : ''}</div><div class="inspiration-result-head"><div class="inspiration-detail-cover" id="inspirationDetailCover"><span>💡</span></div><div><h2>${this.esc(item.title || '视频参考')}</h2><p>${this.esc(analysis.one_line || '这条正在等待拆解结果。')}</p></div></div>${tabButtons}${body}</article>`;
+    const source = item.source_url ? `<a href="${this.esc(item.source_url)}" target="_blank" rel="noopener noreferrer">↗ 来源：${this.esc(this.sourceLabel(item.source_url))}</a>` : '<span>↗ 来源：未填写</span>';
+    el.innerHTML = `<article class="inspiration-result"><div class="inspiration-detail-nav"><button class="btn-text inspiration-mobile-back" data-inspiration-action="back">← 返回灵感集</button></div><div class="inspiration-result-head"><div class="inspiration-detail-cover" id="inspirationDetailCover"><span>💡</span></div><div class="inspiration-result-copy"><h2>${this.esc(item.title || '视频参考')}</h2><div class="inspiration-result-meta">${source}<span>◷ 收录于 ${this.date(item.created_at)}</span></div><p>${this.esc(analysis.one_line || '这条正在等待拆解结果。')}</p></div></div>${tabButtons}${body}</article>`;
     this.loadImages(item);
   },
 

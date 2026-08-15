@@ -16,7 +16,7 @@
   <title>卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260813a">
-  <link rel="stylesheet" href="css/components.css?v=20260815k">
+  <link rel="stylesheet" href="css/components.css?v=20260815l">
   <link rel="stylesheet" href="css/fitness.css?v=20260814b">
 </head>
 <body>
@@ -361,6 +361,12 @@
         <div class="inspiration-container" id="inspirationContainer">
           <section class="inspiration-library">
             <div class="inspiration-library-head"><span>我的视频参考</span><small id="inspirationCount"></small></div>
+            <div class="inspiration-library-tools" aria-label="筛选与排序">
+              <label class="sr-only" for="inspirationTagFilter">标签筛选</label>
+              <select id="inspirationTagFilter" class="inspiration-select"></select>
+              <label class="sr-only" for="inspirationSort">排序方式</label>
+              <select id="inspirationSort" class="inspiration-select"><option value="updated_desc">最近更新</option><option value="created_desc">最近收录</option><option value="created_asc">最早收录</option></select>
+            </div>
             <div id="inspirationList" class="inspiration-list"></div>
           </section>
           <section class="inspiration-detail" id="inspirationDetail" aria-live="polite"></section>
@@ -408,7 +414,7 @@
   <script src="js/modules/goal-progress.js?v=20260802q"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
   <script src="js/modules/expression.js?v=20260815a"></script>
-  <script src="js/modules/inspiration.js?v=20260815d"></script>
+  <script src="js/modules/inspiration.js?v=20260815e"></script>
   <script src="js/modules/ai-news.js?v=20260812a"></script>
   <script src="js/modules/checkin.js?v=20260811b"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>

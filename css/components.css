@@ -2414,6 +2414,32 @@ textarea {
   text-transform: uppercase;
 }
 
+#panel-inspiration .inspiration-library-tools {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+#panel-inspiration .inspiration-select {
+  width: 100%;
+  min-height: 34px;
+  padding: 0 26px 0 10px;
+  border: 1px solid rgba(73, 68, 56, .11);
+  border-radius: 9px;
+  outline: 0;
+  color: #686258;
+  font: inherit;
+  font-size: .72rem;
+  background: #fffefa;
+  cursor: pointer;
+}
+
+#panel-inspiration .inspiration-select:focus {
+  border-color: #879b7a;
+  box-shadow: 0 0 0 3px rgba(135, 155, 122, .14);
+}
+
 #panel-inspiration .inspiration-list {
   gap: 10px;
   margin-top: 0;
@@ -2463,6 +2489,28 @@ textarea {
   font-size: .69rem;
 }
 
+#panel-inspiration .inspiration-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 17px;
+}
+
+#panel-inspiration .inspiration-item-tags em {
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #718068;
+  background: #edf1e8;
+  font-size: .63rem;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+#panel-inspiration .inspiration-meta-dot {
+  color: #b6b0a6;
+  font-weight: 400;
+}
+
 #panel-inspiration .inspiration-arrow {
   width: 22px;
   height: 22px;
@@ -2501,13 +2549,45 @@ textarea {
 }
 
 #panel-inspiration .inspiration-result-head h2 {
-  font-size: clamp(1.28rem, 2vw, 1.7rem);
-  letter-spacing: -.04em;
+  margin: 0;
+  font-size: clamp(1.08rem, 1.45vw, 1.32rem);
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+
+#panel-inspiration .inspiration-result-copy {
+  min-width: 0;
+}
+
+#panel-inspiration .inspiration-result-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin: 9px 0 9px;
+  color: #8f897e;
+  font-size: .75rem;
+  line-height: 1.5;
+}
+
+#panel-inspiration .inspiration-result-meta a {
+  max-width: 340px;
+  overflow: hidden;
+  color: #718068;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#panel-inspiration .inspiration-result-meta a:hover {
+  color: #4f6249;
+  text-decoration: underline;
 }
 
 #panel-inspiration .inspiration-result-head p {
   max-width: 620px;
+  margin: 0;
   color: #747066;
+  font-size: .84rem;
 }
 
 #panel-inspiration .inspiration-tabs {
@@ -2669,6 +2749,7 @@ textarea {
   #panel-inspiration .inspiration-header .btn-primary { min-height: 38px; padding: 0 12px; border-radius: 11px; }
   #panel-inspiration .inspiration-library { border-radius: 0; }
   #panel-inspiration .inspiration-library-head { padding-bottom: 9px; }
+  #panel-inspiration .inspiration-library-tools { margin-bottom: 10px; }
   #panel-inspiration .inspiration-list { gap: 9px; }
   #panel-inspiration .inspiration-item { min-height: 82px; border-radius: 15px; }
   #panel-inspiration .inspiration-item:hover { transform: none; }
@@ -2679,6 +2760,8 @@ textarea {
   #panel-inspiration .inspiration-result-head { gap: 12px; padding-bottom: 16px; }
   #panel-inspiration .inspiration-detail-cover { width: 102px; height: 76px; border-radius: 12px; }
   #panel-inspiration .inspiration-result-head h2 { font-size: 1.13rem; }
+  #panel-inspiration .inspiration-result-meta { gap: 4px 11px; margin: 6px 0 7px; font-size: .69rem; }
+  #panel-inspiration .inspiration-result-meta a { max-width: 195px; }
   #panel-inspiration .inspiration-tabs { width: 100%; margin-top: 14px; }
   #panel-inspiration .inspiration-tabs .btn-text { flex: 1; padding: 6px 2px; }
   #panel-inspiration .inspiration-overview { gap: 14px; padding-top: 17px; }
