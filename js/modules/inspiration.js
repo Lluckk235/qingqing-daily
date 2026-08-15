@@ -11,7 +11,7 @@ const Inspiration = {
     if (!Supabase.isAuthenticated) return;
     await this.load();
     this.render();
-    this.pollTimer = window.setInterval(() => this.refreshPending(), 25000);
+    this.pollTimer = window.setInterval(() => this.refreshPending(), 8000);
   },
 
   async load() {
@@ -23,6 +23,7 @@ const Inspiration = {
   async refreshPending() {
     if (!Supabase.isAuthenticated || !this.items.some(item => item.status === 'processing')) return;
     await this.load(); this.render();
+    if (!this.items.some(item => item.status === 'processing')) this.setSaveStatus('');
   },
 
   bindEvents() {
