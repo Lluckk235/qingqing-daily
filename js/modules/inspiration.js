@@ -138,7 +138,7 @@ const Inspiration = {
   selected() { return this.items.find(item => item.id === this.selectedId) || null; },
   esc(value) { const el = document.createElement('div'); el.textContent = String(value || ''); return el.innerHTML; },
   date(value) { return new Date(value || Date.now()).toLocaleDateString('zh-CN', { month: 'numeric', day: 'numeric' }); },
-  status(item) { return item.status === 'ready' ? '已拆好' : item.status === 'failed' ? '拆解失败' : '拆解中'; },
+  status(item) { return item.status === 'ready' ? '完成' : item.status === 'failed' ? '拆解失败' : '拆解中'; },
 
   render() { this.renderList(); this.renderDetail(); },
 
