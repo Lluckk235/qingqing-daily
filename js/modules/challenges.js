@@ -6,6 +6,11 @@ const Challenges = {
   init() {
     this.render();
     document.getElementById('btnAddChallenge').addEventListener('click', () => this.add());
+    window.addEventListener('storage-cloud-sync', event => {
+      if (!event.detail?.keys?.includes('challenges_v2')) return;
+      this.render();
+      if (typeof GoalProgress !== 'undefined') GoalProgress.render();
+    });
   },
 
   getList() {
