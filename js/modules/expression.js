@@ -5,6 +5,7 @@ const Expression = {
   selectedCardId: null,
   selectedPathIndex: 0,
   view: 'library',
+  generatingIdeaIds: new Set(),
   esc(value = '') { return String(value).replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c])); },
   weekStart() { const d = new Date(); const day = d.getDay() || 7; d.setDate(d.getDate() - day + 1); return d.toISOString().slice(0, 10); },
   async init() { this.bindEvents(); await this.load(); this.render(); },
@@ -40,12 +41,13 @@ const Expression = {
       if (!button) return;
       const idea = this.weeklyIdeas.find(x => String(x.id) === button.dataset.expressionIdea);
       if (!idea) return;
+      if (this.generatingIdeaIds.has(String(idea.id))) { this.setStatus('正在生成，请稍等。', ''); return; }
       const existing = this.cardForIdea(idea);
       if (existing) {
         this.openCard(existing.id);
         return;
       }
-      this.generate([idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n'));
+      this.generate([idea.title, idea.brief, idea.source_url].filter(Boolean).join('\n'), String(idea.id));
     });
     document.getElementById('expressionCards')?.addEventListener('click', e => {
       const card = e.target.closest('[data-expression-card]');
@@ -65,18 +67,23 @@ const Expression = {
   themeFor(card) { return this.esc(String(card?.card?.theme || card?.theme || '').slice(0, 5)); },
   openCard(id) { this.selectedCardId = id; this.selectedPathIndex = 0; this.view = 'detail'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
   showLibrary() { this.view = 'library'; this.render(); document.querySelector('#panel-expression')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); },
-  async generate(value = '') {
+  async generate(value = '', ideaId = '') {
     const rawInput = (value || document.getElementById('expressionIdeaInput').value).trim();
     const urlMatch = rawInput.match(/https:\/\/[^\s]+/i);
     const sourceUrl = urlMatch ? urlMatch[0].replace(/[，。；、）】》〉]+$/, '') : '';
     const input = rawInput.replace(/https:\/\/[^\s]+/ig, '').trim();
     if (!input && !sourceUrl) { this.setStatus('先写下一句想法，或粘贴一个公开链接。', 'error'); return; }
     if (!Supabase.isAuthenticated) return WorkspaceAccess.openAccess();
+    if (ideaId) { this.generatingIdeaIds.add(ideaId); this.renderIdeas(); }
     const button = document.getElementById('btnGenerateExpression'); button.disabled = true; this.setStatus('正在把想法整理成练习卡…');
     try {
       const result = await Supabase.invokeFunction('expression-card', { action: 'create', input, source_url: sourceUrl });
       this.cards.unshift(result.card); this.setStatus('已生成', 'success'); this.openCard(result.card.id);
-    } catch (error) { this.setStatus(error.message, 'error'); } finally { button.disabled = false; }
+    } catch (error) { this.setStatus(error.message, 'error'); } finally {
+      if (ideaId) this.generatingIdeaIds.delete(ideaId);
+      button.disabled = false;
+      if (this.view === 'library') this.renderIdeas();
+    }
   },
   async rewrite(action, mode) {
     const card = this.cards.find(x => x.id === this.selectedCardId); if (!card) return;
@@ -92,7 +99,8 @@ const Expression = {
     const el = document.getElementById('expressionWeeklyIdeas'); if (!el) return;
     el.innerHTML = this.weeklyIdeas.length ? this.weeklyIdeas.map(idea => {
       const generated = this.cardForIdea(idea);
-      return `<article class="expression-idea ${generated ? 'is-generated' : ''}"><h3><button class="expression-idea-title" data-expression-idea="${this.esc(idea.id)}">${this.esc(idea.title)}</button></h3><p>${this.esc(idea.brief || '')}</p><footer><div class="expression-idea-meta"><span class="expression-status-dot ${generated ? 'is-ready' : ''}" aria-label="${generated ? '已有练习卡' : '尚未生成练习卡'}"></span><span class="expression-category">${this.esc(idea.category)}</span></div><button class="btn-text" data-expression-idea="${this.esc(idea.id)}">${generated ? '查看 →' : '生成练习 →'}</button></footer></article>`;
+      const generating = this.generatingIdeaIds.has(String(idea.id));
+      return `<article class="expression-idea ${generated ? 'is-generated' : ''}"><h3><button class="expression-idea-title" data-expression-idea="${this.esc(idea.id)}" ${generating ? 'disabled' : ''}>${this.esc(idea.title)}</button></h3><p>${this.esc(idea.brief || '')}</p><footer><div class="expression-idea-meta"><span class="expression-status-dot ${generated ? 'is-ready' : ''}" aria-label="${generated ? '已有练习卡' : '尚未生成练习卡'}"></span><span class="expression-category">${this.esc(idea.category)}</span></div><button class="btn-text" data-expression-idea="${this.esc(idea.id)}" ${generating ? 'disabled' : ''}>${generated ? '查看 →' : generating ? '生成中…' : '生成练习 →'}</button></footer></article>`;
     }).join('') : '<div class="empty-hint">本周灵感正在准备中。</div>';
   },
   renderCard() {
