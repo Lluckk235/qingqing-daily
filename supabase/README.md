@@ -17,3 +17,9 @@
 4. 在 GitHub Actions Secrets 配置同名 `DEEPSEEK_API_KEY`，供每周一的精选灵感任务使用；已有的 `SUPABASE_SERVICE_ROLE_KEY` 用于写入本周灵感。
 
 函数只提炼允许公开读取的文章，不登录抖音，也不会批量抓取推荐流；数据库只保存练习卡、摘要和来源链接。
+
+## 灵感集部署
+
+1. 在 Supabase SQL Editor 执行 `migrations/20260815_inspiration_library.sql`。
+2. 部署 `inspiration-analyze` Edge Function，并保留 JWT 验证。
+3. 文案拆解沿用现有 `DEEPSEEK_API_KEY`。如需截图的画面、字幕和节奏分析，在 Edge Functions 的 Secrets 中单独添加 `APIYI_API_KEY`；不要把密钥写进前端或 GitHub 仓库。

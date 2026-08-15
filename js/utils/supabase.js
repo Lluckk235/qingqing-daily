@@ -210,6 +210,30 @@ var Supabase = {
 
   delete(path) { return this.fetch(path, { method: 'DELETE' }); },
 
+  async uploadPrivateFile(bucket, path, file) {
+    const res = await fetch(`${this.url}/storage/v1/object/${encodeURIComponent(bucket)}/${path.split('/').map(encodeURIComponent).join('/')}`, {
+      method: 'POST',
+      headers: {
+        'apikey': this.key,
+        'Authorization': `Bearer ${this.session?.access_token || this.key}`,
+        'Content-Type': file.type || 'application/octet-stream',
+        'x-upsert': 'false',
+      },
+      body: file,
+    });
+    if (!res.ok) throw new Error('截图上传失败，请稍后重试。');
+    return res.json().catch(() => ({ path }));
+  },
+
+  async privateFileUrl(bucket, path, expiresIn = 900) {
+    const res = await fetch(`${this.url}/storage/v1/object/sign/${encodeURIComponent(bucket)}/${path.split('/').map(encodeURIComponent).join('/')}`, {
+      method: 'POST', headers: this.headers(), body: JSON.stringify({ expiresIn }),
+    });
+    if (!res.ok) throw new Error('截图读取失败。');
+    const data = await res.json();
+    return data.signedURL || data.signedUrl || '';
+  },
+
   async invokeFunction(name, body) {
     const request = () => fetch(`${this.url}/functions/v1/${name}`, {
       method: 'POST', headers: this.headers(), body: JSON.stringify(body),

@@ -16,7 +16,7 @@
   <title>卿卿日常</title>
   <link rel="stylesheet" href="css/style.css?v=20260801d">
   <link rel="stylesheet" href="css/layout.css?v=20260813a">
-  <link rel="stylesheet" href="css/components.css?v=20260814g">
+  <link rel="stylesheet" href="css/components.css?v=20260815h">
   <link rel="stylesheet" href="css/fitness.css?v=20260814b">
 </head>
 <body>
@@ -89,6 +89,10 @@
         <a class="nav-item" data-panel="expression" data-private="true">
           <span class="nav-emoji">💬</span>
           <span>表达训练</span>
+        </a>
+        <a class="nav-item" data-panel="inspiration" data-private="true">
+          <span class="nav-emoji">💡</span>
+          <span>灵感集</span>
         </a>
         <a class="nav-item" data-panel="fitness" data-private="true">
           <span class="nav-emoji">🏋️</span>
@@ -348,6 +352,31 @@
         </div>
       </section>
 
+      <!-- 灵感集 Panel：只收录并拆解公开视频参考 -->
+      <section class="panel" id="panel-inspiration">
+        <div class="panel-header">
+          <h2>💡 灵感集</h2>
+          <p>把喜欢的视频拆透，再得到一版可拍的参考稿</p>
+        </div>
+        <div class="inspiration-container" id="inspirationContainer">
+          <section class="inspiration-composer">
+            <div class="expression-section-title"><span>收录视频</span></div>
+            <textarea class="input-lg" id="inspirationInput" rows="7" maxlength="24000" placeholder="粘贴视频链接和转录文案"></textarea>
+            <div class="inspiration-upload-row">
+              <label class="inspiration-upload" for="inspirationImages">＋ 添加关键帧（可选，最多 8 张）</label>
+              <input id="inspirationImages" type="file" accept="image/jpeg,image/png,image/webp" multiple hidden>
+              <span id="inspirationImageStatus" aria-live="polite"></span>
+            </div>
+            <div class="expression-composer-actions"><button class="btn-primary" id="btnSaveInspiration">收录并后台拆解</button><span id="inspirationSaveStatus" aria-live="polite"></span></div>
+          </section>
+          <section class="inspiration-detail" id="inspirationDetail" aria-live="polite"></section>
+          <section class="inspiration-library">
+            <div class="expression-section-title"><span>我的视频参考</span></div>
+            <div id="inspirationList" class="inspiration-list"></div>
+          </section>
+        </div>
+      </section>
+
       <!-- 心情日历面板 -->
       <section class="panel" id="panel-mood">
         <div class="panel-header">
@@ -365,7 +394,7 @@
 
 
   <!-- Supabase: 纯 REST API 封装，不依赖 CDN SDK -->
-  <script src="js/utils/supabase.js?v=20260814d"></script>
+  <script src="js/utils/supabase.js?v=20260815a"></script>
   <script src="js/config.js?v=20260811b"></script>
   <script src="js/utils/storage.js?v=20260815a"></script>
   <script src="js/utils/helpers.js?v=20260801c"></script>
@@ -377,6 +406,7 @@
   <script src="js/modules/goal-progress.js?v=20260802q"></script>
   <script src="js/modules/notes.js?v=20260801c"></script>
   <script src="js/modules/expression.js?v=20260815a"></script>
+  <script src="js/modules/inspiration.js?v=20260815a"></script>
   <script src="js/modules/ai-news.js?v=20260812a"></script>
   <script src="js/modules/checkin.js?v=20260811b"></script>
   <script src="js/modules/daily-quote.js?v=20260801c"></script>
@@ -384,6 +414,6 @@
   <script src="js/modules/fitness.js?v=20260814f"></script>
   <script src="js/modules/workspace-access.js?v=20260814b"></script>
   <script src="js/modules/splash.js?v=20260802a"></script>
-  <script src="js/app.js?v=20260813a"></script>
+  <script src="js/app.js?v=20260815a"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@ const App = {
     // GEX 已移除：仅清理该模块的数据，不影响其他个人记录。
     Storage.remove('iw_gex_history');
 
-    if (savedPanel && ['dashboard', 'berkshire', 'challenges', 'notes', 'expression', 'mood', 'fitness'].includes(savedPanel)) {
+    if (savedPanel && ['dashboard', 'berkshire', 'challenges', 'notes', 'expression', 'inspiration', 'mood', 'fitness'].includes(savedPanel)) {
       this.currentPanel = savedPanel;
     }
 
@@ -38,6 +38,7 @@ const App = {
     Challenges.init();
     Notes.init();
     Expression.init();
+    Inspiration.init();
     DailyNews.init();
     Checkin.init();
     DailyQuote.init();
