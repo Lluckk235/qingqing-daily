@@ -231,7 +231,8 @@ var Supabase = {
     });
     if (!res.ok) throw new Error('截图读取失败。');
     const data = await res.json();
-    return data.signedURL || data.signedUrl || '';
+    const signedUrl = data.signedURL || data.signedUrl || '';
+    return signedUrl.startsWith('/') ? `${this.url}/storage/v1${signedUrl}` : signedUrl;
   },
 
   async invokeFunction(name, body) {
