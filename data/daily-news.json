@@ -1,28 +1,9 @@
 {
   "date": "2026-08-16",
-  "generated": "2026-08-16T16:26:12.231172+08:00",
-  "total": 8,
+  "generated": "2026-08-16T20:33:43.532653+08:00",
+  "total": 6,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "75621d574a39",
-      "title": "Xteink 的小型电子阅读器可以通过 Libby 访问免费书籍",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
-      "published": "2026-08-15T13:00:00+00:00",
-      "summary": [
-        "Xteink 袖珍电子阅读器的一大缺点是无法轻松访问电子书。在 Kindle 或 Kobo 上您可以下载数十个"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 1
-    },
     {
       "id": "2e10c781206d",
       "title": "追踪 Zsh 历史数据丢失错误",
@@ -38,7 +19,26 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3.5,
+      "score": 3,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "1fc865a6bfa5",
+      "title": "流氓人工智能不再是科幻小说",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "published": "2026-08-16T12:00:00+00:00",
+      "summary": [
+        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。斯特巴"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,70 +57,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "0dccda6e63b0",
-      "title": "如何判断您的人工智能平台的帐户是否被黑客入侵",
+      "id": "02b3b43de49d",
+      "title": "联想 1kg 轻薄办公本昭阳悦 Air 14 上市：搭载酷睿 Ultra 7 258V，8499 元",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
-      "published": "2026-08-15T16:10:00+00:00",
-      "summary": [
-        "有关如何检查黑客是否在最流行的人工智能平台上侵入您的帐户的指南。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "b8e747471475",
-      "title": "当 AI 开始批量写 HTML，WorkBuddy 想解决「生成之后」的问题",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/368851",
-      "published": "2026-08-15T06:41:47+00:00",
-      "summary": [
-        "&nbsp; 头图来源：视觉中国 「人人都应该有一个 AI 工作台」，最近这段时间，网络上掀起了一阵搭建个人工作台的热潮",
-        "先是一位百万级大网红用 WorkBuddy 几句话搭出了一个专属工作台，视频发出后，抖音、小红书的评论区随即变成了「大型交作业现场」&mdash;&mdash; 有人搭自媒体选题看板，有人做健身打卡记录，有人给一年级孩子做暑期学习计划，有人整了短视频带货管理系统&hellip;&hellip; 但热闹之下，一个共性问题也很快浮出水面：工作台搭起来容易，用起来却卡壳了",
-        "不少用户在晒完新鲜感之后，很快发现了同一个坑&mdash;&mdash; 数据只存在本地"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "83770cb8e3f8",
-      "title": "微软听劝：新版 Win11 右键菜单预览，设计更简洁、支持添加自定义选项",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/990/296.htm",
-      "published": "2026-08-16T08:12:40+00:00",
+      "sourceUrl": "https://www.ithome.com/0/990/376.htm",
+      "published": "2026-08-16T12:30:28+00:00",
       "summary": [
-        "IT之家 8 月 16 日消息，博主 PhantomOfEarth 今日发布视频，展示了微软正在为 Win11 右键菜单准备的一系列更新",
-        "新版右键菜单目前处于 Windows 11 实验分支，尚未公开推送",
-        "作为 Windows K2 计划（IT之家注：微软用于改进 Windows 11 体验的系列更新计划）的一部分，微软正在为 Windows 11 开发新的右键菜单，新菜单默认只显示最常用的操作，例如打开、打开方式、复制路径和复制，而大量用户吐槽的 AI 功能被移除，应用扩展被归入子菜单"
+        "IT之家 8 月 16 日消息，联想上周推出了一款新的商用办公本新品，名为昭阳・悦 Air 14，这也是昭阳 X 系列首款 1kg 轻薄本",
+        "这款新机目前已经正式开售，定价为 8499 元",
+        "京东联想笔记本电脑昭阳 · 悦 Air14 酷睿 Ultra7 258V 32G 512G 120Hz 1kg 超轻薄 时空银 AI 轻薄本 8499 元直达链接2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "f3011c1362c1",
@@ -137,9 +97,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "7701c0aa4492",
@@ -156,9 +116,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 6
     }
   ]
 }
