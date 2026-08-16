@@ -2775,7 +2775,7 @@ textarea {
   #panel-inspiration .inspiration-result-meta { gap: 4px 11px; margin: 6px 0 7px; font-size: .69rem; }
   #panel-inspiration .inspiration-result-meta a { max-width: 195px; }
   #panel-inspiration .inspiration-tabs { width: 100%; margin-top: 14px; }
-  #panel-inspiration .inspiration-tabs .btn-text { flex: 1; padding: 6px 2px; }
+  #panel-inspiration .inspiration-tabs .btn-text { flex: 1; justify-content: center; padding: 6px 2px; text-align: center; }
   #panel-inspiration .inspiration-overview { gap: 14px; padding-top: 17px; }
   #panel-inspiration .inspiration-overview-takeaway { padding: 18px; border-radius: 15px; }
   #panel-inspiration .inspiration-quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
