@@ -1,99 +1,99 @@
 {
-  "date": "2026-08-12",
-  "generated": "2026-08-12T21:44:16.795748+08:00",
-  "total": 11,
+  "date": "2026-08-16",
+  "generated": "2026-08-16T16:03:27.854939+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "aa04d9fec56d",
-      "title": "下载：我们的 35 名年轻创新者和“审查制度工业综合体”",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
-      "published": "2026-08-12T12:10:00+00:00",
+      "id": "96fdcc1df6bb",
+      "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "published": "2026-08-15T20:45:00+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，你"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "ab860a0461b9",
-      "title": "“审查制度-产业联合体”如何改变互联网和美国政策",
+      "id": "0dccda6e63b0",
+      "title": "如何判断您的人工智能平台的帐户是否被黑客入侵",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+      "published": "2026-08-15T16:10:00+00:00",
+      "summary": [
+        "有关如何检查黑客是否在最流行的人工智能平台上侵入您的帐户的指南。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "75621d574a39",
+      "title": "Xteink 的小型电子阅读器可以通过 Libby 访问免费书籍",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
-      "published": "2026-08-11T17:58:57+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
+      "published": "2026-08-15T13:00:00+00:00",
       "summary": [
-        "我第一次听到“审查工业综合体”这个词是在 2025 年 4 月 15 日。就在那时我得到消息说美国国务院的一个小办公室"
+        "Xteink 袖珍电子阅读器的一大缺点是无法轻松访问电子书。在 Kindle 或 Kobo 上您可以下载数十个"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "4361bd4cf51a",
-      "title": "当然，ChatGPT 狗癌症疫苗催生了一家初创公司",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-      "published": "2026-08-12T12:09:34+00:00",
-      "summary": [
-        "还记得那个大肆宣传的故事吗？一位澳大利亚科技企业家使用 ChatGPT、Grok 和其他人工智能工具为人类打造个性化癌症疫苗。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "9ebfb3cbe9d9",
-      "title": "Grok 现在是人工智能“队友”，你可以分配工作",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "published": "2026-08-12T11:58:54+00:00",
+      "id": "2e10c781206d",
+      "title": "追踪 Zsh 历史数据丢失错误",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "michael.stapelberg.ch",
+      "sourceUrl": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+      "published": "2026-08-15T21:39:09+00:00",
       "summary": [
-        "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代理服务，旨在像独立的“AI 队友”一样为您完成工作。这"
+        "评论"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "9cf6affd4889",
-      "title": "马斯克：大概再过四五年，AI 将占到 SpaceX 价值的 99%",
+      "id": "8f5aef841ddc",
+      "title": "ChatGPT 新功能：订阅用户无需离开对话，即可直接编辑谷歌云盘文件",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/988/975.htm",
-      "published": "2026-08-12T13:35:37+00:00",
+      "sourceUrl": "https://www.ithome.com/0/990/295.htm",
+      "published": "2026-08-16T08:01:14+00:00",
       "summary": [
-        "IT之家 8 月 12 日消息，SpaceX 创始人兼 CEO 埃隆 · 马斯克在公司 8 月 11 日发布于 X 的员工讲话中称：“我们的 AI 收入可能到 9 月，也就是下个月，就会超过 SpaceX 其他所有业务收入的总和，第四季度还会大幅超过其他业务收入",
-        "所以，AI 已经成为 SpaceX 未来极其重要的一部分",
-        "”今年早些时候，SpaceX 收购了马斯克 2023 年创立的初创公司 xAI"
+        "IT之家 8 月 16 日消息，OpenAI 旗下 ChatGPT 昨日迎来一系列更新，订阅用户现可直接将谷歌云盘文件添加到 ChatGPT 资料库，并直接在聊天中编辑文档",
+        "据悉，用户可直接点击聊天框旁边的“+”按钮，然后选择“从资料库添加”，将谷歌云盘的文件添加到 ChatGPT 中",
+        "随后 AI 可将这些文件作为上下文，用于回答问题、生成摘要，或者进行编辑等操作"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,118 +102,42 @@
       "rank": 5
     },
     {
-      "id": "618c36a0317e",
-      "title": "AI 代码测试初创公司 Blacksmith 的估值在不到一年的时间里上涨了近 10 倍",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
-      "published": "2026-08-12T11:00:00+00:00",
+      "id": "f3011c1362c1",
+      "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/113495",
+      "published": "2026-08-16T04:48:21+00:00",
       "summary": [
-        "布莱克史密斯表示，过去一年的收入增长了十倍多。"
+        "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
-      "isNativeCN": false,
+      "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "078c9caccf3e",
-      "title": "布伦丹·卡尔 (Brendan Carr) 是一名不受监管的联邦通信委员会 (FCC) 的攻击者",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/978783/trump-fcc-nominee-quorum",
-      "published": "2026-08-12T13:31:19+00:00",
+      "id": "7701c0aa4492",
+      "title": "撞击岩石释放受激地质氢",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "Hacker News",
+      "sourceDomain": "spectrum.ieee.org",
+      "sourceUrl": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "published": "2026-08-16T02:36:10+00:00",
       "summary": [
-        "唐纳德·特朗普总统已经在负责监管美国通信系统的机构中拥有共和党多数席位。但有了新的提名"
+        "评论"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "4d575961ffce",
-      "title": "Joby Aviation 通过 5 亿美元收购拓展国防业务",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/11/joby-aviation-builds-out-defense-business-with-500m-acquisition/",
-      "published": "2026-08-11T16:06:08+00:00",
-      "summary": [
-        "Joby Aviation 达成协议，收购 Resonant Sciences，这将启动其新的国防业务。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "473af0c14739",
-      "title": "Threads 现在有一个 VR 应用程序",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/978181/meta-threads-quest-vr-app",
-      "published": "2026-08-11T19:10:14+00:00",
-      "summary": [
-        "Meta 周二宣布，该公司已推出适用于 Meta Quest VR 耳机的 Threads 应用程序。 Meta 将该应用程序引入雷朋 (Ray-Ban) 后推出"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "526a4a47c3c2",
-      "title": "随着 Bluesky 的关注点扩展到应用程序之外，其活跃用户群正在萎缩",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
-      "published": "2026-08-11T17:46:14+00:00",
-      "summary": [
-        "在大选后激增一年多后，Bluesky 的移动应用程序的活跃用户数持续下降，尽管其剩余社区规模不大。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "78c7f19432a6",
-      "title": "方块爆炸！ Apple Arcade 上无广告",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/11/2025s-most-downloaded-game-block-blast-is-going-ad-free-on-apple-arcade/",
-      "published": "2026-08-11T15:33:59+00:00",
-      "summary": [
-        "2025 年下载次数最多的手机游戏《Block Blast!》将于 9 月登陆 Apple Arcade，并且没有广告。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 11
+      "rank": 7
     }
   ]
 }
