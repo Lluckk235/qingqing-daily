@@ -1,80 +1,80 @@
 {
-  "date": "2026-08-16",
-  "generated": "2026-08-16T20:33:43.532653+08:00",
-  "total": 6,
+  "date": "2026-08-17",
+  "generated": "2026-08-17T09:06:50.857064+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "2e10c781206d",
-      "title": "追踪 Zsh 历史数据丢失错误",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "michael.stapelberg.ch",
-      "sourceUrl": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
-      "published": "2026-08-15T21:39:09+00:00",
+      "id": "4a493f2763ae",
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "published": "2026-08-16T14:56:40+00:00",
       "summary": [
-        "评论"
+        "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature [&#8230;]"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 3,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "1fc865a6bfa5",
-      "title": "流氓人工智能不再是科幻小说",
+      "id": "7430ad56634d",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
-      "published": "2026-08-16T12:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "published": "2026-08-16T20:57:04+00:00",
       "summary": [
-        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。斯特巴"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "96fdcc1df6bb",
-      "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-      "published": "2026-08-15T20:45:00+00:00",
-      "summary": [
-        "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，你"
+        "OpenRouter's CEO recently described the startup as Stripe for AI."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "37baffef30c9",
+      "title": "St Lucie Nuclear Reactor Unit 1 manually shutdown, 3 control rods drop into core",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "wptv.com",
+      "sourceUrl": "https://www.wptv.com/news/treasure-coast/region-st-lucie-county/saint-lucie-nuclear-power-plant-unit-1-manually-shut-down-after-3-control-rods-drop-into-reactor-core",
+      "published": "2026-08-16T15:16:06+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "02b3b43de49d",
-      "title": "联想 1kg 轻薄办公本昭阳悦 Air 14 上市：搭载酷睿 Ultra 7 258V，8499 元",
+      "id": "995cf8472552",
+      "title": "问界「童车」上市，华为联合设计；DeepSeek 涨价策略今日实行；大学生用 AI 人脸视频盗刷 5 万元被判刑",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/990/376.htm",
-      "published": "2026-08-16T12:30:28+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/368859",
+      "published": "2026-08-17T00:29:59+00:00",
       "summary": [
-        "IT之家 8 月 16 日消息，联想上周推出了一款新的商用办公本新品，名为昭阳・悦 Air 14，这也是昭阳 X 系列首款 1kg 轻薄本",
-        "这款新机目前已经正式开售，定价为 8499 元",
-        "京东联想笔记本电脑昭阳 · 悦 Air14 酷睿 Ultra7 258V 32G 512G 120Hz 1kg 超轻薄 时空银 AI 轻薄本 8499 元直达链接2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取"
+        "IPO 前 Anthropic CEO 达里奥 &middot; 阿莫迪罕见发长文回应质疑，预告未来 5-10 年 AI 将治愈多数疾病 Anthropic CEO 达里奥 &middot; 阿莫迪（Dario Amodei）几乎从不碰社交媒体",
+        "但就在 IPO 估值被推到 2 万亿美元的节骨眼上，他罕见地发了一篇长文，正面回应 Anthropic 如何看待监管",
+        "长文中，达里奥 &middot; 阿莫迪回「我们设计的每一条政策，都让前沿公司承担更多成本，同时有利于规模更小的竞争者"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -97,28 +97,49 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "7701c0aa4492",
-      "title": "撞击岩石释放受激地质氢",
+      "id": "225bd8d3618b",
+      "title": "蓝宝石公布 NITRO+ 氮动 RX 9070 XT 16G V26 无畏巡回定制版显卡",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "Hacker News",
-      "sourceDomain": "spectrum.ieee.org",
-      "sourceUrl": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
-      "published": "2026-08-16T02:36:10+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/990/446.htm",
+      "published": "2026-08-17T01:06:13+00:00",
       "summary": [
-        "评论"
+        "IT之家 8 月 17 日消息，SAPPHIRE Technology（蓝宝科技 / 蓝宝石）近日公布了 NITRO+ 氮动 RX 9070 XT 16G V26 无畏巡回定制版显卡",
+        "可以看到，这款显卡硬件上基于 NITRO+ RX 9070 XT 16GB PhantomLink 打造，继承了原版的幻影连接“金手指”供电结构",
+        "而在外观方面，其以《无畏契约》(VALORANT) 电竞赛事 VCT CN 2026 为设计灵魂，拥有定制的赛事徽标风扇轴心贴纸，磁吸式快拆背板则装饰以角色定位徽标组成的像素风格枪械图案"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
+      "score": 5,
+      "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "8742122f1a24",
+      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+      "published": "2026-08-16T20:31:37+00:00",
+      "summary": [
+        "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
     }
   ]
 }
