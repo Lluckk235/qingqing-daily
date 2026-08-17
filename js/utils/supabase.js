@@ -14,6 +14,8 @@ var Supabase = {
   session: null,
   membership: null,
   refreshPromise: null,
+  // 来自「忘记密码」重置邮件的恢复会话标记；consumeCallback 识别后由 UI 弹出重设密码弹窗。
+  pendingRecovery: false,
 
   async initSession() {
     await this.consumeCallback();
@@ -85,6 +87,8 @@ var Supabase = {
     if (!res.ok) throw new Error('邮件登录链接已失效，请重新发送');
     const user = await res.json();
     this.saveSession({ access_token: accessToken, refresh_token: refreshToken, expires_at: Math.floor(Date.now() / 1000) + Number(hash.get('expires_in') || 3600), user });
+    // 重置密码邮件回跳携带 type=recovery，标记后由 UI 弹出「重设密码」弹窗。
+    this.pendingRecovery = hash.get('type') === 'recovery';
     history.replaceState({}, document.title, `${location.pathname}${location.search}`);
     return this.session;
   },
@@ -107,6 +111,23 @@ var Supabase = {
     const res = await fetch(`${this.url}/auth/v1/otp?redirect_to=${encodeURIComponent(redirect.toString())}`, { method: 'POST', headers: { apikey: this.key, 'Content-Type': 'application/json' }, body: JSON.stringify({ email, create_user: createUser, gotrue_meta_security: {} }) });
     if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
     if (!res.ok) throw new Error(`邮件发送失败 (${res.status})`);
+  },
+
+  /**
+   * 忘记密码：发送「重置密码」邮件（recovery email）。
+   * 与 Magic Link 不同——它不登录，而是把用户导向重置链接，
+   * 回跳到 appUrl 后由 consumeCallback 识别 type=recovery 并弹出重设密码弹窗。
+   * 文档：POST /auth/v1/recover  body: { email, redirect_to }
+   */
+  async resetPasswordForEmail(email) {
+    const redirect = new URL(this.appUrl);
+    const res = await fetch(`${this.url}/auth/v1/recover?redirect_to=${encodeURIComponent(redirect.toString())}`, {
+      method: 'POST',
+      headers: { apikey: this.key, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    });
+    if (res.status === 429) throw new Error('邮件发送已达免费额度（每小时最多 2 封），请等待约 1 小时后再试');
+    if (!res.ok) throw new Error(`重置邮件发送失败 (${res.status})`);
   },
 
   /**

@@ -6,6 +6,8 @@ const WorkspaceAccess = {
     this.inviteToken = new URLSearchParams(location.search).get('invite') || '';
     document.getElementById('btnSettings')?.addEventListener('click', () => this.openSettings());
     if (!Supabase.isAuthenticated && this.inviteToken) this.openAccess(true);
+    // 来自「忘记密码」重置邮件的恢复会话：自动弹出重设密码弹窗，用户无需再找入口。
+    if (Supabase.pendingRecovery) { Supabase.pendingRecovery = false; this.openPasswordSetup(true); }
   },
 
   escape(value = '') {
@@ -24,18 +26,26 @@ const WorkspaceAccess = {
     const hint = invited
       ? '请输入收到邀请的邮箱。验证邮件会发到该邮箱；邀请链接被转发给其他邮箱也无法激活。'
       : '输入邮箱与登录密码即可进入。添加到 iPhone 主屏幕后，用同一邮箱＋密码登录，数据会自动同步，之后打开无需再次登录。';
-    // 日常登录以「邮箱 + 密码」为主；Magic Link 降为低优先级恢复入口（换设备/忘记密码）。
+    // 模式一：邮箱 + 密码登录（signInWithPassword）。忘记密码与邮箱链接登录拆为两个独立入口，避免混淆。
     const body = `
       <p class="workspace-hint">${hint}</p>
       <label>邮箱<input class="input" id="workspaceEmail" type="email" autocomplete="email" placeholder="name@example.com"></label>
       <label>密码<input class="input" id="workspacePassword" type="password" autocomplete="current-password" placeholder="你的登录密码"></label>
-      <button class="btn-text workspace-recover" type="button" data-magic-link>忘记密码 / 用邮箱链接登录</button>
-    `;
+      <div class="workspace-alt-links">
+        <button class="btn-text workspace-recover" type="button" data-forgot>忘记密码？</button>
+        <button class="btn-text workspace-recover" type="button" data-magic-link>改用邮箱链接登录</button>
+      </div>`;
     const modal = this.modal(title, body, '登录');
     const emailEl = modal.querySelector('#workspaceEmail');
     const passEl = modal.querySelector('#workspacePassword');
 
-    // 低优先级：使用邮箱链接（Magic Link）恢复登录，不清除上方输入框。
+    // 模式三入口：忘记密码 → 独立弹窗发送重置邮件（resetPasswordForEmail）。
+    modal.querySelector('[data-forgot]')?.addEventListener('click', () => {
+      modal.remove();
+      this.openForgotPassword();
+    });
+
+    // 保留：Magic Link 恢复流程（换设备 / 尚无密码），不清除上方输入框。
     modal.querySelector('[data-magic-link]')?.addEventListener('click', () => {
       const email = emailEl.value.trim().toLowerCase();
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return Helpers.showToast('请输入正确的邮箱地址', 'error');
@@ -68,6 +78,83 @@ const WorkspaceAccess = {
       } catch (error) {
         Helpers.showToast(error.message, 'error');
         btn.disabled = false; btn.textContent = '登录';
+      }
+    });
+  },
+
+  // 模式三：忘记密码 → 发送重置邮件（resetPasswordForEmail），不登录、不混淆 Magic Link。
+  openForgotPassword() {
+    const body = `
+      <p class="workspace-hint">输入你的注册邮箱，我们会发送一封「重置密码」邮件。打开邮件里的链接即可设置新密码，链接 1 小时内有效。</p>
+      <label>邮箱<input class="input" id="forgotEmail" type="email" autocomplete="email" placeholder="name@example.com"></label>
+      <div class="workspace-alt-links">
+        <button class="btn-text workspace-recover" type="button" data-magic-link>改用邮箱链接直接登录</button>
+        <button class="btn-text workspace-recover" type="button" data-back>返回登录</button>
+      </div>`;
+    const modal = this.modal('忘记密码', body, '发送重置邮件');
+    const emailEl = modal.querySelector('#forgotEmail');
+
+    modal.querySelector('[data-magic-link]')?.addEventListener('click', () => {
+      const email = emailEl.value.trim().toLowerCase();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return Helpers.showToast('请输入正确的邮箱地址', 'error');
+      const send = async () => {
+        try { await Supabase.sendMagicLink(email, false); Helpers.showToast('登录邮件已发送，请在该邮箱打开链接', 'success'); }
+        catch (error) { Helpers.showToast(error.message, 'error'); }
+      };
+      send();
+    });
+    modal.querySelector('[data-back]')?.addEventListener('click', () => { modal.remove(); this.openAccess(Boolean(this.inviteToken)); });
+
+    modal.querySelector('[data-save]').addEventListener('click', async () => {
+      const email = emailEl.value.trim().toLowerCase();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return Helpers.showToast('请输入正确的邮箱地址', 'error');
+      const btn = modal.querySelector('[data-save]');
+      btn.disabled = true; btn.textContent = '发送中…';
+      try {
+        await Supabase.resetPasswordForEmail(email);
+        modal.remove();
+        const done = this.modal('重置邮件已发送', `<p class="workspace-hint">我们已向 <strong>${this.escape(email)}</strong> 发送了重置密码邮件。请打开邮件里的链接设置新的登录密码。没收到？检查垃圾邮件，或在上方改用「邮箱链接」直接登录。</p>`, '知道了');
+        done.querySelector('[data-save]')?.addEventListener('click', () => done.remove());
+      } catch (error) {
+        Helpers.showToast(error.message, 'error');
+        btn.disabled = false; btn.textContent = '发送重置邮件';
+      }
+    });
+  },
+
+  // 模式二：首次设置 / 修改登录密码（已登录用户，或重置邮件回跳的恢复会话）。
+  // 使用 updateUser({ password })：PUT /auth/v1/user，复用现有 Supabase.updatePassword 封装。
+  // recovery=true 表示来自「忘记密码」重置邮件，引导用户设置新密码。
+  openPasswordSetup(recovery = false) {
+    const title = recovery ? '重设你的登录密码' : '设置 / 修改登录密码';
+    const hint = recovery
+      ? '这是你通过「忘记密码」邮件进入的恢复会话。请设置一个新密码（至少 6 位），之后即可用「邮箱 + 密码」登录。'
+      : '设置后，iPhone 主屏幕版或任意新设备直接用「邮箱 + 登录密码」即可进入，无需再走邮件链接。密码至少 6 位。';
+    const body = `
+      <p class="workspace-hint">${hint}</p>
+      <label>新密码<input class="input" id="wsNewPass" type="password" autocomplete="new-password" placeholder="至少 6 位"></label>
+      <label>确认新密码<input class="input" id="wsConfirmPass" type="password" autocomplete="new-password" placeholder="再次输入新密码"></label>`;
+    const modal = this.modal(title, body, recovery ? '保存新密码' : '保存密码');
+    modal.querySelector('[data-save]').addEventListener('click', async () => {
+      const np = modal.querySelector('#wsNewPass').value;
+      const cp = modal.querySelector('#wsConfirmPass').value;
+      if (np.length < 6) return Helpers.showToast('密码至少 6 位', 'error');
+      if (np !== cp) return Helpers.showToast('两次输入的密码不一致', 'error');
+      const btn = modal.querySelector('[data-save]');
+      btn.disabled = true; btn.textContent = '保存中…';
+      try {
+        await Supabase.updatePassword(np);
+        modal.remove();
+        if (recovery) {
+          Helpers.showToast('新密码已设置，请用「邮箱 + 密码」重新登录', 'success');
+          // 恢复会话为短期令牌，重载后用新密码走正常登录流程更安全。
+          setTimeout(() => { location.href = location.pathname; }, 600);
+        } else {
+          Helpers.showToast('登录密码已更新，主屏幕版现在可用「邮箱 + 密码」进入', 'success');
+        }
+      } catch (error) {
+        Helpers.showToast(error.message, 'error');
+        btn.disabled = false; btn.textContent = recovery ? '保存新密码' : '保存密码';
       }
     });
   },
@@ -124,9 +211,7 @@ const WorkspaceAccess = {
       <section class="workspace-setting-section">
         <h4>登录密码</h4>
         <p class="workspace-hint">设置后，iPhone 主屏幕版或任意新设备直接用「邮箱 + 登录密码」即可进入，无需再走邮件链接。密码至少 6 位。</p>
-        <label>新密码<input class="input" id="wsNewPass" type="password" autocomplete="new-password" placeholder="至少 10 位"></label>
-        <label>确认新密码<input class="input" id="wsConfirmPass" type="password" autocomplete="new-password" placeholder="再次输入新密码"></label>
-        <button class="btn-primary" type="button" data-save-password>设置 / 修改登录密码</button>
+        <button class="btn-primary" type="button" data-open-password>设置 / 修改登录密码</button>
       </section>`;
 
     const ownerSync = Supabase.isOwner
@@ -139,21 +224,7 @@ const WorkspaceAccess = {
       : '';
     const modal = this.modal('设置', `${loginPassword}<section class="workspace-setting-section"><h4>数据与访问</h4><p class="workspace-detail"><span>当前邮箱</span><strong>${email ? this.escape(email) : pendingEmail ? `待确认：${this.escape(pendingEmail)}` : '暂未绑定'}</strong></p><p class="workspace-hint">在新设备打开常用网址，进入设置后用同一邮箱登录，即可继续使用自己的工作台。</p><button class="btn-text workspace-danger" type="button" data-sign-out>退出当前设备</button></section>${ownerSync}${ownerMembers}`, '', '关闭');
 
-    modal.querySelector('[data-save-password]')?.addEventListener('click', async () => {
-      const np = modal.querySelector('#wsNewPass').value;
-      const cp = modal.querySelector('#wsConfirmPass').value;
-      if (np.length < 6) return Helpers.showToast('密码至少 6 位', 'error');
-      if (np !== cp) return Helpers.showToast('两次输入的密码不一致', 'error');
-      const btn = modal.querySelector('[data-save-password]');
-      btn.disabled = true; btn.textContent = '保存中…';
-      try {
-        await Supabase.updatePassword(np);
-        modal.querySelector('#wsNewPass').value = '';
-        modal.querySelector('#wsConfirmPass').value = '';
-        Helpers.showToast('登录密码已更新，主屏幕版现在可用「邮箱 + 密码」进入', 'success');
-      } catch (error) { Helpers.showToast(error.message, 'error'); }
-      btn.disabled = false; btn.textContent = '设置 / 修改登录密码';
-    });
+    modal.querySelector('[data-open-password]')?.addEventListener('click', () => { modal.remove(); this.openPasswordSetup(false); });
 
     modal.querySelector('[data-open-sync]')?.addEventListener('click', () => { modal.remove(); this.openSync(); });
     modal.querySelector('[data-resend-confirmation]')?.addEventListener('click', async () => {

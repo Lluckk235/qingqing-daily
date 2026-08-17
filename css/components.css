@@ -266,6 +266,8 @@ button {
 /* 低优先级：Magic Link 恢复入口（不与日常密码登录混淆） */
 .workspace-recover { justify-self:start; padding:2px 0; font-size:.82rem; color:var(--text-muted); }
 .workspace-recover:hover { color:var(--text-secondary); }
+/* 登录弹窗底部：忘记密码 / 邮箱链接登录 两个独立入口，纵向排列避免混淆 */
+.workspace-alt-links { display:flex; flex-direction:column; align-items:flex-start; gap:2px; }
 .btn-settings { display:grid; place-items:center; width:44px; height:44px; padding:0; font-size:1.45rem; line-height:1; }
 .workspace-member-list { display:grid; gap:8px; max-height:230px; overflow:auto; }
 .workspace-member { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); font-size:.85rem; }
