@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated": "2026-08-18T09:04:36.890015+08:00",
+  "generated": "2026-08-18T12:32:54.105342+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
@@ -15,7 +15,7 @@
       "sourceUrl": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
       "published": "2026-08-17T12:10:00+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What happens when a kid’s robot best friend dies? When Xander first met Moxie, she taught him how to calm down when he was anxious or mad. Six years later, she&#8230;"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -24,42 +24,23 @@
       "rank": 1
     },
     {
-      "id": "f8d37a819544",
-      "title": "特朗普愚蠢的边境墙",
+      "id": "8ed24e5f5d9a",
+      "title": "在最近发生的一系列个人数据盗窃事件后，加密硬件钱包所有者面临新的安全风险",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/report/980933/trump-border-wall-big-bend-arizona-cottonwood-tree-sit",
-      "published": "2026-08-17T16:30:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/crypto-hardware-wallet-owners-face-fresh-security-risks-after-recent-spate-of-personal-data-thefts/",
+      "published": "2026-08-17T13:00:19+00:00",
       "summary": [
-        "亚利桑那州前采矿小镇巴塔哥尼亚以南约 22 英里，沿着一条蜿蜒、未铺砌的山路，路过在开阔牧场上吃草的奶牛，"
+        "航运公司用于邮寄硬件钱包的黑客行为使加密货币所有者面临更大的现实世界攻击风险。"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "5b8dbc23aeee",
-      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-      "published": "2026-08-17T21:27:05+00:00",
-      "summary": [
-        "Relay 发现 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使用人工智能来完成工作，我很快就会分享更多内容。”"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "86e37d5593a4",
@@ -77,6 +58,25 @@
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "5b8dbc23aeee",
+      "title": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "published": "2026-08-17T21:27:05+00:00",
+      "summary": [
+        "Relay 发现 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使用人工智能来完成工作，我很快就会分享更多内容。”"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -102,19 +102,19 @@
       "rank": 5
     },
     {
-      "id": "2f6b103f5cc4",
-      "title": "派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核稳定版发布等",
+      "id": "ca7984c0f53f",
+      "title": "从「拍得到」到「拍得成」：大疆如何重塑全景影像天花板",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/113566",
-      "published": "2026-08-18T00:04:07+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/368932",
+      "published": "2026-08-18T01:15:00+00:00",
       "summary": [
-        "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡",
-        "点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线",
-        "点击了解你可能错过的文章成 ...查看全文"
+        "在天上，为全景影像打下地基",
+        "作者｜张勇毅 编辑｜郑玄 即使你不怎么关注摩托车，今年你大概也刷到过张雪机车的故事：一支成立不到两年的中国车队，第一次征战世界超级摩托车锦标赛，今年 3 月底就在葡萄牙波尔蒂芒以近 4 秒的优势拿下队史首冠，周末连下两回合；到 6 月中旬，赛季第六冠已经到手",
+        "比成绩更有戏剧性的是这支车队的来路"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -194,7 +194,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 10
     },
