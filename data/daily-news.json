@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-18",
-  "generated": "2026-08-18T20:40:03.479686+08:00",
-  "total": 11,
+  "date": "2026-08-19",
+  "generated": "2026-08-19T09:05:55.402615+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "f7758ff25a03",
-      "title": "下载：人们如何真正使用人工智能，以及 Flock 的设计选择",
+      "id": "3fe859393c8d",
+      "title": "OpenAI 在 AI 黑客入侵 Hugging Face 后制定了新的安全变更",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-      "published": "2026-08-18T12:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "published": "2026-08-18T19:28:30+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "继 7 月份有消息称其 AI 突破沙盒环境并意外入侵 Hugging Face 后，OpenAI 宣布了安全更新。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,42 +24,23 @@
       "rank": 1
     },
     {
-      "id": "776665834bfa",
-      "title": "我们仍然不知道人们如何真正使用人工智能",
+      "id": "d1b640f192f6",
+      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "published": "2026-08-18T10:06:43+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "published": "2026-08-18T13:50:30+00:00",
       "summary": [
-        "Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 ChatGPT 等产品的报告，但他们只发布数据"
+        "ChatGPT for Teens 增加了适合年龄的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，并且"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "8207d686d6cf",
-      "title": "下载：死去的机器人朋友和“审查工业联合体”",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
-      "published": "2026-08-17T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "34ce57c1aaf2",
@@ -76,30 +57,30 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 4
+      "rank": 3
     },
     {
-      "id": "8cf56dfdd250",
-      "title": "全球首款 Prof. Jimmy Choo 联名车：全新一代智己 L6 都市高定轿跑发布，预售权益价 21.99 万元起",
+      "id": "02a4a06360df",
+      "title": "宇树发布「机器超人」：原地跳高 2m；豆包上线新功能，手机可远程控制电脑；吉利汽车架构调整，李书福辞任董事会主席｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/991/316.htm",
-      "published": "2026-08-18T12:39:28+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/368929",
+      "published": "2026-08-17T23:55:18+00:00",
       "summary": [
-        "IT之家 8 月 18 日消息，全球首款 Prof. Jimmy Choo 联名车 —— 全新一代智己 L6 今晚正式发布",
-        "新车定位“都市高定轿跑”，全系预售权益价 21.99 万元起",
-        "全新一代智己 L6 各版本价格如下：Prof. Jimmy Choo 高定限定版（76kWh）：23.49 万元；Prof. Jimmy Choo 高定限定版（93kWh）：24.99 万元；Max 版：21.99 万元；Pro Max 版：23.49 万元；Ultra 版：26.99 万元"
+        "宇树科技发布「超人」机器人，并定 8 月 19 日科创板上市 8 月 17 日，宇树科技发布了一款人形机器人新品「超人」，原地跳高 2m，极限速度 12.66m/s（0.85m 腿长），超越全世界全人类原地跳高和奔跑速度纪录",
+        "宇树科技表示，全新整机刚用 3 个多月研发出来，未来几个月还有很大的完善空间",
+        "早在今年 4 月，宇树 H1 机器人就跑出 10m/s 刷新世界纪录，逼近博尔特速度极限"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "0bb4d7f08b75",
@@ -116,9 +97,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "ca7984c0f53f",
@@ -137,85 +118,49 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
-      "id": "de8e9b90f004",
-      "title": "Anthropic的年化收入飙升至$65B",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "published": "2026-08-17T23:56:26+00:00",
-      "summary": [
-        "这家模型制造商在两个月内增加了 180 亿美元的年收入。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "e1ea42548bac",
-      "title": "Higgsfield 在 B 轮融资中筹集了 4 亿美元，其估值在 8 个月内翻了两番，达到 $5.4B",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
-      "published": "2026-08-17T19:04:27+00:00",
-      "summary": [
-        "Higgsfield 由 Snap 前高管 Alex Mashrabov 创立，允许用户创建人工智能图像和视频。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "439076f091e6",
-      "title": "苹果配备摄像头的 AirPods 出现在泄露的视频中",
+      "id": "e99c21b02262",
+      "title": "小米 18 Pro 系列新机疑通过 3C 认证，支持 100W 快充、UWB 超宽带技术",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
-      "published": "2026-08-18T09:00:01+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/991/415.htm",
+      "published": "2026-08-19T01:04:04+00:00",
       "summary": [
-        "得益于 MacRumors 在 macOS Tahoe 26.7 版本 Candi 中发现的一段视频，我们可能会第一次看到苹果传闻中配备摄像头的 AirPods"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "6af730738db1",
-      "title": "Spotify 的新播放列表注释让用户和编辑可以解释他们的歌曲选择",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
-      "published": "2026-08-17T19:24:43+00:00",
-      "summary": [
-        "Spotify 推出了一项新功能，让用户有机会解释他们喜爱的音乐背后的故事和推理。编辑将使用 f"
+        "IT之家 8 月 19 日消息，一款型号为 M154FF 的小米新机昨日通过了 3C 认证，支持 100W 快充，博主 @数码闲聊站 推测为小米 18 Pro 系列",
+        "据其爆料，该机各种备案已齐全，大概率首发骁龙 2nm 旗舰芯，支持 100W 快充，N79 5G 频段，UWB 超宽带技术，屏幕 / 影像 / 性能 / 外围等硬件全方位升级",
+        "IT之家注意到，该博主上个月曾曝光某厂 2nm 大杯工程机的主要规格，预计为小米 18 Pro"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "24490df0ac4a",
+      "title": "苹果彻底改革其欧盟应用商店费用，放宽对替代应用商店的规则",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/",
+      "published": "2026-08-18T17:12:13+00:00",
+      "summary": [
+        "Apple is simplifying its EU App Store fees, replacing its per-install fee with a 5% commission for apps distributed outside the App Store and making it easier for developers to operate alternative app marketplaces."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 8
     }
   ]
 }
