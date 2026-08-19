@@ -1,9 +1,47 @@
 {
   "date": "2026-08-19",
-  "generated": "2026-08-19T16:34:26.829089+08:00",
-  "total": 9,
+  "generated": "2026-08-19T20:41:09.302238+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "c4c7cdc85d09",
+      "title": "下载：人工智能的自我完善问题以及推动热度的原因",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+      "published": "2026-08-19T12:10:00+00:00",
+      "summary": [
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "d1b640f192f6",
+      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "published": "2026-08-18T13:50:30+00:00",
+      "summary": [
+        "ChatGPT for Teens 增加了适合年龄的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，并且"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "34ce57c1aaf2",
       "title": "宇航员的角色不断变化",
@@ -19,108 +57,51 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "5e540063ca9f",
-      "title": "粘性工资标准和意外通胀的实际工资成本",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "bfi.uchicago.edu",
-      "sourceUrl": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "published": "2026-08-19T00:53:51+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 3.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "f7758ff25a03",
-      "title": "下载：人们如何真正使用人工智能，以及 Flock 的设计选择",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
-      "published": "2026-08-18T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "776665834bfa",
-      "title": "我们仍然不知道人们如何真正使用人工智能",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "published": "2026-08-18T10:06:43+00:00",
-      "summary": [
-        "Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 ChatGPT 等产品的报告，但他们只发布数据"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "a8197823a99e",
-      "title": "飞利浦上架 27E2N6900RW 显示器：5K 75Hz，支持 4× 双模",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/991/701.htm",
-      "published": "2026-08-19T08:31:57+00:00",
-      "summary": [
-        "IT之家 8 月 19 日消息，Philips（飞利浦）现已在电商平台上架 27E2N6900RW 显示器",
-        "其基于 IPS LCD 面板，支持 5120×2880 75Hz / 2560×1440 300Hz，在高分模式下拥有 218PPI 的像素密度",
-        "其获得 VESA Display HDR 400 认证，SDR 亮度 400nits、HDR 峰值亮度 450nits，静态对比度 1500:1；GtG 响应时间 5ms、MPRT 响应时间 0.3ms；色域 99.8% sRGB / 95% DCI-P3 / 92.6% Adobe RGB，支持 Display P3 模式，sRGB 下色差 ΔE＜1"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "752e288db624",
-      "title": "马斯克带火的太空算力领域，传一个 800MB 模型上天要四周",
+      "id": "9306cf03821a",
+      "title": "独家：宇树上市庆功宴上，王兴兴首次明确「大脑」的技术路线",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369013",
-      "published": "2026-08-19T04:02:55+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369051",
+      "published": "2026-08-19T12:29:50+00:00",
       "summary": [
-        "「所有劝我不要干太空算力的朋友，现在全在干太空算力",
-        "」 太空字节联合创始人秦贵军这样描述过去一年",
-        "这家公司 2024 年底成立，做的是太空数据中心；他本人参与过北斗导航重大专项，在卫星行业干了十几年"
+        "宇树的下一张牌，是搭起一套系统，让全球 AI 的持续进步，转化为机器人不断加快的进化速度",
+        "作者&nbsp;|&nbsp;Li Yuan 8 月 19 日，宇树科技正式登陆科创板",
+        "上市首日，公司股价一度较发行价涨超 6 倍，总市值突破 4400 亿元"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
+    },
+    {
+      "id": "3f6061b29bd3",
+      "title": "iOS 27 测试版近期动向，还有 Apple 产品新消息",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/113618",
+      "published": "2026-08-19T09:39:05+00:00",
+      "summary": [
+        "7月20日至今，Apple陆续发布了iOS27的DeveloperBeta4、5、6三个测试版本",
+        "随着9月秋季发布会的渐进，iOS27距离正式版的发布越来越近",
+        "今天，我们就来一起看看这三个Beta版本 ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "ca7984c0f53f",
@@ -141,7 +122,7 @@
       "tags": [],
       "score": 5.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "24490df0ac4a",
@@ -160,26 +141,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "4e8aef4ab536",
-      "title": "据报道，苹果新的 macOS 更新包含带有摄像头的 AirPods 的视频",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
-      "published": "2026-08-18T13:28:51+00:00",
-      "summary": [
-        "macOS Tahoe 候选版本中的一段视频显示，一名用户戴着 AirPods，正在看书，并与 Siri 交谈。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     }
   ]
 }
