@@ -1,7 +1,7 @@
 {
   "date": "2026-08-19",
-  "generated": "2026-08-19T12:35:00.119368+08:00",
-  "total": 7,
+  "generated": "2026-08-19T16:34:26.829089+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "3fe859393c8d",
-      "title": "OpenAI 在 AI 黑客入侵 Hugging Face 后制定了新的安全变更",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "published": "2026-08-18T19:28:30+00:00",
+      "id": "5e540063ca9f",
+      "title": "粘性工资标准和意外通胀的实际工资成本",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "bfi.uchicago.edu",
+      "sourceUrl": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "published": "2026-08-19T00:53:51+00:00",
       "summary": [
-        "继 7 月份有消息称其 AI 突破沙盒环境并意外入侵 Hugging Face 后，OpenAI 宣布了安全更新。"
+        "评论"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -62,6 +62,46 @@
       "rank": 3
     },
     {
+      "id": "776665834bfa",
+      "title": "我们仍然不知道人们如何真正使用人工智能",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "published": "2026-08-18T10:06:43+00:00",
+      "summary": [
+        "Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 ChatGPT 等产品的报告，但他们只发布数据"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "a8197823a99e",
+      "title": "飞利浦上架 27E2N6900RW 显示器：5K 75Hz，支持 4× 双模",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/991/701.htm",
+      "published": "2026-08-19T08:31:57+00:00",
+      "summary": [
+        "IT之家 8 月 19 日消息，Philips（飞利浦）现已在电商平台上架 27E2N6900RW 显示器",
+        "其基于 IPS LCD 面板，支持 5120×2880 75Hz / 2560×1440 300Hz，在高分模式下拥有 218PPI 的像素密度",
+        "其获得 VESA Display HDR 400 认证，SDR 亮度 400nits、HDR 峰值亮度 450nits，静态对比度 1500:1；GtG 响应时间 5ms、MPRT 响应时间 0.3ms；色域 99.8% sRGB / 95% DCI-P3 / 92.6% Adobe RGB，支持 Display P3 模式，sRGB 下色差 ΔE＜1"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
       "id": "752e288db624",
       "title": "马斯克带火的太空算力领域，传一个 800MB 模型上天要四周",
       "category": "ai-tech",
@@ -80,7 +120,7 @@
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "ca7984c0f53f",
@@ -101,7 +141,7 @@
       "tags": [],
       "score": 5.5,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 7
     },
     {
       "id": "24490df0ac4a",
@@ -118,28 +158,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 8
     },
     {
-      "id": "f423277986e8",
-      "title": "苹果通过新的应用商店规则压制欧盟牛肉",
+      "id": "4e8aef4ab536",
+      "title": "据报道，苹果新的 macOS 更新包含带有摄像头的 AirPods 的视频",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
-      "published": "2026-08-18T16:48:26+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
+      "published": "2026-08-18T13:28:51+00:00",
       "summary": [
-        "苹果公司再次彻底修改欧盟的应用程序商店规则，该公司表示，这将解决其“与欧盟委员会就有关应用程序问题的分歧”。"
+        "macOS Tahoe 候选版本中的一段视频显示，一名用户戴着 AirPods，正在看书，并与 Siri 交谈。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     }
   ]
 }
