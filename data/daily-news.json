@@ -1,9 +1,28 @@
 {
   "date": "2026-08-20",
-  "generated": "2026-08-20T12:34:21.507795+08:00",
-  "total": 7,
+  "generated": "2026-08-20T16:35:06.107931+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "1b79ff28b087",
+      "title": "Windows 为每个人带来了罗夏墨迹测验",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "devblogs.microsoft.com",
+      "sourceUrl": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+      "published": "2026-08-20T06:16:40+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "6aba2536a5ec",
       "title": "Cognition 首席执行官否认 SpaceX 试图收购这家初创公司的报道",
@@ -21,26 +40,26 @@
       "tags": [],
       "score": 6.5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 2
     },
     {
-      "id": "8656b8f78d55",
-      "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
+      "id": "c4c7cdc85d09",
+      "title": "下载：人工智能的自我完善问题以及推动热度的原因",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "published": "2026-08-19T19:00:00+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+      "published": "2026-08-19T12:10:00+00:00",
       "summary": [
-        "新学习功能的推出标志着谷歌将 Gemini 打造成学生在学习和学习时可以求助的人工智能助手的最新努力。"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "620312f7ed6c",
@@ -59,30 +78,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 4
     },
     {
-      "id": "b582bd2a8133",
-      "title": "谷歌 Pixel 11 系列手机上线自定义振动功能，可给联系人设置专属振动",
+      "id": "bedf7d36ed34",
+      "title": "《空之轨迹 the 2nd》体验版上架 Steam，游戏 9 月 17 日发售",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/992/069.htm",
-      "published": "2026-08-20T04:33:43+00:00",
+      "sourceUrl": "https://www.ithome.com/0/992/001.htm",
+      "published": "2026-08-20T03:12:36+00:00",
       "summary": [
-        "IT之家 8 月 20 日消息，谷歌悄悄在 Pixel 11 系列手机上推出了自定义振动模式功能，让用户可以更加自由地控制手机在来电和通知时的振动方式",
-        "如果想自定义 Pixel 11 来电铃声的振动方式，可以进入“设置 &gt; 声音和振动 &gt; 电话铃声 &gt; 振动”",
-        "谷歌会根据用户当前选择的铃声，自动推荐一种振动模式，因此用户无需自己反复尝试哪种组合更加合适"
+        "IT之家 8 月 20 日消息，Falcom 旗下经典轨迹系列重制续作《空之轨迹 the 2nd》免费体验版现已登陆 Steam 平台，游戏正式版定于 2026 年 9 月 17 日正式发售，国区支持简体中文界面、字幕与完整音频",
+        "IT之家附游戏商品页（https://store.steampowered.com/app/4225980/_the_2nd/?l=schinese&amp;cc=cn）",
+        "“两人终有重逢的一天”"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "7aa8fd0ea313",
@@ -99,9 +118,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "18b18b385129",
@@ -118,9 +137,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "58f60d5c60a3",
@@ -137,9 +156,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     }
   ]
 }
