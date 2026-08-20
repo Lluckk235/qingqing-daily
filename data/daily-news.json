@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-19",
-  "generated": "2026-08-19T20:41:09.302238+08:00",
+  "date": "2026-08-20",
+  "generated": "2026-08-20T09:04:54.173236+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "c4c7cdc85d09",
-      "title": "下载：人工智能的自我完善问题以及推动热度的原因",
+      "id": "6aba2536a5ec",
+      "title": "Cognition 首席执行官否认 SpaceX 试图收购这家初创公司的报道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
-      "published": "2026-08-19T12:10:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "published": "2026-08-19T21:51:23+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "据报道，SpaceX 正在洽谈收购人工智能编码初创公司 Cognition。 SpaceX 已经收购了 Cursor，以追赶 OpenAI 等竞争对手。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,63 +24,44 @@
       "rank": 1
     },
     {
-      "id": "d1b640f192f6",
-      "title": "OpenAI 为青少年推出了更安全的 ChatGPT——在青少年开始使用几年后",
+      "id": "8656b8f78d55",
+      "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-      "published": "2026-08-18T13:50:30+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "published": "2026-08-19T19:00:00+00:00",
       "summary": [
-        "ChatGPT for Teens 增加了适合年龄的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，并且"
+        "新学习功能的推出标志着谷歌将 Gemini 打造成学生在学习和学习时可以求助的人工智能助手的最新努力。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "34ce57c1aaf2",
-      "title": "宇航员的角色不断变化",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
-      "published": "2026-08-18T09:00:00+00:00",
-      "summary": [
-        "今年早些时候，当美国宇航局阿耳忒弥斯二号上的四名宇航员绕月飞行时，他们创造了人类有史以来最远飞行距离的新纪录。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "9306cf03821a",
-      "title": "独家：宇树上市庆功宴上，王兴兴首次明确「大脑」的技术路线",
+      "id": "620312f7ed6c",
+      "title": "中国首次实现火箭陆地回收；宇树上市，市值最高超 4000 亿；蔡明同款机器人亮相，9.9 万元｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369051",
-      "published": "2026-08-19T12:29:50+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369056",
+      "published": "2026-08-20T00:39:28+00:00",
       "summary": [
-        "宇树的下一张牌，是搭起一套系统，让全球 AI 的持续进步，转化为机器人不断加快的进化速度",
-        "作者&nbsp;|&nbsp;Li Yuan 8 月 19 日，宇树科技正式登陆科创板",
-        "上市首日，公司股价一度较发行价涨超 6 倍，总市值突破 4400 亿元"
+        "&nbsp; 朱雀三号遥二发射成功，我国首次实现火箭陆地回收 据央视新闻报道，8 月 19 日，朱雀三号遥二运载火箭在东风商业航天创新试验区发射升空，火箭一子级按预定程序成功着陆于甘肃省民勤县朱雀三号着陆场坪，飞行任务取得圆满成功",
+        "这是我国在重复使用火箭关键技术上取得的又一重大突破，朱雀三号成为我国首款成功入轨并实现陆地回收的运载火箭",
+        "我们注意到，本次任务是继 7 月 10 日长征十号乙运载火箭一子级海上网系成功回收后，我国首次成功实施重复使用运载火箭一子级着陆腿方式陆地可控回收，标志着我国重复使用火箭技术取得重大突破"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "3f6061b29bd3",
@@ -99,47 +80,64 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "7aa8fd0ea313",
+      "title": "Rillet 以 10 亿美元的估值筹集了 1 亿美元的 C 轮融资——在从隐秘状态中脱颖而出 2 年后",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
+      "published": "2026-08-19T20:12:33+00:00",
+      "summary": [
+        "人工智能原生账户初创公司 Rillet 表示，在过去三个月内 ARR 翻了一番，成为由 Iconiq 领导的独角兽。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
       "rank": 5
     },
     {
-      "id": "ca7984c0f53f",
-      "title": "从「拍得到」到「拍得成」：大疆如何重塑全景影像天花板",
+      "id": "18b18b385129",
+      "title": "观看 Valve 在自己泄露的视频中设置 Steam 框架",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/368932",
-      "published": "2026-08-18T01:15:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos",
+      "published": "2026-08-19T18:16:27+00:00",
       "summary": [
-        "在天上，为全景影像打下地基",
-        "作者｜张勇毅 编辑｜郑玄 即使你不怎么关注摩托车，今年你大概也刷到过张雪机车的故事：一支成立不到两年的中国车队，第一次征战世界超级摩托车锦标赛，今年 3 月底就在葡萄牙波尔蒂芒以近 4 秒的优势拿下队史首冠，周末连下两回合；到 6 月中旬，赛季第六冠已经到手",
-        "比成绩更有戏剧性的是这支车队的来路"
+        "Valve 刚刚泄露了几段新视频，展示了 Steam Frame 的拆箱、安装过程和各种配件。这些视频显然出现在"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "58f60d5c60a3",
+      "title": "GTA VI 在游戏首映前不断泄露",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
+      "published": "2026-08-19T17:03:11+00:00",
+      "summary": [
+        "疑似《侠盗猎车手 6》的片段已在互联网上流传，可能会在 Rockstar Games 首次亮相之前破坏游戏的某些方面。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 5.5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "24490df0ac4a",
-      "title": "苹果彻底改革其欧盟应用商店费用，放宽对替代应用商店的规则",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores/",
-      "published": "2026-08-18T17:12:13+00:00",
-      "summary": [
-        "苹果正在简化其欧盟应用程序商店费用，对在应用程序商店之外分发的应用程序收取 5% 的佣金，取代每次安装费用，并使 i"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
       "isNativeCN": false,
       "rank": 7
     }
