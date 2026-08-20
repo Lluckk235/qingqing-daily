@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated": "2026-08-20T09:04:54.173236+08:00",
+  "generated": "2026-08-20T12:34:21.507795+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -64,23 +64,23 @@
       "rank": 3
     },
     {
-      "id": "3f6061b29bd3",
-      "title": "iOS 27 测试版近期动向，还有 Apple 产品新消息",
+      "id": "b582bd2a8133",
+      "title": "谷歌 Pixel 11 系列手机上线自定义振动功能，可给联系人设置专属振动",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/113618",
-      "published": "2026-08-19T09:39:05+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/992/069.htm",
+      "published": "2026-08-20T04:33:43+00:00",
       "summary": [
-        "7月20日至今，Apple陆续发布了iOS27的DeveloperBeta4、5、6三个测试版本",
-        "随着9月秋季发布会的渐进，iOS27距离正式版的发布越来越近",
-        "今天，我们就来一起看看这三个Beta版本 ...查看全文"
+        "IT之家 8 月 20 日消息，谷歌悄悄在 Pixel 11 系列手机上推出了自定义振动模式功能，让用户可以更加自由地控制手机在来电和通知时的振动方式",
+        "如果想自定义 Pixel 11 来电铃声的振动方式，可以进入“设置 &gt; 声音和振动 &gt; 电话铃声 &gt; 振动”",
+        "谷歌会根据用户当前选择的铃声，自动推荐一种振动模式，因此用户无需自己反复尝试哪种组合更加合适"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
@@ -99,7 +99,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 5
     },
