@@ -10,6 +10,7 @@ const Checkin = {
   loaded: false,
 
   async init() {
+    await this.restoreFromUrl();
     await this.load();
     this.render();
     this.bindEvents();
@@ -33,6 +34,29 @@ const Checkin = {
     const unique = [...new Set(checkins)].sort();
     localStorage.setItem(this.cacheKey(), JSON.stringify(unique));
     localStorage.setItem(STORAGE_KEY, JSON.stringify(unique));
+  },
+
+  async restoreFromUrl() {
+    const params = new URLSearchParams(location.search);
+    const raw = params.get('restoreCheckins');
+    if (!raw || !Supabase.isAuthenticated) return;
+    const dates = [...new Set(raw.split(',').map(x => x.trim()).filter(x => /^\d{4}-\d{2}-\d{2}$/.test(x)))].sort();
+    if (dates.length === 0) return;
+
+    const merged = [...new Set([...this.readCache(), ...dates])].sort();
+    this.checkins = merged;
+    this.writeCache(merged);
+
+    await Promise.all(dates.map(date => (
+      Supabase.upsert('checkins', { user_id: Supabase.userId, date }, 'user_id,date').catch(error => {
+        console.warn('Checkin: 恢复云端打卡失败', date, error.message);
+      })
+    )));
+
+    params.delete('restoreCheckins');
+    const next = `${location.pathname}${params.toString() ? `?${params}` : ''}${location.hash}`;
+    history.replaceState({}, document.title, next);
+    Helpers.showToast(`已恢复 ${dates.length} 条打卡记录`, 'success');
   },
 
   async load() {
