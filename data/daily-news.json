@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "generated": "2026-08-21T12:35:58.814897+08:00",
+  "generated": "2026-08-21T16:37:57.392019+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
@@ -19,47 +19,28 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "072ab33f0182",
-      "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象",
+      "id": "5e86b723ff64",
+      "title": "关于人工智能意识的争论是一个陷阱",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "published": "2026-08-20T17:18:58+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "published": "2026-08-20T15:42:39+00:00",
       "summary": [
-        "ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容。"
+        "“失控”的人工智能、“流氓”代理和“自主”行动者——当前的言论会让你相信人工智能代理不仅是清醒的、有意识的，而且是"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "c70a9fce9703",
-      "title": "FCC 正式认定千兆位速度对您来说太好了",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal",
-      "published": "2026-08-20T17:38:30+00:00",
-      "summary": [
-        "又一天，又一件令人悲伤的事情要报告，关于我们受损的联邦通信委员会。董事长布伦丹·卡尔 (Brendan Carr) 20 岁了"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "4ad78b2d3b31",
@@ -73,6 +54,25 @@
       "published": "2026-08-20T12:10:00+00:00",
       "summary": [
         "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "c70a9fce9703",
+      "title": "FCC 正式认定千兆位速度对您来说太好了",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal",
+      "published": "2026-08-20T17:38:30+00:00",
+      "summary": [
+        "又一天，又一件令人悲伤的事情要报告，关于我们受损的联邦通信委员会。董事长布伦丹·卡尔 (Brendan Carr) 20 岁了"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -102,25 +102,46 @@
       "rank": 5
     },
     {
-      "id": "467aeb6d257e",
-      "title": "比亚迪方程豹方程 S、方程 S GT 实车全球首秀，预订价 23～28 万元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/992/591.htm",
-      "published": "2026-08-21T04:35:29+00:00",
+      "id": "62fd3df19636",
+      "title": "前 TikTok 产品经理创业，AI 视频共创平台 Wapoo 获千万美元天使融资",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/369162",
+      "published": "2026-08-21T06:15:33+00:00",
       "summary": [
-        "IT之家 8 月 21 日消息，在今日举行的 2026 成都车展上，比亚迪方程豹全新轿跑车型方程 S 和方程 S GT 两款新车完成实车全球首秀",
-        "昨日两款新车开启全国预订，预订价格区间 23～28 万元",
-        "在今年 4 月举行的 2026 北京国际车展上，比亚迪方程豹宣布其首发的轿车系列产品线定名“方程 S”"
+        "&nbsp; 头图来源：Wapoo 官网 极客公园获悉，面向 Gen Alpha 的视频共创社交平台 Wapoo 已完成近千万美元天使轮融资",
+        "本轮融资由某互联网集团旗下战略投资方投资，其在全球化产品运营、年轻用户生态及新兴市场拓展方面已具备一定积累，探奇资本担任公司独家融资顾问",
+        "目前，Wapoo 团队约 10 人，并已开始筹备下一轮融资"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "203830396519",
+      "title": "小米 Poco M8x 5G 手机海外发布：骁龙 4 Gen 5 芯片，6.9 寸 720P LCD 屏",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/992/719.htm",
+      "published": "2026-08-21T08:37:19+00:00",
+      "summary": [
+        "IT之家 8 月 21 日消息，小米 Poco 现已在印度市场推出 M8x 5G 手机",
+        "新品定位中低端，配备 7900mAh 电池、120Hz 高刷屏幕，起售价 18,999 卢比（IT之家注：现汇率约合 1,336 元人民币）",
+        "据介绍，这款手机配备一块 6.9 英寸的 IPS LCD 屏幕，分辨率为 HD+，峰值亮度可达 825nits，表面覆盖康宁大猩猩玻璃 7i"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "cdac95d6e803",
@@ -137,9 +158,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "id": "546c18a8a2cd",
+      "title": "通过市场模型释放隐藏的收入流",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "published": "2026-08-20T09:47:22+00:00",
+      "summary": [
+        "每天，航空公司通过数百个航班运送数万名乘客。 Often these are not straightforward point-to-point routes, wit"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 9
     },
     {
       "id": "18e1f1c8fc43",
@@ -156,13 +196,13 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     },
     {
       "id": "084fe06ad851",
-      "title": "Framework 表示，它正在解决 BIOS 更新导致部分旧笔记本电脑变砖的问题",
+      "title": "Framework 表示正在解决 BIOS 更新问题，该更新导致部分旧笔记本电脑变砖",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -175,45 +215,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "a73f5aa32c52",
-      "title": "Meta 为美国用户带来了 Pocket，一款可让您进行振动编码和共享游戏的应用程序",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "published": "2026-08-20T16:07:26+00:00",
-      "summary": [
-        "Meta 在悄悄测试后，将其实验性的 AI 应用程序 Pocket 带给美国各地的用户，该应用程序用于创建和共享互动游戏"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "8fa0bc3dc6ef",
-      "title": "Genki 的新型可定制控制器具有大屏幕和可调节按钮",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen",
-      "published": "2026-08-21T02:00:00+00:00",
-      "summary": [
-        "两年前与八位堂在游戏手柄上进行合作后，Genki 今天推出了该公司从头开始设计的首款控制器。与一个"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 11
     }
