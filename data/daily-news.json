@@ -1,9 +1,47 @@
 {
   "date": "2026-08-21",
-  "generated": "2026-08-21T09:08:26.888710+08:00",
+  "generated": "2026-08-21T12:35:58.814897+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "715aa7b8d8cb",
+      "title": "AI 数据初创公司 Micro1 在 AI 培训热潮中毛运行率达到 5 亿美元",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "published": "2026-08-21T00:13:44+00:00",
+      "summary": [
+        "对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "072ab33f0182",
+      "title": "研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "published": "2026-08-20T17:18:58+00:00",
+      "summary": [
+        "ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "c70a9fce9703",
       "title": "FCC 正式认定千兆位速度对您来说太好了",
@@ -21,7 +59,7 @@
       "tags": [],
       "score": 5.5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "4ad78b2d3b31",
@@ -39,44 +77,6 @@
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "715aa7b8d8cb",
-      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-      "published": "2026-08-21T00:13:44+00:00",
-      "summary": [
-        "对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "5e86b723ff64",
-      "title": "关于人工智能意识的争论是一个陷阱",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "published": "2026-08-20T15:42:39+00:00",
-      "summary": [
-        "“失控”的人工智能、“流氓”代理和“自主”行动者——当前的言论会让你相信人工智能代理不仅是清醒的、有意识的，而且是"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -102,48 +102,29 @@
       "rank": 5
     },
     {
-      "id": "03fdb528691a",
-      "title": "派早报：华为发布 Pura X View、享界 G9 等多款新品",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/113666",
-      "published": "2026-08-20T23:00:00+00:00",
+      "id": "467aeb6d257e",
+      "title": "比亚迪方程豹方程 S、方程 S GT 实车全球首秀，预订价 23～28 万元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/992/591.htm",
+      "published": "2026-08-21T04:35:29+00:00",
       "summary": [
-        "影石推出竖拍云台相机 Luna Pro，森海塞尔发布 MOMENTUM True Wireless 5 真无线耳机等"
+        "IT之家 8 月 21 日消息，在今日举行的 2026 成都车展上，比亚迪方程豹全新轿跑车型方程 S 和方程 S GT 两款新车完成实车全球首秀",
+        "昨日两款新车开启全国预订，预订价格区间 23～28 万元",
+        "在今年 4 月举行的 2026 北京国际车展上，比亚迪方程豹宣布其首发的轿车系列产品线定名“方程 S”"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "4373017c88c4",
-      "title": "谷歌开源端侧模型家族 Gemma 总下载量破 10 亿次，派生超 10 万变体",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/992/441.htm",
-      "published": "2026-08-21T01:06:05+00:00",
-      "summary": [
-        "IT之家 8 月 21 日消息，Google（谷歌）当地时间 20 日宣布，其开源端侧模型家族 Gemma 的总下载量已突破 10 亿次；开发者在过去两年间发布了超过 10 个 Gemma 模型变体，构成了一个被谷歌称为 \"Gemmaverse\" 的创新生态系统",
-        "谷歌列举了多个 Gemma 家族应用场景：从太空本地图像分析、医疗报告标准数字化、癌症创新治疗方案再到动物语言识别，Gemma 家族模型正实实在在地提升人类发展质量",
-        "谷歌将在 GitHub 上推出 Awesome Gemma 代码库，这一 Gemmaverse 官方精选目录收录了最好的社区项目、微调、教程、开发者工具"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
       "id": "cdac95d6e803",
-      "title": "从筹集了 10 亿美元的创始人那里了解风险投资人真正想要什么",
+      "title": "从筹集了 10 亿美元的创始人那里了解风险投资真正想要什么",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -158,7 +139,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "18e1f1c8fc43",
@@ -177,30 +158,11 @@
       "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "338cbe449a78",
-      "title": "澳大利亚称 Roblox 尚未解决儿童掠夺者问题",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety",
-      "published": "2026-08-20T17:42:34+00:00",
-      "summary": [
-        "Roblox is promising more changes to its child safety features following testing from Australia's online safety regulator, eSafety. eSafety has been looking into concerns that the company hasn't been in compliance with Australia's Online Safety Act, including \"allegedly failing to have sufficient measures in place to prevent contact between adults and children under 16.\" While [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "084fe06ad851",
-      "title": "Framework 表示正在解决 BIOS 更新问题，该更新导致部分旧笔记本电脑变砖",
+      "title": "Framework 表示，它正在解决 BIOS 更新导致部分旧笔记本电脑变砖的问题",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -214,6 +176,44 @@
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "a73f5aa32c52",
+      "title": "Meta 为美国用户带来了 Pocket，一款可让您进行振动编码和共享游戏的应用程序",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "published": "2026-08-20T16:07:26+00:00",
+      "summary": [
+        "Meta 在悄悄测试后，将其实验性的 AI 应用程序 Pocket 带给美国各地的用户，该应用程序用于创建和共享互动游戏"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "8fa0bc3dc6ef",
+      "title": "Genki 的新型可定制控制器具有大屏幕和可调节按钮",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen",
+      "published": "2026-08-21T02:00:00+00:00",
+      "summary": [
+        "两年前与八位堂在游戏手柄上进行合作后，Genki 今天推出了该公司从头开始设计的首款控制器。与一个"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 11
     }
