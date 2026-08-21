@@ -15,19 +15,44 @@ const Checkin = {
     this.bindEvents();
   },
 
+  cacheKey() {
+    return Supabase.userId ? `${STORAGE_KEY}_${Supabase.userId}` : STORAGE_KEY;
+  },
+
+  readCache() {
+    const read = key => {
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || 'null');
+        return Array.isArray(value) ? value : null;
+      } catch (_) { return null; }
+    };
+    return read(this.cacheKey()) || read(STORAGE_KEY) || [];
+  },
+
+  writeCache(checkins) {
+    const unique = [...new Set(checkins)].sort();
+    localStorage.setItem(this.cacheKey(), JSON.stringify(unique));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(unique));
+  },
+
   async load() {
     if (!Supabase.isAuthenticated) { this.checkins = []; this.loaded = true; return; }
     // 先读本地缓存，立即渲染
-    const cached = Storage.get(STORAGE_KEY);
-    this.checkins = cached || [];
-    this.loaded = !!cached;
+    const cached = this.readCache();
+    this.checkins = cached;
+    this.loaded = true;
 
     // 异步从 Supabase 拉取最新数据
     try {
       const data = await Supabase.get('checkins?order=date.asc');
-      this.checkins = (data || []).map(r => r.date);
+      const remote = (data || []).map(r => r.date).filter(Boolean);
+      if (remote.length === 0 && cached.length > 0) {
+        console.warn('Checkin: 云端打卡为空，保留本地缓存，避免误清空连续打卡');
+        return;
+      }
+      this.checkins = [...new Set([...cached, ...remote])].sort();
       this.loaded = true;
-      Storage.set(STORAGE_KEY, this.checkins); // 更新缓存
+      this.writeCache(this.checkins); // 更新缓存
     } catch (e) {
       console.warn('Checkin: Supabase 读取失败，使用本地缓存', e.message);
     }
@@ -84,7 +109,7 @@ const Checkin = {
 
     const record = { date: today, user_id: Supabase.userId };
     this.checkins.push(today);
-    Storage.set(STORAGE_KEY, this.checkins);
+    this.writeCache(this.checkins);
     this.render();
 
     try {
