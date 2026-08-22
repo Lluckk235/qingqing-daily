@@ -1,28 +1,9 @@
 {
   "date": "2026-08-22",
-  "generated": "2026-08-22T12:30:31.315426+08:00",
-  "total": 9,
+  "generated": "2026-08-22T16:26:08.321706+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "4af5149f16f9",
-      "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "published": "2026-08-21T19:43:39+00:00",
-      "summary": [
-        "Nvidia 研究表明，人工智能代理可以通过微调表现良好，并且不会陷入困境，即使人工智能模型在实际应用中并不是那么出色。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
     {
       "id": "66806890d278",
       "title": "当人工智能设计药物时，谁会获得功劳？",
@@ -35,6 +16,25 @@
       "published": "2026-08-21T09:00:00+00:00",
       "summary": [
         "当生物技术公司 Insilico Medicine 使用其计算机模型提出一种有前途的治疗肺纤维化的药物时，它热情地声称"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "4af5149f16f9",
+      "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "published": "2026-08-21T19:43:39+00:00",
+      "summary": [
+        "Nvidia 研究表明，人工智能代理可以通过微调表现良好，并且不会陷入困境，即使人工智能模型在实际应用中并不是那么出色。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -62,17 +62,17 @@
       "rank": 3
     },
     {
-      "id": "1671dddbb6a3",
-      "title": "Pixel 11 顺应数码相机潮流",
+      "id": "ff15efa603eb",
+      "title": "随着贸易谈判破裂，加拿大将“以美元对美元”征收关税",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
-      "published": "2026-08-21T16:27:05+00:00",
+      "source": "Hacker News",
+      "sourceDomain": "bbc.com",
+      "sourceUrl": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "published": "2026-08-22T06:16:57+00:00",
       "summary": [
-        "最近，我回顾了 2014 年用智能手机拍摄的一张照片，它的美丽让我震惊。细节很柔和，阴影很明显"
+        "评论"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -97,7 +97,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
@@ -118,9 +118,30 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "ca85fa8cc10f",
+      "title": "V社 Steam Frame 头显现已支持 89 款游戏，发售日仍未公布",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/993/027.htm",
+      "published": "2026-08-22T08:18:43+00:00",
+      "summary": [
+        "IT之家 8 月 22 日消息，V社现已公布 Steam Frame 头显的兼容游戏列表",
+        "截至目前，Steam 商店的“非常适合 Frame”页面已收录 89 款游戏，涵盖《传送门 2》《实验室》《进入黑暗》等作品",
+        "尽管兼容游戏数量仍在不断增加，但V社还没有公布 Steam Frame 的具体发售日期"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "61a1dbea2b2b",
@@ -137,9 +158,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "35da957c40ae",
@@ -156,28 +177,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "6ac586b3514a",
-      "title": "据报道，苹果将裁掉 Siri、Vision Pro 团队数百个工作岗位",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "published": "2026-08-21T20:58:07+00:00",
-      "summary": [
-        "苹果公司承认，随着公司将重点从某些举措上转移，一些角色正在受到影响。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "1671dddbb6a3",
+      "title": "Pixel 11 顺应数码相机潮流",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
+      "published": "2026-08-21T16:27:05+00:00",
+      "summary": [
+        "最近，我回顾了 2014 年用智能手机拍摄的一张照片，它的美丽让我震惊。细节很柔和，阴影很明显"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
