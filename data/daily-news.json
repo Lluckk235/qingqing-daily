@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated": "2026-08-22T09:04:40.821542+08:00",
+  "generated": "2026-08-22T12:30:31.315426+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -76,7 +76,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
@@ -102,27 +102,6 @@
       "rank": 5
     },
     {
-      "id": "e8f724e3080f",
-      "title": "小米官方“龙虾”Xiaomi miclaw 将于 9 月 21 日结束封测",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/992/911.htm",
-      "published": "2026-08-22T01:01:58+00:00",
-      "summary": [
-        "IT之家 8 月 22 日消息，8 月 21 日，小米官方账号“Beta 版小助手”发布《Xiaomi miclaw 封测结束公告》",
-        "公告显示，今年 3 月，小米开启了官方“龙虾” Xiaomi miclaw 封测，获得了众多用户的关注",
-        "经过近半年的封闭测试，团队获得了关于 AI 类产品很多有益的意见和建议"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
       "id": "62fd3df19636",
       "title": "前 TikTok 产品经理创业，AI 视频共创平台 Wapoo 获千万美元天使融资",
       "category": "product",
@@ -141,7 +120,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "61a1dbea2b2b",
@@ -160,7 +139,7 @@
       "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "35da957c40ae",
@@ -177,7 +156,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "6ac586b3514a",
+      "title": "据报道，苹果将裁掉 Siri、Vision Pro 团队数百个工作岗位",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+      "published": "2026-08-21T20:58:07+00:00",
+      "summary": [
+        "苹果公司承认，随着公司将重点从某些举措上转移，一些角色正在受到影响。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 9
     }
