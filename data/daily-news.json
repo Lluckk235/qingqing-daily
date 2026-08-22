@@ -1,27 +1,46 @@
 {
   "date": "2026-08-22",
-  "generated": "2026-08-22T16:26:08.321706+08:00",
-  "total": 10,
+  "generated": "2026-08-22T20:33:39.466681+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "66806890d278",
-      "title": "当人工智能设计药物时，谁会获得功劳？",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "7fdd08983a5e",
+      "title": "下载：来自太空镜子的威胁和人工智能药物的功劳",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-      "published": "2026-08-21T09:00:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+      "published": "2026-08-21T12:10:00+00:00",
       "summary": [
-        "当生物技术公司 Insilico Medicine 使用其计算机模型提出一种有前途的治疗肺纤维化的药物时，它热情地声称"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 1
+    },
+    {
+      "id": "1671dddbb6a3",
+      "title": "Pixel 11 顺应数码相机潮流",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
+      "published": "2026-08-21T16:27:05+00:00",
+      "summary": [
+        "最近，我回顾了 2014 年用智能手机拍摄的一张照片，它的美丽让我震惊。细节很柔和，阴影很明显"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 2
     },
     {
       "id": "4af5149f16f9",
@@ -40,64 +59,45 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "7fdd08983a5e",
-      "title": "下载：来自太空镜子的威胁和人工智能药物的功劳",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
-      "published": "2026-08-21T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "ff15efa603eb",
-      "title": "随着贸易谈判破裂，加拿大将“以美元对美元”征收关税",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "bbc.com",
-      "sourceUrl": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "published": "2026-08-22T06:16:57+00:00",
+      "id": "66806890d278",
+      "title": "当人工智能设计药物时，谁会获得功劳？",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "published": "2026-08-21T09:00:00+00:00",
       "summary": [
-        "评论"
+        "当生物技术公司 Insilico Medicine 使用其计算机模型提出一种有前途的治疗肺纤维化的药物时，它热情地声称"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "35edaa11b2b8",
-      "title": "微信灰测「按住转文字」功能被吐槽；DeepSeek 上线多模态功能；应急机械拉手难操作，多家车企召回 427 万辆车",
+      "id": "8aaab56ea10f",
+      "title": "越会用 AI 的人，学习能力退化得越快",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369206",
-      "published": "2026-08-22T00:23:28+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369212",
+      "published": "2026-08-22T10:07:50+00:00",
       "summary": [
-        "DeepSeek V4-Flash-Vision-Exp 上线：开启多模态 API 服务，Agent 能力接近 Opus-4.8 8 月 21 日消息，深度求索官方宣布全新的多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp 上线 DeepSeek API 平台",
-        "该模型支持在文本之外输入图片，可以让模型描述图片、识别截图中的文字、分析图表等",
-        "支持的图片格式包括 JPEG、PNG、GIF、WebP"
+        "」 作者｜张勇毅 编辑｜靖宇 「AI 用多了，人会不会逐渐变笨",
+        "」 这应该是过去三年被讨论最多的一个迷思之一，从 ChatGPT 走红那天就有",
+        "吵了三年多，两边都拿不出像样的证据： 担心的人只有体感，不担心的人只有立场"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
@@ -123,19 +123,17 @@
       "rank": 6
     },
     {
-      "id": "ca85fa8cc10f",
-      "title": "V社 Steam Frame 头显现已支持 89 款游戏，发售日仍未公布",
+      "id": "328f29dc5ebf",
+      "title": "Eon用LIF“上传”果蝇脑，中国团队直接上精细神经元和跨身体平台",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/993/027.htm",
-      "published": "2026-08-22T08:18:43+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/08/477090.html",
+      "published": "2026-08-22T12:21:07+00:00",
       "summary": [
-        "IT之家 8 月 22 日消息，V社现已公布 Steam Frame 头显的兼容游戏列表",
-        "截至目前，Steam 商店的“非常适合 Frame”页面已收录 89 款游戏，涵盖《传送门 2》《实验室》《进入黑暗》等作品",
-        "尽管兼容游戏数量仍在不断增加，但V社还没有公布 Steam Frame 的具体发售日期"
+        "将真实场景重建为持续更新、可计算的4D数字世界"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -180,25 +178,6 @@
       "score": 6,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "1671dddbb6a3",
-      "title": "Pixel 11 顺应数码相机潮流",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
-      "published": "2026-08-21T16:27:05+00:00",
-      "summary": [
-        "最近，我回顾了 2014 年用智能手机拍摄的一张照片，它的美丽让我震惊。细节很柔和，阴影很明显"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
