@@ -1,12 +1,12 @@
 {
   "date": "2026-08-23",
-  "generated": "2026-08-23T09:10:26.973410+08:00",
+  "generated": "2026-08-23T12:34:11.924873+08:00",
   "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
       "id": "f264c057671c",
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -38,13 +38,13 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
     {
       "id": "ff15efa603eb",
-      "title": "随着贸易谈判破裂，加拿大将与美国“一美元对一美元”地征收关税",
+      "title": "随着贸易谈判破裂，加拿大将“以美元对美元”征收关税",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -83,27 +83,29 @@
       "rank": 4
     },
     {
-      "id": "61a1dbea2b2b",
-      "title": "为什么司法部要调查 Andreessen Horowitz 的董事会席位？",
+      "id": "684a49fe4869",
+      "title": "启境 GX7 智能「阔」五座 SUV 西湖烟紫色官图发布，新车首搭华为鸿蒙座舱 6、预埋 L3 级高阶架构",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/video/why-is-the-doj-investigating-andreessen-horowitzs-board-seats/",
-      "published": "2026-08-21T16:53:39+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/993/173.htm",
+      "published": "2026-08-23T04:25:38+00:00",
       "summary": [
-        "Andreessen Horowitz 有两位合伙人在目前相互竞争的公司董事会中任职：Databricks 的 Ben Horowitz 和 Martin C"
+        "IT之家 8 月 23 日消息，启境汽车官方昨日放出了启境 GX7 智能「阔」五座 SUV 的西湖烟紫车色的官图，全方位展示了新车的外观设计",
+        "据介绍，启境 GX7 预埋 L3 级高阶架构，并采用 L3 级全链路八大冗余架构设计，首搭鸿蒙座舱 HarmonySpace 6",
+        "新车依旧由启境和华为乾崑联合设计，采用 60% 轴长比启境家族化设计，是一款拥有跑车姿态的大 SUV"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
+      "score": 5,
+      "isNativeCN": true,
       "rank": 5
     },
     {
       "id": "8bda54eb52df",
-      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+      "title": "Pixel 11 Pro XL评测：Snappier相机无法隐藏迭代升级",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -116,7 +118,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 6
     },
@@ -140,21 +142,21 @@
       "rank": 7
     },
     {
-      "id": "6ac586b3514a",
-      "title": "据报道，苹果将裁掉 Siri、Vision Pro 团队数百个工作岗位",
+      "id": "6ce2b1d23580",
+      "title": "推出两年后，沃尔玛旗下的 Flipkart 正在逼近印度快速商务领导者的地位",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "published": "2026-08-21T20:58:07+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "published": "2026-08-23T03:00:00+00:00",
       "summary": [
-        "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives."
+        "Flipkart 的快速商务企业每天交付 110 万至 120 万份订单，几乎是 11 月份订单量的三倍。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 8
     }
