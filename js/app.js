@@ -40,7 +40,6 @@ const App = {
     Expression.init();
     Inspiration.init();
     DailyNews.init();
-    Checkin.init();
     DailyQuote.init();
     MoodCalendar.init();
     GoalProgress.init();
