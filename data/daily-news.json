@@ -1,9 +1,47 @@
 {
   "date": "2026-08-23",
-  "generated": "2026-08-23T16:26:20.728605+08:00",
+  "generated": "2026-08-23T20:34:15.107931+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "e9e48a84e8cc",
+      "title": "Grand Theft Auto VI 存在于它自己的宇宙中",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
+      "published": "2026-08-23T12:00:00+00:00",
+      "summary": [
+        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关 GTA VI 和视频游戏状态的更多信息，请访问"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "493e31531699",
+      "title": "肽的混乱化",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "henryaj.substack.com",
+      "sourceUrl": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "published": "2026-08-23T09:32:54+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "f264c057671c",
       "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
@@ -21,7 +59,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "39119bad22db",
@@ -40,7 +78,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 4
     },
     {
       "id": "e145a4c1fffe",
@@ -61,28 +99,7 @@
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 3
-    },
-    {
-      "id": "268283922c1f",
-      "title": "总台中国之声解读车辆应急机械拉手安全隐患：与内饰颜色接近、不易识别",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/993/229.htm",
-      "published": "2026-08-23T08:25:20+00:00",
-      "summary": [
-        "IT之家 8 月 23 日消息，据中央广播电视总台中国之声今天（23 日）报道，日前，国家市场监督管理总局集中发布汽车召回公告，特斯拉、小米、小鹏、零跑等 9 家车企同步启动召回，覆盖数百万辆新能源汽车",
-        "本次召回的核心原因高度统一：车内应急机械拉手与内饰颜色接近、辨识度不足，极端碰撞断电场景下可能影响驾乘人员逃生与外部救援",
-        "报道指出，在普遍采用电动开门的新能源车型上，车内应急机械拉手是完全脱离电控系统的纯机械结构，也是极端险情下的最后一道逃生防线"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "8bda54eb52df",
@@ -101,7 +118,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "6ce2b1d23580",
@@ -115,25 +132,6 @@
       "published": "2026-08-23T03:00:00+00:00",
       "summary": [
         "Flipkart 的快速商务企业每天交付 110 万至 120 万份订单，几乎是 11 月份订单量的三倍。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "6ac586b3514a",
-      "title": "据报道，苹果将裁掉 Siri、Vision Pro 团队数百个工作岗位",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "published": "2026-08-21T20:58:07+00:00",
-      "summary": [
-        "苹果公司承认，随着公司将重点从某些举措上转移，一些角色正在受到影响。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
