@@ -1,12 +1,31 @@
 {
   "date": "2026-08-24",
-  "generated": "2026-08-24T16:44:41.013349+08:00",
-  "total": 9,
+  "generated": "2026-08-24T20:43:39.624640+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "30694ea48fa0",
+      "title": "国债混乱：美国作为避风港的地位是否会消亡？",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "theguardian.com",
+      "sourceUrl": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
+      "published": "2026-08-24T10:52:24+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
       "id": "38092a5bb168",
-      "title": "Uber 因自动驾驶司机停职而面临近 10 亿美元的罚款",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -21,79 +40,60 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "e9e48a84e8cc",
-      "title": "Grand Theft Auto VI 存在于它自己的宇宙中",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
-      "published": "2026-08-23T12:00:00+00:00",
-      "summary": [
-        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关 GTA VI 和视频游戏状态的更多信息，请访问"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "c058daa1dd11",
-      "title": "在受版权保护的书籍上训练人工智能模型是否合法？情况很复杂",
+      "id": "7d7123f38c6e",
+      "title": "下载：孩子们超越人工智能和太空旅行社",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "published": "2026-08-23T15:00:00+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "published": "2026-08-24T12:10:00+00:00",
       "summary": [
-        "大多数发表文章的作者在未经他们知情或同意的情况下，为开发同样的人工智能工具做出了贡献，这些工具可能会破坏他们的研究成果。"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "480d7ab40672",
-      "title": "哈佛 699 美元的创业训练营提供其讲师的人工智能头像",
+      "id": "b781f4c498ae",
+      "title": "孩子们的学习能力超过了人工智能——但我们仍然不知道为什么",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-      "published": "2026-08-22T21:46:56+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "published": "2026-08-24T09:00:00+00:00",
       "summary": [
-        "在 HBS Foundry 计划中，人工智能化身在练习推介和董事会会议期间提供反馈。"
+        "据我们所知，人们相互交谈至少已经有十万年了。在这段时间里，世界上只有一件事"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "b6d6c427362d",
-      "title": "「AstraTennis」时刻：机器人在全球直播中打了一场真正的网球",
+      "id": "785a89e293dd",
+      "title": "130 亿美元，Hugging Face 要卖了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369283",
-      "published": "2026-08-24T07:25:24+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369289",
+      "published": "2026-08-24T08:45:05+00:00",
       "summary": [
-        "作者｜李苏 编辑｜ 郑玄 一场特殊的网球比赛，一次数字智能向物理智能的跨越",
-        "人形机器人挥出第一拍之前，没有人确定它能不能接住对面飞来的球",
-        "事实上，球贴着边线飞来，机器人横移数步挥拍回击，球落在界内"
+        "&nbsp; 作者｜桦林舞王 编辑｜靖宇 &nbsp; 又一家 AI 中间层公司，要卖了",
+        "当地时间 8 月 23 日，外媒爆出消息，Hugging Face 正在探索出售，估值可能达到 130 亿美元甚至更高",
+        "这家总部位于纽约的公司，已经聘请了投行来试探潜在买家的兴趣"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -123,6 +123,46 @@
       "rank": 6
     },
     {
+      "id": "d7008f750941",
+      "title": "消息称原 OPPO 海外营销服总裁张洲川已入职大疆",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/993/724.htm",
+      "published": "2026-08-24T12:43:18+00:00",
+      "summary": [
+        "IT之家 8 月 24 日消息，界面新闻今天（24 日）晚间独家获悉，OPPO 原海外营销服总裁张洲川已入职大疆",
+        "截至发稿，大疆暂未针对上述消息给予回应",
+        "知情人士透露，张洲川所属的部门承担 To B（IT之家注：面向企业）业务，跟此前其履历有很大差别，不排除只是暂时过渡"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "7c20b0e3ea97",
+      "title": "Omacom 基金会资助金额达 1000 万美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "Hacker News",
+      "sourceDomain": "omarchy.org",
+      "sourceUrl": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/",
+      "published": "2026-08-24T11:04:42+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
       "id": "f5d01103c87e",
       "title": "FDA 批准血液检测以帮助评估阿尔茨海默病",
       "category": "business",
@@ -137,9 +177,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "6cf3968f4111",
@@ -158,26 +198,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "6ce2b1d23580",
-      "title": "推出两年后，沃尔玛旗下的 Flipkart 正在逼近印度快速商务领导者的地位",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
-      "published": "2026-08-23T03:00:00+00:00",
-      "summary": [
-        "Flipkart 的快速商务企业每天交付 110 万至 120 万份订单，几乎是 11 月份订单量的三倍。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
