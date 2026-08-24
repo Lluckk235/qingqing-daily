@@ -1,46 +1,27 @@
 {
   "date": "2026-08-24",
-  "generated": "2026-08-24T09:07:42.696867+08:00",
+  "generated": "2026-08-24T12:41:48.739606+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "c058daa1dd11",
-      "title": "在受版权保护的书籍上训练人工智能模型是否合法？情况很复杂",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "published": "2026-08-23T15:00:00+00:00",
+      "id": "737b5dff6b11",
+      "title": "前 OC 演员本·麦肯齐 (Ben McKenzie) 致力于打击“愚蠢”的加密货币",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "rnz.co.nz",
+      "sourceUrl": "https://www.rnz.co.nz/life/people/celebrity/former-oc-actor-ben-mckenzie-on-crusade-to-take-down-stupid-cryptocurrency",
+      "published": "2026-08-24T02:17:26+00:00",
       "summary": [
-        "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?"
+        "Comments"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 1
-    },
-    {
-      "id": "f264c057671c",
-      "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "published": "2026-08-22T19:00:00+00:00",
-      "summary": [
-        "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 2
     },
     {
       "id": "38092a5bb168",
@@ -57,26 +38,45 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "f264c057671c",
+      "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "published": "2026-08-22T19:00:00+00:00",
+      "summary": [
+        "由 DeepMind 校友创建的英国人工智能实验室 Inherent 发布了 Faraday，这是一款人工智能代理，其复制科学论文的能力可能成为敲门砖"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "e9e48a84e8cc",
-      "title": "Grand Theft Auto VI 存在于它自己的宇宙中",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
-      "published": "2026-08-23T12:00:00+00:00",
+      "id": "c058daa1dd11",
+      "title": "在受版权保护的书籍上训练人工智能模型是否合法？情况很复杂",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "published": "2026-08-23T15:00:00+00:00",
       "summary": [
-        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关 GTA VI 和视频游戏状态的更多信息，请访问"
+        "大多数发表文章的作者在未经他们知情或同意的情况下，为开发同样的人工智能工具做出了贡献，这些工具可能会破坏他们的研究成果。"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -102,27 +102,27 @@
       "rank": 5
     },
     {
-      "id": "8bda54eb52df",
-      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+      "id": "dd7c8a1b87f2",
+      "title": "快捷指令 | 让特定 app 小点声：在 iPhone 上实现独立音量控制",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
-      "published": "2026-08-22T14:00:00+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/112983",
+      "published": "2026-08-24T03:30:44+00:00",
       "summary": [
-        "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners."
+        "有些 app 总是太吵，有些又总嫌声音不够大；既然 iOS 还没有提供真正的应用独立音量，不妨用快捷指令让 iPhone 自动记住每个 app 该有多大声"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 6
     },
     {
       "id": "6cf3968f4111",
-      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+      "title": "GTA VI：有关 Rockstar 侠盗猎车手系列下一部作品的所有新闻",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -131,11 +131,11 @@
       "sourceUrl": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
       "published": "2026-08-23T19:14:37+00:00",
       "summary": [
-        "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]"
+        "自《GTA V》问世以来，已经过去了十多年，已经有两代主机了，而它的续集仍在开发中。 GTA VI 面临多次延迟"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     },
@@ -154,26 +154,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "493e31531699",
-      "title": "The Sloppification of Peptides",
+      "id": "e9e48a84e8cc",
+      "title": "Grand Theft Auto VI 存在于它自己的宇宙中",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "henryaj.substack.com",
-      "sourceUrl": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
-      "published": "2026-08-23T09:32:54+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
+      "published": "2026-08-23T12:00:00+00:00",
       "summary": [
-        "Comments"
+        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关 GTA VI 和视频游戏状态的更多信息，请访问"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     }
