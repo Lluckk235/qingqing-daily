@@ -1,9 +1,66 @@
 {
-  "date": "2026-08-23",
-  "generated": "2026-08-23T20:34:15.107931+08:00",
-  "total": 7,
+  "date": "2026-08-24",
+  "generated": "2026-08-24T09:07:42.696867+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "c058daa1dd11",
+      "title": "在受版权保护的书籍上训练人工智能模型是否合法？情况很复杂",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "published": "2026-08-23T15:00:00+00:00",
+      "summary": [
+        "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "f264c057671c",
+      "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "published": "2026-08-22T19:00:00+00:00",
+      "summary": [
+        "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "38092a5bb168",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "published": "2026-08-23T19:30:00+00:00",
+      "summary": [
+        "荷兰数据保护局对 Uber 处以 8.25 亿欧元的罚款，这是欧洲 GDPR 下的第二大罚款。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
     {
       "id": "e9e48a84e8cc",
       "title": "Grand Theft Auto VI 存在于它自己的宇宙中",
@@ -19,91 +76,34 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "493e31531699",
-      "title": "肽的混乱化",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "henryaj.substack.com",
-      "sourceUrl": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
-      "published": "2026-08-23T09:32:54+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 4,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "f264c057671c",
-      "title": "由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "published": "2026-08-22T19:00:00+00:00",
-      "summary": [
-        "由 DeepMind 校友创建的英国人工智能实验室 Inherent 发布了 Faraday，这是一款人工智能代理，其复制科学论文的能力可能成为敲门砖"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "39119bad22db",
-      "title": "OpenAI 表示加州应加强其人工智能安全法案",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "published": "2026-08-22T16:30:34+00:00",
-      "summary": [
-        "OpenAI 呼吁加州加强 SB 53，这是该公司之前反对的人工智能安全法案。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "e145a4c1fffe",
-      "title": "AI 时代的 Surface Pro 7 改造指南：看板、轻量工作站与 Linux 笔记本",
+      "id": "04250352494d",
+      "title": "DeepSeek 周末用量统一低价收费；特斯拉 9 月 3 日首秀 Cybercab；神秘 Ox Alpha 模型爆火网络",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/prime/story/surface-pro-7-linux-ai-dashboard",
-      "published": "2026-08-23T07:25:29+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/369215",
+      "published": "2026-08-23T00:20:39+00:00",
       "summary": [
-        "手头这台闲置的SurfacePro7在桌角放了挺长一段时间",
-        "当年买它看重的是二合一的便携形态，但放在Windows11下只要长时间亮屏就一定会过热、偶尔跳屏，基本处于不可用的状态",
-        "直到前阵子在网上看到 ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文"
+        "第二届世界人形机器人运动会开幕：2056 台机器人齐聚「冰丝带」，666 支队伍竞技 51 赛项 8 月 22 日晚间，第二届世界人形机器人运动会在国家速滑馆「冰丝带」开幕",
+        "本届赛事由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会联合主办",
+        "来自六大洲 16 个国家的 666 支队伍、2056 台机器人参赛，队伍数量较首届增长 138%，机器人数量翻了两番"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
       "id": "8bda54eb52df",
-      "title": "Pixel 11 Pro XL评测：Snappier相机无法隐藏迭代升级",
+      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -112,17 +112,36 @@
       "sourceUrl": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
       "published": "2026-08-22T14:00:00+00:00",
       "summary": [
-        "谷歌的 Pixel 11 Pro XL 带来了更快速的相机和 Rambler 等真正有用的 AI 功能，但其迭代升级可能不足以吸引人"
+        "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 6
     },
     {
+      "id": "6cf3968f4111",
+      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
+      "published": "2026-08-23T19:14:37+00:00",
+      "summary": [
+        "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
       "id": "6ce2b1d23580",
-      "title": "推出两年后，沃尔玛旗下的 Flipkart 正在逼近印度快速商务领导者的地位",
+      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -131,13 +150,32 @@
       "sourceUrl": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
       "published": "2026-08-23T03:00:00+00:00",
       "summary": [
-        "Flipkart 的快速商务企业每天交付 110 万至 120 万份订单，几乎是 11 月份订单量的三倍。"
+        "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "id": "493e31531699",
+      "title": "The Sloppification of Peptides",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "henryaj.substack.com",
+      "sourceUrl": "https://henryaj.substack.com/p/the-sloppification-of-peptides",
+      "published": "2026-08-23T09:32:54+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3,
+      "isNativeCN": false,
+      "rank": 9
     }
   ]
 }
