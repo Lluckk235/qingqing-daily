@@ -1,47 +1,9 @@
 {
   "date": "2026-08-25",
-  "generated": "2026-08-25T16:38:50.669870+08:00",
-  "total": 12,
+  "generated": "2026-08-25T20:42:09.143342+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "b11795f5f35f",
-      "title": "How to encourage smarter AI use in the classroom",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "published": "2026-08-24T14:20:19+00:00",
-      "summary": [
-        "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "7d7123f38c6e",
-      "title": "The Download: kids outlearning AI, and space travel agents",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
-      "published": "2026-08-24T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids outlearn AI—and we still don’t know why Teaching a computer to use human language requires an inhuman amount of data. An LLM can easily churn through a hundred thousand times&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "db07451bcf8b",
       "title": "Brake problems in GM EVs draw greater federal scrutiny",
@@ -59,26 +21,45 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "3daa35a8c6be",
-      "title": "Show HN: Screen memory without screenshots, just text to Markdown",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "github.com",
-      "sourceUrl": "https://github.com/dragthelake/ambient-context",
-      "published": "2026-08-25T04:33:24+00:00",
+      "id": "ff6e4887ee22",
+      "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
+      "published": "2026-08-25T12:10:00+00:00",
       "summary": [
-        "Comments"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How to encourage smarter AI use in the classroom Chatbots took schools by surprise. Suddenly, students carried an app in their phones that could magically answer almost any homework question or&#8230;"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 4
+      "rank": 2
+    },
+    {
+      "id": "dac3a9d1e696",
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "published": "2026-08-25T09:00:00+00:00",
+      "summary": [
+        "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
     },
     {
       "id": "5ccf139e1937",
@@ -97,30 +78,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "d19ba9ef52e2",
-      "title": "研发成本过高，欧空局搁置阿丽亚娜 6 号运载火箭 Block 3 升级计划",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/994/076.htm",
-      "published": "2026-08-25T08:37:57+00:00",
-      "summary": [
-        "IT之家 8 月 25 日消息，科技媒体 Ars Technica 于 8 月 21 日发布博文，报道称欧洲航天局（ESA）已经决定搁置阿丽亚娜 6 号（Ariane 6）运载火箭的 Block 3 升级计划，将会影响未来深空科学探测任务",
-        "Block 3 升级计划原定于 2030 年投入使用，由航天公司 ArianeGroup 推进，主要开发名为 ICARUS 的极致轻量化上面级（upper stage），基于名为 Phoebus 的技术验证机改造",
-        "该升级计划完全颠覆传统金属储箱结构，计划采用无内衬的碳纤维增强复合材料（CFRP）来制造液氢和液氧储箱，将地月转移轨道的运载能力从 Block 2 的 8.6 吨提升至 9.9 吨"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
+    },
+    {
+      "id": "62aea581c36d",
+      "title": "抖音打击恶意营销号：某著名科技品牌长期遭负面信息攻击，涵盖产品事故现场、舆情争议等内容",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/994/194.htm",
+      "published": "2026-08-25T12:41:27+00:00",
+      "summary": [
+        "IT之家 8 月 25 日消息，“抖音黑板报”公众号今日发布了《抖音关于治理恶意营销号炒作涉企信息的公告》，称平台近期监测发现部分恶意营销号通过造谣虚构、侮辱贬损、商业诋毁等黑灰产行为，严重损害企业与用户合法权益，破坏平台生态",
+        "IT之家注意到，“抖音黑板报”还公示了部分案例，其中提到某著名科技品牌长期被黑，有 59 个账号长期汇总并集中发布其负面信息，涵盖产品事故现场、股价波动、舆情争议等多维度内容",
+        "具体如下：案例一：通过虚构企业不实信息误导公众此类行为表现为编造企业违法、质量造假、财务暴雷等不实信息，或断章取义拼接素材误导公众"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "d673ba2ab6c2",
@@ -139,30 +120,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "73808f4a141e",
-      "title": "年轻人的网络社交，正在偷偷「鸽化」",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369290",
-      "published": "2026-08-24T08:43:37+00:00",
-      "summary": [
-        "作者｜宇航猿 编辑｜靖宇 &nbsp; 「 从前的日色变得慢，车，马，邮件都慢",
-        "」 作家木心的小诗「车马慢」，到现在还是不少年轻人的微信签名",
-        "对于长在移动互联网中的年轻原住民来说，前互联网是时代的「慢」，不是不便，而是一种「怀古」的浪漫"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "588aadc507f3",
@@ -179,9 +139,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "894769239e7b",
@@ -198,9 +158,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "3b9ae4d52eba",
@@ -219,7 +179,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
     },
     {
       "id": "002a58a81ca2",
@@ -238,7 +198,7 @@
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 10
     }
   ]
 }
