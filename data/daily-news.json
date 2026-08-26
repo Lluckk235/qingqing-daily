@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated": "2026-08-26T09:09:02.887646+08:00",
+  "generated": "2026-08-26T12:37:17.946576+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "6017c27dc638",
-      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "id": "8c02d9ad51cf",
+      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "published": "2026-08-25T14:22:04+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "published": "2026-08-26T00:06:20+00:00",
       "summary": [
-        "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art."
+        "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,45 +76,43 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "f647c0c18ced",
-      "title": "从被找到、被用好到被修好，HarmonyOS 7 给出开发者一套新解法",
+      "id": "0f20413d15b7",
+      "title": "多亲 J36 AI 按键智能手机发布：红外遥控、微信支付宝、一句话生成文案，659 元",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369356",
-      "published": "2026-08-25T15:52:42+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/994/484.htm",
+      "published": "2026-08-26T04:25:22+00:00",
       "summary": [
-        "原来关注 App 被打开的次数，现在关注的是服务被调用的次数",
-        "作者｜张勇毅 编辑｜靖宇 对应用开发者来讲，一天里有三个时刻经常会想起操作系统：早上看数据",
-        "昨天的新增还剩多少，七日留存掉到了哪条线，还有那一大批装了就再没打开过的用户&mdash;&mdash;你的图标被留在第四屏，和几十个 App 挤在一起"
+        "IT之家 8 月 26 日消息，多亲今日发布了一款多亲 J36 AI 按键智能手机，定价 659 元",
+        "多亲 J36 搭载 2.8 英寸 480*640 分辨率屏幕、MTK8766V 处理器、3GB + 32GB 存储、2600mAh 电池，运行安卓 13 系统",
+        "多亲 J36 把 AI 放进了按键手机里"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "deefad28228d",
-      "title": "Parallels Desktop 27 发布：OpenGL 性能最高提升 160%、AI 矩阵计算最高提升 7 倍",
+      "id": "44e816436728",
+      "title": "派早报：Apple 发布新款 Mac mini 和 Mac Studio 等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/994/334.htm",
-      "published": "2026-08-26T01:03:42+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/113847",
+      "published": "2026-08-26T00:09:01+00:00",
       "summary": [
-        "IT之家 8 月 26 日消息，科技媒体 AppleInsider 昨日（8 月 25 日）发布博文，报道称 Parallels Desktop 27 已发布，新增基于 Metal 的图形驱动，为 Windows 虚拟机带来 OpenGL 4.3 支持",
-        "IT之家援引博文介绍，新版本采用基于 Metal 的图形驱动，为 Windows 虚拟机加入 OpenGL 4.3 支持，覆盖 ArcGIS Pro、ZWCAD 和 Blender 4.3 等专业应用",
-        "Parallels 声称，在搭载 M3 及后续处理器的 Mac 设备上，OpenGL 性能最高提升 160%，ArcGIS Pro 三维渲染速度最高提升 35%"
+        "索尼正式发布 Xperia 10 VIII 手机，Apple 钱包上线郑州绿城通交通卡等"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,23 +121,23 @@
       "rank": 6
     },
     {
-      "id": "d673ba2ab6c2",
-      "title": "《有头有脸的大模型公司，集体搞起「匿名公测」》",
+      "id": "95e1d8415515",
+      "title": "马歇尔推出 Jimi Hendrix 60 周年限量 JMH Studio 扩音器，英国手工组装",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369324",
-      "published": "2026-08-25T05:14:40+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/994/485.htm",
+      "published": "2026-08-26T04:28:58+00:00",
       "summary": [
-        "头图来源：oxalpha.com &nbsp; 最近，海外开发者圈又被一个没有名字的模型刷屏了",
-        "8 月 20 日，OpenRouter 上多了一个叫 Ox Alpha 的模型，100 万 token 上下文、支持图片和视频输入、能调用工具、免费",
-        "随后，它被接进 OpenCode、Hermes 等编程 Agent"
+        "IT之家 8 月 26 日消息，科技媒体 NotebookCheck 昨日（8 月 25 日）发布博文，报道称马歇尔（Marshall）扩充 Jimi Hendrix 60 周年纪念系列，推出 JMH Studio 扩音器、Emberton III 便携式音箱和 Major V 耳机 3 款 Jimi Hendrix 限量产品",
+        "吉米 · 亨德里克斯（James Marshall \"Jimi\" Hendrix，1942 年 11 月 27 日-1970 年 9 月 18 日），出生于美国华盛顿州西雅图，美国吉他手、歌手、作曲人",
+        "作为左撇子吉他手，他开创性地使用失真、蛙音效果器，革新电吉他演奏技巧，被视为摇滚史上最具影响力的吉他演奏者"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 7
     },
@@ -182,17 +180,17 @@
       "rank": 9
     },
     {
-      "id": "332af197fd65",
-      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "id": "f61a1292afec",
+      "title": "Dreame’s dream of a rocket-powered car is dead",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
-      "published": "2026-08-25T14:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/984485/dreame-rocket-car-shut-down",
+      "published": "2026-08-25T18:52:53+00:00",
       "summary": [
-        "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies."
+        "Dreame, the Chinese vacuum company that aspires to be a global technology giant, is reportedly shutting down its automotive project after funding from the government dried up. According to CarNewsChina, the company's automotive division called \"Project Starry Sky\" once employed over 1,000 people, but now only a handful legal and HR staffers remain, charged with [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -201,17 +199,17 @@
       "rank": 10
     },
     {
-      "id": "85a2e2dc263b",
-      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+      "id": "3592051bf3ab",
+      "title": "Gamescom Opening Night Live 2026: The biggest announcements and trailers",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
-      "published": "2026-08-25T14:46:32+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/983891/gamescom-opening-night-live-2026-geoff-keighley",
+      "published": "2026-08-25T17:20:00+00:00",
       "summary": [
-        "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses."
+        "The Geoff Keighley-hosted Opening Night Live event at Gamescom just wrapped up. Arguably the biggest announcement was the closer: a remastered version of The Witcher 3: Wild Hunt from CD Projekt Red that’s launching in September. But the show also featured a bunch of trailers for others games, including Gears of War: E-Day, Capcom’s upcoming [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
