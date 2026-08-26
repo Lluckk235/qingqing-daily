@@ -1,107 +1,126 @@
 {
-  "date": "2026-08-25",
-  "generated": "2026-08-25T20:42:09.143342+08:00",
-  "total": 10,
+  "date": "2026-08-26",
+  "generated": "2026-08-26T09:09:02.887646+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "db07451bcf8b",
-      "title": "Brake problems in GM EVs draw greater federal scrutiny",
+      "id": "c315b9a7b90f",
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "published": "2026-08-25T17:50:33+00:00",
+      "summary": [
+        "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "6017c27dc638",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "published": "2026-08-25T14:22:04+00:00",
+      "summary": [
+        "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "6dd838eaeef2",
+      "title": "Addressing a sticking point in sustainable adhesives",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
+      "published": "2026-08-25T21:00:00+00:00",
+      "summary": [
+        "Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable containers. “The labels on a container are held up with petroleum-based glue. And because of that, even though you’re putting the container in the recycle bin, it will not&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "383105d352e0",
+      "title": "X sends cease-and-desist to open source project Nitter over alleged scraping",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
-      "published": "2026-08-24T14:18:47+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
+      "published": "2026-08-25T20:44:12+00:00",
       "summary": [
-        "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\""
+        "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X front ends, demanding its instances and code repository be taken down over alleged scraping."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 4
     },
     {
-      "id": "ff6e4887ee22",
-      "title": "The Download: smarter AI in schools, and a robot “carnival” in Shanghai",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1142909/the-download-smarter-ai-in-schools-robot-carnival-shanghai/",
-      "published": "2026-08-25T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How to encourage smarter AI use in the classroom Chatbots took schools by surprise. Suddenly, students carried an app in their phones that could magically answer almost any homework question or&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "dac3a9d1e696",
-      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-      "published": "2026-08-25T09:00:00+00:00",
-      "summary": [
-        "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "5ccf139e1937",
-      "title": "TRAE、扣子并入豆包，字节将推「豆包工作」；拓竹回应 2027 年 IPO 传闻：消息不实；要钱还是使命，Anthropic 面试流程曝光｜极客早知道",
+      "id": "f647c0c18ced",
+      "title": "从被找到、被用好到被修好，HarmonyOS 7 给出开发者一套新解法",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369303",
-      "published": "2026-08-25T00:25:52+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369356",
+      "published": "2026-08-25T15:52:42+00:00",
       "summary": [
-        "TRAE、扣子并入豆包，字节将推统一办公品牌 \"豆包工作\" 8 月 24 日消息，字节跳动对旗下的办公 AI 产品完成了一轮团队整合，TRAE、扣子（Coze）团队将整体并入豆包体系，其中 TRAE Work、扣子将与豆包在工作场景的产品能力进行整合；TRAE IDE 及 CLI 将作为豆包品牌下的编程产品线持续发展",
-        "此次调整后，字节也进一步明确了豆包的 AI 主干业务定位，将 AI 办公类产品的重心集中到豆包",
-        "此前，有消息称，豆包最快将于本周内推出一款独立的 AI 办公类产品，作为字节面向 AI 办公场景的统一产品及品牌"
+        "原来关注 App 被打开的次数，现在关注的是服务被调用的次数",
+        "作者｜张勇毅 编辑｜靖宇 对应用开发者来讲，一天里有三个时刻经常会想起操作系统：早上看数据",
+        "昨天的新增还剩多少，七日留存掉到了哪条线，还有那一大批装了就再没打开过的用户&mdash;&mdash;你的图标被留在第四屏，和几十个 App 挤在一起"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
     },
     {
-      "id": "62aea581c36d",
-      "title": "抖音打击恶意营销号：某著名科技品牌长期遭负面信息攻击，涵盖产品事故现场、舆情争议等内容",
+      "id": "deefad28228d",
+      "title": "Parallels Desktop 27 发布：OpenGL 性能最高提升 160%、AI 矩阵计算最高提升 7 倍",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/994/194.htm",
-      "published": "2026-08-25T12:41:27+00:00",
+      "sourceUrl": "https://www.ithome.com/0/994/334.htm",
+      "published": "2026-08-26T01:03:42+00:00",
       "summary": [
-        "IT之家 8 月 25 日消息，“抖音黑板报”公众号今日发布了《抖音关于治理恶意营销号炒作涉企信息的公告》，称平台近期监测发现部分恶意营销号通过造谣虚构、侮辱贬损、商业诋毁等黑灰产行为，严重损害企业与用户合法权益，破坏平台生态",
-        "IT之家注意到，“抖音黑板报”还公示了部分案例，其中提到某著名科技品牌长期被黑，有 59 个账号长期汇总并集中发布其负面信息，涵盖产品事故现场、股价波动、舆情争议等多维度内容",
-        "具体如下：案例一：通过虚构企业不实信息误导公众此类行为表现为编造企业违法、质量造假、财务暴雷等不实信息，或断章取义拼接素材误导公众"
+        "IT之家 8 月 26 日消息，科技媒体 AppleInsider 昨日（8 月 25 日）发布博文，报道称 Parallels Desktop 27 已发布，新增基于 Metal 的图形驱动，为 Windows 虚拟机带来 OpenGL 4.3 支持",
+        "IT之家援引博文介绍，新版本采用基于 Metal 的图形驱动，为 Windows 虚拟机加入 OpenGL 4.3 支持，覆盖 ArcGIS Pro、ZWCAD 和 Blender 4.3 等专业应用",
+        "Parallels 声称，在搭载 M3 及后续处理器的 Mac 设备上，OpenGL 性能最高提升 160%，ArcGIS Pro 三维渲染速度最高提升 35%"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "d673ba2ab6c2",
@@ -120,85 +139,85 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "588aadc507f3",
-      "title": "Oura is reportedly eyeing a September IPO that could value it at more than $16B",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/",
-      "published": "2026-08-24T23:05:44+00:00",
-      "summary": [
-        "We all knew it was coming. The expected valuation may surprise, though."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "894769239e7b",
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "id": "032f5fcc6f77",
+      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "published": "2026-08-24T21:24:17+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "published": "2026-08-26T00:40:59+00:00",
       "summary": [
-        "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135."
+        "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "3b9ae4d52eba",
-      "title": "Zillow and Redfin settle FTC antitrust case over their rental listings partnership",
+      "id": "e9a502825c2e",
+      "title": "Waymo robotaxis are headed to Munich",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
-      "published": "2026-08-24T17:01:05+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+      "published": "2026-08-25T17:32:03+00:00",
       "summary": [
-        "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin would end its own advertising contracts and promise not to compete with Zillow for multifamily listings. [&#8230;]"
+        "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "002a58a81ca2",
-      "title": "Android is getting its own weird dots to cure car sickness",
+      "id": "332af197fd65",
+      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+      "published": "2026-08-25T14:00:00+00:00",
+      "summary": [
+        "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "85a2e2dc263b",
+      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/984226/google-motion-assist-anti-nausea-car-sickness-cure",
-      "published": "2026-08-25T08:36:27+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+      "published": "2026-08-25T14:46:32+00:00",
       "summary": [
-        "Google is rolling out a new Android feature that's been proven to reduce, or even eliminate, motion sickness when using a phone inside a moving vehicle. Dubbed Motion Assist by Google, it's very similar to Apple's Motion Cues, first introduced in 2024. The Android 17 feature appears to be rolling out in phases, with some [&#8230;]"
+        "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
