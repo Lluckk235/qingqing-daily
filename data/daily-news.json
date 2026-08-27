@@ -1,9 +1,28 @@
 {
-  "date": "2026-08-27",
-  "generated": "2026-08-27T15:16:39.539444+08:00",
+  "date": "2026-08-28",
+  "generated": "2026-08-28T02:49:30.397003+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "02536593f305",
+      "title": "美国人为拿下 Flock 摄像机的治安人员欢呼",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/985155/flock-camera-destruction-vigilantes",
+      "published": "2026-08-27T15:49:47+00:00",
+      "summary": [
+        "美国人已经向 Flock 相机宣战了。他们抗议它们、破坏它们、摧毁它们。这只是开始。自发的"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "7a6b849c8324",
       "title": "下载：儿童期到来，比尔·盖茨透露了他对人工智能的恐惧",
@@ -19,182 +38,161 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "6dd838eaeef2",
-      "title": "解决可持续粘合剂的症结点",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
-      "published": "2026-08-25T21:00:00+00:00",
-      "summary": [
-        "石油基粘合剂无处不在：在建筑项目中粘合木材和干墙，将家具的接缝固定在一起，甚至是"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "838ca76e929f",
-      "title": "谷歌的 Gemini 存在品牌问题，其他人工智能也存在品牌问题",
+      "id": "be41cf18f6e9",
+      "title": "OpenAI、Anthropic、Google 和其他 100 家公司呼吁采取行动抵御流氓人工智能",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "published": "2026-08-26T19:37:34+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "published": "2026-08-27T17:43:24+00:00",
       "summary": [
-        "消费者人工智能应用程序需要停止让用户学习他们的产品架构。"
+        "全球一些最大的科技公司和人工智能初创公司齐聚一堂，谴责当前的网络安全状况并宣传新的解决方案"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "3a0e75f05696",
-      "title": "OpenAI的流氓AI模型事件比我们想象的更严重",
+      "id": "a88aee5f6674",
+      "title": "谷歌的人工智能模式现在可以跟踪航班价格、帮助预订酒店等",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "published": "2026-08-26T21:36:06+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "published": "2026-08-27T16:00:00+00:00",
       "summary": [
-        "7 月，一个未发布的 OpenAI 模型突破了受限环境，弄清楚了如何访问互联网，让 AI 代理能够与"
+        "这些更新表明，谷歌正在寻求将 AI Mode 定位为某种人工智能旅行社，因为它不仅仅是帮助用户查找信息"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "1ea0cd3565b8",
-      "title": "129 亿美元，英伟达拿下 Hugging Face",
+      "id": "e268c137a61b",
+      "title": "一年卖出 3 万台后，极壳将在 IFA 发布下一代外骨骼",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369458",
-      "published": "2026-08-27T07:09:02+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369478",
+      "published": "2026-08-27T11:57:55+00:00",
       "summary": [
-        "作者｜Wildcard 编辑｜靖宇 芯片巨头，开始抢「分发权」了",
-        "129 亿美元，英伟达要把 Hugging Face 买下来了",
-        "当地时间 8 月 26 日外媒率先爆出消息， 两天前还只是 Hugging Face「正在探索出售」的新闻，转眼就变成了「双方已达成协议」"
+        "作者 | siqi 编辑 | 郑玄 &nbsp; 据 Hardwire 了解，消费级外骨骼领域头部企业极壳（Hypershell）近期已完成对多关节下肢外骨骼产品的研发",
+        "这款名为「Halo」的新一代旗舰产品将于 9 月 3 日在 IFA（柏林消费电子展）上正式发布",
+        "极壳（qi&agrave;o，四声）成立于 2021 年底，是全球最早把外骨骼带入消费市场的公司之一"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "955ee2738f4a",
-      "title": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
+      "id": "30f6a0c163fb",
+      "title": "这位前 PG&E 工程师正在构建“地下谷歌地图”",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/08/480079.html",
-      "published": "2026-08-27T05:43:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
+      "published": "2026-08-27T15:00:00+00:00",
       "summary": [
-        "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元"
+        "该初创公司刚刚筹集了 2600 万美元的 A 轮融资，用于扩大客户群并帮助减少公用事业和建筑工程的繁文缛节。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
-      "isNativeCN": true,
+      "score": 5,
+      "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "a70ec8dd5bf4",
-      "title": "中保研 2025 年测评车型第五次结果：小米 YU7、奔驰 E 级分别拿下 3 项、2 项优秀 +",
+      "id": "e2b4aec791de",
+      "title": "谷歌告诉Android应用程序开发人员降低内存使用率，否则",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/995/010.htm",
-      "published": "2026-08-27T07:16:03+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/985679/google-play-android-17-memory-limit",
+      "published": "2026-08-27T18:33:11+00:00",
       "summary": [
-        "IT之家 8 月 27 日消息，中保研汽车技术研究院今天（27 日）发布了中国保险汽车安全指数（C-IASI）2025 年测评车型第五次结果，本次结果发布共涉及 2 款车型，分别为：梅赛德斯-奔驰 E 级、小米 YU7；其中 1 款为新能源车（小米 YU7）",
-        "测评结果显示，耐撞性与维修经济性分指数，2 款车型均获得良好（A）评价",
-        "结构耐撞性得分方面获得优秀评价的车型 1 款（梅赛德斯-奔驰 E 级）；两款车型在低速主动安全方面均获得加分，其中小米 YU7 车型获得优秀评价"
+        "作为对 RAM 危机的直接回应，谷歌将开始监管需要大量内存的 Android 应用程序。 TechCrunch 发现，该公司昨天发布了一份"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
+      "score": 7,
+      "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "b7930e814c4d",
-      "title": "英伟达即将成为一家季度营收千亿美元的公司",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-      "published": "2026-08-26T21:40:53+00:00",
-      "summary": [
-        "Nvidia 预计在短短几个月内将实现 1080 亿美元的收入。它并不是第一家年收入超过 1000 亿美元的公司"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "a4308e591b38",
-      "title": "Apple 将于 9 月 9 日举办 iPhone 发布会",
+      "id": "afabb09b90e8",
+      "title": "谷歌新款 Fitbit Air 将 Pokémon Sleep 带到你的手腕上",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
-      "published": "2026-08-26T16:53:07+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/27/googles-new-fitbit-air-brings-pokemon-sleep-to-your-wrist/",
+      "published": "2026-08-27T17:05:45+00:00",
       "summary": [
-        "预计这次活动将是一场引人注目的活动，因为有传言称苹果将推出其期待已久的可折叠 iPhone。这也将是 Jo 首次参加 Apple 活动"
+        "谷歌与 Pokémon 公司合作推出了一款与 Pokémon Sleep 应用程序配合使用的特别版 Fitbit Air。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
-      "id": "bad7656b9d48",
-      "title": "Apple 地图现在有广告",
+      "id": "8a2880cef6a2",
+      "title": "Speedo的新型智能护目镜模块可以追踪所有四种泳姿",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/985249/apple-maps-iphone-ads",
-      "published": "2026-08-26T17:34:32+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/985650/speedo-iq-vanquisher-goggles-module",
+      "published": "2026-08-27T16:18:51+00:00",
       "summary": [
-        "自苹果公司三月份宣布将允许企业为热门地点付费后，苹果地图上开始出现广告。他们出现在o"
+        "Speedo 为其 Vanquisher 护目镜推出了一款可拆卸智能模块，可以分析游泳者在所有四种泳姿中的表现：自由泳"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "ad6a764863eb",
+      "title": "Emacs 31：Markdown-ts-mode 非官方指南",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "rahuljuliato.com",
+      "sourceUrl": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
+      "published": "2026-08-27T13:22:36+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     }
