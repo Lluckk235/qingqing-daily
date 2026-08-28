@@ -1,105 +1,124 @@
 {
-  "date": "2026-08-28",
-  "generated": "2026-08-28T17:30:29.678105+08:00",
+  "date": "2026-08-29",
+  "generated": "2026-08-29T05:43:14.018132+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "59580e438c25",
-      "title": "Rivian 的首席财务官即将离开公司",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/rivians-cfo-is-leaving-the-company/",
-      "published": "2026-08-27T20:23:10+00:00",
+      "id": "6710ea6e51ef",
+      "title": "DLSS 5 泄露，改装者将 Nvidia 的 AI 效果应用到所有东西上",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "published": "2026-08-28T16:22:16+00:00",
       "summary": [
-        "该公司在周四提交的文件中表示，克莱尔·麦克唐纳将于 10 月 30 日辞职，以寻求新的机会。"
+        "在为 AI ups 编写代码后，改装者正在《Skyrim》、《Cyber​​punk 2077》、《GTA V》和许多其他游戏上尝试 Nvidia DLSS 5 的非官方版本"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "66aad594f138",
-      "title": "有史以来最大的视频游戏看起来像电影",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/985891/grand-theft-auto-vi-gta-6-netflix-youtube-extended-look-game-movie",
-      "published": "2026-08-27T23:20:00+00:00",
-      "summary": [
-        "我想我知道为什么 Rockstar Games 在 Netflix 上首次推出《侠盗猎车手 VI》的“扩展版外观”，而不是立即在 YouTube 上免费发布"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "3c75e284d829",
-      "title": "Anthropic 和 OpenAI 将在 TechCrunch Disrupt 2026 上加入人工智能舞台",
+      "id": "f88a0fcca760",
+      "title": "Neocloud Lambda 获得 10 亿美元债务以购买更多芯片",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "published": "2026-08-27T23:16:45+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "published": "2026-08-28T20:24:11+00:00",
       "summary": [
-        "在 TechCrunch Disrupt 2026 上，AI Stage 再次深入探讨过去几年社区中最热门的话题，由 Google 提出"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "96b419a5cc44",
-      "title": "下载：OpenAI 的 Hugging Face 黑客技术，以及一款新的电动汽车挑战美国",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-      "published": "2026-08-27T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "Neocloud Lambda 筹集了 10 亿美元的私人债务来购买 Nvidia 人工智能芯片并将其出租给微软。这是一系列贷款中的最新一笔，强调"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "b623714fb3a8",
+      "title": "下载：一种秘密的抗衰老药物和加入虚拟发电厂",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+      "published": "2026-08-28T12:35:27+00:00",
+      "summary": [
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "a4e185da0952",
+      "title": "瑞典如何建立欧洲最热门的创业生态系统之一",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+      "published": "2026-08-28T17:09:05+00:00",
+      "summary": [
+        "Cherry Ventures 的普通合伙人 Sophia Bendz 接受 Equity 采访，详细分析了瑞典科技生态系统的最新情况。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "782748f905c7",
-      "title": "世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」",
+      "id": "566f85615e65",
+      "title": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369508",
-      "published": "2026-08-28T05:10:32+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/995/822.htm",
+      "published": "2026-08-28T16:18:17+00:00",
       "summary": [
-        "机器人世界模型的下一场竞争，可能不是画质，是架构",
-        "作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子，杯子却像被磁铁吸住一样，跟着夹爪升了起来",
-        "这个看似荒诞的问题，正在困扰机器人世界模型，业内甚至将其称为「磁铁式抓取」"
+        "IT之家 8 月 29 日消息，微软试图向内部员工说明，公司的数据中心可以对社会产生积极影响",
+        "据彭博社 28 日报道，内部文件显示，不少微软员工对数据中心的能源消耗、用水、碳排放以及对当地社区的影响提出疑问",
+        "微软开发业务负责人诺埃尔 · 沃尔什回复说，AI 快速发展增加了微软兑现既定减排承诺的难度，不过数据中心硬件的能效和用水效率近期均有改善，公司还计划建设数十吉瓦的可再生能源项目"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "ada7823ec435",
+      "title": "以朋友为中心的照片分享应用 Retro 斩获 2100 万美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/",
+      "published": "2026-08-28T15:35:03+00:00",
+      "summary": [
+        "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 6
     },
     {
       "id": "d38e6f05d096",
@@ -112,87 +131,68 @@
       "sourceUrl": "https://techcrunch.com/2026/08/27/youtube-now-lets-creators-tag-amazon-products-and-earn-commissions-from-purchases/",
       "published": "2026-08-27T19:54:28+00:00",
       "summary": [
-        "此次更新将产品推荐变成了创作者更直接的收入来源，而对于亚马逊来说，此举将其庞大的在线市场"
+        "此次更新将产品推荐转变为创作者更直接的收入来源，而对于亚马逊来说，此举将其庞大的在线市场"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "30f6a0c163fb",
-      "title": "这位前 PG&E 工程师正在构建“地下谷歌地图”",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
-      "published": "2026-08-27T15:00:00+00:00",
-      "summary": [
-        "该初创公司刚刚筹集了 2600 万美元的 A 轮融资，用于扩大客户群并帮助减少公用事业和建筑工程的繁文缛节。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "e2b4aec791de",
-      "title": "谷歌告诉Android应用程序开发人员降低内存使用率，否则",
+      "id": "df0c7f031965",
+      "title": "Apple TV now costs $14.99 a month after its fourth price hike in four years",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/985679/google-play-android-17-memory-limit",
-      "published": "2026-08-27T18:33:11+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike",
+      "published": "2026-08-28T13:47:36+00:00",
       "summary": [
-        "作为对 RAM 危机的直接回应，谷歌将开始监管需要大量内存的 Android 应用程序。 TechCrunch 发现，该公司昨天发布了一份"
+        "Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, which includes Apple TV and Apple's [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "528d2585a426",
-      "title": "GTA VI“扩展版外观”现已在 YouTube 上直播",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/985910/grand-theft-auto-gta-vi-extended-look-youtube-netflix-stream",
-      "published": "2026-08-28T01:05:18+00:00",
-      "summary": [
-        "正如承诺的那样，Rockstar 已在 YouTube 及其网站上正式发布了《侠盗猎车手 VI》的“扩展版外观”。深度预览，其中“"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "e1b34f125aa1",
-      "title": "Bluesky 为那些不想走红的人添加了“算法选择退出”功能",
+      "id": "6c34dc78823d",
+      "title": "Apple TV 再次提高订阅价格",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/",
-      "published": "2026-08-27T20:15:26+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/",
+      "published": "2026-08-28T14:36:48+00:00",
       "summary": [
-        "布鲁斯基说，有时人们只是想向他们的关注者发帖。"
+        "Now, Apple TV subscriptions will cost $14.99 per month, up from its previous price of $12.99 per month."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "89c9a1fa20f1",
+      "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
+      "published": "2026-08-28T18:50:00+00:00",
+      "summary": [
+        "The feature, announced this week, allows Brave's users to sign up for websites and other online services without having to share their personal email addresses."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 10
     }
