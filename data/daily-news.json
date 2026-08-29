@@ -1,12 +1,69 @@
 {
   "date": "2026-08-29",
-  "generated": "2026-08-29T13:37:05.800247+08:00",
+  "generated": "2026-08-29T21:37:21.120376+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "248d3859500d",
+      "title": "音乐家出身的侦探正在追捕人工智能诈骗者",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "published": "2026-08-29T12:00:00+00:00",
+      "summary": [
+        "随着以音频为中心的生成工具和平台变得越来越复杂，互联网上越来越多地充斥着人工智能生成的音乐，"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "7f31a50ace59",
+      "title": "谷歌在AI模式下进一步埋没搜索结果",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "published": "2026-08-28T22:48:11+00:00",
+      "summary": [
+        "据搜索引擎圆桌会议报道，谷歌现在正在自动扩展某些搜索结果页面顶部的人工智能搜索摘要"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "618b970723bd",
+      "title": "Galaxy Z Flip 8 在有摩擦时发挥最佳性能",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
+      "published": "2026-08-29T13:00:00+00:00",
+      "summary": [
+        "当翻盖手机合上时，您想要什么？一个简单的界面，也许是通知和一个或两个小部件，用于处理基础知识？或者一个完整的"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
       "id": "b623714fb3a8",
-      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "title": "下载：一种秘密的抗衰老药物和加入虚拟发电厂",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -19,108 +76,70 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "59580e438c25",
-      "title": "Rivian 的首席财务官即将离开公司",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/rivians-cfo-is-leaving-the-company/",
-      "published": "2026-08-27T20:23:10+00:00",
-      "summary": [
-        "该公司在周四提交的文件中表示，克莱尔·麦克唐纳将于 10 月 30 日辞职，以寻求新的机会。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "7f31a50ace59",
-      "title": "Google further buries search results under AI mode",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
-      "published": "2026-08-28T22:48:11+00:00",
-      "summary": [
-        "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "6710ea6e51ef",
-      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
-      "published": "2026-08-28T16:22:16+00:00",
-      "summary": [
-        "在为 AI ups 编写代码后，改装者正在《Skyrim》、《Cyber​​punk 2077》、《GTA V》和许多其他游戏上尝试 Nvidia DLSS 5 的非官方版本"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "782748f905c7",
-      "title": "世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」",
+      "id": "c7f3101812f2",
+      "title": "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369508",
-      "published": "2026-08-28T05:10:32+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369550",
+      "published": "2026-08-29T05:58:53+00:00",
       "summary": [
-        "机器人世界模型的下一场竞争，可能不是画质，是架构",
-        "作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子，杯子却像被磁铁吸住一样，跟着夹爪升了起来",
-        "这个看似荒诞的问题，正在困扰机器人世界模型，业内甚至将其称为「磁铁式抓取」"
+        "&nbsp; 8 月 28 日，腾讯发布并开源混元 Hy4 preview",
+        "这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参数从 295B 增加到 770B，激活参数从 21B 增加到 49B，上下文长度也从 256K 扩展至 1M",
+        "模型已经同步进入 WorkBuddy、CodeBuddy、元宝和 ima，并可通过腾讯云 TokenHub 及 OpenRouter 调用"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "d2148effc1e1",
-      "title": "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档",
+      "id": "37a66d904599",
+      "title": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/08/481075.html",
+      "published": "2026-08-29T12:26:49+00:00",
+      "summary": [
+        "3秒可处理200份PDF"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "e17572458c13",
+      "title": "“开源 Windows”ReactOS 0.4.16 发布：全新图形安装程序、提升硬件支持",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/995/901.htm",
-      "published": "2026-08-29T05:36:14+00:00",
+      "sourceUrl": "https://www.ithome.com/0/996/039.htm",
+      "published": "2026-08-29T13:29:39+00:00",
       "summary": [
-        "IT之家 8 月 29 日消息，芒果 TV AIGC 创新内容中心制作、伯璟文化承制的神话题材季播剧《后西游记》第一季“花果山篇”，将于 8 月 31 日起上线芒果 TV，并登陆湖南卫视黄金档",
-        "据悉，这是国内首部 AIGC 长剧",
-        "据介绍，神话题材季播剧《后西游记》改编自明末清初匿名作者所著的同名神魔小说，其第一季共 30 集，每集 40 分钟"
+        "IT之家 8 月 29 日消息，据科技媒体 Phoronix 今天报道，“开源 Windows”项目 ReactOS 现已发布 0.4.16 更新，最大的变化是加入了全新 GUI（图形界面）安装程序",
+        "IT之家从原报道了解到，ReactOS 的图形安装程序已被集成到启动 CD 和 Live CD 环境中",
+        "用户可使用同一镜像文件，完成体验系统、安装系统流程，具体工作流程与 Linux 的 Live 环境类似"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "ada7823ec435",
@@ -139,11 +158,11 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "4ca22bea27f6",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -152,26 +171,7 @@
       "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
       "published": "2026-08-29T01:47:53+00:00",
       "summary": [
-        "Comments"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "d38e6f05d096",
-      "title": "YouTube 现在允许创作者标记亚马逊产品并通过购买赚取佣金",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/27/youtube-now-lets-creators-tag-amazon-products-and-earn-commissions-from-purchases/",
-      "published": "2026-08-27T19:54:28+00:00",
-      "summary": [
-        "The update turns product recommendations into a more direct revenue stream for creators, and for Amazon, the move puts its massive online marketplace inside one of the most popular video platforms."
+        "评论"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -181,7 +181,7 @@
     },
     {
       "id": "df0c7f031965",
-      "title": "Apple TV now costs $14.99 a month after its fourth price hike in four years",
+      "title": "Apple TV 四年内第四次提价，现每月价格为 14.99 美元",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -190,7 +190,7 @@
       "sourceUrl": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike",
       "published": "2026-08-28T13:47:36+00:00",
       "summary": [
-        "Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, which includes Apple TV and Apple's [&#8230;]"
+        "苹果周五提高了新用户和现有用户的流媒体服务价格，从每月 12.99 美元上涨至 14.99 美元。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
