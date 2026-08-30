@@ -1,21 +1,21 @@
 {
-  "date": "2026-08-30",
-  "generated": "2026-08-30T17:43:43.002553+08:00",
-  "total": 8,
+  "date": "2026-08-31",
+  "generated": "2026-08-31T00:01:54.450896+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "248d3859500d",
-      "title": "音乐家出身的侦探正在追捕人工智能诈骗者",
+      "id": "e4de3653e651",
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-      "published": "2026-08-29T12:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "published": "2026-08-30T15:00:00+00:00",
       "summary": [
-        "随着以音频为中心的生成工具和平台变得越来越复杂，互联网上越来越多地充斥着人工智能生成的音乐，"
+        "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,36 +24,36 @@
       "rank": 1
     },
     {
-      "id": "7f31a50ace59",
-      "title": "谷歌在AI模式下进一步埋没搜索结果",
+      "id": "698656d72c29",
+      "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
-      "published": "2026-08-28T22:48:11+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "published": "2026-08-29T17:51:10+00:00",
       "summary": [
-        "据搜索引擎圆桌会议报道，谷歌现在正在自动扩展某些搜索结果页面顶部的人工智能搜索摘要"
+        "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "618b970723bd",
-      "title": "Galaxy Z Flip 8 在有摩擦时发挥最佳性能",
+      "id": "6c5ad9ec38f8",
+      "title": "An implementation of Conway's Game of Life for Windows 3.1x and later",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
-      "published": "2026-08-29T13:00:00+00:00",
+      "source": "Hacker News",
+      "sourceDomain": "muppetlabs.com",
+      "sourceUrl": "https://www.muppetlabs.com/~breadbox/software/windows.html",
+      "published": "2026-08-30T11:41:40+00:00",
       "summary": [
-        "当翻盖手机合上时，您想要什么？一个简单的界面，也许是通知和一个或两个小部件，用于处理基础知识？或者一个完整的"
+        "Comments"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -62,29 +62,69 @@
       "rank": 3
     },
     {
-      "id": "661288103e4e",
-      "title": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
+      "id": "618b970723bd",
+      "title": "The Galaxy Z Flip 8 is at its best when there’s friction",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
+      "published": "2026-08-29T13:00:00+00:00",
+      "summary": [
+        "What do you want from a flip phone when it's closed? A simple interface, perhaps notifications and a widget or two, for handling the basics? Or a fully fledged Android experience shrunk down for the Flip form factor? For years, Samsung has insisted on the former, even as some fans - and Razr rival Motorola [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "740a1490cb55",
+      "title": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369551",
-      "published": "2026-08-30T00:28:43+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369556",
+      "published": "2026-08-30T10:58:17+00:00",
       "summary": [
-        "OpenAI 终止与 Cursor 合作 8 月 29 日消息，OpenAI 以「无法信任 SpaceX 遵守服务条款」为由，终止向已被 SpaceX 收购的 AI 编程工具 Cursor 提供模型支持",
-        "Cursor 对 OpenAI 模型的直接访问权限将于 11 月 12 日终止",
-        "OpenAI 在其官方网站发布的公告中明确表示，终止合作的决定「归根结底在于信任问题」"
+        "这道题过去只属于硬件创业者，这个八月，它摆到了所有软件公司桌上",
+        "Hugging Face 交卷一只走路摇摇晃晃的鸭子，OpenAI 正在造自己的智能音箱，字节跳动旗下 TRAE 联名 FoloToy 开始改造自己挂在胸口的工牌",
+        "很明显，软件公司造硬件的思路完全不同，他们想要的不是好用，而是主动以及可见"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "id": "9b6fdbfb73a1",
+      "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/996/252.htm",
+      "published": "2026-08-30T15:30:38+00:00",
+      "summary": [
+        "IT之家 8 月 30 日消息，彭博社记者马克 · 古尔曼今天在最新一期《Power On》通讯中重申，苹果 AirPods 5 耳机最早将在今年 9 月发布",
+        "据介绍，苹果 AirPods 5 将与 iPhone 18 Pro / Pro Max、折叠屏 iPhone、Apple Watch Series 12、Apple Watch Ultra 4 一同亮相",
+        "同时，苹果预计将在 10 月底之前推出新款 iPad mini"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "e10c0e906ea4",
-      "title": "欢迎来到夜谷共同创作者约瑟夫·芬克向 Grim Fandango 学习讲故事",
+      "title": "Welcome to Night Vale cocreator Joseph Fink learned storytelling from Grim Fandango",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -93,17 +133,36 @@
       "sourceUrl": "https://www.theverge.com/entertainment/983448/welcome-to-night-vale-cocreator-joseph-fink-learned-storytelling-from-grim-fandango",
       "published": "2026-08-29T15:00:00+00:00",
       "summary": [
-        "约瑟夫·芬克 (Joseph Fink) 是《欢迎来到夜谷》的共同创作者和撰稿人，该节目可以说是有史以来最重要的小说播客。他也是noi的创造者"
+        "Joseph Fink is the cocreator and cowriter of Welcome to Night Vale, arguably the most important fiction podcast ever. He's also the creator of the noir podcast Unlicensed and Alice Isn't Dead, which takes some of the conspiratorial cosmic horror of Night Vale and turns it into fodder for a more serious series about relationships, [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "id": "04147e76e96e",
+      "title": "Chess.com launched a poker site and is planning even more classic games",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
+      "published": "2026-08-30T13:00:00+00:00",
+      "summary": [
+        "Chess.com has done one thing, and one thing very well, for almost 20 years, but now it's going beyond its domain name. The biggest name in online chess quietly launched its first companion site in beta back in May: Gambit, a free online poker website where players can learn the game without risking any real [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "6298096aef23",
-      "title": "在华丽的 A Trail Tale 中替代徒步阿巴拉契亚山脉",
+      "title": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -112,51 +171,13 @@
       "sourceUrl": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
       "published": "2026-08-29T20:59:26+00:00",
       "summary": [
-        "我曾经是一名狂热的徒步旅行者，每年都会尝试几次背包旅行。我一直梦想着徒步穿越阿巴拉契亚小道，但生活有点"
+        "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "3f6bab34d676",
-      "title": "索尼音乐和华纳查佩尔起诉 Anthropic",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "published": "2026-08-29T18:19:53+00:00",
-      "summary": [
-        "索尼音乐和华纳查佩尔已向美国加州北区地方法院对 Anthropic 提起诉讼，寻求赔偿"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "27a4e5c2a23f",
-      "title": "好莱坞明星开始涉足微剧应用",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/",
-      "published": "2026-08-29T16:10:00+00:00",
-      "summary": [
-        "一些好莱坞明星正在放弃巨额的八位数支票和异国情调的电影布景，转而采用一种新兴的形式：微剧。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     }
   ]
 }
