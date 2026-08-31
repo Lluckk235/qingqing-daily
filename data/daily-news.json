@@ -1,12 +1,12 @@
 {
   "date": "2026-08-31",
-  "generated": "2026-08-31T11:36:17.461659+08:00",
+  "generated": "2026-08-31T18:31:08.167728+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
       "id": "52c9c06d26cc",
-      "title": "《谋杀教授乘坐地铁》是朋克舞蹈中被遗忘的完美片段",
+      "title": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -15,17 +15,17 @@
       "sourceUrl": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review",
       "published": "2026-08-30T21:18:59+00:00",
       "summary": [
-        "我最近翻出了我的 CD 并开始重新翻录它们。我在那里发现了一些被遗忘的宝石，但对我来说，没有什么比美丽的骗局更让我震惊的了"
+        "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 1
     },
     {
       "id": "e4de3653e651",
-      "title": "Caterpillar 正在将其从自动化采矿中学到的知识引入人工智能部署",
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -34,7 +34,7 @@
       "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
       "published": "2026-08-30T15:00:00+00:00",
       "summary": [
-        "卡特彼勒花费了数十年的时间让自动化机器在偏远的采矿现场工作。现在，它正在将这种经验带入人工智能部署中。"
+        "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,38 +43,38 @@
       "rank": 2
     },
     {
-      "id": "67389318ad3f",
-      "title": "TechCrunch Mobility：机器人出租车隐藏的人力成本",
+      "id": "b7b94d5fc6db",
+      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
-      "published": "2026-08-30T16:03:00+00:00",
+      "source": "Hacker News",
+      "sourceDomain": "au.pcmag.com",
+      "sourceUrl": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "published": "2026-08-31T07:23:47+00:00",
       "summary": [
-        "欢迎回到 TechCrunch Mobility，这里是未来交通运输的中心，而现在，人工智能在其中发挥的作用比以往任何时候都更加重要。"
+        "评论"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "d417060ee662",
-      "title": "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结",
+      "id": "4d6f3c466d8e",
+      "title": "AirPods 5 或将于 9 月发布；17.6 万，特斯拉港澳车型降价；「网抑云」登陆鸿蒙系统｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369517",
-      "published": "2026-08-31T01:14:19+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369559",
+      "published": "2026-08-31T08:40:03+00:00",
       "summary": [
-        "作者｜Moonshot 编辑｜郑玄 8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-code 0.38.0",
-        "没有发布会，也没有新闻稿",
-        "但这条信息，被我通过千问部署的一个定时任务「捕获」了"
+        "SK 海力士 CEO：内存短缺或将持续至 2030 年 SK 海力士预计，当前的内存短缺局面可能会持续到 2030 年底，市场目前尚未出现明显的需求放缓迹象",
+        "SK 海力士首席执行官郭鲁勋在公司位于美国印第安纳州的新封装工厂奠基仪式后表示，即使未来市场开始降温，也更可能表现为供应紧张状况逐步缓解，而不是像过去那样出现内存价格突然崩跌的情况",
+        "该公司此前曾预计，面向普通市场的 DRAM 供应紧张将持续至 2028 年，此次最新表态意味着这一预期进一步延长"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -99,13 +99,13 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
       "id": "04147e76e96e",
-      "title": "Chess.com 推出了扑克网站并正在计划推出更多经典游戏",
+      "title": "Chess.com launched a poker site, and it’s planning even more classic games",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -124,7 +124,7 @@
     },
     {
       "id": "38bef5d92f85",
-      "title": "南希·格蕾丝·罗马太空望远镜发射升空以研究暗物质和暗能量",
+      "title": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -133,11 +133,11 @@
       "sourceUrl": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch",
       "published": "2026-08-30T16:36:39+00:00",
       "summary": [
-        "经过资金斗争和更名后，南希·格雷斯·罗马太空望远镜已成功发射。现在它将进行为期三个月、一分钟的"
+        "After funding struggles and a name change, the Nancy Grace Roman Space Telescope has been successfully launched. It will now make a three-month, one-million-mile journey to its orbit at the second Sun-Earth Lagrange point (L2) beyond the Moon. From this vantage point, Roman will conduct an unprecedented survey of the universe. Its field of view [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 7
     }
