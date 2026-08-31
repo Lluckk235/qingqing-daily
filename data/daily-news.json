@@ -1,12 +1,31 @@
 {
   "date": "2026-08-31",
-  "generated": "2026-08-31T00:01:54.450896+08:00",
-  "total": 9,
+  "generated": "2026-08-31T11:36:17.461659+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "52c9c06d26cc",
+      "title": "《谋杀教授乘坐地铁》是朋克舞蹈中被遗忘的完美片段",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review",
+      "published": "2026-08-30T21:18:59+00:00",
+      "summary": [
+        "我最近翻出了我的 CD 并开始重新翻录它们。我在那里发现了一些被遗忘的宝石，但对我来说，没有什么比美丽的骗局更让我震惊的了"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
       "id": "e4de3653e651",
-      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "title": "Caterpillar 正在将其从自动化采矿中学到的知识引入人工智能部署",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -15,26 +34,7 @@
       "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
       "published": "2026-08-30T15:00:00+00:00",
       "summary": [
-        "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "698656d72c29",
-      "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-      "published": "2026-08-29T17:51:10+00:00",
-      "summary": [
-        "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI."
+        "卡特彼勒花费了数十年的时间让自动化机器在偏远的采矿现场工作。现在，它正在将这种经验带入人工智能部署中。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,107 +43,69 @@
       "rank": 2
     },
     {
-      "id": "6c5ad9ec38f8",
-      "title": "An implementation of Conway's Game of Life for Windows 3.1x and later",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "muppetlabs.com",
-      "sourceUrl": "https://www.muppetlabs.com/~breadbox/software/windows.html",
-      "published": "2026-08-30T11:41:40+00:00",
+      "id": "67389318ad3f",
+      "title": "TechCrunch Mobility：机器人出租车隐藏的人力成本",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/",
+      "published": "2026-08-30T16:03:00+00:00",
       "summary": [
-        "Comments"
+        "欢迎回到 TechCrunch Mobility，这里是未来交通运输的中心，而现在，人工智能在其中发挥的作用比以往任何时候都更加重要。"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "618b970723bd",
-      "title": "The Galaxy Z Flip 8 is at its best when there’s friction",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
-      "published": "2026-08-29T13:00:00+00:00",
-      "summary": [
-        "What do you want from a flip phone when it's closed? A simple interface, perhaps notifications and a widget or two, for handling the basics? Or a fully fledged Android experience shrunk down for the Flip form factor? For years, Samsung has insisted on the former, even as some fans - and Razr rival Motorola [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "740a1490cb55",
-      "title": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
+      "id": "d417060ee662",
+      "title": "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369556",
-      "published": "2026-08-30T10:58:17+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369517",
+      "published": "2026-08-31T01:14:19+00:00",
       "summary": [
-        "这道题过去只属于硬件创业者，这个八月，它摆到了所有软件公司桌上",
-        "Hugging Face 交卷一只走路摇摇晃晃的鸭子，OpenAI 正在造自己的智能音箱，字节跳动旗下 TRAE 联名 FoloToy 开始改造自己挂在胸口的工牌",
-        "很明显，软件公司造硬件的思路完全不同，他们想要的不是好用，而是主动以及可见"
+        "作者｜Moonshot 编辑｜郑玄 8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-code 0.38.0",
+        "没有发布会，也没有新闻稿",
+        "但这条信息，被我通过千问部署的一个定时任务「捕获」了"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 4
     },
     {
-      "id": "9b6fdbfb73a1",
-      "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
+      "id": "90d762922cbc",
+      "title": "折叠屏的尽头，是不折叠：华为 Pura X View 体验",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/996/252.htm",
-      "published": "2026-08-30T15:30:38+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/369558",
+      "published": "2026-08-30T20:25:08+00:00",
       "summary": [
-        "IT之家 8 月 30 日消息，彭博社记者马克 · 古尔曼今天在最新一期《Power On》通讯中重申，苹果 AirPods 5 耳机最早将在今年 9 月发布",
-        "据介绍，苹果 AirPods 5 将与 iPhone 18 Pro / Pro Max、折叠屏 iPhone、Apple Watch Series 12、Apple Watch Ultra 4 一同亮相",
-        "同时，苹果预计将在 10 月底之前推出新款 iPad mini"
+        "阔直板不是「发明」，是用户投出来的票 作者｜张勇毅 编辑｜靖宇 Pura X View 到办公室的第一天，来围观的同事，好几个人的第一反应是同一句话「这个尺寸有点像曾经的黑莓手机」",
+        "华为 Pura X View 实机，是一个直屏手机前所未见的尺寸｜图片来源：极客公园 我理解这个联想：方方正正一块宽屏，确实像那个年代的东西",
+        "但用了一周之后，我觉得「像黑莓」是个无心插柳的结果"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "e10c0e906ea4",
-      "title": "Welcome to Night Vale cocreator Joseph Fink learned storytelling from Grim Fandango",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/983448/welcome-to-night-vale-cocreator-joseph-fink-learned-storytelling-from-grim-fandango",
-      "published": "2026-08-29T15:00:00+00:00",
-      "summary": [
-        "Joseph Fink is the cocreator and cowriter of Welcome to Night Vale, arguably the most important fiction podcast ever. He's also the creator of the noir podcast Unlicensed and Alice Isn't Dead, which takes some of the conspiratorial cosmic horror of Night Vale and turns it into fodder for a more serious series about relationships, [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "04147e76e96e",
-      "title": "Chess.com launched a poker site and is planning even more classic games",
+      "title": "Chess.com 推出了扑克网站并正在计划推出更多经典游戏",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -152,32 +114,32 @@
       "sourceUrl": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
       "published": "2026-08-30T13:00:00+00:00",
       "summary": [
-        "Chess.com has done one thing, and one thing very well, for almost 20 years, but now it's going beyond its domain name. The biggest name in online chess quietly launched its first companion site in beta back in May: Gambit, a free online poker website where players can learn the game without risking any real [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "6298096aef23",
-      "title": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
-      "published": "2026-08-29T20:59:26+00:00",
-      "summary": [
-        "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing [&#8230;]"
+        "近 20 年来，Chess.com 一直在做一件事，而且做得很好，但现在它的范围已经超出了其域名的范围。在线国际象棋界最知名的人物"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 6
+    },
+    {
+      "id": "38bef5d92f85",
+      "title": "南希·格蕾丝·罗马太空望远镜发射升空以研究暗物质和暗能量",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch",
+      "published": "2026-08-30T16:36:39+00:00",
+      "summary": [
+        "经过资金斗争和更名后，南希·格雷斯·罗马太空望远镜已成功发射。现在它将进行为期三个月、一分钟的"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 7
     }
   ]
 }
