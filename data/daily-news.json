@@ -1,63 +1,63 @@
 {
-  "date": "2026-09-01",
-  "generated": "2026-09-01T17:09:57.221043+08:00",
+  "date": "2026-09-02",
+  "generated": "2026-09-02T00:03:05.542494+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "9be77c63baa9",
-      "title": "VLC crosses 7 billion downloads",
+      "id": "c1ca73e96e07",
+      "title": "下载：农作物工程微生物以及 OpenAI 的培养问题",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
-      "published": "2026-08-31T16:07:46+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
+      "published": "2026-09-01T12:10:00+00:00",
       "summary": [
-        "在我们这个昂贵的流媒体平台世界中，非常免费的离线 VLC 媒体播放器的下载量已突破 70 亿次。"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "e985a8c11fb3",
-      "title": "Hugging Face 黑客事件可能表明 OpenAI 存在文化问题",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "published": "2026-08-31T18:00:00+00:00",
-      "summary": [
-        "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你已经"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "77b770af978c",
-      "title": "五角大楼现在拥有自己的 ChatGPT 和 Grok 版本",
+      "id": "fd6ea7e03b18",
+      "title": "AIR 筹集了 5000 万美元，帮助公司审查人工智能代理使用的技能和附加组件",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "published": "2026-08-31T20:13:45+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "published": "2026-09-01T15:45:51+00:00",
       "summary": [
-        "OpenAI 的 ChatGPT 和 SpaceXAI 的 Grok 版本将与谷歌的 Gemini 一起出现在五角大楼的人工智能工具中央门户上。"
+        "AIR 的平台可以发现在公司运行的代理，持续审查他们使用的任何技能和附加组件，并阻止任何不需要的行为。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "9995525a4599",
+      "title": "Google Pics 就像 Canva，但具有更多人工智能",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": [
+        "谷歌为Workspace用户推出了一套新的创意设计工具，名为Google Pics，旨在使编辑和生成“专业级”"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
@@ -83,18 +83,19 @@
       "rank": 4
     },
     {
-      "id": "9e6df970dfa8",
-      "title": "线下活动 | 全新 iPhone 发布在即，来与少数派一起看 Apple 发布会",
+      "id": "0f720461aacc",
+      "title": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114071",
-      "published": "2026-09-01T07:18:43+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/997/187.htm",
+      "published": "2026-09-01T15:53:15+00:00",
       "summary": [
-        "北京时间9月10日凌晨，Apple一年一度的秋季特别活动即将拉开帷幕，我们会在Keynote讲演环节中见到新一年度的iPhone、AppleWatch等多个新品",
-        "除了备受期待的iPhone18Pro系 ...查看全文"
+        "IT之家 9 月 1 日消息，今天（1 日）晚间，刚刚正式就任苹果公司 CEO 的约翰 · 特努斯（John Ternus）入驻 X 平台和微博，并分别发布了首条博文“hello”和“你好 hello”",
+        "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员",
+        "与此同时，蒂姆 · 库克正式卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -103,8 +104,27 @@
       "rank": 5
     },
     {
+      "id": "a4bc7c87b045",
+      "title": "印度 Unacademy 以 2.06 亿美元的价格出售给竞争对手 upGrad，比其最高估值低约 94%",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/indias-unacademy-sells-to-rival-upgrad-for-206m-about-94-less-than-its-peak-valuation/",
+      "published": "2026-09-01T13:58:42+00:00",
+      "summary": [
+        "Unacademy 联合创始人兼首席执行官 Gaurav Munjal 写道：“我们筹集的资金达到了峰值，但销售价格仅为峰值的一小部分。” “我不会粉饰这些事实。”"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
       "id": "9418f10eb336",
-      "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
+      "title": "据报道，Polymarket 从小唐纳德·特朗普的投资基金筹集了 3 亿美元",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -117,64 +137,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "3f74c2a36382",
-      "title": "Ryan Breslow 将筹集高达 2700 万美元的付费过桥资金来拯救博尔特",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/ryan-breslow-is-raising-up-to-27m-in-pay-to-play-bridge-funding-to-save-bolt/",
-      "published": "2026-08-31T17:14:44+00:00",
-      "summary": [
-        "这家曾经估值 110 亿美元的结账初创公司颇受争议，其创始人现在自掏腰包投入 500 万美元。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
       "score": 4,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "adb889f719c4",
-      "title": "我在 Apple Vision Pro 上观看了最孤​​独的棒球比赛",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game",
-      "published": "2026-08-31T21:18:27+00:00",
-      "summary": [
-        "这个周末，我第一次戴上 Apple Vision Pro 在沉浸式虚拟现实中观看棒球比赛。这在技术上令人印象深刻"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "2d298b6ce5a1",
-      "title": "麦格纳 (Magna) 加大对印度电池更换的押注，为尤马 (Yuma) 投资 3500 万美元",
+      "id": "4b8238ed7901",
+      "title": "Amazon Alexa 现在可以在新商品可能吸引您购物时提醒您",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
-      "published": "2026-09-01T05:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+      "published": "2026-09-01T15:51:55+00:00",
       "summary": [
-        "随着加拿大汽车供应商尤马能源公司增加其在印度电池交换公司的多数股权，麦格纳对尤马能源公司的投资已达 8700 万美元。"
+        "亚马逊正在添加一项由 Alexa 支持的新功能，名为“Update Me When”，该功能可以发送有关产品发布、旅游、书籍、节目等的个性化提醒。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "89d9a3201759",
+      "title": "蒂姆·库克的遗产不仅仅是手机，还有政治",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/987356/tim-cook-apple-trump-xi",
+      "published": "2026-09-01T13:51:02+00:00",
+      "summary": [
+        "正如蒂姆·库克在担任首席执行官期间发布的任何苹果产品一样，蒂姆·库克的任期将因其无情、高效的走钢丝而被人们铭记。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
     }
