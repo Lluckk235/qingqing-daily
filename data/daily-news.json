@@ -1,12 +1,12 @@
 {
   "date": "2026-09-01",
-  "generated": "2026-09-01T11:33:14.204820+08:00",
+  "generated": "2026-09-01T17:09:57.221043+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
       "id": "9be77c63baa9",
-      "title": "VLC 下载量突破 70 亿次",
+      "title": "VLC crosses 7 billion downloads",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,23 +78,23 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "90c94b570980",
-      "title": "派早报：OpenClaw 推出 2.0 版本更新，网易 CC 直播正式停运等",
+      "id": "9e6df970dfa8",
+      "title": "线下活动 | 全新 iPhone 发布在即，来与少数派一起看 Apple 发布会",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114055",
-      "published": "2026-09-01T00:17:20+00:00",
+      "sourceUrl": "https://sspai.com/post/114071",
+      "published": "2026-09-01T07:18:43+00:00",
       "summary": [
-        "少数派的近期动态能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线",
-        "点击了解你可能错过的文章全球仅剩三位数的物种，科学家却连一个准数都数不出来屏幕之外，桌面之上 ...查看全文"
+        "北京时间9月10日凌晨，Apple一年一度的秋季特别活动即将拉开帷幕，我们会在Keynote讲演环节中见到新一年度的iPhone、AppleWatch等多个新品",
+        "除了备受期待的iPhone18Pro系 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -103,29 +103,8 @@
       "rank": 5
     },
     {
-      "id": "befcb6e78515",
-      "title": "2026 年 8 月汽车销量 / 交付汇总（持续更新）：零跑汽车交付量再破 10 万辆，上汽通用五菱全球销量超 13 万辆",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/996/723.htm",
-      "published": "2026-09-01T00:47:37+00:00",
-      "summary": [
-        "IT之家 9 月 1 日消息，各大车企今日起陆续交出了 2026 年 8 月份销量、交付量的成绩单，IT之家为大家实时更新和汇总如下",
-        "上汽通用五菱：130,870 辆（备注：海外累计销量已超 160 万）",
-        "零跑汽车：103,129 辆，同比增长 80.7%（备注：按近期可比终端上牌数量，零跑位列全球新能源乘用车品牌前四、中国新能源乘用车品牌前三）"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
       "id": "9418f10eb336",
-      "title": "据报道，Polymarket 从小唐纳德·特朗普的投资基金筹集了 3 亿美元",
+      "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -138,9 +117,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "3f74c2a36382",
@@ -157,26 +136,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "adb889f719c4",
+      "title": "我在 Apple Vision Pro 上观看了最孤​​独的棒球比赛",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game",
+      "published": "2026-08-31T21:18:27+00:00",
+      "summary": [
+        "这个周末，我第一次戴上 Apple Vision Pro 在沉浸式虚拟现实中观看棒球比赛。这在技术上令人印象深刻"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "4dbcaf3b5466",
-      "title": "随着首席执行官蒂姆·库克(Tim Cook)的卸任，苹果应用商店最高执行官菲尔·席勒(Phil Schiller)跟随退出浪潮",
+      "id": "2d298b6ce5a1",
+      "title": "麦格纳 (Magna) 加大对印度电池更换的押注，为尤马 (Yuma) 投资 3500 万美元",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
-      "published": "2026-08-31T19:02:06+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
+      "published": "2026-09-01T05:00:00+00:00",
       "summary": [
-        "这位长期担任苹果高管的高管目前还不会离开苹果，但该公司的员工表示，席勒离退休又近了一步。"
+        "随着加拿大汽车供应商尤马能源公司增加其在印度电池交换公司的多数股权，麦格纳对尤马能源公司的投资已达 8700 万美元。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 9
     }
