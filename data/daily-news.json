@@ -1,47 +1,9 @@
 {
   "date": "2026-09-01",
-  "generated": "2026-09-01T02:45:20.062626+08:00",
+  "generated": "2026-09-01T11:33:14.204820+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "e985a8c11fb3",
-      "title": "拥抱脸部黑客行为可能表明 OpenAI 存在文化问题",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "published": "2026-08-31T18:00:00+00:00",
-      "summary": [
-        "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你已经"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "70a677766176",
-      "title": "Nvidia 的 $3.5B 押注联发科揭示了其应对大型科技公司 AI 芯片建设的计划",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "published": "2026-08-31T15:15:25+00:00",
-      "summary": [
-        "Nvidia 向台湾芯片制造商联发科投资 35 亿美元。这笔交易表明，随着大型科技公司的崛起，英伟达计划如何继续保持对人工智能基础设施的重要地位。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "9be77c63baa9",
       "title": "VLC 下载量突破 70 亿次",
@@ -57,7 +19,45 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "e985a8c11fb3",
+      "title": "Hugging Face 黑客事件可能表明 OpenAI 存在文化问题",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "published": "2026-08-31T18:00:00+00:00",
+      "summary": [
+        "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你已经"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "77b770af978c",
+      "title": "五角大楼现在拥有自己的 ChatGPT 和 Grok 版本",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "published": "2026-08-31T20:13:45+00:00",
+      "summary": [
+        "OpenAI 的 ChatGPT 和 SpaceXAI 的 Grok 版本将与谷歌的 Gemini 一起出现在五角大楼的人工智能工具中央门户上。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,30 +78,69 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "90d762922cbc",
-      "title": "折叠屏的尽头，是不折叠：华为 Pura X View 体验",
+      "id": "90c94b570980",
+      "title": "派早报：OpenClaw 推出 2.0 版本更新，网易 CC 直播正式停运等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369558",
-      "published": "2026-08-30T20:25:08+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114055",
+      "published": "2026-09-01T00:17:20+00:00",
       "summary": [
-        "阔直板不是「发明」，是用户投出来的票 作者｜张勇毅 编辑｜靖宇 Pura X View 到办公室的第一天，来围观的同事，好几个人的第一反应是同一句话「这个尺寸有点像曾经的黑莓手机」",
-        "华为 Pura X View 实机，是一个直屏手机前所未见的尺寸｜图片来源：极客公园 我理解这个联想：方方正正一块宽屏，确实像那个年代的东西",
-        "但用了一周之后，我觉得「像黑莓」是个无心插柳的结果"
+        "少数派的近期动态能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线",
+        "点击了解你可能错过的文章全球仅剩三位数的物种，科学家却连一个准数都数不出来屏幕之外，桌面之上 ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "befcb6e78515",
+      "title": "2026 年 8 月汽车销量 / 交付汇总（持续更新）：零跑汽车交付量再破 10 万辆，上汽通用五菱全球销量超 13 万辆",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/996/723.htm",
+      "published": "2026-09-01T00:47:37+00:00",
+      "summary": [
+        "IT之家 9 月 1 日消息，各大车企今日起陆续交出了 2026 年 8 月份销量、交付量的成绩单，IT之家为大家实时更新和汇总如下",
+        "上汽通用五菱：130,870 辆（备注：海外累计销量已超 160 万）",
+        "零跑汽车：103,129 辆，同比增长 80.7%（备注：按近期可比终端上牌数量，零跑位列全球新能源乘用车品牌前四、中国新能源乘用车品牌前三）"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "id": "9418f10eb336",
+      "title": "据报道，Polymarket 从小唐纳德·特朗普的投资基金筹集了 3 亿美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/polymarket-reportedly-raises-300-million-from-donald-trump-jr-s-investment-fund/",
+      "published": "2026-08-31T23:41:10+00:00",
+      "summary": [
+        "该轮融资由 1789 Capital 领投，据称融资总额约为 10 亿美元。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
     },
     {
       "id": "3f74c2a36382",
@@ -118,64 +157,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "aef2005b6692",
-      "title": "康拉德祖斯博物馆因缺乏资金而关闭",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "Hacker News",
-      "sourceDomain": "heise.de",
-      "sourceUrl": "https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html",
-      "published": "2026-08-31T16:52:35+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "c4d6a3aafc83",
-      "title": "车主想要他们可以忽视的技术",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/986721/car-tech-survey-jd-power-smart-ignition",
-      "published": "2026-08-31T17:11:17+00:00",
-      "summary": [
-        "尽管有证据表明消费者越来越厌倦巨大的屏幕和有问题的软件，但汽车制造商仍在不断将更多技术融入他们的汽车中。在"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "64654f7443aa",
-      "title": "菲尔·席勒 (Phil Schiller) 将辞去苹果公司最重要的工作",
+      "id": "4dbcaf3b5466",
+      "title": "随着首席执行官蒂姆·库克(Tim Cook)的卸任，苹果应用商店最高执行官菲尔·席勒(Phil Schiller)跟随退出浪潮",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/986869/apple-phil-schiller-stepping-down",
-      "published": "2026-08-31T16:54:07+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/08/31/apples-top-app-store-exec-phil-schiller-follows-wave-of-exits-as-ceo-tim-cook-steps-down/",
+      "published": "2026-08-31T19:02:06+00:00",
       "summary": [
-        "据彭博社报道，长期担任苹果公司高管的菲尔·席勒 (Phil Schiller) 将辞去 App Store 和苹果活动负责人的职务。"
+        "这位长期担任苹果高管的高管目前还不会离开苹果，但该公司的员工表示，席勒离退休又近了一步。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     }
