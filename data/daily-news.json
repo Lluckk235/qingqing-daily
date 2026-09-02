@@ -1,9 +1,66 @@
 {
   "date": "2026-09-02",
-  "generated": "2026-09-02T16:22:55.218789+08:00",
-  "total": 8,
+  "generated": "2026-09-02T23:57:41.436179+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "fdfd47cb2716",
+      "title": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+      "published": "2026-09-02T12:10:00+00:00",
+      "summary": [
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "86623607f60a",
+      "title": "谷歌正将配备人工智能的 MrBeast 送入荒野",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+      "published": "2026-09-02T15:47:03+00:00",
+      "summary": [
+        "作为与 Google 多年合作关系的一部分，MrBeast 将在即将发布的视频中介绍 Gemini、Google Health 和 Fitbit Air。交易即将启动"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "45920ada7bdc",
+      "title": "PSA：亚马逊的购物人工智能现在可以告诉你该消息是否是骗局",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+      "published": "2026-09-02T14:56:34+00:00",
+      "summary": [
+        "亚马逊正在为 Alexa for Shopping 添加诈骗检测功能，该功能可以验证可疑电子邮件、短信和其他消息是否确实来自"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
     {
       "id": "c1ca73e96e07",
       "title": "下载：农作物工程微生物以及 OpenAI 的培养问题",
@@ -19,47 +76,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "be7c65afeb75",
-      "title": "OpenAI 的 Astra 模型正在开发中——并且非常擅长闯入计算机系统",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "published": "2026-09-01T21:06:24+00:00",
-      "summary": [
-        "OpenAI 预览了在准备发布其最新的网络关键法学硕士 Astra 时所采取的预防措施。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "92c143645779",
-      "title": "Anthropic 推出 Claude Fable 5.1，并表示代理工作的成本最高可降低 45%",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-      "published": "2026-09-01T22:01:36+00:00",
-      "summary": [
-        "Anthropic 表示，其最新的人工智能模型 Fable 5.1 和 Mythos 5.1 解决了客户对价格、数据保留和过度热心保护的批评"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "f8ecdf78afe3",
@@ -78,28 +97,29 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
     },
     {
-      "id": "4923a7c96168",
-      "title": "一日一技 | 借助 PowerShell 自定义 Windows 更新暂停时间",
+      "id": "141c5835c48e",
+      "title": "折叠屏 iPhone、新款 HomePod…… Apple 发布会有哪些看点？",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/80562",
-      "published": "2026-09-02T07:22:27+00:00",
+      "sourceUrl": "https://sspai.com/post/114084",
+      "published": "2026-09-02T09:40:56+00:00",
       "summary": [
-        "Windows 下的累计更新会修复大量的安全漏洞，虽然可以暂停更新但是最长只能暂停 35 天，35 天后 Windows 电脑就要强行帮你更新了，而本文介绍了一种突破暂停最大时间的方法"
+        "上周，Apple公布了今年秋季发布会的时间和主题，这场名为「Surpriseandshine」的发布会将于北京时间9月10日凌晨一点在ApplePark举行",
+        "与过去两年的秋季发布会不同，今年的「科技春 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "5affd8334bf8",
@@ -118,9 +138,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "id": "660349341cc2",
+      "title": "挪威考虑禁止带有摄像头的可穿戴“变态眼镜”",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/02/norway-considers-ban-on-camera-enabled-wearable-pervert-glasses/",
+      "published": "2026-09-02T13:11:47+00:00",
+      "summary": [
+        "这个北欧国家表示，鉴于可穿戴摄像耳机存在隐私风险，需要对其进行监管。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "a6c4d5f8283c",
@@ -137,9 +176,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "62b6270ed2a9",
@@ -156,9 +195,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     }
   ]
 }
