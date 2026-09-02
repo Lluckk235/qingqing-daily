@@ -1,9 +1,47 @@
 {
   "date": "2026-09-02",
-  "generated": "2026-09-02T00:03:05.542494+08:00",
-  "total": 9,
+  "generated": "2026-09-02T10:51:10.779407+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "be7c65afeb75",
+      "title": "OpenAI 的 Astra 模型正在开发中——并且非常擅长闯入计算机系统",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "published": "2026-09-01T21:06:24+00:00",
+      "summary": [
+        "OpenAI 预览了在准备发布其最新的网络关键法学硕士 Astra 时所采取的预防措施。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "92c143645779",
+      "title": "Anthropic 推出 Claude Fable 5.1，并表示代理工作的成本最高可降低 45%",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "published": "2026-09-01T22:01:36+00:00",
+      "summary": [
+        "Anthropic 表示，其最新的人工智能模型 Fable 5.1 和 Mythos 5.1 解决了客户对价格、数据保留和过度热心保护的批评"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "c1ca73e96e07",
       "title": "下载：农作物工程微生物以及 OpenAI 的培养问题",
@@ -19,83 +57,45 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "fd6ea7e03b18",
-      "title": "AIR 筹集了 5000 万美元，帮助公司审查人工智能代理使用的技能和附加组件",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-      "published": "2026-09-01T15:45:51+00:00",
-      "summary": [
-        "AIR 的平台可以发现在公司运行的代理，持续审查他们使用的任何技能和附加组件，并阻止任何不需要的行为。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "9995525a4599",
-      "title": "Google Pics 就像 Canva，但具有更多人工智能",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
-      "published": "2026-09-01T16:00:00+00:00",
-      "summary": [
-        "谷歌为Workspace用户推出了一套新的创意设计工具，名为Google Pics，旨在使编辑和生成“专业级”"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "4d6f3c466d8e",
-      "title": "AirPods 5 或将于 9 月发布；17.6 万，特斯拉港澳车型降价；「网抑云」登陆鸿蒙系统｜极客早知道",
+      "id": "f0702a2ac0e7",
+      "title": "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369559",
-      "published": "2026-08-31T08:40:03+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/997/260.htm",
+      "published": "2026-09-02T02:45:41+00:00",
       "summary": [
-        "SK 海力士 CEO：内存短缺或将持续至 2030 年 SK 海力士预计，当前的内存短缺局面可能会持续到 2030 年底，市场目前尚未出现明显的需求放缓迹象",
-        "SK 海力士首席执行官郭鲁勋在公司位于美国印第安纳州的新封装工厂奠基仪式后表示，即使未来市场开始降温，也更可能表现为供应紧张状况逐步缓解，而不是像过去那样出现内存价格突然崩跌的情况",
-        "该公司此前曾预计，面向普通市场的 DRAM 供应紧张将持续至 2028 年，此次最新表态意味着这一预期进一步延长"
+        "IT之家 9 月 2 日消息，中国人民大学 8 月 21 日宣布率先在高校开办“家长学堂”，探索 AI 时代高校家校社协同育人模式",
+        "活动以线上线下相结合形式举办，7,000 余名新生家长在线收看全程直播",
+        "教育部思想政治工作司副司长丁红星表示，以人工智能为代表的新技术正塑造着青年的价值观念，思政教育和家庭沟通方式亟待更新"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "0f720461aacc",
-      "title": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
+      "id": "5affd8334bf8",
+      "title": "苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/997/187.htm",
-      "published": "2026-09-01T15:53:15+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/369690",
+      "published": "2026-09-02T00:13:21+00:00",
       "summary": [
-        "IT之家 9 月 1 日消息，今天（1 日）晚间，刚刚正式就任苹果公司 CEO 的约翰 · 特努斯（John Ternus）入驻 X 平台和微博，并分别发布了首条博文“hello”和“你好 hello”",
-        "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员",
-        "与此同时，蒂姆 · 库克正式卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务"
+        "​ 苹果新任 CEO 约翰&middot;特努斯在 X 平台发布首条动态向关注者问好 苹果首席执行官约翰&middot;特努斯正式加入社交平台 X，并发布了个人账号的首条动态",
+        "正如外界预料的那样，这条仅有「hello」五个字母的简短消息迅速获得大量关注",
+        "苹果历任首席执行官通常都具备一定的社交属性，而在当代，这往往也意味着拥有社交媒体账号"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -104,80 +104,61 @@
       "rank": 5
     },
     {
-      "id": "a4bc7c87b045",
-      "title": "印度 Unacademy 以 2.06 亿美元的价格出售给竞争对手 upGrad，比其最高估值低约 94%",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/01/indias-unacademy-sells-to-rival-upgrad-for-206m-about-94-less-than-its-peak-valuation/",
-      "published": "2026-09-01T13:58:42+00:00",
+      "id": "dbde9fc2fb74",
+      "title": "派早报：英伟达正式发布 DLSS 5、戴森发布智能电动牙刷 CameraJet 等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114093",
+      "published": "2026-09-01T23:58:40+00:00",
       "summary": [
-        "Unacademy 联合创始人兼首席执行官 Gaurav Munjal 写道：“我们筹集的资金达到了峰值，但销售价格仅为峰值的一小部分。” “我不会粉饰这些事实。”"
+        "索尼发布三款 ULT Tower 派对音箱，Starman Optical 收购 GoPro 等"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "9418f10eb336",
-      "title": "据报道，Polymarket 从小唐纳德·特朗普的投资基金筹集了 3 亿美元",
+      "id": "a6c4d5f8283c",
+      "title": "据报道，AfterQuery 成为 Y Combinator 有史以来最快的独角兽，目前估值为 $3.2B",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/08/31/polymarket-reportedly-raises-300-million-from-donald-trump-jr-s-investment-fund/",
-      "published": "2026-08-31T23:41:10+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "published": "2026-09-01T22:08:24+00:00",
       "summary": [
-        "该轮融资由 1789 Capital 领投，据称融资总额约为 10 亿美元。"
+        "据报道，人工智能模型训练初创公司 AfterQuery 已完成一轮融资，估值达 32 亿美元，距离宣布融资 3000 万美元仅五个月。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "4b8238ed7901",
-      "title": "Amazon Alexa 现在可以在新商品可能吸引您购物时提醒您",
+      "id": "62b6270ed2a9",
+      "title": "谷歌的 Android 更新解决了晕动症、无障碍等问题",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
-      "published": "2026-09-01T15:51:55+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "published": "2026-09-01T20:53:05+00:00",
       "summary": [
-        "亚马逊正在添加一项由 Alexa 支持的新功能，名为“Update Me When”，该功能可以发送有关产品发布、旅游、书籍、节目等的个性化提醒。"
+        "虽然谷歌在某些功能上正在追赶苹果，后者已经为 iPhone 用户提供了类似的功能，但其他一些功能则专门利用"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
       "rank": 8
-    },
-    {
-      "id": "89d9a3201759",
-      "title": "蒂姆·库克的遗产不仅仅是手机，还有政治",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/987356/tim-cook-apple-trump-xi",
-      "published": "2026-09-01T13:51:02+00:00",
-      "summary": [
-        "正如蒂姆·库克在担任首席执行官期间发布的任何苹果产品一样，蒂姆·库克的任期将因其无情、高效的走钢丝而被人们铭记。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
     }
   ]
 }
