@@ -1,9 +1,47 @@
 {
   "date": "2026-09-03",
-  "generated": "2026-09-03T10:54:56.524730+08:00",
-  "total": 12,
+  "generated": "2026-09-03T16:32:19.452209+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "e2bf9741ed62",
+      "title": "Anker 的全新 MindBase 是一款适用于智能家居的人工智能大脑",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/987936/anker-eufy-mindbase-ai-security-camera-system-matter",
+      "published": "2026-09-03T07:30:00+00:00",
+      "summary": [
+        "Anker 正在推出 Eufy MindBase，这是一个针对其安全摄像头的本地人工智能中心，运行设备上由 Anker 开发的法学硕士，该公司表示可以"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "fdfd47cb2716",
+      "title": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+      "published": "2026-09-02T12:10:00+00:00",
+      "summary": [
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "45920ada7bdc",
       "title": "PSA：亚马逊的购物人工智能现在可以告诉你该消息是否是骗局",
@@ -19,108 +57,49 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "03845e33c436",
-      "title": "看来黑客确实入侵了一项主要的身份证验证服务",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
-      "published": "2026-09-02T19:35:09+00:00",
-      "summary": [
-        "一个身份盗用搜索网站声称有超过 1.5 亿张驾照照片从身份验证服务中被盗。犯罪现场有"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "373be5400612",
-      "title": "OpenAI 的新推理技术给人工智能安全专家敲响了警钟",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "published": "2026-09-02T20:19:14+00:00",
-      "summary": [
-        "OpenAI 的新 Astra 模型将使用“循环深度”技术，该技术允许模型在顺序思维之外运行"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "b567a13a8234",
-      "title": "Pangram 的 Max Spero 解释了为什么人工智能检测比“真假”更难",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-      "published": "2026-09-02T17:18:13+00:00",
+      "id": "0709996c04ba",
+      "title": "Anker 的睡眠音箱利用雷达和花能来帮助你放松",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/985689/anker-put-radar-and-flower-power-into-a-sleep-speaker",
+      "published": "2026-09-03T07:30:00+00:00",
       "summary": [
-        "互联网存在信任问题，这不仅仅是因为社交媒体中充斥着人工智能的垃圾。 AI生成的文本和图像"
+        "Anker 的 SleepLab 扬声器承诺无需可穿戴设备即可跟踪和改善睡眠。它使用毫米波雷达 (60GHz) 从您的床头柜发射"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "68086ed3f267",
-      "title": "CDPR 2026H1 营收 4.35 亿兹罗提，《巫师》系列累计销量超 9000 万份",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/997/820.htm",
-      "published": "2026-09-03T02:54:46+00:00",
-      "summary": [
-        "IT之家 9 月 3 日消息，CD PROJEKT RED 当地时间 2 日公布了其 2026 年上半年财务数据",
-        "这家波兰游戏企业在今年前六个月实现了 4.35 亿兹罗提（IT之家注：现汇率约合 7.82 亿元人民币）的营业收入，同比增长 23%；合并净利润 2.49 亿兹罗提（现汇率约合 4.48 亿元人民币），同比增长 37%，净利润率 57%",
-        "《巫师》系列累计销量超 9000 万份，《巫师 3：狂猎 — 重制版》《巫师 3：狂猎 — 旧时曲》《巫师 4》将在近三年以每年一部的速率逐年推出"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "76b89ffa991f",
-      "title": "马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道",
+      "id": "e228d08d1e5a",
+      "title": "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369745",
-      "published": "2026-09-03T00:03:32+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369768",
+      "published": "2026-09-03T06:05:37+00:00",
       "summary": [
-        "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景 9 月 2 日消息，谷歌在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型",
-        "其基于 Gemini 3.7 Flash，拥有在软件工程和智能体知识工作流方面的性能提升，并持续支持可定制的努力水平，以控制质量、成本和延迟的组合",
-        "Gemini 3.8 Flash 基于 Gemini 3.7 Flash，具有最高 1M 的 token 上下文窗口，文本支持 64K token 输出"
+        "&nbsp; 头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注，智元机器人等机构先后进入股东名单；到了今年 7 月，招商局创投又领投了它的新一轮融资",
+        "这家公司叫 Fullive.ai，创始人郑昊本科就读于清华数学系，此后一路跨过生物统计、因果推断、AI、医学和硬科技投资；联合创始人韦骁龙来自北大计算机，此前曾在华为、荣耀负责消费电子产品",
+        "团队里还有参与过华为手环、WHOOP 等穿戴设备的硬件人员，以及来自百度、大疆等公司的算法和商业化老兵"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "5affd8334bf8",
@@ -141,7 +120,7 @@
       "tags": [],
       "score": 5.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "6a8c3da4a5c8",
@@ -158,28 +137,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "12fe1010dc09",
-      "title": "1Password 在资助 Linux 项目后陷入右翼混乱",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/988536/1password-dhh-linux-controversy",
-      "published": "2026-09-02T18:48:14+00:00",
-      "summary": [
-        "1Password 本周因承诺提供 30 万美元支持 David Heinemeier Hansson 创建的 Linux 发行版而立即遭到客户强烈反对。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "660349341cc2",
@@ -198,26 +158,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "101122351360",
-      "title": "Uber 击败 Waymo 成为伦敦首个推出机器人出租车的公司",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/988415/uber-wayve-robotaxi-london-launch",
-      "published": "2026-09-02T23:00:00+00:00",
-      "summary": [
-        "Uber 击败 Waymo，在伦敦推出了该市首个商业机器人出租车服务。这些车辆使用 Wayv 开发的自动驾驶技术"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 11
+      "rank": 8
     },
     {
       "id": "274217258fd9",
@@ -234,9 +175,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 9
+    },
+    {
+      "id": "0450dab4b004",
+      "title": "贝尔金的首款追踪器已准备好连接到您的装备上。",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/987565/belkin-tracker-apple-find-my-google-find-hub-surefind-wallet-card-spot-tag",
+      "published": "2026-09-03T08:00:00+00:00",
+      "summary": [
+        "在销售用于将苹果 AirTags 连接到从钥匙到背包等各种物品的配件后，贝尔金推出了自己的追踪器，可与 ei 配合使用"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
