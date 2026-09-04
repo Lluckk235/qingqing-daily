@@ -1,124 +1,164 @@
 {
-  "date": "2026-09-03",
-  "generated": "2026-09-03T23:46:28.501403+08:00",
+  "date": "2026-09-04",
+  "generated": "2026-09-04T10:54:11.593599+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "71b717fc0c56",
-      "title": "ChatGPT、Grok、Claude 同时宕机",
+      "id": "f1f94c405560",
+      "title": "Abliteration.ai 正在通过拆除人工智能护栏来做生意",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "published": "2026-09-03T15:35:14+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "published": "2026-09-03T18:37:57+00:00",
       "summary": [
-        "OpenAI 的 ChatGPT、xAI 的 Grok 和 Anthropic 的 Claude 都遇到了问题。美国东部时间上午 11 点左右，ChatGPT 开始向用户返回错误消息"
+        "Abliteration.AI 正在使没有护栏的强大人工智能模型更容易访问，认为为防御者提供与不良行为者相同的工具可能会导致结果"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "a6e3ba40636b",
-      "title": "谷歌表示其人工智能天气模型正在变得更好",
+      "id": "4d0be1d61b00",
+      "title": "Ollie 认为对隐私的关注可以帮助它赢得人工智能助手竞赛",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-      "published": "2026-09-03T15:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+      "published": "2026-09-03T16:09:01+00:00",
       "summary": [
-        "谷歌正在推出一个更新的人工智能天气模型，该模型应该更加准确，特别是在预测降雨和降雪方面。在"
+        "以家庭为中心的人工智能助手希望了解你日常生活的细节，但表示不会使用这些数据来训练人工智能模型或与他人分享"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "03845e33c436",
-      "title": "看来黑客确实入侵了一项主要的身份证验证服务",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/it-sure-looks-like-hackers-breached-a-major-id-card-verification-service/",
-      "published": "2026-09-02T19:35:09+00:00",
-      "summary": [
-        "一个身份盗用搜索网站声称有超过 1.5 亿张驾照照片从身份验证服务中被盗。犯罪现场有"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "a2e7c9a75cec",
-      "title": "法典已关闭",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "github.com",
-      "sourceUrl": "https://github.com/openai/codex/issues/28756",
-      "published": "2026-09-03T14:54:31+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "97d753d08b72",
-      "title": "逛完 WRC，我们发现机器人行业最该回答的 5 个问题",
+      "id": "cc00c556b504",
+      "title": "GPT-6 曝光， OpenAI 总裁说：AGI 来了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369388",
-      "published": "2026-09-03T15:25:38+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369800",
+      "published": "2026-09-03T22:48:29+00:00",
       "summary": [
-        "8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子",
-        "300 多家企业、2000 多件展品，几乎把具身智能行业能拿出的东西都搬到了这里：大模型、本体、关键零部件、数据，应有尽有",
-        "开幕当天，宇树科技敲钟上市，盘中市值一度冲破 4000 亿元，这可能是过去十年，中国机器人行业最接近「资本狂欢」的一天"
+        "&nbsp; 头图来源：OpenAI 作者｜桦林舞王 编辑｜靖宇 2026 年 9 月 3 日，OpenAI 总裁 Greg Brockman 在发布会结束后，说了一句在 AI 行业极为罕见的话：「我个人认为，我们可能已经到达 AGI 了，我觉得就是这个模型",
+        "」 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这是合理的」",
+        "这不是 OpenAI 官方宣布 AGI 到来，而是一位公司总裁在镜头前说出了自己的判断"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 3
     },
     {
-      "id": "6a8c3da4a5c8",
-      "title": "Wonderful 在不到 6 个月内估值翻倍多至 5B 美元",
+      "id": "c83ffb02941b",
+      "title": "罗技 G Pro X3 Superstrike 鼠标曝光：最高 48,000 DPI，电池增大 50%",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/998/295.htm",
+      "published": "2026-09-04T02:48:43+00:00",
+      "summary": [
+        "IT之家 9 月 4 日消息，消息源 @jakeufps 于 9 月 1 日在 X 平台发布推文，分享了一段来自亚马逊的罗技 G Pro X3 Superstrike 鼠标宣传视频，时长约 30 秒，不仅显示了产品名称，也列出了传感器、追踪能力、延迟和续航等参数",
+        "IT之家附上相关视频如下：泄露信息显示，G Pro X3 Superstrike 或配备升级版 Hero 2 传感器，最高灵敏度达到 48,000 DPI",
+        "DPI 数值用于描述鼠标移动距离与屏幕指针移动距离之间的对应关系，高 DPI 通常面向需要快速大幅移动视角的使用场景"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "28be3fafd1e3",
+      "title": "据报道，Accel 正在洽谈领投 Thinking Machines 的 10 亿美元融资，估值为 400 亿美元",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-      "published": "2026-09-02T16:04:10+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "published": "2026-09-03T19:36:29+00:00",
       "summary": [
-        "Wonderful表示，将利用其5.5亿美元的C轮融资来更快地开发产品、扩大其FDE团队并满足对其产品的需求。"
+        "这家备受瞩目的初创公司的年收入超过 1 亿美元。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 5
+    },
+    {
+      "id": "5737d6df236a",
+      "title": "据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "published": "2026-09-04T00:48:42+00:00",
+      "summary": [
+        "据报道，这家数据中心开发商与 Jane Street 签订了价值 130 亿美元的合同后，本轮融资就完成了。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 6
+    },
+    {
+      "id": "28b88b7dea2b",
+      "title": "大浦提交上市申请",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/oura-files-to-go-public/",
+      "published": "2026-09-03T22:35:41+00:00",
+      "summary": [
+        "这家戒指制造商表示，其业务在过去一年中收入显着增长。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "f8351d7c8726",
+      "title": "谷歌在 Gmail、Docs 和 Keep 中推出人工智能语音功能",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/",
+      "published": "2026-09-03T16:00:00+00:00",
+      "summary": [
+        "用户可以使用新的对话功能搜索电子邮件或草稿文档。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "a7f44bb5286f",
@@ -132,44 +172,6 @@
       "published": "2026-09-03T13:00:00+00:00",
       "summary": [
         "通过添加这些功能，该应用程序正在借用消息传递应用程序的功能，以加深其平台上的参与度。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "77da68a92e11",
-      "title": "下载：重新思考儿童安全和化石燃料农业",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
-      "published": "2026-09-03T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "f38c30dca8fe",
-      "title": "在波士顿 TechCrunch 创始人峰会上担任志愿者",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/volunteer-at-techcrunch-founder-summit-in-boston/",
-      "published": "2026-09-03T13:00:00+00:00",
-      "summary": [
-        "我们重新命名的波士顿活动 TechCrunch 创始人峰会（以前称为 All Stage）将于 11 月 4 日回归！我们正在寻找一些令人难以置信的志愿者"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
