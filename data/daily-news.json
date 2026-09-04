@@ -1,21 +1,21 @@
 {
   "date": "2026-09-04",
-  "generated": "2026-09-04T16:27:53.357110+08:00",
-  "total": 9,
+  "generated": "2026-09-04T23:44:56.968807+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "3e1ba23902a5",
-      "title": "那些令人倒胃口的人工智能生成菜单背后的同一性问题",
+      "id": "8455d4164fce",
+      "title": "Google 的 Gemini Spark 现在可以管理您的 Google 照片库",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "published": "2026-09-04T04:21:03+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "published": "2026-09-04T14:47:11+00:00",
       "summary": [
-        "虽然餐厅老板可能会将生成式人工智能视为美化菜单的捷径，但顾客可以本能地感觉到出现了问题"
+        "Gemini Spark 可以编辑和整理相册、创建共享收藏集、将照片转换为日历活动以及处理 A 的其他 Google Photos 任务"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,65 +24,121 @@
       "rank": 1
     },
     {
-      "id": "85cb7c596d40",
-      "title": "在整个企业范围内扩展代理人工智能试点",
+      "id": "c58f9bdfc3e7",
+      "title": "流氓 OpenAI 代理似乎使用德国维基组织了另一次攻击",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
-      "published": "2026-09-03T09:30:32+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "published": "2026-09-04T13:34:12+00:00",
       "summary": [
-        "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作、连接到系统"
+        "据报道，来自 OpenAI 的一群流氓 AI 代理霸占了一个德国网站，并将其改造成其他代理的留言板，并附有官方信息。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "cc00c556b504",
+      "id": "0d15f805783d",
+      "title": "Krafton 加倍押注印度，在游戏之外又投入 2.5 亿美元",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
+      "published": "2026-09-04T14:47:20+00:00",
+      "summary": [
+        "根据最新承诺，Krafton 在印度的计划投资将超过 5 亿美元。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "3e119549886c",
+      "title": "iRobot 推出 Roomba Duo",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/990045/irobot-roomba-duo-concept-robot-vacuum",
+      "published": "2026-09-04T12:53:49+00:00",
+      "summary": [
+        "这家最初的机器人吸尘器公司今天在柏林的 IFA 科技展上展示了一款概念机器人。 Roomba Duo 结合了重型地板清洗功能"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "3d5ee6e60ba5",
       "title": "GPT-6 曝光， OpenAI 总裁说：AGI 来了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369800",
-      "published": "2026-09-03T22:48:29+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/369867",
+      "published": "2026-09-04T09:47:40+00:00",
       "summary": [
-        "&nbsp; 头图来源：OpenAI 作者｜桦林舞王 编辑｜靖宇 2026 年 9 月 3 日，OpenAI 总裁 Greg Brockman 在发布会结束后，说了一句在 AI 行业极为罕见的话：「我个人认为，我们可能已经到达 AGI 了，我觉得就是这个模型",
-        "」 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这是合理的」",
-        "这不是 OpenAI 官方宣布 AGI 到来，而是一位公司总裁在镜头前说出了自己的判断"
+        "作者｜桦林舞王 编辑｜靖宇 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这是合理的」",
+        "这不是 OpenAI 官方宣布 AGI 到来，而是一位公司总裁在镜头前说出了自己的判断",
+        "当地时间 9 月 3 日，GPT-6 Astra 正式发布"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 5
     },
     {
-      "id": "4e163d086c7b",
-      "title": "《羊蹄山之魂》DLC“弦续关原”及新模式“无尽追缉”官宣，10 月 1 日解锁",
+      "id": "a8d46fc1fbd8",
+      "title": "本周看什么 | 最近值得一看的 8 部作品",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/998/447.htm",
-      "published": "2026-09-04T08:27:08+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114175",
+      "published": "2026-09-04T09:32:48+00:00",
       "summary": [
-        "IT之家 9 月 4 日消息，在昨天（3 日）晚间的 State of Play 发布会上，索尼宣布《羊蹄山之魂》全新战斗生存模式“无尽追缉”将加入《对马岛之魂》主角境井仁，并支持玩家直接操作",
-        "索尼和 Sucker Punch 展示了“无尽追缉”的最新内容",
-        "该模式提供多名可操作角色，包括《羊蹄山之魂》的笃、长门和雪，以及回归的境井仁"
+        "📅本周新预告《哈利·波特》剧集先导预告9月2日，剧集《哈利·波特与魔法石》发布了先导预告，第一季共8集，将于12月25日上线HBOMax",
+        "原作者J·K·罗琳担任执行制片人，多米尼克·麦克劳克林、阿拉贝 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "id": "bfcd16fb2c0f",
+      "title": "在复古科技热潮中，CD 销量意外回升",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/cd-sales-are-making-an-unexpected-comeback-amid-a-retro-tech-boom/",
+      "published": "2026-09-04T15:00:00+00:00",
+      "summary": [
+        "U.S. CD revenue jumped 58.6% in the first half of 2026, reversing last year’s decline as interest in retro tech and physical media continues to grow."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
     },
     {
       "id": "28be3fafd1e3",
@@ -95,17 +151,17 @@
       "sourceUrl": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "published": "2026-09-03T19:36:29+00:00",
       "summary": [
-        "这家备受瞩目的初创公司的年收入运行率超过 1 亿美元。"
+        "The high-profile startup's annual revenue run rate stands at over $100 million."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 8
     },
     {
       "id": "5737d6df236a",
-      "title": "据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元",
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -114,70 +170,51 @@
       "sourceUrl": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
       "published": "2026-09-04T00:48:42+00:00",
       "summary": [
-        "据报道，这家数据中心开发商与 Jane Street 签订了价值 130 亿美元的合同后，本轮融资就完成了。"
+        "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "28b88b7dea2b",
-      "title": "大浦提交上市申请",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/oura-files-to-go-public/",
-      "published": "2026-09-03T22:35:41+00:00",
-      "summary": [
-        "这家戒指制造商表示，其业务在过去一年中收入显着增长。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "f8351d7c8726",
-      "title": "谷歌在 Gmail、Docs 和 Keep 中推出人工智能语音功能",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/",
-      "published": "2026-09-03T16:00:00+00:00",
-      "summary": [
-        "用户可以使用新的对话功能搜索电子邮件或草稿文档。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "a7f44bb5286f",
-      "title": "TikTok 评论通过语音评论、民意调查等方式变得更具互动性",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/tiktok-comments-are-getting-more-interactive-with-voice-comments-polls-and-more/",
-      "published": "2026-09-03T13:00:00+00:00",
-      "summary": [
-        "通过添加这些功能，该应用程序正在借用消息传递应用程序的功能，以加深其平台上的参与度。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "c21a7a0108f1",
+      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+      "published": "2026-09-04T14:00:00+00:00",
+      "summary": [
+        "距离申请在 TechCrunch Disrupt 2026 期间举办边会并在硅谷留下自己的印记还有不到 24 小时的时间。之前申请"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "fe041b803546",
+      "title": "What to expect at Apple’s September 9th launch event",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/989692/apple-iphone-launch-event-september-2026-how-to-watch",
+      "published": "2026-09-04T14:52:00+00:00",
+      "summary": [
+        "Apple's September 9th launch event could be one of its biggest in years. It will be Apple's first event since John Ternus took over as CEO on September 1st, stepping in for Tim Cook, and will likely feature the first models in Apple's iPhone 18 lineup. That could include the long-rumored foldable \"iPhone Ultra,\" coming [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 11
     }
   ]
 }
