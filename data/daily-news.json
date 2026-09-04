@@ -1,44 +1,44 @@
 {
   "date": "2026-09-04",
-  "generated": "2026-09-04T10:54:11.593599+08:00",
+  "generated": "2026-09-04T16:27:53.357110+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "f1f94c405560",
-      "title": "Abliteration.ai 正在通过拆除人工智能护栏来做生意",
+      "id": "3e1ba23902a5",
+      "title": "那些令人倒胃口的人工智能生成菜单背后的同一性问题",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-      "published": "2026-09-03T18:37:57+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "published": "2026-09-04T04:21:03+00:00",
       "summary": [
-        "Abliteration.AI 正在使没有护栏的强大人工智能模型更容易访问，认为为防御者提供与不良行为者相同的工具可能会导致结果"
+        "虽然餐厅老板可能会将生成式人工智能视为美化菜单的捷径，但顾客可以本能地感觉到出现了问题"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "4d0be1d61b00",
-      "title": "Ollie 认为对隐私的关注可以帮助它赢得人工智能助手竞赛",
+      "id": "85cb7c596d40",
+      "title": "在整个企业范围内扩展代理人工智能试点",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
-      "published": "2026-09-03T16:09:01+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "published": "2026-09-03T09:30:32+00:00",
       "summary": [
-        "以家庭为中心的人工智能助手希望了解你日常生活的细节，但表示不会使用这些数据来训练人工智能模型或与他人分享"
+        "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作、连接到系统"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -59,28 +59,28 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "c83ffb02941b",
-      "title": "罗技 G Pro X3 Superstrike 鼠标曝光：最高 48,000 DPI，电池增大 50%",
+      "id": "4e163d086c7b",
+      "title": "《羊蹄山之魂》DLC“弦续关原”及新模式“无尽追缉”官宣，10 月 1 日解锁",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/998/295.htm",
-      "published": "2026-09-04T02:48:43+00:00",
+      "sourceUrl": "https://www.ithome.com/0/998/447.htm",
+      "published": "2026-09-04T08:27:08+00:00",
       "summary": [
-        "IT之家 9 月 4 日消息，消息源 @jakeufps 于 9 月 1 日在 X 平台发布推文，分享了一段来自亚马逊的罗技 G Pro X3 Superstrike 鼠标宣传视频，时长约 30 秒，不仅显示了产品名称，也列出了传感器、追踪能力、延迟和续航等参数",
-        "IT之家附上相关视频如下：泄露信息显示，G Pro X3 Superstrike 或配备升级版 Hero 2 传感器，最高灵敏度达到 48,000 DPI",
-        "DPI 数值用于描述鼠标移动距离与屏幕指针移动距离之间的对应关系，高 DPI 通常面向需要快速大幅移动视角的使用场景"
+        "IT之家 9 月 4 日消息，在昨天（3 日）晚间的 State of Play 发布会上，索尼宣布《羊蹄山之魂》全新战斗生存模式“无尽追缉”将加入《对马岛之魂》主角境井仁，并支持玩家直接操作",
+        "索尼和 Sucker Punch 展示了“无尽追缉”的最新内容",
+        "该模式提供多名可操作角色，包括《羊蹄山之魂》的笃、长门和雪，以及回归的境井仁"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 4
     },
@@ -95,11 +95,11 @@
       "sourceUrl": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "published": "2026-09-03T19:36:29+00:00",
       "summary": [
-        "这家备受瞩目的初创公司的年收入超过 1 亿美元。"
+        "这家备受瞩目的初创公司的年收入运行率超过 1 亿美元。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 5
     },
@@ -118,7 +118,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 6
     },
@@ -137,7 +137,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     },
@@ -156,7 +156,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
