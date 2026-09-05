@@ -1,9 +1,47 @@
 {
   "date": "2026-09-05",
-  "generated": "2026-09-05T10:56:13.044589+08:00",
+  "generated": "2026-09-05T16:02:23.541913+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "0d15f805783d",
+      "title": "Krafton 加倍押注印度，在游戏之外又投入 2.5 亿美元",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
+      "published": "2026-09-04T14:47:20+00:00",
+      "summary": [
+        "根据最新承诺，Krafton 在印度的计划投资将超过 5 亿美元。"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "378de4cf5f76",
+      "title": "Nitter 的工作实例比被删除之前更多",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "codeberg.org",
+      "sourceUrl": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "published": "2026-09-05T00:04:16+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "2180a1fa6f13",
       "title": "OpenAI 的流氓特工不断逃跑，却没有正式的程序来调查他们",
@@ -19,9 +57,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "718826050bb2",
@@ -38,89 +76,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "0d15f805783d",
-      "title": "Krafton 加倍押注印度，除了游戏之外，又押注 2.5 亿美元",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
-      "published": "2026-09-04T14:47:20+00:00",
-      "summary": [
-        "根据最新承诺，Krafton 在印度的计划投资将超过 5 亿美元。"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "5552316f3c75",
-      "title": "关闭我们的公共加密 DNS",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "mullvad.net",
-      "sourceUrl": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
-      "published": "2026-09-04T18:50:28+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "3d5ee6e60ba5",
-      "title": "GPT-6 曝光， OpenAI 总裁说：AGI 来了",
+      "id": "8b30160c2007",
+      "title": "远山智行发布国内首款轮足式导盲机器人，室外避障成功率不低于 96%",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369867",
-      "published": "2026-09-04T09:47:40+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/998/765.htm",
+      "published": "2026-09-05T08:00:55+00:00",
       "summary": [
-        "作者｜桦林舞王 编辑｜靖宇 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这是合理的」",
-        "这不是 OpenAI 官方宣布 AGI 到来，而是一位公司总裁在镜头前说出了自己的判断",
-        "当地时间 9 月 3 日，GPT-6 Astra 正式发布"
+        "IT之家 9 月 5 日消息，中国兵器工业集团杭州智元研究院旗下科技子品牌“远山智行”9 月 4 日正式发布国内首款轮足式导盲机器人 ——“小远”智能灵动导盲犬",
+        "官方表示，“小远”是国内首个面向视障人群的轮足式导盲机器人",
+        "产品采用独特的轮足复合构型，实现平地滑行与楼梯攀爬的切换"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "20479e57b3ed",
-      "title": "索尼被曝将发布三款 E 卡口新镜头：600mm F6.3 与 400mm F4.5 均低于 1kg",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/998/692.htm",
-      "published": "2026-09-05T02:56:02+00:00",
-      "summary": [
-        "IT之家 9 月 5 日消息，Fredmiranda 论坛上有人泄露了索尼的发布会信息，该消息已经过 SonyAlphaRumors 确认",
-        "据称，索尼将在两到三周内发布三款镜头，其中包括两款重量不足 1kg 的超远摄定焦 G 大师镜头：FE 600mm f/6.3 GM OSS 镜头，售价约 3,800 美元（现汇率约合 25,570 元人民币）FE 400mm f/4.5 GM OSS 镜头，售价 2,699~2,899 美元（现汇率约合 18,161 ~ 19,507 元人民币）8-14mm f/3.5 鱼眼镜头，售价约 1,499 美元（IT之家注：现汇率约合 10,087 元人民币）此次传闻中关注度最高的，是索尼 FE 600mm F6.3 GM OSS 与 FE 400mm F4.5 GM OSS 两款超远摄定焦镜头",
-        "据透露，FE 600mm F6.3 GM OSS 的重量约为 995g（不含脚架环），尺寸为 108×263mm；另一款 FE 400mm F4.5 GM OSS 的重量约为 994g，尺寸为 108×242mm"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "a8d46fc1fbd8",
@@ -140,11 +119,11 @@
       "tags": [],
       "score": 5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "f48898262d8e",
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "title": "XDOF 刚刚隐身三个月，正在就 B 轮融资进行谈判，估值为 1.2B 美元",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -157,9 +136,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "e160d21430ae",
@@ -176,9 +155,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "da5b03590f8a",
@@ -195,9 +174,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "eb999a1a327a",
@@ -210,11 +189,30 @@
       "sourceUrl": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
       "published": "2026-09-04T17:18:00+00:00",
       "summary": [
-        "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]"
+        "Apple 正式进入 Ternus 时代。蒂姆·库克本周辞去首席执行官职务，将公司交给前硬件主管"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "c21a7a0108f1",
+      "title": "不到 24 小时即可申请参加 TechCrunch Disrupt 2026 会外活动",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+      "published": "2026-09-04T14:00:00+00:00",
+      "summary": [
+        "距离申请在 TechCrunch Disrupt 2026 期间举办边会并在硅谷留下自己的印记还有不到 24 小时的时间。之前申请"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 11
     }
