@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-05",
-  "generated": "2026-09-05T22:34:35.423609+08:00",
+  "date": "2026-09-06",
+  "generated": "2026-09-06T10:55:05.559453+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "b53a6cba2209",
-      "title": "OpenAI 承认德国维基“事件”",
+      "id": "8a7e0f31a983",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "published": "2026-09-05T11:15:55+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "published": "2026-09-05T22:49:55+00:00",
       "summary": [
-        "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该致谢是在公司"
+        "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,27 +24,27 @@
       "rank": 1
     },
     {
-      "id": "2180a1fa6f13",
-      "title": "OpenAI 的流氓特工不断逃跑，却没有正式的程序来调查他们",
+      "id": "669fdcb55695",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "published": "2026-09-04T23:15:11+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "published": "2026-09-05T18:05:27+00:00",
       "summary": [
-        "OpenAI 最新的代理群事件增加了独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该"
+        "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
       "id": "995e058bee89",
-      "title": "内容创作者失手",
+      "title": "Content creators drop the ball",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -53,53 +53,72 @@
       "sourceUrl": "https://www.theverge.com/tech/990426/us-open-influencers-naomi-osaka-anastasia-zakharova-callaway-good-good-ad",
       "published": "2026-09-05T14:00:16+00:00",
       "summary": [
-        "本周早些时候，在今年美国网球公开赛上大阪直美 (Naomi Osaka) 对阵阿纳斯塔西娅·扎哈洛娃 (Anastasia Zakharova) 的比赛中，一群挥舞着戒指的影响者"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "0d15f805783d",
-      "title": "Krafton 在印度加倍押注，在游戏之外又投入 2.5 亿美元",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
-      "published": "2026-09-04T14:47:20+00:00",
-      "summary": [
-        "根据最新承诺，Krafton 在印度的计划投资将超过 5 亿美元。"
+        "During Naomi Osaka's match against Anastasia Zakharova at this year's US Open earlier this week, a gaggle of ring light-wielding influencers who were packed in a luxury suite became enough of a distraction that the umpire paused the match and repeatedly asked them to quiet down. Elsewhere in the USTA Billie Jean King National Tennis [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "378de4cf5f76",
+      "title": "Nitter 的工作实例比被删除之前更多",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "codeberg.org",
+      "sourceUrl": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "published": "2026-09-05T00:04:16+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 2.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "80f86ba9cf37",
-      "title": "对话 Sharpa 李一帆：通用机器人要么全能，要么无能",
+      "id": "92fcffd97c50",
+      "title": "GPT-6带火循环Transformer，阿里早已布局",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369851",
-      "published": "2026-09-04T08:37:04+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/484726.html",
+      "published": "2026-09-05T15:07:08+00:00",
       "summary": [
-        "行业里的人各自笃定，声音大的先被听见",
-        "最响的那些声音，往往离真实的进展最远",
-        "真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步"
+        "手握两篇顶会论文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 5.5,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "d0ee7e1fff20",
+      "title": "东风日产孙豪谈产品同质化问题：千车一面只是洗牌期的阵痛，不是行业的常态",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/998/900.htm",
+      "published": "2026-09-06T02:54:31+00:00",
+      "summary": [
+        "IT之家 9 月 6 日消息，东风日产汽车销售有限公司市场部部长孙豪昨日发文，谈及了汽车产品同质化问题",
+        "他表示，自己参加了一场用户调研，看着一众长得分不出长相的车型，心里很有感慨",
+        "作为行业从业者，很多时候，我会心怀敬畏地想：我们经常说 BBA 这些国际品牌迭代速度慢、智能化短板、成本高等客观问题，但反过来想，他们对国内部分品牌这几年在内饰、外观、功能上大量借鉴模仿，不考虑品牌的做法，打心底是不是也瞧不起呢"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "f48898262d8e",
@@ -112,17 +131,17 @@
       "sourceUrl": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "published": "2026-09-04T23:36:14+00:00",
       "summary": [
-        "本轮融资是在这家机器人数据初创公司退出秘密几个月后进行的。"
+        "The round is being raised just months after the robot data startup exited from stealth."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "e160d21430ae",
-      "title": "AI 计算提供商 Nscale 正在寻求 3.5B 美元的 IPO 前融资",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -135,32 +154,32 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "da5b03590f8a",
-      "title": "GoPro 表示，它仍然致力于“为您的集体动力”做出贡献。",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/990425/gopro-nick-woodman-starman-letter",
-      "published": "2026-09-04T18:00:45+00:00",
-      "summary": [
-        "GoPro 首席执行官尼克·伍德曼 (Nick Woodman) 在致客户的一封信中表示，在拟议 2.85 亿美元收购后，制造相机仍然是公司的“核心 DNA”"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
+      "id": "6010f59d56bf",
+      "title": "Clucky’s new alarm app wakes you up with a crowing rooster",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
+      "published": "2026-09-05T17:00:00+00:00",
+      "summary": [
+        "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
       "id": "eb999a1a327a",
-      "title": "苹果的约翰·特努斯时代会是什么样子？",
+      "title": "What will Apple’s John Ternus era look like?",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -173,45 +192,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "c21a7a0108f1",
-      "title": "不到 24 小时即可申请参加 TechCrunch Disrupt 2026 会外活动",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-      "published": "2026-09-04T14:00:00+00:00",
-      "summary": [
-        "距离申请在 TechCrunch Disrupt 2026 期间举办边会并在硅谷留下自己的印记还有不到 24 小时的时间。之前申请"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 5.5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "8db57e630a4d",
-      "title": "法官禁止 X 竞争对手使用 Twitter 名称，但暂时允许使用“Tweet”",
+      "id": "de7e9ba0c659",
+      "title": "大浦要上市了，这些智能戒指公司却是来争冠的",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
-      "published": "2026-09-04T17:52:05+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "published": "2026-09-05T15:00:00+00:00",
       "summary": [
-        "一名联邦法官暂时禁止 X 竞争对手使用 Twitter 名称，但发现 X 很可能已经放弃了“Tweet”商标和名称"
+        "虽然 Oura 多年来一直在智能戒指市场上占据主导地位，但越来越多的竞争对手现在正通过尝试各种应用程序来竞相推翻它。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 11
     }
