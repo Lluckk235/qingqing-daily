@@ -1,7 +1,7 @@
 {
   "date": "2026-09-06",
-  "generated": "2026-09-06T16:21:14.420263+08:00",
-  "total": 10,
+  "generated": "2026-09-06T22:55:00.088229+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -43,59 +43,61 @@
       "rank": 2
     },
     {
-      "id": "995e058bee89",
-      "title": "内容创作者失手",
+      "id": "b1e66139e41f",
+      "title": "DIY 插入式太阳能在美国势头强劲",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/990426/us-open-influencers-naomi-osaka-anastasia-zakharova-callaway-good-good-ad",
-      "published": "2026-09-05T14:00:16+00:00",
+      "sourceUrl": "https://www.theverge.com/column/990183/diy-plug-in-solar-us",
+      "published": "2026-09-06T12:00:00+00:00",
       "summary": [
-        "本周早些时候，在今年美国网球公开赛上大阪直美 (Naomi Osaka) 对阵阿纳斯塔西娅·扎哈洛娃 (Anastasia Zakharova) 的比赛中，一群挥舞着戒指的影响者"
+        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关电动自行车、发电站以及如何工作的更多信息"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "378de4cf5f76",
-      "title": "Nitter 的工作实例比被删除之前更多",
+      "id": "d5da3bfca7ac",
+      "title": "A/I 关闭 – 保持人性",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "Hacker News",
-      "sourceDomain": "codeberg.org",
-      "sourceUrl": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-      "published": "2026-09-05T00:04:16+00:00",
+      "sourceDomain": "keepitfree.ai",
+      "sourceUrl": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+      "published": "2026-09-06T14:34:34+00:00",
       "summary": [
         "评论"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 2.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "af35208ca0d3",
-      "title": "B站首届AI创造公开赛收官，超八成参赛者为一人团队",
+      "id": "cc1403ec49b0",
+      "title": "三星电子 DX 部门工会不满与其他部门薪酬差距，将在会长李在镕住宅前集会抗议",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/484890.html",
-      "published": "2026-09-06T04:40:15+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/999/043.htm",
+      "published": "2026-09-06T14:43:13+00:00",
       "summary": [
-        "B站首届AI创造公开赛收官，超八成参赛者为一人团队"
+        "IT之家 9 月 6 日消息，据韩联社昨日报道，三星电子同行工会宣布，将在三星电子会长李在镕的住宅前举行集会，抗议内部薪酬差距",
+        "该工会主要由负责智能手机、家电等终端产品的 DX 部门员工组成",
+        "业内人士于 9 月 5 日透露，同行工会计划从 18 日开始，在首尔龙山区李在镕住宅附近持续举行集会及单人示威"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
@@ -115,68 +117,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 6
-    },
-    {
-      "id": "dce0b4ec0e83",
-      "title": "理想汽车回应雷军：增程不是路线之争，而是从用户需求出发、解决真实使用场景的产品选择",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/998/987.htm",
-      "published": "2026-09-06T08:19:58+00:00",
-      "summary": [
-        "IT之家 9 月 6 日消息，小米创办人、董事长兼 CEO 雷军今日发文表示，增程还是纯电，没有技术路线的绝对优劣，只有产品体验的高下之分",
-        "雷军认为，增程汽车，大有可为",
-        "雷军称这不仅仅是小米的观点，事实上理想汽车等同行也不断证明，用户愿意为优秀的增程汽车买单"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "f48898262d8e",
-      "title": "XDOF 刚刚隐身三个月，正在就 B 轮融资进行谈判，估值为 1.2B 美元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "published": "2026-09-04T23:36:14+00:00",
-      "summary": [
-        "本轮融资是在这家机器人数据初创公司退出秘密几个月后进行的。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "e160d21430ae",
-      "title": "AI 计算提供商 Nscale 正在寻求 3.5B 美元的 IPO 前融资",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "published": "2026-09-04T21:12:11+00:00",
-      "summary": [
-        "Nscale 最近与 Anthropic 达成了 450 亿美元的交易，目前正在洽谈筹集更多资金，以应对即将到来的 IPO。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 9
     },
     {
       "id": "6010f59d56bf",
@@ -195,7 +138,45 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 7
+    },
+    {
+      "id": "23bdddfbdcd6",
+      "title": "口袋妖怪竞技现已登陆手机，但你仍需要 Switch 才能成为冠军",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/990691/competitive-pokemon-champions-mobile-tournament-accessibility",
+      "published": "2026-09-06T13:00:00+00:00",
+      "summary": [
+        "要开始 Pokémon 竞技对战，您只需要一部手机。但要在最高水平上竞争，就像在神奇宝贝世界一样"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "995e058bee89",
+      "title": "内容创作者失手",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/990426/us-open-influencers-naomi-osaka-anastasia-zakharova-callaway-good-good-ad",
+      "published": "2026-09-05T14:00:16+00:00",
+      "summary": [
+        "本周早些时候，在今年美国网球公开赛上大阪直美 (Naomi Osaka) 对阵阿纳斯塔西娅·扎哈洛娃 (Anastasia Zakharova) 的比赛中，一群挥舞着戒指的影响者"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": false,
+      "rank": 9
     }
   ]
 }
