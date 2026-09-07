@@ -1,46 +1,27 @@
 {
-  "date": "2026-09-07",
-  "generated": "2026-09-07T16:54:38.650857+08:00",
-  "total": 8,
+  "date": "2026-09-08",
+  "generated": "2026-09-08T01:14:21.294493+08:00",
+  "total": 6,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "fe8263aa68e6",
-      "title": "TiVo 对跳过自己录制的广告中的广告收取费用",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "cordcuttersnews.com",
-      "sourceUrl": "https://cordcuttersnews.com/tivo-plans-to-end-free-automatic-commercial-skipping-in-november-tests-paid-premium-replacement-service/",
-      "published": "2026-09-07T04:41:01+00:00",
+      "id": "31c68cc130b0",
+      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "published": "2026-09-07T12:10:00+00:00",
       "summary": [
-        "评论"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a valuable source of zero-carbon fuel. The hunt has&#8230;"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
-    },
-    {
-      "id": "b1e66139e41f",
-      "title": "DIY 插入式太阳能在美国势头强劲",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/990183/diy-plug-in-solar-us",
-      "published": "2026-09-06T12:00:00+00:00",
-      "summary": [
-        "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关电动自行车、发电站以及如何工作的更多信息"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 2
     },
     {
       "id": "c6a48e7fbd07",
@@ -53,72 +34,53 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "published": "2026-09-06T23:36:04+00:00",
       "summary": [
-        "《西雅图时报》和《新闻日报》是最新将 OpenAI 告上法庭的原告，指控其侵犯版权。两家网点均表示该公司"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "8a7e0f31a983",
-      "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "published": "2026-09-05T22:49:55+00:00",
-      "summary": [
-        "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "2247b62534c2",
-      "title": "国内首份办公Agent用户行为报告发布：北京用户量全国居首，海外用户占比超12%",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/485064.html",
-      "published": "2026-09-07T06:53:26+00:00",
-      "summary": [
-        "9月7日，国内首份《中国办公Agent用户行为不完全报告》在京发布"
+        "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
-      "isNativeCN": true,
-      "rank": 5
+      "isNativeCN": false,
+      "rank": 2
     },
     {
-      "id": "e3c3b2f92533",
-      "title": "截至 2026 年 6 月，华为穿戴设备全球累计出货量位居第一",
+      "id": "2169e5bbd2d7",
+      "title": "2026 荣耀全球开发者大会日程公布，MagicOS 11 定档 9 月 15 日晚",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/999/493.htm",
+      "published": "2026-09-07T15:22:38+00:00",
+      "summary": [
+        "IT之家 9 月 7 日消息，2026 荣耀全球开发者大会将于 9 月 15 日在深圳举行，官方今日公布活动日程",
+        "其中，MagicOS 11 将于当晚 19:00-20:00 发布",
+        "IT之家整理如下：主论坛19:00-20:00行业首个真正实现系统级 Agent Harness 商用落地的手机操作系统 MagicOS 11 发布分论坛10:00-12:30内容分发论坛荣耀天工行业解决方案论坛智慧教育论坛运动健康技术沟通会MagicOS 创享家共创嘉年华13:00-17:30AI 论坛流光通透 &amp; 主题设计论坛互联、流畅 &amp; 智慧交互体验论坛商业服务论坛游戏论坛海外论坛智慧出行论坛全屋智能论坛荣耀 MagicOS 11 亮点此前已经公布：存储空间立省，最高省 60GB无损压缩存储数据和自动清理冗余文件，释放更多空间不常用应用清理，增加更多可用存储空间升级故事翻开你与荣耀的独家时光；留存初遇瞬间，记录朝夕相伴；定格先锋位次，见证你的先行时刻UX 焕新全新液态玻璃：全屏通透，流动液态更出圈流光通透设计，贯穿系统的流光体验通透自定义：材质、通透度任意调节充电体验提升支持多协议快充，告别充电焦虑，无线充电更稳更高效通信体验提升鸿雁 AI 云图智选最优网络；弱网场景上网体验提升；频繁进出电梯不卡顿；抖音直播与短视频体验提升支持两副蓝牙耳机同时连接一台设备系统流畅安卓首创液态动效全新物理模型：变参数回弹 | 链式回弹模式从系统到三方应用一镜到底全系列全机型整机流畅度提升 20%+全新影像4K Live 录中拍：边录视频边出实况"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 3
+    },
+    {
+      "id": "f4f95dccedd7",
+      "title": "What we expect from the upcoming Apple launch",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/999/353.htm",
-      "published": "2026-09-07T08:45:33+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "published": "2026-09-07T15:58:00+00:00",
       "summary": [
-        "IT之家 9 月 7 日消息，HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会正在进行中",
-        "华为终端 BG CEO 何刚宣布，截至 2026 年 6 月，华为穿戴设备全球累计出货量位居第一",
-        "IT之家注意到，Omdia 数据显示，2026 年第二季度，华为以 18% 的市场份额领跑整体可穿戴腕带设备市场，较 2025 年第二季度的 17% 上升了一个百分点"
+        "While Apple's first foldable iPhone Ultra will headline the September 9 launch, we're also expecting news about AirPods and HomePods."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 4
     },
     {
       "id": "4d1388743b58",
@@ -131,32 +93,32 @@
       "sourceUrl": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
       "published": "2026-09-06T21:41:06+00:00",
       "summary": [
-        "据报道，席勒对新任首席执行官 John Ternus 从 App Store 带来更多经常性收入的目标持保留态度。"
+        "Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more recurring revenue from the App Store."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 5
     },
     {
-      "id": "0816beffcdb8",
-      "title": "一架亚马逊货机在迈阿密国际机场坠毁",
+      "id": "91330dfd3d07",
+      "title": "Six years later, Sony revisits its legendary XM4 headphones",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
-      "published": "2026-09-06T20:56:38+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones",
+      "published": "2026-09-07T16:00:00+00:00",
       "summary": [
-        "周日，一架带有亚马逊标志的飞机在迈阿密国际机场着陆时冲出跑道，撞上车辆，造成多人受伤。"
+        "Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, thanks to their great sound, competitive ANC, and compact size, [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 6
     }
   ]
 }
