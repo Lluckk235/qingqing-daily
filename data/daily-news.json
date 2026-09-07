@@ -1,9 +1,28 @@
 {
   "date": "2026-09-07",
-  "generated": "2026-09-07T10:52:30.121412+08:00",
-  "total": 9,
+  "generated": "2026-09-07T16:54:38.650857+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "fe8263aa68e6",
+      "title": "TiVo 对跳过自己录制的广告中的广告收取费用",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "cordcuttersnews.com",
+      "sourceUrl": "https://cordcuttersnews.com/tivo-plans-to-end-free-automatic-commercial-skipping-in-november-tests-paid-premium-replacement-service/",
+      "published": "2026-09-07T04:41:01+00:00",
+      "summary": [
+        "评论"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "b1e66139e41f",
       "title": "DIY 插入式太阳能在美国势头强劲",
@@ -20,25 +39,6 @@
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 4,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "d5da3bfca7ac",
-      "title": "A/I 关闭",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "keepitfree.ai",
-      "sourceUrl": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
-      "published": "2026-09-06T14:34:34+00:00",
-      "summary": [
-        "评论"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -81,42 +81,42 @@
       "rank": 4
     },
     {
-      "id": "35a01c0bdae9",
-      "title": "派早报：微软公布 Project Zenith 计划、F-Droid 拟效仿 Debian 制定生成式 AI 使用政策",
+      "id": "2247b62534c2",
+      "title": "国内首份办公Agent用户行为报告发布：北京用户量全国居首，海外用户占比超12%",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114250",
-      "published": "2026-09-07T00:20:41+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/485064.html",
+      "published": "2026-09-07T06:53:26+00:00",
       "summary": [
-        "美国 CD 销量大幅反弹，公安部上线反诈智能助手「国家反诈 AI」等"
+        "9月7日，国内首份《中国办公Agent用户行为不完全报告》在京发布"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "bee57c69b852",
-      "title": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "e3c3b2f92533",
+      "title": "截至 2026 年 6 月，华为穿戴设备全球累计出货量位居第一",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/999/151.htm",
-      "published": "2026-09-07T02:48:31+00:00",
+      "sourceUrl": "https://www.ithome.com/0/999/353.htm",
+      "published": "2026-09-07T08:45:33+00:00",
       "summary": [
-        "IT之家 9 月 7 日消息，算力芯片龙头摩尔线程今日早盘触及 20cm 跌停（股价跌 20%），股价创上市以来新低，总市值跌破 2,000 亿元",
-        "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁",
-        "摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市"
+        "IT之家 9 月 7 日消息，HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会正在进行中",
+        "华为终端 BG CEO 何刚宣布，截至 2026 年 6 月，华为穿戴设备全球累计出货量位居第一",
+        "IT之家注意到，Omdia 数据显示，2026 年第二季度，华为以 18% 的市场份额领跑整体可穿戴腕带设备市场，较 2025 年第二季度的 17% 上升了一个百分点"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
@@ -135,7 +135,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 7
     },
@@ -154,28 +154,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "6010f59d56bf",
-      "title": "Clucky 的新闹钟应用程序会用鸡鸣声叫醒您",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
-      "published": "2026-09-05T17:00:00+00:00",
-      "summary": [
-        "Clucky 的新闹钟应用程序有一个选项，可以让用户被公鸡的声音叫醒。然后他们完成一项任务，将其关闭。"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     }
   ]
 }
