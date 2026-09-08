@@ -1,67 +1,146 @@
 {
   "date": "2026-09-08",
-  "generated": "2026-09-08T01:14:21.294493+08:00",
-  "total": 6,
+  "generated": "2026-09-08T11:02:53.286558+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "31c68cc130b0",
-      "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
-      "published": "2026-09-07T12:10:00+00:00",
+      "id": "75f2cdf56c30",
+      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price",
+      "published": "2026-09-07T20:03:41+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen gas, which could provide a valuable source of zero-carbon fuel. The hunt has&#8230;"
+        "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "c6a48e7fbd07",
-      "title": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "published": "2026-09-06T23:36:04+00:00",
+      "id": "cd5193c000aa",
+      "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "virtualizationhowto.com",
+      "sourceUrl": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+      "published": "2026-09-07T20:32:55+00:00",
       "summary": [
-        "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]"
+        "Comments"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "2169e5bbd2d7",
-      "title": "2026 荣耀全球开发者大会日程公布，MagicOS 11 定档 9 月 15 日晚",
+      "id": "60ae3820004d",
+      "title": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/999/493.htm",
-      "published": "2026-09-07T15:22:38+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
+      "published": "2026-09-08T02:16:39+00:00",
       "summary": [
-        "IT之家 9 月 7 日消息，2026 荣耀全球开发者大会将于 9 月 15 日在深圳举行，官方今日公布活动日程",
-        "其中，MagicOS 11 将于当晚 19:00-20:00 发布",
-        "IT之家整理如下：主论坛19:00-20:00行业首个真正实现系统级 Agent Harness 商用落地的手机操作系统 MagicOS 11 发布分论坛10:00-12:30内容分发论坛荣耀天工行业解决方案论坛智慧教育论坛运动健康技术沟通会MagicOS 创享家共创嘉年华13:00-17:30AI 论坛流光通透 &amp; 主题设计论坛互联、流畅 &amp; 智慧交互体验论坛商业服务论坛游戏论坛海外论坛智慧出行论坛全屋智能论坛荣耀 MagicOS 11 亮点此前已经公布：存储空间立省，最高省 60GB无损压缩存储数据和自动清理冗余文件，释放更多空间不常用应用清理，增加更多可用存储空间升级故事翻开你与荣耀的独家时光；留存初遇瞬间，记录朝夕相伴；定格先锋位次，见证你的先行时刻UX 焕新全新液态玻璃：全屏通透，流动液态更出圈流光通透设计，贯穿系统的流光体验通透自定义：材质、通透度任意调节充电体验提升支持多协议快充，告别充电焦虑，无线充电更稳更高效通信体验提升鸿雁 AI 云图智选最优网络；弱网场景上网体验提升；频繁进出电梯不卡顿；抖音直播与短视频体验提升支持两副蓝牙耳机同时连接一台设备系统流畅安卓首创液态动效全新物理模型：变参数回弹 | 链式回弹模式从系统到三方应用一镜到底全系列全机型整机流畅度提升 20%+全新影像4K Live 录中拍：边录视频边出实况"
+        "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta's AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now need 4,000 to 5,000 workers apiece."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 3
+    },
+    {
+      "id": "a91b380c0f01",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "published": "2026-09-07T19:24:00+00:00",
+      "summary": [
+        "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "5a148b0776ac",
+      "title": "判断用不用你的软件，Agent 只需 500 个 Token",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/369960",
+      "published": "2026-09-07T10:32:48+00:00",
+      "summary": [
+        "作者｜宇航猿 编辑｜靖宇 &nbsp; 现在几乎每个开发者都在用 AI Agent 干活",
+        "Cursor、Claude Code、Windsurf、Gemini CLI，各种 Coding Agent 已经深度嵌入了日常工作流",
+        "一个普遍的体验是，让 Agent 去调某些 API 或者集成某个服务，有些丝滑得像开了挂，有些则反复报错，甚至直接编造出一个根本不存在的接口"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "463aabb51380",
+      "title": "派早报：华为举办 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114307",
+      "published": "2026-09-08T00:07:33+00:00",
+      "summary": [
+        "少数派的近期动态全新iPhone发布在即，来与少数派一起看Apple发布会口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果",
+        "了解更多能让AI助手通过自然语言指令直接与您的Quote/0 ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "de0e92f3a9fe",
+      "title": "3.79 万元、宁德时代电池，一汽奔腾小马吉祥马纯电小车上市",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/999/607.htm",
+      "published": "2026-09-08T02:48:28+00:00",
+      "summary": [
+        "IT之家 9 月 8 日消息，一汽奔腾今日发布了一款奔腾小马吉祥马纯电小车，官方指导价 3.79 万元",
+        "奔腾小马吉祥马采用宁德时代电池，从价格来看是次低配版本（最便宜版本为 3.49 万元的萌趣马）",
+        "IT之家查询，目前一汽奔腾官网和小程序均未列出奔腾小马吉祥马版本的配置信息"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "f4f95dccedd7",
@@ -78,47 +157,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "4d1388743b58",
-      "title": "据报道，菲尔·席勒 (Phil Schiller) 退出 App Store 是因为对未来计划持谨慎态度",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
-      "published": "2026-09-06T21:41:06+00:00",
-      "summary": [
-        "Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more recurring revenue from the App Store."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 5
-    },
-    {
-      "id": "91330dfd3d07",
-      "title": "Six years later, Sony revisits its legendary XM4 headphones",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones",
-      "published": "2026-09-07T16:00:00+00:00",
-      "summary": [
-        "Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, thanks to their great sound, competitive ANC, and compact size, [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 6
+      "rank": 8
     }
   ]
 }
