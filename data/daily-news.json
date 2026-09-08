@@ -1,9 +1,47 @@
 {
   "date": "2026-09-08",
-  "generated": "2026-09-08T11:02:53.286558+08:00",
+  "generated": "2026-09-08T16:35:56.095627+08:00",
   "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "60ae3820004d",
+      "title": "埃里克·吴（Eric Wu）的最新公司自五月起不再隐秘，正在解决建筑业的劳动力短缺问题",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
+      "published": "2026-09-08T02:16:39+00:00",
+      "summary": [
+        "埃里克·吴 (Eric Wu) 在 2022 年离职前创建并运营了 Opendoor，自 5 月份以来，他的新公司 NavigateAI 已不再隐秘——打造人工智能副驾驶"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "c6a48e7fbd07",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "published": "2026-09-06T23:36:04+00:00",
+      "summary": [
+        "《西雅图时报》和《新闻日报》是最新将 OpenAI 告上法庭的原告，指控其侵犯版权。两家网点均表示该公司"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "75f2cdf56c30",
       "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
@@ -19,9 +57,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "cd5193c000aa",
@@ -34,113 +72,34 @@
       "sourceUrl": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
       "published": "2026-09-07T20:32:55+00:00",
       "summary": [
-        "Comments"
+        "评论"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "60ae3820004d",
-      "title": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
-      "published": "2026-09-08T02:16:39+00:00",
-      "summary": [
-        "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta's AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now need 4,000 to 5,000 workers apiece."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "a91b380c0f01",
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "published": "2026-09-07T19:24:00+00:00",
-      "summary": [
-        "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
+      "score": 3,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "5a148b0776ac",
-      "title": "判断用不用你的软件，Agent 只需 500 个 Token",
+      "id": "70997d743cdf",
+      "title": "六人利用 AI“越狱”生成淫秽物品最终获刑，法官提醒“技术中立≠技术无罪”",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/369960",
-      "published": "2026-09-07T10:32:48+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/0/999/811.htm",
+      "published": "2026-09-08T08:31:08+00:00",
       "summary": [
-        "作者｜宇航猿 编辑｜靖宇 &nbsp; 现在几乎每个开发者都在用 AI Agent 干活",
-        "Cursor、Claude Code、Windsurf、Gemini CLI，各种 Coding Agent 已经深度嵌入了日常工作流",
-        "一个普遍的体验是，让 Agent 去调某些 API 或者集成某个服务，有些丝滑得像开了挂，有些则反复报错，甚至直接编造出一个根本不存在的接口"
+        "IT之家 9 月 8 日消息，中央广播电视总台中国之声今天（8 日）报道称，曾是某游戏公司程序员的郑某组建研发团队，通过改写系统提示词实现 AI 模型“越狱”、设定角色卡诱导对话场景等方式，为用户输出淫秽内容提供技术条件",
+        "近日，浙江省余姚市人民法院审结这起利用生成式 AI 制作淫秽物品牟利案，认定郑某等人构成制作淫秽物品牟利罪",
+        "被告人郑某曾是国内一家游戏大厂的员工，在 AI 领域有一定影响力，也曾赴国外进行深造，2024 年 7 月，他接触到境外一款 AI 色聊机器人后，萌生了开发同类软件非法牟利的想法"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "463aabb51380",
-      "title": "派早报：华为举办 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114307",
-      "published": "2026-09-08T00:07:33+00:00",
-      "summary": [
-        "少数派的近期动态全新iPhone发布在即，来与少数派一起看Apple发布会口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果",
-        "了解更多能让AI助手通过自然语言指令直接与您的Quote/0 ...查看全文"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "de0e92f3a9fe",
-      "title": "3.79 万元、宁德时代电池，一汽奔腾小马吉祥马纯电小车上市",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/999/607.htm",
-      "published": "2026-09-08T02:48:28+00:00",
-      "summary": [
-        "IT之家 9 月 8 日消息，一汽奔腾今日发布了一款奔腾小马吉祥马纯电小车，官方指导价 3.79 万元",
-        "奔腾小马吉祥马采用宁德时代电池，从价格来看是次低配版本（最便宜版本为 3.49 万元的萌趣马）",
-        "IT之家查询，目前一汽奔腾官网和小程序均未列出奔腾小马吉祥马版本的配置信息"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 7
     },
     {
       "id": "f4f95dccedd7",
@@ -153,11 +112,49 @@
       "sourceUrl": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
       "published": "2026-09-07T15:58:00+00:00",
       "summary": [
-        "While Apple's first foldable iPhone Ultra will headline the September 9 launch, we're also expecting news about AirPods and HomePods."
+        "虽然苹果首款可折叠 iPhone Ultra 将于 9 月 9 日发布，但我们也期待有关 AirPods 和 HomePods 的消息。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "3eede2185404",
+      "title": "Xiaomi’s wide foldable promises more power than Samsung’s",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/991008/xiaomi-18-fold-hands-on-impressions-specs-wide",
+      "published": "2026-09-08T07:00:00+00:00",
+      "summary": [
+        "小米是最新一家发布短而宽的可折叠手机的制造商，预计苹果本周也会采取同样的做法。我得尝尝18折的behi"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "4d1388743b58",
+      "title": "据报道，菲尔·席勒 (Phil Schiller) 退出 App Store 是因为对未来计划持谨慎态度",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+      "published": "2026-09-06T21:41:06+00:00",
+      "summary": [
+        "据报道，席勒对新任首席执行官 John Ternus 从 App Store 带来更多经常性收入的目标持保留态度。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 8
     }
