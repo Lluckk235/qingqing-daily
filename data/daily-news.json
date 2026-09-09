@@ -1,7 +1,7 @@
 {
   "date": "2026-09-09",
-  "generated": "2026-09-09T16:37:06.430336+08:00",
-  "total": 10,
+  "generated": "2026-09-09T23:54:45.179920+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,22 +38,22 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "388663d38509",
-      "title": "OpenAI 的最新争议告诉我们数学的未来",
+      "id": "b5781936fd6d",
+      "title": "下载：OpenAI 的数学转折点和电池记录",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "published": "2026-09-09T03:10:08+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "published": "2026-09-09T12:10:00+00:00",
       "summary": [
-        "OpenAI 最新的数学里程碑很快就陷入了争议。今天，该公司宣布，其代理商已经解决了其中一项 Mi"
+        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -62,21 +62,21 @@
       "rank": 3
     },
     {
-      "id": "adeeaa461493",
-      "title": "戏剧围绕 OpenAI 的传奇数学里程碑展开",
+      "id": "aea2bcdb83b5",
+      "title": "病毒式 AI 助手 Instinct 现在拥有自己的电子邮件地址",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-      "published": "2026-09-08T20:53:52+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "published": "2026-09-09T15:13:12+00:00",
       "summary": [
-        "正如《纽约时报》早些时候报道的那样，OpenAI 表示，它找到了一个大约 90 年来一直未解决的重大数学问题的解决方案。"
+        "Instinct 的新电子邮件功能可让人工智能代理创建和管理帐户、联系企业、处理支持请求以及代表用户执行更多操作。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,28 +97,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "2eff6143e608",
-      "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
+      "id": "5e4555ea6664",
+      "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/486374.html",
+      "published": "2026-09-09T10:02:54+00:00",
+      "summary": [
+        "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "65aabcfa52ed",
+      "title": "经典弹幕游戏重制《东方红魔乡：新典》发售，Steam 国区 69 元起",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/486288.html",
-      "published": "2026-09-09T05:02:30+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/000/487.htm",
+      "published": "2026-09-09T15:52:04+00:00",
       "summary": [
-        "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布"
+        "IT之家 9 月 9 日消息，弹幕射击游戏《东方红魔乡：新典 ～ the Embodiment of Scarlet Devil.》现有正式发售，登陆 PS5、Switch 2、PC 平台，支持中文",
+        "IT之家获悉，《东方红魔乡：新典》是 2002 年推出的《东方红魔乡 ～ 绯红恶魔的体现》（the Embodiment of Scarlet Devil.）时隔 24 年首次推出的重制版本，玩家将操控博丽灵梦与雾雨魔理沙，在漫天飞舞的弹幕之间穿梭，调查笼罩幻想乡的神秘红雾异变",
+        "价格方面，以 Steam 国区为例，本作标准版定价为 69 元（收录原版《东方红魔乡 Classic》游戏），豪华版定价为 97.75 元，额外收录游戏音乐原声带，IT之家附游戏商品页（https://store.steampowered.com/app/4659620/__the_Embodiment_of_Scarlet_Devil/?l=schinese）"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "id": "6dd7eea03b7f",
+      "title": "Uber 以 1.68 亿美元的估值向印度车队运营商 Carrum 投资 1000 万美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
+      "published": "2026-09-09T14:38:41+00:00",
+      "summary": [
+        "Carrum Mobility 在印度运营约 5,100 辆汽车，是 Uber 在印度提供优质 Uber Black 服务的最大车队合作伙伴。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "ba0725adef5e",
@@ -135,66 +175,47 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     },
     {
-      "id": "6344f8ea6647",
-      "title": "探索公司筹集 4.5 亿美元挑战 SpaceX",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
-      "published": "2026-09-08T20:47:34+00:00",
-      "summary": [
-        "The Exploration Company (TEC) 已筹集 4.5 亿美元用于建造可重复使用的航天器，该公司将其描述为“欧洲公司有史以来最大的 C 轮融资”。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "05a0ab9e1162",
-      "title": "据报道，苹果可折叠“iPhone Duo”起售价为 2,000 美元",
+      "id": "0782bf2bf032",
+      "title": "Nintendo Direct 2026 年 9 月：最大新闻和预告片",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable",
-      "published": "2026-09-09T05:26:53+00:00",
+      "sourceUrl": "https://www.theverge.com/games/991547/nintendo-direct-september-2026-news-trailers-announcements",
+      "published": "2026-09-09T13:50:00+00:00",
       "summary": [
-        "距离约翰·特努斯 (John Ternus) 接任苹果首席执行官以来的首场 iPhone 发布会只剩下几个小时，彭博社记者马克·古尔曼 (Mark Gurman) 表示，"
+        "任天堂本周刚刚完成了其双重功能的第二部分。周二，该公司举办了一场有关《塞尔达传说》系列的展示会"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     },
     {
-      "id": "95a190e6d2c5",
-      "title": "随着人工智能改变安全格局，Chrome 现在每两周发布一次更新",
+      "id": "4c31ccfb47a0",
+      "title": "Amazon Prime Video 的全新 AI 技术可将嘴唇与配音音频相匹配",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
-      "published": "2026-09-08T15:04:09+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+      "published": "2026-09-09T13:00:00+00:00",
       "summary": [
-        "谷歌正在加快 Chrome 的发布时间表，以更快地发布安全补丁和新功能。"
+        "亚马逊的 Prime Video 正在推出一项新的人工智能功能，可以将演员的嘴与“人工配音”的音频对齐。该功能仅适用于"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
