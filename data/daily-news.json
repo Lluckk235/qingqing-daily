@@ -1,44 +1,44 @@
 {
-  "date": "2026-09-08",
-  "generated": "2026-09-08T23:58:23.104425+08:00",
-  "total": 10,
+  "date": "2026-09-09",
+  "generated": "2026-09-09T11:03:34.761083+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "926902b984e8",
-      "title": "Adobe 正试图使其 AI 生成器在 Premiere 中防白痴",
+      "id": "20d984cb02eb",
+      "title": "Meta 首次推出 Muse AI 代理。消费者会信任它吗？",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "published": "2026-09-08T19:00:00+00:00",
+      "summary": [
+        "Meta 的新个人人工智能代理 Muse 希望访问用户的电子邮件、日历、支付、健康服务等，从而成为该公司最大的消费者"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "adeeaa461493",
+      "title": "戏剧围绕 OpenAI 的传奇数学里程碑展开",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
-      "published": "2026-09-08T13:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "published": "2026-09-08T20:53:52+00:00",
       "summary": [
-        "Adobe 正在其 Premiere 专业视频编辑软件中彻底改革编辑人员与 AI 的交互方式。其新的生成媒体工具使您可以更轻松地"
+        "正如《纽约时报》早些时候报道的那样，OpenAI 表示，它找到了一个大约 90 年来一直未解决的重大数学问题的解决方案。"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "f4a18652fbac",
-      "title": "这位人工智能企业家正在开发能够提前计划意外情况的代理",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-      "published": "2026-09-08T10:34:00+00:00",
-      "summary": [
-        "丹尼贾·哈夫纳 (Danijar Hafner) 位于旧金山 SoMa 区的办公室几乎空无一人。他的全新初创公司仍处于隐身模式，甚至没有自己的名字。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,22 +57,22 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "acb2e6d16304",
-      "title": "一名黑客在加密货币盗窃中窃取了 3.4 亿美元，然后归还了大部分",
+      "id": "1e6137125415",
+      "title": "俄罗斯方块公司抱怨后，白宫下架了“筑墙”游戏",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/08/a-hacker-stole-340m-in-a-crypto-heist-then-returned-most-of-it/",
-      "published": "2026-09-08T14:11:29+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
+      "published": "2026-09-08T23:23:23+00:00",
       "summary": [
-        "最新的盗窃案是迄今为止最大的加密货币盗窃案之一。"
+        "俄罗斯方块公司发布称其需要“版权”后，特朗普政府短命的街机游戏“Build the Wall”现在已无处可寻。"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -81,19 +81,19 @@
       "rank": 4
     },
     {
-      "id": "c86eae705bb8",
-      "title": "消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流",
+      "id": "6223541aceff",
+      "title": "折叠屏 iPhone 初期产量受限，每日仅数百部；环比增长 379%，腾讯 HY4 登顶全球大模型调用榜；特斯拉时隔 19 个月再降价｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/0/999/948.htm",
-      "published": "2026-09-08T15:36:33+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370026",
+      "published": "2026-09-09T00:37:42+00:00",
       "summary": [
-        "IT之家 9 月 8 日消息，据科技媒体 WABetaInfo 上周（9 月 4 日）报道，WhatsApp 即将支持第三方 AI 智能体",
-        "IT之家从原报道获悉，当 OpenClaw 等人工智能助手出现时，许多用户尝试将这些 AI 智能体当作机器人连接到 WhatsApp，但很多情况下都会导致封号",
-        "对比之下，Telegram 选择拥抱时代趋势，后续逐渐成为用户与 AI 智能体聊天的主要平台之一"
+        "消息称苹果折叠屏 iPhone 初期产量受限，每日仅数百部 9 月 8 日，据日经中文网报道，根据多位知情人士指出，市场期待已久的首部苹果折叠 iPhone，由于苹果极为严格的质量管控标准，初期生产量每天仅有「数百部」，而苹果及其供货商正全力加快产量爬坡",
+        "熟悉情况的供应链主管向《日经亚洲》透露：「苹果设定了极高的质量标准，在正式量产之前，8 月又追加了一轮试产」",
+        "该人员表示：「截至 8 月下旬日产量仅数百部"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,23 +102,61 @@
       "rank": 5
     },
     {
-      "id": "992ef3ca589c",
-      "title": "派拉蒙被发现利用“Astroturf”集团为合并鼓动虚假支持",
+      "id": "ba0725adef5e",
+      "title": "Cognition 估值达到 48B 美元，表明投资者相信人工智能编码远非赢家通吃的市场",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "Hacker News",
-      "sourceDomain": "techdirt.com",
-      "sourceUrl": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
-      "published": "2026-09-08T14:33:52+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "published": "2026-09-08T21:04:06+00:00",
       "summary": [
-        "评论"
+        "Cognition 的估值倍数高于 Cursor 出售给 SpaceX 之前的估值倍数。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 6
+    },
+    {
+      "id": "6344f8ea6647",
+      "title": "探索公司筹集 4.5 亿美元挑战 SpaceX",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
+      "published": "2026-09-08T20:47:34+00:00",
+      "summary": [
+        "The Exploration Company (TEC) 已筹集 4.5 亿美元用于建造可重复使用的航天器，该公司将其描述为“欧洲公司有史以来最大的 C 轮融资”。"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "c6bd6f793487",
+      "title": "白宫下架种族主义俄罗斯方块克隆版",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/991451/white-house-pulls-racist-tetris-clone",
+      "published": "2026-09-08T16:00:51+00:00",
+      "summary": [
+        "正如 Kotaku 早些时候报道的那样，白宫在推出专门针对“街机”游戏的网站几天后，取缔了盗版俄罗斯方块的行为。这"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "95a190e6d2c5",
@@ -135,66 +173,47 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "129b47b30c65",
-      "title": "Pusheen 的第一款游戏即将登陆 Apple Arcade",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/991398/pusheen-apple-arcade-game",
-      "published": "2026-09-08T15:07:13+00:00",
-      "summary": [
-        "Pusheen 即将推出她的第一款游戏，它将独家出现在 Apple Arcade 上。 Pusheen's Place 于 10 月 1 日推出，让您可以收集和照顾"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "6d83328ea203",
-      "title": "任天堂重制版《时之笛》将于 11 月推出",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer",
-      "published": "2026-09-08T14:26:02+00:00",
-      "summary": [
-        "林克的下一场冒险现已确定发布日期。在《塞尔达传说》系列 40 周年纪念直播中，任天堂宣布即将推出的新作"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "7ccf07e73a71",
-      "title": "JBL 带有可拆卸后置扬声器的条形音箱立减 300 美元以上",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/991261/jbl-soundbar-detachable-speakers-final-fantasy-deal-sale",
-      "published": "2026-09-08T15:03:07+00:00",
+      "id": "a2ebb8dfb799",
+      "title": "如何观看 Apple 的可折叠 iPhone 发布会",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/how-to-watch-apples-foldable-iphone-announcement/",
+      "published": "2026-09-08T17:46:53+00:00",
       "summary": [
-        "很多人在购买一个漂亮的一体式条形音箱和花更多钱购买包含后置卫星环绕声的选项之间犹豫不决。"
+        "Apple 年度 iPhone 发布会将于 9 月 9 日上午 10 点（太平洋夏令时间）进行直播，我们期待重大消息。"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 10
+    },
+    {
+      "id": "f4f95dccedd7",
+      "title": "我们对即将推出的苹果产品有何期待",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "published": "2026-09-07T15:58:00+00:00",
+      "summary": [
+        "虽然苹果首款可折叠 iPhone Ultra 将于 9 月 9 日发布，但我们也期待有关 AirPods 和 HomePods 的消息。"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 11
     }
   ]
 }
