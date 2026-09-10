@@ -1,221 +1,183 @@
 {
-  "date": "2026-09-09",
-  "generated": "2026-09-09T23:54:45.179920+08:00",
-  "total": 11,
+  "date": "2026-09-10",
+  "generated": "2026-09-10T11:04:02.677701+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "be434c4eb2bd",
-      "title": "下载：今年 35 名 35 岁以下创新者",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
-      "published": "2026-09-08T12:10:00+00:00",
+      "id": "a62cdeb365cc",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "published": "2026-09-09T22:25:22+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "1e6137125415",
-      "title": "俄罗斯方块公司抱怨后，白宫下架了“筑墙”游戏",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
-      "published": "2026-09-08T23:23:23+00:00",
+      "id": "2ce844f1d2ca",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "published": "2026-09-09T21:16:34+00:00",
       "summary": [
-        "俄罗斯方块公司发布称其需要“版权”后，特朗普政府短命的街机游戏“Build the Wall”现在已无处可寻。"
+        "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally announced, the breakthrough had been complicated by the unusual [&#8230;]"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "b5781936fd6d",
-      "title": "下载：OpenAI 的数学转折点和电池记录",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
-      "published": "2026-09-09T12:10:00+00:00",
-      "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "aea2bcdb83b5",
-      "title": "病毒式 AI 助手 Instinct 现在拥有自己的电子邮件地址",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-      "published": "2026-09-09T15:13:12+00:00",
-      "summary": [
-        "Instinct 的新电子邮件功能可让人工智能代理创建和管理帐户、联系企业、处理支持请求以及代表用户执行更多操作。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "75767689b78f",
-      "title": "千问办公发布多人工作台，重写企业软件的最后一公里",
+      "id": "0d062e35cf05",
+      "title": "苹果进入特努斯时代，首发 15999 元折叠屏 iPhone；Deepseek 被曝备战科创板 IPO；谷歌埃森哲组建千人 FDE 团队 | 极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370061",
-      "published": "2026-09-09T07:07:04+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/370089",
+      "published": "2026-09-10T00:58:59+00:00",
       "summary": [
-        "作者｜Cynthia 编辑｜郑玄 2026 年 2 月 3 日，由 Anthropic 带头，华尔街替 SaaS 写好了讣告",
-        "几天前，Anthropic 正式官宣把 Claude Cowork 的插件能力扩展到法律、销售、金融等知识工作",
-        "与普通聊天机器人不同，这些插件可以携带部门工作流、调用外部工具和数据，并按照预设规则完成一段具体工作"
+        "苹果首款折叠 iPhone Duo 亮相，国行 15999 元起 北京时间 9 月 10 日凌晨，苹果发布首款折叠手机 iPhone Duo，国行 15999 元起，10 月 16 日开启预售，23 日正式发售",
+        "同场推出 iPhone 18 Pro 系列，9999 元起；标准版 iPhone 18 推迟至明年春季发布",
+        "该机采用书本式内折设计，内外屏尺寸与小米 18 Fold 接近，价格高出 5000 元"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 3
     },
     {
-      "id": "5e4555ea6664",
-      "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/486374.html",
-      "published": "2026-09-09T10:02:54+00:00",
+      "id": "5f55fbeb7acc",
+      "title": "派早报：Apple 发布 iPhone Duo 折叠屏等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114394",
+      "published": "2026-09-09T22:38:42+00:00",
       "summary": [
-        "实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug"
+        "奥之心发布 OM SYSTEM PEN 相机、Sonos 更新音频系统等"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
     },
     {
-      "id": "65aabcfa52ed",
-      "title": "经典弹幕游戏重制《东方红魔乡：新典》发售，Steam 国区 69 元起",
+      "id": "73dfa53fec5d",
+      "title": "PS 独占变独不占？小岛秀夫谍战游戏新作《Physint》取消与索尼合作，转投微软 Xbox",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/000/487.htm",
-      "published": "2026-09-09T15:52:04+00:00",
+      "sourceUrl": "https://www.ithome.com/1/000/623.htm",
+      "published": "2026-09-10T03:03:06+00:00",
       "summary": [
-        "IT之家 9 月 9 日消息，弹幕射击游戏《东方红魔乡：新典 ～ the Embodiment of Scarlet Devil.》现有正式发售，登陆 PS5、Switch 2、PC 平台，支持中文",
-        "IT之家获悉，《东方红魔乡：新典》是 2002 年推出的《东方红魔乡 ～ 绯红恶魔的体现》（the Embodiment of Scarlet Devil.）时隔 24 年首次推出的重制版本，玩家将操控博丽灵梦与雾雨魔理沙，在漫天飞舞的弹幕之间穿梭，调查笼罩幻想乡的神秘红雾异变",
-        "价格方面，以 Steam 国区为例，本作标准版定价为 69 元（收录原版《东方红魔乡 Classic》游戏），豪华版定价为 97.75 元，额外收录游戏音乐原声带，IT之家附游戏商品页（https://store.steampowered.com/app/4659620/__the_Embodiment_of_Scarlet_Devil/?l=schinese）"
+        "IT之家 9 月 10 日消息，小岛秀夫在 2025 年 9 月正式公布了其 PlayStation 独占新作《Physint》，并将其描述为自己“毕生心血的结晶”与“战术谍报动作的新阶段”",
+        "然而索尼 PlayStation 官方今日宣布，在仔细考虑后作出了艰难的决定，停止与小岛工作室在其《Physint》项目上的合作",
+        "PlayStation 官方称：“我们继续对小岛秀夫对这款游戏的愿景抱有极大的钦佩"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 5
     },
     {
-      "id": "6dd7eea03b7f",
-      "title": "Uber 以 1.68 亿美元的估值向印度车队运营商 Carrum 投资 1000 万美元",
+      "id": "e9590b50c0bc",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
-      "published": "2026-09-09T14:38:41+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+      "published": "2026-09-10T00:00:37+00:00",
       "summary": [
-        "Carrum Mobility 在印度运营约 5,100 辆汽车，是 Uber 在印度提供优质 Uber Black 服务的最大车队合作伙伴。"
+        "消息人士称，Listen Labs 放弃了 Menlo Ventures 签署的 C 轮投资意向书。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "ef66728a9235",
+      "title": "Harvey hits $15.5B valuation, months after reaching $11B",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/",
+      "published": "2026-09-09T18:34:24+00:00",
+      "summary": [
+        "The legal AI startup and VC darling has nearly doubled its valuation in nine months."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "8d46cc5a0f61",
+      "title": "司法部希望获得有关福克斯 22B 美元 Roku 交易的更多答案",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/doj-wants-more-answers-on-foxs-22b-roku-deal/",
+      "published": "2026-09-09T16:44:21+00:00",
+      "summary": [
+        "The investigation also comes as the DOJ has faced criticism over how it handles major mergers, including questions about political influence."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "ba0725adef5e",
-      "title": "Cognition 估值达到 48B 美元，表明投资者相信人工智能编码远非赢家通吃的市场",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-      "published": "2026-09-08T21:04:06+00:00",
+      "id": "a24afc2eb70b",
+      "title": "There aren’t AirPods with cameras yet and I hope it stays that way",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event",
+      "published": "2026-09-09T23:00:04+00:00",
       "summary": [
-        "Cognition 的估值倍数高于 Cursor 出售给 SpaceX 之前的估值倍数。"
+        "九月的 Apple 活动总是充满信息和令人兴奋的新产品，今天也不例外。苹果公司发布了首款可折叠产品"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "0782bf2bf032",
-      "title": "Nintendo Direct 2026 年 9 月：最大新闻和预告片",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/991547/nintendo-direct-september-2026-news-trailers-announcements",
-      "published": "2026-09-09T13:50:00+00:00",
-      "summary": [
-        "任天堂本周刚刚完成了其双重功能的第二部分。周二，该公司举办了一场有关《塞尔达传说》系列的展示会"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "4c31ccfb47a0",
-      "title": "Amazon Prime Video 的全新 AI 技术可将嘴唇与配音音频相匹配",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
-      "published": "2026-09-09T13:00:00+00:00",
-      "summary": [
-        "亚马逊的 Prime Video 正在推出一项新的人工智能功能，可以将演员的嘴与“人工配音”的音频对齐。该功能仅适用于"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 11
     }
   ]
 }
