@@ -1,7 +1,7 @@
 {
   "date": "2026-09-10",
-  "generated": "2026-09-10T11:04:02.677701+08:00",
-  "total": 9,
+  "generated": "2026-09-10T16:38:45.349621+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,9 +38,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
+    },
+    {
+      "id": "3b10d31ea8f6",
+      "title": "海盗船官宣 USB 游戏麦克风 VOXARA，结合 Elgato 软件技术",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/000/872.htm",
+      "published": "2026-09-10T08:38:36+00:00",
+      "summary": [
+        "IT之家 9 月 10 日消息，CORSAIR（海盗船）当地时间昨日确认将参与 9 月 17 日开幕的 TGS2026 东京游戏展，并正式官宣了高端 USB 麦克风新品 VOXARA",
+        "海盗船通常以旗下 Elgato 品牌推出面向创作者的收音产品，而 VOXARA 是其主品牌的首款同类产品",
+        "其支持 ARGB 光效，兼容 Elgato Wave Link 控制软件，支持 Elgato Voice Focus 人工智能收音优化技术"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 3
     },
     {
       "id": "0d062e35cf05",
@@ -59,49 +80,49 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 3
-    },
-    {
-      "id": "5f55fbeb7acc",
-      "title": "派早报：Apple 发布 iPhone Duo 折叠屏等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114394",
-      "published": "2026-09-09T22:38:42+00:00",
-      "summary": [
-        "奥之心发布 OM SYSTEM PEN 相机、Sonos 更新音频系统等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "73dfa53fec5d",
-      "title": "PS 独占变独不占？小岛秀夫谍战游戏新作《Physint》取消与索尼合作，转投微软 Xbox",
+      "id": "cf0070f72f8d",
+      "title": "苹果第一台折叠 iPhone，15999 元起",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/000/623.htm",
-      "published": "2026-09-10T03:03:06+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370088",
+      "published": "2026-09-09T19:43:09+00:00",
       "summary": [
-        "IT之家 9 月 10 日消息，小岛秀夫在 2025 年 9 月正式公布了其 PlayStation 独占新作《Physint》，并将其描述为自己“毕生心血的结晶”与“战术谍报动作的新阶段”",
-        "然而索尼 PlayStation 官方今日宣布，在仔细考虑后作出了艰难的决定，停止与小岛工作室在其《Physint》项目上的合作",
-        "PlayStation 官方称：“我们继续对小岛秀夫对这款游戏的愿景抱有极大的钦佩"
+        "iPhone Duo，国行 15999 元起 作者｜张勇毅 编辑｜靖宇 北京时间今天凌晨，苹果发布了第一台折叠屏手机，名字叫 iPhone Duo",
+        "国行 15999 元起，10 月 16 日晚 8 点预购，10 月 23 日发售",
+        "同场发布的 iPhone 18 Pro 系列 9999 元起，9 月 12 日晚 8 点预购，18 日发售"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "5a8c84c85a95",
+      "title": "全球首个3D原生城市世界模型ABot-Earth 0.7发布，构建AI理解真实世界的入口",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/486900.html",
+      "published": "2026-09-10T08:17:05+00:00",
+      "summary": [
+        "9月10日，阿里巴巴集团旗下高德正式发布全球首个3D原生城市世界模型ABot-Earth 0.7"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "e9590b50c0bc",
@@ -114,13 +135,13 @@
       "sourceUrl": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
       "published": "2026-09-10T00:00:37+00:00",
       "summary": [
-        "消息人士称，Listen Labs 放弃了 Menlo Ventures 签署的 C 轮投资意向书。"
+        "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "ef66728a9235",
@@ -137,13 +158,13 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "8d46cc5a0f61",
-      "title": "司法部希望获得有关福克斯 22B 美元 Roku 交易的更多答案",
+      "title": "DOJ wants more answers on Fox’s $22B Roku deal",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -156,9 +177,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "a24afc2eb70b",
@@ -171,13 +192,13 @@
       "sourceUrl": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event",
       "published": "2026-09-09T23:00:04+00:00",
       "summary": [
-        "九月的 Apple 活动总是充满信息和令人兴奋的新产品，今天也不例外。苹果公司发布了首款可折叠产品"
+        "September Apple events are always a swirl of information and new, exciting products, and today's was no different. Apple announced its first foldable, the iPhone Duo, alongside the iPhone 18 Pro and Pro Max; active noise cancellation (ANC) is now on the cheapest AirPods model, the AirPods 5; and a Siri Recap feature comes to [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
