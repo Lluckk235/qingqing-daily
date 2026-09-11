@@ -1,47 +1,9 @@
 {
   "date": "2026-09-11",
-  "generated": "2026-09-11T10:59:22.377305+08:00",
+  "generated": "2026-09-11T16:33:17.414380+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "999f113dc0b6",
-      "title": "Anthropic 详细介绍了阿里巴巴、Moonshot AI 和 DeepSeek 的蒸馏活动",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-      "published": "2026-09-10T20:57:30+00:00",
-      "summary": [
-        "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "4780951de096",
-      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "published": "2026-09-10T19:50:04+00:00",
-      "summary": [
-        "Meta 的最新应用程序 Muse 的启动速度比该公司的其他应用程序（例如 Meta AI 或 Threads）要慢。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "15f72ba463ca",
       "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
@@ -59,20 +21,58 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "1f2e7f517425",
-      "title": "派早报：商务部回应美国 AI 蒸馏指控",
+      "id": "999f113dc0b6",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114439",
-      "published": "2026-09-10T22:58:54+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "published": "2026-09-10T20:57:30+00:00",
       "summary": [
-        "商务部回应美国 AI 蒸馏指控谷歌声称为了合规将「降级」欧盟搜索服务Apple 智能将有用量限制OpenAI 将与三星合作开发芯片小岛秀夫新游戏被索尼取消，转由微软发行DeepSeek V4.1 发布看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
+        "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "4780951de096",
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "published": "2026-09-10T19:50:04+00:00",
+      "summary": [
+        "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "93beacdcfc9e",
+      "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/487273.html",
+      "published": "2026-09-11T06:19:03+00:00",
+      "summary": [
+        "9月9日，墨芯人工智能亮相以\"共创AI新经济\"为主题的2026 Inclusion·外滩大会"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -81,29 +81,8 @@
       "rank": 4
     },
     {
-      "id": "cf0070f72f8d",
-      "title": "苹果第一台折叠 iPhone，15999 元起",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370088",
-      "published": "2026-09-09T19:43:09+00:00",
-      "summary": [
-        "iPhone Duo，国行 15999 元起 作者｜张勇毅 编辑｜靖宇 北京时间今天凌晨，苹果发布了第一台折叠屏手机，名字叫 iPhone Duo",
-        "国行 15999 元起，10 月 16 日晚 8 点预购，10 月 23 日发售",
-        "同场发布的 iPhone 18 Pro 系列 9999 元起，9 月 12 日晚 8 点预购，18 日发售"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
       "id": "7cc25eebdab7",
-      "title": "Bending Spoons 以 $1.36B 收购协作工具制造商 Miro，较 2022 年估值低 90%",
+      "title": "Bending Spoons to buy collaboration tools maker Miro for $1.36B, 90% less than its 2022 valuation",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -112,17 +91,17 @@
       "sourceUrl": "https://techcrunch.com/2026/09/10/bending-spoons-to-buy-collaboration-tools-maker-miro-for-1-36b-90-less-than-its-2022-valuation/",
       "published": "2026-09-10T14:34:09+00:00",
       "summary": [
-        "Bending Spoons 将以 13.6 亿美元的价格收购 Miro，这对于这家工作场所协作初创公司来说估值大幅下跌，该公司去年的估值为 175 亿美元。"
+        "Bending Spoons is buying Miro for $1.36 billion, a huge dip in valuation for the workplace collaboration startup, which was valued at $17.5 billion in late 2021."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "eba93220bae8",
-      "title": "Furo 的创始人离开了硅谷——并且得到了回报",
+      "title": "Furo’s founders left Silicon Valley — and it’s paying off",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -131,17 +110,17 @@
       "sourceUrl": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
       "published": "2026-09-10T20:48:00+00:00",
       "summary": [
-        "能源初创公司 Furo 的三位 28 岁创始人从硅谷搬回德国，但仍从 Mo 获得了 400 万美元的资金。"
+        "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "d40cabdd4c17",
-      "title": "Maven Robotics 想要窃取您的机器人部署协议",
+      "title": "Maven Robotics wants to steal your robot deployment deal",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -150,17 +129,17 @@
       "sourceUrl": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
       "published": "2026-09-10T14:17:37+00:00",
       "summary": [
-        "Maven Robotics 今天从隐秘状态中脱颖而出，获得 1 亿美元的 A 轮融资并进行积极部署。"
+        "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "4ad0594025a7",
-      "title": "在哪里预订新款 Apple Watch Series 12 和 Ultra 4",
+      "title": "Where to preorder the new Apple Watch Series 12 and Ultra 4",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -169,13 +148,13 @@
       "sourceUrl": "https://www.theverge.com/gadgets/988579/apple-watch-series-12-5g-ultra-4-preorder-buy",
       "published": "2026-09-10T15:00:00+00:00",
       "summary": [
-        "iPhone Duo 无疑是苹果“惊喜与闪耀”活动中的明星，但对于那些主要关注可穿戴设备新闻的人来说却并非如此。"
+        "The iPhone Duo was the unequivocal star of Apple's \"Surprise and shine\" event, but not for people who were mostly paying attention for news on wearables. Thankfully, Apple had a lot to share about its new Apple Watch Series 12 and Ultra 4. There's no update to the SE model for 2026, which isn't necessarily [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "7b5505b6ed7b",
@@ -192,7 +171,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "42abbc067978",
+      "title": "Amazon makes it easier to buy what you see on Prime Video",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/amazon-makes-it-easier-to-buy-what-you-see-on-prime-video/",
+      "published": "2026-09-10T18:10:36+00:00",
+      "summary": [
+        "Amazon is expanding shopping integrations across Prime Video, letting viewers discover products tied to thousands of shows, movies, and live sports through X-Ray, its shopping app, and a new Lens-powered “Shop the Scene” feature."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 10
     }
