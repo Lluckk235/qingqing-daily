@@ -1,12 +1,50 @@
 {
-  "date": "2026-09-10",
-  "generated": "2026-09-10T23:49:54.955372+08:00",
-  "total": 12,
+  "date": "2026-09-11",
+  "generated": "2026-09-11T10:59:22.377305+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "999f113dc0b6",
+      "title": "Anthropic 详细介绍了阿里巴巴、Moonshot AI 和 DeepSeek 的蒸馏活动",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "published": "2026-09-10T20:57:30+00:00",
+      "summary": [
+        "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "4780951de096",
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "published": "2026-09-10T19:50:04+00:00",
+      "summary": [
+        "Meta 的最新应用程序 Muse 的启动速度比该公司的其他应用程序（例如 Meta AI 或 Threads）要慢。"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
       "id": "15f72ba463ca",
-      "title": "下载：“上帝驱动”的加密货币和太阳能工程路线图",
+      "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -15,112 +53,32 @@
       "sourceUrl": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
       "published": "2026-09-10T12:10:00+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. According to Eli and his wife,&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "da1f6c143745",
-      "title": "欧洲创始人和风险投资家敦促立法者“让欧盟公司走上正确的道路”",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/european-founders-and-vcs-urge-lawmakers-to-get-eu-inc-right/",
-      "published": "2026-09-10T12:25:08+00:00",
-      "summary": [
-        "在欧盟范围内新企业地位的谈判中，独角兽创始人和投资者签署的一封公开信警告说，“欧盟公司”不应该是水"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "bdd2b8a250a4",
-      "title": "Meta 的 Muse AI 很有效，让我毛骨悚然",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-      "published": "2026-09-10T15:00:00+00:00",
-      "summary": [
-        "Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示其人工智能代理可以"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "9ee5bacda2ce",
-      "title": "人工智能代理正在向公共服务提出新的要求",
+      "id": "1f2e7f517425",
+      "title": "派早报：商务部回应美国 AI 蒸馏指控",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
-      "published": "2026-09-10T14:53:50+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114439",
+      "published": "2026-09-10T22:58:54+00:00",
       "summary": [
-        "研究人员告诉 TechCrunch：“我们发现的绝大多数案例都是有权对某物提出索赔的人。”"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "a4a2a9e1a6fb",
-      "title": "法国总统马克龙呼吁欧洲大力发展自主载人航天，力争 10 年内送宇航员上太空",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/043.htm",
-      "published": "2026-09-10T15:38:03+00:00",
-      "summary": [
-        "IT之家 9 月 10 日消息，据法新社报道，当地时间 10 日，法国总统埃马纽埃尔 · 马克龙呼吁欧洲在 10 年内具备自主载人航天能力，推动欧洲航天业发展",
-        "欧洲航天局（ESA）局长约瑟夫 · 阿施巴赫尔也提出了类似呼吁",
-        "当地时间 9 日，他在闭门会议上敦促各国部长和政要增加投入，建设独立自主的欧洲航天业"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "41962159b32d",
-      "title": "走出聊天框，Agent 开始进入现实世界",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370064",
-      "published": "2026-09-10T13:39:07+00:00",
-      "summary": [
-        "&nbsp; 头图来源：小度 Agent 正在寻找自己的「身体」",
-        "过去一年，智能体的主要工作对象是文件、网页和软件",
-        "它们可以搜索资料、分析数据、制作 PPT，也可以打开浏览器、调用工具，把一句需求推进成一份可供交付的结果"
+        "商务部回应美国 AI 蒸馏指控谷歌声称为了合规将「降级」欧盟搜索服务Apple 智能将有用量限制OpenAI 将与三星合作开发芯片小岛秀夫新游戏被索尼取消，转由微软发行DeepSeek V4.1 发布看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "cf0070f72f8d",
@@ -139,9 +97,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "7cc25eebdab7",
@@ -154,32 +112,32 @@
       "sourceUrl": "https://techcrunch.com/2026/09/10/bending-spoons-to-buy-collaboration-tools-maker-miro-for-1-36b-90-less-than-its-2022-valuation/",
       "published": "2026-09-10T14:34:09+00:00",
       "summary": [
-        "Bending Spoons 将以 $1.36B 的价格收购 Miro，这对于这家工作场所协作初创公司来说估值大幅下跌，该公司在 2021 年底的估值为 $17.5B。"
+        "Bending Spoons 将以 13.6 亿美元的价格收购 Miro，这对于这家工作场所协作初创公司来说估值大幅下跌，该公司去年的估值为 175 亿美元。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 6
     },
     {
-      "id": "7ca38c883044",
-      "title": "国防科技马赫工业公司估值在 3 个月内翻倍至 $3.7B",
+      "id": "eba93220bae8",
+      "title": "Furo 的创始人离开了硅谷——并且得到了回报",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/",
-      "published": "2026-09-10T13:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
+      "published": "2026-09-10T20:48:00+00:00",
       "summary": [
-        "这家热闹的初创公司在 C 轮延期融资中又筹集了 6 亿美元，使本轮融资总额达到 9 亿美元。"
+        "能源初创公司 Furo 的三位 28 岁创始人从硅谷搬回德国，但仍从 Mo 获得了 400 万美元的资金。"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "d40cabdd4c17",
@@ -196,9 +154,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "4ad0594025a7",
@@ -215,28 +173,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
     },
     {
-      "id": "10b7907f18fb",
-      "title": "Snapchat 让计划活动和聚会变得更加容易",
+      "id": "7b5505b6ed7b",
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/993184/snapchat-makes-it-easier-to-plan-events-and-meetups",
-      "published": "2026-09-10T13:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "published": "2026-09-10T21:25:21+00:00",
       "summary": [
-        "Snapchat 正在推出 Plans，这是一套新功能，旨在帮助改变群聊中已经制定的计划 - 从生日庆祝活动到一切"
+        "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 10
     }
   ]
 }
