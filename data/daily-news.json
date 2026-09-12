@@ -1,31 +1,31 @@
 {
   "date": "2026-09-12",
-  "generated": "2026-09-12T16:21:36.774275+08:00",
-  "total": 10,
+  "generated": "2026-09-12T22:58:44.610298+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "e2480aa4c979",
-      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "id": "41bb568b2b60",
+      "title": "OpenAI just wants to win",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "published": "2026-09-11T20:59:47+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "published": "2026-09-12T11:00:00+00:00",
       "summary": [
-        "Tan 希望规模较小的美国开放式人工智能实验室能够使用与美国前沿人工智能实验室相同的训练技术，从而使美国更加强大"
+        "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
       "id": "12de205131c9",
-      "title": "圆桌会议：人工智能的末日危机",
+      "title": "Roundtables: AI’s apocalypse crisis",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -34,7 +34,7 @@
       "sourceUrl": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
       "published": "2026-09-11T20:05:06+00:00",
       "summary": [
-        "世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者"
+        "世界领先的人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -44,7 +44,7 @@
     },
     {
       "id": "ac3ad0fbe5ad",
-      "title": "The Download: biotech’s future and cheaper, cleaner steel",
+      "title": "下载：生物技术的未来和更便宜、更清洁的钢铁",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -57,74 +57,74 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "3fb6370eb57e",
-      "title": "与 AI 搏斗失败后重新开始找工作：经验分享与半可靠避雷指南",
+      "id": "2201ec481d11",
+      "title": "AI 时代的「4399」，可把我玩嗨了｜AI 上新",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114461",
-      "published": "2026-09-12T07:00:00+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370227",
+      "published": "2026-09-12T13:03:04+00:00",
       "summary": [
-        "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考",
-        "我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点",
-        "文章代表作者个人观点 ...查看全文"
+        "打开 Pocket 的前十分钟，我以为自己打开了一个 Instagram 版的 4399",
+        "不久前，Meta 在美国正式推出了 Pocket",
+        "Pocket 的玩法很好理解，用户不用写代码，只要告诉 AI「我想做一个什么东西」，几十秒后就能得到一个可以直接操作的小游戏、小工具或者互动页面"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "75418ccf1e58",
-      "title": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/487688.html",
-      "published": "2026-09-12T05:58:41+00:00",
-      "summary": [
-        "冲刺港股IPO"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "4fa1e3fe980b",
-      "title": "2027 款极氪 7X 申报图公布，计划 2026 年四季度上市",
+      "id": "3e4e964276a2",
+      "title": "国家发改委：积极支持大型汽车企业集团开展改革，以市场化、法制化方式推进企业间兼并重组",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/592.htm",
-      "published": "2026-09-12T08:18:45+00:00",
+      "sourceUrl": "https://www.ithome.com/1/001/654.htm",
+      "published": "2026-09-12T14:58:31+00:00",
       "summary": [
-        "IT之家 9 月 12 日消息，工信部近日发布第 411 批《道路机动车辆生产企业及产品公告》，2027 款极氪 7X 正式现身",
-        "新车新增 85kWh 金砖电池版本车型，将于 2026 年四季度上市",
-        "外观方面，2027 款极氪 7X 采用封闭式纯电前脸，配备横向贯穿式灯带，车尾同样搭载贯穿式灯组与前脸相呼应，尾门左侧印有“极氪”汉字标识，右侧为“7X”标识"
+        "IT之家 9 月 12 日消息，工业和信息化部昨日（9 月 11 日）举行新闻发布会，介绍我国智能网联新能源汽车产业发展有关情况",
+        "国家发展改革委产业发展司副司长邵稷出席发布会，他提到，新能源汽车在取得可喜成绩的同时，我们也认识到，当前产业技术路线仍在持续演进，未来还可能出现新的颠覆性技术，在产品质量安全、资源回收利用等方面还有不少提升空间",
+        "为此，国家发展改革委将会同有关部门，把技术创新摆在更加突出的位置，持之以恒推动产业提质升级"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "8ea9af46d419",
+      "title": "Revolut 确认客户数据因虚假政府请求而泄露",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "published": "2026-09-12T14:40:00+00:00",
+      "summary": [
+        "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
       "rank": 6
     },
     {
       "id": "c923ead07513",
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "title": "由于机器人训练数据的热潮，Mecka AI 在红杉主导的交易中估值接近 5 亿美元",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -137,28 +137,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 7
-    },
-    {
-      "id": "eba93220bae8",
-      "title": "Furo’s founders left Silicon Valley — and it’s paying off",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
-      "published": "2026-09-10T20:48:00+00:00",
-      "summary": [
-        "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 8
     },
     {
       "id": "39a56698bb45",
@@ -177,26 +158,26 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
-      "id": "6b9ee08482b4",
-      "title": "哪里可以预订 Apple AirPods 5",
+      "id": "8bb8b268e44e",
+      "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/993637/apple-airpods-5-anc-wireless-charging-preorder-buy",
-      "published": "2026-09-11T15:31:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+      "published": "2026-09-11T20:30:17+00:00",
       "summary": [
-        "The Apple AirPods 5 are bringing active noise cancellation to the masses, and they're now available for preorder at a variety of retailers. They'll officially launch on September 18th, the same day as the Apple Watch Series 12 and Ultra 4, as well as the iPhone 18 Pro and Pro Max. There are two versions [&#8230;]"
+        "申请在 TechCrunch Disrupt 2026 期间举办官方边会的最后机会是今晚，即 9 月 11 日晚上 11:59。 PT。"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     }
   ]
 }
