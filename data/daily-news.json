@@ -1,50 +1,12 @@
 {
-  "date": "2026-09-11",
-  "generated": "2026-09-11T23:52:07.033869+08:00",
-  "total": 11,
+  "date": "2026-09-12",
+  "generated": "2026-09-12T11:06:06.287644+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "999f113dc0b6",
-      "title": "Anthropic 详细介绍了阿里巴巴、Moonshot AI 和 DeepSeek 的蒸馏活动",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-      "published": "2026-09-10T20:57:30+00:00",
-      "summary": [
-        "Anthropic 周四发布的一份新报告称，中国人工智能公司持续发起蒸馏攻击，近几个月来攻击不断升级"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "4780951de096",
-      "title": "Meta 的 AI 代理 Muse 目前是美国排名第二的应用程序",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "published": "2026-09-10T19:50:04+00:00",
-      "summary": [
-        "Meta 的最新应用程序 Muse 的启动速度比该公司的其他应用程序（例如 Meta AI 或 Threads）要慢。"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
       "id": "ac3ad0fbe5ad",
-      "title": "下载：生物技术的未来和更便宜、更清洁的钢铁",
+      "title": "The Download: biotech’s future and cheaper, cleaner steel",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
@@ -53,76 +15,114 @@
       "sourceUrl": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
       "published": "2026-09-11T12:10:00+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "12de205131c9",
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "published": "2026-09-11T20:05:06+00:00",
+      "summary": [
+        "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "e2480aa4c979",
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "published": "2026-09-11T20:59:47+00:00",
+      "summary": [
+        "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "15f72ba463ca",
-      "title": "下载：“上帝驱动”的加密货币和太阳能工程路线图",
+      "id": "0b0f70a57171",
+      "title": "Bigscreen 宣布永久下调 Beyond 2 系列 PC VR 头显售价：起售价 1019 美元 → 959 美元",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
-      "published": "2026-09-10T12:10:00+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/001/529.htm",
+      "published": "2026-09-12T02:47:05+00:00",
       "summary": [
-        "这是今天的《下载》版本，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。"
+        "IT之家 9 月 12 日消息，Bigscreen 宣布永久下调 Beyond 2 系列 PC VR 头显售价，其中 Beyond 2 起售价降至 959 美元（IT之家注：现汇率约合 6,450 元人民币），较此前的 1,019 美元（现汇率约合 6,853 元人民币）降低 60 美元（现汇率约合 403.5 元人民币）；支持内置眼动追踪的 Beyond 2e 售价从 1,219 美元（现汇率约合 8,198 元人民币）降至 1,159 美元（现汇率约合 7,795 元人民币）",
+        "除了降价外，Bigscreen 还宣布此前延期已久的 Halo Mount 头戴支架已经恢复生产",
+        "该配件最初因测试者反馈不佳而在去年年底进行重新设计，今年 6 月又因生产问题进一步延期"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "4e5d357be10a",
-      "title": "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值",
+      "id": "8644a1968334",
+      "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/474.htm",
-      "published": "2026-09-11T15:48:59+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/487631.html",
+      "published": "2026-09-11T18:02:36+00:00",
       "summary": [
-        "IT之家 9 月 11 日消息，今年以来，华尔街一直在就 AI 热潮是否已经变成泡沫争论不休",
-        "高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个",
-        "“大家都在问，我们是不是已经进入 AI 泡沫"
+        "看清「一个真正的人」"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "7cc25eebdab7",
-      "title": "Bending Spoons 以 $1.36B 收购协作工具制造商 Miro，较 2022 年估值低 90%",
+      "id": "c923ead07513",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/bending-spoons-to-buy-collaboration-tools-maker-miro-for-1-36b-90-less-than-its-2022-valuation/",
-      "published": "2026-09-10T14:34:09+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "published": "2026-09-11T22:58:17+00:00",
       "summary": [
-        "Bending Spoons 将以 13.6 亿美元的价格收购 Miro，这对于这家工作场所协作初创公司来说估值大幅下跌，该公司去年的估值为 175 亿美元。"
+        "The round for the two-year-old startup is coming together months after Mecka announced its Series A."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 6
     },
     {
       "id": "eba93220bae8",
-      "title": "Furo 的创始人离开了硅谷——并且得到了回报",
+      "title": "Furo’s founders left Silicon Valley — and it’s paying off",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -131,36 +131,36 @@
       "sourceUrl": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
       "published": "2026-09-10T20:48:00+00:00",
       "summary": [
-        "能源初创公司 Furo 的三位 28 岁创始人从硅谷搬回德国，但仍从 Mo 获得了 400 万美元的资金。"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "d40cabdd4c17",
-      "title": "Maven Robotics 想要窃取您的机器人部署协议",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
-      "published": "2026-09-10T14:17:37+00:00",
-      "summary": [
-        "Maven Robotics 今天从隐秘状态中脱颖而出，获得 1 亿美元的 A 轮融资并进行积极部署。"
+        "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 3.5,
       "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "39a56698bb45",
+      "title": "We unfolded the iPhone Duo",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/994016/iphone-duo-vergecast-apple-watch-mac-llms",
+      "published": "2026-09-11T16:22:24+00:00",
+      "summary": [
+        "You only get one chance at a first impression, and getting to introduce Apple's first folding phone is certainly a strong way to start things off as Apple's CEO. On The Vergecast today, we're talking all about Apple's launch event: how John Ternus did in his first appearance as CEO, what we make of the [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
       "rank": 8
     },
     {
       "id": "6b9ee08482b4",
-      "title": "哪里可以预订 Apple AirPods 5",
+      "title": "Where to preorder the Apple AirPods 5",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -169,51 +169,32 @@
       "sourceUrl": "https://www.theverge.com/gadgets/993637/apple-airpods-5-anc-wireless-charging-preorder-buy",
       "published": "2026-09-11T15:31:00+00:00",
       "summary": [
-        "Apple AirPods 5 为大众带来了主动降噪功能，现在可以在多家零售商处预订。他们会的"
+        "The Apple AirPods 5 are bringing active noise cancellation to the masses, and they're now available for preorder at a variety of retailers. They'll officially launch on September 18th, the same day as the Apple Watch Series 12 and Ultra 4, as well as the iPhone 18 Pro and Pro Max. There are two versions [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "29174f756f19",
-      "title": "为什么苹果的下一代电脑应该用于智能家居",
+      "id": "8bb8b268e44e",
+      "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/993892/apples-next-computer-smart-home-hub-airport-router",
-      "published": "2026-09-11T14:01:55+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+      "published": "2026-09-11T20:30:17+00:00",
       "summary": [
-        "约翰·特努斯 (John Ternus) 在担任苹果首席执行官的第一次主题演讲中一次也没有提到过 Apple Home。但他确实首先描述了一个“智能个人中心”，该中心让"
+        "The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt 2026 is tonight, September 11, at 11:59 p.m. PT."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 10
-    },
-    {
-      "id": "ef21a5e937a8",
-      "title": "三星表示“蒂姆·库克”买了 Galaxy Fold",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/993928/samsung-tim-cook-galaxy-z-fold-8",
-      "published": "2026-09-11T13:59:16+00:00",
-      "summary": [
-        "这并不是苹果前首席执行官在三星新广告中宣传 Galaxy Z Fold 8 - “来自北帕默斯顿的蒂姆·库克”只是碰巧同名"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 11
     }
   ]
 }
