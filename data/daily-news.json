@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
-  "generated": "2026-09-13T16:51:18.906443+08:00",
-  "total": 7,
+  "generated": "2026-09-13T23:36:24.927255+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,69 +38,67 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "55ebb5bc6a83",
-      "title": "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370228",
-      "published": "2026-09-13T00:22:31+00:00",
+      "id": "c0584b3cc952",
+      "title": "Your car is selling your data",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "published": "2026-09-13T12:00:00+00:00",
       "summary": [
-        "OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀死所有人的风险 OpenAI 首席执行官 Sam Altman 在接受采访时表示，这家人工智能公司专注于解决围绕 AI 技术的安全担忧，今年不会上市",
-        "Altman 表示，今年进行首次公开募股「时机不合适」，公司要到明年才会上市",
-        "「我认为，哪怕冒着 10% 的在本十年结束前杀死所有人的风险，都是不可接受的，」Altman 说，「我认为，我们正在进入一个新时代，就像过去迈入其他时代时一样，我们需要采取不同的行动，确保我们所做的事情能够让这一理念造福全人类，同时也要确保没有任何人承担哪怕接近这种程度的风险"
+        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Earlier this year, the Federal Trade Commission [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
+      "score": 5,
+      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "e621ec8b7777",
-      "title": "凯越 650RR 摩托车上市：124 匹四缸发动机、整备质量 188kg，33977 元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/810.htm",
-      "published": "2026-09-13T08:33:13+00:00",
+      "id": "4731076ca188",
+      "title": "CUDA for AMD on Windows",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "github.com",
+      "sourceUrl": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+      "published": "2026-09-13T14:25:13+00:00",
       "summary": [
-        "IT之家 9 月 13 日消息，凯越机车昨日宣布，650RR 摩托车正式上市，售价 33,977 元：标准版（光刃白、液态金属银）：33,977 元创世版（赛道赤刃蓝、限量 777 台）：33,977 元凯越 650RR 摩托车搭载全新自研 645cc 四缸发动机，最大马力 124Ps、最大扭矩 69N·m、0-100km/h 加速约 3.4 秒，最高设计车速（极速）260km/h",
-        "这款摩托车的车架按 WSBK 赛事标准打造，弯曲刚度超 8000 N·m/°，采用六点式结构将发动机“抱”进车身，发动机直接成为强化单元，刚性和减重一举两得，整备质量 188kg",
-        "这款摩托车前对置四活塞（泰斯克）+ 双浮动碟，后单活塞（泰斯克）+ 单碟；100–0km/h 制动距离为 38.3m，连续 20 次 100–0km/h 制动无衰减，200–0km/h 制动距离为 150m"
+        "Comments"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
+      "score": 4,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "c923ead07513",
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-      "published": "2026-09-11T22:58:17+00:00",
+      "id": "b11183daea53",
+      "title": "创全球最低传输损耗新纪录，长飞反谐振空芯光纤衰减突破至 0.032dB / km",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/001/867.htm",
+      "published": "2026-09-13T14:48:45+00:00",
       "summary": [
-        "The round for the two-year-old startup is coming together months after Mecka announced its Series A."
+        "IT之家 9 月 13 日消息，2026 中国算力大会于 9 月 11 日至 13 日在河北省廊坊市举行，在大会“2026 算力首创首发”环节，长飞公司正式发布，反谐振空芯光纤衰减突破至 0.032dB/ km，创下全球最低传输损耗新纪录",
+        "据介绍，长飞空芯光纤算力互联技术已在国内外完成超过 13 个商用及试点项目，公司联合国内三大运营商完成城域网、智算互联及海洋传输等多场景应用",
+        "截至目前，长飞空芯光纤累计交付超 10000 芯公里，创下最长商用线路 100 公里等多项纪录，成为全球商用部署最广的空芯光纤供应商"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 5
     },
     {
@@ -118,28 +116,66 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "8ceacc112e8b",
-      "title": "LG responds to TV spying allegations",
+      "id": "1a165b0e5d6d",
+      "title": "Fusion power startups find new partners in the defense world",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
+      "published": "2026-09-13T13:15:00+00:00",
+      "summary": [
+        "Fusion startups are inking defense-related deals, reigniting the relationship between fusion and national security that might have gone dormant, but never completely disappeared."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "9b23d462fe3a",
+      "title": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations",
-      "published": "2026-09-12T15:19:44+00:00",
+      "sourceUrl": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026",
+      "published": "2026-09-13T13:00:00+00:00",
       "summary": [
-        "Earlier this week, Gamers Nexus, Level1Techs, and independent security researchers detailed some alarming findings about how LG's TVs are logging and uploading data on its users. Now the company is pushing back against those allegations, saying that \"Some recent media coverage may have contributed to misconceptions about how LG smart TVs work.\" LG released a [&#8230;]"
+        "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), and a promising director set to take over the reins (Bassam Tariq). In retrospect, though, the disappointing demise of Blade might not be such [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "id": "4269286e676c",
+      "title": "Apple’s new phones are here",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones",
+      "published": "2026-09-13T12:00:00+00:00",
+      "summary": [
+        "Hi, friends! Welcome to Installer No. 143, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, new tech season is here, and also you can read all the old editions at the Installer homepage.) This week, I've been devouring every iPhone Duo video I can find, clicking on [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
     }
   ]
 }
