@@ -1,103 +1,101 @@
 {
-  "date": "2026-09-14",
-  "generated": "2026-09-14T17:33:36.198132+08:00",
-  "total": 8,
+  "date": "2026-09-15",
+  "generated": "2026-09-15T01:41:00.856816+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "3701474fa5bf",
-      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "id": "4ca5a8ed3801",
+      "title": "AI agents blew the whistle on their cheating colleagues",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-      "published": "2026-09-13T21:30:00+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "published": "2026-09-14T16:00:00+00:00",
       "summary": [
-        "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified."
+        "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "1d273e458a46",
-      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "id": "77e5d5723a5e",
+      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
-      "published": "2026-09-13T19:41:48+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+      "published": "2026-09-14T12:10:00+00:00",
       "summary": [
-        "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "4731076ca188",
-      "title": "CUDA for AMD on Windows",
+      "id": "a5a985054c6d",
+      "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "Hacker News",
-      "sourceDomain": "github.com",
-      "sourceUrl": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
-      "published": "2026-09-13T14:25:13+00:00",
+      "sourceDomain": "theregister.com",
+      "sourceUrl": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
+      "published": "2026-09-14T16:09:45+00:00",
       "summary": [
         "Comments"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "55ebb5bc6a83",
-      "title": "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
+      "id": "62df91bb8153",
+      "title": "派评｜近期值得关注的 App",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370228",
-      "published": "2026-09-13T00:22:31+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114577",
+      "published": "2026-09-14T09:24:02+00:00",
       "summary": [
-        "OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀死所有人的风险 OpenAI 首席执行官 Sam Altman 在接受采访时表示，这家人工智能公司专注于解决围绕 AI 技术的安全担忧，今年不会上市",
-        "Altman 表示，今年进行首次公开募股「时机不合适」，公司要到明年才会上市",
-        "「我认为，哪怕冒着 10% 的在本十年结束前杀死所有人的风险，都是不可接受的，」Altman 说，「我认为，我们正在进入一个新时代，就像过去迈入其他时代时一样，我们需要采取不同的行动，确保我们所做的事情能够让这一理念造福全人类，同时也要确保没有任何人承担哪怕接近这种程度的风险"
+        ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "507a183a02ea",
-      "title": "波士顿动力 IPO 计划遇阻：Atlas 人形机器人尚未大规模部署",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "20962b45485b",
+      "title": "vivo WATCH 6 智能手表亮相：蓝宝石玻璃表镜、钛合金表体，9 月 21 日发布",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/002/225.htm",
-      "published": "2026-09-14T09:30:15+00:00",
+      "sourceUrl": "https://www.ithome.com/1/002/320.htm",
+      "published": "2026-09-14T15:35:16+00:00",
       "summary": [
-        "IT之家 9 月 14 日消息，路透社韩国当地时间今日报道称，一位现代汽车集团高管表示，集团旗下机器人企业 Boston Dynamics（波士顿动力）难以在 2027 年内实现 IPO 上市",
-        "这位匿名管理层人士表示，波士顿动力的 Atlas 人形机器人尚未达到大规模部署阶段，企业也仍未能实现盈利",
-        "现代汽车集团此前曾表示，目标到 2028 年构建年产三万台 Atlas 的制造能力，并计划向现代和起亚的汽车工厂部署 2.5 万台 Atlas"
+        "IT之家 9 月 14 日消息，vivo X500 系列及智能终端新品发布会将于 9 月 21 日 19:00 举行，vivo WATCH 6 智能手表今日亮相",
+        "据介绍，这款新品采用高亮精工雕刻，配备蓝宝石玻璃表镜、TC4 航天级钛合金表体",
+        "根据规划，vivo X500 系列手机将于 9 月 21 日 19:00 正式发布，vivo WATCH 6 智能手表和 Buds Clip 耳夹耳机首发"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
@@ -120,47 +118,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "1bca2f3381b9",
-      "title": "Apple is reportedly working on iPhone game controllers",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers",
-      "published": "2026-09-13T18:30:16+00:00",
-      "summary": [
-        "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game controller business have circulated for some time. But last week, MacRumors reported finding two references in macOS 26.7's code to two game controllers identified as first-party [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "1a165b0e5d6d",
-      "title": "Fusion power startups find new partners in the defense world",
+      "id": "a047fb9f02fd",
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/13/fusion-power-startups-find-new-partners-in-the-defense-world/",
-      "published": "2026-09-13T13:15:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+      "published": "2026-09-14T17:00:00+00:00",
       "summary": [
-        "Fusion startups are inking defense-related deals, reigniting the relationship between fusion and national security that might have gone dormant, but never completely disappeared."
+        "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     }
   ]
 }
