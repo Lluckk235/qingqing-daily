@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
-  "generated": "2026-09-14T11:21:09.229297+08:00",
-  "total": 9,
+  "generated": "2026-09-14T17:33:36.198132+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -62,63 +62,46 @@
       "rank": 3
     },
     {
-      "id": "845eb121c27d",
-      "title": "派早报：美国 AI 高管呼吁放缓研发，特朗普反对",
+      "id": "55ebb5bc6a83",
+      "title": "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114539",
-      "published": "2026-09-13T22:55:34+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370228",
+      "published": "2026-09-13T00:22:31+00:00",
       "summary": [
-        "美国 AI 高管呼吁放缓研发，特朗普反对苹果解释 Apple Watch 不会持续录音LG 否认智能电视监控用户暴雪公布《魔兽世界》怀旧服儿童贴身使用笔记本电脑导致皮肤灼伤Android 开始支持密码管理器迁移看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
+        "OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀死所有人的风险 OpenAI 首席执行官 Sam Altman 在接受采访时表示，这家人工智能公司专注于解决围绕 AI 技术的安全担忧，今年不会上市",
+        "Altman 表示，今年进行首次公开募股「时机不合适」，公司要到明年才会上市",
+        "「我认为，哪怕冒着 10% 的在本十年结束前杀死所有人的风险，都是不可接受的，」Altman 说，「我认为，我们正在进入一个新时代，就像过去迈入其他时代时一样，我们需要采取不同的行动，确保我们所做的事情能够让这一理念造福全人类，同时也要确保没有任何人承担哪怕接近这种程度的风险"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "87bf8985c76c",
-      "title": "华虹宏力完成 82.68 亿元收购案，华力微成为其全资子公司",
+      "id": "507a183a02ea",
+      "title": "波士顿动力 IPO 计划遇阻：Atlas 人形机器人尚未大规模部署",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/994.htm",
-      "published": "2026-09-14T03:18:25+00:00",
+      "sourceUrl": "https://www.ithome.com/1/002/225.htm",
+      "published": "2026-09-14T09:30:15+00:00",
       "summary": [
-        "IT之家 9 月 14 日消息，华虹宏力 (HHGrace) 上周发布公告，宣布已完成增发股份以收购华力微 97.4988% 股权的手续",
-        "这笔价值约 82.68 亿元的交易正式完成，华力微成为华虹宏力全资子公司",
-        "华虹宏力同时发行股份募集 75.56 亿元配套资金，其中 43.6% 用于华力微技术升级改造、7.43% 用于华力微特色工艺研发及产业化，其余 48.97% 则用于补充流动资金、偿还债务、支付中介机构费用"
+        "IT之家 9 月 14 日消息，路透社韩国当地时间今日报道称，一位现代汽车集团高管表示，集团旗下机器人企业 Boston Dynamics（波士顿动力）难以在 2027 年内实现 IPO 上市",
+        "这位匿名管理层人士表示，波士顿动力的 Atlas 人形机器人尚未达到大规模部署阶段，企业也仍未能实现盈利",
+        "现代汽车集团此前曾表示，目标到 2028 年构建年产三万台 Atlas 的制造能力，并计划向现代和起亚的汽车工厂部署 2.5 万台 Atlas"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "f6c9ccd3030a",
-      "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/488699.html",
-      "published": "2026-09-14T02:56:45+00:00",
-      "summary": [
-        "还是太嫩了啊Dario"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
     },
     {
       "id": "49a7d5b4c0db",
@@ -137,9 +120,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "1bca2f3381b9",
@@ -156,9 +139,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "1a165b0e5d6d",
@@ -177,7 +160,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     }
   ]
 }
