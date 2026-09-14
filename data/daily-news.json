@@ -1,65 +1,46 @@
 {
-  "date": "2026-09-13",
-  "generated": "2026-09-13T23:36:24.927255+08:00",
+  "date": "2026-09-14",
+  "generated": "2026-09-14T11:21:09.229297+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "552eadb73497",
-      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "id": "3701474fa5bf",
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-      "published": "2026-09-12T21:41:36+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+      "published": "2026-09-13T21:30:00+00:00",
       "summary": [
-        "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a [&#8230;]"
+        "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "9276271a0e3f",
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "id": "1d273e458a46",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-      "published": "2026-09-12T21:16:28+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "published": "2026-09-13T19:41:48+00:00",
       "summary": [
-        "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he [&#8230;]"
+        "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "c0584b3cc952",
-      "title": "Your car is selling your data",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-      "published": "2026-09-13T12:00:00+00:00",
-      "summary": [
-        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Earlier this year, the Federal Trade Commission [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "4731076ca188",
@@ -76,49 +57,108 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 3,
       "isNativeCN": false,
-      "rank": 4
+      "rank": 3
     },
     {
-      "id": "b11183daea53",
-      "title": "创全球最低传输损耗新纪录，长飞反谐振空芯光纤衰减突破至 0.032dB / km",
+      "id": "845eb121c27d",
+      "title": "派早报：美国 AI 高管呼吁放缓研发，特朗普反对",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/001/867.htm",
-      "published": "2026-09-13T14:48:45+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114539",
+      "published": "2026-09-13T22:55:34+00:00",
       "summary": [
-        "IT之家 9 月 13 日消息，2026 中国算力大会于 9 月 11 日至 13 日在河北省廊坊市举行，在大会“2026 算力首创首发”环节，长飞公司正式发布，反谐振空芯光纤衰减突破至 0.032dB/ km，创下全球最低传输损耗新纪录",
-        "据介绍，长飞空芯光纤算力互联技术已在国内外完成超过 13 个商用及试点项目，公司联合国内三大运营商完成城域网、智算互联及海洋传输等多场景应用",
-        "截至目前，长飞空芯光纤累计交付超 10000 芯公里，创下最长商用线路 100 公里等多项纪录，成为全球商用部署最广的空芯光纤供应商"
+        "美国 AI 高管呼吁放缓研发，特朗普反对苹果解释 Apple Watch 不会持续录音LG 否认智能电视监控用户暴雪公布《魔兽世界》怀旧服儿童贴身使用笔记本电脑导致皮肤灼伤Android 开始支持密码管理器迁移看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 4
     },
     {
-      "id": "8ea9af46d419",
-      "title": "Revolut confirms customer data breach through fake government requests",
+      "id": "87bf8985c76c",
+      "title": "华虹宏力完成 82.68 亿元收购案，华力微成为其全资子公司",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
-      "published": "2026-09-12T14:40:00+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/001/994.htm",
+      "published": "2026-09-14T03:18:25+00:00",
       "summary": [
-        "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators."
+        "IT之家 9 月 14 日消息，华虹宏力 (HHGrace) 上周发布公告，宣布已完成增发股份以收购华力微 97.4988% 股权的手续",
+        "这笔价值约 82.68 亿元的交易正式完成，华力微成为华虹宏力全资子公司",
+        "华虹宏力同时发行股份募集 75.56 亿元配套资金，其中 43.6% 用于华力微技术升级改造、7.43% 用于华力微特色工艺研发及产业化，其余 48.97% 则用于补充流动资金、偿还债务、支付中介机构费用"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "f6c9ccd3030a",
+      "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/488699.html",
+      "published": "2026-09-14T02:56:45+00:00",
+      "summary": [
+        "还是太嫩了啊Dario"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "49a7d5b4c0db",
+      "title": "苹果的折叠屏等了十五年，体验还差临门一脚",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370231",
+      "published": "2026-09-13T17:24:02+00:00",
+      "summary": [
+        "折叠屏七年没解决的问题，从来不在铰链上",
+        "作者｜张勇毅 编辑｜靖宇 2011 年 9 月 30 日，苹果递交了一份名叫「Flexible electronic devices」的专利申请",
+        "它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "1bca2f3381b9",
+      "title": "Apple is reportedly working on iPhone game controllers",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers",
+      "published": "2026-09-13T18:30:16+00:00",
+      "summary": [
+        "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game controller business have circulated for some time. But last week, MacRumors reported finding two references in macOS 26.7's code to two game controllers identified as first-party [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "1a165b0e5d6d",
@@ -135,45 +175,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "9b23d462fe3a",
-      "title": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026",
-      "published": "2026-09-13T13:00:00+00:00",
-      "summary": [
-        "Marvel's mishandling of its Blade reboot will likely go down as one of the studio's biggest mistakes. There was a great actor in place to play the vampire hunter (Mahershala Ali), and a promising director set to take over the reins (Bassam Tariq). In retrospect, though, the disappointing demise of Blade might not be such [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "4269286e676c",
-      "title": "Apple’s new phones are here",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/994218/apple-iphone-18-pro-airpods-5-meta-muse-ai-sony-headphones",
-      "published": "2026-09-13T12:00:00+00:00",
-      "summary": [
-        "Hi, friends! Welcome to Installer No. 143, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, new tech season is here, and also you can read all the old editions at the Installer homepage.) This week, I've been devouring every iPhone Duo video I can find, clicking on [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     }
