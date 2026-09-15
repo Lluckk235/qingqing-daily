@@ -1,21 +1,21 @@
 {
   "date": "2026-09-15",
-  "generated": "2026-09-15T01:41:00.856816+08:00",
+  "generated": "2026-09-15T11:23:08.894901+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "4ca5a8ed3801",
-      "title": "AI agents blew the whistle on their cheating colleagues",
+      "id": "c9c7e7aae937",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "published": "2026-09-14T16:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "published": "2026-09-14T22:59:41+00:00",
       "summary": [
-        "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;"
+        "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,76 +24,76 @@
       "rank": 1
     },
     {
-      "id": "77e5d5723a5e",
-      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+      "id": "f4964ed02dfb",
+      "title": "The AI industry has taken a doomer turn. What now?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
-      "published": "2026-09-14T12:10:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "published": "2026-09-14T17:54:22+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is&#8230;"
+        "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "a5a985054c6d",
-      "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
+      "id": "889d91410010",
+      "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "theregister.com",
-      "sourceUrl": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
-      "published": "2026-09-14T16:09:45+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
+      "published": "2026-09-14T18:08:43+00:00",
       "summary": [
-        "Comments"
+        "If you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising \"ClickFix\" security threat."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "62df91bb8153",
-      "title": "派评｜近期值得关注的 App",
+      "id": "f8e916c093c3",
+      "title": "iOS 27、MacOS 27 正式发布；豆包手机助手消费者版亮相；李想：「大车」趋势一定会结束",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114577",
-      "published": "2026-09-14T09:24:02+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370306",
+      "published": "2026-09-15T00:17:23+00:00",
       "summary": [
-        ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文"
+        "特朗普抨击 Anthropic CEO：AI 发展不能踩刹车，美国有「高智商总统」就足够 特朗普周一在社交媒体发文，明确表示其不认可 AI 数据中心引发的民众反弹及外界对前沿模型的忧虑",
+        "他写道：「AI 所需的唯一『护栏』，就是一位强悍而聪明（高智商",
+        "）的总统，而美国恰好拥有这样的总统"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "20962b45485b",
-      "title": "vivo WATCH 6 智能手表亮相：蓝宝石玻璃表镜、钛合金表体，9 月 21 日发布",
+      "id": "0f2d47e08a10",
+      "title": "派早报：中国联通宣布支持所有国行设备 eSIM 业务办理、Homebrew 7.0.0 发布等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/002/320.htm",
-      "published": "2026-09-14T15:35:16+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114593",
+      "published": "2026-09-15T00:06:40+00:00",
       "summary": [
-        "IT之家 9 月 14 日消息，vivo X500 系列及智能终端新品发布会将于 9 月 21 日 19:00 举行，vivo WATCH 6 智能手表今日亮相",
-        "据介绍，这款新品采用高亮精工雕刻，配备蓝宝石玻璃表镜、TC4 航天级钛合金表体",
-        "根据规划，vivo X500 系列手机将于 9 月 21 日 19:00 正式发布，vivo WATCH 6 智能手表和 Buds Clip 耳夹耳机首发"
+        "英伟达发布 RTX PRO 5500 Blackwell 专业显卡，阿凡途发布 AVENTHO Y 头戴式耳机等查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,17 +123,17 @@
       "rank": 6
     },
     {
-      "id": "a047fb9f02fd",
-      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "id": "e0a2e309057d",
+      "title": "Apple Home’s new security camera features cost as much as $60 a month",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-      "published": "2026-09-14T17:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription",
+      "published": "2026-09-14T22:28:52+00:00",
       "summary": [
-        "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app."
+        "With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you'll have to pay more for it. Apple Intelligence for Home brings AI-powered video summaries to HomeKit Secure Video, so you can get short text descriptions of who and what compatible security cameras saw, [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
