@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "generated": "2026-09-15T11:23:08.894901+08:00",
+  "generated": "2026-09-15T17:11:42.485114+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
@@ -19,22 +19,22 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "f4964ed02dfb",
-      "title": "The AI industry has taken a doomer turn. What now?",
+      "id": "de5d887a67d7",
+      "title": "What execs and politicians are saying about slowing down AI development",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "published": "2026-09-14T17:54:22+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "published": "2026-09-14T21:21:42+00:00",
       "summary": [
-        "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;"
+        "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compiled some of [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -57,24 +57,24 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "f8e916c093c3",
-      "title": "iOS 27、MacOS 27 正式发布；豆包手机助手消费者版亮相；李想：「大车」趋势一定会结束",
+      "id": "10e0af499b39",
+      "title": "给 AI 发外设，戴森派摄像头进嘴、绿联给充电宝开了扇窗",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370306",
-      "published": "2026-09-15T00:17:23+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/370328",
+      "published": "2026-09-15T06:01:55+00:00",
       "summary": [
-        "特朗普抨击 Anthropic CEO：AI 发展不能踩刹车，美国有「高智商总统」就足够 特朗普周一在社交媒体发文，明确表示其不认可 AI 数据中心引发的民众反弹及外界对前沿模型的忧虑",
-        "他写道：「AI 所需的唯一『护栏』，就是一位强悍而聪明（高智商",
-        "）的总统，而美国恰好拥有这样的总统"
+        "AI 正在把所有硬件重新做一遍，这句话说了三年，这周轮到了一把牙刷",
+        "今天，IFA 柏林开展，一千九百个品牌都在不同角度展示自己的创新力，连戴森都掏出了一款牙刷来告诉行业，我也能用 AI 玩出花样，牙刷 Dyson CameraJe 刷头下藏着一颗 1 毫米的摄像头，每秒盯着你哪颗牙没刷干净",
+        "联想打造了个人智能体 Qira，横跨着电脑、手机、手表等多设备生态"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -83,44 +83,23 @@
       "rank": 4
     },
     {
-      "id": "0f2d47e08a10",
-      "title": "派早报：中国联通宣布支持所有国行设备 eSIM 业务办理、Homebrew 7.0.0 发布等",
+      "id": "f1eb91fd19e9",
+      "title": "Microsoft issues emergency Windows 11 update to fix its record-breaking patch",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114593",
-      "published": "2026-09-15T00:06:40+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
+      "published": "2026-09-15T08:54:48+00:00",
       "summary": [
-        "英伟达发布 RTX PRO 5500 Blackwell 专业显卡，阿凡途发布 AVENTHO Y 头戴式耳机等查看全文"
+        "Microsoft has started rolling out an emergency out-of-band update to fix problems with its record-breaking September patch Tuesday update. The software giant patched nearly 1,000 flaws in its biggest update ever this month, but it also introduced some bugs that have affected businesses, developers, and gamers. The September patch Tuesday affected folder shares on Hyper-V-based [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 5
-    },
-    {
-      "id": "49a7d5b4c0db",
-      "title": "苹果的折叠屏等了十五年，体验还差临门一脚",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370231",
-      "published": "2026-09-13T17:24:02+00:00",
-      "summary": [
-        "折叠屏七年没解决的问题，从来不在铰链上",
-        "作者｜张勇毅 编辑｜靖宇 2011 年 9 月 30 日，苹果递交了一份名叫「Flexible electronic devices」的专利申请",
-        "它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 6
     },
     {
       "id": "e0a2e309057d",
@@ -137,7 +116,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "a047fb9f02fd",
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+      "published": "2026-09-14T17:00:00+00:00",
+      "summary": [
+        "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 7
     }
