@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-16",
-  "generated": "2026-09-16T17:04:02.318168+08:00",
-  "total": 11,
+  "date": "2026-09-17",
+  "generated": "2026-09-17T00:07:16.679844+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -24,76 +24,76 @@
       "rank": 1
     },
     {
-      "id": "4bf12c040bb6",
-      "title": "Chopping up books when they're physically too big",
+      "id": "d5f02485e32d",
+      "title": "Xreal’s well-rounded 1S glasses are back down to their lowest price",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "attainablefelicity.mattkirkland.com",
-      "sourceUrl": "https://attainablefelicity.mattkirkland.com/20260915/cut-up-your-books.html",
-      "published": "2026-09-15T18:45:31+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/996216/xreal-video-glasses-beats-pill-sonos-ace-deal-sale",
+      "published": "2026-09-16T14:44:48+00:00",
       "summary": [
-        "Comments"
+        "USB-C-connected video glasses are a lot of fun if you want to see your games, movies (or just your computer screen) on a large, immersive virtual screen. One of the most well-rounded pairs out there, Xreal’s 1S, has returned to their lowest price yet, costing $399 at Amazon and via Xreal itself ($50 off). The [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3,
+      "score": 5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "6a5d552d9722",
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "id": "c81fa26a50d6",
+      "title": "Building the materials foundation for AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "published": "2026-09-16T00:20:39+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "published": "2026-09-16T12:47:34+00:00",
       "summary": [
-        "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker."
+        "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "066a2ef82197",
-      "title": "AI and data centers are incredibly unpopular in every poll",
+      "id": "49e7531befe2",
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-      "published": "2026-09-15T23:34:25+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "published": "2026-09-16T12:10:00+00:00",
       "summary": [
-        "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impact on the economy over the next few years,&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "8dd03fe03d1c",
-      "title": "Token 之后，谁来组织 AI 计算？Arm 寻找下一代计算的答案",
+      "id": "65aede030cb0",
+      "title": "联合国秘书长古特雷斯：世界承受不起 AI 安全领域的恶性竞争",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370453",
-      "published": "2026-09-16T08:34:03+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/003/338.htm",
+      "published": "2026-09-16T15:47:40+00:00",
       "summary": [
-        "&nbsp; 如果说今年 3 月，Arm 推出首款自研 CPU 芯片，是这家公司向市场释放的一个信号，它开始尝试突破过去「只提供底层架构授权」的角色边界",
-        "那么在上海举办的 Arm Everywhere China 活动上，Arm 想传递的信息更加明确，不要再用过去「CPU IP 供应商」的方式理解今天的 Arm",
-        "在这场活动中，Arm 没有只围绕某一个产品展开叙事，而是第一次更加完整地将自己的未来方向拆成三条线，云 AI、边缘 AI 和物理 AI"
+        "IT之家 9 月 16 日消息，据彭博社今天（16 日）晚间报道，联合国秘书长安东尼奥 · 古特雷斯呼吁各国共同推进 AI 监管，并加强对技术的监督",
+        "“我们不能忽视已经出现的担忧，尤其不能忽视那些亲自参与 AI 开发的人提出的警告",
+        "地缘政治分歧确实存在，也可能诱使各方采取冒险做法"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,82 +102,61 @@
       "rank": 5
     },
     {
-      "id": "82f5d521ce76",
-      "title": "中国航天科技集团严正声明：华航天特（福建）智能科技有限公司为假冒国企，其一切行为均与公司无关",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/003/191.htm",
-      "published": "2026-09-16T09:03:11+00:00",
-      "summary": [
-        "IT之家 9 月 16 日消息，中国航天科技集团今日发布严正声明，称华航天特（福建）智能科技有限公司为假冒国企，与其及所属单位无任何隶属或股权关系，也不存在任何投资、合作、业务等关系，其一切行为均与公司无关，中国航天科技集团有限公司对此不承担任何义务与责任",
-        "IT之家附中国航天科技集团严正声明原文如下：中国航天科技集团有限公司成立于 1999 年 7 月，是国务院国资委直接管理的中央特大型国有骨干企业，是国家安全战略基石、航天强国建设主力军、国家科技创新排头兵、航天产业发展主导力量",
-        "经我公司核实，华航天特（福建）智能科技有限公司为假冒国企，与我公司及所属单位无任何隶属或股权关系，也不存在任何投资、合作、业务等关系，其一切行为均与我公司无关，我公司对此不承担任何义务与责任"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "a99284cc094f",
-      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+      "id": "f3ae6baa1f76",
+      "title": "May Mobility is going public in a $1.4B SPAC deal",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
-      "published": "2026-09-15T15:22:48+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
+      "published": "2026-09-16T15:27:13+00:00",
       "summary": [
-        "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C."
+        "The deal could net the asset-light robotaxi company more than $300 million in funding."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "bcd4adafe1a3",
+      "title": "The iPhone 18 Pro’s big camera update is all about the small gains",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
+      "published": "2026-09-16T12:00:00+00:00",
+      "summary": [
+        "Last week, Apple announced an iPhone unlike any it has made in the past. An iPhone that has seemingly already led several other phone manufacturers to pursue entirely different designs for their flagship products. A remarkably distinct device with the kind of \"I can't believe they did that\" software touches that Apple sometimes pulls off [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "116783ddbd4a",
-      "title": "Health benefits platform Thatch reaches $1B valuation as healthcare costs surge",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/",
-      "published": "2026-09-15T17:02:04+00:00",
+      "id": "45890a1118c8",
+      "title": "The sexy AI-powered dating app scams are here",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "published": "2026-09-16T14:45:00+00:00",
       "summary": [
-        "Thatch helps employers keep healthcare costs manageable by offering an individual plan marketplace through an Individual Coverage Health Reimbursement Arrangement — a model that lets companies fund employees' own individual insurance plans instead of enrolling everyone in one company-wide plan."
+        "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but [&#8230;]"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
-    },
-    {
-      "id": "de6c74e5fabd",
-      "title": "Evvy raises $40M as it seeks to further women’s health research with vaginal microbiome data",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/15/evvy-raises-40m-as-it-seeks-to-further-womens-health-research-with-vaginal-microbiome-data/",
-      "published": "2026-09-15T14:13:59+00:00",
-      "summary": [
-        "Women’s health company Evvy announced Tuesday a $40 million Series B led by Catalio Capital Management."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 9
     },
     {
       "id": "11aae4042d02",
@@ -194,28 +173,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "9772b9b2c2d6",
-      "title": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability",
-      "published": "2026-09-16T01:00:00+00:00",
-      "summary": [
-        "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the original R8 that launched in 2023 as a smaller, cheaper, and more accessible alternative to the Canon R6 Mark II for photographers wanting a larger [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 11
+      "rank": 9
     }
   ]
 }
