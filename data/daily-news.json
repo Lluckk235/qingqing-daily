@@ -1,12 +1,31 @@
 {
   "date": "2026-09-17",
-  "generated": "2026-09-17T11:24:58.289093+08:00",
+  "generated": "2026-09-17T17:12:23.404632+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "b7c7d891caa0",
+      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
+      "published": "2026-09-17T03:30:00+00:00",
+      "summary": [
+        "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
       "id": "546ee7cd8ec8",
-      "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
+      "title": "Al Gore says the real AI risk isn’t data centers",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -19,47 +38,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "ab2a2f0bede5",
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-      "published": "2026-09-16T23:40:00+00:00",
-      "summary": [
-        "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "bed88cf6209a",
-      "title": "I wore Snap’s $2,200 smart glasses",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
-      "published": "2026-09-16T23:40:00+00:00",
-      "summary": [
-        "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watching the tile snap down in [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "553a38183ddf",
@@ -78,26 +59,68 @@
       "tags": [],
       "score": 4.5,
       "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "bed88cf6209a",
+      "title": "I wore Snap’s $2,200 smart glasses",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
+      "published": "2026-09-16T23:40:00+00:00",
+      "summary": [
+        "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watching the tile snap down in [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "894147e8123e",
-      "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
+      "id": "ed9f16c74d73",
+      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114658",
-      "published": "2026-09-17T00:25:30+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370519",
+      "published": "2026-09-17T07:51:53+00:00",
       "summary": [
-        "惠普发布 ZBook Ultra G3a 16 移动工作站、影石发布 Mic Pro 腾讯会议版 AI 录音领夹麦等"
+        "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成",
+        "所有人都在问：这个模型有多强",
+        "但到了 2026 年，问题变了"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "564a4376aed8",
+      "title": "漫威索尼《蜘蛛侠：崭新之日》打破《星球大战：原力觉醒》尘封 11 年纪录，登顶北美影史票房冠军",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/003/717.htm",
+      "published": "2026-09-17T09:10:19+00:00",
+      "summary": [
+        "IT之家 9 月 17 日消息，蜘蛛侠系列电影官方微博宣布，由漫威与索尼联合出品的《蜘蛛侠：崭新之日》打破《星球大战：原力觉醒》尘封 11 年的纪录，登顶北美影史票房冠军",
+        "IT之家查询获悉，《蜘蛛侠：崭新之日》全球票房已破 24.79 亿美元（IT之家注：现汇率约合 166.65 亿元人民币），其中北美票房为 9.36 亿（现汇率约合 62.92 亿元人民币）",
+        "而《星球大战：原力觉醒》的全球票房为 20.71 亿美元（现汇率约合 139.22 亿元人民币），北美票房 9.36 亿（现汇率约合 62.92 亿元人民币）"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "f3ae6baa1f76",
@@ -114,9 +137,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "bdc341c04479",
@@ -133,9 +156,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "2fbe7b1e3941",
@@ -152,9 +175,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "35f5ce538b80",
@@ -171,26 +194,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "3eda305adfe3",
-      "title": "Resident Evil is a comedy first and a thrilling nightmare second",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/996416/resident-zach-cregger-review",
-      "published": "2026-09-16T18:45:35+00:00",
-      "summary": [
-        "When Paul W.S. Anderson's Resident Evil hit theaters in 2002, video game movies were largely seen as a niche. Films like Mortal Kombat and Tomb Raider had proven that big-screen game adaptations could be successful, but the commercial and critical failure of projects like the 1993 Super Mario Bros. still cast a long shadow. And [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     }
