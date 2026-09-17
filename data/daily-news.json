@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-17",
-  "generated": "2026-09-17T17:12:23.404632+08:00",
-  "total": 10,
+  "date": "2026-09-18",
+  "generated": "2026-09-18T00:14:01.286691+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "b7c7d891caa0",
-      "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+      "id": "5d18789efa07",
+      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/",
-      "published": "2026-09-17T03:30:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "published": "2026-09-17T14:06:14+00:00",
       "summary": [
-        "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200."
+        "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,23 +24,42 @@
       "rank": 1
     },
     {
-      "id": "546ee7cd8ec8",
-      "title": "Al Gore says the real AI risk isn’t data centers",
+      "id": "3177aa668ffd",
+      "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
-      "published": "2026-09-16T23:43:09+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
+      "published": "2026-09-17T11:00:00+00:00",
       "summary": [
-        "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed."
+        "Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
+    },
+    {
+      "id": "4b73a7a5520c",
+      "title": "The Download: mice with part-human brains and climate tech innovators",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+      "published": "2026-09-17T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
     },
     {
       "id": "553a38183ddf",
@@ -57,26 +76,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "bed88cf6209a",
-      "title": "I wore Snap’s $2,200 smart glasses",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
-      "published": "2026-09-16T23:40:00+00:00",
-      "summary": [
-        "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watching the tile snap down in [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,106 +97,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "564a4376aed8",
-      "title": "漫威索尼《蜘蛛侠：崭新之日》打破《星球大战：原力觉醒》尘封 11 年纪录，登顶北美影史票房冠军",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "2efd4cfbdc21",
+      "title": "苹果 Apple Watch Series 12 与 Ultra 4 今日开售，2999/6499 元起",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/003/717.htm",
-      "published": "2026-09-17T09:10:19+00:00",
+      "sourceUrl": "https://www.ithome.com/1/003/874.htm",
+      "published": "2026-09-17T16:00:15+00:00",
       "summary": [
-        "IT之家 9 月 17 日消息，蜘蛛侠系列电影官方微博宣布，由漫威与索尼联合出品的《蜘蛛侠：崭新之日》打破《星球大战：原力觉醒》尘封 11 年的纪录，登顶北美影史票房冠军",
-        "IT之家查询获悉，《蜘蛛侠：崭新之日》全球票房已破 24.79 亿美元（IT之家注：现汇率约合 166.65 亿元人民币），其中北美票房为 9.36 亿（现汇率约合 62.92 亿元人民币）",
-        "而《星球大战：原力觉醒》的全球票房为 20.71 亿美元（现汇率约合 139.22 亿元人民币），北美票房 9.36 亿（现汇率约合 62.92 亿元人民币）"
+        "IT之家 9 月 18 日消息，苹果最新发布的 Apple Watch Series 12 与 Apple Watch Ultra 4 两款智能手表今日正式发售",
+        "其中，Apple Watch Series 12 的 GPS 款国行起售价 2999 元（教育优惠 2699 元起），GPS + 蜂窝网络款 3799 元；Apple Watch Ultra 4 起售价 6499 元（教育优惠 5799 元起）",
+        "京东 Apple / 苹果 Watch Series 12 智能手表 GPS 款 42 毫米 浅金色 铝金属表壳 沙砾色运动型表带 S/M（MJF14CH/B）2999 元直达链接Apple Watch Series 12 搭载全新健康感测系统和 S11 芯片，采用更大面积的光学心率传感器，可实现全天每 5 秒一次的心率测量，其心率变异性（HRV）的测量频率较上一代提升最高 24 倍"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "f3ae6baa1f76",
-      "title": "May Mobility is going public in a $1.4B SPAC deal",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "bf2925b8859c",
+      "title": "Apple will let EU apps use less alarming tracking consent screens",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
-      "published": "2026-09-16T15:27:13+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/apple-will-let-eu-apps-use-less-alarming-tracking-consent-screens/",
+      "published": "2026-09-17T16:09:58+00:00",
       "summary": [
-        "The deal could net the asset-light robotaxi company more than $300 million in funding."
+        "Apple is changing its App Tracking Transparency prompts in parts of Europe after competition regulators said the system favored Apple over third-party apps, giving developers more flexibility over how they ask users for tracking consent."
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "bdc341c04479",
-      "title": "Apple might make servers again to cash in on the AI rush",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-      "published": "2026-09-16T17:20:29+00:00",
-      "summary": [
-        "According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute power as the AI industry continues to [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "2fbe7b1e3941",
-      "title": "US automakers could soon be forced to include AM radio for free",
+      "id": "1d2925c5ea3b",
+      "title": "Roku’s new Labs hub brings experimental apps to the big screen",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/",
-      "published": "2026-09-16T22:37:08+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/rokus-new-labs-hub-brings-experimental-apps-to-the-big-screen/",
+      "published": "2026-09-17T15:50:29+00:00",
       "summary": [
-        "The House of Representatives, in rare bipartisan support, overwhelmingly approved legislation that would require new vehicles to include AM radio."
+        "Roku’s latest OS update introduces Roku Labs, a new hub for experimental apps, alongside personalized home screens in more markets, streaming subscription bundles, and more."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "35f5ce538b80",
-      "title": "Your ‘health age’ is fake",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity",
-      "published": "2026-09-16T17:00:00+00:00",
-      "summary": [
-        "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. During last week's Apple Watch announcement, I let out a distinct \"Noooo!\" in the Steve Jobs Theater. Along with a [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     }
   ]
 }
