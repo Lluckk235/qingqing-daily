@@ -1,99 +1,97 @@
 {
   "date": "2026-09-17",
-  "generated": "2026-09-17T00:07:16.679844+08:00",
-  "total": 9,
+  "generated": "2026-09-17T11:24:58.289093+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "a7fbe6c2b021",
-      "title": "Microsoft announces Windows and Surface event for October 7th",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
-      "published": "2026-09-15T20:36:59+00:00",
+      "id": "546ee7cd8ec8",
+      "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+      "published": "2026-09-16T23:43:09+00:00",
       "summary": [
-        "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices. At an event on October 7th, the company says it will host a \"conversation on how local AI will shape the next chapter of the [&#8230;]"
+        "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "d5f02485e32d",
-      "title": "Xreal’s well-rounded 1S glasses are back down to their lowest price",
+      "id": "ab2a2f0bede5",
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "published": "2026-09-16T23:40:00+00:00",
+      "summary": [
+        "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "bed88cf6209a",
+      "title": "I wore Snap’s $2,200 smart glasses",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/996216/xreal-video-glasses-beats-pill-sonos-ace-deal-sale",
-      "published": "2026-09-16T14:44:48+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/996422/snap-specs-hands-on-ar-glasses",
+      "published": "2026-09-16T23:40:00+00:00",
       "summary": [
-        "USB-C-connected video glasses are a lot of fun if you want to see your games, movies (or just your computer screen) on a large, immersive virtual screen. One of the most well-rounded pairs out there, Xreal’s 1S, has returned to their lowest price yet, costing $399 at Amazon and via Xreal itself ($50 off). The [&#8230;]"
+        "My favorite part of wearing the Specs, Snap's new augmented reality glasses, was playing dominoes. Sitting across the table from a Snap employee wearing the same pair of chunky glasses, I could select a virtual domino with a pinch and then move my hand to drop it in place, watching the tile snap down in [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "c81fa26a50d6",
-      "title": "Building the materials foundation for AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
-      "published": "2026-09-16T12:47:34+00:00",
-      "summary": [
-        "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "49e7531befe2",
-      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
-      "published": "2026-09-16T12:10:00+00:00",
+      "id": "553a38183ddf",
+      "title": "Pulley, a Carta rival, is shutting down",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/",
+      "published": "2026-09-16T21:23:19+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impact on the economy over the next few years,&#8230;"
+        "Cap table management platform Pulley, backed by General Catalyst, Stripe, and Founders Fund, announced that it's closing shop in December."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "65aede030cb0",
-      "title": "联合国秘书长古特雷斯：世界承受不起 AI 安全领域的恶性竞争",
+      "id": "894147e8123e",
+      "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/003/338.htm",
-      "published": "2026-09-16T15:47:40+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114658",
+      "published": "2026-09-17T00:25:30+00:00",
       "summary": [
-        "IT之家 9 月 16 日消息，据彭博社今天（16 日）晚间报道，联合国秘书长安东尼奥 · 古特雷斯呼吁各国共同推进 AI 监管，并加强对技术的监督",
-        "“我们不能忽视已经出现的担忧，尤其不能忽视那些亲自参与 AI 开发的人提出的警告",
-        "地缘政治分歧确实存在，也可能诱使各方采取冒险做法"
+        "惠普发布 ZBook Ultra G3a 16 移动工作站、影石发布 Mic Pro 腾讯会议版 AI 录音领夹麦等"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -116,66 +114,85 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "bcd4adafe1a3",
-      "title": "The iPhone 18 Pro’s big camera update is all about the small gains",
+      "id": "bdc341c04479",
+      "title": "Apple might make servers again to cash in on the AI rush",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
-      "published": "2026-09-16T12:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "published": "2026-09-16T17:20:29+00:00",
       "summary": [
-        "Last week, Apple announced an iPhone unlike any it has made in the past. An iPhone that has seemingly already led several other phone manufacturers to pursue entirely different designs for their flagship products. A remarkably distinct device with the kind of \"I can't believe they did that\" software touches that Apple sometimes pulls off [&#8230;]"
+        "According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute power as the AI industry continues to [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "45890a1118c8",
-      "title": "The sexy AI-powered dating app scams are here",
+      "id": "2fbe7b1e3941",
+      "title": "US automakers could soon be forced to include AM radio for free",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
-      "published": "2026-09-16T14:45:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/16/us-automakers-could-soon-be-forced-to-include-am-radio-for-free/",
+      "published": "2026-09-16T22:37:08+00:00",
       "summary": [
-        "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but [&#8230;]"
+        "The House of Representatives, in rare bipartisan support, overwhelmingly approved legislation that would require new vehicles to include AM radio."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "11aae4042d02",
-      "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
+      "id": "35f5ce538b80",
+      "title": "Your ‘health age’ is fake",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16",
-      "published": "2026-09-16T02:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/column/995939/optimizer-health-age-wearables-longevity",
+      "published": "2026-09-16T17:00:00+00:00",
       "summary": [
-        "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small updates that may justify its significant price bump depending on how you plan to use it. While the Palma 2 launched in 2024 for $279.99, [&#8230;]"
+        "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. During last week's Apple Watch announcement, I let out a distinct \"Noooo!\" in the Steve Jobs Theater. Along with a [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "3eda305adfe3",
+      "title": "Resident Evil is a comedy first and a thrilling nightmare second",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/996416/resident-zach-cregger-review",
+      "published": "2026-09-16T18:45:35+00:00",
+      "summary": [
+        "When Paul W.S. Anderson's Resident Evil hit theaters in 2002, video game movies were largely seen as a niche. Films like Mortal Kombat and Tomb Raider had proven that big-screen game adaptations could be successful, but the commercial and critical failure of projects like the 1993 Super Mario Bros. still cast a long shadow. And [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
