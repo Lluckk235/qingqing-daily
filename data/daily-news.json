@@ -1,9 +1,28 @@
 {
   "date": "2026-09-18",
-  "generated": "2026-09-18T16:45:10.037446+08:00",
-  "total": 8,
+  "generated": "2026-09-18T23:49:34.261346+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "dc00967633ba",
+      "title": "Lenovo’s Yoga Slim 7X is the most laptop that $1,000 can currently buy",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/997388/lenovo-yoga-slim-7x-laptop-fire-emblem-switch-2-deal-sale",
+      "published": "2026-09-18T14:51:26+00:00",
+      "summary": [
+        "Anyone shopping for a Windows laptop with a $1K budget should head to Best Buy, where for the rest of the day you can get a great deal on a capable Lenovo laptop. The Yoga Slim 7X is a slim 14-inch machine with a 2K 16:10 OLED touchscreen, Snapdragon’s high-end X2 Elite processor with 12 [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "4b73a7a5520c",
       "title": "The Download: mice with part-human brains and climate tech innovators",
@@ -19,121 +38,100 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "1f172f85d3ea",
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-      "published": "2026-09-17T22:34:09+00:00",
-      "summary": [
-        "If AI lab PrismML isn't on your radar yet, it should be."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "5e7cc4bf41d7",
-      "title": "The fix for rogue AI agents could be more AI",
+      "id": "43991f137a69",
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "published": "2026-09-18T11:29:22+00:00",
+      "summary": [
+        "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "0d70097db208",
+      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "published": "2026-09-17T20:34:47+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "published": "2026-09-18T14:00:14+00:00",
       "summary": [
-        "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
+        "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "7ba8d761a043",
-      "title": "Pulsar X5 鼠标亮相：右手人体工学设计，大型拇指托侧裙",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/004/210.htm",
-      "published": "2026-09-18T08:44:11+00:00",
-      "summary": [
-        "IT之家 9 月 18 日消息，韩国外设品牌 Pulsar（派世）本周二公布了在 TGS2026 东京游戏展上亮相的鼠标新品 \"X5\"",
-        "这一型号采用显著的右手人体工学模具设计，配备大型拇指托侧裙，左侧除 2 个标准侧键外还在前部设有一个大型侧键",
-        "其支持 2.4GHz、蓝牙两种无线连接方式，预计搭载支持 42K DPI / cpi 的 XS-2 传感器"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "ed9f16c74d73",
-      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
+      "id": "2807d16fb582",
+      "title": "AI 硬件创业者，疯狂涌入手机的背面",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370519",
-      "published": "2026-09-17T07:51:53+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/370610",
+      "published": "2026-09-18T14:07:09+00:00",
       "summary": [
-        "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成",
-        "所有人都在问：这个模型有多强",
-        "但到了 2026 年，问题变了"
+        "头图来源：产品小红书账号、官网 &nbsp; 过去一年，AI 硬件创业者开始扎堆手机背面",
+        "Plaud 的 AI 录音卡累计出货突破百万台",
+        "2026 年 6 月，Plaud 宣布 ARR 达到 1 亿美元、服务超过 200 万专业用户；截至 9 月，公司最新披露的全球用户数已超过 250 万"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "9ed4b9bd6e42",
-      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
+      "id": "59a98d7aed3f",
+      "title": "Save $30 or more on a refurbished Apple TV 4K",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/491875.html",
-      "published": "2026-09-18T06:11:06+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
+      "published": "2026-09-17T17:14:07+00:00",
       "summary": [
-        "用通用AI去啃最硬的骨头，这条路走得通"
+        "Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lower than the new retail price. The [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
+      "score": 6,
+      "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "046e07d330f4",
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
+      "id": "2e2c71a7602f",
+      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
-      "published": "2026-09-17T17:15:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
+      "published": "2026-09-17T16:00:00+00:00",
       "summary": [
-        "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases."
+        "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the reality is that it has been 15 years in the making [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -142,23 +140,42 @@
       "rank": 7
     },
     {
-      "id": "bf2925b8859c",
-      "title": "Apple will let EU apps use less-alarming tracking-consent screens",
+      "id": "891f3d397f81",
+      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/apple-will-let-eu-apps-use-less-alarming-tracking-consent-screens/",
-      "published": "2026-09-17T16:09:58+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
+      "published": "2026-09-17T23:08:24+00:00",
       "summary": [
-        "Apple is changing its App Tracking Transparency prompts in parts of Europe after competition regulators said the system favored Apple over third-party apps, giving developers more flexibility over how they ask users for tracking consent."
+        "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 8
+    },
+    {
+      "id": "c25104db8d5a",
+      "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "nytimes.com",
+      "sourceUrl": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
+      "published": "2026-09-18T11:01:44+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 9
     }
   ]
 }
