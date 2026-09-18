@@ -1,21 +1,21 @@
 {
   "date": "2026-09-18",
-  "generated": "2026-09-18T00:14:01.286691+08:00",
+  "generated": "2026-09-18T11:11:08.286842+08:00",
   "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "5d18789efa07",
-      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+      "id": "1f172f85d3ea",
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-      "published": "2026-09-17T14:06:14+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+      "published": "2026-09-17T22:34:09+00:00",
       "summary": [
-        "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S."
+        "If AI lab PrismML isn't on your radar yet, it should be."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "3177aa668ffd",
-      "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
+      "id": "5e7cc4bf41d7",
+      "title": "The fix for rogue AI agents could be more AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
-      "published": "2026-09-17T11:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "published": "2026-09-17T20:34:47+00:00",
       "summary": [
-        "Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures."
+        "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,64 +57,64 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "553a38183ddf",
-      "title": "Pulley, a Carta rival, is shutting down",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/",
-      "published": "2026-09-16T21:23:19+00:00",
-      "summary": [
-        "Cap table management platform Pulley, backed by General Catalyst, Stripe, and Founders Fund, announced that it's closing shop in December."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "ed9f16c74d73",
-      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
+      "id": "98abb451eb9b",
+      "title": "AI 需求一浪叠一浪，美光高管称有意义的内存新增供应 2028 年才开始爬坡、存储行业何时恢复供需平衡仍难以确定",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370519",
-      "published": "2026-09-17T07:51:53+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/003/994.htm",
+      "published": "2026-09-18T03:05:47+00:00",
       "summary": [
-        "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成",
-        "所有人都在问：这个模型有多强",
-        "但到了 2026 年，问题变了"
+        "IT之家 9 月 18 日消息，当地时间 9 月 15 日，美光科技 CEO 高级顾问、前执行副总裁兼首席商务官苏米特 · 萨达纳（Sumit Sadana）出席 Six Five Summit 2026 半导体专题论坛，与分析师 Patrick Moorhead 就存储行业供需格局、商业模式变化及 AI 时代产能扩张难题展开对话",
+        "萨达纳表示，当前内存短缺已覆盖所有市场领域，并非局限于个别高端产品",
+        "客户需求仍在向上修正，美光每年从客户处获得的需求预测都在增加，即使供应商全力扩产，目前也无法判断供应何时能够追上需求"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "94e999550877",
+      "title": "Manus重生第17天，估值居然就翻倍了",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/491764.html",
+      "published": "2026-09-18T00:37:13+00:00",
+      "summary": [
+        "作价40亿美元推进新融资"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "2efd4cfbdc21",
-      "title": "苹果 Apple Watch Series 12 与 Ultra 4 今日开售，2999/6499 元起",
+      "id": "b7d63262bfe5",
+      "title": "派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/003/874.htm",
-      "published": "2026-09-17T16:00:15+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114699",
+      "published": "2026-09-18T00:17:34+00:00",
       "summary": [
-        "IT之家 9 月 18 日消息，苹果最新发布的 Apple Watch Series 12 与 Apple Watch Ultra 4 两款智能手表今日正式发售",
-        "其中，Apple Watch Series 12 的 GPS 款国行起售价 2999 元（教育优惠 2699 元起），GPS + 蜂窝网络款 3799 元；Apple Watch Ultra 4 起售价 6499 元（教育优惠 5799 元起）",
-        "京东 Apple / 苹果 Watch Series 12 智能手表 GPS 款 42 毫米 浅金色 铝金属表壳 沙砾色运动型表带 S/M（MJF14CH/B）2999 元直达链接Apple Watch Series 12 搭载全新健康感测系统和 S11 芯片，采用更大面积的光学心率传感器，可实现全天每 5 秒一次的心率测量，其心率变异性（HRV）的测量频率较上一代提升最高 24 倍"
+        "少数派的近期动态口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果",
+        "了解更多能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线",
+        "点击了解八月买了什 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,8 +123,27 @@
       "rank": 6
     },
     {
+      "id": "046e07d330f4",
+      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
+      "published": "2026-09-17T17:15:00+00:00",
+      "summary": [
+        "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
       "id": "bf2925b8859c",
-      "title": "Apple will let EU apps use less alarming tracking consent screens",
+      "title": "Apple will let EU apps use less-alarming tracking-consent screens",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
@@ -137,26 +156,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "1d2925c5ea3b",
-      "title": "Roku’s new Labs hub brings experimental apps to the big screen",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/rokus-new-labs-hub-brings-experimental-apps-to-the-big-screen/",
-      "published": "2026-09-17T15:50:29+00:00",
-      "summary": [
-        "Roku’s latest OS update introduces Roku Labs, a new hub for experimental apps, alongside personalized home screens in more markets, streaming subscription bundles, and more."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     }
