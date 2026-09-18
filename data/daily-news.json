@@ -1,47 +1,9 @@
 {
   "date": "2026-09-18",
-  "generated": "2026-09-18T11:11:08.286842+08:00",
+  "generated": "2026-09-18T16:45:10.037446+08:00",
   "total": 8,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "1f172f85d3ea",
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-      "published": "2026-09-17T22:34:09+00:00",
-      "summary": [
-        "If AI lab PrismML isn't on your radar yet, it should be."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "5e7cc4bf41d7",
-      "title": "The fix for rogue AI agents could be more AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "published": "2026-09-17T20:34:47+00:00",
-      "summary": [
-        "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "4b73a7a5520c",
       "title": "The Download: mice with part-human brains and climate tech innovators",
@@ -59,66 +21,104 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "98abb451eb9b",
-      "title": "AI 需求一浪叠一浪，美光高管称有意义的内存新增供应 2028 年才开始爬坡、存储行业何时恢复供需平衡仍难以确定",
+      "id": "1f172f85d3ea",
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/003/994.htm",
-      "published": "2026-09-18T03:05:47+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+      "published": "2026-09-17T22:34:09+00:00",
       "summary": [
-        "IT之家 9 月 18 日消息，当地时间 9 月 15 日，美光科技 CEO 高级顾问、前执行副总裁兼首席商务官苏米特 · 萨达纳（Sumit Sadana）出席 Six Five Summit 2026 半导体专题论坛，与分析师 Patrick Moorhead 就存储行业供需格局、商业模式变化及 AI 时代产能扩张难题展开对话",
-        "萨达纳表示，当前内存短缺已覆盖所有市场领域，并非局限于个别高端产品",
-        "客户需求仍在向上修正，美光每年从客户处获得的需求预测都在增加，即使供应商全力扩产，目前也无法判断供应何时能够追上需求"
+        "If AI lab PrismML isn't on your radar yet, it should be."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "5e7cc4bf41d7",
+      "title": "The fix for rogue AI agents could be more AI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "published": "2026-09-17T20:34:47+00:00",
+      "summary": [
+        "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "7ba8d761a043",
+      "title": "Pulsar X5 鼠标亮相：右手人体工学设计，大型拇指托侧裙",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/004/210.htm",
+      "published": "2026-09-18T08:44:11+00:00",
+      "summary": [
+        "IT之家 9 月 18 日消息，韩国外设品牌 Pulsar（派世）本周二公布了在 TGS2026 东京游戏展上亮相的鼠标新品 \"X5\"",
+        "这一型号采用显著的右手人体工学模具设计，配备大型拇指托侧裙，左侧除 2 个标准侧键外还在前部设有一个大型侧键",
+        "其支持 2.4GHz、蓝牙两种无线连接方式，预计搭载支持 42K DPI / cpi 的 XS-2 传感器"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "94e999550877",
-      "title": "Manus重生第17天，估值居然就翻倍了",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/491764.html",
-      "published": "2026-09-18T00:37:13+00:00",
+      "id": "ed9f16c74d73",
+      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370519",
+      "published": "2026-09-17T07:51:53+00:00",
       "summary": [
-        "作价40亿美元推进新融资"
+        "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成",
+        "所有人都在问：这个模型有多强",
+        "但到了 2026 年，问题变了"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "b7d63262bfe5",
-      "title": "派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等",
+      "id": "9ed4b9bd6e42",
+      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114699",
-      "published": "2026-09-18T00:17:34+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/491875.html",
+      "published": "2026-09-18T06:11:06+00:00",
       "summary": [
-        "少数派的近期动态口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果",
-        "了解更多能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线",
-        "点击了解八月买了什 ...查看全文"
+        "用通用AI去啃最硬的骨头，这条路走得通"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
@@ -137,7 +137,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 7
     },
@@ -156,7 +156,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     }
