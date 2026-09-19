@@ -1,9 +1,47 @@
 {
-  "date": "2026-09-18",
-  "generated": "2026-09-18T23:49:34.261346+08:00",
+  "date": "2026-09-19",
+  "generated": "2026-09-19T11:07:08.781894+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "dcced75f93e2",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "published": "2026-09-18T23:13:31+00:00",
+      "summary": [
+        "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "99bd6d4072b2",
+      "title": "AI hallucination nearly triggers US military operation",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "published": "2026-09-18T23:12:32+00:00",
+      "summary": [
+        "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "dc00967633ba",
       "title": "Lenovo’s Yoga Slim 7X is the most laptop that $1,000 can currently buy",
@@ -19,66 +57,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "4b73a7a5520c",
-      "title": "The Download: mice with part-human brains and climate tech innovators",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
-      "published": "2026-09-17T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "43991f137a69",
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-      "published": "2026-09-18T11:29:22+00:00",
-      "summary": [
-        "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
-    },
-    {
-      "id": "0d70097db208",
-      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-      "published": "2026-09-18T14:00:14+00:00",
-      "summary": [
-        "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 4
     },
     {
       "id": "2807d16fb582",
@@ -97,83 +78,104 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "bfc666d3832d",
+      "title": "传承“十三姨”外观：本田 CB500 Super Four 摩托车新增“经典配色版”，43480 元",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/004/406.htm",
+      "published": "2026-09-19T03:06:48+00:00",
+      "summary": [
+        "IT之家 9 月 19 日消息，本田摩托车在今天举行的 2026 中国摩博会活动中为旗下 CB500 Super Four 摩托车新增一款“经典配色版”，该版本车型采用红白配色，号称传承“十三姨（CB1300）”经典外观，定价为 43480 元",
+        "▲ 现款“烈焰红”配色该车整体造型复古，大灯灯嘴采用磨砂银色塑料材质，车头下方继承两颗喇叭，中间搭配印有 CB 标识的装饰罩；两侧的转向灯尺寸较大；前叉管径偏细、横向间距较短，正面视角整车纤细",
+        "▲ CB1300 摩托车该车搭载方形 TFT 仪表，可直观展示车辆信息，匹配钻石车架及日系鸭尾设计，匹配经典双圆灯造型尾灯，排气支架固定在后乘客脚踏上，采用前中段 + 尾段的两段式结构"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "59a98d7aed3f",
-      "title": "Save $30 or more on a refurbished Apple TV 4K",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
-      "published": "2026-09-17T17:14:07+00:00",
+      "id": "ecfc994dbcab",
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+      "published": "2026-09-18T16:35:49+00:00",
       "summary": [
-        "Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lower than the new retail price. The [&#8230;]"
+        "Manus, which earlier this year had to break off a merger with Meta, is in discussions to raise $500M at a $4B valuation."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "2e2c71a7602f",
-      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
-      "published": "2026-09-17T16:00:00+00:00",
+      "id": "dca35b9a7f2c",
+      "title": "Y Combinator insurance tech alum Angle Health hits $2.7B valuation",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/",
+      "published": "2026-09-18T20:24:33+00:00",
       "summary": [
-        "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the reality is that it has been 15 years in the making [&#8230;]"
+        "Angle Health has grown to 5,000 customers and become profitable by helping small businesses get \"level-funded\" health insurance."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "891f3d397f81",
-      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
+      "id": "6081fb830cb0",
+      "title": "In India, the new iPhone can arrive faster than a pizza",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
-      "published": "2026-09-17T23:08:24+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/in-india-the-new-iphone-can-arrive-faster-than-a-pizza/",
+      "published": "2026-09-18T17:45:00+00:00",
       "summary": [
-        "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up."
+        "Availability of Apple's iPhone 18 Pro series turned patchy within hours of its debut on India's quick-commerce apps."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "c25104db8d5a",
-      "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "nytimes.com",
-      "sourceUrl": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
-      "published": "2026-09-18T11:01:44+00:00",
+      "id": "2f121b448c20",
+      "title": "India forces caller-ID apps to feed spam reports to telcos",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "published": "2026-09-19T01:00:00+00:00",
       "summary": [
-        "Comments"
+        "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
     }
