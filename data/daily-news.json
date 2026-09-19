@@ -1,63 +1,63 @@
 {
   "date": "2026-09-19",
-  "generated": "2026-09-19T16:31:42.603774+08:00",
+  "generated": "2026-09-19T23:21:23.932584+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "dc00967633ba",
-      "title": "Lenovo’s Yoga Slim 7X is the most laptop that $1,000 can currently buy",
+      "id": "f48af8241edf",
+      "title": "AI safety conversations have gotten unbelievable",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+      "published": "2026-09-19T15:00:00+00:00",
+      "summary": [
+        "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "0ac6fc9717b5",
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "published": "2026-09-19T13:00:00+00:00",
+      "summary": [
+        "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "8c66fe948c94",
+      "title": "The colorful, unique Hyte X50 PC case is $50 off",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/997388/lenovo-yoga-slim-7x-laptop-fire-emblem-switch-2-deal-sale",
-      "published": "2026-09-18T14:51:26+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/997467/hyte-x50-pc-case-deal-sale",
+      "published": "2026-09-19T15:00:00+00:00",
       "summary": [
-        "Anyone shopping for a Windows laptop with a $1K budget should head to Best Buy, where for the rest of the day you can get a great deal on a capable Lenovo laptop. The Yoga Slim 7X is a slim 14-inch machine with a 2K 16:10 OLED touchscreen, Snapdragon’s high-end X2 Elite processor with 12 [&#8230;]"
+        "The Hyte X50 is a PC case that really stands out from the typical black box design, and it’s $50 off at the company’s site until September 21st, 2026, bringing the price down to $99.99. This attractive case supports motherboards from ITX all the way up to the E-ATX form factors, and GPUs that are [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "dcced75f93e2",
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "published": "2026-09-18T23:13:31+00:00",
-      "summary": [
-        "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "99bd6d4072b2",
-      "title": "AI hallucination nearly triggers US military operation",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-      "published": "2026-09-18T23:12:32+00:00",
-      "summary": [
-        "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,7 +78,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 4
     },
@@ -102,6 +102,25 @@
       "rank": 5
     },
     {
+      "id": "0dd3f3fb6a5b",
+      "title": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "published": "2026-09-19T14:00:00+00:00",
+      "summary": [
+        "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I&#8217;m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
       "id": "dca35b9a7f2c",
       "title": "Y Combinator insurance tech alum Angle Health hits $2.7B valuation",
       "category": "business",
@@ -118,7 +137,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "6081fb830cb0",
@@ -137,7 +156,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "2f121b448c20",
@@ -151,25 +170,6 @@
       "published": "2026-09-19T01:00:00+00:00",
       "summary": [
         "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "9c56db528745",
-      "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "Hacker News",
-      "sourceDomain": "browser.geekbench.com",
-      "sourceUrl": "https://browser.geekbench.com/v7/cpu/389219",
-      "published": "2026-09-19T06:19:24+00:00",
-      "summary": [
-        "Comments"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
