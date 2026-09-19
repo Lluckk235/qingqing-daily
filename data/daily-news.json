@@ -1,47 +1,9 @@
 {
   "date": "2026-09-19",
-  "generated": "2026-09-19T11:07:08.781894+08:00",
+  "generated": "2026-09-19T16:31:42.603774+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "dcced75f93e2",
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "published": "2026-09-18T23:13:31+00:00",
-      "summary": [
-        "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "99bd6d4072b2",
-      "title": "AI hallucination nearly triggers US military operation",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-      "published": "2026-09-18T23:12:32+00:00",
-      "summary": [
-        "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "dc00967633ba",
       "title": "Lenovo’s Yoga Slim 7X is the most laptop that $1,000 can currently buy",
@@ -58,6 +20,44 @@
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "dcced75f93e2",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "published": "2026-09-18T23:13:31+00:00",
+      "summary": [
+        "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "99bd6d4072b2",
+      "title": "AI hallucination nearly triggers US military operation",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "published": "2026-09-18T23:12:32+00:00",
+      "summary": [
+        "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -83,27 +83,6 @@
       "rank": 4
     },
     {
-      "id": "bfc666d3832d",
-      "title": "传承“十三姨”外观：本田 CB500 Super Four 摩托车新增“经典配色版”，43480 元",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/004/406.htm",
-      "published": "2026-09-19T03:06:48+00:00",
-      "summary": [
-        "IT之家 9 月 19 日消息，本田摩托车在今天举行的 2026 中国摩博会活动中为旗下 CB500 Super Four 摩托车新增一款“经典配色版”，该版本车型采用红白配色，号称传承“十三姨（CB1300）”经典外观，定价为 43480 元",
-        "▲ 现款“烈焰红”配色该车整体造型复古，大灯灯嘴采用磨砂银色塑料材质，车头下方继承两颗喇叭，中间搭配印有 CB 标识的装饰罩；两侧的转向灯尺寸较大；前叉管径偏细、横向间距较短，正面视角整车纤细",
-        "▲ CB1300 摩托车该车搭载方形 TFT 仪表，可直观展示车辆信息，匹配钻石车架及日系鸭尾设计，匹配经典双圆灯造型尾灯，排气支架固定在后乘客脚踏上，采用前中段 + 尾段的两段式结构"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
       "id": "ecfc994dbcab",
       "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
       "category": "business",
@@ -118,9 +97,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "dca35b9a7f2c",
@@ -137,9 +116,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "6081fb830cb0",
@@ -156,9 +135,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "2f121b448c20",
@@ -175,7 +154,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "9c56db528745",
+      "title": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "Hacker News",
+      "sourceDomain": "browser.geekbench.com",
+      "sourceUrl": "https://browser.geekbench.com/v7/cpu/389219",
+      "published": "2026-09-19T06:19:24+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     }
