@@ -1,12 +1,31 @@
 {
   "date": "2026-09-21",
-  "generated": "2026-09-21T11:18:24.067092+08:00",
+  "generated": "2026-09-21T17:35:43.191345+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
+      "id": "ac1368b0f72d",
+      "title": "Amazon doesn’t trust Meta’s Muse AI agent",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "published": "2026-09-21T09:21:47+00:00",
+      "summary": [
+        "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
       "id": "0c6dd0ea6efb",
-      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
@@ -19,26 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "0053101fd257",
-      "title": "Trump now says he wants to form an ‘AI Force’",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-      "published": "2026-09-20T15:39:22+00:00",
-      "summary": [
-        "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
@@ -81,19 +81,19 @@
       "rank": 4
     },
     {
-      "id": "49b2cbee07ef",
-      "title": "卢伟冰谈小米18 Pro涨价：大家会觉得合理；剪映发布 Hub 及 AI 助手「小映」；苹果或 10 月推出智能家居设备｜极客早知道",
+      "id": "3270a3e602a1",
+      "title": "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370681",
-      "published": "2026-09-21T01:01:53+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/370717",
+      "published": "2026-09-21T04:01:49+00:00",
       "summary": [
-        "B 站上线 AI 无限竞技场测评榜：GPT-6 Astra 现居榜首 9 月 20 日，B 站宣布上线「AI 无限竞技场」大模型测评榜，并同步公布了首轮模型排行榜",
-        "据 B 站介绍，「AI 无限竞技场」是一个汇集了 B 站 UP 主 AI 大模型测评的竞技广场，由各领域 UP 主对上百个大模型的真实场景实测构成，涵盖代码、推理、协作、知识等多种测评主题",
-        "其中 GPT-6 Astra 在 10 个 UP 主测评中拿下榜首，打败 GLM-5.3 获得榜首次数冠军；前 5 名中，国产大模型占据 3 席"
+        "行业里的人各自笃定，声音大的先被听见",
+        "最响的那些声音，往往离真实的进展最远",
+        "真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,57 +102,57 @@
       "rank": 5
     },
     {
-      "id": "4c0f1de51925",
-      "title": "小米 18 Pro 系列手机超级像素屏幕 2.0 亮点公布：新一代 M11 发光体系、全 RGB 无损排列",
+      "id": "30c940b83c8d",
+      "title": "小米官方“龙虾”Xiaomi miclaw 今日结束封测",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/005/117.htm",
-      "published": "2026-09-21T03:16:47+00:00",
+      "sourceUrl": "https://www.ithome.com/1/005/341.htm",
+      "published": "2026-09-21T09:31:28+00:00",
       "summary": [
-        "IT之家 9 月 21 日消息，小米手机今日宣布，小米 18 Pro 系列的超级像素屏幕迈入 2.0 时代，同时拥有“旗舰画质与原生硬件级防窥”",
-        "小米官方宣称，这是面向未来的全新屏幕解决方案",
-        "IT之家注意到，小米官方还公布了超级像素屏幕 2.0 的核心亮点：新一代 M11 发光体系，新型绿色发光材料发光效率跃升 20%，4000nits 超高峰值亮度全 RGB 无损排列，1.5K 功耗，清晰度媲美 2K根据规划，小米 18 Pro 系列手机将在 9 月 23 日 19:00 发布"
+        "IT之家 9 月 21 日消息，小米官方账号“Beta 版小助手”于 8 月 21 日发布《Xiaomi miclaw 封测结束公告》 ，小米官方“龙虾”Xiaomi miclaw 于 9 月 21 日结束这次封测，用户的 Xiaomi miclaw 正式停止服务",
+        "据此前官方公告，今年 3 月，小米开启了官方“龙虾” Xiaomi miclaw 封测，获得了众多用户的关注",
+        "经过近半年的封闭测试，团队获得了关于 AI 类产品很多有益的意见和建议"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "4aada44b5974",
+      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/493235.html",
+      "published": "2026-09-21T07:52:46+00:00",
+      "summary": [
+        "9月19日，第一届中国网络空间安全大会（CCSC 2026）的高水平专题论坛在安徽合肥正式举办"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 5,
       "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "45d620b21da1",
-      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-      "published": "2026-09-19T20:44:40+00:00",
-      "summary": [
-        "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "a1e4169b942d",
-      "title": "What happened to the Snowden archive",
+      "id": "1e2a750f10d1",
+      "title": "A small but growing number of founders are betting on bringing people together offline",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "Hacker News",
-      "sourceDomain": "libroot.org",
-      "sourceUrl": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
-      "published": "2026-09-20T22:35:49+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
+      "published": "2026-09-20T15:00:00+00:00",
       "summary": [
-        "Comments"
+        "On the surface, a game console and a leathercraft school don't appear to have much in common. But both founders think there's money in fostering the kind of connection that technology has eroded over the last couple of decades."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
