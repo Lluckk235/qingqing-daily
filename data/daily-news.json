@@ -1,120 +1,120 @@
 {
-  "date": "2026-09-21",
-  "generated": "2026-09-21T17:35:43.191345+08:00",
-  "total": 9,
+  "date": "2026-09-22",
+  "generated": "2026-09-22T01:52:08.893980+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "ac1368b0f72d",
-      "title": "Amazon doesn’t trust Meta’s Muse AI agent",
+      "id": "06d3f809c0b2",
+      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "published": "2026-09-21T12:20:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "57a0e26aaeb1",
+      "title": "X will now tell users when governments have forced it to limit their posts",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/x-will-now-tell-users-when-governments-have-forced-it-to-limit-their-posts/",
+      "published": "2026-09-21T17:45:35+00:00",
+      "summary": [
+        "X is expanding its “Under the Hood” transparency tool to show when posts have been downranked or withheld in response to local laws and government demands, including which country made the request."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "ce68e248589d",
+      "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-      "published": "2026-09-21T09:21:47+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "published": "2026-09-21T14:39:22+00:00",
       "summary": [
-        "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that [&#8230;]"
+        "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
-      "id": "0c6dd0ea6efb",
-      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+      "id": "719dd1e473cc",
+      "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-      "published": "2026-09-20T18:50:18+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+      "published": "2026-09-21T15:00:00+00:00",
       "summary": [
-        "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the [&#8230;]"
+        "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "3e1483a09439",
-      "title": "Kojima Productions disputes reports the studio is in trouble",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation",
-      "published": "2026-09-20T18:15:10+00:00",
-      "summary": [
-        "After it was announced that Sony was dropping Hideo Kojima's Physint, and that instead the Metal Gear Solid creator's latest title would be coming to Xbox, there were a flurry of rumors about the falling out. Bloomberg reported that the decision was driven by a number of factors, including missed deadlines, budget and profitability concerns, [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "d0f7698cc527",
-      "title": "The hidden monopoly behind your TI graphing calculator",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/997725/the-hidden-monopoly-behind-your-ti-graphing-calculator",
-      "published": "2026-09-20T12:00:00+00:00",
-      "summary": [
-        "The same calculator has been on most kids' back to school shopping list since the early 2000's and the dominance of Texas Instruments' calculator division goes back even farther. In the next episode of Version History, David Pierce is joined by The Verge's Nilay Patel and Victoria Song to tell the story of TI graphing [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "3270a3e602a1",
-      "title": "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞",
+      "id": "5df47e148cbf",
+      "title": "Jev，让全球程序员玩疯了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370717",
-      "published": "2026-09-21T04:01:49+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/370758",
+      "published": "2026-09-21T11:02:43+00:00",
       "summary": [
-        "行业里的人各自笃定，声音大的先被听见",
-        "最响的那些声音，往往离真实的进展最远",
-        "真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步"
+        "作者｜宇航猿 编辑｜靖宇 &nbsp; 智能家居社区 Home Assistant 最近出现了一个名为 HA-Jev 的插件",
+        "它的逻辑极其简单，传感器读取洗衣机的功率变化与洗衣房门的状态，然后抛出一个问题给模型，「洗衣机洗完了，衣服是不是被忘在里面了",
+        "」模型不输出任何文字分析，只返回一个概率值"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "30c940b83c8d",
-      "title": "小米官方“龙虾”Xiaomi miclaw 今日结束封测",
+      "id": "8e73576124d1",
+      "title": "苹果 watchOS 27.2 开发者预览版 Beta 2 发布",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/005/341.htm",
-      "published": "2026-09-21T09:31:28+00:00",
+      "sourceUrl": "https://www.ithome.com/1/005/486.htm",
+      "published": "2026-09-21T17:36:13+00:00",
       "summary": [
-        "IT之家 9 月 21 日消息，小米官方账号“Beta 版小助手”于 8 月 21 日发布《Xiaomi miclaw 封测结束公告》 ，小米官方“龙虾”Xiaomi miclaw 于 9 月 21 日结束这次封测，用户的 Xiaomi miclaw 正式停止服务",
-        "据此前官方公告，今年 3 月，小米开启了官方“龙虾” Xiaomi miclaw 封测，获得了众多用户的关注",
-        "经过近半年的封闭测试，团队获得了关于 AI 类产品很多有益的意见和建议"
+        "【点此直达升级教程】 IT之家 9 月 22 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 开发者预览版 Beta 2 更新（内部版本号：24S5091f），本次更新距离上次发布 Beta/RC 间隔 5 天",
+        "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版",
+        "• 公开测试版：需注册&nbsp;Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,61 +123,80 @@
       "rank": 6
     },
     {
-      "id": "4aada44b5974",
-      "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/493235.html",
-      "published": "2026-09-21T07:52:46+00:00",
+      "id": "78bc3d28db94",
+      "title": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
+      "published": "2026-09-21T17:42:15+00:00",
       "summary": [
-        "9月19日，第一届中国网络空间安全大会（CCSC 2026）的高水平专题论坛在安徽合肥正式举办"
+        "Paramount has reached a settlement with California and the 11 other states that sued to block its planned $110 billion acquisition of Warner Bros. Discovery. The settlement removes a major roadblock standing in the way of the massive media merger. According to the proposed consent decree filed with the court, it includes requirements like minimum [&#8230;]"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
+      "score": 7,
+      "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "1e2a750f10d1",
-      "title": "A small but growing number of founders are betting on bringing people together offline",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "f7a6f32a17eb",
+      "title": "Oura’s $2.2B IPO is mostly a payday for existing shareholders",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
-      "published": "2026-09-20T15:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/",
+      "published": "2026-09-21T16:45:47+00:00",
       "summary": [
-        "On the surface, a game console and a leathercraft school don't appear to have much in common. But both founders think there's money in fostering the kind of connection that technology has eroded over the last couple of decades."
+        "Forerunner Ventures plans to sell its entire stake in Oura for as much as $1.26 billion, according to Oura's latest IPO filing."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "ac58fdcd6fb1",
-      "title": "All roads lead to cable",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "5c2e26dc6103",
+      "title": "Can John Ternus find Apple’s next big thing?",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/997843/streamers-cable-fast-channels",
-      "published": "2026-09-20T12:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+      "published": "2026-09-21T14:00:00+00:00",
       "summary": [
-        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on streaming platforms, FAST channels, and the future of entertainment, follow Charles Pulliam-Moore. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Before Netflix fully committed to [&#8230;]"
+        "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On.&#160; Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was [&#8230;]"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "4974c71c7226",
+      "title": "GM can’t ‘bring back’ Apple CarPlay because it never left",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
+      "published": "2026-09-21T17:47:54+00:00",
+      "summary": [
+        "Last week, GM announced a new software experience for its upcoming Chevy Silverado and GMC Sierra trucks, including a new look for Apple CarPlay and Android Auto, the popular phone mirroring systems that the automaker made a big deal about removing from its electric vehicles in 2023. Naturally, this led to some confusion about whether [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
