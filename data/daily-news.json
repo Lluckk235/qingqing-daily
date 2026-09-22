@@ -1,44 +1,44 @@
 {
-  "date": "2026-09-22",
-  "generated": "2026-09-22T17:00:17.924492+08:00",
-  "total": 11,
+  "date": "2026-09-23",
+  "generated": "2026-09-23T00:16:23.846959+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "c06d2cf00824",
-      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "id": "69b662349cd9",
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-      "published": "2026-09-21T20:15:58+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "published": "2026-09-22T12:10:00+00:00",
       "summary": [
-        "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research."
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "285c3f889238",
-      "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+      "id": "d185f661c7d1",
+      "title": "Don’t be fooled by this summer of AI hype",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-      "published": "2026-09-21T19:19:21+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "published": "2026-09-22T11:04:51+00:00",
       "summary": [
-        "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures."
+        "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,28 +57,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
-    },
-    {
-      "id": "57a0e26aaeb1",
-      "title": "X will now tell users when governments have forced it to limit their posts",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/x-will-now-tell-users-when-governments-have-forced-it-to-limit-their-posts/",
-      "published": "2026-09-21T17:45:35+00:00",
-      "summary": [
-        "X is expanding its “Under the Hood” transparency tool to show when posts have been downranked or withheld in response to local laws and government demands, including which country made the request."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 4
     },
     {
       "id": "93b30779fbb6",
@@ -97,125 +78,126 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "c8c958ab1ffc",
+      "title": "微软调整 XBOX 业务并启动新一轮裁员，动视豪言“目标打造史上最棒《光环》”",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/005/993.htm",
+      "published": "2026-09-22T15:43:56+00:00",
+      "summary": [
+        "IT之家 9 月 22 日消息，北京时间今天（22 日）晚间，微软宣布新一轮裁员，其中大部分来自 XBOX 游戏业务，并重新划分多家工作室的管理归属；Ninja Theory 关闭的风险进一步上升，《光环》系列的开发体系也将迎来重大变化",
+        "微软此次将裁减 268 名员工，多数来自刚刚推出《光环：战役进化》的光环工作室",
+        "人员规模大幅缩减后，光环工作室将不再负责主导《光环》IP，而是主要承担现有项目的维护和支持工作"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "1d4849a18044",
-      "title": "SKN 推出毕方 Ultra 8K 机械键盘：三模矮轴，635hr 续航，到手价 339 元",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/005/846.htm",
-      "published": "2026-09-22T08:56:36+00:00",
-      "summary": [
-        "IT之家 9 月 22 日消息，SKN 即将于今晚 20:00 发售毕方 Ultra 8K 机械键盘",
-        "这一产品搭载矮款轴体，支持三模连接，2000mAh 电池在 ZMK 固件下可提供 635hr 续航，到手价 339 元",
-        "毕方 Ultra 8K 机身厚度 21.9mm，采用 6 层填充 Gasket 结构，背部包含毕方主题装饰区，集成两段式脚撑；兼容 Windows 和 macOS 操作系统；在 USB-C 和 2.4GHz 模式下支持 8kHz 回报率"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "07fba5147e2f",
-      "title": "App+1 | Coast：用十年经验，给记账这件事一个「终点」",
+      "id": "f3a3f76b950b",
+      "title": "可定制、更出彩，头戴式耳机新选择：Beats 360 首发体验",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114479",
-      "published": "2026-09-22T06:39:39+00:00",
+      "sourceUrl": "https://sspai.com/post/114878",
+      "published": "2026-09-22T14:00:00+00:00",
       "summary": [
-        "从大学时代入不敷出开始记账，到 10 年后发现记账数据没有被充分利用，再到用 Vibe Coding 把自己的想法做成了一款 App——10 年的记账经验变成了产品设计的基础，而 Vibe Coding 让一个非技术出身的人有能力把这些想法实现出来"
+        "在BeatsStudioPro发布3年之后，Beats终于想起来要更新一下自家头戴式耳机的旗舰款了，推出了全新的Beats360",
+        "值得一提的是，Beats不久前刚刚度过了成立后的20周年生日，Beat ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
-      "id": "aaf804a45a55",
-      "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
-      "published": "2026-09-22T03:48:05+00:00",
-      "summary": [
-        "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "78bc3d28db94",
-      "title": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
+      "id": "8be71f5c7b05",
+      "title": "Microsoft is laying off 268 Xbox staffers and Ninja Theory may close",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
-      "published": "2026-09-21T17:42:15+00:00",
+      "sourceUrl": "https://www.theverge.com/news/998589/microsoft-xbox-layoffs-ninja-theory-closure",
+      "published": "2026-09-22T14:01:16+00:00",
       "summary": [
-        "Paramount has reached a settlement with California and the 11 other states that sued to block its planned $110 billion acquisition of Warner Bros. Discovery. The settlement removes a major roadblock standing in the way of the massive media merger. According to the proposed consent decree filed with the court, it includes requirements like minimum [&#8230;]"
+        "Microsoft is laying off around 260 Xbox employees today, as part of an ongoing \"reset\" of its gaming business. 1,600 Xbox employees were impacted by layoffs in July, with Xbox CEO Asha Sharma describing the cuts as \"the most significant restructure in Xbox history.\" Today's layoffs are part of the 3,200 roles that were previously [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "008028ffb080",
+      "title": "Singapore’s Nexstrom wants to bring 2D semiconductors to chip fabs",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs/",
+      "published": "2026-09-22T13:20:00+00:00",
+      "summary": [
+        "Singapore-based Nexstrom has raised new funding to develop equipment that could help chipmakers manufacture 2D semiconductor materials at scale."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "502072b10c62",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "published": "2026-09-21T23:44:28+00:00",
+      "summary": [
+        "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "f7a6f32a17eb",
-      "title": "Oura’s $2.2B IPO is mostly a payday for existing shareholders",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/",
-      "published": "2026-09-21T16:45:47+00:00",
+      "id": "fbbb2f4877db",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "published": "2026-09-22T13:42:05+00:00",
       "summary": [
-        "Forerunner Ventures plans to sell its entire stake in Oura for as much as $1.26 billion, according to Oura's latest IPO filing."
+        "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 5,
       "isNativeCN": false,
       "rank": 10
-    },
-    {
-      "id": "a7372768714f",
-      "title": "Apple&#8217;s first live music venue is opening beneath its UK headquarters",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
-      "published": "2026-09-22T08:35:54+00:00",
-      "summary": [
-        "Apple is preparing to open a new \"state-of-the-art\" live music venue in the UK, a 600-capacity space for hosting performances, recording sessions, and video broadcasts. The venue, called Apple Music Hall, is located underneath Apple's European headquarters in London's iconic Battersea Power Station, and is set to open next week on September 28th. Details about [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 11
     }
   ]
 }
