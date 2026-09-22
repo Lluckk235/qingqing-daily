@@ -1,7 +1,7 @@
 {
   "date": "2026-09-22",
-  "generated": "2026-09-22T11:18:19.469194+08:00",
-  "total": 10,
+  "generated": "2026-09-22T17:00:17.924492+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -76,7 +76,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,30 +97,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "6a68ce794d3f",
-      "title": "派早报：vivo 发布 X500 系列，Google 推出首批 Googlebook 等",
+      "id": "1d4849a18044",
+      "title": "SKN 推出毕方 Ultra 8K 机械键盘：三模矮轴，635hr 续航，到手价 339 元",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/005/846.htm",
+      "published": "2026-09-22T08:56:36+00:00",
+      "summary": [
+        "IT之家 9 月 22 日消息，SKN 即将于今晚 20:00 发售毕方 Ultra 8K 机械键盘",
+        "这一产品搭载矮款轴体，支持三模连接，2000mAh 电池在 ZMK 固件下可提供 635hr 续航，到手价 339 元",
+        "毕方 Ultra 8K 机身厚度 21.9mm，采用 6 层填充 Gasket 结构，背部包含毕方主题装饰区，集成两段式脚撑；兼容 Windows 和 macOS 操作系统；在 USB-C 和 2.4GHz 模式下支持 8kHz 回报率"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "07fba5147e2f",
+      "title": "App+1 | Coast：用十年经验，给记账这件事一个「终点」",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114840",
-      "published": "2026-09-22T00:09:01+00:00",
+      "sourceUrl": "https://sspai.com/post/114479",
+      "published": "2026-09-22T06:39:39+00:00",
       "summary": [
-        "少数派的近期动态少数派会员2026周边现已开放兑换，点击兑换给电话加上「辅助驾驶」",
-        "我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡",
-        "参与调研口袋先知新版本1.3. ...查看全文"
+        "从大学时代入不敷出开始记账，到 10 年后发现记账数据没有被充分利用，再到用 Vibe Coding 把自己的想法做成了一款 App——10 年的记账经验变成了产品设计的基础，而 Vibe Coding 让一个非技术出身的人有能力把这些想法实现出来"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "id": "aaf804a45a55",
+      "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
+      "published": "2026-09-22T03:48:05+00:00",
+      "summary": [
+        "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "78bc3d28db94",
@@ -137,9 +175,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "f7a6f32a17eb",
@@ -156,47 +194,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     },
     {
-      "id": "502072b10c62",
-      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-      "published": "2026-09-21T23:44:28+00:00",
-      "summary": [
-        "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "5c2e26dc6103",
-      "title": "Can John Ternus find Apple’s next big thing?",
+      "id": "a7372768714f",
+      "title": "Apple&#8217;s first live music venue is opening beneath its UK headquarters",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
-      "published": "2026-09-21T14:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/998581/apple-music-hall-london-venue-battersea",
+      "published": "2026-09-22T08:35:54+00:00",
       "summary": [
-        "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On.&#160; Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was [&#8230;]"
+        "Apple is preparing to open a new \"state-of-the-art\" live music venue in the UK, a 600-capacity space for hosting performances, recording sessions, and video broadcasts. The venue, called Apple Music Hall, is located underneath Apple's European headquarters in London's iconic Battersea Power Station, and is set to open next week on September 28th. Details about [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
