@@ -1,7 +1,7 @@
 {
   "date": "2026-09-23",
-  "generated": "2026-09-23T11:18:40.075840+08:00",
-  "total": 10,
+  "generated": "2026-09-23T17:04:12.516511+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -43,6 +43,25 @@
       "rank": 2
     },
     {
+      "id": "f47b4ba2b456",
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "published": "2026-09-23T04:59:08+00:00",
+      "summary": [
+        "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
       "id": "dca8e921be10",
       "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
       "category": "ai-tech",
@@ -57,47 +76,50 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "7f7b416aab2f",
-      "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
-      "published": "2026-09-22T18:40:30+00:00",
-      "summary": [
-        "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
       "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "cdb9747b45a1",
-      "title": "派早报：OPPO Find X10 系列发布、Beats 360 头戴式耳机发布等",
+      "id": "35f47a5e7599",
+      "title": "剪映，杀入 AI 互动影游",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114889",
-      "published": "2026-09-22T23:30:05+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370883",
+      "published": "2026-09-23T07:32:36+00:00",
       "summary": [
-        "高通发布两款第六代骁龙 8 旗舰芯片，Claude Opus 5.5 与 GPT-6 Sol/Luna 发布等"
+        "&nbsp; 头图来源：剪映 9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态",
+        "专业版新增一站式创作工作台「剪映 Hub」，由无限画布和多轨编辑器组成",
+        "用户可以从一句话、一个参考视频或者一份文档开始，在画布上整理思路、生成脚本和分镜，调用即梦、小云雀等平台生成图片、视频和声音，再把初剪结果送入时间线继续修改"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "d0b7b133db80",
+      "title": "具透 | 新「环境」、新变化，visionOS 27 值得关注的新特性",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114901",
+      "published": "2026-09-23T07:30:57+00:00",
+      "summary": [
+        "Apple于9月15日凌晨正式发布了iOS27、iPadOS27、macOS27GoldenGate和watchOS27、visionOS27等系统的正式版本",
+        "其中，visionOS27加入了Siri ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "912459032f01",
@@ -114,26 +136,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "008028ffb080",
-      "title": "Singapore’s Nexstrom wants to bring 2D semiconductors to chip fabs",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs/",
-      "published": "2026-09-22T13:20:00+00:00",
-      "summary": [
-        "Singapore-based Nexstrom has raised new funding to develop equipment that could help chipmakers manufacture 2D semiconductor materials at scale."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 7
     },
@@ -152,7 +155,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
@@ -171,28 +174,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "9bb040533a78",
-      "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
-      "published": "2026-09-22T18:24:34+00:00",
-      "summary": [
-        "This academy for promising high school grads is somewhere between a trade school, Y Combinator, and Peter Thiel's Fellowship Program."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
