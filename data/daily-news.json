@@ -1,146 +1,122 @@
 {
   "date": "2026-09-23",
-  "generated": "2026-09-23T00:16:23.846959+08:00",
+  "generated": "2026-09-23T11:18:40.075840+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "69b662349cd9",
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "published": "2026-09-22T12:10:00+00:00",
+      "id": "9b7e1031bfd8",
+      "title": "Side-stepping the Secretary Problem, unwittingly",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "evalapply.org",
+      "sourceUrl": "https://www.evalapply.org/posts/side-step-secretary-problem-hiring/index.html",
+      "published": "2026-09-22T02:47:52+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;"
+        "Comments"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 2.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "d185f661c7d1",
-      "title": "Don’t be fooled by this summer of AI hype",
+      "id": "ad1f4d313c4c",
+      "title": "Markdown in /src",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "htmx.org",
+      "sourceUrl": "https://htmx.org/essays/markdown-in-src/",
+      "published": "2026-09-21T22:47:54+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 2.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "dca8e921be10",
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "published": "2026-09-22T11:04:51+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "published": "2026-09-23T00:17:17+00:00",
       "summary": [
-        "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;"
+        "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "06d3f809c0b2",
-      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
-      "published": "2026-09-21T12:20:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "93b30779fbb6",
-      "title": "黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道",
+      "id": "7f7b416aab2f",
+      "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370768",
-      "published": "2026-09-22T00:42:21+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+      "published": "2026-09-22T18:40:30+00:00",
       "summary": [
-        "消息称华为 Mate 90 系列年度旗舰手机将在 9 月 29 日发布 9 月 21 日消息，昨日早些时候，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚宣布，智界 RX 及鸿蒙智行新品发布会定档 9 月 28 日 14:30 举行",
-        "根据此前爆料，华为 Mate 90 系列手机也将在本月发布，但遗憾的是，今天华为并未官宣这款年度旗舰的发布会时间",
-        "但博主 @熠熠玩数码 透露，Mate 90 系列发布会将在 9 月 29 日 14:30 举行"
+        "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
+      "score": 6.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "c8c958ab1ffc",
-      "title": "微软调整 XBOX 业务并启动新一轮裁员，动视豪言“目标打造史上最棒《光环》”",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/005/993.htm",
-      "published": "2026-09-22T15:43:56+00:00",
+      "id": "cdb9747b45a1",
+      "title": "派早报：OPPO Find X10 系列发布、Beats 360 头戴式耳机发布等",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114889",
+      "published": "2026-09-22T23:30:05+00:00",
       "summary": [
-        "IT之家 9 月 22 日消息，北京时间今天（22 日）晚间，微软宣布新一轮裁员，其中大部分来自 XBOX 游戏业务，并重新划分多家工作室的管理归属；Ninja Theory 关闭的风险进一步上升，《光环》系列的开发体系也将迎来重大变化",
-        "微软此次将裁减 268 名员工，多数来自刚刚推出《光环：战役进化》的光环工作室",
-        "人员规模大幅缩减后，光环工作室将不再负责主导《光环》IP，而是主要承担现有项目的维护和支持工作"
+        "高通发布两款第六代骁龙 8 旗舰芯片，Claude Opus 5.5 与 GPT-6 Sol/Luna 发布等"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "f3a3f76b950b",
-      "title": "可定制、更出彩，头戴式耳机新选择：Beats 360 首发体验",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114878",
-      "published": "2026-09-22T14:00:00+00:00",
-      "summary": [
-        "在BeatsStudioPro发布3年之后，Beats终于想起来要更新一下自家头戴式耳机的旗舰款了，推出了全新的Beats360",
-        "值得一提的是，Beats不久前刚刚度过了成立后的20周年生日，Beat ...查看全文"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "8be71f5c7b05",
-      "title": "Microsoft is laying off 268 Xbox staffers and Ninja Theory may close",
+      "id": "912459032f01",
+      "title": "Paramount will need to release way more movies to make this merger work",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/998589/microsoft-xbox-layoffs-ninja-theory-closure",
-      "published": "2026-09-22T14:01:16+00:00",
+      "sourceUrl": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
+      "published": "2026-09-22T22:26:07+00:00",
       "summary": [
-        "Microsoft is laying off around 260 Xbox employees today, as part of an ongoing \"reset\" of its gaming business. 1,600 Xbox employees were impacted by layoffs in July, with Xbox CEO Asha Sharma describing the cuts as \"the most significant restructure in Xbox history.\" Today's layoffs are part of the 3,200 roles that were previously [&#8230;]"
+        "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "008028ffb080",
@@ -157,45 +133,64 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "c01d5bdba5b4",
+      "title": "Apple clarifies that Texture and Grain controls are exclusive to the latest iPhones’ cameras",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/998874/apple-iphone-18-pro-ios-27-camera-texture-grain-photographic-style",
+      "published": "2026-09-22T19:48:08+00:00",
+      "summary": [
+        "Apple's new texture and grain controls for stylizing photos will be more limited on older phones than initially expected. A confusingly worded press release from Apple indicated that the new features, announced alongside the iPhone 18 and 18 Pro earlier this month, would be \"available\" on older devices like the iPhone 16 and iPhone Air [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "502072b10c62",
-      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "id": "df4c7896b182",
+      "title": "Apple could take on Whoop with a new fitness tracker, report says",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-      "published": "2026-09-21T23:44:28+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
+      "published": "2026-09-22T19:27:57+00:00",
       "summary": [
-        "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people."
+        "Apple may be developing a new fitness tracker as part of its new generation of hardware devices."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "fbbb2f4877db",
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "id": "9bb040533a78",
+      "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "published": "2026-09-22T13:42:05+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
+      "published": "2026-09-22T18:24:34+00:00",
       "summary": [
-        "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;"
+        "This academy for promising high school grads is somewhere between a trade school, Y Combinator, and Peter Thiel's Fellowship Program."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 10
     }
