@@ -1,47 +1,9 @@
 {
   "date": "2026-09-24",
-  "generated": "2026-09-24T00:06:18.116764+08:00",
-  "total": 7,
+  "generated": "2026-09-24T11:08:07.613803+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "f47b4ba2b456",
-      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
-      "published": "2026-09-23T04:59:08+00:00",
-      "summary": [
-        "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "b6623ede924d",
-      "title": "YouTube adds new creator tools like video A/B testing, dynamic thumbnails, and live dubbing",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/",
-      "published": "2026-09-23T14:30:00+00:00",
-      "summary": [
-        "Many of these tools hinge on using generative AI to try out a variety of different tactics on a video to find what works best."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "3f94f55217dd",
       "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
@@ -57,49 +19,127 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "a5968fa9766f",
-      "title": "谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制",
+      "id": "35cde0e51661",
+      "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
+      "published": "2026-09-23T23:33:22+00:00",
+      "summary": [
+        "Nothing says Italian craftsmanship like a Chinese robot doing a lasso to \"L'Amour Toujours.\""
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "a58dd3909ca1",
+      "title": "Everything new coming to Meta’s AI agent Muse",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/006/509.htm",
-      "published": "2026-09-23T15:31:11+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "published": "2026-09-24T01:13:32+00:00",
       "summary": [
-        "IT之家 9 月 23 日消息，谷歌今日宣布，Gemini 家族新增两款全新文本转语音模型，将语音生成从静态预设转变为动态创意工作室，能够帮助创作者、开发者和企业打造更丰富、更具表现力的音频体验，同时为 Gemini Notebook 和 Google Vids 等产品改进用户体验",
-        "两款新模型分别为 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS，定位各有不同：Gemini 3.8 Flash TTS：面向深度创意方向和角色设计，可通过自然语言提示从头创建全新语音，在游戏、沉浸式有声读物、播客和互动媒体中赋予角色生命力，还可对表演提示、节奏、方言转换等进行精细控制",
-        "Gemini 3.8 Flash-Lite TTS：面向大容量、高性价比规模场景，针对大容量配音、音频内容创作和富有表现力的语音代理进行了优化，可对音调、节奏和表现力细微差别进行精细控制"
+        "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
-      "rank": 4
+      "isNativeCN": false,
+      "rank": 3
     },
     {
-      "id": "ab0b2d96bb33",
-      "title": "YouTube Music gets more conversational with new AI features",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "b3b054f1bbc7",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-      "published": "2026-09-23T15:19:30+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "published": "2026-09-24T00:46:17+00:00",
       "summary": [
-        "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized [&#8230;]"
+        "The tiny hardware device creates another mobile home for its AI agent Muse."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "35f47a5e7599",
+      "title": "剪映，杀入 AI 互动影游",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/370883",
+      "published": "2026-09-23T07:32:36+00:00",
+      "summary": [
+        "&nbsp; 头图来源：剪映 9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态",
+        "专业版新增一站式创作工作台「剪映 Hub」，由无限画布和多轨编辑器组成",
+        "用户可以从一句话、一个参考视频或者一份文档开始，在画布上整理思路、生成脚本和分镜，调用即梦、小云雀等平台生成图片、视频和声音，再把初剪结果送入时间线继续修改"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "356f0cad2943",
+      "title": "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114913",
+      "published": "2026-09-24T00:19:37+00:00",
+      "summary": [
+        "Amazfit 推出智能手表 T-Rex Dual Solar、雷蛇推出灰鲭鲨 X 游戏音箱等"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "a12da26e04f8",
+      "title": "比亚迪方程豹鲨鱼皮卡官图公布，号称“海外王者归来”",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/006/603.htm",
+      "published": "2026-09-24T03:02:06+00:00",
+      "summary": [
+        "IT之家 9 月 24 日消息，比亚迪方程豹事业部总经理熊甜波今日分享了方程豹鲨鱼皮卡官图，并配文“海外王者归来",
+        "”，预计新车即将登陆国内市场",
+        "IT之家注意到，工信部今年 7 月发布第 409 批《道路机动车辆生产企业及产品公告》新产品公示，其中，方程豹鲨鱼插电式混合动力皮卡完成申报"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "fe603b600b7e",
@@ -116,28 +156,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 8
     },
     {
-      "id": "41988cada7e1",
-      "title": "Xbox’s Mythic achievements sound like PlayStation’s Platinum trophy",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/999404/xbox-mythic-achievement-feature",
-      "published": "2026-09-23T15:45:11+00:00",
+      "id": "ea93c3680af0",
+      "title": "A brief history of Windows scroll bar shortcuts",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "devblogs.microsoft.com",
+      "sourceUrl": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719/",
+      "published": "2026-09-23T18:02:08+00:00",
       "summary": [
-        "Xbox appears to be ready to launch its own version of PlayStation's platinum trophies. A new update to the Xbox PC app has revealed Mythic achievements, which according to data in the app will appear once a player completes all the achievements in a game. Mythic achievements appear on screen with a unique unlock sound, [&#8230;]"
+        "Comments"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     }
   ]
 }
