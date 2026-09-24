@@ -1,200 +1,200 @@
 {
-  "date": "2026-09-24",
-  "generated": "2026-09-24T17:00:05.780000+08:00",
+  "date": "2026-09-25",
+  "generated": "2026-09-25T00:29:48.754864+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "a58dd3909ca1",
-      "title": "Everything new coming to Meta’s AI agent Muse",
+      "id": "8264311d3534",
+      "title": "Google tests letting Gemini call businesses for you",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-      "published": "2026-09-24T01:13:32+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+      "published": "2026-09-24T16:00:00+00:00",
       "summary": [
-        "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses."
+        "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "b3b054f1bbc7",
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "id": "f21d9280b33c",
+      "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-      "published": "2026-09-24T00:46:17+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
+      "published": "2026-09-24T15:00:00+00:00",
       "summary": [
-        "The tiny hardware device creates another mobile home for its AI agent Muse."
+        "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "3f94f55217dd",
-      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+      "id": "d8c947a994b4",
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
-      "published": "2026-09-23T12:10:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+      "published": "2026-09-24T12:10:00+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content creator wearing Meta smart glasses had&#8230;"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has announced plans to introduce legislation to terminate the surveillance tower program along&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "844afa9079db",
+      "title": "Reddit mod ordered to pay Nintendo $4.5 million in Switch piracy lawsuit",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/1000088/nintendo-switch-piracy-reddit-mod-lawsuit",
+      "published": "2026-09-24T15:50:35+00:00",
+      "summary": [
+        "Nintendo won its $4.5 million lawsuit against James Williams, a Reddit moderator accused of distributing pirated Switch games, as reported earlier by Aftermath. In a default judgment issued on Wednesday, a Washington federal judge also ordered Williams to shut down the online stores allegedly housing libraries of pirated Switch games. Nintendo sued Williams, also known [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "35cde0e51661",
-      "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
-      "published": "2026-09-23T23:33:22+00:00",
-      "summary": [
-        "Nothing says Italian craftsmanship like a Chinese robot doing a lasso to \"L'Amour Toujours.\""
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "35f47a5e7599",
-      "title": "剪映，杀入 AI 互动影游",
+      "id": "90f3ce034730",
+      "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/370883",
-      "published": "2026-09-23T07:32:36+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371031",
+      "published": "2026-09-24T14:49:18+00:00",
       "summary": [
-        "&nbsp; 头图来源：剪映 9 月 20 日，剪映在「AI 新创作发布会」上，集中更新了专业版、移动端和创作者生态",
-        "专业版新增一站式创作工作台「剪映 Hub」，由无限画布和多轨编辑器组成",
-        "用户可以从一句话、一个参考视频或者一份文档开始，在画布上整理思路、生成脚本和分镜，调用即梦、小云雀等平台生成图片、视频和声音，再把初剪结果送入时间线继续修改"
+        "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央",
+        "在 GPT-6 Astra 官方发布页的一个不到 3 分钟的视频里与后续解读中，Astra 已经能直接进入 Blender，从一句住宅设计需求开始搭场景，先生成极简住宅，后来又将其扩展为围绕庭院展开的家庭住宅",
+        "里面有卧室、办公室、厨房和卫生间；家具从床板、衣柜挂杆、烤箱、餐具抽屉，再到灯光模拟，一应俱全"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "031b61d98cfd",
-      "title": "上汽 MG4 第 20 万辆整车下线，用时一年多",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "1a41deb59ef7",
+      "title": "R 星官宣 400 美元《GTA6》收藏礼盒：含手办、太阳镜、海报等周边，无游戏本体",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/006/870.htm",
-      "published": "2026-09-24T08:52:34+00:00",
+      "sourceUrl": "https://www.ithome.com/1/007/042.htm",
+      "published": "2026-09-24T15:34:22+00:00",
       "summary": [
-        "IT之家 9 月 24 日消息，上汽 MG 今日宣布，第 20 万辆 MG4 汽车于 9 月 23 日在江苏南京江北新区基地总装车间驶下生产线",
-        "去年 8 月，全新 MG4 整车在江北新区基地开始批量生产，第一个 10 万辆，用时 8 个月；第二个 10 万辆，仅用了 4 个半月，产能近乎翻倍",
-        "参考IT之家先前报道，2026 款 MG4 已于北京车展上市，官方指导价区间 6.88-10.28 万元；限时补贴价区间 6.58-9.98 万元"
+        "IT之家 9 月 24 日消息，Rockstar 今日在官网上架《GTA6：欢乐之州-罪恶都市合集》收藏礼盒，售价 400 美元（IT之家注：现汇率约合 2,689 元人民币）",
+        "该礼盒现已开启预购，限量发售，内含手办、帽子、太阳镜、海报等多种周边，但唯独就是没有《侠盗猎车手 VI》游戏本体",
+        "据官方介绍，该收藏礼盒包含以下物品：鳄鱼麦加手办正在享用烟卷和一杯火烈鸟血红马天尼的麦加手办，附有可以拧开的底座，可用于藏储您的珍藏之物"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "fe603b600b7e",
-      "title": "YouTube releases new AI features for creators within its Studio app",
+      "id": "a4124c4bd845",
+      "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+      "published": "2026-09-24T14:43:25+00:00",
+      "summary": [
+        "Lovable co-founder Fabian Hedin said that apps created on the platform are getting nearly a billion monthly views each month."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "51c4408a9892",
+      "title": "The Xbox reset gets ugly",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/999919/microsoft-xbox-reorganization-activision-notepad",
+      "published": "2026-09-24T16:00:00+00:00",
+      "summary": [
+        "It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different. Microsoft cut 268 jobs across its gaming division this week, shuffled major studios and franchises around, and continued its Xbox \"reset.\" Layoffs have become a way of life for Xbox employees, [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "41455f1cf693",
+      "title": "You might not miss what Nikon removed from its cheaper full-frame Z5 IIC",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1000037/nikon-z5-iic-full-frame-digital-camera-ibis-mechanical-shutter",
+      "published": "2026-09-24T14:53:06+00:00",
+      "summary": [
+        "Nikon waited five years to update its full-frame Z5 camera to the Z5 II, but today it announced a new variant of last year's upgrade that removes features instead of introducing improvements in order to make it more affordable for novice photographers. While the Nikon Z5 II starts at $1,849.95, the new Nikon Z5 IIC [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "11f222e8f74a",
+      "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-      "published": "2026-09-23T14:30:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
+      "published": "2026-09-24T14:00:00+00:00",
       "summary": [
-        "YouTube is adding new features to generate ideas and monitor the performance of thumbnails."
+        "Reason 4 of 5 to attend TechCrunch Disrupt 2026: Practical answers. Two days left to save up to $200 on your pass. Savings disappear after September 25 at 11:59 p.m. PT. Bring a second guest at 50% off."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "45dc6316fa30",
-      "title": "Meta’s next VR device isn’t a headset — it’s glasses",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/999517/meta-vr-glasses-connect-2026-hands-on",
-      "published": "2026-09-23T23:42:10+00:00",
-      "summary": [
-        "Meta is launching new VR hardware: a pair of glasses. The new Meta VR Glasses sit on your ears like a typical pair of glasses instead of being strapped over your head, but they still have immersive displays for watching movies, playing games, and getting work done. Imagine a pair of hefty black sunglasses with [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "94c0dffdcf03",
-      "title": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
-      "published": "2026-09-23T22:30:00+00:00",
-      "summary": [
-        "It's time once again for Meta's annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that today's keynote by Mark Zuckerberg will be about how \"Meta is building a future for everyone\" - something he wrote at length about in a recent [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "ea93c3680af0",
-      "title": "A brief history of Windows scroll bar shortcuts",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "Hacker News",
-      "sourceDomain": "devblogs.microsoft.com",
-      "sourceUrl": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719/",
-      "published": "2026-09-23T18:02:08+00:00",
-      "summary": [
-        "Comments"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3,
+      "score": 5,
       "isNativeCN": false,
       "rank": 10
     }
