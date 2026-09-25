@@ -1,9 +1,28 @@
 {
   "date": "2026-09-25",
-  "generated": "2026-09-25T00:29:48.754864+08:00",
-  "total": 10,
+  "generated": "2026-09-25T11:25:00.509510+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "ec271bbabc2b",
+      "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
+      "published": "2026-09-25T01:25:53+00:00",
+      "summary": [
+        "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central's Zac Bowden reports [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "8264311d3534",
       "title": "Google tests letting Gemini call businesses for you",
@@ -19,26 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "f21d9280b33c",
-      "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026/",
-      "published": "2026-09-24T15:00:00+00:00",
-      "summary": [
-        "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,69 +57,69 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "844afa9079db",
-      "title": "Reddit mod ordered to pay Nintendo $4.5 million in Switch piracy lawsuit",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1000088/nintendo-switch-piracy-reddit-mod-lawsuit",
-      "published": "2026-09-24T15:50:35+00:00",
-      "summary": [
-        "Nintendo won its $4.5 million lawsuit against James Williams, a Reddit moderator accused of distributing pirated Switch games, as reported earlier by Aftermath. In a default judgment issued on Wednesday, a Washington federal judge also ordered Williams to shut down the online stores allegedly housing libraries of pirated Switch games. Nintendo sued Williams, also known [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "90f3ce034730",
-      "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
+      "id": "0ad05e7f21c7",
+      "title": "OPPO 姜昱辰：大模型的差距越来越小，AI 手机的差距才刚拉开",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371031",
-      "published": "2026-09-24T14:49:18+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371035",
+      "published": "2026-09-25T01:50:25+00:00",
       "summary": [
-        "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央",
-        "在 GPT-6 Astra 官方发布页的一个不到 3 分钟的视频里与后续解读中，Astra 已经能直接进入 Blender，从一句住宅设计需求开始搭场景，先生成极简住宅，后来又将其扩展为围绕庭院展开的家庭住宅",
-        "里面有卧室、办公室、厨房和卫生间；家具从床板、衣柜挂杆、烤箱、餐具抽屉，再到灯光模拟，一应俱全"
+        "小布、ColorOS 17 与「AI 硬件」 作者｜张勇毅 编辑｜郑玄 「以意图驱动的手机就是 AI 手机",
+        "用户说一句话，手机就能把事情办了，不需要再打开 APP、反复点击",
+        "」 这是 OPPO ColorOS 智慧产品研发总监姜昱辰，给 AI 手机下的最新定义"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "77e0b1502d39",
+      "title": "三折叠终于不像奇观了，但它还是 19999 元",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/371034",
+      "published": "2026-09-25T01:48:55+00:00",
+      "summary": [
+        "作者｜张勇毅 编辑｜靖宇 华为 Mate XT2 &nbsp;非凡大师，作为一款放在当下仍然算是顶级旗舰的三折叠，我用了几天之后，我最强的感受是：没什么特别强的感受",
+        "但这其实并不是在说 HUAWEI Mate XT 2 非凡大师「平庸」",
+        "恰恰相反：两年前我第一次体验到初代 Mate XT 的时候，围过来的人会想上手摸一摸、想看它怎么折；这一次没有"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "1a41deb59ef7",
-      "title": "R 星官宣 400 美元《GTA6》收藏礼盒：含手办、太阳镜、海报等周边，无游戏本体",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/007/042.htm",
-      "published": "2026-09-24T15:34:22+00:00",
+      "id": "ec8182929aab",
+      "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
+      "published": "2026-09-24T17:07:55+00:00",
       "summary": [
-        "IT之家 9 月 24 日消息，Rockstar 今日在官网上架《GTA6：欢乐之州-罪恶都市合集》收藏礼盒，售价 400 美元（IT之家注：现汇率约合 2,689 元人民币）",
-        "该礼盒现已开启预购，限量发售，内含手办、帽子、太阳镜、海报等多种周边，但唯独就是没有《侠盗猎车手 VI》游戏本体",
-        "据官方介绍，该收藏礼盒包含以下物品：鳄鱼麦加手办正在享用烟卷和一杯火烈鸟血红马天尼的麦加手办，附有可以拧开的底座，可用于藏储您的珍藏之物"
+        "Databricks has bought cloud spreadsheet startup Row Zero, adding yet another acquisition to its 2026 shopping spree."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
+      "score": 4.5,
+      "isNativeCN": false,
       "rank": 6
     },
     {
@@ -137,66 +137,47 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "51c4408a9892",
-      "title": "The Xbox reset gets ugly",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "c8ce86916686",
+      "title": "Meta is going to let you build games with AI right on your phone",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/999919/microsoft-xbox-reorganization-activision-notepad",
-      "published": "2026-09-24T16:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "published": "2026-09-24T17:52:29+00:00",
       "summary": [
-        "It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different. Microsoft cut 268 jobs across its gaming division this week, shuffled major studios and franchises around, and continued its Xbox \"reset.\" Layoffs have become a way of life for Xbox employees, [&#8230;]"
+        "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in [&#8230;]"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "41455f1cf693",
-      "title": "You might not miss what Nikon removed from its cheaper full-frame Z5 IIC",
+      "id": "450bb1526b07",
+      "title": "Muse will apparently let you download its entire filesystem",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1000037/nikon-z5-iic-full-frame-digital-camera-ibis-mechanical-shutter",
-      "published": "2026-09-24T14:53:06+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "published": "2026-09-24T17:14:12+00:00",
       "summary": [
-        "Nikon waited five years to update its full-frame Z5 camera to the Z5 II, but today it announced a new variant of last year's upgrade that removes features instead of introducing improvements in order to make it more affordable for novice photographers. While the Nikon Z5 II starts at $1,849.95, the new Nikon Z5 IIC [&#8230;]"
+        "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "11f222e8f74a",
-      "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
-      "published": "2026-09-24T14:00:00+00:00",
-      "summary": [
-        "Reason 4 of 5 to attend TechCrunch Disrupt 2026: Practical answers. Two days left to save up to $200 on your pass. Savings disappear after September 25 at 11:59 p.m. PT. Bring a second guest at 50% off."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
