@@ -1,47 +1,9 @@
 {
   "date": "2026-09-25",
-  "generated": "2026-09-25T11:25:00.509510+08:00",
+  "generated": "2026-09-25T17:22:19.539286+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "ec271bbabc2b",
-      "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
-      "published": "2026-09-25T01:25:53+00:00",
-      "summary": [
-        "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central's Zac Bowden reports [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "8264311d3534",
-      "title": "Google tests letting Gemini call businesses for you",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-      "published": "2026-09-24T16:00:00+00:00",
-      "summary": [
-        "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "d8c947a994b4",
       "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
@@ -58,6 +20,44 @@
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "ec271bbabc2b",
+      "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
+      "published": "2026-09-25T01:25:53+00:00",
+      "summary": [
+        "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central's Zac Bowden reports [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "8264311d3534",
+      "title": "Google tests letting Gemini call businesses for you",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+      "published": "2026-09-24T16:00:00+00:00",
+      "summary": [
+        "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,7 +78,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 4
     },
@@ -99,9 +99,30 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "4913153c9fd6",
+      "title": "蔚来丝绸之路换电路线明日贯通，最西一站今日上线",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/007/166.htm",
+      "published": "2026-09-25T09:16:36+00:00",
+      "summary": [
+        "IT之家 9 月 25 日消息，蔚来汽车宣布，9 月 25 日，霍尔果斯开元丝路酒店蔚来换电站正式上线，这也是连霍高速西端终点和蔚来丝绸之路换电路线的最西一站",
+        "据介绍，随着该站落成，蔚来丝绸之路换电路线贯通倒计时 1 天",
+        "蔚来丝绸之路换电路线即将全线贯通，全长 3,605 公里，布局 33 座换电站"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "ec8182929aab",
@@ -118,9 +139,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "a4124c4bd845",
@@ -139,7 +160,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "c8ce86916686",
@@ -156,26 +177,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "450bb1526b07",
-      "title": "Muse will apparently let you download its entire filesystem",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-      "published": "2026-09-24T17:14:12+00:00",
-      "summary": [
-        "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 9
     }
