@@ -1,28 +1,9 @@
 {
   "date": "2026-09-26",
-  "generated": "2026-09-26T11:30:29.357656+08:00",
-  "total": 10,
+  "generated": "2026-09-26T17:05:56.569362+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "cd698a3c4ec2",
-      "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
-      "published": "2026-09-25T15:52:13+00:00",
-      "summary": [
-        "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" from law enforcement about an imminent attack."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
     {
       "id": "9550a58b2b1b",
       "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
@@ -38,9 +19,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "4b9cd4f252fe",
@@ -57,24 +38,43 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "cd698a3c4ec2",
+      "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
+      "published": "2026-09-25T15:52:13+00:00",
+      "summary": [
+        "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" from law enforcement about an imminent attack."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "8d30b0405f17",
-      "title": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
+      "id": "fa12ee55a224",
+      "title": "华硕：英伟达 RTX Spark 款 ProArt 创 16 创作本 10 月 8 日登场",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371038",
-      "published": "2026-09-26T00:45:21+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/007/393.htm",
+      "published": "2026-09-26T09:00:37+00:00",
       "summary": [
-        "Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算力 9 月 26 日消息，云计算、网络安全、内容交付企业 Akamai 当地时间 24 日宣布大幅扩展与 Anthropic 的合作关系，两家公司签署了一份为期 7 年、价值 116 亿美元（现汇率约合 779.2 亿元人民币）的合同",
-        "根据协议，Akamai 将以其分布式人工智能基础设施和软件满足 Anthropic 日益增长的 CPU 工作负载需求",
-        "这 116 亿美元承诺对应 Akamai 的 55 亿美元额外总资本支出"
+        "IT之家 9 月 26 日消息，华硕 (ASUS) 近日宣布，其基于 NVIDIA（英伟达）RTX Spark 超级芯片的 ProArt 创 16 (P16) 创作笔记本电脑将于 10 月 8 日登场",
+        "该设备号称“全球首款智能体电脑”，支持本地 AI 智能体流畅响应，让创意工作流无需再依托云端",
+        "IT之家注意到，华硕此前已在 COMPUTEX 2026 上公布了这款型号 H7607 的设备"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -118,7 +118,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 6
     },
@@ -142,25 +142,6 @@
       "rank": 7
     },
     {
-      "id": "0673f7a6cee0",
-      "title": "Gaming’s biggest horror series are more vital than ever",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1000595/silent-hill-townfall-resident-evil",
-      "published": "2026-09-25T14:10:00+00:00",
-      "summary": [
-        "For the third year in a row, I've been scared out of my wits by a new Silent Hill game. First it was the modern remake of Silent Hill 2, then the Japan-set spinoff Silent Hill F. Now I find myself slowly crawling through a quaint Scottish town in Silent Hill: Townfall, trying my best [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
       "id": "0ceaa0617558",
       "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
       "category": "product",
@@ -175,9 +156,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "92d4a2983f37",
@@ -194,9 +175,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     }
   ]
 }
