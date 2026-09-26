@@ -1,9 +1,28 @@
 {
   "date": "2026-09-26",
-  "generated": "2026-09-26T17:05:56.569362+08:00",
-  "total": 9,
+  "generated": "2026-09-26T23:46:07.459972+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "cd698a3c4ec2",
+      "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
+      "published": "2026-09-25T15:52:13+00:00",
+      "summary": [
+        "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" from law enforcement about an imminent attack."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "9550a58b2b1b",
       "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
@@ -19,9 +38,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "4b9cd4f252fe",
@@ -40,41 +59,22 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "cd698a3c4ec2",
-      "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
-      "published": "2026-09-25T15:52:13+00:00",
-      "summary": [
-        "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" from law enforcement about an imminent attack."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "fa12ee55a224",
-      "title": "华硕：英伟达 RTX Spark 款 ProArt 创 16 创作本 10 月 8 日登场",
+      "id": "33c0f42d557f",
+      "title": "Claude 刷新物理学世界纪录：单挑基于杨振宁理论 9 圈难题",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/007/393.htm",
-      "published": "2026-09-26T09:00:37+00:00",
+      "sourceUrl": "https://www.ithome.com/1/007/444.htm",
+      "published": "2026-09-26T15:44:10+00:00",
       "summary": [
-        "IT之家 9 月 26 日消息，华硕 (ASUS) 近日宣布，其基于 NVIDIA（英伟达）RTX Spark 超级芯片的 ProArt 创 16 (P16) 创作笔记本电脑将于 10 月 8 日登场",
-        "该设备号称“全球首款智能体电脑”，支持本地 AI 智能体流畅响应，让创意工作流无需再依托云端",
-        "IT之家注意到，华硕此前已在 COMPUTEX 2026 上公布了这款型号 H7607 的设备"
+        "Anthropic 官宣，Claude 拿下了理论物理的一项前沿纪录",
+        "它在几乎无人类干预的情况下，连续运行数天，一举攻克了高能物理学界出了名难算的「九圈散射振幅」计算难题",
+        "具体来说，它算出了平面 N=4 超杨-米尔斯理论里六粒子振幅的九圈结果，人类此前的纪录停在八圈"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -83,23 +83,21 @@
       "rank": 4
     },
     {
-      "id": "77e0b1502d39",
-      "title": "三折叠终于不像奇观了，但它还是 19999 元",
+      "id": "1db1dcc472c8",
+      "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371034",
-      "published": "2026-09-25T01:48:55+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/09/498478.html",
+      "published": "2026-09-26T11:49:43+00:00",
       "summary": [
-        "作者｜张勇毅 编辑｜靖宇 华为 Mate XT2 &nbsp;非凡大师，作为一款放在当下仍然算是顶级旗舰的三折叠，我用了几天之后，我最强的感受是：没什么特别强的感受",
-        "但这其实并不是在说 HUAWEI Mate XT 2 非凡大师「平庸」",
-        "恰恰相反：两年前我第一次体验到初代 Mate XT 的时候，围过来的人会想上手摸一摸、想看它怎么折；这一次没有"
+        "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
@@ -118,28 +116,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 6
-    },
-    {
-      "id": "1c04fad4c986",
-      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
-      "published": "2026-09-25T14:15:00+00:00",
-      "summary": [
-        "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 7
     },
     {
       "id": "0ceaa0617558",
@@ -158,7 +137,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "92d4a2983f37",
@@ -177,7 +156,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     }
   ]
 }
