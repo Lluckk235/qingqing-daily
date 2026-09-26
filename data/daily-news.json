@@ -1,47 +1,9 @@
 {
   "date": "2026-09-26",
-  "generated": "2026-09-26T00:31:37.780361+08:00",
-  "total": 11,
+  "generated": "2026-09-26T11:30:29.357656+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "a948e5c03d79",
-      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-      "published": "2026-09-25T16:16:52+00:00",
-      "summary": [
-        "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agents's promotion across its own apps and beyond."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "042f70b50965",
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "published": "2026-09-25T15:48:14+00:00",
-      "summary": [
-        "The latest unauthorized agent swarms were discovered by researchers."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "cd698a3c4ec2",
       "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
@@ -57,70 +19,68 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "9550a58b2b1b",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "published": "2026-09-25T22:20:47+00:00",
+      "summary": [
+        "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "4b9cd4f252fe",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+      "published": "2026-09-25T19:13:38+00:00",
+      "summary": [
+        "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "e0251efd9952",
-      "title": "Meadow lets you leave your smartphone at home without sacrificing the essentials",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/25/meadow-lets-you-leave-your-smartphone-at-home-without-sacrificing-the-essentials/",
-      "published": "2026-09-25T14:05:04+00:00",
-      "summary": [
-        "“We’re not Luddites... it’s just we don’t want social media, browsing, and that kind of stuff,\" said 25-year-old founder Shreyas Narlanka."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "0ad05e7f21c7",
-      "title": "OPPO 姜昱辰：大模型的差距越来越小，AI 手机的差距才刚拉开",
+      "id": "8d30b0405f17",
+      "title": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371035",
-      "published": "2026-09-25T01:50:25+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371038",
+      "published": "2026-09-26T00:45:21+00:00",
       "summary": [
-        "小布、ColorOS 17 与「AI 硬件」 作者｜张勇毅 编辑｜郑玄 「以意图驱动的手机就是 AI 手机",
-        "用户说一句话，手机就能把事情办了，不需要再打开 APP、反复点击",
-        "」 这是 OPPO ColorOS 智慧产品研发总监姜昱辰，给 AI 手机下的最新定义"
+        "Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算力 9 月 26 日消息，云计算、网络安全、内容交付企业 Akamai 当地时间 24 日宣布大幅扩展与 Anthropic 的合作关系，两家公司签署了一份为期 7 年、价值 116 亿美元（现汇率约合 779.2 亿元人民币）的合同",
+        "根据协议，Akamai 将以其分布式人工智能基础设施和软件满足 Anthropic 日益增长的 CPU 工作负载需求",
+        "这 116 亿美元承诺对应 Akamai 的 55 亿美元额外总资本支出"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "3f22a18346ff",
-      "title": "首个入驻纽约时代广场的中国影像品牌，影石首家美国旗舰店开业",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/007/251.htm",
-      "published": "2026-09-25T15:23:52+00:00",
-      "summary": [
-        "IT之家 9 月 25 日消息，影石今日宣布，首家美国旗舰店于纽约时代广场正式开业",
-        "据此前官方介绍，这也是首个在纽约时代广场开业的中国影像品牌",
-        "截至目前，影石在全球体验零售店已超 10000 家，品牌旗舰店超 300 家"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "77e0b1502d39",
@@ -139,9 +99,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "e3cc5ff4f95d",
@@ -158,9 +118,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "1c04fad4c986",
@@ -177,7 +137,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "0673f7a6cee0",
+      "title": "Gaming’s biggest horror series are more vital than ever",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1000595/silent-hill-townfall-resident-evil",
+      "published": "2026-09-25T14:10:00+00:00",
+      "summary": [
+        "For the third year in a row, I've been scared out of my wits by a new Silent Hill game. First it was the modern remake of Silent Hill 2, then the Japan-set spinoff Silent Hill F. Now I find myself slowly crawling through a quaint Scottish town in Silent Hill: Townfall, trying my best [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "0ceaa0617558",
+      "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
+      "published": "2026-09-25T17:23:30+00:00",
+      "summary": [
+        "One of the questionable limitations of the iPhone 18 Pro's new main camera with a variable aperture is that you're limited to just four settings in the native iOS' camera app in manual mode: f/1.48, f/1.8, f/2.8, and f/4. Those same limitations are also in place when the app is adjusting the iris itself in [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     },
@@ -196,28 +194,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 10
-    },
-    {
-      "id": "abe9d485ffa0",
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "published": "2026-09-25T13:00:00+00:00",
-      "summary": [
-        "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"Just [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 11
     }
   ]
 }
