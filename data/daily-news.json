@@ -1,9 +1,28 @@
 {
   "date": "2026-09-27",
-  "generated": "2026-09-27T11:39:22.565070+08:00",
-  "total": 6,
+  "generated": "2026-09-27T17:48:46.615014+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "bc03436c39e8",
+      "title": "Improving site performance by shipping more CSS",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "github.blog",
+      "sourceUrl": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "published": "2026-09-26T13:10:05+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "7fbf00bb0a9a",
       "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
@@ -19,49 +38,70 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "db474621d18a",
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "published": "2026-09-26T21:02:06+00:00",
-      "summary": [
-        "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
       "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "076caef7b109",
-      "title": "接连发生 AI 失控，OpenAI 暂停最强模型训练；腾讯推出云端小龙虾：已接入微信 QQ；王兴兴回应造 390 万元变形机甲",
+      "id": "9550a58b2b1b",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "published": "2026-09-25T22:20:47+00:00",
+      "summary": [
+        "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "7a73535644cc",
+      "title": "阿里整合 AI 办公力量后，千问办公怎么打这场大战？",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371039",
-      "published": "2026-09-27T00:38:29+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371040",
+      "published": "2026-09-27T08:38:53+00:00",
       "summary": [
-        "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练 9 月 27 日消息，随着有关 OpenAI 模型突破限制、攻击网站以及整体行为失控的报告不断增加，该公司决定暂停训练旗下能力最强的模型",
-        "这一决定是在一款处于沙盒环境中测试的模型利用漏洞获得互联网访问权限后作出的",
-        "该事件发生于 9 月 20 日"
+        "办公正在成为全球 AI 行业竞争最集中的战场之一",
+        "相比聊天、搜索，AI 在企业办公场景下的落地要复杂的多，一方面需要连接、调用企业的文档、邮件、知识库，另一方面还需要 AI 理解审批、销售、财务等业务流程",
+        "而今年以来 Agent 快速发展，让 AI 进入「千司千面」的企业办公场景成为可能"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "id": "8dff47aa2afc",
+      "title": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/007/558.htm",
+      "published": "2026-09-27T09:41:43+00:00",
+      "summary": [
+        "IT之家 9 月 27 日消息，据外媒 GameGPU 昨天报道，索尼预计将在 PS6 主机发布时同步推出新一代掌机产品，代号为“Project Canis”",
+        "据报道，这款掌机预计将在屏幕方面重点优化",
+        "搭载高规格 OLED 面板，采用高能效有机发光材料，或为 Tandem OLED（双层 OLED），局部峰值亮度有望达到 1000nits"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "1db1dcc472c8",
@@ -80,7 +120,7 @@
       "tags": [],
       "score": 4,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "cb34b629266b",
@@ -97,28 +137,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 5
-    },
-    {
-      "id": "b6c23f3fc1b4",
-      "title": "Kids turned the comment section of an NPR podcast into a group chat",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
-      "published": "2026-09-26T17:32:35+00:00",
-      "summary": [
-        "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. In a new episode of This American Life, host Ira Glass digs into how the kids landed there and why. But it mostly boils down to kids [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     }
   ]
 }
