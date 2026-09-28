@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generated": "2026-09-28T00:23:29.273460+08:00",
+  "generated": "2026-09-28T11:37:47.200949+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
@@ -19,108 +19,87 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "94a11600420c",
-      "title": "TechCrunch Mobility: AV companies pick their lanes",
+      "id": "113b2d34672f",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/27/techcrunch-mobility-av-companies-pick-their-lanes/",
-      "published": "2026-09-27T16:02:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "published": "2026-09-27T17:21:07+00:00",
       "summary": [
-        "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "7fbf00bb0a9a",
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "published": "2026-09-27T01:30:00+00:00",
-      "summary": [
-        "The limited test covers select products and users, with a broader rollout planned for later in October."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "7a73535644cc",
-      "title": "阿里整合 AI 办公力量后，千问办公怎么打这场大战？",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371040",
-      "published": "2026-09-27T08:38:53+00:00",
-      "summary": [
-        "办公正在成为全球 AI 行业竞争最集中的战场之一",
-        "相比聊天、搜索，AI 在企业办公场景下的落地要复杂的多，一方面需要连接、调用企业的文档、邮件、知识库，另一方面还需要 AI 理解审批、销售、财务等业务流程",
-        "而今年以来 Agent 快速发展，让 AI 进入「千司千面」的企业办公场景成为可能"
+        "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "ee2957dde3ef",
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "published": "2026-09-27T19:57:30+00:00",
+      "summary": [
+        "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "27d5c0057b7e",
+      "title": "派早报：OpenAI 称与苹果合作效果不佳",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115079",
+      "published": "2026-09-27T23:03:45+00:00",
+      "summary": [
+        "OpenAI 称与苹果合作效果不佳iPhone 4「天线门」媒体问答录像时隔十六年现身F-Droid 2.0 发布三星冰箱固件升级后罢工，影响韩国用户过中秋Excel 单元格将支持数组微软不再使用 Copilot+ PC 品牌看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "f4d994e6e277",
-      "title": "iQOO Pad Ultra 平板官宣搭载 9020mAh 蓝海电池，8.8 英寸机身轻至 298g",
+      "id": "dcb9cd2defc0",
+      "title": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/007/612.htm",
-      "published": "2026-09-27T15:47:01+00:00",
+      "sourceUrl": "https://www.ithome.com/1/007/727.htm",
+      "published": "2026-09-28T03:26:12+00:00",
       "summary": [
-        "IT之家 9 月 27 日消息，iQOO Pad Ultra 平板 9 月 27 日官宣搭载 9020mAh 蓝海大电池，8.8 英寸机身轻至 298g，机身厚度仅 5.74mm",
-        "IT之家注意到，iQOO Pad Ultra 小平板已官宣将于 9 月 29 日 19:00 发布，新机提供星铠银 / 末影黑双色、内置风扇，采用全金属机身，将首批搭载高通第六代骁龙 8 超级至尊版处理器，配备对称式超线性双扬声器、双 X 轴线性马达",
-        "iQOO Pad Ultra 搭载 8.8 英寸 165Hz OLED 极竞屏，四等边 2.65mm 边框"
+        "IT之家 9 月 28 日消息，经历“被质疑偷传代码”风波后，智谱 ZCode 官宣开源，并在今日发布公告，宣布仓库快照上传链路已移除、涉事云端数据已删除",
+        "智谱官方表示，后续将做到“你不发起，不上云”，开源版本已更新至 3.14.3 最新版",
+        "智谱还赠送给用户 4 张周重置卡 + 4 张 5 小时重置卡（1 个月内有效）；在 9 月 28 日至 10 月 7 日期间，面向全体用户赠送共 10 万份 1 亿 Token 额度"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "3c876007f198",
-      "title": "Googlebooks might be the real deal",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
-      "published": "2026-09-27T12:00:00+00:00",
-      "summary": [
-        "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and also you can read all the old editions at the Installer homepage.) This week, I flew to San Francisco to try out [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 6
     },
     {
       "id": "cb34b629266b",
@@ -137,7 +116,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "b6c23f3fc1b4",
+      "title": "Kids turned the comment section of an NPR podcast into a group chat",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
+      "published": "2026-09-26T17:32:35+00:00",
+      "summary": [
+        "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. In a new episode of This American Life, host Ira Glass digs into how the kids landed there and why. But it mostly boils down to kids [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     }
