@@ -1,40 +1,40 @@
 {
-  "date": "2026-09-28",
-  "generated": "2026-09-28T18:33:09.694922+08:00",
-  "total": 7,
+  "date": "2026-09-29",
+  "generated": "2026-09-29T03:14:13.650262+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "ff5f8a56a911",
-      "title": "The smart home graveyard is getting crowded",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard",
-      "published": "2026-09-27T12:00:00+00:00",
-      "summary": [
-        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the fragile state of your connected devices, follow Jennifer Pattison Tuohy. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started A decade ago, a [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "9df3eed3c7ef",
-      "title": "Who’s liable when AI agents go rogue?",
+      "id": "f073d5eb416e",
+      "title": "When can we say AI made a scientific discovery?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "published": "2026-09-28T08:06:22+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "published": "2026-09-28T17:03:16+00:00",
       "summary": [
-        "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;"
+        "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "d578c7a80779",
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "published": "2026-09-28T18:31:23+00:00",
+      "summary": [
+        "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,101 +43,185 @@
       "rank": 2
     },
     {
-      "id": "113b2d34672f",
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "11285ad77d9e",
+      "title": "Dreame’s step-climbing X50 Ultra mopping vacuum is hundreds off",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "published": "2026-09-27T17:21:07+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale",
+      "published": "2026-09-28T14:55:12+00:00",
       "summary": [
-        "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI [&#8230;]"
+        "It’s been a while since we’ve seen a big price cut on a capable robot vacuum and mop hybrid that can scale over short steps and threshold to hunt messes. Dreame’s X50 Ultra is the model that my colleague Jen recommends for hard floors and carpets, and it’s down to $899.99 at Amazon for Prime [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "43b7c20b7aca",
-      "title": "AI 手机只是起点，高通要为智能体铺一条全栈技术路线",
+      "id": "781d932a6c89",
+      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+      "published": "2026-09-28T16:44:57+00:00",
+      "summary": [
+        "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather than dynamically change prices. [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "77e801a0550a",
+      "title": "工业外骨骼，人类进化新方向",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371113",
-      "published": "2026-09-28T09:15:42+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371390",
+      "published": "2026-09-28T18:25:13+00:00",
       "summary": [
-        "「这次骁龙峰会最令人兴奋的地方在于，我认为我们终于步入了一个可以清晰看见 AI 智能手机形态的阶段」高通公司总裁兼 CEO 安蒙在峰会第一天说道",
-        "炎热的美国茂宜岛，早上不到 8 点，会场里已经聚集了来自全球的媒体、开发者、合作伙伴和产业人士",
-        "让大家等待的并不只是又一代手机芯片，而是在寻找一个更大的答案&mdash;&mdash;随着 AI 从手机里的一项功能，演进为能够跨终端理解意图、保存情境并代表用户采取行动的智能体，CPU、GPU、NPU、内存和连接将如何被重新组织，手机、PC、耳机、眼镜等终端之间的关系将如何改变"
+        "本文首发于 Founder Park 公众号 · 2022 年 8 月 9 日6 月 2 日，人类史上第一位赛博格——彼得·斯科特-摩根去世，享年 64 岁",
+        "在 1984 年出版的《机器人革命》中，彼得就曾预言有一天人类会走向「强化人」的道路",
+        "只是目前看来，赛博格（结合了有机体与电子机器的生物）看起来还有些遥远"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
     },
     {
-      "id": "68e35640e8ef",
-      "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+      "id": "25f157f28005",
+      "title": "中安网星 李佳峰：Web3 时代，图计算如何保护你的网络身份安全？| Founder 100",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/371387",
+      "published": "2026-09-28T18:20:48+00:00",
+      "summary": [
+        "本文首发于 Founder Park 公众号 · 2022 年 8 月 1 日今天的互联网，有变得更安全吗",
+        "相对于互联网早期的网络攻击频发，如今针对个人用户的网络攻击似乎在变少，熊猫烧香都已经成为了历史，「安全」似乎得到了一定保障",
+        "但是，随着数字化、信息化的发展，线上虚拟生活逐渐取代线下生活，个人的信息数据越来越重要的当下，针对大型公司的网络攻击却变得越来越多，今年 3 月份，美国征信巨头 TransUnion 的南非子公司遭巴西黑客团伙袭击，5400 万消费者征信数据泄露，绝大多数为南非公民，而南非总人口约 6060 万人"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "9400ffea619c",
+      "title": "当不确定性成为新常态，企业如何应对变化？ | Startup Recipes",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/371385",
+      "published": "2026-09-28T18:17:48+00:00",
+      "summary": [
+        "本文首发于 Founder Park 公众号 · 2022 年 7 月 25 日编译来源：How to Cultivate Resilience:A Four Part Framework作者：Jason Shen过去几年对于创始人来说，充满了各种挑战：供应链问题、通货膨胀、裁员以及影响最大的疫情，整体环境让很多人泄气，感到精疲力尽",
+        "在这样的环境下，适应力比以往任何时候都来得更加重要",
+        "本文作者 Jason Shen, 连续创业者，曾经创办过三家公司，第三家公司被 Facebook（现在的 Meta）收购，如今在 Meta 负责公共社群产品"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "84d7f251d372",
+      "title": "苹果 iPadOS 26.7.1 正式版发布",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
-      "published": "2026-09-28T08:00:36+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/008/069.htm",
+      "published": "2026-09-28T17:58:09+00:00",
       "summary": [
-        "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The initial impact is twofold. The new camera [&#8230;]"
+        "IT之家 9 月 29 日消息，苹果今日向 iPad 用户推送了 iPadOS 26.7.1 更新，本次更新距离上次发布正式版间隔 19 天",
+        "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久",
+        "本文由机器人发布，IT之家稍后将为大家带来具体更新内容"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
-      "isNativeCN": false,
-      "rank": 5
+      "isNativeCN": true,
+      "rank": 8
     },
     {
-      "id": "4f0b338548c6",
-      "title": "SpaceX's Starship launching to orbit for first time ever today",
+      "id": "79d5a56a3f33",
+      "title": "在硅谷最大独角兽 Stripe，我学到了哪些管理经验？",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "Hacker News",
-      "sourceDomain": "space.com",
-      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
-      "published": "2026-09-28T09:15:04+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/371376",
+      "published": "2026-09-28T18:03:07+00:00",
       "summary": [
-        "Comments"
+        "本文首发于 Founder Park 公众号 · 2022 年 6 月 22 日编译来源：Operating Well: What I Learned at Stripe作者：Sam GerstenzangSam Gerstenzang 此前曾在 a16z 和 imgur 工作，目前在 Stripe 工作，负责管理 75 人的支付 UI 团队，山姆的经验涵盖了从投资、在创业公司工作、以及创业和出售自己的公司等方方面面",
+        "在这篇文章中，他分享了在 Stripe 工作时学到的如何成为一个好的管理者的经验",
+        "Stripe：聚合支付平台，主要业务为将不同的支付方式打包成一套 SDK 接口，通过整体接入，降低用户的接入成本，以收取手续费或者服务盈利"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 6
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 9
     },
     {
-      "id": "3c876007f198",
-      "title": "Googlebooks might be the real deal",
+      "id": "4c0a92efb1cc",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "published": "2026-09-28T13:38:48+00:00",
+      "summary": [
+        "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 10
+    },
+    {
+      "id": "342eef48a635",
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
-      "published": "2026-09-27T12:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "published": "2026-09-28T18:00:00+00:00",
       "summary": [
-        "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and also you can read all the old editions at the Installer homepage.) This week, I flew to San Francisco to try out [&#8230;]"
+        "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 11
     }
   ]
 }
