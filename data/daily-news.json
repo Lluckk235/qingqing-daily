@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "generated": "2026-09-28T11:37:47.200949+08:00",
+  "generated": "2026-09-28T18:33:09.694922+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
@@ -24,6 +24,25 @@
       "rank": 1
     },
     {
+      "id": "9df3eed3c7ef",
+      "title": "Who’s liable when AI agents go rogue?",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "published": "2026-09-28T08:06:22+00:00",
+      "summary": [
+        "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
       "id": "113b2d34672f",
       "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
       "category": "ai-tech",
@@ -38,41 +57,24 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "ee2957dde3ef",
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "published": "2026-09-27T19:57:30+00:00",
-      "summary": [
-        "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "27d5c0057b7e",
-      "title": "派早报：OpenAI 称与苹果合作效果不佳",
+      "id": "43b7c20b7aca",
+      "title": "AI 手机只是起点，高通要为智能体铺一条全栈技术路线",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115079",
-      "published": "2026-09-27T23:03:45+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/371113",
+      "published": "2026-09-28T09:15:42+00:00",
       "summary": [
-        "OpenAI 称与苹果合作效果不佳iPhone 4「天线门」媒体问答录像时隔十六年现身F-Droid 2.0 发布三星冰箱固件升级后罢工，影响韩国用户过中秋Excel 单元格将支持数组微软不再使用 Copilot+ PC 品牌看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
+        "「这次骁龙峰会最令人兴奋的地方在于，我认为我们终于步入了一个可以清晰看见 AI 智能手机形态的阶段」高通公司总裁兼 CEO 安蒙在峰会第一天说道",
+        "炎热的美国茂宜岛，早上不到 8 点，会场里已经聚集了来自全球的媒体、开发者、合作伙伴和产业人士",
+        "让大家等待的并不只是又一代手机芯片，而是在寻找一个更大的答案&mdash;&mdash;随着 AI 从手机里的一项功能，演进为能够跨终端理解意图、保存情境并代表用户采取行动的智能体，CPU、GPU、NPU、内存和连接将如何被重新组织，手机、PC、耳机、眼镜等终端之间的关系将如何改变"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -81,61 +83,59 @@
       "rank": 4
     },
     {
-      "id": "dcb9cd2defc0",
-      "title": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
+      "id": "68e35640e8ef",
+      "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/007/727.htm",
-      "published": "2026-09-28T03:26:12+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+      "published": "2026-09-28T08:00:36+00:00",
       "summary": [
-        "IT之家 9 月 28 日消息，经历“被质疑偷传代码”风波后，智谱 ZCode 官宣开源，并在今日发布公告，宣布仓库快照上传链路已移除、涉事云端数据已删除",
-        "智谱官方表示，后续将做到“你不发起，不上云”，开源版本已更新至 3.14.3 最新版",
-        "智谱还赠送给用户 4 张周重置卡 + 4 张 5 小时重置卡（1 个月内有效）；在 9 月 28 日至 10 月 7 日期间，面向全体用户赠送共 10 万份 1 亿 Token 额度"
+        "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The initial impact is twofold. The new camera [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 5
     },
     {
-      "id": "cb34b629266b",
-      "title": "Apple hit with $5.7 billion in damages over haptic patents",
+      "id": "4f0b338548c6",
+      "title": "SpaceX's Starship launching to orbit for first time ever today",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
-      "published": "2026-09-26T21:30:01+00:00",
+      "source": "Hacker News",
+      "sourceDomain": "space.com",
+      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "published": "2026-09-28T09:15:04+00:00",
       "summary": [
-        "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC, \"The lawsuit centered around U.S. Patent Nos. 10,659,885 and 10,820,117, which both involve vibration-based, tactile transducer technology that helps users feel a [&#8230;]"
+        "Comments"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "b6c23f3fc1b4",
-      "title": "Kids turned the comment section of an NPR podcast into a group chat",
+      "id": "3c876007f198",
+      "title": "Googlebooks might be the real deal",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
-      "published": "2026-09-26T17:32:35+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
+      "published": "2026-09-27T12:00:00+00:00",
       "summary": [
-        "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. In a new episode of This American Life, host Ira Glass digs into how the kids landed there and why. But it mostly boils down to kids [&#8230;]"
+        "Hi, friends! Welcome to Installer No. 145, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, I'm happy to be done traveling for a bit, and also you can read all the old editions at the Installer homepage.) This week, I flew to San Francisco to try out [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 7
     }
