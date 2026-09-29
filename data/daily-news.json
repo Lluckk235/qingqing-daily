@@ -1,80 +1,80 @@
 {
   "date": "2026-09-29",
-  "generated": "2026-09-29T12:13:05.084904+08:00",
+  "generated": "2026-09-29T22:36:35.366981+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "781d932a6c89",
-      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
-      "published": "2026-09-28T16:44:57+00:00",
-      "summary": [
-        "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather than dynamically change prices. [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "f073d5eb416e",
-      "title": "When can we say AI made a scientific discovery?",
+      "id": "2665823bec02",
+      "title": "Making AI an asset, not an expense",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-      "published": "2026-09-28T17:03:16+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "published": "2026-09-29T10:43:45+00:00",
       "summary": [
-        "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;"
+        "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
-      "id": "99c674f70f3c",
-      "title": "Shopify opens checkout to browser-based AI agents",
+      "id": "cefc4301c056",
+      "title": "Meta is expanding its AI agent Muse to small businesses",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-      "published": "2026-09-28T19:33:57+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+      "published": "2026-09-29T13:47:30+00:00",
       "summary": [
-        "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization."
+        "The tech giant says the agent can help owners run their business and find new customers."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "b77e9af7e42f",
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "published": "2026-09-29T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "9da44edee117",
-      "title": "对话斯坦福爆款论文作者：创造可信Agents、突破上下文限制、个体智能和集体智能",
+      "id": "62b931f5dadd",
+      "title": "AMD 82 亿美元收购 World Labs，买的不只是世界模型",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371474",
-      "published": "2026-09-29T02:59:13+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372000",
+      "published": "2026-09-29T11:21:44+00:00",
       "summary": [
-        "本文首发于 Founder Park 公众号 · 2023 年 4 月 19 日25 个智能体（agents），在一个貌似早期宝可梦游戏的虚拟小镇，自行制定计划、执行行动、反思行为",
-        "上周，题为《生成式代理：人类行为的交互模拟体》（Generative Agents: Interactive Simulacra of Human Behavior）的论文火遍全网",
-        "游戏从业者们看到了梦寐以求的开放世界中智能 NPC 的可行性，而人工智能的研究者们，则意识到一个多年悬而未决的问题，因为大语言模型的出现，初见解决的可能性"
+        "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face",
+        "25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs",
+        "两笔交易放在一起看，更觉得有意思"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -83,122 +83,120 @@
       "rank": 4
     },
     {
-      "id": "73a736e4729d",
-      "title": "拥抱东南亚市场前的「思想准备」，都在这 3 个问题和 8 个回答中",
+      "id": "21de737bc264",
+      "title": "蔚来换电，终于等来了「别人家的车」",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371460",
-      "published": "2026-09-29T02:42:00+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/371233",
+      "published": "2026-09-28T12:40:54+00:00",
       "summary": [
-        "本文首发于 Founder Park 公众号 · 2023 年 3 月 20 日东南亚是一个充满活力的市场区域，但不是每个人都适合，更不是所有人都能赢",
-        "为了帮助更多创业者在全球化的过程中，少走弯路，快速布局全球市场，Founder Park 发起并建立「Global Ready」社区",
-        "「Global Ready」社区联结已经全球化的优秀创业者、投资人以及行业专家，通过分享、交流讨论、沉浸式实地考察等方式，帮助准备出海创业者拿到「更小颗粒度」的世界地图，丰富对海外市场的了解和认知，打开全球化视野"
+        "过去一年，蔚来似乎有意在新车发布时不再过分强调「换电」的重要性",
+        "以笔者自己的体感而言，无论是新车发布会，还是线下门店里用户的讨论度，换电都不再是「最重要的那一个话题点」",
+        "但换电退到了幕后，却没有影响蔚来的新车销量：第三代 ES8 上市 12 个月销量突破 15 万台，ES9 上市 4 个月累计交付突破 3 万台"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "b2339fa2f6a4",
-      "title": "比亚迪王朝网第 1000 万辆汽车下线，车型为大汉",
+      "id": "b545838664cf",
+      "title": "吉利登陆葡萄牙市场，三款车型同步亮相",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/008/227.htm",
-      "published": "2026-09-29T04:03:18+00:00",
+      "sourceUrl": "https://www.ithome.com/1/008/503.htm",
+      "published": "2026-09-29T14:35:36+00:00",
       "summary": [
-        "IT之家 9 月 29 日消息，比亚迪王朝网销售事业部总经理路天今日在微博发文称，比亚迪王朝第 1000 万辆汽车下线，下线车型是即将上市的 D 级旗舰轿车 —— 大汉",
-        "这是王朝网发展历程中的重要里程碑时刻",
-        "从时间线来看，王朝网的销量规模增长显著：2026 年 1 月时王朝累销约 886 万辆，到 9 月即突破 1000 万辆"
+        "IT之家 9 月 29 日消息，吉利汽车上周（9 月 24 日）宣布，吉利汽车品牌暨产品上市发布会在葡萄牙波尔图成功举办，标志着 Geely Auto 品牌正式登陆葡萄牙市场",
+        "IT之家从 Geely International 公众号获悉，吉利本次登陆葡萄牙市场的车型有 Geely E2、Geely E5 及 STARRAY EM-i 三款，覆盖纯电动与插电混动两大核心新能源赛道",
+        "满足城市通勤、全场景家庭出行等场景，回应葡萄牙消费者对低碳绿色生活的期待"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "c65e94cd4f56",
-      "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115134",
-      "published": "2026-09-29T00:09:05+00:00",
-      "summary": [
-        "少数派的近期动态给电话加上「辅助驾驶」",
-        "我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡",
-        "参与调研泡泡骚LowPro碳纹黑少数派独家款上架，把握持与支撑收进2.6m ...查看全文"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "b30ea06fa8e9",
-      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "id": "6de0f8f324b7",
+      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-      "published": "2026-09-28T21:29:18+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "published": "2026-09-29T11:48:27+00:00",
       "summary": [
-        "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago."
+        "As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a $2 trillion valuation, more than [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "063f37c671a1",
+      "title": "Still running iOS 26? Update your iPhones, iPads and Macs for this urgent security fix",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/still-running-ios-26-update-your-iphones-ipads-and-macs-for-this-urgent-security-fix/",
+      "published": "2026-09-29T13:25:21+00:00",
+      "summary": [
+        "Apple says the bug was used to attack \"specific targeted individuals\" running iOS 26, which the majority of Apple customers are still using."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "efa98b45caf3",
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "id": "429d54d40555",
+      "title": "Fireflies adds dictation to its desktop notetaking apps",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-      "published": "2026-09-28T21:31:35+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/fireflies-adds-dictation-to-its-desktop-notetaking-apps/",
+      "published": "2026-09-29T13:00:00+00:00",
       "summary": [
-        "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]"
+        "Fireflies said that it won't charge extra for the new dictation feature, which can be used with any desktop app."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "d6c6baf96b44",
-      "title": "Bose starts adding Auracast to its headphones",
+      "id": "ead089fc3a6e",
+      "title": "Firefox just got a redesign with round tabs, new themes, and Compact Mode",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
-      "published": "2026-09-28T19:31:24+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
+      "published": "2026-09-29T13:00:00+00:00",
       "summary": [
-        "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon. Only a few major manufacturers include [&#8230;]"
+        "Firefox will look a little different the next time you launch it - more bubbly, with some new pops of color. The browser's latest update brings a design overhaul to all desktop and mobile users, aimed at modernizing Firefox with bubble-like tabs, a rounded address bar, and refreshed colors, icons, and themes. The desktop and [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     }
