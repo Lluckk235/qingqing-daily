@@ -1,9 +1,47 @@
 {
   "date": "2026-09-30",
-  "generated": "2026-09-30T11:58:04.953924+08:00",
+  "generated": "2026-09-30T18:22:36.753390+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "a3f4cfd23309",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "published": "2026-09-30T00:19:13+00:00",
+      "summary": [
+        "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "2665823bec02",
+      "title": "Making AI an asset, not an expense",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "published": "2026-09-29T10:43:45+00:00",
+      "summary": [
+        "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "b77e9af7e42f",
       "title": "The Download: climate tech companies to watch and AI’s discovery problem",
@@ -21,7 +59,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "a5c0ad1eacb7",
@@ -38,100 +76,41 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "c91d4895c865",
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "published": "2026-09-29T22:20:59+00:00",
-      "summary": [
-        "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "a3f4cfd23309",
-      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
-      "published": "2026-09-30T00:19:13+00:00",
-      "summary": [
-        "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "06732dae2acf",
-      "title": "温馨棕色调：Keychron 带来 K8 HE 磁轴键盘全木特别版，199.99 美元",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/008/686.htm",
-      "published": "2026-09-30T03:51:07+00:00",
-      "summary": [
-        "IT之家 9 月 30 日消息，Keychron（渴创）今日公布了 K8 HE 三模磁轴键盘的全木特别版",
-        "这一 199.99 美元（IT之家注：现汇率约合 1,344 元人民币）型号拥有全木机身，搭配棕色铝制装饰和深棕色键帽，营造出自然温馨的氛围",
-        "K8 HE 全木特别版采用 80% (TKL) 配列，拥有铝合金定位板和 3 层阻尼填充；搭载佳达隆双轨磁轴（先行手感，40~60gf 压力），配套 PCB 卫星轴（螺丝式 PCB 稳定器）；原装 OSA 高度 PBT 材质双色注塑工艺键帽"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "60bd96b028db",
-      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
+      "id": "23e7d97a9471",
+      "title": "中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372005",
-      "published": "2026-09-30T00:25:27+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/008/864.htm",
+      "published": "2026-09-30T10:19:18+00:00",
       "summary": [
-        "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口 北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场",
-        "大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容",
-        "会员体系重新划分档位：原有 200 美元 / 月的 Pro 200 售价不变，但新订阅用户额度减半；新增 500 美元 / 月的 Pro 500 套餐，额度为 Plus 的 25 倍，独家开放 Astra Ultrafast 高速模式"
+        "IT之家 9 月 30 日消息，美国 AI 基础设施公司 Baseten 今天宣布与 OpenAI 达成合作，成为 OpenAI B2B 市场首批开源模型推理服务提供商之一",
+        "企业用户可通过 Codex 使用 Kimi K3 和 GLM 5.3 等开源模型，意味着中国开源模型首次进入 OpenAI 企业采购体系",
+        "IT之家了解到，Kimi K3 是月之暗面开发的大模型"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "a722f22711be",
-      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
+      "title": "Apple Pay finally launches in India after years on the sidelines",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
       "sourceUrl": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
-      "published": "2026-09-29T18:45:00+00:00",
+      "published": "2026-09-30T04:08:00+00:00",
       "summary": [
         "Some of India's largest banks are holding off on supporting Apple Pay initially."
       ],
@@ -139,7 +118,7 @@
       "tags": [],
       "score": 6.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "c8e384106c05",
@@ -156,9 +135,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "267c040ff0ad",
@@ -175,7 +154,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "295a238bc524",
+      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "postalemployeenetwork.com",
+      "sourceUrl": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+      "published": "2026-09-29T19:30:17+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3,
       "isNativeCN": false,
       "rank": 9
     }
