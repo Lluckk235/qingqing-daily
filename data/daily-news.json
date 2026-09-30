@@ -1,47 +1,9 @@
 {
-  "date": "2026-09-29",
-  "generated": "2026-09-29T22:36:35.366981+08:00",
-  "total": 10,
+  "date": "2026-09-30",
+  "generated": "2026-09-30T11:58:04.953924+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "2665823bec02",
-      "title": "Making AI an asset, not an expense",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "published": "2026-09-29T10:43:45+00:00",
-      "summary": [
-        "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "cefc4301c056",
-      "title": "Meta is expanding its AI agent Muse to small businesses",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
-      "published": "2026-09-29T13:47:30+00:00",
-      "summary": [
-        "The tech giant says the agent can help owners run their business and find new customers."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "b77e9af7e42f",
       "title": "The Download: climate tech companies to watch and AI’s discovery problem",
@@ -57,148 +19,165 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "a5c0ad1eacb7",
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "Hacker News",
+      "sourceDomain": "github.com",
+      "sourceUrl": "https://github.com/ninjahawk/livenerf",
+      "published": "2026-09-29T22:36:14+00:00",
+      "summary": [
+        "Comments"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "c91d4895c865",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "published": "2026-09-29T22:20:59+00:00",
+      "summary": [
+        "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "62b931f5dadd",
-      "title": "AMD 82 亿美元收购 World Labs，买的不只是世界模型",
+      "id": "a3f4cfd23309",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "published": "2026-09-30T00:19:13+00:00",
+      "summary": [
+        "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "06732dae2acf",
+      "title": "温馨棕色调：Keychron 带来 K8 HE 磁轴键盘全木特别版，199.99 美元",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/008/686.htm",
+      "published": "2026-09-30T03:51:07+00:00",
+      "summary": [
+        "IT之家 9 月 30 日消息，Keychron（渴创）今日公布了 K8 HE 三模磁轴键盘的全木特别版",
+        "这一 199.99 美元（IT之家注：现汇率约合 1,344 元人民币）型号拥有全木机身，搭配棕色铝制装饰和深棕色键帽，营造出自然温馨的氛围",
+        "K8 HE 全木特别版采用 80% (TKL) 配列，拥有铝合金定位板和 3 层阻尼填充；搭载佳达隆双轨磁轴（先行手感，40~60gf 压力），配套 PCB 卫星轴（螺丝式 PCB 稳定器）；原装 OSA 高度 PBT 材质双色注塑工艺键帽"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "60bd96b028db",
+      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372000",
-      "published": "2026-09-29T11:21:44+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372005",
+      "published": "2026-09-30T00:25:27+00:00",
       "summary": [
-        "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face",
-        "25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs",
-        "两笔交易放在一起看，更觉得有意思"
+        "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口 北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场",
+        "大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容",
+        "会员体系重新划分档位：原有 200 美元 / 月的 Pro 200 售价不变，但新订阅用户额度减半；新增 500 美元 / 月的 Pro 500 套餐，额度为 Plus 的 25 倍，独家开放 Astra Ultrafast 高速模式"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "21de737bc264",
-      "title": "蔚来换电，终于等来了「别人家的车」",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/371233",
-      "published": "2026-09-28T12:40:54+00:00",
-      "summary": [
-        "过去一年，蔚来似乎有意在新车发布时不再过分强调「换电」的重要性",
-        "以笔者自己的体感而言，无论是新车发布会，还是线下门店里用户的讨论度，换电都不再是「最重要的那一个话题点」",
-        "但换电退到了幕后，却没有影响蔚来的新车销量：第三代 ES8 上市 12 个月销量突破 15 万台，ES9 上市 4 个月累计交付突破 3 万台"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "b545838664cf",
-      "title": "吉利登陆葡萄牙市场，三款车型同步亮相",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/008/503.htm",
-      "published": "2026-09-29T14:35:36+00:00",
-      "summary": [
-        "IT之家 9 月 29 日消息，吉利汽车上周（9 月 24 日）宣布，吉利汽车品牌暨产品上市发布会在葡萄牙波尔图成功举办，标志着 Geely Auto 品牌正式登陆葡萄牙市场",
-        "IT之家从 Geely International 公众号获悉，吉利本次登陆葡萄牙市场的车型有 Geely E2、Geely E5 及 STARRAY EM-i 三款，覆盖纯电动与插电混动两大核心新能源赛道",
-        "满足城市通勤、全场景家庭出行等场景，回应葡萄牙消费者对低碳绿色生活的期待"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "6de0f8f324b7",
-      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-      "published": "2026-09-29T11:48:27+00:00",
+      "id": "a722f22711be",
+      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+      "published": "2026-09-29T18:45:00+00:00",
       "summary": [
-        "As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as Anthropic eyes a $2 trillion valuation, more than [&#8230;]"
+        "Some of India's largest banks are holding off on supporting Apple Pay initially."
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "063f37c671a1",
-      "title": "Still running iOS 26? Update your iPhones, iPads and Macs for this urgent security fix",
+      "id": "c8e384106c05",
+      "title": "Your car and its mobile app are probably handing over all kinds of data to tech companies",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/still-running-ios-26-update-your-iphones-ipads-and-macs-for-this-urgent-security-fix/",
-      "published": "2026-09-29T13:25:21+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/",
+      "published": "2026-09-29T22:18:35+00:00",
       "summary": [
-        "Apple says the bug was used to attack \"specific targeted individuals\" running iOS 26, which the majority of Apple customers are still using."
+        "Researchers at Northeastern University found vehicles and their companion apps regularly shared detailed data with some of the largest tech companies."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "429d54d40555",
-      "title": "Fireflies adds dictation to its desktop notetaking apps",
+      "id": "267c040ff0ad",
+      "title": "More Ways to Disrupt: New 2026 Side Events from KOTRA, WayFounder, Enterprise Ireland, SafetyWing + Descope",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/29/fireflies-adds-dictation-to-its-desktop-notetaking-apps/",
-      "published": "2026-09-29T13:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/more-ways-to-disrupt-new-2026-side-events-from-kotra-wayfounder-enterprise-ireland-safetywing-descope/",
+      "published": "2026-09-29T18:48:03+00:00",
       "summary": [
-        "Fireflies said that it won't charge extra for the new dictation feature, which can be used with any desktop app."
+        "Disrupt doesn’t end when you leave Moscone West. 👀 Founder dinners, investor meetups, happy hours, workshops, roundtables and more are taking over San Francisco during Disrupt Week. See what’s happening, find your people, and start building your calendar."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "ead089fc3a6e",
-      "title": "Firefox just got a redesign with round tabs, new themes, and Compact Mode",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1001867/mozilla-firefox-157-redesign-compact-mode",
-      "published": "2026-09-29T13:00:00+00:00",
-      "summary": [
-        "Firefox will look a little different the next time you launch it - more bubbly, with some new pops of color. The browser's latest update brings a design overhaul to all desktop and mobile users, aimed at modernizing Firefox with bubble-like tabs, a rounded address bar, and refreshed colors, icons, and themes. The desktop and [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
