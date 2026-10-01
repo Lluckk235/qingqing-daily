@@ -1,21 +1,21 @@
 {
   "date": "2026-10-01",
-  "generated": "2026-10-01T12:08:25.465418+08:00",
-  "total": 8,
+  "generated": "2026-10-01T23:05:05.541071+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "5ee3ca38d10b",
-      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "id": "94a1f180da3f",
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
-      "published": "2026-10-01T00:23:45+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/",
+      "published": "2026-10-01T12:10:00+00:00",
       "summary": [
-        "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what you’re looking at just by analyzing your brain scans—and&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "1531fa606099",
-      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "id": "3f4ea9f16a21",
+      "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
-      "published": "2026-09-30T21:07:40+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "published": "2026-10-01T14:00:00+00:00",
       "summary": [
-        "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member."
+        "The startup helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms. It's a bet that consumers will increasingly use agents instead of downloading apps."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
@@ -59,24 +59,24 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "a898ef88cba3",
-      "title": "2027 款极氪 001 计划明年一季度上市，将延续经典原创猎装造型",
+      "id": "2aedd93f7198",
+      "title": "华为 Pura 70 Pro / Pro+ / Ultra 获 HarmonyOS 7.0.0.109SP8 升级，文本通话支持声音修复等功能",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/032.htm",
-      "published": "2026-10-01T04:08:03+00:00",
+      "sourceUrl": "https://www.ithome.com/1/009/166.htm",
+      "published": "2026-10-01T15:01:19+00:00",
       "summary": [
-        "IT之家 10 月 1 日消息，极氪今日发布“极氪 001 车型更新计划预告”，正式宣布 2027 款极氪 001 计划于 2027 年第一季度上市",
-        "同时，焕新极氪 001 公布 10 月限时购车权益",
-        "官方表示，焕新极氪 001 上市已近一年，期间收到大量用户关于改款期待与建议；此次提前释放更新计划，意在让用户更充分获取信息、从容规划购车安排"
+        "IT之家 10 月 1 日消息，华为官方宣布，Pura 70 Pro / Pro+ / Ultra 机型迎来了鸿蒙 HarmonyOS 7.0.0.109SP8 版本升级",
+        "新版本已于昨日不限量开放升级（升级方式：设置 &gt; 搜索“软件更新”&gt; 检查更新）",
+        "▲ IT之家开箱：华为 Pura 70 Pro+「光织银」图赏IT之家附更新日志如下：信息智能识别信息内容，挪车提醒、候补车票成功等信息可通过实况窗展示，提醒更及时关怀和无障碍文本通话支持声音修复，当发音不清晰时，使用该功能可让对方听得更清晰，轻松实现无障碍沟通 (设置&gt; 关怀和无障碍 &gt; 文本通话，需通过应用市场将小艺更新至 11.7.7.301 及以上版本 )显示优化控制中心部分场景的显示效果图库优化图库稳定性及部分界面的显示效果音频优化部分场景连接耳机的使用体验系统优化整机系统稳定性系统优化整机系统稳定性"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -85,17 +85,17 @@
       "rank": 4
     },
     {
-      "id": "bf58a9221c87",
-      "title": "The new and huger Paramount has a new co-CEO",
+      "id": "b6fc6006183d",
+      "title": "How smaller, distributed batteries could help the grid",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez",
-      "published": "2026-09-30T23:08:49+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "published": "2026-10-01T10:00:00+00:00",
       "summary": [
-        "Paramount is appointing a new co-CEO ahead of the close of its $110 billion merger with Warner Bros. Discovery. Ynon Kreiz, previously Mattel's chairman and CEO, will be joining Paramount to lead alongside chairman and CEO David Ellison. According to Paramount, \"Ellison will focus on the company's long-term strategy, creative vision and direction, including its [&#8230;]"
+        "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -104,61 +104,42 @@
       "rank": 5
     },
     {
-      "id": "e9197eb43cab",
-      "title": "FedEx orders 2,000 electric trucks from Harbinger in $300M deal",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/30/fedex-orders-2000-electric-trucks-from-harbinger-in-300m-deal/",
-      "published": "2026-09-30T15:26:02+00:00",
-      "summary": [
-        "The order -- Harbinger's biggest ever -- comes as the startup is reportedly considering an IPO."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "3209d4a492c4",
-      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+      "id": "0c2b2211e5d5",
+      "title": "Amazon is launching colorful new Kindles — and a case with physical page-turn buttons",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
-      "published": "2026-10-01T02:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1002811/amazon-kindle-paperwhite-colorsoft-accessory-refresh",
+      "published": "2026-10-01T13:00:00+00:00",
       "summary": [
-        "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable. Now that it's ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo's previous foldables, and most other [&#8230;]"
+        "Kindles don't usually change much with each new version, but Amazon is launching next-generation models today that look and feel a whole lot nicer. The base Kindle, Kindle Paperwhite, and Kindle Colorsoft are a millimeter thinner and 30 percent faster at opening books, and their power buttons have moved from the bottom to the right [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
-      "id": "efda61500f61",
-      "title": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next",
+      "id": "112575c345e7",
+      "title": "HP&#8217;s answer to the MacBook Neo is thinner, lighter, and comes with OLED",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/09/30/the-pentagon-taps-elon-musk-and-palmer-luckey-to-help-decide-what-the-military-should-do-next/",
-      "published": "2026-09-30T23:08:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1003107/hp-omnibook-5-14-intel-wildcat-lake-8gb-macbook-neo-price-specs",
+      "published": "2026-10-01T13:00:00+00:00",
       "summary": [
-        "Defense Secretary Pete Hegseth just launched a 120-day study on the future of warfare, led by Elon Musk, Palmer Luckey, and Newt Gingrich, and while it makes sense given their ties to the administration, critics could point out that Musk's and Luckey's companies already sell the kinds of technology the study is likely to recommend."
+        "HP is announcing a new laptop that's squarely aimed at Apple's MacBook Neo. The 2026 HP OmniBook 5 14 starts at $699.99 with an Intel Core 5 315 \"Wildcat Lake\" processor, 8GB of RAM, and a 256GB SSD. Much of that sounds pretty familiar, being in lockstep with both Apple's Neo and its recent competition [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     }
   ]
 }
