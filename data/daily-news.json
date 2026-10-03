@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "generated": "2026-10-03T11:47:20.514110+08:00",
+  "generated": "2026-10-03T17:40:02.025017+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,7 +76,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,24 +97,24 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "049c14169f03",
-      "title": "微软 Win11 26H1 放大镜支持输入精准百分比，新增多种预设缩放级别",
+      "id": "805ffcf3d70c",
+      "title": "小米 Vision GT 十月即将正式入驻 Gran Turismo 7，成为游戏史上的首台中国 Vision GT",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/423.htm",
-      "published": "2026-10-03T03:39:56+00:00",
+      "sourceUrl": "https://www.ithome.com/1/009/517.htm",
+      "published": "2026-10-03T09:29:55+00:00",
       "summary": [
-        "IT之家 10 月 3 日消息，科技媒体 NeoWin 今天（10 月 2 日）发布博文，报道称在今天发布的 Windows 11 26H1 最新预览版中，微软进一步增强放大镜（Magnifier）体验",
-        "微软针对 Windows 11 26H1 系统，在 Beta 频道版 Build 28020.3142 以及 Experimental 频道版本 Build 28120.3151 中，支持更精细的缩放体验，用户现在可直接在工具栏输入精确的放大百分比来设置所需缩放级别",
-        "此外在“选项”下拉菜单还新增了 5%、10%、25%、50%、100%、150%、200% 和 400% 的预设缩放级别，方便用户一键切换常用倍率"
+        "IT之家 10 月 3 日消息，小米汽车今日宣布，Xiaomi Vision GT（Vision Gran Turismo）10 月即将正式入驻 Gran Turismo 7（跑车浪漫旅 7 / GT 赛车 7），成为游戏史上的首台中国 Vision GT",
+        "Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目",
+        "该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -137,28 +137,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 7
-    },
-    {
-      "id": "f9df9058658b",
-      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "published": "2026-10-02T20:08:40+00:00",
-      "summary": [
-        "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
     },
     {
       "id": "45015fc51065",
@@ -172,6 +153,25 @@
       "published": "2026-10-02T14:00:00+00:00",
       "summary": [
         "The clock is almost out. You have less than 24 hours left to apply to host a Side Event during TechCrunch Founder Summit 2026. Applications close tonight at midnight PT. Connect with the Boston startup ecosystem through November 1–7 by hosting your own Side Event. Bring your community, start an impactful conversation that’ll push the [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "f9df9058658b",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "published": "2026-10-02T20:08:40+00:00",
+      "summary": [
+        "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
