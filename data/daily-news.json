@@ -1,47 +1,9 @@
 {
-  "date": "2026-10-02",
-  "generated": "2026-10-02T22:26:52.447137+08:00",
-  "total": 11,
+  "date": "2026-10-03",
+  "generated": "2026-10-03T11:47:20.514110+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "a4548c383007",
-      "title": "ChatGPT can now virtually try on clothes for you",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "published": "2026-10-01T19:21:53+00:00",
-      "summary": [
-        "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "4aa9873d3078",
-      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
-      "published": "2026-10-01T16:44:35+00:00",
-      "summary": [
-        "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "afc401940c18",
       "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
@@ -57,9 +19,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "a9b4e91ded7c",
@@ -76,85 +38,125 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "ed9dd57bde82",
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "published": "2026-10-02T15:49:04+00:00",
+      "summary": [
+        "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "6a225a11d9fc",
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "published": "2026-10-02T18:11:27+00:00",
+      "summary": [
+        "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "b9887ed47090",
-      "title": "从数据到智能，再到进化：Agent正在重写AI基础设施",
+      "id": "86674c53f841",
+      "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372065",
-      "published": "2026-10-01T03:21:33+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372070",
+      "published": "2026-10-03T01:17:08+00:00",
       "summary": [
-        "&nbsp; 一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡",
-        "十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交",
-        "这条「等待&mdash; 反馈」的空隙，过去一直是数据平台默认的节奏"
+        "英伟达股价创新高，逼近 6 万亿美元 英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美元后，投资者重新涌入该股",
+        "这家全球市值最高的上市公司股价周五上涨 2.9%，较 7 月底低点累计反弹近 25%",
+        "英伟达股价今年迄今上涨约 27%，有望连续第四年实现两位数涨幅"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "c54be94c657f",
-      "title": "Paramount’s Warner Bros. megamerger will just be called Skydance",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1004016/paramount-warner-bros-skydance-megamerger-name",
-      "published": "2026-10-02T13:42:36+00:00",
+      "id": "049c14169f03",
+      "title": "微软 Win11 26H1 放大镜支持输入精准百分比，新增多种预设缩放级别",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/009/423.htm",
+      "published": "2026-10-03T03:39:56+00:00",
       "summary": [
-        "Paramount Skydance CEO David Ellison has announced that the company will just be called Skydance when it completes its $110 billion merger with Warner Bros. Discovery next week. In a post on X, Ellison writes that \"we wanted a name that would give the combined company an identity of its own while allowing Paramount and [&#8230;]"
+        "IT之家 10 月 3 日消息，科技媒体 NeoWin 今天（10 月 2 日）发布博文，报道称在今天发布的 Windows 11 26H1 最新预览版中，微软进一步增强放大镜（Magnifier）体验",
+        "微软针对 Windows 11 26H1 系统，在 Beta 频道版 Build 28020.3142 以及 Experimental 频道版本 Build 28120.3151 中，支持更精细的缩放体验，用户现在可直接在工具栏输入精确的放大百分比来设置所需缩放级别",
+        "此外在“选项”下拉菜单还新增了 5%、10%、25%、50%、100%、150%、200% 和 400% 的预设缩放级别，方便用户一键切换常用倍率"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "03573b2f20db",
-      "title": "This startup wants to turn idle car inventory into rental revenue",
+      "id": "ca751af23b3a",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-car-inventory-into-rental-revenue/",
-      "published": "2026-10-01T17:09:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "published": "2026-10-02T19:15:51+00:00",
       "summary": [
-        "When Igor Dobrianskyi looks at a car dealership lot, he doesn't see rows of cars — he sees millions of dollars just sitting there, depreciating. Come see MyMonthlyCar in the Startup Battlefield 200 at TechCrunch Disrupt, taking place October 13 to 15 in San Francisco."
+        "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "b6fc6006183d",
-      "title": "How smaller, distributed batteries could help the grid",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
-      "published": "2026-10-01T10:00:00+00:00",
+      "id": "f9df9058658b",
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "published": "2026-10-02T20:08:40+00:00",
       "summary": [
-        "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;"
+        "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do [&#8230;]"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 3.5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
@@ -173,47 +175,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "190c03ca19ef",
-      "title": "AI music maker Suno now generates spoken words",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-      "published": "2026-10-02T09:42:19+00:00",
-      "summary": [
-        "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them. \"Music will always be at [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "511e9b1d0874",
-      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
-      "published": "2026-10-01T22:51:36+00:00",
-      "summary": [
-        "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of \"a new Apple smart home ecosystem,\" alongside Apple's rumored smart home [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
     }
   ]
 }
