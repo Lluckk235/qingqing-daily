@@ -1,46 +1,27 @@
 {
   "date": "2026-10-03",
-  "generated": "2026-10-03T17:40:02.025017+08:00",
+  "generated": "2026-10-03T23:43:28.398509+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "afc401940c18",
-      "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
-      "published": "2026-10-02T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual competition. One that rewards competitors for&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "a9b4e91ded7c",
-      "title": "Tesla sustains its EV sales momentum despite US troubles",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "6ae30ec75fda",
+      "title": "All the AI agents that can live in your text messages",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/",
-      "published": "2026-10-02T13:39:23+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "2026-10-03T14:00:00+00:00",
       "summary": [
-        "The company delivered more than 486,000 EVs in the third quarter, down from last year's record but moving in a positive direction."
+        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "ed9dd57bde82",
@@ -59,24 +40,43 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "afc401940c18",
+      "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+      "published": "2026-10-02T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual competition. One that rewards competitors for&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "6a225a11d9fc",
-      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "a9b4e91ded7c",
+      "title": "Tesla sustains its EV sales momentum despite US troubles",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-      "published": "2026-10-02T18:11:27+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/",
+      "published": "2026-10-02T13:39:23+00:00",
       "summary": [
-        "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier."
+        "The company delivered more than 486,000 EVs in the third quarter, down from last year's record but moving in a positive direction."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,28 +97,28 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "805ffcf3d70c",
-      "title": "小米 Vision GT 十月即将正式入驻 Gran Turismo 7，成为游戏史上的首台中国 Vision GT",
+      "id": "481e785cd38f",
+      "title": "明日出行请注意，交通运输部提示 33 个高速公路路段易发拥堵",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/517.htm",
-      "published": "2026-10-03T09:29:55+00:00",
+      "sourceUrl": "https://www.ithome.com/1/009/579.htm",
+      "published": "2026-10-03T15:27:44+00:00",
       "summary": [
-        "IT之家 10 月 3 日消息，小米汽车今日宣布，Xiaomi Vision GT（Vision Gran Turismo）10 月即将正式入驻 Gran Turismo 7（跑车浪漫旅 7 / GT 赛车 7），成为游戏史上的首台中国 Vision GT",
-        "Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目",
-        "该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想"
+        "IT之家 10 月 3 日消息，据交通运输部动态研判，10 月 4 日，全国高速公路有 33 个路段易发拥堵，主要集中在江苏、四川、广东、湖南、浙江等省份",
+        "如计划途经这些路段，请合理安排出行时间和路线",
+        "序号省份城市路线编号路线名称起点桩号止点桩号方向1江苏南京市G25长深高速K2152K2094下行2江苏无锡市G2京沪高速K1091K1121上行3江苏无锡市S48沪宜高速K134K171上行4江苏常州市G4221沪武高速K196K166下行5江苏南通市G15沈海高速K1180K1219上行6江苏淮安市G1516盐洛高速K220K187下行7江苏盐城市G15沈海高速K954K984上行8江苏盐城市G15沈海高速K1076K1147上行9江苏扬州市G2京沪高速K893K933上行10江苏镇江市G42沪蓉高速K242K203下行11四川成都市G4202成都绕城高速K1K79上行12四川成都市G4217蓉昌高速K3K35上行13四川成都市S2成巴高速K71K37下行14四川德阳市G5京昆高速K1745K1778上行15四川广安市G65包茂高速K1456K1495上行16四川雅安市G5京昆高速K1953K1917下行17四川资阳市G5013渝蓉高速K169K202上行18广东广州市G1508广州绕城高速K43K120下行19广东广州市S81广州环城高速K0K59上行20广东广州市S81广州环城高速K61K3下行21广东佛山市G2518深岑高速K253K220下行22广东惠州市G15沈海高速K2823K2853上行23湖南长沙市S50长芷高速K47K14下行24湖南湘潭市G60沪昆高速K1108K1070下行25湖南益阳市G5513长张高速K109K63下行26浙江嘉兴市G15沈海高速K1443K1374下行27浙江衢州市G60沪昆高速K405K375下行28河北唐山市G1京哈高速K196K160下行29上海上海市G60沪昆高速K94K63下行30安徽淮南市S12滁新高速K192K158下行31湖北孝感市G42沪蓉高速K889K859下行32重庆重庆市G50沪渝高速K1658K1692上行33陕西西安市G3002西安绕城高速K79K0下行IT之家注意到，交通运输部 9 月 30 日发布了国庆假期全国公路网运行研判"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
@@ -142,17 +142,17 @@
       "rank": 7
     },
     {
-      "id": "45015fc51065",
-      "title": "Less than 24 hours to apply for a  Side Event at Founder Summit 2026",
+      "id": "5a0a0ddb0806",
+      "title": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/02/less-than-24-hours-to-apply-for-a-side-event-at-founder-summit-2026/",
-      "published": "2026-10-02T14:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
+      "published": "2026-10-03T15:02:01+00:00",
       "summary": [
-        "The clock is almost out. You have less than 24 hours left to apply to host a Side Event during TechCrunch Founder Summit 2026. Applications close tonight at midnight PT. Connect with the Boston startup ecosystem through November 1–7 by hosting your own Side Event. Bring your community, start an impactful conversation that’ll push the [&#8230;]"
+        "Bitchat has become largely unavailable in India as a result of the restrictions."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
