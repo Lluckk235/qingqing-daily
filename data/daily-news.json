@@ -1,86 +1,46 @@
 {
-  "date": "2026-10-05",
-  "generated": "2026-10-05T12:02:08.251226+08:00",
-  "total": 6,
+  "date": "2026-10-06",
+  "generated": "2026-10-06T00:47:19.483705+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "6f9949c52780",
-      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
-      "published": "2026-10-04T20:00:00+00:00",
+      "id": "16ad415e0c7f",
+      "title": "Connecting AI agents to enterprise knowledge",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "published": "2026-10-05T15:47:52+00:00",
       "summary": [
-        "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints [&#8230;]"
+        "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately&#8230;"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "a255f4ac5ad4",
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "id": "10d6f4f6fd7b",
+      "title": "Bringing predictive analytics to the agentic AI era",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-      "published": "2026-10-04T15:21:59+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "published": "2026-10-05T13:29:32+00:00",
       "summary": [
-        "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]"
+        "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "072378cdfd56",
-      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-      "published": "2026-10-04T20:31:07+00:00",
-      "summary": [
-        "AI slop seems to be overwhelming bug bounty programs."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "c1bd2f4c7d1c",
-      "title": "美国造车新势力 Rivian 第三季度交付 19248 辆，同比增长 46%",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/788.htm",
-      "published": "2026-10-05T03:50:49+00:00",
-      "summary": [
-        "IT之家 10 月 5 日消息，当地时间 10 月 2 日，美国造车新势力 Rivian 公布了截至 2026 年 9 月 30 日的季度产量与交付量数据",
-        "本季度，该公司位于美国伊利诺伊州诺默尔的生产工厂共生产汽车 19,751 辆，同期完成交付 19,248 辆（同比增长 46%）",
-        "Rivian 曾在今年早些时候上调 2026 全年交付指引，目标区间定在 65,000 至 70,000 辆"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
-      "rank": 4
+      "isNativeCN": false,
+      "rank": 2
     },
     {
       "id": "bed7a2a204a0",
@@ -99,28 +59,125 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 3
+    },
+    {
+      "id": "91621536ff55",
+      "title": "纳指盘中再创历史新高：SpaceX 涨逾 5%，英伟达涨超 1% 再度逼近历史新高",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/009/904.htm",
+      "published": "2026-10-05T16:08:34+00:00",
+      "summary": [
+        "IT之家 10 月 6 日消息，美股纳斯达克指数周一（当地时间 10 月 5 日）创下盘中历史新高，多数大型股和成长股上涨",
+        "IT之家注意到，英伟达盘中最高上涨 1.65%，再度逼近历史新高",
+        "Meta、微软和特斯拉股价均上涨超过 1%"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "c5f2391cf1a9",
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/501700.html",
+      "published": "2026-10-05T02:50:46+00:00",
+      "summary": [
+        "有改进就体验，没改进就重置，横竖不亏"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "c0ac07d40df5",
-      "title": "The new Fitbit Edge leaks",
+      "id": "76ea28d1e12d",
+      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "published": "2026-10-05T14:30:00+00:00",
+      "summary": [
+        "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "4e67682610b7",
+      "title": "CNN&#8217;s boss will remain as Paramount and WBD merge into Skydance",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
+      "published": "2026-10-05T14:42:34+00:00",
+      "summary": [
+        "CNN CEO Mark Thompson will remain at the head of the news network when Paramount's $110 billion Warner Bros. Discovery acquisition closes this week. Thompson wrote in a memo to employees that he believes the combined company will \"fully support the principle and practice of the kind of independent news that CNN has always stood [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "e36223c0def0",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "published": "2026-10-05T15:14:24+00:00",
+      "summary": [
+        "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "d84db01b27bd",
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
-      "published": "2026-10-04T21:02:09+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+      "published": "2026-10-05T13:47:14+00:00",
       "summary": [
-        "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and [&#8230;]"
+        "Getting some extra storage space on your Mac could be as easy as deleting Apple's AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 9
     }
   ]
 }
