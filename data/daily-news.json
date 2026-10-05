@@ -1,40 +1,40 @@
 {
-  "date": "2026-10-04",
-  "generated": "2026-10-04T21:40:30.708930+08:00",
+  "date": "2026-10-05",
+  "generated": "2026-10-05T12:02:08.251226+08:00",
   "total": 6,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "0c6563fad015",
-      "title": "The rise, fall, and rise of portable MP3 players",
+      "id": "6f9949c52780",
+      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
-      "published": "2026-10-04T12:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+      "published": "2026-10-04T20:00:00+00:00",
       "summary": [
-        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the collapse and the resurgence of the portable media player, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started We are [&#8230;]"
+        "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "6ae30ec75fda",
-      "title": "All the AI agents that can live in your text messages",
+      "id": "a255f4ac5ad4",
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "published": "2026-10-03T14:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "published": "2026-10-04T15:21:59+00:00",
       "summary": [
-        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+        "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,82 +43,82 @@
       "rank": 2
     },
     {
-      "id": "6b3471ffae71",
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "id": "072378cdfd56",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "published": "2026-10-03T16:30:01+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "published": "2026-10-04T20:31:07+00:00",
       "summary": [
-        "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job."
+        "AI slop seems to be overwhelming bug bounty programs."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "e3b9f8c2142c",
-      "title": "Jev 之后，中国团队开始深挖 AI 的「直觉层」",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372081",
-      "published": "2026-10-04T11:41:48+00:00",
+      "id": "c1bd2f4c7d1c",
+      "title": "美国造车新势力 Rivian 第三季度交付 19248 辆，同比增长 46%",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/009/788.htm",
+      "published": "2026-10-05T03:50:49+00:00",
       "summary": [
-        "作者｜桦林舞王 编辑｜靖宇 &nbsp; 9 月 15 日，前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI 发布了 Jev",
-        "这款模型不写一个字，只做判断",
-        "两周之后，整个行业都在做同一件事"
+        "IT之家 10 月 5 日消息，当地时间 10 月 2 日，美国造车新势力 Rivian 公布了截至 2026 年 9 月 30 日的季度产量与交付量数据",
+        "本季度，该公司位于美国伊利诺伊州诺默尔的生产工厂共生产汽车 19,751 辆，同期完成交付 19,248 辆（同比增长 46%）",
+        "Rivian 曾在今年早些时候上调 2026 全年交付指引，目标区间定在 65,000 至 70,000 辆"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "bb37d746e771",
-      "title": "央视曝光车辆“ETC 异常”短信骗局：系不法分子钓鱼陷阱",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/730.htm",
-      "published": "2026-10-04T13:34:53+00:00",
+      "id": "bed7a2a204a0",
+      "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372082",
+      "published": "2026-10-05T00:36:34+00:00",
       "summary": [
-        "IT之家 10 月 4 日消息，据央视新闻报道，近期市面上出现一种“ETC 异常”短信骗局，相应短信谎称汽车 ETC“被停用”“更新升级”“认证失效”，要求车主点击所谓链接处理",
-        "央视新闻表示，相应短信系陷阱",
-        "这种不明链接往往是骗子专门设置的钓鱼网站，为的就是骗取银行卡号、密码、身份证号等个人信息"
+        "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书 美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业",
+        "特斯拉和 SpaceX 首席执行官埃隆&middot;马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX 是一家超级智能公司」",
+        "这一表态源于特朗普政府近期推动的一项新政策"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "5a0a0ddb0806",
-      "title": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
+      "id": "c0ac07d40df5",
+      "title": "The new Fitbit Edge leaks",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
-      "published": "2026-10-03T15:02:01+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+      "published": "2026-10-04T21:02:09+00:00",
       "summary": [
-        "Bitchat has become largely unavailable in India as a result of the restrictions."
+        "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 6
     }
