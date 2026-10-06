@@ -1,21 +1,21 @@
 {
   "date": "2026-10-06",
-  "generated": "2026-10-06T00:47:19.483705+08:00",
-  "total": 9,
+  "generated": "2026-10-06T12:51:16.091650+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "16ad415e0c7f",
-      "title": "Connecting AI agents to enterprise knowledge",
+      "id": "a2b98cad80f6",
+      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-      "published": "2026-10-05T15:47:52+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "published": "2026-10-05T23:09:55+00:00",
       "summary": [
-        "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately&#8230;"
+        "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "10d6f4f6fd7b",
-      "title": "Bringing predictive analytics to the agentic AI era",
+      "id": "212da1d35ed9",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "published": "2026-10-05T13:29:32+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "published": "2026-10-05T20:36:48+00:00",
       "summary": [
-        "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between&#8230;"
+        "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -59,87 +59,70 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "91621536ff55",
-      "title": "纳指盘中再创历史新高：SpaceX 涨逾 5%，英伟达涨超 1% 再度逼近历史新高",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/904.htm",
-      "published": "2026-10-05T16:08:34+00:00",
+      "id": "1367cba7f22e",
+      "title": "交付 19 天，小米澎程破万台，雷军又赢了。",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372087",
+      "published": "2026-10-06T01:15:06+00:00",
       "summary": [
-        "IT之家 10 月 6 日消息，美股纳斯达克指数周一（当地时间 10 月 5 日）创下盘中历史新高，多数大型股和成长股上涨",
-        "IT之家注意到，英伟达盘中最高上涨 1.65%，再度逼近历史新高",
-        "Meta、微软和特斯拉股价均上涨超过 1%"
+        "图片来源：视觉中国 10 月 1 日，小米汽车公布了 9 月交付成绩单：单月交付量首次突破 4 万台",
+        "这个数字放在新势力阵营里排第三，仅次于零跑（10.56 万台）和小鹏（4.13 万台），领先鸿蒙智行（3.75 万台）",
+        "但真正值得关注的，不只是「小米又卖爆了」"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "c5f2391cf1a9",
-      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "id": "8ab84fc70eda",
+      "title": "余承东回应苹果入局折叠屏：欢迎同行加入竞争，iPhone Duo 发布后华为 Pura X Max 销量大增 76%",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501700.html",
-      "published": "2026-10-05T02:50:46+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/009/976.htm",
+      "published": "2026-10-06T04:39:03+00:00",
       "summary": [
-        "有改进就体验，没改进就重置，横竖不亏"
+        "IT之家 10 月 6 日消息，华为海外 X 账号今日（10 月 6 日）发布了 9 月 29 日的国际媒体圆桌会议摘要",
+        "华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流",
+        "有记者询问华为 Mate XT 2 三折叠手机的具体销售或出货量数据"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "76ea28d1e12d",
-      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "id": "8649e164977a",
+      "title": "Etched fields funding offers at $40B+ valuation, sources say",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
-      "published": "2026-10-05T14:30:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+      "published": "2026-10-05T20:24:09+00:00",
       "summary": [
-        "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in [&#8230;]"
+        "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 6
-    },
-    {
-      "id": "4e67682610b7",
-      "title": "CNN&#8217;s boss will remain as Paramount and WBD merge into Skydance",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1004734/cnn-ceo-mark-thompson-paramount-warner-bros",
-      "published": "2026-10-05T14:42:34+00:00",
-      "summary": [
-        "CNN CEO Mark Thompson will remain at the head of the news network when Paramount's $110 billion Warner Bros. Discovery acquisition closes this week. Thompson wrote in a memo to employees that he believes the combined company will \"fully support the principle and practice of the kind of independent news that CNN has always stood [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
     },
     {
       "id": "e36223c0def0",
@@ -152,32 +135,13 @@
       "sourceUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
       "published": "2026-10-05T15:14:24+00:00",
       "summary": [
-        "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now."
+        "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "d84db01b27bd",
-      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
-      "published": "2026-10-05T13:47:14+00:00",
-      "summary": [
-        "Getting some extra storage space on your Mac could be as easy as deleting Apple's AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     }
   ]
 }
