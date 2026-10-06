@@ -1,21 +1,21 @@
 {
   "date": "2026-10-06",
-  "generated": "2026-10-06T12:51:16.091650+08:00",
-  "total": 7,
+  "generated": "2026-10-06T22:44:12.136657+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "a2b98cad80f6",
-      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
+      "id": "8653701588de",
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "published": "2026-10-05T23:09:55+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "published": "2026-10-06T14:33:16+00:00",
       "summary": [
-        "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call [&#8230;]"
+        "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,44 +24,82 @@
       "rank": 1
     },
     {
-      "id": "212da1d35ed9",
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "id": "56c402c80bda",
+      "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "published": "2026-10-05T20:36:48+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
+      "published": "2026-10-06T13:00:00+00:00",
       "summary": [
-        "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says."
+        "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "bed7a2a204a0",
-      "title": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
+      "id": "49501e8bc235",
+      "title": "The Download: 10 climate tech companies to watch",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/",
+      "published": "2026-10-06T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together a list of the most promising climate tech companies in the world. This year, the stakes feel higher&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "c9fa1d488c0b",
+      "title": "基于 Vaultwarden 和 Keyguard 的自托管密码管理实践",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372082",
-      "published": "2026-10-05T00:36:34+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115416",
+      "published": "2026-10-06T10:00:00+00:00",
       "summary": [
-        "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书 美国总统特朗普推动以「超级智能」（Super Intelligence，简称 SI）取代「人工智能」（AI）的举措正在迅速影响科技行业",
-        "特斯拉和 SpaceX 首席执行官埃隆&middot;马斯克日前表示，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并公开宣称「SpaceX 是一家超级智能公司」",
-        "这一表态源于特朗普政府近期推动的一项新政策"
+        "密码管理服务的数据，当然要掌握在自己手里"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "id": "0f5324a92e52",
+      "title": "英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/010/098.htm",
+      "published": "2026-10-06T13:03:37+00:00",
+      "summary": [
+        "IT之家 10 月 6 日消息，英伟达 GeForce Game Ready 驱动 617.42 正式发布，本次驱动为多款支持 DLSS 和 RTX 技术的新作提供优化，同时修复了已发现的游戏崩溃问题",
+        "IT之家附官方公告链接（https://www.nvidia.com/en-us/geforce/news/call-of-duty-modern-warfare-4-star-wars-galactic-racer-game-ready-driver/）",
+        "新游戏支持与性能优化为《使命召唤：现代战争 4》《星球大战：银河赛车手》《龙之信条 2：黑暗觉醒》《微软模拟飞行 2024》《Valor Mortis》提供游戏优化支持，上述游戏均支持 DLSS 和 RTX 技术问题修复修复《刺客信条：影》在升级到 616.56 驱动后长时间游戏可能崩溃闪退到桌面的问题 [6685219]已知问题本次通用问题修复无内容更新本次驱动为正式版 Game Ready 驱动，适用于全系列 NVIDIA GeForce 显卡，用户可通过 NVIDIA App 或官网下载更新"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "1367cba7f22e",
@@ -80,30 +118,47 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 6
     },
     {
-      "id": "8ab84fc70eda",
-      "title": "余承东回应苹果入局折叠屏：欢迎同行加入竞争，iPhone Duo 发布后华为 Pura X Max 销量大增 76%",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/009/976.htm",
-      "published": "2026-10-06T04:39:03+00:00",
+      "id": "238d2f84897d",
+      "title": "Paramount and Warner Bros. Discovery complete $110 billion media megamerger",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1005480/paramount-warner-bros-discovey-merger-closed",
+      "published": "2026-10-06T13:32:43+00:00",
       "summary": [
-        "IT之家 10 月 6 日消息，华为海外 X 账号今日（10 月 6 日）发布了 9 月 29 日的国际媒体圆桌会议摘要",
-        "华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流",
-        "有记者询问华为 Mate XT 2 三折叠手机的具体销售或出货量数据"
+        "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The merger officially puts Paramount and WBD's film studios, along with major networks and brands like HBO, CBS News, and CNN, under one roof. The road to the media megamerger has been a rocky one for Paramount, [&#8230;]"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
-      "rank": 5
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "0b6e51c81253",
+      "title": "Paramount closes historic Warner Bros. merger to form Skydance",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
+      "published": "2026-10-06T13:57:32+00:00",
+      "summary": [
+        "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "8649e164977a",
@@ -120,28 +175,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 9
     },
     {
-      "id": "e36223c0def0",
-      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "id": "28b5a03610b8",
+      "title": "I can’t use Apple’s new Screen Time on my daughter’s iPhone because my son won&#8217;t update his MacBook",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-      "published": "2026-10-05T15:14:24+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1005193/apple-screen-time-update-struggles-ios-27-parental-controls",
+      "published": "2026-10-06T13:15:28+00:00",
       "summary": [
-        "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers."
+        "After suffering years of frustration with Apple's parental control features, I've been eagerly anticipating the revamped Screen Time that launched last month with iOS 27. Unfortunately, I can't use it. Technically, this is because my 18-year-old son hasn't got round to updating his MacBook. But mostly, it's because Apple's rollout of the new feature has [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 10
     }
   ]
 }
