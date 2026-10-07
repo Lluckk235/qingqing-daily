@@ -1,9 +1,28 @@
 {
-  "date": "2026-10-06",
-  "generated": "2026-10-06T22:44:12.136657+08:00",
+  "date": "2026-10-07",
+  "generated": "2026-10-07T12:17:35.052733+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "159ed2438ba1",
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "published": "2026-10-06T19:56:50+00:00",
+      "summary": [
+        "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "8653701588de",
       "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
@@ -19,26 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "56c402c80bda",
-      "title": "Flai’s AI dealership software is booking 50,000 appointments per month",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month/",
-      "published": "2026-10-06T13:00:00+00:00",
-      "summary": [
-        "Flai's revenue has grown 20x in a year, and the company just closed a $27 million Series A funding round."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,47 +57,47 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "c9fa1d488c0b",
-      "title": "基于 Vaultwarden 和 Keyguard 的自托管密码管理实践",
+      "id": "1b68c0b1046b",
+      "title": "The best robot vacuum and mop deals during October Prime Day",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1006059/robot-vacuum-mop-roborock-qrevo-prime-day-deal-sale",
+      "published": "2026-10-06T22:00:00+00:00",
+      "summary": [
+        "Spending too much time constantly sweeping and mopping? If you have the money to delegate those chores to a robot cleaner, you could save a lot of personal time. Thankfully, it’s cheaper than usual to buy a robot vacuum / mop hybrid during Amazon’s Prime Big Deal Days, and some of our favorite models are [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "8cedb335e24a",
+      "title": "罗马：永恒之城，永恒于世",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115416",
-      "published": "2026-10-06T10:00:00+00:00",
+      "sourceUrl": "https://sspai.com/post/114845",
+      "published": "2026-10-07T03:00:00+00:00",
       "summary": [
-        "密码管理服务的数据，当然要掌握在自己手里"
+        "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考",
+        "我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点",
+        "文章代表作者个人观点 ...查看全文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "0f5324a92e52",
-      "title": "英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/010/098.htm",
-      "published": "2026-10-06T13:03:37+00:00",
-      "summary": [
-        "IT之家 10 月 6 日消息，英伟达 GeForce Game Ready 驱动 617.42 正式发布，本次驱动为多款支持 DLSS 和 RTX 技术的新作提供优化，同时修复了已发现的游戏崩溃问题",
-        "IT之家附官方公告链接（https://www.nvidia.com/en-us/geforce/news/call-of-duty-modern-warfare-4-star-wars-galactic-racer-game-ready-driver/）",
-        "新游戏支持与性能优化为《使命召唤：现代战争 4》《星球大战：银河赛车手》《龙之信条 2：黑暗觉醒》《微软模拟飞行 2024》《Valor Mortis》提供游戏优化支持，上述游戏均支持 DLSS 和 RTX 技术问题修复修复《刺客信条：影》在升级到 616.56 驱动后长时间游戏可能崩溃闪退到桌面的问题 [6685219]已知问题本次通用问题修复无内容更新本次驱动为正式版 Game Ready 驱动，适用于全系列 NVIDIA GeForce 显卡，用户可通过 NVIDIA App 或官网下载更新"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
@@ -118,79 +118,81 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "238d2f84897d",
-      "title": "Paramount and Warner Bros. Discovery complete $110 billion media megamerger",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1005480/paramount-warner-bros-discovey-merger-closed",
-      "published": "2026-10-06T13:32:43+00:00",
+      "id": "2e43843de06f",
+      "title": "漫威 Comet 游戏预告曝光：蜘蛛侠、金刚狼等可玩，玩法接近《原神》",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/010/183.htm",
+      "published": "2026-10-07T04:14:08+00:00",
       "summary": [
-        "Paramount has completed its $110 billion acquisition of Warner Bros. Discovery, forming a combined company known as Skydance. The merger officially puts Paramount and WBD's film studios, along with major networks and brands like HBO, CBS News, and CNN, under one roof. The road to the media megamerger has been a rocky one for Paramount, [&#8230;]"
+        "IT之家 10 月 7 日消息，游戏媒体 80.lv 昨日（10 月 6 日）发布博文，报道称漫威新游《Project Comet》预告片曝光，显示该作由 Scopely 开发，定位为免费开放世界动作 RPG",
+        "该视频由 @热血懒羊羊 上传到 B 站，IT之家发稿前发现相关视频已不再公开显示，不过在 B 站和海外平台扩散",
+        "在预告片中，该游戏的核心标签涵盖免费游玩（Free to Play）、开放世界（Open World）、动作角色扮演（Action RPG）、PC 与手机跨平台（Cross Play）"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
+      "score": 5,
+      "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "0b6e51c81253",
-      "title": "Paramount closes historic Warner Bros. merger to form Skydance",
+      "id": "c6c0f9e409ef",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
-      "published": "2026-10-06T13:57:32+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "published": "2026-10-06T20:00:30+00:00",
       "summary": [
-        "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network."
+        "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "8649e164977a",
-      "title": "Etched fields funding offers at $40B+ valuation, sources say",
+      "id": "9bc243b1c568",
+      "title": "Google’s power-hungry data centers crave nuclear energy",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
-      "published": "2026-10-05T20:24:09+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+      "published": "2026-10-06T20:32:10+00:00",
       "summary": [
-        "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch."
+        "Google announced a new agreement to update six nuclear power plant sites across the US as the tech giant seeks to generate more electricity for its power-hungry data centers. Google signed the 20-year deal with Constellation, the leading nuclear power plant operator in the US. The power purchase agreement is meant to guarantee the revenue [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "28b5a03610b8",
-      "title": "I can’t use Apple’s new Screen Time on my daughter’s iPhone because my son won&#8217;t update his MacBook",
+      "id": "1f15e5a235c5",
+      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1005193/apple-screen-time-update-struggles-ios-27-parental-controls",
-      "published": "2026-10-06T13:15:28+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+      "published": "2026-10-06T22:53:09+00:00",
       "summary": [
-        "After suffering years of frustration with Apple's parental control features, I've been eagerly anticipating the revamped Screen Time that launched last month with iOS 27. Unfortunately, I can't use it. Technically, this is because my 18-year-old son hasn't got round to updating his MacBook. But mostly, it's because Apple's rollout of the new feature has [&#8230;]"
+        "Apple appears poised to push into the smart home market with a slate of new devices and a key partner."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
