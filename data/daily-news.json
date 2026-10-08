@@ -1,47 +1,9 @@
 {
   "date": "2026-10-08",
-  "generated": "2026-10-08T12:35:59.731111+08:00",
-  "total": 8,
+  "generated": "2026-10-08T23:12:21.683427+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "1d6dcd635bc7",
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "published": "2026-10-07T20:48:45+00:00",
-      "summary": [
-        "The developer of Hermes Agent raised a $90 million Series B."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "eb599b08c7e3",
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "published": "2026-10-07T20:22:37+00:00",
-      "summary": [
-        "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "7353b6a4a7f6",
       "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
@@ -57,45 +19,85 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "a7f501e82808",
-      "title": "SpaceX alumni nab $100M to rethink shipping with autonomous freight trains",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
-      "published": "2026-10-07T15:00:00+00:00",
-      "summary": [
-        "Parallel Systems raised $100 million to scale production of its autonomous electric rail vehicle, which can shuttle thousands of pounds of freight up to 500 miles."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "61bdfb46ba18",
-      "title": "派早报：微软发布 Windows 相关新品、Google AI 新闻两则等",
+      "id": "6d8881292dc0",
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115455",
-      "published": "2026-10-08T00:16:57+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "published": "2026-10-08T12:10:00+00:00",
       "summary": [
-        "Anthropic 推出 Claude for Google Workspace、Reflection 发布首个开放权重模型 Beam 等"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "87922315e033",
+      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "published": "2026-10-08T14:00:00+00:00",
+      "summary": [
+        "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse and Bee."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "f68547623913",
+      "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372099",
+      "published": "2026-10-08T01:40:34+00:00",
+      "summary": [
+        "产品的创新，究竟应该如何定义它的价值",
+        "上周，华为、小米、苹果在 72 小时内接连发布折叠屏旗舰",
+        "华为 Mate XT 2 非凡大师 19999 元起售，小米 18 Fold 10999 元，苹果首款折叠屏 iPhone Duo 市场预计 1.6 万起"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "790e24bb1b5d",
+      "title": "打不过就投降，保时捷裁员9000人，回归燃油车主线",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/501930.html",
+      "published": "2026-10-08T07:10:24+00:00",
+      "summary": [
+        "管理岗砍掉四成，顶级车型涨价20%卖"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 5
     },
@@ -115,47 +117,68 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "975282e2b7fc",
-      "title": "It appears .agent and .agi are about to be the hot new domains",
+      "id": "8ae0f21725e5",
+      "title": "华为推送鸿蒙 HarmonyOS 7.0.0.109 新补丁包，实装多设备互助通信共享功能",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-      "published": "2026-10-07T18:46:16+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/010/736.htm",
+      "published": "2026-10-08T15:07:52+00:00",
       "summary": [
-        "For the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new top-level domains. These are the suffixes at the end of all URLs, and you may know them as things like .com, .org, and .pizza. ICANN just announced the 1,615 applications [&#8230;]"
+        "IT之家 10 月 8 日消息，华为今日面向 Mate 80 系列等机型，推送了鸿蒙 HarmonyOS 7.0.0.109 版本最新补丁包，包体大小约 206.99MB，优化了部分场景的使用体验",
+        "IT之家实测发现，更新该补丁包的机型实装了多设备互助通信共享功能，支持碰一碰共享本机移动网络（需要分享端处于“设置-多设备协同-通信共享”页面）",
+        "外部设备连接后，将使用本集移动数据，最多可同时连接 / 共享 3 台设备"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
+      "score": 6,
+      "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "f7ce188fe184",
-      "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+      "id": "b1d93fd5f45c",
+      "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "published": "2026-10-08T13:20:32+00:00",
+      "summary": [
+        "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "fc43c0da914d",
+      "title": "Elon Musk questions Ambani’s influence as Starlink India launch stalls",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
-      "published": "2026-10-07T18:42:22+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+      "published": "2026-10-08T06:14:11+00:00",
       "summary": [
-        "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]"
+        "“Is Ambani the real boss of India?” Elon Musk asked as he questioned why Starlink has yet to launch its satellite internet service in the country."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     }
   ]
 }
