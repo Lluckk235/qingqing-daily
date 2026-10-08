@@ -1,27 +1,46 @@
 {
-  "date": "2026-10-07",
-  "generated": "2026-10-07T23:04:14.518750+08:00",
-  "total": 10,
+  "date": "2026-10-08",
+  "generated": "2026-10-08T12:35:59.731111+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "59e2cd9afb41",
-      "title": "Windows and Surface event: how to watch and what to expect",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1006292/microsoft-windows-surface-event-rtx-spark-how-to-watch",
-      "published": "2026-10-07T13:12:56+00:00",
+      "id": "1d6dcd635bc7",
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "published": "2026-10-07T20:48:45+00:00",
       "summary": [
-        "Microsoft is heading to San Francisco this morning to reveal what's coming next for Windows and Surface and a \"conversation on how local AI will shape the next chapter of the PC.\" That conversation will include Microsoft CEO Satya Nadella, Nvidia CEO Jensen Huang, and Windows and Surface chief Pavan Davuluri. I'm expecting to hear [&#8230;]"
+        "The developer of Hermes Agent raised a $90 million Series B."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
+    },
+    {
+      "id": "eb599b08c7e3",
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "published": "2026-10-07T20:22:37+00:00",
+      "summary": [
+        "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
     },
     {
       "id": "7353b6a4a7f6",
@@ -38,144 +57,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "3cadd0110a70",
-      "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-      "published": "2026-10-07T14:30:00+00:00",
-      "summary": [
-        "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
-    },
-    {
-      "id": "3499b6fe79a2",
-      "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
-      "published": "2026-10-07T14:41:38+00:00",
-      "summary": [
-        "The “father of the iPod” says the first generation of AI gadgets failed to solve real problems — and the next wave will need to earn consumers’ trust."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "55c237799862",
-      "title": "适配大屏：Meta 推出 iPad 版 Muse AI 智能体",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/010/295.htm",
-      "published": "2026-10-07T14:58:55+00:00",
-      "summary": [
-        "IT之家 10 月 7 日消息，Meta 现已将 Muse AI 智能体适配苹果 iPad 平台，同时新增 Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 等连接器",
-        "IT之家了解到，Muse 是 Meta 推出的 AI 智能体应用程序，主要竞争对手有 Grok Bot、ChatGPT Dots 和 OpenClaw 等",
-        "过去几周，这款 App 一直位居美国 App Store 免费 iPhone 应用下载榜首位"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "c6c0f9e409ef",
-      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
-      "published": "2026-10-06T20:00:30+00:00",
-      "summary": [
-        "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "ac0c0868f598",
-      "title": "New leaks provide our first look at Apple and LG’s smart home devices",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1006727/apple-lg-leak-smart-home-deadbolt-lock-thermostat-temperature-sensor",
-      "published": "2026-10-07T14:34:37+00:00",
-      "summary": [
-        "Following a report from Bloomberg yesterday that Apple is collaborating with LG for a new collection of smart home devices and accessories, a reliable leaker known as \"pdfu\" on X has revealed more details about several of the new products, including a thermostat with a \"Far Sight Display\" that sounds similar to what Nest offers. [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "717e2052253a",
-      "title": "Google&#8217;s Pixel Buds update will put them to sleep along with you",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1006622/google-pixel-buds-pro-2-2a-update-sleep-dynamic-anc-tap-to-mute",
-      "published": "2026-10-07T12:01:22+00:00",
-      "summary": [
-        "Google has detailed an update bringing a slew of new features to its Pixel Buds 2A and Pro 2, which the company says are rolling out now. The new features were first teased in August. The biggest update is Pixel Watch-powered sleep detection, rolling out to both pairs of earbuds. If you're wearing a Pixel [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "1f15e5a235c5",
-      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
-      "published": "2026-10-06T22:53:09+00:00",
-      "summary": [
-        "Apple appears poised to push into the smart home market with a slate of new devices and a key partner."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
     },
     {
       "id": "a7f501e82808",
@@ -188,13 +72,90 @@
       "sourceUrl": "https://techcrunch.com/2026/10/07/spacex-alumni-nab-100m-to-rethink-shipping-with-autonomous-freight-trains/",
       "published": "2026-10-07T15:00:00+00:00",
       "summary": [
-        "Parallel Systems raised $100M to scale production of its autonomous electric rail vehicle, which can shuttle thousands of pounds of freight up to 500 miles."
+        "Parallel Systems raised $100 million to scale production of its autonomous electric rail vehicle, which can shuttle thousands of pounds of freight up to 500 miles."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 4
+    },
+    {
+      "id": "61bdfb46ba18",
+      "title": "派早报：微软发布 Windows 相关新品、Google AI 新闻两则等",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115455",
+      "published": "2026-10-08T00:16:57+00:00",
+      "summary": [
+        "Anthropic 推出 Claude for Google Workspace、Reflection 发布首个开放权重模型 Beam 等"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "748b8c2ad819",
+      "title": "App Store 生态规模五年翻倍，助力中国开发者走向全球",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115462",
+      "published": "2026-10-08T01:47:59+00:00",
+      "summary": [
+        "10月8日，Apple发布《中国AppStore生态系统——2025年开发者与用户价值研究》",
+        "这份由Apple提供支持、上海财经大学商学院副教授居恒与安诺析思国际咨询公司经济学家MarkusvonWa ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "975282e2b7fc",
+      "title": "It appears .agent and .agi are about to be the hot new domains",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
+      "published": "2026-10-07T18:46:16+00:00",
+      "summary": [
+        "For the first time in years, the Internet Corporation for Assigned Names and Numbers - better known as ICANN - is accepting applications for new top-level domains. These are the suffixes at the end of all URLs, and you may know them as things like .com, .org, and .pizza. ICANN just announced the 1,615 applications [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "f7ce188fe184",
+      "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "published": "2026-10-07T18:42:22+00:00",
+      "summary": [
+        "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that&#8217;s powered by Nvidia&#8217;s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 8
     }
   ]
 }
