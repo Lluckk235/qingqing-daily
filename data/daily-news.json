@@ -1,59 +1,59 @@
 {
-  "date": "2026-10-08",
-  "generated": "2026-10-08T23:12:21.683427+08:00",
+  "date": "2026-10-09",
+  "generated": "2026-10-09T12:33:27.831019+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "7353b6a4a7f6",
-      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
+      "id": "4ff1ca757012",
+      "title": "Microsoft’s new Windows Search is exactly what Windows 11 needs",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
-      "published": "2026-10-07T12:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/news/1008320/microsoft-windows-search-overhaul-windows-11",
+      "published": "2026-10-08T19:30:21+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Weight-loss drugs show signs of slowing biological aging, say drugmakers Popular weight-loss drugs may do more than help people shed pounds. They might also slow the aging process. Drugmakers Eli Lilly&#8230;"
+        "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul. A new redesigned Windows Search is now in testing that is much faster, more capable, and a lot more modern. \"This new Windows Search experience is built for speed,\" says Anshul Rawat, [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "59ead62f06a2",
+      "title": "California is trying to shut down robot vs. human cage matches",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+      "published": "2026-10-08T20:06:56+00:00",
+      "summary": [
+        "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 2
     },
     {
-      "id": "6d8881292dc0",
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "id": "080bc68c6b73",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
-      "published": "2026-10-08T12:10:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "published": "2026-10-09T00:08:24+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "87922315e033",
-      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
-      "published": "2026-10-08T14:00:00+00:00",
-      "summary": [
-        "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse and Bee."
+        "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -62,44 +62,65 @@
       "rank": 3
     },
     {
-      "id": "f68547623913",
-      "title": "造物 100#07   | 给硬盘养个图书馆员、指纹钥匙给 AI 上锁、AI 对讲机住着科幻宇宙",
+      "id": "a682e0b0de91",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "published": "2026-10-08T20:04:26+00:00",
+      "summary": [
+        "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "0f9e3e44065b",
+      "title": "《怪物猎人物语 3：命运双龙》游戏 11 月 18 日登陆 XBOX on PC，首次支持 XBOX Play Anywhere",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/010/902.htm",
+      "published": "2026-10-09T04:29:30+00:00",
+      "summary": [
+        "IT之家 10 月 9 日消息，微软 @XBOXWire 昨日（10 月 8 日）在 X 平台发布推文，宣布《怪物猎人物语 3：命运双龙》（Monster Hunter Stories 3: Twisted Reflection）游戏将于 2026 年 11 月 18 日登陆 XBOX on PC，并首次支持 XBOX Play Anywhere",
+        "IT之家注：XBOX on PC 是微软面向 Windows 设备提供的 Xbox 游戏运行环境",
+        "玩家可通过 Xbox 应用在 Windows PC 安装、启动和管理 Xbox 游戏，并使用 Xbox 账户访问游戏库、成就及相关服务"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "ec51cb8ec084",
+      "title": "攻克超声穿颅读脑，拿下 4 亿元新融资，他们要做脑科学的「英伟达」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372099",
-      "published": "2026-10-08T01:40:34+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372148",
+      "published": "2026-10-09T04:28:07+00:00",
       "summary": [
-        "产品的创新，究竟应该如何定义它的价值",
-        "上周，华为、小米、苹果在 72 小时内接连发布折叠屏旗舰",
-        "华为 Mate XT 2 非凡大师 19999 元起售，小米 18 Fold 10999 元，苹果首款折叠屏 iPhone Duo 市场预计 1.6 万起"
+        "&nbsp; 一家深圳公司，让实时「看清」人类大脑变成了可能",
+        "极客公园获悉，鲲为科技近期完成 4 亿元新一轮融资，新增股东包括 XVC、红杉中国，老股东夏尔巴、腾讯进一步加仓",
+        "在鲲为位于深圳的研发中心，创始人刘家家向我们展示了实测对比"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "790e24bb1b5d",
-      "title": "打不过就投降，保时捷裁员9000人，回归燃油车主线",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/501930.html",
-      "published": "2026-10-08T07:10:24+00:00",
-      "summary": [
-        "管理岗砍掉四成，顶级车型涨价20%卖"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "748b8c2ad819",
@@ -117,66 +138,45 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "8ae0f21725e5",
-      "title": "华为推送鸿蒙 HarmonyOS 7.0.0.109 新补丁包，实装多设备互助通信共享功能",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/010/736.htm",
-      "published": "2026-10-08T15:07:52+00:00",
-      "summary": [
-        "IT之家 10 月 8 日消息，华为今日面向 Mate 80 系列等机型，推送了鸿蒙 HarmonyOS 7.0.0.109 版本最新补丁包，包体大小约 206.99MB，优化了部分场景的使用体验",
-        "IT之家实测发现，更新该补丁包的机型实装了多设备互助通信共享功能，支持碰一碰共享本机移动网络（需要分享端处于“设置-多设备协同-通信共享”页面）",
-        "外部设备连接后，将使用本集移动数据，最多可同时连接 / 共享 3 台设备"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "b1d93fd5f45c",
-      "title": "China’s Manus raises over $500M in first funding round since split with Meta",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
-      "published": "2026-10-08T13:20:32+00:00",
-      "summary": [
-        "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "fc43c0da914d",
-      "title": "Elon Musk questions Ambani’s influence as Starlink India launch stalls",
+      "id": "37240b275358",
+      "title": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/07/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
-      "published": "2026-10-08T06:14:11+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/502035.html",
+      "published": "2026-10-08T12:43:31+00:00",
       "summary": [
-        "“Is Ambani the real boss of India?” Elon Musk asked as he questioned why Starlink has yet to launch its satellite internet service in the country."
+        "打造便利店“人机协作”运营新模式"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 4,
+      "isNativeCN": true,
+      "rank": 8
+    },
+    {
+      "id": "856d6f9f5af7",
+      "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
+      "published": "2026-10-08T20:32:21+00:00",
+      "summary": [
+        "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Bloomberg reports. If true, that would put the event just two weeks after the October 13th event Apple announced today, which is rumored to focus on smart home products. Bloomberg says that the [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     }
