@@ -1,105 +1,46 @@
 {
   "date": "2026-10-09",
-  "generated": "2026-10-09T12:33:27.831019+08:00",
-  "total": 9,
+  "generated": "2026-10-09T22:57:47.111703+08:00",
+  "total": 6,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "4ff1ca757012",
-      "title": "Microsoft’s new Windows Search is exactly what Windows 11 needs",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1008320/microsoft-windows-search-overhaul-windows-11",
-      "published": "2026-10-08T19:30:21+00:00",
-      "summary": [
-        "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul. A new redesigned Windows Search is now in testing that is much faster, more capable, and a lot more modern. \"This new Windows Search experience is built for speed,\" says Anshul Rawat, [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "59ead62f06a2",
-      "title": "California is trying to shut down robot vs. human cage matches",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
-      "published": "2026-10-08T20:06:56+00:00",
-      "summary": [
-        "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "080bc68c6b73",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "id": "0334faf72ea9",
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "published": "2026-10-09T00:08:24+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
+      "published": "2026-10-09T12:10:00+00:00",
       "summary": [
-        "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "a682e0b0de91",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "id": "d3a475a54b31",
+      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "published": "2026-10-08T20:04:26+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "published": "2026-10-09T14:00:00+00:00",
       "summary": [
-        "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
+        "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its straightforward, text message-based interface and its ability to [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "0f9e3e44065b",
-      "title": "《怪物猎人物语 3：命运双龙》游戏 11 月 18 日登陆 XBOX on PC，首次支持 XBOX Play Anywhere",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/010/902.htm",
-      "published": "2026-10-09T04:29:30+00:00",
-      "summary": [
-        "IT之家 10 月 9 日消息，微软 @XBOXWire 昨日（10 月 8 日）在 X 平台发布推文，宣布《怪物猎人物语 3：命运双龙》（Monster Hunter Stories 3: Twisted Reflection）游戏将于 2026 年 11 月 18 日登陆 XBOX on PC，并首次支持 XBOX Play Anywhere",
-        "IT之家注：XBOX on PC 是微软面向 Windows 设备提供的 Xbox 游戏运行环境",
-        "玩家可通过 Xbox 应用在 Windows PC 安装、启动和管理 Xbox 游戏，并使用 Xbox 账户访问游戏库、成就及相关服务"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 7,
-      "isNativeCN": true,
-      "rank": 5
+      "isNativeCN": false,
+      "rank": 2
     },
     {
       "id": "ec51cb8ec084",
@@ -118,67 +59,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 3
+    },
+    {
+      "id": "3d3e8a56de76",
+      "title": "小米发布 MiMo-V2.5-Pro 模型下线通知，可替换为 V2.6 版本",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/011/146.htm",
+      "published": "2026-10-09T14:48:35+00:00",
+      "summary": [
+        "IT之家 10 月 9 日消息，小米今日发布 MiMo-V2.5-Pro、MiMo-V2.5 模型下线通知",
+        "随着 MiMo V2.6 系列全面上线并稳定运行，建议尽快迁移至推理能力更强、性价比更高的新模型",
+        "下线模型及系统替换模型：mimo-v2.5-pro → 替换为 mimo-v2.6-promimo-v2.5 → 替换为 mimo-v2.6-flash下线时间安排：2026 年 10 月 14 日 18:00（UTC+8）：待下线模型自动切换为新版本模型，调用 MiMo-V2.5-Pro、MiMo-V2.5 的请求将自动转发至对应的 V2.6 模型，并按照新版模型计价"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 4
     },
     {
-      "id": "748b8c2ad819",
-      "title": "App Store 生态规模五年翻倍，助力中国开发者走向全球",
+      "id": "fa3e7e9dc86a",
+      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115462",
-      "published": "2026-10-08T01:47:59+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
+      "published": "2026-10-09T14:42:34+00:00",
       "summary": [
-        "10月8日，Apple发布《中国AppStore生态系统——2025年开发者与用户价值研究》",
-        "这份由Apple提供支持、上海财经大学商学院副教授居恒与安诺析思国际咨询公司经济学家MarkusvonWa ...查看全文"
+        "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next favorite event."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "37240b275358",
-      "title": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/502035.html",
-      "published": "2026-10-08T12:43:31+00:00",
-      "summary": [
-        "打造便利店“人机协作”运营新模式"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "856d6f9f5af7",
-      "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
-      "published": "2026-10-08T20:32:21+00:00",
-      "summary": [
-        "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Bloomberg reports. If true, that would put the event just two weeks after the October 13th event Apple announced today, which is rumored to focus on smart home products. Bloomberg says that the [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 5
+    },
+    {
+      "id": "b774507972a6",
+      "title": "Xona’s commercial GPS alternative is about to go live",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+      "published": "2026-10-09T12:00:00+00:00",
+      "summary": [
+        "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 6
     }
   ]
 }
