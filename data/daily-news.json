@@ -1,126 +1,145 @@
 {
-  "date": "2026-10-09",
-  "generated": "2026-10-09T22:57:47.111703+08:00",
-  "total": 6,
+  "date": "2026-10-10",
+  "generated": "2026-10-10T12:19:01.751786+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "0334faf72ea9",
-      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
-      "published": "2026-10-09T12:10:00+00:00",
+      "id": "aaab378b716e",
+      "title": "Microsoft tries to spark new life into Windows",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008801/microsoft-windows-surface-event-hybrid-ai-notepad",
+      "published": "2026-10-09T17:00:00+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison&#8230;"
+        "When Microsoft released Windows 11 five years ago, it felt like an operating system that was still being renovated, a work in progress. You'd think by now that those renovations would be complete, with Microsoft turning its attention to Windows 12. Instead, Windows 11 feels like it's here to stay, forming the foundation for Microsoft's [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "d3a475a54b31",
-      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+      "id": "3819199f8639",
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "published": "2026-10-09T16:56:42+00:00",
+      "summary": [
+        "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "5b834ed3369b",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
-      "published": "2026-10-09T14:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "published": "2026-10-09T21:15:38+00:00",
       "summary": [
-        "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its straightforward, text message-based interface and its ability to [&#8230;]"
+        "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 3
     },
     {
-      "id": "ec51cb8ec084",
-      "title": "攻克超声穿颅读脑，拿下 4 亿元新融资，他们要做脑科学的「英伟达」",
+      "id": "6fd912095194",
+      "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372148",
-      "published": "2026-10-09T04:28:07+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372184",
+      "published": "2026-10-10T01:27:14+00:00",
       "summary": [
-        "&nbsp; 一家深圳公司，让实时「看清」人类大脑变成了可能",
-        "极客公园获悉，鲲为科技近期完成 4 亿元新一轮融资，新增股东包括 XVC、红杉中国，老股东夏尔巴、腾讯进一步加仓",
-        "在鲲为位于深圳的研发中心，创始人刘家家向我们展示了实测对比"
+        "内存等成本压力上升，2027 全球笔记本价格恐继续上涨 市场调查机构集邦咨询（Trendforce）于 10 月 8 日发布博文，表示如果零部件价格继续维持高位，品牌扩大成本转嫁，终端涨价可能延长用户换机周期，预估 2027 年全球笔记本市场面临出货、价格双重影响",
+        "在 2026 年第 3 季度以建议零售价 900 美元的主流笔记本为例，其 CPU、内存及 SSD 占物料成本约 68%，品牌面临提价、压缩毛利或降低配置的选择",
+        "该机构预计，2027 年全球出货量将低个位数（预估低于 5%）下滑"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 3
-    },
-    {
-      "id": "3d3e8a56de76",
-      "title": "小米发布 MiMo-V2.5-Pro 模型下线通知，可替换为 V2.6 版本",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/011/146.htm",
-      "published": "2026-10-09T14:48:35+00:00",
-      "summary": [
-        "IT之家 10 月 9 日消息，小米今日发布 MiMo-V2.5-Pro、MiMo-V2.5 模型下线通知",
-        "随着 MiMo V2.6 系列全面上线并稳定运行，建议尽快迁移至推理能力更强、性价比更高的新模型",
-        "下线模型及系统替换模型：mimo-v2.5-pro → 替换为 mimo-v2.6-promimo-v2.5 → 替换为 mimo-v2.6-flash下线时间安排：2026 年 10 月 14 日 18:00（UTC+8）：待下线模型自动切换为新版本模型，调用 MiMo-V2.5-Pro、MiMo-V2.5 的请求将自动转发至对应的 V2.6 模型，并按照新版模型计价"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "fa3e7e9dc86a",
-      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
+      "id": "83d6daafeda6",
+      "title": "大众在德因金融信息披露违规被罚款 120 万欧元",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
-      "published": "2026-10-09T14:42:34+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/011/318.htm",
+      "published": "2026-10-10T04:11:34+00:00",
       "summary": [
-        "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next favorite event."
+        "IT之家 10 月 10 日消息，德国联邦金融监管局 (BaFin) 当地时间 9 日宣布，该机构在本月 1 日对大众汽车处以 120 万欧元（IT之家注：现汇率约合 901.2 万元人民币）的罚款",
+        "BaFin 指出，大众汽车早前发布的 2023 财年业绩预测远高于市场预期",
+        "这一业绩预期本应通过特别公告立即披露，但该公司却仅通过新闻稿发布了这一内幕信息"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
-      "isNativeCN": false,
+      "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "b774507972a6",
-      "title": "Xona’s commercial GPS alternative is about to go live",
+      "id": "f6c703b47f7e",
+      "title": "Amazon’s new Kindles appear to have a light leak problem",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
-      "published": "2026-10-09T12:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
+      "published": "2026-10-09T17:25:39+00:00",
       "summary": [
-        "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company."
+        "Some users are reporting that the new Kindles have a light leak issue that is especially apparent when using dark mode. The latest base-model Kindles have a flush bezel that gives them a sleek appearance and looks great… as long as you keep the lights on. But things can change once you turn down the [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 6
+    },
+    {
+      "id": "44c4401206a3",
+      "title": "Google teases Fitbit Edge launch next week",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
+      "published": "2026-10-09T18:05:55+00:00",
+      "summary": [
+        "It looks like Google is getting ready to take the wraps off its rumored Fitbit Edge next Monday. In a post on X, Google posted a picture of what appears to be the side of the fitness tracker, with the caption: \"Get an Edge on your health. 10.12.26.\" A trove of Fitbit Edge leaks has [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 7
     }
   ]
 }
