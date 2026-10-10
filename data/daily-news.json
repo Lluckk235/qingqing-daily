@@ -1,145 +1,164 @@
 {
   "date": "2026-10-10",
-  "generated": "2026-10-10T12:19:01.751786+08:00",
-  "total": 7,
+  "generated": "2026-10-10T22:13:07.694570+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "aaab378b716e",
-      "title": "Microsoft tries to spark new life into Windows",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008801/microsoft-windows-surface-event-hybrid-ai-notepad",
-      "published": "2026-10-09T17:00:00+00:00",
-      "summary": [
-        "When Microsoft released Windows 11 five years ago, it felt like an operating system that was still being renovated, a work in progress. You'd think by now that those renovations would be complete, with Microsoft turning its attention to Windows 12. Instead, Windows 11 feels like it's here to stay, forming the foundation for Microsoft's [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "3819199f8639",
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "id": "d8d2c1c3d579",
+      "title": "Here are the top AI agents that can live in your text messages",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "published": "2026-10-09T16:56:42+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "2026-10-10T14:00:00+00:00",
       "summary": [
-        "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access [&#8230;]"
+        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
-      "id": "5b834ed3369b",
-      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "id": "65008a0b40da",
+      "title": "AI agent makers are promising privacy — will they deliver?",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "published": "2026-10-09T21:15:38+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "published": "2026-10-10T13:00:00+00:00",
       "summary": [
-        "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]"
+        "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "1c89963333ec",
+      "title": "The Telo MT1 is a big truck trapped in a tiny truck’s body",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/1005502/telo-mt1-review-ev-tiny-truck",
+      "published": "2026-10-10T11:00:00+00:00",
+      "summary": [
+        "I'm bouncing down the road in San Carlos, California, zipping past behemoth tech companies like EA and Oracle, in America's smallest electric truck. The Telo MT1 (which stands for \"mini truck\") unquestionably turns heads because it looks so remarkably different from everything else on the market right now. It has a nearly cab-over design, meaning [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "6fd912095194",
-      "title": "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景",
+      "id": "3a80c28a658d",
+      "title": "好产品就是与时代和生活共振｜2026 年度极客最爱好物启动",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372184",
-      "published": "2026-10-10T01:27:14+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372196",
+      "published": "2026-10-10T06:07:11+00:00",
       "summary": [
-        "内存等成本压力上升，2027 全球笔记本价格恐继续上涨 市场调查机构集邦咨询（Trendforce）于 10 月 8 日发布博文，表示如果零部件价格继续维持高位，品牌扩大成本转嫁，终端涨价可能延长用户换机周期，预估 2027 年全球笔记本市场面临出货、价格双重影响",
-        "在 2026 年第 3 季度以建议零售价 900 美元的主流笔记本为例，其 CPU、内存及 SSD 占物料成本约 68%，品牌面临提价、压缩毛利或降低配置的选择",
-        "该机构预计，2027 年全球出货量将低个位数（预估低于 5%）下滑"
+        "一件好产品，往往是在用过一段时间之后，才让人意识到它的好",
+        "出门时顺手带上，遇到事情时首先打开，或者因为有了它，愿意尝试一件过去觉得麻烦的事",
+        "这样的产品，值得被分享给更多人"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "83d6daafeda6",
-      "title": "大众在德因金融信息披露违规被罚款 120 万欧元",
+      "id": "351e88f0edb6",
+      "title": "上汽奥迪 E7X 首次 OTA 推送：新增屏幕护眼模式、零重力座椅倾角调节功能等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/011/318.htm",
-      "published": "2026-10-10T04:11:34+00:00",
+      "sourceUrl": "https://www.ithome.com/1/011/520.htm",
+      "published": "2026-10-10T14:08:48+00:00",
       "summary": [
-        "IT之家 10 月 10 日消息，德国联邦金融监管局 (BaFin) 当地时间 9 日宣布，该机构在本月 1 日对大众汽车处以 120 万欧元（IT之家注：现汇率约合 901.2 万元人民币）的罚款",
-        "BaFin 指出，大众汽车早前发布的 2023 财年业绩预测远高于市场预期",
-        "这一业绩预期本应通过特别公告立即披露，但该公司却仅通过新闻稿发布了这一内幕信息"
+        "IT之家 10 月 10 日消息，10 月 9 日，上汽奥迪 E7X 开启首次 OTA 推送，版本号为 AUDI OS 2.1.4，覆盖寻车、车手互联、语音、驾控、舒适全场景",
+        "IT之家整理主要内容如下：优化寻车闪灯鸣笛体验手机端寻车功能支持「闪灯」、「闪灯鸣笛」两种模式自由选择；在这两种寻车模式基础上，可自定义 5s、10s 和 15s 三档执行时长",
+        "新增 VAD 语音智能断句功能智能识别语音停顿，自动判断指令是否结束；覆盖导航、多媒体、车控等全场景语音交互；告别指令卡顿，交互更自然流畅"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "f6c703b47f7e",
-      "title": "Amazon’s new Kindles appear to have a light leak problem",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "1315d07dded6",
+      "title": "Will Warner Bros. kill Skydance — or will David Ellison kill Warner Bros?",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
-      "published": "2026-10-09T17:25:39+00:00",
+      "sourceUrl": "https://www.theverge.com/podcast/1008733/warner-skydance-paramount-ellison-debt-failure",
+      "published": "2026-10-10T14:00:00+00:00",
       "summary": [
-        "Some users are reporting that the new Kindles have a light leak issue that is especially apparent when using dark mode. The latest base-model Kindles have a flush bezel that gives them a sleek appearance and looks great… as long as you keep the lights on. But things can change once you turn down the [&#8230;]"
+        "Today, I’m talking with Peter Kafka, chief correspondent at Business Insider and host of the Channels podcast, about the gigantic Warner Bros.-Paramount merger and the future of the company now simply called Skydance. Skydance is owned by David Ellison, son of Oracle CEO Larry Ellison, and its deal to acquire Warner Bros. Discovery officially closed [&#8230;]"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "44c4401206a3",
-      "title": "Google teases Fitbit Edge launch next week",
+      "id": "fa3e7e9dc86a",
+      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
+      "published": "2026-10-09T14:42:34+00:00",
+      "summary": [
+        "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next favorite event."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "831d4836ec9f",
+      "title": "LG’s RGB LED TV is good for certain situations, but an OLED is better",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
-      "published": "2026-10-09T18:05:55+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review",
+      "published": "2026-10-10T13:00:00+00:00",
       "summary": [
-        "It looks like Google is getting ready to take the wraps off its rumored Fitbit Edge next Monday. In a post on X, Google posted a picture of what appears to be the side of the fitness tracker, with the caption: \"Get an Edge on your health. 10.12.26.\" A trove of Fitbit Edge leaks has [&#8230;]"
+        "When it comes to TVs, the LG name has long been synonymous with OLEDs, continually leading Samsung and Sony as the top OLED manufacturer. But 2026 is all about RGB LED TVs. Almost every major company has released models with the new technology - including LG and its $3,600 75-inch Micro RGB evo MRGB95B that [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     }
   ]
 }
