@@ -1,46 +1,27 @@
 {
-  "date": "2026-10-10",
-  "generated": "2026-10-10T22:13:07.694570+08:00",
-  "total": 8,
+  "date": "2026-10-11",
+  "generated": "2026-10-11T11:58:43.369263+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "d8d2c1c3d579",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "published": "2026-10-10T14:00:00+00:00",
-      "summary": [
-        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "65008a0b40da",
-      "title": "AI agent makers are promising privacy — will they deliver?",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "6cf45b6f27ca",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
-      "published": "2026-10-10T13:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "published": "2026-10-10T18:52:07+00:00",
       "summary": [
-        "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. [&#8230;]"
+        "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "1c89963333ec",
@@ -57,51 +38,87 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "05298e9bf640",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "published": "2026-10-10T22:10:17+00:00",
+      "summary": [
+        "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "3a80c28a658d",
-      "title": "好产品就是与时代和生活共振｜2026 年度极客最爱好物启动",
+      "id": "d8d2c1c3d579",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "2026-10-10T14:00:00+00:00",
+      "summary": [
+        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "b23ce267403f",
+      "title": "马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372196",
-      "published": "2026-10-10T06:07:11+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372216",
+      "published": "2026-10-11T00:53:38+00:00",
       "summary": [
-        "一件好产品，往往是在用过一段时间之后，才让人意识到它的好",
-        "出门时顺手带上，遇到事情时首先打开，或者因为有了它，愿意尝试一件过去觉得麻烦的事",
-        "这样的产品，值得被分享给更多人"
+        "马斯克豪言 SpaceX 估值超 1000 万亿美元，惨遭拉表打脸近日，马斯克在社交平台大胆预测，SpaceX 未来估值有望突破 1000 万亿美元，体量将远超当前全球经济总量",
+        "目前 SpaceX 估值仅约 2.2 万亿美元，而 2025 年全球 GDP 总量约 118 万亿美元，此番极具颠覆性的超高估值言论引发全网热议与质疑",
+        "面对这一惊人预测，有网友晒出富国银行证券整理的一张名为「说到做到记录，以及其所隐含的折价」数据表格，直接打脸马斯克的激进预测"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "351e88f0edb6",
-      "title": "上汽奥迪 E7X 首次 OTA 推送：新增屏幕护眼模式、零重力座椅倾角调节功能等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/011/520.htm",
-      "published": "2026-10-10T14:08:48+00:00",
-      "summary": [
-        "IT之家 10 月 10 日消息，10 月 9 日，上汽奥迪 E7X 开启首次 OTA 推送，版本号为 AUDI OS 2.1.4，覆盖寻车、车手互联、语音、驾控、舒适全场景",
-        "IT之家整理主要内容如下：优化寻车闪灯鸣笛体验手机端寻车功能支持「闪灯」、「闪灯鸣笛」两种模式自由选择；在这两种寻车模式基础上，可自定义 5s、10s 和 15s 三档执行时长",
-        "新增 VAD 语音智能断句功能智能识别语音停顿，自动判断指令是否结束；覆盖导航、多媒体、车控等全场景语音交互；告别指令卡顿，交互更自然流畅"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "f9e8c0b9db2f",
+      "title": "Cloudflare acquires Deno to improve its Workers programming model",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+      "published": "2026-10-10T16:25:42+00:00",
+      "summary": [
+        "Cloudflare will use this acquisition to improve its Workers programming model and platform."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 6
     },
     {
       "id": "1315d07dded6",
@@ -118,28 +135,47 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "fa3e7e9dc86a",
-      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
+      "id": "719244ff4837",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
-      "published": "2026-10-09T14:42:34+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "published": "2026-10-10T19:50:00+00:00",
       "summary": [
-        "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next favorite event."
+        "Is Apple hoping to get into the AI-generated podcast business?"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "id": "029aa7575409",
+      "title": "Ledger wallet tampering suspected after reports of crypto thefts",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+      "published": "2026-10-10T16:36:44+00:00",
+      "summary": [
+        "Reports have been mounting that users of the Ledger crypto wallet have seen their accounts drained, and it appears to be related to tampered hardware sold by CryptoBillis. Ledger has asked CryptoBillis to pause all sales of its wallets while it conducts an investigation. Ledger has confirmed that \"one of the impacted users' devices contained [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 9
     },
     {
       "id": "831d4836ec9f",
@@ -156,9 +192,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     }
   ]
 }
