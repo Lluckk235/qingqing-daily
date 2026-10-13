@@ -1,44 +1,44 @@
 {
   "date": "2026-10-13",
-  "generated": "2026-10-13T13:27:41.997474+08:00",
+  "generated": "2026-10-13T23:33:40.360057+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "e9c9ac8e21ac",
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "id": "65a5bbabecb6",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-      "published": "2026-10-12T15:31:19+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "published": "2026-10-13T13:00:00+00:00",
       "summary": [
-        "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies."
+        "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "e41af6ba2638",
-      "title": "Meta has some Wonder Full new AI models",
+      "id": "22a997c3cc82",
+      "title": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "published": "2026-10-12T17:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+      "published": "2026-10-13T15:12:59+00:00",
       "summary": [
-        "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]"
+        "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,49 +57,69 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "e1fd83b19dc8",
-      "title": "The Social Reckoning is flopping at the box office",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy",
-      "published": "2026-10-12T21:20:57+00:00",
-      "summary": [
-        "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that's somewhere within the $30-42 million range. That would make it [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "51c1782ef661",
-      "title": "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界",
+      "id": "5dbc2619b601",
+      "title": "说个事：极客公园创新大会 2027！",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372278",
-      "published": "2026-10-13T03:44:18+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372300",
+      "published": "2026-10-13T11:33:53+00:00",
       "summary": [
-        "大模型融资还在继续，新的押注转向了能边听、边看、边说的 AI",
-        "作者｜Li Yuan编辑｜郑玄想象这样一个家庭场景",
-        "孩子正在玩玩具，突然，厨房里「哐」的一声，玻璃碎了，紧接着传来孩子的声音：「不是我"
+        "一年一度：极客公园创新大会 2027，已经启动了",
+        "你大概已经注意到一些不太寻常的事&mdash;&mdash;科技行业真正关心的东西，一直在变",
+        "大模型公司的关注点，过去几年，几个月就一波变化：从追求用户规模，到追求技术的 SOTA 程度；应用公司的产品热点从 Chatbot，到 Agent，再到 Personal Agent；生产力工具也从 Copilot，一路到了 workspace"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "68569cf6060a",
+      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/502784.html",
+      "published": "2026-10-13T04:07:04+00:00",
+      "summary": [
+        "赢奖金、拿融资、送出海"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "608ee4b4419f",
+      "title": "App+1 | 我做了一个专为「P 人」和 ADHD 设计的精力管理 App",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115400",
+      "published": "2026-10-13T07:00:00+00:00",
+      "summary": [
+        "在2018、2019年左右的少数派，大家曾有一段时间痴迷于折腾各种任务管理软件，我也是其中之一",
+        "经过这么多年，我尝试过世面上几乎所有知名的任务管理工具，从小而美的Things、Sorted到大而全的O ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "d77f3d75a5f4",
@@ -116,83 +136,64 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "4d060ed6c79d",
-      "title": "CMF’s first wireless speakers look like musical milk cartons",
+      "id": "f6b5fe609735",
+      "title": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset/",
+      "published": "2026-10-13T14:25:48+00:00",
+      "summary": [
+        "After years of declining subscriber numbers and falling revenue, Bumble just agreed to a $1.3 billion acquisition."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "cbf8f67ed26a",
+      "title": "Discovery Plus is getting more expensive",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008191/nothing-cmf-speaker-m-s-series-bluetooth-design-customize",
-      "published": "2026-10-12T13:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/streaming/1009994/discovery-plus-price-increase",
+      "published": "2026-10-13T13:52:18+00:00",
       "summary": [
-        "The CMF Speaker Series are the first portable Bluetooth speakers from the budget-focused brand that Nothing created but is in the process of spinning off into an India-based standalone subsidiary. As with many of CMF's products, like the Headphone Pro that launched a year ago, the new speakers deliver affordability alongside unique designs and bright [&#8230;]"
+        "Discovery Plus is raising prices across its ad-free and ad-supported plans. Starting Tuesday, the ad-supported plan will go from $5.99 to $6.99 / month, while the ad-free tier will jump from $9.99 to $11.99 / month. The price hike comes just one week after Paramount closed its acquisition of Warner Bros. Discovery, which owned Discovery [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "f1588e6ffbfd",
-      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-      "published": "2026-10-12T12:47:59+00:00",
-      "summary": [
-        "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "268296192501",
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "published": "2026-10-11T21:14:40+00:00",
-      "summary": [
-        "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "77fade98c4fd",
-      "title": "Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on",
-      "published": "2026-10-12T15:00:00+00:00",
+      "id": "79e53724895a",
+      "title": "Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/apple-launches-a-new-apple-tv-4k-with-siri-ai-and-remote-free-commands/",
+      "published": "2026-10-13T13:16:11+00:00",
       "summary": [
-        "Most companies have slowed down releasing new Switch 2 cases, but one of my favorite accessory makers recently debuted its first, after a few delays. The $49 Basecase from Mechanism is a snap-on shell for the console that taps into the company's modular lineup of mounts. You could already mount the Switch 2 in numerous [&#8230;]"
+        "The new Apple TV 4K costs $299, comes with Siri AI, and will be available on November 13."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     }
