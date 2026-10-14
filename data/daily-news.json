@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T11:31:27.408030+08:00",
-  "total": 10,
+  "generated": "2026-10-14T17:16:48.203788+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,24 +76,22 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "02ca0cf6c4fb",
-      "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
+      "id": "e22a59901ee2",
+      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372304",
-      "published": "2026-10-14T00:28:51+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/503201.html",
+      "published": "2026-10-14T06:45:38+00:00",
       "summary": [
-        "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题 10 月 14 日消息，Gemini 4 Argon现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI 模式的 Google AI Ultra 和 Pro 订阅用户",
-        "该模型目前限时入门定价如下，2026 年 11 月 30 日入门促销结束后价格会翻倍： 输入：每百万 Tokens 2 美元 输出：每百万 Tokens 10 美元 缓存输入：每百万 Tokens 0.1 美元 Gemini 4 Argon擅长在编码、金融、法律、网络安全、科学等领域处理复杂的现实任务，在多步骤任务上的深度和精度使其在多个领域基准测试中表现优于其他前沿模型，目前在衡量金融、编码、法律和税务等关键经济领域模型性能的 Vals Index 中排名第一",
-        "（消息来源：IT 之家） 苹果首款智能家庭中枢 HomeView 发布：售价 299 美元，11 月 13 日开售 极客公园报道：苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元 10 月 13 日消息，苹果刚刚推出了全新的 Apple HomeView 智能家居管理设备，标准版与壁挂版定价均为 299 美元，首批上市国家（澳大利亚、加拿大、印度、新西兰、英国和美国）今日开启预购，后续新加坡于 10 月 15 日开启预购，均于 11 月 13 日正式开售"
+        "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,21 +100,23 @@
       "rank": 5
     },
     {
-      "id": "68569cf6060a",
-      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/502784.html",
-      "published": "2026-10-13T04:07:04+00:00",
+      "id": "cdea6f089b29",
+      "title": "Bose 开放式运动耳机 / Ultra 开放式耳机 II 国行上市，1599 / 2299 元",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/012/973.htm",
+      "published": "2026-10-14T09:14:04+00:00",
       "summary": [
-        "赢奖金、拿融资、送出海"
+        "IT之家 10 月 14 日消息，Bose 现已在中国大陆电商平台销售开放式运动耳机 Sport Open Earbuds 和 &nbsp;Ultra 开放式耳机 II Ultra Open Earbuds (2nd Gen) 两款耳扣式无线音频新品",
+        "Bose 开放式运动耳机国行到手价 1,599 元人民币，海外定价 199 美元（现汇率约合 1,334 元人民币）；Bose Ultra 开放式耳机 II 国行到手价 2,299 元人民币，海外定价 299 美元（现汇率约合 2,005 元人民币）",
+        "▲ Bose 开放式运动耳机Bose 开放式运动耳机搭载 Bose OpenAudio 开放式音频技术，支持立体声模式，具备 IP54 防尘防水，单次续航约 7hr"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
@@ -135,28 +135,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "cee4c7a7cde2",
-      "title": "Mozilla 推出企业版火狐浏览器 Firefox Enterprise",
+      "id": "1f437a3e3d68",
+      "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/012/764.htm",
-      "published": "2026-10-14T03:25:29+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/92653",
+      "published": "2026-10-14T02:00:04+00:00",
       "summary": [
-        "IT之家 10 月 14 日消息，Mozilla 当地时间本月 12 日宣布推出企业版火狐浏览器 Firefox Enterprise",
-        "此举旨在满足全球（尤其是欧洲）企业客户对数字主权的需求",
-        "Mozilla 强调 Firefox 基于当前唯一的独立主要浏览器引擎 Gecko，这意味机构可以通过另一途径来减少对单一架构的依赖"
+        "Apple Watch 打算让更多人意识到睡眠呼吸暂停的威胁，它是怎么做到的"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 8
     },
@@ -175,28 +173,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "4219964d4f55",
-      "title": "Russian bot farms are still trolling, even after Ukraine&#8217;s drone strikes on Yandex",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1010424/yandex-drone-strike-outage-disinformation-zelenskyy",
-      "published": "2026-10-13T18:31:31+00:00",
-      "summary": [
-        "Days after Ukrainian military drones took down several Russian data centers, President Volodymyr Zelenskyy claimed that the campaign had hurt Russia's disinformation efforts. \"It suddenly became a little easier to breathe on many social platforms,\" Zelenskyy said Monday. \"There was less hate, less division, and fewer provocations.\" Zelenskyy isn't the first to assert that the [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
