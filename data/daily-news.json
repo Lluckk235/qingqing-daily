@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generated": "2026-10-15T11:11:03.527367+08:00",
-  "total": 10,
+  "generated": "2026-10-15T16:50:45.284027+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,28 +76,51 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "e22a59901ee2",
-      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+      "id": "02ca0cf6c4fb",
+      "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/503201.html",
-      "published": "2026-10-14T06:45:38+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372304",
+      "published": "2026-10-14T00:28:51+00:00",
       "summary": [
-        "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布"
+        "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题 10 月 14 日消息，Gemini 4 Argon现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI 模式的 Google AI Ultra 和 Pro 订阅用户",
+        "该模型目前限时入门定价如下，2026 年 11 月 30 日入门促销结束后价格会翻倍： 输入：每百万 Tokens 2 美元 输出：每百万 Tokens 10 美元 缓存输入：每百万 Tokens 0.1 美元 Gemini 4 Argon擅长在编码、金融、法律、网络安全、科学等领域处理复杂的现实任务，在多步骤任务上的深度和精度使其在多个领域基准测试中表现优于其他前沿模型，目前在衡量金融、编码、法律和税务等关键经济领域模型性能的 Vals Index 中排名第一",
+        "（消息来源：IT 之家） 苹果首款智能家庭中枢 HomeView 发布：售价 299 美元，11 月 13 日开售 极客公园报道：苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元 10 月 13 日消息，苹果刚刚推出了全新的 Apple HomeView 智能家居管理设备，标准版与壁挂版定价均为 299 美元，首批上市国家（澳大利亚、加拿大、印度、新西兰、英国和美国）今日开启预购，后续新加坡于 10 月 15 日开启预购，均于 11 月 13 日正式开售"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "add821d5d8bd",
+      "title": "最长单车行驶里程破万：小米澎程系列汽车上市一个月，累计行驶里程超过 1600 万公里",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/013/477.htm",
+      "published": "2026-10-15T08:49:25+00:00",
+      "summary": [
+        "IT之家 10 月 15 日消息，小米澎程官方微博今日宣布，小米澎程上市一个月，澎程车主跨越山川湖海，累计行驶里程超过 1600 万公里，最长单车行驶超过 10000 公里",
+        "据IT之家此前报道，小米汽车官微在本月初宣布，2026 年 9 月，小米汽车交付量超过 40,000 台",
+        "小米创办人、董事长兼 CEO 雷军透露，其中小米澎程首月交付超过 10,000 台"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "221810f6c33e",
@@ -116,7 +139,7 @@
       "tags": [],
       "score": 5.5,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "1f437a3e3d68",
@@ -135,7 +158,7 @@
       "tags": [],
       "score": 4.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "9761d628e721",
@@ -152,9 +175,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "66c757258c08",
@@ -171,28 +194,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     },
     {
-      "id": "8c458a18b85b",
-      "title": "The best feature of Apple’s HomeView might be its simplicity",
+      "id": "74a5b05214cc",
+      "title": "Figma announces new features to define how agents work on its platform",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature",
-      "published": "2026-10-14T22:00:02+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "published": "2026-10-15T04:30:00+00:00",
       "summary": [
-        "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use. Is Apple's first smart display my dream smart home dashboard? No. But is it the right product for Apple Home at [&#8230;]"
+        "Figma is also releasing its code layers feature in open beta."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
