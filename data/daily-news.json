@@ -1,46 +1,27 @@
 {
-  "date": "2026-10-15",
-  "generated": "2026-10-15T16:50:45.284027+08:00",
+  "date": "2026-10-16",
+  "generated": "2026-10-16T00:18:24.692097+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "014689cd7917",
-      "title": "The Download: faking blood and the future of batteries",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
-      "published": "2026-10-14T12:10:00+00:00",
+      "id": "534bc46e6ba2",
+      "title": "AI agents are coming to Rivian’s cars",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "published": "2026-10-15T15:02:36+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq, killing all seven crew members.&#8230;"
+        "We'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
-    },
-    {
-      "id": "1786b4e2e6b8",
-      "title": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown",
-      "published": "2026-10-14T20:03:43+00:00",
-      "summary": [
-        "We've all gotten a scam text about a nonexistent parking ticket or a fake package delivery, but hopefully you'll start seeing fewer of them. Microsoft says it helped dismantle a marketplace for scammers sending phishing messages like those around the world. Through an investigation with Japan's National Police Agency, it tracked scam activity back to [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 2
     },
     {
       "id": "8fcf6c6c5f5e",
@@ -57,108 +38,87 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "495c063dcca7",
+      "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
+      "published": "2026-10-15T16:00:00+00:00",
+      "summary": [
+        "Fourteen years ago this month, Microsoft released an Nvidia-powered Windows PC that would become one of the greatest tech flops in modern history. The original Microsoft Surface, which ran a stripped-down version of Windows on an Nvidia Tegra chip, bombed so hard that Microsoft had to write off $900 million in inventory. The problem was [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "b771f398aeda",
-      "title": "McKinsey is making job applicants spar with a fake AI client",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-      "published": "2026-10-14T22:53:31+00:00",
+      "id": "4dc555334ce0",
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "published": "2026-10-15T12:10:00+00:00",
       "summary": [
-        "Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "02ca0cf6c4fb",
-      "title": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
+      "id": "cb0b9cb967be",
+      "title": "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372304",
-      "published": "2026-10-14T00:28:51+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372420",
+      "published": "2026-10-15T10:20:44+00:00",
       "summary": [
-        "谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题 10 月 14 日消息，Gemini 4 Argon现已面向全球开发者和企业开放，可通过 AI Studio、 Gemini 平台 API 使用，同时支持 Google Antigravity 的 Google AI Ultra 订阅用户，以及 Gemini 应用和搜索 AI 模式的 Google AI Ultra 和 Pro 订阅用户",
-        "该模型目前限时入门定价如下，2026 年 11 月 30 日入门促销结束后价格会翻倍： 输入：每百万 Tokens 2 美元 输出：每百万 Tokens 10 美元 缓存输入：每百万 Tokens 0.1 美元 Gemini 4 Argon擅长在编码、金融、法律、网络安全、科学等领域处理复杂的现实任务，在多步骤任务上的深度和精度使其在多个领域基准测试中表现优于其他前沿模型，目前在衡量金融、编码、法律和税务等关键经济领域模型性能的 Vals Index 中排名第一",
-        "（消息来源：IT 之家） 苹果首款智能家庭中枢 HomeView 发布：售价 299 美元，11 月 13 日开售 极客公园报道：苹果给 Siri 做了一块能认出全家人的屏幕，售价 299 美元 10 月 13 日消息，苹果刚刚推出了全新的 Apple HomeView 智能家居管理设备，标准版与壁挂版定价均为 299 美元，首批上市国家（澳大利亚、加拿大、印度、新西兰、英国和美国）今日开启预购，后续新加坡于 10 月 15 日开启预购，均于 11 月 13 日正式开售"
+        "作者｜Li Yuan 编辑｜郑玄 &nbsp; 长得像人，但是只能跳舞表演，根本没法真正干活",
+        "这大概是过去几年人形机器人最尴尬的一幕",
+        "人形机器人最初拿到天量关注，底层逻辑其实很直接：现实世界本来就是围绕人类身体设计的"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "add821d5d8bd",
-      "title": "最长单车行驶里程破万：小米澎程系列汽车上市一个月，累计行驶里程超过 1600 万公里",
+      "id": "0839ec4f1c18",
+      "title": "Ramp reaches $60B valuation as it pushes deeper into AI",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/013/477.htm",
-      "published": "2026-10-15T08:49:25+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+      "published": "2026-10-15T14:47:09+00:00",
       "summary": [
-        "IT之家 10 月 15 日消息，小米澎程官方微博今日宣布，小米澎程上市一个月，澎程车主跨越山川湖海，累计行驶里程超过 1600 万公里，最长单车行驶超过 10000 公里",
-        "据IT之家此前报道，小米汽车官微在本月初宣布，2026 年 9 月，小米汽车交付量超过 40,000 台",
-        "小米创办人、董事长兼 CEO 雷军透露，其中小米澎程首月交付超过 10,000 台"
+        "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 6
-    },
-    {
-      "id": "221810f6c33e",
-      "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116138",
-      "published": "2026-10-14T00:40:39+00:00",
-      "summary": [
-        "Apple Watch 在中国大陆推出睡眠呼吸暂停迹象提示功能、Google 发布 Gemini 4 Argon 等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "1f437a3e3d68",
-      "title": "已经能测夜间体征的 Apple Watch，为什么要再做一个睡眠呼吸暂停提醒",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/92653",
-      "published": "2026-10-14T02:00:04+00:00",
-      "summary": [
-        "Apple Watch 打算让更多人意识到睡眠呼吸暂停的威胁，它是怎么做到的"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
-      "rank": 8
     },
     {
       "id": "9761d628e721",
@@ -175,9 +135,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "66c757258c08",
@@ -194,7 +154,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "2d7de8707312",
+      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "published": "2026-10-15T12:00:00+00:00",
+      "summary": [
+        "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "df269cb9ba91",
+      "title": "Microsoft’s new Photos app combines your PC, OneDrive, and iCloud galleries",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1012003/microsoft-windows-11-new-photos-app-onedrive-icloud",
+      "published": "2026-10-15T14:53:38+00:00",
+      "summary": [
+        "Microsoft has redesigned its Photos app for Windows 11, overhauling the editor and image viewer, and combining photos and videos from your PC, OneDrive, and iCloud into a single space. The new combined gallery experience aims to make it easier to manage and view your photos without jumping between apps or devices, while also improving [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     },
@@ -213,7 +211,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 11
     }
