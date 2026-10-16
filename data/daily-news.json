@@ -1,21 +1,21 @@
 {
   "date": "2026-10-16",
-  "generated": "2026-10-16T00:18:24.692097+08:00",
-  "total": 11,
+  "generated": "2026-10-16T11:06:59.848213+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "534bc46e6ba2",
-      "title": "AI agents are coming to Rivian’s cars",
+      "id": "953a262ff105",
+      "title": "ChatGPT can peek at your Chrome tabs now",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "published": "2026-10-15T15:02:36+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "published": "2026-10-15T22:43:23+00:00",
       "summary": [
-        "We'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December."
+        "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,40 +24,40 @@
       "rank": 1
     },
     {
-      "id": "8fcf6c6c5f5e",
-      "title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+      "id": "287b7f7f97fe",
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/",
-      "published": "2026-10-14T22:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+      "published": "2026-10-15T21:09:33+00:00",
       "summary": [
-        "Databases have traditionally been designed either for analytical data or for operational data. But database engine CedarDB supports both, and its approach has gained relevance with the rise of agentic AI."
+        "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "495c063dcca7",
-      "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
+      "id": "58e2c1ef1b1f",
+      "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
-      "published": "2026-10-15T16:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+      "published": "2026-10-16T01:28:27+00:00",
       "summary": [
-        "Fourteen years ago this month, Microsoft released an Nvidia-powered Windows PC that would become one of the greatest tech flops in modern history. The original Microsoft Surface, which ran a stripped-down version of Windows on an Nvidia Tegra chip, bombed so hard that Microsoft had to write off $900 million in inventory. The problem was [&#8230;]"
+        "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,30 +76,68 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "cb0b9cb967be",
-      "title": "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
+      "id": "11a04e47a812",
+      "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372420",
-      "published": "2026-10-15T10:20:44+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372430",
+      "published": "2026-10-16T00:15:00+00:00",
       "summary": [
-        "作者｜Li Yuan 编辑｜郑玄 &nbsp; 长得像人，但是只能跳舞表演，根本没法真正干活",
-        "这大概是过去几年人形机器人最尴尬的一幕",
-        "人形机器人最初拿到天量关注，底层逻辑其实很直接：现实世界本来就是围绕人类身体设计的"
+        "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额 10 月 15 日消息，DeepSeek 网页 / API 服务今日（10 月 15 日）早间出现服务问题，经过近 5 个小时的修复，终于恢复正常",
+        "对此，DeepSeek 官方开放平台发布服务恢复及补偿通知，将补偿所有 API 用户 7 天内的消耗金额： 北京时间 2026 年 10 月 15 日 8:11 至 13:04 期间，我们的服务系统出现故障，导致该时段内 API 服务无法正常使用",
+        "对于此次故障给您带来的不便与困扰，我们深表歉意"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "9e6b0764fb44",
+      "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/116355",
+      "published": "2026-10-16T00:23:12+00:00",
+      "summary": [
+        "SpaceXAI 发布 Grok Voice 3.0 语音模型、微软发布 XBOX Nano 口袋手柄等"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "f7d4b2ccd075",
+      "title": "苹果AI国内上线，阿里百度浮出水面",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/503497.html",
+      "published": "2026-10-15T06:52:45+00:00",
+      "summary": [
+        "苹果 Apple Intelligence（苹果智能）在中国大陆的上线进入最后阶段"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "0839ec4f1c18",
@@ -116,104 +154,47 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "9761d628e721",
-      "title": "Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/14/ambanis-jio-seeks-to-raise-3-2b-in-what-could-be-indias-biggest-ipo/",
-      "published": "2026-10-14T21:48:20+00:00",
-      "summary": [
-        "Jio plans to use most of its IPO proceeds to repay debt as it expands beyond telecom."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "66c757258c08",
-      "title": "Intero Biosystems wants drugmakers to test on mini human intestines, not animals",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals/",
-      "published": "2026-10-14T23:00:00+00:00",
-      "summary": [
-        "Intero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while the startup looks to scale production and expand its organoid technology."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "2d7de8707312",
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "id": "b79cf62ab2ac",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "published": "2026-10-15T12:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "published": "2026-10-15T20:04:53+00:00",
       "summary": [
-        "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "df269cb9ba91",
-      "title": "Microsoft’s new Photos app combines your PC, OneDrive, and iCloud galleries",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1012003/microsoft-windows-11-new-photos-app-onedrive-icloud",
-      "published": "2026-10-15T14:53:38+00:00",
-      "summary": [
-        "Microsoft has redesigned its Photos app for Windows 11, overhauling the editor and image viewer, and combining photos and videos from your PC, OneDrive, and iCloud into a single space. The new combined gallery experience aims to make it easier to manage and view your photos without jumping between apps or devices, while also improving [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "74a5b05214cc",
-      "title": "Figma announces new features to define how agents work on its platform",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "published": "2026-10-15T04:30:00+00:00",
-      "summary": [
-        "Figma is also releasing its code layers feature in open beta."
+        "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
+    },
+    {
+      "id": "e2a15ea3bcdb",
+      "title": "Six wild ideas for perpetuating your mind",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
+      "published": "2026-10-15T09:00:00+00:00",
+      "summary": [
+        "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
