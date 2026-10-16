@@ -1,46 +1,27 @@
 {
-  "date": "2026-10-16",
-  "generated": "2026-10-16T16:44:46.183949+08:00",
-  "total": 10,
+  "date": "2026-10-17",
+  "generated": "2026-10-17T00:04:35.223569+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "58e2c1ef1b1f",
-      "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
-      "published": "2026-10-16T01:28:27+00:00",
+      "id": "460fbf9a3796",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "published": "2026-10-16T14:26:51+00:00",
       "summary": [
-        "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some [&#8230;]"
+        "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
-    },
-    {
-      "id": "4dc555334ce0",
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "published": "2026-10-15T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 2
     },
     {
       "id": "97d7dc6dd616",
@@ -57,26 +38,45 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "482e4b85ac53",
+      "title": "The Download: failed social media bans, and extending pets’ lives",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+      "published": "2026-10-16T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That’s not a problem we need to solve. —Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "953a262ff105",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "published": "2026-10-15T22:43:23+00:00",
+      "id": "4dc555334ce0",
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "published": "2026-10-15T12:10:00+00:00",
       "summary": [
-        "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,30 +97,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "37156a5985cb",
-      "title": "飞傲预热新一代圈铁 Hi-Fi 耳机 FX25：单侧采用 1 圈 2 铁 4 静电“七单元”设计，10 月 19 日上市，4999 元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/013/998.htm",
-      "published": "2026-10-16T08:43:41+00:00",
-      "summary": [
-        "IT之家 10 月 16 日消息，飞傲宣布旗下入耳式圈铁静混合单元 Hi-Fi 耳机 FX25 将于 10 月 19 日上市，该产品是 FX15 的升级换代型号，定价为 4999 元",
-        "该耳机单侧采用 1 圈 2 铁 4 静电共七颗单元，其中一颗 10mm 锂镁合金振膜动圈负责低频；两颗楼氏定制动铁分别承担中频与高频衔接；四颗丹麦声扬静电单元负责高频与极高频，高频延伸可达 50kHz，呈现静电单元特有的细腻泛音",
-        "相比前代 FX15（1 圈 1 铁 4 静电），多增加了一颗中频动铁，官方称核心目的是补齐中频密度，调音向流行人声倾斜"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 6
     },
     {
       "id": "03f6ba590769",
@@ -139,68 +118,66 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "9e6b0764fb44",
+      "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/116355",
+      "published": "2026-10-16T00:23:12+00:00",
+      "summary": [
+        "SpaceXAI 发布 Grok Voice 3.0 语音模型、微软发布 XBOX Nano 口袋手柄等"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "ad681665153f",
-      "title": "明年 7 月起实施，电动摩托车锂电池强制性国标发布",
+      "id": "0b5be7529140",
+      "title": "Apple&#8217;s HomeView has an app problem",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/013/999.htm",
-      "published": "2026-10-16T08:44:11+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
+      "published": "2026-10-16T15:38:17+00:00",
       "summary": [
-        "IT之家 10 月 16 日消息，近日，市场监管总局（国家标准委）批准发布《电动摩托车和电动轻便摩托车用锂离子电池安全要求》（GB 36672—2026）强制性国家标准，将自 2027 年 7 月 1 日起实施",
-        "近年来，我国电动摩托车产业快速发展，锂离子电池在电动摩托车上应用日益广泛，相关安全风险也随之上升",
-        "为进一步提升电动摩托车锂离子电池安全技术水平，市场监管总局会同工业和信息化部加快标准更新升级，系统性地对电动摩托车和电动轻便摩托车锂离子电池提出了安全技术要求和试验方法"
+        "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "0839ec4f1c18",
-      "title": "Ramp reaches $60B valuation as it pushes deeper into AI",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
-      "published": "2026-10-15T14:47:09+00:00",
+      "id": "e2a15ea3bcdb",
+      "title": "Six wild ideas for perpetuating your mind",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
+      "published": "2026-10-15T09:00:00+00:00",
       "summary": [
-        "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000."
+        "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "b79cf62ab2ac",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "published": "2026-10-15T20:04:53+00:00",
-      "summary": [
-        "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
