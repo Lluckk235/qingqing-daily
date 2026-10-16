@@ -1,47 +1,9 @@
 {
   "date": "2026-10-16",
-  "generated": "2026-10-16T11:06:59.848213+08:00",
+  "generated": "2026-10-16T16:44:46.183949+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "953a262ff105",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "published": "2026-10-15T22:43:23+00:00",
-      "summary": [
-        "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "287b7f7f97fe",
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
-      "published": "2026-10-15T21:09:33+00:00",
-      "summary": [
-        "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "58e2c1ef1b1f",
       "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
@@ -57,9 +19,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "4dc555334ce0",
@@ -78,22 +40,60 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "97d7dc6dd616",
+      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+      "published": "2026-10-16T05:16:46+00:00",
+      "summary": [
+        "Benchmark says the Valley’s rule against backing rivals is getting harder to keep."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "953a262ff105",
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "published": "2026-10-15T22:43:23+00:00",
+      "summary": [
+        "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "11a04e47a812",
-      "title": "DeepSeek 出现服务故障，官方补偿 1 周 Token 消耗；库克：苹果智能月底在华发测试版；特斯拉、SpaceX 最快年底合并｜极客早知道",
+      "id": "3c75fcd2c714",
+      "title": "苹果和 Meta 和好了，是 AI 逼的",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372430",
-      "published": "2026-10-16T00:15:00+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372458",
+      "published": "2026-10-16T06:41:48+00:00",
       "summary": [
-        "DeepSeek 服务故障近 5 小时，官方补偿所有 API 用户 7 天内的消耗金额 10 月 15 日消息，DeepSeek 网页 / API 服务今日（10 月 15 日）早间出现服务问题，经过近 5 个小时的修复，终于恢复正常",
-        "对此，DeepSeek 官方开放平台发布服务恢复及补偿通知，将补偿所有 API 用户 7 天内的消耗金额： 北京时间 2026 年 10 月 15 日 8:11 至 13:04 期间，我们的服务系统出现故障，导致该时段内 API 服务无法正常使用",
-        "对于此次故障给您带来的不便与困扰，我们深表歉意"
+        "没有永远的敌人，只有永远的 AI 焦虑",
+        "10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则",
+        "起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,42 +102,67 @@
       "rank": 5
     },
     {
-      "id": "9e6b0764fb44",
-      "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
+      "id": "37156a5985cb",
+      "title": "飞傲预热新一代圈铁 Hi-Fi 耳机 FX25：单侧采用 1 圈 2 铁 4 静电“七单元”设计，10 月 19 日上市，4999 元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/013/998.htm",
+      "published": "2026-10-16T08:43:41+00:00",
+      "summary": [
+        "IT之家 10 月 16 日消息，飞傲宣布旗下入耳式圈铁静混合单元 Hi-Fi 耳机 FX25 将于 10 月 19 日上市，该产品是 FX15 的升级换代型号，定价为 4999 元",
+        "该耳机单侧采用 1 圈 2 铁 4 静电共七颗单元，其中一颗 10mm 锂镁合金振膜动圈负责低频；两颗楼氏定制动铁分别承担中频与高频衔接；四颗丹麦声扬静电单元负责高频与极高频，高频延伸可达 50kHz，呈现静电单元特有的细腻泛音",
+        "相比前代 FX15（1 圈 1 铁 4 静电），多增加了一颗中频动铁，官方称核心目的是补齐中频密度，调音向流行人声倾斜"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "03f6ba590769",
+      "title": "是的，特斯拉真造了一辆「飞行汽车」！",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116355",
-      "published": "2026-10-16T00:23:12+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372459",
+      "published": "2026-10-16T06:46:47+00:00",
       "summary": [
-        "SpaceXAI 发布 Grok Voice 3.0 语音模型、微软发布 XBOX Nano 口袋手柄等"
+        "历史，是由疯子和工程师创造的",
+        "我们知道马斯克是个疯子，但没想到他能这么疯",
+        "当地时间 10 月 16 日，在 SpaceX 于州 McGregor/Waco 的火箭试验场上，一段向上垂直弯过来的人造公路上，一台白色跑车以匪夷所思的状态，反重力地贴在了上面的弯上"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "f7d4b2ccd075",
-      "title": "苹果AI国内上线，阿里百度浮出水面",
+      "id": "ad681665153f",
+      "title": "明年 7 月起实施，电动摩托车锂电池强制性国标发布",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/503497.html",
-      "published": "2026-10-15T06:52:45+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/013/999.htm",
+      "published": "2026-10-16T08:44:11+00:00",
       "summary": [
-        "苹果 Apple Intelligence（苹果智能）在中国大陆的上线进入最后阶段"
+        "IT之家 10 月 16 日消息，近日，市场监管总局（国家标准委）批准发布《电动摩托车和电动轻便摩托车用锂离子电池安全要求》（GB 36672—2026）强制性国家标准，将自 2027 年 7 月 1 日起实施",
+        "近年来，我国电动摩托车产业快速发展，锂离子电池在电动摩托车上应用日益广泛，相关安全风险也随之上升",
+        "为进一步提升电动摩托车锂离子电池安全技术水平，市场监管总局会同工业和信息化部加快标准更新升级，系统性地对电动摩托车和电动轻便摩托车锂离子电池提出了安全技术要求和试验方法"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "0839ec4f1c18",
@@ -156,7 +181,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "b79cf62ab2ac",
@@ -173,26 +198,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "e2a15ea3bcdb",
-      "title": "Six wild ideas for perpetuating your mind",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
-      "published": "2026-10-15T09:00:00+00:00",
-      "summary": [
-        "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 10
     }
