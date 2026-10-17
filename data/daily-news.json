@@ -1,9 +1,28 @@
 {
   "date": "2026-10-17",
-  "generated": "2026-10-17T16:15:28.692081+08:00",
+  "generated": "2026-10-17T22:57:00.828620+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "657279cf248c",
+      "title": "Websites are closing their doors to AI agents",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "published": "2026-10-17T13:00:00+00:00",
+      "summary": [
+        "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "57c41972947e",
       "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
@@ -16,25 +35,6 @@
       "published": "2026-10-16T18:00:00+00:00",
       "summary": [
         "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "4466435dcf8e",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "published": "2026-10-16T17:52:24+00:00",
-      "summary": [
-        "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,7 +78,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 4
     },
@@ -99,7 +99,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": true,
       "rank": 5
     },
@@ -123,23 +123,23 @@
       "rank": 6
     },
     {
-      "id": "d1985562139a",
-      "title": "制造商 Elevation Lab 宣布下架苹果 AirTag 消音工具，公开致歉承认“产品可能被用于秘密跟踪他人”",
+      "id": "1ec691324b43",
+      "title": "网易《逆水寒：新世界》首个大型资料片【苗疆蛊事】官宣，首次采用双线更新框架",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/327.htm",
-      "published": "2026-10-17T08:13:55+00:00",
+      "sourceUrl": "https://www.ithome.com/1/014/409.htm",
+      "published": "2026-10-17T14:43:51+00:00",
       "summary": [
-        "IT之家 10 月 17 日消息，据外媒 Appleinsider 报道，配件厂商 Elevation Lab 发布公告，宣布下架旗下 AirTag 消音工具 AirTag Silencer，并就产品可能被用于跟踪他人一事公开道歉",
-        "据介绍，AirTag Silencer 旨在让用户永久摧毁苹果 AirTag 内置的扬声器，使其不会发出任何声音",
-        "使用时，用户需要先取出 AirTag 电池，再将追踪器放入专用固定模具，随后用锤子将一根销钉直接打入扬声器"
+        "IT之家 10 月 17 日消息，网易逆水寒官宣，10 月 30 日，《逆水寒：新世界》首个大型资料片【苗疆蛊事】正式开启，将首次采用双线更新的框架",
+        "根据官方介绍，苗寨会在月色渐显时展示出另一幅面孔",
+        "而当血月升起，刚刚流连的山水，也有了让人忍不住追问的秘密"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
     },
@@ -179,26 +179,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "5968706b9db7",
-      "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+      "id": "22e7dd11aa1a",
+      "title": "Apple’s HomeView is just the latest threat to online recipe writers",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
-      "published": "2026-10-16T22:51:22+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting",
+      "published": "2026-10-17T12:00:00+00:00",
       "summary": [
-        "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexualized deepfakes, including minors. Apple didn't pull X or Grok from the App [&#8230;]"
+        "When Apple revealed the HomeView to the world, it did so with an unusual ad for the company: Instead of pristine, polished tech in immaculate rooms, it's a three-minute look at the messy, frantic morning routine of a family of five. Apple's new smart display sits in the center of the chaos on the kitchen [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     }
