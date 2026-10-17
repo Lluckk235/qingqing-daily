@@ -1,40 +1,40 @@
 {
   "date": "2026-10-17",
-  "generated": "2026-10-17T00:04:35.223569+08:00",
+  "generated": "2026-10-17T10:58:57.866364+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "460fbf9a3796",
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "id": "57c41972947e",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "published": "2026-10-16T14:26:51+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "published": "2026-10-16T18:00:00+00:00",
       "summary": [
-        "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
+        "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "97d7dc6dd616",
-      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
+      "id": "4466435dcf8e",
+      "title": "India becomes the latest country to report rogue AI agent activity",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
-      "published": "2026-10-16T05:16:46+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "published": "2026-10-16T17:52:24+00:00",
       "summary": [
-        "Benchmark says the Valley’s rule against backing rivals is getting harder to keep."
+        "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -57,47 +57,49 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "4dc555334ce0",
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "published": "2026-10-15T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "3c75fcd2c714",
-      "title": "苹果和 Meta 和好了，是 AI 逼的",
+      "id": "15cc205d4b50",
+      "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372458",
-      "published": "2026-10-16T06:41:48+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372488",
+      "published": "2026-10-17T00:22:32+00:00",
       "summary": [
-        "没有永远的敌人，只有永远的 AI 焦虑",
-        "10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则",
-        "起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息"
+        "苹果官网 2026 年的 iPhone Duo 已售罄",
+        "发货日期排到明年 1 月 22 日 10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开",
+        "开售一分钟左右，各大电商平台即显示该机型售罄"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "5015ae7270cb",
+      "title": "1 分钟售罄、发货排到明年，iPhone Duo 卖爆背后的真相",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372509",
+      "published": "2026-10-17T02:46:16+00:00",
+      "summary": [
+        "人们已经很多年没见过，苹果的新品被这样抢了",
+        "10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购",
+        "社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
       "isNativeCN": true,
       "rank": 5
     },
@@ -118,7 +120,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
@@ -137,45 +139,45 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "0b5be7529140",
-      "title": "Apple&#8217;s HomeView has an app problem",
+      "id": "dc4c4d427c13",
+      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+      "published": "2026-10-17T02:36:18+00:00",
+      "summary": [
+        "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "5968706b9db7",
+      "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
-      "published": "2026-10-16T15:38:17+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+      "published": "2026-10-16T22:51:22+00:00",
       "summary": [
-        "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And [&#8230;]"
+        "Apple's App Store rules now more explicitly ban so-called \"nudify\" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexualized deepfakes, including minors. Apple didn't pull X or Grok from the App [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "e2a15ea3bcdb",
-      "title": "Six wild ideas for perpetuating your mind",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
-      "published": "2026-10-15T09:00:00+00:00",
-      "summary": [
-        "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
       "isNativeCN": false,
       "rank": 9
     }
