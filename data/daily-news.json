@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
-  "generated": "2026-10-18T16:32:32.554271+08:00",
-  "total": 8,
+  "generated": "2026-10-18T23:22:49.421130+08:00",
+  "total": 7,
   "defaultDisplay": 6,
   "news": [
     {
@@ -24,84 +24,80 @@
       "rank": 1
     },
     {
-      "id": "657279cf248c",
-      "title": "Websites are closing their doors to AI agents",
+      "id": "24a6bb2519a4",
+      "title": "Meta removes language that raised scraping and AI training concerns",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "published": "2026-10-17T13:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "published": "2026-10-17T21:31:32+00:00",
       "summary": [
-        "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, [&#8230;]"
+        "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "15cc205d4b50",
-      "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372488",
-      "published": "2026-10-17T00:22:32+00:00",
+      "id": "6ff478e26165",
+      "title": "The best gadget I bought this year is a milk frother",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
+      "published": "2026-10-18T13:00:00+00:00",
       "summary": [
-        "苹果官网 2026 年的 iPhone Duo 已售罄",
-        "发货日期排到明年 1 月 22 日 10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开",
-        "开售一分钟左右，各大电商平台即显示该机型售罄"
+        "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good. But the drink I unexpectedly found myself obsessed with was their [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
+      "score": 5,
+      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "5015ae7270cb",
-      "title": "1 分钟售罄、发货排到明年，iPhone Duo 卖爆背后的真相",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372509",
-      "published": "2026-10-17T02:46:16+00:00",
+      "id": "7e2b69f4791a",
+      "title": "Cities want to put the boot on robotaxis",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+      "published": "2026-10-18T12:00:00+00:00",
       "summary": [
-        "人们已经很多年没见过，苹果的新品被这样抢了",
-        "10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购",
-        "社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄"
+        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law [&#8230;]"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 3.5,
-      "isNativeCN": true,
+      "score": 5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "72b15dce3b68",
-      "title": "王自如称“想与罗永浩和解”",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "bcbe64b9db0d",
+      "title": "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/527.htm",
-      "published": "2026-10-18T08:24:29+00:00",
+      "sourceUrl": "https://www.ithome.com/1/014/615.htm",
+      "published": "2026-10-18T15:16:16+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，据东方财经报道，在微博 V 影响力大会科技论坛上，王自如就“再给一次机会，是否还会和罗永浩吵架”作出回应",
-        "他表示：“我下次可能就是十字路口了吧，借微博喊话，不吵了和解了",
-        "如果你想吵架成为大 V 的话，输赢并不重要，比如我是吧"
+        "IT之家 10 月 18 日消息，据科技媒体 TechSpot 今天报道，索尼最近申请一项专利，描绘以下场景：让 AI 在 GPU 完成渲染前预测下一帧画面，减少游戏画面卡顿，同时避免帧生成技术带来的额外延迟",
+        "IT之家从原报道获悉，这项技术能够解决帧生成的缺点，让显示画面不再等待两帧画面完成渲染，才能生成插入其中的中间帧",
+        "而是直接利用已经生成的画面预测下一帧，无需等待两帧画面就能插值，帮助游戏维持更稳定的帧输出节奏"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
@@ -120,47 +116,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "dc4c4d427c13",
-      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
-      "published": "2026-10-17T02:36:18+00:00",
-      "summary": [
-        "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "22e7dd11aa1a",
-      "title": "Apple’s HomeView is just the latest threat to online recipe writers",
+      "id": "6c8620aebf62",
+      "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting",
-      "published": "2026-10-17T12:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+      "published": "2026-10-17T15:30:00+00:00",
       "summary": [
-        "When Apple revealed the HomeView to the world, it did so with an unusual ad for the company: Instead of pristine, polished tech in immaculate rooms, it's a three-minute look at the messy, frantic morning routine of a family of five. Apple's new smart display sits in the center of the chaos on the kitchen [&#8230;]"
+        "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     }
   ]
 }
