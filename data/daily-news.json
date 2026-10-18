@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
-  "generated": "2026-10-18T11:01:15.782369+08:00",
-  "total": 9,
+  "generated": "2026-10-18T16:32:32.554271+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -43,108 +43,86 @@
       "rank": 2
     },
     {
-      "id": "75f175e6457c",
-      "title": "中奖者并非随机选出，马斯克就百万美元选民抽奖欺诈诉讼达成和解",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/467.htm",
-      "published": "2026-10-18T02:53:29+00:00",
+      "id": "15cc205d4b50",
+      "title": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372488",
+      "published": "2026-10-17T00:22:32+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，2024 年，埃隆・马斯克承诺每天向摇摆州一名随机抽选的登记选民发放 100 万美元（IT之家注：现汇率约合 670.3 万元人民币）奖金",
-        "该活动引发了多项法律争议，其合法性受到质疑，还有两名亚利桑那州居民提起诉讼，称这场抽奖属于欺诈",
-        "目前马斯克已同意和解这两起在得州奥斯汀立案的诉讼，不过和解协议的细节并未对外公开"
+        "苹果官网 2026 年的 iPhone Duo 已售罄",
+        "发货日期排到明年 1 月 22 日 10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开",
+        "开售一分钟左右，各大电商平台即显示该机型售罄"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "2b46e3fb85ca",
-      "title": "陈立武：美国政府不会干预英特尔经营，公司重组工作已完成 80%",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/463.htm",
-      "published": "2026-10-18T02:32:50+00:00",
+      "id": "5015ae7270cb",
+      "title": "1 分钟售罄、发货排到明年，iPhone Duo 卖爆背后的真相",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372509",
+      "published": "2026-10-17T02:46:16+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，英特尔首席执行官陈立武（Lip-Bu Tan）在接受《日经新闻》专访时表示，美国总统唐纳德・特朗普的政府没有任何政策打算借助所持英特尔少数股权干预这家芯片厂商的经营战略",
-        "陈立武本月早些时候在东京称：“他们没有相关政策，对公司治理也不具备任何影响力",
-        "”他强调英特尔保持“独立”，有权基于自身最大利益自主决策"
+        "人们已经很多年没见过，苹果的新品被这样抢了",
+        "10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购",
+        "社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 3.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "9abc24a93d4a",
-      "title": "零跑 A10s 上市：全新镜夜黑外观、505km 续航，9.28 万元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "72b15dce3b68",
+      "title": "王自如称“想与罗永浩和解”",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/460.htm",
-      "published": "2026-10-18T02:22:54+00:00",
+      "sourceUrl": "https://www.ithome.com/1/014/527.htm",
+      "published": "2026-10-18T08:24:29+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，零跑汽车今日宣布零跑 A10s 正式上市，上市指导价 9.28 万元",
-        "IT之家获悉，新车采用全新镜夜黑外观、专属摩登灰内饰，此外还包含以下专属内容：专属 18 英寸酷黑运动轮毂专属枪灰色零跑 LOGO、专属「s」红色尾标专属仿麂皮座椅、专属枪灰冷调座舱装饰专属红色缝线座椅、专属小零刺绣新车定位智能精品长续航 SUV，拥有 1.55 平方米全景天幕（99.9% 紫外线隔绝玻璃，带电动遮阳帘）、2.63 平方米超大软包（全球标准环保材料）；官方称新车得房率 88.1%，拥有 106L 可冲洗下沉储物舱",
-        "新车搭载激光雷达 + 车位到车位领航辅助驾驶，拥有 8295/8650 双旗舰芯片；续航 505km，30%-80% 补能 16 分钟；搭载七合一油冷电驱，最高车速 160km/h"
+        "IT之家 10 月 18 日消息，据东方财经报道，在微博 V 影响力大会科技论坛上，王自如就“再给一次机会，是否还会和罗永浩吵架”作出回应",
+        "他表示：“我下次可能就是十字路口了吧，借微博喊话，不吵了和解了",
+        "如果你想吵架成为大 V 的话，输赢并不重要，比如我是吧"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "ce115264749f",
-      "title": "华为 nova 12 / 13 系列手机推 HarmonyOS 7 花粉 Beta 尝鲜升级，新增远程分享、直连供电等功能",
+      "id": "6826351d0e95",
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/453.htm",
-      "published": "2026-10-18T01:41:46+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/504067.html",
+      "published": "2026-10-17T12:21:09+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，华为官网在 10 月 16 日更新了鸿蒙 7 系统最新适配清单，华为 nova 12 系列、nova 13 系列手机开启了 HarmonyOS 7 花粉 Beta 尝鲜升级",
-        "IT之家注意到，华为官方宣布，华为 nova 12 系列、nova 13 系列手机已开启 HarmonyOS 7 花粉 Beta 尝鲜版本的升级推送，新增远程分享、智能录音等功能",
-        "适配机型HUAWEI nova 13（BLK-AL80）HUAWEI nova 13 Pro（MIS-AL00）HUAWEI nova 12（BLK-AL00）HUAWEI nova 12 Pro（ADA-AL00）HUAWEI nova 12 Ultra（ADA-AL00U）HUAWEI nova 12 Ultra 星耀版（ADA-AL10U）▲ IT之家图赏：华为 nova 13 系列真机实拍版本更新日志6.1.0.135SP8 / 6.1.0.135SP9 / 6.1.0.145 → 7.0.0.109SP8 更新点：【沉浸光感】视效覆盖更多场景，例如图标拖入大文件夹、手指滑动应用界面菜单栏等通用组件，都会产生灵动的光影动效，让每次指尖交互更沉浸、有趣 (支持档位调节：设置&gt; 桌面和个性化 &gt; 沉浸光感)"
+        "新版本V4.1-Flash-1017，还开放了自研搜索API"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
-    },
-    {
-      "id": "a3ea7e7c46ba",
-      "title": "华为 WATCH FIT 5 系列智能手表 HarmonyOS 7 版本 7.0.0.107SP10 发布，支持同步手机地震预警等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/447.htm",
-      "published": "2026-10-18T01:08:02+00:00",
-      "summary": [
-        "IT之家 10 月 18 日消息，华为官方宣布，HUAWEI WATCH FIT 5 系列智能手表的鸿蒙 HarmonyOS 7 版本 7.0.0.107SP10 已开始分批推送给公测版升级尝鲜报名入选成功的用户",
-        "IT之家附华为 WATCH FIT 5 系列智能手表此次更新内容如下：适配机型HUAWEI WATCH FIT 5 （NKI-B19）HUAWEI WATCH FIT 5 Pro（NKI-B29）版本更新日志6.1.0.116SP11 / 6.1.0.116SP12 / 6.1.0.125SP15 → 7.0.0.107SP10 更新点：【新增】1. 系统界面焕新升级，表盘及多任务列表等新增光影效果，锻炼记录及计算器等页面更具层次感，为您呈现更舒适的交互体验2. 新增 HarmonyOS 7 光穹表盘，柔和流光漫过盘面，光影层次细腻通透，将静谧和灵动凝于腕间3. 新增万象模块表盘，支持自由搭配喝水、萌宠天气、熊猫敲木鱼等组件，轻松打造好看又好玩的专属表盘4. 情绪健康新增毛茸茸和星尘主题，给心情换个新皮肤，以柔软或辽阔，接住您此刻的心情 (情绪健康应用&gt; 设置 &gt; 主题)5. 新增腕上家庭空间，支持实时关注家人健康和运动数据，还可通过手表发送问候，随时传递对家人的关心 (请将华为运动健康应用更新至最新版本)6. 华为创新研究应用新增冠心病研究项目，可在手表侧直接启动冠心病风险评估（HUAWEI WATCH FIT 5 Pro 支持）7. 支持在手表侧激活脉搏波心律失常分析、心电图（心电图 HUAWEI WATCH FIT 5 Pro 支持）8. 设置中“常亮显示”更名为“熄屏显示”，同时控制中心支持添加熄屏显示快捷入口9. 支持同步华为手机地震预警消息，及时通知提升安全保障10. 闹钟应用全新改版，带来更个性化的唤醒体验：1) 支持闹钟铃声单独设置，您可自由更换闹钟系统铃声2) 支持单个闹钟选择振动强度，同时振动支持与铃声同步，让振动节奏更贴合您的偏好 (闹钟&gt; 新建或编辑闹钟 &gt; 闹钟铃声 &gt; 振动)11. 滑雪运动涵盖户外双板、户外单板、越野滑雪、室内双板、室内单板五大模式，支持越野滑雪轨迹导入和分享、滑雪地图下载，让您尽享滑雪乐趣12. 支持连接高阶功率计和骑行台，让每一次骑行训练都有据可依，科学提升骑行表现 (设置&gt; 更多连接 &gt; 运动健康设备管理)13. 锻炼记录新增 AI 解读按钮，需要时一键生成，不需要时不打扰【优化】1. 高尔夫功能体验提升，让您精进每一杆：（HUAWEI WATCH FIT 5 Pro 支持）1) 新增坡度补偿、击球距离功能2) 半场报告页面支持暂存球局 3) 优化击球参考线显示逻辑，以及默认发球台选择和开球上球道体验2. 优化骑行锻炼记录的坡度展示，支持上坡和下坡坡度区分，数据更清晰直观 3. 增强视频表盘的自定义能力，最多可添加 5 个自定义视频需要注意的是，因版本限制，用户需要将手表先升级到 6.1.0.116SP11 / 6.1.0.116SP12 / 6.1.0.125SP15 版本，否则收不到版本推送"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 7
     },
     {
       "id": "dc4c4d427c13",
@@ -163,7 +141,7 @@
       "tags": [],
       "score": 3.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "22e7dd11aa1a",
@@ -182,7 +160,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     }
   ]
 }
