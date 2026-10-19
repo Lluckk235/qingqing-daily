@@ -1,101 +1,103 @@
 {
-  "date": "2026-10-19",
-  "generated": "2026-10-19T17:35:25.938777+08:00",
-  "total": 9,
+  "date": "2026-10-20",
+  "generated": "2026-10-20T02:19:43.168154+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "f36f6aa4e7c2",
-      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+      "id": "e7a08d8bbd49",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
-      "published": "2026-10-18T22:20:53+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "published": "2026-10-19T17:45:55+00:00",
       "summary": [
-        "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he [&#8230;]"
+        "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "22be4d8914e6",
-      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
+      "id": "10e42c60f68d",
+      "title": "People are using AI to make their smart TVs dumb again",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
-      "published": "2026-10-18T21:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "published": "2026-10-19T16:13:22+00:00",
       "summary": [
-        "Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms"
+        "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "6ff478e26165",
-      "title": "The best gadget I bought this year is a milk frother",
+      "id": "e48ad8ad7f7a",
+      "title": "Vibe coding is turning the music gear world upside down",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
-      "published": "2026-10-18T13:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+      "published": "2026-10-19T12:30:00+00:00",
       "summary": [
-        "Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good. But the drink I unexpectedly found myself obsessed with was their [&#8230;]"
+        "If you spend any time on r/synthesizers or watch a lot of synth videos on YouTube, you've probably noticed the explosion of custom firmware for hardware synthesizers, samplers, and grooveboxes. What unites almost all of them is that they were made possible by increasingly sophisticated vibe-coding tools. These sorts of custom firmware were exceedingly rare [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "7e2b69f4791a",
-      "title": "Cities want to put the boot on robotaxis",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
-      "published": "2026-10-18T12:00:00+00:00",
-      "summary": [
-        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on autonomous vehicles, policy, and road rules, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started The first state to pass a law [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "67564a7a06dd",
-      "title": "MemSilicon完成超 4 亿元 A 轮融资，宣布战略升级",
+      "id": "4e6681c96c11",
+      "title": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372545",
-      "published": "2026-10-19T04:00:32+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372578",
+      "published": "2026-10-19T10:10:03+00:00",
       "summary": [
-        "10 月 19 日，铭芯启睿（MemSilicon）宣布完成超 4 亿元 A 轮融资",
-        "本轮融资由博原资本领投，博世创投、创领资本、米哈游、中关村科学城公司、兆易创新等跟投，老股东复容投资、国开科创、恒裕资本、锦秋基金、顺禧基金、小米战投、中科创星持续加注",
-        "本轮融资将主要用于 RRAM 的产业化与商业化，以及新产品 LPU 的研发"
+        "过去几年，AI 行业热衷于比参数、拼算力、讲融资",
+        "但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露",
+        "设备能不能 24 小时运行"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "b0e6f5317147",
+      "title": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/015/054.htm",
+      "published": "2026-10-19T16:14:13+00:00",
+      "summary": [
+        "【00:15 更新】苹果已确认发布会时间，官方将于美国当地东部时间 10 月 28 日下午 1 时（北京时间 10 月 29 日凌晨 1:00）在美国洛杉矶举办本月第二场新品发布活动",
+        "IT之家 10 月 20 日消息，苹果官方账号在小红书发文，透露“好多好消息，下周和你说”，暗示将于下周举行特别活动，届时将推出一系列新品，不过官方尚未公布具体时间信息",
+        "IT之家注意到，此前有消息称苹果大概率下周三正式发布一批新品，包含搭载 OLED 屏幕的 MacBook Pro、配备 M6 芯片的 14 英寸 MacBook Pro 与 iMac，以及搭载 OLED 屏幕的 iPad mini 8，相应产品预计将于 11 月 6 日发售"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
@@ -116,43 +118,41 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "2f8437886a9d",
-      "title": "马斯克：明年向全美儿童赠送 SpaceX 股票",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/956.htm",
-      "published": "2026-10-19T09:30:00+00:00",
-      "summary": [
-        "IT之家 10 月 19 日消息，埃隆 · 马斯克今日在 X 平台发布置顶消息，将在明年把自己的 SpaceX 股票送给美国的每个孩子，而这只是开始",
-        "综合IT之家此前报道，美国亿万富翁埃隆・马斯克一直提倡多生孩子，自己也身体力行成为了十多个孩子的父亲（最新爆料为 &nbsp;14 个）",
-        "他曾敦促意大利和其他发达国家的人们生育更多孩子，否则像意大利、日本和法国这样的国家文化可能会消失"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "98751df3872c",
-      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "id": "96c03e4a4483",
+      "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
-      "published": "2026-10-19T07:30:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+      "published": "2026-10-19T18:00:39+00:00",
       "summary": [
-        "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India."
+        "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "a092a505ce49",
+      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
+      "published": "2026-10-19T12:42:55+00:00",
+      "summary": [
+        "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific populations\" after its upcoming IPO."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -161,23 +161,42 @@
       "rank": 8
     },
     {
-      "id": "816ca3a8233f",
-      "title": "Video game ownership bill introduced in Congress",
+      "id": "fadf8b8c2da7",
+      "title": "Amazon is funding a new nuclear plant in Indiana",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
-      "published": "2026-10-18T16:27:51+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+      "published": "2026-10-19T15:44:20+00:00",
       "summary": [
-        "Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers ownership of a game when they pay for it, rather than a licensing agreement. It's increasingly common for [&#8230;]"
+        "Amazon has signed an agreement with X-energy and American Electric Power (AEP) to fund the building of a new nuclear energy facility in Indiana. The proposed plant, which would replace the now defunct coal-fueled Breed Generating Station in Fairbanks, Sullivan County, aims to provide up to 960 megawatts of carbon-free energy for both the regional [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "3e002b88e8f3",
+      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
+      "published": "2026-10-19T12:56:14+00:00",
+      "summary": [
+        "The company updated its guidelines with strong language around AI and user-generated content, and how app developers should include enough preventative measures to moderate objectionable or offensive content."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
