@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-18",
-  "generated": "2026-10-18T23:22:49.421130+08:00",
-  "total": 7,
+  "date": "2026-10-19",
+  "generated": "2026-10-19T11:14:38.441690+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "5329074f8958",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "id": "f36f6aa4e7c2",
+      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "published": "2026-10-17T18:48:08+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
+      "published": "2026-10-18T22:20:53+00:00",
       "summary": [
-        "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
+        "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "24a6bb2519a4",
-      "title": "Meta removes language that raised scraping and AI training concerns",
+      "id": "22be4d8914e6",
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "published": "2026-10-17T21:31:32+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
+      "published": "2026-10-18T21:00:00+00:00",
       "summary": [
-        "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
+        "Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,24 +76,24 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "bcbe64b9db0d",
-      "title": "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿",
+      "id": "372908d307c2",
+      "title": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/014/615.htm",
-      "published": "2026-10-18T15:16:16+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372514",
+      "published": "2026-10-19T01:18:11+00:00",
       "summary": [
-        "IT之家 10 月 18 日消息，据科技媒体 TechSpot 今天报道，索尼最近申请一项专利，描绘以下场景：让 AI 在 GPU 完成渲染前预测下一帧画面，减少游戏画面卡顿，同时避免帧生成技术带来的额外延迟",
-        "IT之家从原报道获悉，这项技术能够解决帧生成的缺点，让显示画面不再等待两帧画面完成渲染，才能生成插入其中的中间帧",
-        "而是直接利用已经生成的画面预测下一帧，无需等待两帧画面就能插值，帮助游戏维持更稳定的帧输出节奏"
+        "OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha",
+        "三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色",
+        "但相关条目很快便从模型列表中消失"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,23 +102,42 @@
       "rank": 5
     },
     {
-      "id": "6826351d0e95",
-      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "id": "4c9183788986",
+      "title": "派早报：三季度全球手机出货量继续两位数下降",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/504067.html",
-      "published": "2026-10-17T12:21:09+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/116641",
+      "published": "2026-10-18T23:13:24+00:00",
       "summary": [
-        "新版本V4.1-Flash-1017，还开放了自研搜索API"
+        "三季度全球手机出货量继续两位数下降Roadster 发布会留下诸多疑问闰时将取代闰秒微软声称 Windows 11 响应提速 20%，为 8GB 优化E Ink 发布 Kaleido 4全国铁路列车车次编排更新看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "816ca3a8233f",
+      "title": "Video game ownership bill introduced in Congress",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act",
+      "published": "2026-10-18T16:27:51+00:00",
+      "summary": [
+        "Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers ownership of a game when they pay for it, rather than a licensing agreement. It's increasingly common for [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 7
     },
     {
       "id": "6c8620aebf62",
@@ -135,9 +154,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     }
   ]
 }
