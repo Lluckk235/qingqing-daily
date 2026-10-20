@@ -1,40 +1,40 @@
 {
   "date": "2026-10-20",
-  "generated": "2026-10-20T02:19:43.168154+08:00",
+  "generated": "2026-10-20T11:23:20.427471+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "e7a08d8bbd49",
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-      "published": "2026-10-19T17:45:55+00:00",
+      "id": "b750360bd4ac",
+      "title": "The fossil fuel comeback is here",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "published": "2026-10-19T21:48:01+00:00",
       "summary": [
-        "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is&#8230;"
+        "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despite those growing demands, the [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "10e42c60f68d",
-      "title": "People are using AI to make their smart TVs dumb again",
+      "id": "f94da7fb555a",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-      "published": "2026-10-19T16:13:22+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "published": "2026-10-19T22:49:27+00:00",
       "summary": [
-        "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs."
+        "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,21 +43,21 @@
       "rank": 2
     },
     {
-      "id": "e48ad8ad7f7a",
-      "title": "Vibe coding is turning the music gear world upside down",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
-      "published": "2026-10-19T12:30:00+00:00",
+      "id": "244c6a89b0fc",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "published": "2026-10-19T22:04:28+00:00",
       "summary": [
-        "If you spend any time on r/synthesizers or watch a lot of synth videos on YouTube, you've probably noticed the explosion of custom firmware for hardware synthesizers, samplers, and grooveboxes. What unites almost all of them is that they were made possible by increasingly sophisticated vibe-coding tools. These sorts of custom firmware were exceedingly rare [&#8230;]"
+        "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,53 +78,76 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "b0e6f5317147",
-      "title": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
+      "id": "c375bb4f8c8c",
+      "title": "马斯克向特朗普的儿童储蓄账户捐 80 亿美元，美国财长公开致谢",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/015/213.htm",
+      "published": "2026-10-20T03:12:00+00:00",
+      "summary": [
+        "IT之家 10 月 20 日消息，美国财政部部长斯科特 · 贝森特（Scott Bessent）今日在 X 平台发文，感谢埃隆 · 马斯克为下一代投资",
+        "“已经有超过 80 亿美元（IT之家注：现汇率约合 535.49 亿元人民币）存入儿童账户，这笔非凡的捐赠将使这一总数更上一层楼",
+        "随着特朗普账户的持续发展，我们期待更多慈善家加入这一运动，帮助美国各地的儿童启动他们的财务未来"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "33e34a4e520a",
+      "title": "闪迪 ELE SE 移动固态硬盘 500GB 版本开售：读取速度最高 600MB/s，499 元",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/054.htm",
-      "published": "2026-10-19T16:14:13+00:00",
+      "sourceUrl": "https://www.ithome.com/1/015/214.htm",
+      "published": "2026-10-20T03:18:54+00:00",
       "summary": [
-        "【00:15 更新】苹果已确认发布会时间，官方将于美国当地东部时间 10 月 28 日下午 1 时（北京时间 10 月 29 日凌晨 1:00）在美国洛杉矶举办本月第二场新品发布活动",
-        "IT之家 10 月 20 日消息，苹果官方账号在小红书发文，透露“好多好消息，下周和你说”，暗示将于下周举行特别活动，届时将推出一系列新品，不过官方尚未公布具体时间信息",
-        "IT之家注意到，此前有消息称苹果大概率下周三正式发布一批新品，包含搭载 OLED 屏幕的 MacBook Pro、配备 M6 芯片的 14 英寸 MacBook Pro 与 iMac，以及搭载 OLED 屏幕的 iPad mini 8，相应产品预计将于 11 月 6 日发售"
+        "IT之家 10 月 20 日消息，闪迪 ELE SE 移动固态硬盘 500GB 版本今日开售，售价 499 元",
+        "这款移动固态硬盘读取速度可达 600MB/s，尺寸为 75mm × 45mm × 10mm，重量约 31.7g；无活动部件设计，支持高达 2 米跌落保护；配备 USB 3.2 Gen 2 (10Gbps) Type-C 接口",
+        "IT之家附这款产品参数（1TB 版本此前已开售，目前售价 758 元）：京东 Sandisk 闪迪精灵 500GB 移动硬盘 499 元直达链接京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "4c9183788986",
-      "title": "派早报：三季度全球手机出货量继续两位数下降",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116641",
-      "published": "2026-10-18T23:13:24+00:00",
-      "summary": [
-        "三季度全球手机出货量继续两位数下降Roadster 发布会留下诸多疑问闰时将取代闰秒微软声称 Windows 11 响应提速 20%，为 8GB 优化E Ink 发布 Kaleido 4全国铁路列车车次编排更新看看就行的简讯少数派的近期动态你可能错过的好文章查看全文"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
       "rank": 6
     },
     {
+      "id": "82c4c15edb7c",
+      "title": "苹果收紧 App Store 开发者准则，严打 AI 不良内容与换皮“脱衣”应用",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/015/212.htm",
+      "published": "2026-10-20T03:08:30+00:00",
+      "summary": [
+        "IT之家 10 月 20 日消息，苹果于上周末收紧开发者准则，禁止两类应用：一类是利用 AI 生成冒犯性内容的应用；另一类是伪装成普通应用通过 App Store 审核，上架后变身脱衣类应用，或是重点展示相关功能的应用",
+        "苹果更新了准则中关于 AI 和用户生成内容的严苛条款，明确要求开发者必须设置充足的防范机制，对不良或冒犯性内容实施内容审核",
+        "苹果在一篇博客文章中写道：“托管用户生成内容的应用，必须过滤违规素材，为用户提供举报不良内容的渠道，并且支持用户拉黑违规账号"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
       "id": "96c03e4a4483",
-      "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
+      "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -137,64 +160,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "a092a505ce49",
-      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
-      "published": "2026-10-19T12:42:55+00:00",
-      "summary": [
-        "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific populations\" after its upcoming IPO."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "fadf8b8c2da7",
-      "title": "Amazon is funding a new nuclear plant in Indiana",
+      "id": "67511f2f58d3",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
-      "published": "2026-10-19T15:44:20+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "published": "2026-10-19T18:37:27+00:00",
       "summary": [
-        "Amazon has signed an agreement with X-energy and American Electric Power (AEP) to fund the building of a new nuclear energy facility in Indiana. The proposed plant, which would replace the now defunct coal-fueled Breed Generating Station in Fairbanks, Sullivan County, aims to provide up to 960 megawatts of carbon-free energy for both the regional [&#8230;]"
+        "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "3e002b88e8f3",
-      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "id": "93c8d3fbccda",
+      "title": "Apple teases MacBook Pro event next week",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review/",
-      "published": "2026-10-19T12:56:14+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement",
+      "published": "2026-10-19T16:04:29+00:00",
       "summary": [
-        "The company updated its guidelines with strong language around AI and user-generated content, and how app developers should include enough preventative measures to moderate objectionable or offensive content."
+        "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, according to Bloomberg. The big announcement is expected to be a new MacBook Pro with an OLED [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 10
     }
