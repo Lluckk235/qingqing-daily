@@ -1,21 +1,21 @@
 {
   "date": "2026-10-21",
-  "generated": "2026-10-21T00:20:52.107464+08:00",
-  "total": 9,
+  "generated": "2026-10-21T11:18:12.994312+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "1064d47d80e1",
-      "title": "The Download: the claim shaking up AI and the internet’s agent problem",
+      "id": "c1e957c841e9",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
-      "published": "2026-10-20T12:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "published": "2026-10-20T22:11:34+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We were looking at it wrong”: The explosive claim that’s upended the AI world “I think I have good news about the nature of neural networks.” With those simple words of&#8230;"
+        "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,44 +24,124 @@
       "rank": 1
     },
     {
-      "id": "254f1995dd63",
-      "title": "AI adoption by industry shows what other sectors can learn",
+      "id": "b275807812b7",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-      "published": "2026-10-20T12:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "published": "2026-10-20T20:35:10+00:00",
       "summary": [
-        "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;"
+        "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "ca7d78c1b4ff",
-      "title": "华为详解 Wi-Fi 7+ 端到端芯片解决方案，支持动态窄频宽、真双频并发、无缝漫游等技术",
+      "id": "ede255a6490f",
+      "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
+      "published": "2026-10-20T20:32:09+00:00",
+      "summary": [
+        "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "533cd4579491",
+      "title": "Melt it, spin it, use it again",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
+      "published": "2026-10-20T21:00:00+00:00",
+      "summary": [
+        "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn.&#160; The thermoplastic yarn mimics the properties of conventional elastic yarns, which typically combine spandex with polyester or nylon. Those&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "ea5c974b88af",
+      "title": "Adobe 大改 Photoshop 滤镜逻辑：修图不再“一改就毁”",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/613.htm",
-      "published": "2026-10-20T15:52:46+00:00",
+      "sourceUrl": "https://www.ithome.com/1/015/726.htm",
+      "published": "2026-10-21T03:10:02+00:00",
       "summary": [
-        "IT之家 10 月 20 日消息，华为官网迎来更新，详细介绍了 Wi-Fi 7+ 端到端芯片解决方案",
-        "华为官网显示，基于标准 Wi-Fi 7 协议，华为 Wi-Fi 7+ 依⁠托凌霄 760 系列路由与终端芯片，构筑端到端同源架构",
-        "通过芯片级底层协⁠议的深度协同与联合调试，消除异构芯⁠片间的兼容损耗，实现“1+1＞2”的性⁠能提升"
+        "IT之家 10 月 21 日消息，科技媒体 Digital Camera World 昨日（10 月 20 日）发布博文，报道称 Adobe 正重新设计 Photoshop 的滤镜工作方式，现有方案像是“把滤镜印到照片上”，而新机制则是“把滤镜变成一个可随时移动、调节和撤回的效果层”",
+        "在目前版本的 Photoshop 中，用户选择某个滤镜后，通常需要先选中一个图层，再在弹出的设置窗口中调整参数并点击确认",
+        "滤镜效果随后会被直接应用到该图层的像素上"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "id": "21a1547dc3b6",
+      "title": "智界 V9 第 3 万台下线，连续四个月获 40 万元以上 MPV 市场销冠",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/015/732.htm",
+      "published": "2026-10-21T03:11:32+00:00",
+      "summary": [
+        "IT之家 10 月 21 日消息，@智界汽车 今天（21 日）上午宣布，智界 V9 第 30000 台正式下线",
+        "该车型上市以来，连续四个月获 40 万以上 MPV 市场销量冠军",
+        "该车于今年 5 月 15 日上市，售价 38.98 万-51.98 万元，尺寸为 5359×2009×1879mm、轴距达 3250mm，拥有辉光紫、雪域白、深海蓝、鎏金黑四款外观配色，以及绒霞紫、韶华杏、赤茶橘三款内饰配色"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "34e31d61ce0f",
+      "title": "消息称微软 XBOX 酝酿 Game Pass 游戏订阅“模块化”改革",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/015/722.htm",
+      "published": "2026-10-21T03:06:41+00:00",
+      "summary": [
+        "IT之家 10 月 21 日消息，《财富》在当地时间 20 日的一篇报道中表示，Microsoft（微软）XBOX 计划对其订阅制服务 Game Pass 进行重大改革",
+        "现有的 XBOX Game Pass 采用简单分级模式，每个级别捆绑了一系列相对固定的服务",
+        "而新版 Game Pass 在延续分级的同时采用“模块化”设计，允许用户按需组合各项功能（如主机独占游戏的附加内容、云游戏、多人游戏）"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "07782975ed83",
@@ -80,9 +160,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 8
     },
     {
       "id": "a394f8eb8387",
@@ -99,85 +179,47 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 9
     },
     {
-      "id": "55a52765c341",
-      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+      "id": "e947a3266b35",
+      "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "published": "2026-10-20T13:17:36+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+      "published": "2026-10-20T21:30:24+00:00",
       "summary": [
-        "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt."
+        "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of independent directors (though he did not name them). He also [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 10
     },
     {
-      "id": "4d8d2d06fa1f",
-      "title": "Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-      "published": "2026-10-20T07:01:00+00:00",
-      "summary": [
-        "Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "30bafa79041d",
-      "title": "Spotify launches paid podcast memberships with perks beyond bonus content",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/",
-      "published": "2026-10-20T12:00:00+00:00",
-      "summary": [
-        "Spotify's new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "ddccf82cc082",
-      "title": "TikTok employees said they knew about child safety issues, but execs failed to act",
+      "id": "6a897257a555",
+      "title": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1014250/tiktok-employees-internal-child-safety-warnings",
-      "published": "2026-10-20T13:11:23+00:00",
+      "sourceUrl": "https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers",
+      "published": "2026-10-20T22:20:11+00:00",
       "summary": [
-        "TikTok was repeatedly warned by its own staffers about risks its platform posed to child safety, according to court records obtained by NPR. The publication reports that employees were frustrated over TikTok executives failing to appropriately act on concerns they raised, including minors bypassing age-restricted content, and appearing in \"transactional sexual content\" the company could [&#8230;]"
+        "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 11
     }
   ]
 }
