@@ -1,59 +1,59 @@
 {
-  "date": "2026-10-21",
-  "generated": "2026-10-21T17:07:01.140681+08:00",
+  "date": "2026-10-22",
+  "generated": "2026-10-22T00:36:24.440091+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "c1e957c841e9",
-      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "id": "e5aa83717086",
+      "title": "Conversational Gemini navigation comes to Apple CarPlay",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "published": "2026-10-20T22:11:34+00:00",
+      "sourceUrl": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+      "published": "2026-10-21T15:00:00+00:00",
       "summary": [
-        "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving [&#8230;]"
+        "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "b275807812b7",
-      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "id": "5afba8050415",
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-      "published": "2026-10-20T20:35:10+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "published": "2026-10-21T13:57:43+00:00",
       "summary": [
-        "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
+        "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "ede255a6490f",
-      "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+      "id": "aaa6acc9325e",
+      "title": "The Download: introducing the Impossible issue",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
-      "published": "2026-10-20T20:32:09+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
+      "published": "2026-10-21T12:10:00+00:00",
       "summary": [
-        "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -62,38 +62,38 @@
       "rank": 3
     },
     {
-      "id": "533cd4579491",
-      "title": "Melt it, spin it, use it again",
+      "id": "09b335133eb7",
+      "title": "Interspecies communication",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
-      "published": "2026-10-20T21:00:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/",
+      "published": "2026-10-21T09:00:00+00:00",
       "summary": [
-        "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn.&#160; The thermoplastic yarn mimics the properties of conventional elastic yarns, which typically combine spandex with polyester or nylon. Those&#8230;"
+        "Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient creatures who think,&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "034953b0e80e",
-      "title": "亚马逊 CTO Dr. Werner Vogels：二十余年技术实践，想与创业者分享这 4 点",
+      "id": "a45dea2cabe8",
+      "title": "奇瑞说，中国家庭的下一台车是摩托",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372671",
-      "published": "2026-10-21T04:16:25+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372692",
+      "published": "2026-10-21T14:26:58+00:00",
       "summary": [
-        "在 2026 年 亚马逊云科技软件企业峰会创业加速营巅峰路演 上，亚马逊副总裁兼首席技术官 Werner Vogels 博士与极客公园创始人 &amp; CEO 张鹏进行了一场极具深度的炉边对谈",
-        "面对当下狂热的 AI 创业潮与复杂的技术演进，Vogels 博士分享了亚马逊云科技走过二十年的底层商业逻辑，并为初创企业给出了极具实操性的避坑建议",
-        "左：亚马逊副总裁兼首席技术官 Werner Vogels 博士 右：极客公园创始人 &amp; CEO 张鹏 以下是两位对谈内容的精华梳理： 01 起点与颠覆： 被逼出来的创新与 彻底改变的 IT 商业模式 张鹏：您在二十年前加入了亚马逊，那时的亚马逊还只是一家相对较小的初创公司"
+        "「SUV 有了、轿车有了、MPV 也有了，你再买什么",
+        "中国家庭接下来要买的车，就是一台摩托",
+        "」 说这话的是奇瑞智能科技副总经理涂小岳"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,120 +102,120 @@
       "rank": 5
     },
     {
-      "id": "1e40ac750825",
-      "title": "为下代桌面平台打前站：技嘉注册超 20 个英特尔 Z990 主板型号",
+      "id": "77cd1339a385",
+      "title": "安卓阵营首款阔直板手机酷派 COOL X Wide 售价公布：999~1399 元，搭载联发科曦力 G99 芯片 + 720p 屏幕",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/989.htm",
-      "published": "2026-10-21T09:05:02+00:00",
+      "sourceUrl": "https://www.ithome.com/1/016/160.htm",
+      "published": "2026-10-21T16:14:46+00:00",
       "summary": [
-        "IT之家 10 月 21 日消息，技嘉 (GIGABYTE) 本月向欧亚经济联盟注册了超 20 个英特尔 Z990 主板型号，为英特尔第 4 代酷睿 Ultra \"Nova Lake\" 桌面处理器和英特尔 800 系列主板的推出进行准备",
-        "IT之家注意到，此次注册的型号覆盖 ATX、Micro-ATX、Mini-ITX 板型（应该也包括 E-ATX），含 ATX 背插型号；其中多个型号使用 DUO X 尾缀，应该是采用 2DIMM (1DPC) 设计、支持 CQDIMM 的内存超频强化款式",
-        "AORUS Z990 XTREME（旗舰）AORUS Z990 MASTERAORUS Z990 MASTER ICEAORUS Z990 MASTER DUO XAORUS Z990 PROAORUS Z990 PRO ICEAORUS Z990 PRO DUO X ICEAORUS Z990 I PRO（Mini-ITX）AORUS Z990 ELITE WIFI7AORUS Z990 ELITE WIFI7 ICEAORUS Z990 ELITE DUO X WIFI7AORUS Z990M ELITE WIFI7AORUS Z990M ELITE WIFI7 ICEAORUS Z990 STEALTH DUO X（背插）AORUS Z990 STEALTH DUO X ICE（背插）Z990 AERO WOOD（木艺）Z990 AERO DARK WOOD（木艺）Z990 AERO GZ990 D WIFI7Z990 EAGLE WIFI7Z990 EAGLE WIFI7 ICEZ990 FORCE DUO X WIFI7Z990 GAMING WIFI7Z990M DS3H WIFI7相关阅读：《英特尔 Nova Lake 平台加速推进，华擎 5 款 Z990 主板货运记录曝光》《英特尔 Z990/Z970 原型主板亮相 Computex 2026：Nova Lake 首批 sku 预计 2027 年初发布，52 核旗舰型号延迟》《技嘉展出未来英特尔 MSDT 主板样品，具备 3 组 EPS 8-Pin CPU 供电》"
+        "IT之家 10 月 22 日消息，安卓阵营首款阔直板手机，也是酷派首款阔直板手机 Cool X Wide 在京东开启预约，将于 11 月 8 日正式发售",
+        "价格方面，8GB+128GB 版本 999 元，8GB+256GB 版本 1199 元，12GB+256GB 版本 1399 元",
+        "这款新机搭载 6.38 英寸 16:10 屏幕，仅 720x1158 分辨率，还支持 90Hz 刷新率；有鎏白、岩黑、嫣红三种配色可选，机身尺寸为 150.3×94.5×8.95mm，后置 5000 万像素摄像头"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "07782975ed83",
-      "title": "1 分钟售罄、发货排到明年，iPhone Duo 卖爆背后的真相",
+      "id": "7fd119089927",
+      "title": "苹果公布 Apple Music 全新品牌标识，创作灵感来自声音振动、声波实拍",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372583",
-      "published": "2026-10-20T01:34:14+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/016/157.htm",
+      "published": "2026-10-21T15:53:23+00:00",
       "summary": [
-        "人们已经很多年没见过，苹果的新品被这样抢了",
-        "10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购",
-        "社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄"
+        "IT之家 10 月 21 日消息，苹果音乐（Apple Music）官方今日宣布推出全新身份标识",
+        "此次设计以“Made by Sound”（由声音塑造）为核心概念，邀请英国音乐制作人 Fred again.. 与 NEST Acoustics 共同参与，将声音振动转化为可视化的图形效果",
+        "据 Wallpaper* 报道，Apple Music 制作团队先创作了一段音乐，再通过换能器将声音转化为物理振动，使浅层矿物油表面产生波纹"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "e947a3266b35",
-      "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
-      "published": "2026-10-20T21:30:24+00:00",
-      "summary": [
-        "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of independent directors (though he did not name them). He also [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "55a52765c341",
-      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+      "id": "8a69890f7018",
+      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
-      "published": "2026-10-20T13:17:36+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
+      "published": "2026-10-21T14:03:11+00:00",
       "summary": [
-        "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt."
+        "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "b01ac18b5757",
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+      "published": "2026-10-20T22:57:57+00:00",
+      "summary": [
+        "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "1be57de72338",
-      "title": "SpaceX says big AI growth fueled revenue jump",
+      "id": "b14d2c98d7d9",
+      "title": "Anthropic’s cloud partnerships are getting messy",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
-      "published": "2026-10-20T20:26:58+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "published": "2026-10-20T21:25:22+00:00",
       "summary": [
-        "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 [&#8230;]"
+        "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "6a897257a555",
-      "title": "Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program",
+      "id": "19e03a859ebf",
+      "title": "Apple Music has a new logo",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1014989/trump-fraud-tips-program-nick-shirley-influencers",
-      "published": "2026-10-20T22:20:11+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1015533/apple-music-new-logo",
+      "published": "2026-10-21T15:48:12+00:00",
       "summary": [
-        "Donald Trump and Vice President JD Vance said on Tuesday that the Trump administration was giving right-wing YouTuber Nick Shirley $10,000 and launching a $25 million bounty program for members of the public to report fraud. In December 2025, Shirley published a viral video alleging fraud at daycares in Minnesota that were operated by members [&#8230;]"
+        "Apple is officially launching a rebrand of Apple Music. Following the appearance of a redesigned wordmark in a video and an updated app icon in an iOS 27.2 beta, Apple introduced the new \"identity\" for Apple Music today. There's a new logo, the updated wordmark, and a new sound composed by British producer Fred Again [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 11
     }
