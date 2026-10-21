@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generated": "2026-10-21T11:18:12.994312+08:00",
+  "generated": "2026-10-21T17:07:01.140681+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,24 +76,24 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "ea5c974b88af",
-      "title": "Adobe 大改 Photoshop 滤镜逻辑：修图不再“一改就毁”",
+      "id": "034953b0e80e",
+      "title": "亚马逊 CTO Dr. Werner Vogels：二十余年技术实践，想与创业者分享这 4 点",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/726.htm",
-      "published": "2026-10-21T03:10:02+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372671",
+      "published": "2026-10-21T04:16:25+00:00",
       "summary": [
-        "IT之家 10 月 21 日消息，科技媒体 Digital Camera World 昨日（10 月 20 日）发布博文，报道称 Adobe 正重新设计 Photoshop 的滤镜工作方式，现有方案像是“把滤镜印到照片上”，而新机制则是“把滤镜变成一个可随时移动、调节和撤回的效果层”",
-        "在目前版本的 Photoshop 中，用户选择某个滤镜后，通常需要先选中一个图层，再在弹出的设置窗口中调整参数并点击确认",
-        "滤镜效果随后会被直接应用到该图层的像素上"
+        "在 2026 年 亚马逊云科技软件企业峰会创业加速营巅峰路演 上，亚马逊副总裁兼首席技术官 Werner Vogels 博士与极客公园创始人 &amp; CEO 张鹏进行了一场极具深度的炉边对谈",
+        "面对当下狂热的 AI 创业潮与复杂的技术演进，Vogels 博士分享了亚马逊云科技走过二十年的底层商业逻辑，并为初创企业给出了极具实操性的避坑建议",
+        "左：亚马逊副总裁兼首席技术官 Werner Vogels 博士 右：极客公园创始人 &amp; CEO 张鹏 以下是两位对谈内容的精华梳理： 01 起点与颠覆： 被逼出来的创新与 彻底改变的 IT 商业模式 张鹏：您在二十年前加入了亚马逊，那时的亚马逊还只是一家相对较小的初创公司"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,46 +102,25 @@
       "rank": 5
     },
     {
-      "id": "21a1547dc3b6",
-      "title": "智界 V9 第 3 万台下线，连续四个月获 40 万元以上 MPV 市场销冠",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "1e40ac750825",
+      "title": "为下代桌面平台打前站：技嘉注册超 20 个英特尔 Z990 主板型号",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/732.htm",
-      "published": "2026-10-21T03:11:32+00:00",
+      "sourceUrl": "https://www.ithome.com/1/015/989.htm",
+      "published": "2026-10-21T09:05:02+00:00",
       "summary": [
-        "IT之家 10 月 21 日消息，@智界汽车 今天（21 日）上午宣布，智界 V9 第 30000 台正式下线",
-        "该车型上市以来，连续四个月获 40 万以上 MPV 市场销量冠军",
-        "该车于今年 5 月 15 日上市，售价 38.98 万-51.98 万元，尺寸为 5359×2009×1879mm、轴距达 3250mm，拥有辉光紫、雪域白、深海蓝、鎏金黑四款外观配色，以及绒霞紫、韶华杏、赤茶橘三款内饰配色"
+        "IT之家 10 月 21 日消息，技嘉 (GIGABYTE) 本月向欧亚经济联盟注册了超 20 个英特尔 Z990 主板型号，为英特尔第 4 代酷睿 Ultra \"Nova Lake\" 桌面处理器和英特尔 800 系列主板的推出进行准备",
+        "IT之家注意到，此次注册的型号覆盖 ATX、Micro-ATX、Mini-ITX 板型（应该也包括 E-ATX），含 ATX 背插型号；其中多个型号使用 DUO X 尾缀，应该是采用 2DIMM (1DPC) 设计、支持 CQDIMM 的内存超频强化款式",
+        "AORUS Z990 XTREME（旗舰）AORUS Z990 MASTERAORUS Z990 MASTER ICEAORUS Z990 MASTER DUO XAORUS Z990 PROAORUS Z990 PRO ICEAORUS Z990 PRO DUO X ICEAORUS Z990 I PRO（Mini-ITX）AORUS Z990 ELITE WIFI7AORUS Z990 ELITE WIFI7 ICEAORUS Z990 ELITE DUO X WIFI7AORUS Z990M ELITE WIFI7AORUS Z990M ELITE WIFI7 ICEAORUS Z990 STEALTH DUO X（背插）AORUS Z990 STEALTH DUO X ICE（背插）Z990 AERO WOOD（木艺）Z990 AERO DARK WOOD（木艺）Z990 AERO GZ990 D WIFI7Z990 EAGLE WIFI7Z990 EAGLE WIFI7 ICEZ990 FORCE DUO X WIFI7Z990 GAMING WIFI7Z990M DS3H WIFI7相关阅读：《英特尔 Nova Lake 平台加速推进，华擎 5 款 Z990 主板货运记录曝光》《英特尔 Z990/Z970 原型主板亮相 Computex 2026：Nova Lake 首批 sku 预计 2027 年初发布，52 核旗舰型号延迟》《技嘉展出未来英特尔 MSDT 主板样品，具备 3 组 EPS 8-Pin CPU 供电》"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
-    },
-    {
-      "id": "34e31d61ce0f",
-      "title": "消息称微软 XBOX 酝酿 Game Pass 游戏订阅“模块化”改革",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/015/722.htm",
-      "published": "2026-10-21T03:06:41+00:00",
-      "summary": [
-        "IT之家 10 月 21 日消息，《财富》在当地时间 20 日的一篇报道中表示，Microsoft（微软）XBOX 计划对其订阅制服务 Game Pass 进行重大改革",
-        "现有的 XBOX Game Pass 采用简单分级模式，每个级别捆绑了一系列相对固定的服务",
-        "而新版 Game Pass 在延续分级的同时采用“模块化”设计，允许用户按需组合各项功能（如主机独占游戏的附加内容、云游戏、多人游戏）"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 7
     },
     {
       "id": "07782975ed83",
@@ -162,26 +141,7 @@
       "tags": [],
       "score": 4.5,
       "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "a394f8eb8387",
-      "title": "派早报：MiniMax 发布 M3.1 Flash 模型等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116758",
-      "published": "2026-10-20T00:39:33+00:00",
-      "summary": [
-        "索尼发布三款高端 Walkman 播放器，掌阅推出 Ocean 6 Pro 电纸书等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "e947a3266b35",
@@ -198,7 +158,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "55a52765c341",
+      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+      "published": "2026-10-20T13:17:36+00:00",
+      "summary": [
+        "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "1be57de72338",
+      "title": "SpaceX says big AI growth fueled revenue jump",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+      "published": "2026-10-20T20:26:58+00:00",
+      "summary": [
+        "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 10
     },
@@ -217,7 +215,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 11
     }
