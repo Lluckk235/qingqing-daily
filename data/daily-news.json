@@ -1,44 +1,44 @@
 {
   "date": "2026-10-22",
-  "generated": "2026-10-22T00:36:24.440091+08:00",
+  "generated": "2026-10-22T11:16:44.204632+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "e5aa83717086",
-      "title": "Conversational Gemini navigation comes to Apple CarPlay",
+      "id": "12af459ff8f6",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-      "published": "2026-10-21T15:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "published": "2026-10-21T20:27:41+00:00",
       "summary": [
-        "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring [&#8230;]"
+        "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "5afba8050415",
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "id": "e6b6d4852fc9",
+      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "published": "2026-10-21T13:57:43+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "published": "2026-10-21T19:30:00+00:00",
       "summary": [
-        "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]"
+        "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,24 +76,24 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "a45dea2cabe8",
-      "title": "奇瑞说，中国家庭的下一台车是摩托",
+      "id": "2e078a37b8da",
+      "title": "微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372692",
-      "published": "2026-10-21T14:26:58+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372711",
+      "published": "2026-10-22T00:48:32+00:00",
       "summary": [
-        "「SUV 有了、轿车有了、MPV 也有了，你再买什么",
-        "中国家庭接下来要买的车，就是一台摩托",
-        "」 说这话的是奇瑞智能科技副总经理涂小岳"
+        "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI 10 月 22 日消息，Anthropic 昨日（10 月 21 日）宣布以研究预览版形式，推出全新应用 Claude Duet，定位为可主动工作的 AI 智能体（agent），加入由 Meta 的 Muse、以及 OpenAI 的 Dots 领衔的「全天候主动型 AI 助理」大战",
+        "技能方面，该应用会每天整理跨应用的重要事项、主动提醒需要处理的问题，并在用户离开后继续在后台完成被委托的任务",
+        "Claude Duet 基于 Claude Opus 5.5 构建，提供 iOS、Android 独立应用及 claude.ai 网页版"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,120 +102,118 @@
       "rank": 5
     },
     {
-      "id": "77cd1339a385",
-      "title": "安卓阵营首款阔直板手机酷派 COOL X Wide 售价公布：999~1399 元，搭载联发科曦力 G99 芯片 + 720p 屏幕",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "c3228d6024c9",
+      "title": "曾暴涨 7 倍，大模型企业 MiniMax 股价跌破 IPO 发行价",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/160.htm",
-      "published": "2026-10-21T16:14:46+00:00",
+      "sourceUrl": "https://www.ithome.com/1/016/269.htm",
+      "published": "2026-10-22T03:12:12+00:00",
       "summary": [
-        "IT之家 10 月 22 日消息，安卓阵营首款阔直板手机，也是酷派首款阔直板手机 Cool X Wide 在京东开启预约，将于 11 月 8 日正式发售",
-        "价格方面，8GB+128GB 版本 999 元，8GB+256GB 版本 1199 元，12GB+256GB 版本 1399 元",
-        "这款新机搭载 6.38 英寸 16:10 屏幕，仅 720x1158 分辨率，还支持 90Hz 刷新率；有鎏白、岩黑、嫣红三种配色可选，机身尺寸为 150.3×94.5×8.95mm，后置 5000 万像素摄像头"
+        "IT之家 10 月 22 日消息，MiniMax 的股价已经回吐自今年 1 月上市以来的全部涨幅",
+        "激烈的行业竞争，迫使投资者重新评估这家大模型企业",
+        "IT之家注意到，该股今日在港股盘中最大跌幅达 7.3%，跌至 159.3 港元，跌破其 IPO 发行价 165 港元"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "7fd119089927",
-      "title": "苹果公布 Apple Music 全新品牌标识，创作灵感来自声音振动、声波实拍",
+      "id": "65d8ff77da11",
+      "title": "派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/157.htm",
-      "published": "2026-10-21T15:53:23+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/116953",
+      "published": "2026-10-22T00:29:05+00:00",
       "summary": [
-        "IT之家 10 月 21 日消息，苹果音乐（Apple Music）官方今日宣布推出全新身份标识",
-        "此次设计以“Made by Sound”（由声音塑造）为核心概念，邀请英国音乐制作人 Fred again.. 与 NEST Acoustics 共同参与，将声音振动转化为可视化的图形效果",
-        "据 Wallpaper* 报道，Apple Music 制作团队先创作了一段音乐，再通过换能器将声音转化为物理振动，使浅层矿物油表面产生波纹"
+        "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "8a69890f7018",
-      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
+      "id": "f3f4777e9913",
+      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
-      "published": "2026-10-21T14:03:11+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "published": "2026-10-21T17:18:27+00:00",
       "summary": [
-        "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
+        "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "b01ac18b5757",
-      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "id": "338e501861df",
+      "title": "Flying Roadsters can’t lift Tesla’s flat Q3 revenues",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-      "published": "2026-10-20T22:57:57+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger",
+      "published": "2026-10-21T20:22:31+00:00",
       "summary": [
-        "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors."
+        "As the smoke clears from its outrageous Roadster demo, Tesla reported Q3 earnings on Wednesday - and the cold reality is that revenue has flatlined. Tesla said it earned $1.7 billion in net income on $28.0 billion in revenue in the quarter that ended in September 2026. Revenues were flat, while profits dropped 4 percent [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "b14d2c98d7d9",
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "ca1c5b18319b",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "published": "2026-10-20T21:25:22+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "published": "2026-10-21T21:14:19+00:00",
       "summary": [
-        "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
+        "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users."
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "19e03a859ebf",
-      "title": "Apple Music has a new logo",
+      "id": "da753419aa23",
+      "title": "YouTube says it isn’t testing hiding the dislike button",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1015533/apple-music-new-logo",
-      "published": "2026-10-21T15:48:12+00:00",
+      "sourceUrl": "https://www.theverge.com/streaming/1016206/youtube-dislike-button-videos",
+      "published": "2026-10-21T23:46:45+00:00",
       "summary": [
-        "Apple is officially launching a rebrand of Apple Music. Following the appearance of a redesigned wordmark in a video and an updated app icon in an iOS 27.2 beta, Apple introduced the new \"identity\" for Apple Music today. There's a new logo, the updated wordmark, and a new sound composed by British producer Fred Again [&#8230;]"
+        "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button moved into the three-dot menu. But a YouTube spokesperson, in a Wednesday statement to The Verge, confirmed that YouTube is \"not testing hiding [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 11
     }
