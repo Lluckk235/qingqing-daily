@@ -1,177 +1,181 @@
 {
-  "date": "2026-10-22",
-  "generated": "2026-10-22T17:09:06.859368+08:00",
-  "total": 12,
+  "date": "2026-10-23",
+  "generated": "2026-10-23T00:37:29.474871+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "aaa6acc9325e",
-      "title": "The Download: introducing the Impossible issue",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
-      "published": "2026-10-21T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "09b335133eb7",
-      "title": "Interspecies communication",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/",
-      "published": "2026-10-21T09:00:00+00:00",
-      "summary": [
-        "Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient creatures who think,&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "cb619168be94",
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "published": "2026-10-22T08:41:18+00:00",
-      "summary": [
-        "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "12af459ff8f6",
-      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "id": "73f5f9254af1",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "published": "2026-10-21T20:27:41+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "published": "2026-10-22T16:00:00+00:00",
       "summary": [
-        "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
+        "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "abd23a18317e",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "published": "2026-10-22T15:03:58+00:00",
+      "summary": [
+        "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "645925f2fc00",
+      "title": "Microsoft shuts down its beloved maker space",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1016389/microsoft-garage-closure-hackathon-notepad",
+      "published": "2026-10-22T16:00:00+00:00",
+      "summary": [
+        "Microsoft is closing down The Garage, a set of popular maker spaces where employees worked on experimental projects and collaborated on surprising new apps and hardware during the company's annual hackathon events. \"We're winding down The Garage program as a centralized function,\" says Microsoft in an internal FAQ to employees, seen by Notepad. \"We will [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "18fd054694f0",
+      "title": "The Download: computing’s next leap and permafrost’s climate threat",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "published": "2026-10-22T12:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "e23458a9b5ba",
-      "title": "睿因推出 15 合 1 雷电 5 扩展坞 BlitZDockM，含 M.2 插槽、四屏输出等",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/516.htm",
-      "published": "2026-10-22T08:58:07+00:00",
-      "summary": [
-        "IT之家 10 月 22 日消息，睿因（Wavlink）现已在海外市场推出全新 15 合 1 雷电 5 扩展坞 BlitZDockM，配备 M.2 插槽，并支持四屏输出，预计 12 月下旬发售",
-        "据介绍，这款产品内置一个 M.2 插槽，可安装 PCIe 4.0 x4 固态硬盘，读取速度高达 6200MB/s，写入速度 5900MB/s",
-        "配备三个雷电 5 接口，其中两个为下行接口，最高支持 15W 供电，数据传输速率可达 80Gbps，并支持 8K 60Hz 输出"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "7625f324cb0d",
-      "title": "AI 漫剧越做越快，赚钱却没那么容易了",
+      "id": "dbe951116388",
+      "title": "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372746",
-      "published": "2026-10-22T08:20:34+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372762",
+      "published": "2026-10-22T13:20:53+00:00",
       "summary": [
-        "&nbsp; 「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程",
-        "」 在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠这样描述正在兴起的「一人公司」",
-        "当日，阅文发布首批 AI 精品动画项目，将 DramaBuddy 漫剧助手升级为 OPC 一站式平台，并推出「IP 委员会」模式，试图把故事从文字到影像，再到后续开发的过程连接起来"
+        "过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬件成了投资市场的热门项目",
+        "但其实，很多成熟形态的硬件同样有 AI 化的需求",
+        "这也许没有「AI Native」的概念那么性感，但市场一点不小，复杂度丝毫不低"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "d80a17ef4666",
+      "title": "荣耀手表 Fit 6 现身官网：1.97 英寸 AMOLED 全面屏、适配 iOS / 鸿蒙设备，支持腕上微信",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/016/754.htm",
+      "published": "2026-10-22T15:52:03+00:00",
+      "summary": [
+        "IT之家 10 月 22 日消息，荣耀手表 Fit 6 已现身官网开启预订，主打“军规品质 &amp; 高亮大屏、专业健身模式、心脏健康守护、强劲续航”，价格暂未公布、上市时间待定",
+        "据介绍，荣耀手表 Fit 6 提供苔原绿、峡湾蓝、破晓橙、碳索黑、岩壁黑 5 种配色，尺寸为 47.5×40.73×11.39mm，适配 130-200mm 手腕尺寸；内置 620mAh 大容量电池，号称“告别电量焦虑”",
+        "新表配备 1.97 英寸 AMOLED 彩色全面屏，支持全屏触摸操作，拥有 1.82mm 超窄边框（屏占比 81.2%），分辨率为 410*502，拥有 332 PPI、60Hz 高刷"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "7ea9c8783cf5",
-      "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
+      "id": "f8537090d729",
+      "title": "里程碑时刻！曝华为鸿蒙 HarmonyOS 系统装机量突破 1 亿台",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116923",
-      "published": "2026-10-22T07:00:00+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/016/757.htm",
+      "published": "2026-10-22T16:18:49+00:00",
       "summary": [
-        "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角"
+        "IT之家 10 月 23 日消息，奇妙工具箱今日数据显示，华为鸿蒙 HarmonyOS 操作系统装机量突破 1 亿台，目前约 102,244,390 台",
+        "据IT之家此前报道，在今年 3 月的直播中，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东透露，鸿蒙系统用户规模正经历急剧增长，预计将在今年冬季前突破 1 亿大关",
+        "华为官网披露，截至 2026 年 6 月，全球鸿蒙开发者规模已超 1100 万，华为应用市场可获取的鸿蒙应用与服务数量突破 38 万"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "6e588321c04c",
-      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+      "id": "333aac90a1db",
+      "title": "方舟引擎新突破：华为详解 HarmonyOS 7 超空间存储 + 超空间内存技术",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/504832.html",
-      "published": "2026-10-22T07:11:14+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/016/755.htm",
+      "published": "2026-10-22T15:59:04+00:00",
       "summary": [
-        "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent"
+        "IT之家 10 月 22 日消息，华为官方今日发布图文，详细介绍了 HarmonyOS 7 系统的超空间存储 + 超空间内存技术，称其是方舟引擎的技术新突破",
+        "据介绍，运行内存（RAM）决定了手机能同时运行多少 App，可用运行内存耗尽时，系统就会触发“杀后台”，牺牲应用使用进度来保障前台流畅度；存储空间（ROM）决定了手机可以存储多少数据，可用存储空间不足时，手机不仅不能存储更多数据，还会在运行时卡顿",
+        "超空间内存技术提升了内存压缩率，帮助应用“瘦身”，进而提升应用保活率，手机内存更耐用，让 60+ 款机型保活体验全面升级，16GB 运行内存最多增加 3GB，可以保活的应用更多"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 8
     },
     {
-      "id": "f3f4777e9913",
-      "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+      "id": "3c76298aae99",
+      "title": "Investors break down how founders can raise a Series A today",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
-      "published": "2026-10-21T17:18:27+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
+      "published": "2026-10-22T15:15:00+00:00",
       "summary": [
-        "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion."
+        "Raising a Series A these days isn't so simple — top investors break down what founders need to know now."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -180,61 +184,42 @@
       "rank": 9
     },
     {
-      "id": "8a69890f7018",
-      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
+      "id": "05d30feac780",
+      "title": "Tesla says it will start selling Cybercabs by end of year",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
-      "published": "2026-10-21T14:03:11+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+      "published": "2026-10-22T00:17:54+00:00",
       "summary": [
-        "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
+        "Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company&#8217;s third-quarter earnings call, Lars Moravy, vice president of engineering at Tesla, [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "338e501861df",
-      "title": "Flying Roadsters can’t lift Tesla’s flat Q3 revenues",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger",
-      "published": "2026-10-21T20:22:31+00:00",
-      "summary": [
-        "As the smoke clears from its outrageous Roadster demo, Tesla reported Q3 earnings on Wednesday - and the cold reality is that revenue has flatlined. Tesla said it earned $1.7 billion in net income on $28.0 billion in revenue in the quarter that ended in September 2026. Revenues were flat, while profits dropped 4 percent [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 11
-    },
-    {
-      "id": "ca1c5b18319b",
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "id": "3ade36436c60",
+      "title": "Apple’s Magic Keyboards for iPad are about half off, with a small catch",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "published": "2026-10-21T21:14:19+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1016640/apple-magic-keyboards-ipad-air-pro-deal-sale",
+      "published": "2026-10-22T15:14:20+00:00",
       "summary": [
-        "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users."
+        "You can outfit your iPad Air or iPad Pro with one of Apple’s slick Magic Keyboards for considerably less than the accessory usually costs at Woot. I won’t bury the catch I teased in the headline; These cases have a 90-day warranty via Woot, and aren’t eligible for AppleCare. That said, Woot says they’re in [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 11
     }
   ]
 }
