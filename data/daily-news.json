@@ -1,21 +1,21 @@
 {
   "date": "2026-10-23",
-  "generated": "2026-10-23T00:37:29.474871+08:00",
+  "generated": "2026-10-23T11:22:12.702845+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "73f5f9254af1",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "id": "9369e7d1327d",
+      "title": "Etsy is cracking down on AI slop listings",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "published": "2026-10-22T16:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "published": "2026-10-23T00:09:58+00:00",
       "summary": [
-        "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide."
+        "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,17 +24,17 @@
       "rank": 1
     },
     {
-      "id": "abd23a18317e",
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "id": "73f803029b01",
+      "title": "Canva’s first AI image model plans designs before generating them",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "published": "2026-10-22T15:03:58+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "published": "2026-10-22T21:51:25+00:00",
       "summary": [
-        "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service."
+        "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,21 +43,21 @@
       "rank": 2
     },
     {
-      "id": "645925f2fc00",
-      "title": "Microsoft shuts down its beloved maker space",
+      "id": "2f22d175b2fe",
+      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1016389/microsoft-garage-closure-hackathon-notepad",
-      "published": "2026-10-22T16:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
+      "published": "2026-10-22T15:24:32+00:00",
       "summary": [
-        "Microsoft is closing down The Garage, a set of popular maker spaces where employees worked on experimental projects and collaborated on surprising new apps and hardware during the company's annual hackathon events. \"We're winding down The Garage program as a centralized function,\" says Microsoft in an internal FAQ to employees, seen by Notepad. \"We will [&#8230;]"
+        "Spotify told investors its rollout of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,24 +76,24 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "dbe951116388",
-      "title": "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺",
+      "id": "51dfde356eb3",
+      "title": "DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372762",
-      "published": "2026-10-22T13:20:53+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372767",
+      "published": "2026-10-23T00:49:03+00:00",
       "summary": [
-        "过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬件成了投资市场的热门项目",
-        "但其实，很多成熟形态的硬件同样有 AI 化的需求",
-        "这也许没有「AI Native」的概念那么性感，但市场一点不小，复杂度丝毫不低"
+        "DeepSeek 新一轮融资筹得约 1000 亿 10 月 22 日，有市场消息称，国内大模型公司 DeepSeek 拟在最新一轮融资中筹得约 1000 亿元人民币 ( 约 150 亿美元 )，腾讯和宁德时代为本轮出资最多的投资方，交易预计在未来数日内正式完成",
+        "截至目前，DeepSeek 及腾讯等相关投资方均未公开回应",
+        "记者从接近公司和投资方的多个信源交叉求证，确认上述消息属实"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,19 +102,19 @@
       "rank": 5
     },
     {
-      "id": "d80a17ef4666",
-      "title": "荣耀手表 Fit 6 现身官网：1.97 英寸 AMOLED 全面屏、适配 iOS / 鸿蒙设备，支持腕上微信",
+      "id": "c8494f047d97",
+      "title": "18 年未曾磨一剑，曝育碧《超越善恶 2》仍未进入正式开发阶段",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/754.htm",
-      "published": "2026-10-22T15:52:03+00:00",
+      "sourceUrl": "https://www.ithome.com/1/016/860.htm",
+      "published": "2026-10-23T03:16:24+00:00",
       "summary": [
-        "IT之家 10 月 22 日消息，荣耀手表 Fit 6 已现身官网开启预订，主打“军规品质 &amp; 高亮大屏、专业健身模式、心脏健康守护、强劲续航”，价格暂未公布、上市时间待定",
-        "据介绍，荣耀手表 Fit 6 提供苔原绿、峡湾蓝、破晓橙、碳索黑、岩壁黑 5 种配色，尺寸为 47.5×40.73×11.39mm，适配 130-200mm 手腕尺寸；内置 620mAh 大容量电池，号称“告别电量焦虑”",
-        "新表配备 1.97 英寸 AMOLED 彩色全面屏，支持全屏触摸操作，拥有 1.82mm 超窄边框（屏占比 81.2%），分辨率为 410*502，拥有 332 PPI、60Hz 高刷"
+        "IT之家 10 月 23 日消息，当地时间 22 日，据外媒 VGC 报道，育碧开发多年的《超越善恶 2》仍处于预制作阶段，尚未进入正式开发",
+        "《超越善恶 2》最早于 2008 年公布，2017 年重新亮相后，至今仍没有“近期发售”的迹象",
+        "游戏创作者米歇尔 · 安塞尔于 2020 年离开育碧，并宣布彻底退出游戏行业，转行从事野生动物方面的工作"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -123,19 +123,19 @@
       "rank": 6
     },
     {
-      "id": "f8537090d729",
-      "title": "里程碑时刻！曝华为鸿蒙 HarmonyOS 系统装机量突破 1 亿台",
+      "id": "03ec336b2010",
+      "title": "微信率先适配苹果 iPhone Duo 折叠屏手机，内屏支持分栏显示等功能",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/757.htm",
-      "published": "2026-10-22T16:18:49+00:00",
+      "sourceUrl": "https://www.ithome.com/1/016/859.htm",
+      "published": "2026-10-23T03:15:28+00:00",
       "summary": [
-        "IT之家 10 月 23 日消息，奇妙工具箱今日数据显示，华为鸿蒙 HarmonyOS 操作系统装机量突破 1 亿台，目前约 102,244,390 台",
-        "据IT之家此前报道，在今年 3 月的直播中，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东透露，鸿蒙系统用户规模正经历急剧增长，预计将在今年冬季前突破 1 亿大关",
-        "华为官网披露，截至 2026 年 6 月，全球鸿蒙开发者规模已超 1100 万，华为应用市场可获取的鸿蒙应用与服务数量突破 38 万"
+        "IT之家 10 月 23 日现场消息，苹果首款折叠屏手机 iPhone Duo 于今天发售，国行定价 15,999 元起",
+        "今天多地 Apple Store 提早到 8 点开业供用户取货",
+        "IT之家也在第一时间上手体验了全新 iPhone Duo"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -144,80 +144,78 @@
       "rank": 7
     },
     {
-      "id": "333aac90a1db",
-      "title": "方舟引擎新突破：华为详解 HarmonyOS 7 超空间存储 + 超空间内存技术",
+      "id": "7ea9c8783cf5",
+      "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/755.htm",
-      "published": "2026-10-22T15:59:04+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/116923",
+      "published": "2026-10-22T07:00:00+00:00",
       "summary": [
-        "IT之家 10 月 22 日消息，华为官方今日发布图文，详细介绍了 HarmonyOS 7 系统的超空间存储 + 超空间内存技术，称其是方舟引擎的技术新突破",
-        "据介绍，运行内存（RAM）决定了手机能同时运行多少 App，可用运行内存耗尽时，系统就会触发“杀后台”，牺牲应用使用进度来保障前台流畅度；存储空间（ROM）决定了手机可以存储多少数据，可用存储空间不足时，手机不仅不能存储更多数据，还会在运行时卡顿",
-        "超空间内存技术提升了内存压缩率，帮助应用“瘦身”，进而提升应用保活率，手机内存更耐用，让 60+ 款机型保活体验全面升级，16GB 运行内存最多增加 3GB，可以保活的应用更多"
+        "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 8
     },
     {
-      "id": "3c76298aae99",
-      "title": "Investors break down how founders can raise a Series A today",
+      "id": "c4c762c6b747",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
-      "published": "2026-10-22T15:15:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "published": "2026-10-22T22:08:24+00:00",
       "summary": [
-        "Raising a Series A these days isn't so simple — top investors break down what founders need to know now."
+        "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "05d30feac780",
-      "title": "Tesla says it will start selling Cybercabs by end of year",
+      "id": "35bbd93e4e1d",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
-      "published": "2026-10-22T00:17:54+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "published": "2026-10-22T19:45:00+00:00",
       "summary": [
-        "Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company&#8217;s third-quarter earnings call, Lars Moravy, vice president of engineering at Tesla, [&#8230;]"
+        "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "3ade36436c60",
-      "title": "Apple’s Magic Keyboards for iPad are about half off, with a small catch",
+      "id": "8dc6f2707dfe",
+      "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1016640/apple-magic-keyboards-ipad-air-pro-deal-sale",
-      "published": "2026-10-22T15:14:20+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
+      "published": "2026-10-22T23:50:41+00:00",
       "summary": [
-        "You can outfit your iPad Air or iPad Pro with one of Apple’s slick Magic Keyboards for considerably less than the accessory usually costs at Woot. I won’t bury the catch I teased in the headline; These cases have a 90-day warranty via Woot, and aren’t eligible for AppleCare. That said, Woot says they’re in [&#8230;]"
+        "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 11
     }
