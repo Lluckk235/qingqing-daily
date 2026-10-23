@@ -1,66 +1,9 @@
 {
   "date": "2026-10-23",
-  "generated": "2026-10-23T11:22:12.702845+08:00",
+  "generated": "2026-10-23T17:05:52.682429+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "9369e7d1327d",
-      "title": "Etsy is cracking down on AI slop listings",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-      "published": "2026-10-23T00:09:58+00:00",
-      "summary": [
-        "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "73f803029b01",
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "published": "2026-10-22T21:51:25+00:00",
-      "summary": [
-        "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "2f22d175b2fe",
-      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
-      "published": "2026-10-22T15:24:32+00:00",
-      "summary": [
-        "Spotify told investors its rollout of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
     {
       "id": "18fd054694f0",
       "title": "The Download: computing’s next leap and permafrost’s climate threat",
@@ -78,22 +21,79 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "523033e46bc5",
+      "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes",
+      "published": "2026-10-22T23:02:43+00:00",
+      "summary": [
+        "Spotify co-CEO Alex Norstr&#246;m confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR code verification method that requires scanning the plan manager's phone. TechCrunch reports that in response to a question about the \"crackdown,\" he called it a [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "c4f2e7d5237a",
+      "title": "Designing an AI serving harness built to last",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "published": "2026-10-22T21:17:29+00:00",
+      "summary": [
+        "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "9369e7d1327d",
+      "title": "Etsy is cracking down on AI slop listings",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "published": "2026-10-23T00:09:58+00:00",
+      "summary": [
+        "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "51dfde356eb3",
-      "title": "DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道",
+      "id": "069610f032c5",
+      "title": "中国 AI 硬件的下一个爆款，可能生在「网球场」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372767",
-      "published": "2026-10-23T00:49:03+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/372807",
+      "published": "2026-10-23T06:15:58+00:00",
       "summary": [
-        "DeepSeek 新一轮融资筹得约 1000 亿 10 月 22 日，有市场消息称，国内大模型公司 DeepSeek 拟在最新一轮融资中筹得约 1000 亿元人民币 ( 约 150 亿美元 )，腾讯和宁德时代为本轮出资最多的投资方，交易预计在未来数日内正式完成",
-        "截至目前，DeepSeek 及腾讯等相关投资方均未公开回应",
-        "记者从接近公司和投资方的多个信源交叉求证，确认上述消息属实"
+        "头图来源：Hirdwire2024 年巴黎奥运会，郑钦文在罗兰·加洛斯捧起金牌的那个下午，中国的网球场预订量在一周内翻了数倍",
+        "两年后，最先把这股热潮变成生意的，是一群造机器的深圳工程师",
+        "过去一年，至少四款中国团队打造的 AI 球类机器人在 Kickstarter 上筹得百万美元级资金"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,65 +102,44 @@
       "rank": 5
     },
     {
-      "id": "c8494f047d97",
-      "title": "18 年未曾磨一剑，曝育碧《超越善恶 2》仍未进入正式开发阶段",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/860.htm",
-      "published": "2026-10-23T03:16:24+00:00",
-      "summary": [
-        "IT之家 10 月 23 日消息，当地时间 22 日，据外媒 VGC 报道，育碧开发多年的《超越善恶 2》仍处于预制作阶段，尚未进入正式开发",
-        "《超越善恶 2》最早于 2008 年公布，2017 年重新亮相后，至今仍没有“近期发售”的迹象",
-        "游戏创作者米歇尔 · 安塞尔于 2020 年离开育碧，并宣布彻底退出游戏行业，转行从事野生动物方面的工作"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "03ec336b2010",
-      "title": "微信率先适配苹果 iPhone Duo 折叠屏手机，内屏支持分栏显示等功能",
+      "id": "c0b3d71c9363",
+      "title": "硅谷爆火的两万块智能床，是智商税吗？我睡了 100 天",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/016/859.htm",
-      "published": "2026-10-23T03:15:28+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372805",
+      "published": "2026-10-23T06:10:37+00:00",
       "summary": [
-        "IT之家 10 月 23 日现场消息，苹果首款折叠屏手机 iPhone Duo 于今天发售，国行定价 15,999 元起",
-        "今天多地 Apple Store 提早到 8 点开业供用户取货",
-        "IT之家也在第一时间上手体验了全新 iPhone Duo"
+        "这可能是极客公园史上体验过单价最高的消费级产品之一",
+        "我终于也睡上了马斯克、扎克伯格同款的床",
+        "Eight Sleep，这个曾被一众硅谷大佬点赞过的品牌，在今年 4 月正式进入中国市场"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
-      "id": "7ea9c8783cf5",
-      "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
+      "id": "b82c0d56584d",
+      "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/116923",
-      "published": "2026-10-22T07:00:00+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/504879.html",
+      "published": "2026-10-22T09:07:05+00:00",
       "summary": [
-        "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角"
+        "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 5,
       "isNativeCN": true,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "c4c762c6b747",
@@ -177,9 +156,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "35bbd93e4e1d",
@@ -196,7 +175,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "d7dcc58ca817",
+      "title": "Meta turns Muse sharing back on",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "published": "2026-10-22T20:24:04+00:00",
+      "summary": [
+        "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     },
@@ -215,7 +213,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 11
     }
