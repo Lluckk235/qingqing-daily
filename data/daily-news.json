@@ -1,9 +1,47 @@
 {
   "date": "2026-10-24",
-  "generated": "2026-10-24T11:16:10.722651+08:00",
-  "total": 10,
+  "generated": "2026-10-24T16:38:09.621016+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "7384891d7abd",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "published": "2026-10-23T23:05:49+00:00",
+      "summary": [
+        "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "78c968c71207",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "published": "2026-10-23T21:11:07+00:00",
+      "summary": [
+        "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "6b37d84f817a",
       "title": "The Download: testing six tech promises and biotech’s blind spots",
@@ -21,7 +59,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "67b40086dc1e",
@@ -38,45 +76,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "7384891d7abd",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "published": "2026-10-23T23:05:49+00:00",
-      "summary": [
-        "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "79e04d329853",
-      "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-      "published": "2026-10-23T16:26:29+00:00",
-      "summary": [
-        "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor, and others as angels, it says."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,48 +97,49 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "c0b3d71c9363",
-      "title": "硅谷爆火的两万块智能床，是智商税吗？我睡了 100 天",
+      "id": "b586cc78995b",
+      "title": "小鹏副总裁澄清 00 后美女产品经理发布会“老登”用词：是对内部核心负责人调侃，不指向外部用户",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372805",
-      "published": "2026-10-23T06:10:37+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/017/421.htm",
+      "published": "2026-10-24T08:29:45+00:00",
       "summary": [
-        "这可能是极客公园史上体验过单价最高的消费级产品之一",
-        "我终于也睡上了马斯克、扎克伯格同款的床",
-        "Eight Sleep，这个曾被一众硅谷大佬点赞过的品牌，在今年 4 月正式进入中国市场"
+        "IT之家 10 月 24 日消息，因为在小鹏 MONA L05 首秀发布会上多次使用“老登”这一称呼，还呼吁大家拒绝“登味审美”，小鹏汽车 00 后产品经理恩塔 Etta 在 10 月 22 日发布了道歉视频",
+        "IT之家注意到，小鹏集团副总裁 @托马斯电火车 今日发布长文，还原了事件全过程",
+        "他明确表示，自始至终，“老登”这个称呼，是产品团队对内部几个核心负责人的调侃，完全没有指向任何外部用户"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "fcaee7c9b6f7",
-      "title": "本周看什么 | 最近值得一看的 12 部作品",
+      "id": "df7298e0f8dc",
+      "title": "平安口袋银行 App 宣布将全面适配苹果 iPhone Duo 手机：支持“待机显示”模式、深度适配内外屏",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117169",
-      "published": "2026-10-23T10:09:01+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/017/418.htm",
+      "published": "2026-10-24T08:16:21+00:00",
       "summary": [
-        "📅本周新预告《指环王：力量之戒第三季》正式预告10月22日，剧集《指环王：力量之戒第三季》发布了正式预告，将于11月11日上线PrimeVideo",
-        "故事发生在第二季事件的数年之后，正值精灵与索伦之战的 ...查看全文"
+        "IT之家 10 月 24 日消息，平安银行发文，宣布旗下平安口袋银行 App 将全面适配苹果 iPhone Duo 手机",
+        "参考官方预告，新版 App 深度适配内外屏，不存在其他 App 视觉割裂问题，在手机不同形态下能够灵活切换界面元素，还拥有独立小组件",
+        "同时，App 还支持“待机显示（Stand By）”功能，可放在床头展示基金信息、还能够通过 AI 语音助理对话"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 7
     },
@@ -176,28 +177,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "fca6ebf047cd",
-      "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-      "published": "2026-10-22T20:01:51+00:00",
-      "summary": [
-        "Arc was fiercely beloved by a dedicated group of enthusiasts, but it never quite became the mass-market Chrome alternative its makers once envisioned."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 10
     }
   ]
 }
