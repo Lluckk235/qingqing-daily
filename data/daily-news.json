@@ -1,40 +1,40 @@
 {
   "date": "2026-10-25",
-  "generated": "2026-10-25T16:56:34.680687+08:00",
-  "total": 7,
+  "generated": "2026-10-25T23:32:42.086544+08:00",
+  "total": 6,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "67b40086dc1e",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "published": "2026-10-23T21:59:19+00:00",
+      "id": "19250ae33b52",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "published": "2026-10-25T13:25:32+00:00",
       "summary": [
-        "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command."
+        "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source [&#8230;]"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 3.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "41208e707565",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "id": "aab16b771856",
+      "title": "The hottest AI wearables and gadgets you should know about",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "published": "2026-10-24T19:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "published": "2026-10-25T14:10:00+00:00",
       "summary": [
-        "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+        "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,65 +43,46 @@
       "rank": 2
     },
     {
-      "id": "b8554dad591a",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "id": "5c92719d28ad",
+      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "published": "2026-10-24T15:00:00+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/114741",
+      "published": "2026-10-25T06:30:31+00:00",
       "summary": [
-        "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
+        "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考",
+        "我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点",
+        "文章代表作者个人观点 ...查看全文"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
+      "score": 4.5,
+      "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "08293a1e187f",
-      "title": "iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/372858",
-      "published": "2026-10-24T00:34:27+00:00",
-      "summary": [
-        "苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhone Duo 于 2026 年 10 月 23 日正式进入上市交付阶段，首批预购用户开始收到新机，苹果零售店也迎来首发日消费者",
-        "由于预购需求强劲，加上生产供应受到限制，上市初期的现货数量相当有限，部分消费者即使在首发日下单，也可能需要等待数月才能拿到设备",
-        "苹果此前表示，iPhone Duo 的预购需求表现异常强劲，公司正在努力尽快将产品交付给消费者"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "e790c238411e",
-      "title": "比亚迪腾势：将持续加强闪充场站管理，持续优化改善充电桩被燃油车占位问题",
+      "id": "aa5f35698b7c",
+      "title": "国产武侠游戏《影之刃零》10 月 27 日 10:00 开启预下载，游戏本体约 145G",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/017/634.htm",
-      "published": "2026-10-25T08:51:31+00:00",
+      "sourceUrl": "https://www.ithome.com/1/017/716.htm",
+      "published": "2026-10-25T14:53:30+00:00",
       "summary": [
-        "IT之家 10 月 25 日消息，比亚迪腾势在最新一期百问百答中回应了许多车主对于“闪充桩被燃油车占位”问题，官方称将持续加强场站管理，完善占位管控机制，逐步改善充电桩被占的情况，车主还可以拨打闪充专属热线 400030666 反馈",
-        "除此之外，比亚迪也推荐车主使用交管 12123 App 的“一键挪车”功能",
-        "用户打开 12123，在首页更多里面找到一键挪车，输入占位车辆的号牌，再上传现场照片提交，平台就会通知车主过来挪车"
+        "IT之家 10 月 25 日消息，国产武侠游戏《影之刃零》今晚宣布将于 10 月 27 日 10:00 开启预下载，并公布官方配置要求",
+        "官方提醒，为保障良好的游戏体验，请将游戏安装在固态硬盘 (SSD) 中；游戏本体约 145G，由于预下载机制，请预留至少 300G 可用磁盘空间；请务必将显卡驱动更新至最新版本",
+        "IT之家注意到，《影之刃零》将于 10 月 29 日 10 点正式解锁，登陆 PS5 与 PC 平台，国区数字标准版售价 268 元，数字豪华版售价 328 元"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "9730ec27361e",
@@ -118,9 +99,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "55a3645b46a9",
@@ -137,9 +118,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     }
   ]
 }
