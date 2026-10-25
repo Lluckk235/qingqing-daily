@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated": "2026-10-25T11:11:17.009083+08:00",
+  "generated": "2026-10-25T16:56:34.680687+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -62,25 +62,46 @@
       "rank": 3
     },
     {
-      "id": "374bf2d28e99",
-      "title": "AI 智能体闯进银行，美国大行开始准备“灾后预案”",
+      "id": "08293a1e187f",
+      "title": "iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/017/562.htm",
-      "published": "2026-10-25T03:06:09+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372858",
+      "published": "2026-10-24T00:34:27+00:00",
       "summary": [
-        "IT之家 10 月 25 日消息，对 AI 末日的悲观预判，早已不再只是少数科技富豪的危言耸听",
-        "如今，那些主导全球资本流向的美国大型银行，也开始警惕失控 AI，正在为假设中由 AI 引发的灾难，制定“灾后”应急预案",
-        "据 Axios 报道称，随着代表个人客户的 AI 智能体活动激增，各大银行已经开始未雨绸缪"
+        "苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhone Duo 于 2026 年 10 月 23 日正式进入上市交付阶段，首批预购用户开始收到新机，苹果零售店也迎来首发日消费者",
+        "由于预购需求强劲，加上生产供应受到限制，上市初期的现货数量相当有限，部分消费者即使在首发日下单，也可能需要等待数月才能拿到设备",
+        "苹果此前表示，iPhone Duo 的预购需求表现异常强劲，公司正在努力尽快将产品交付给消费者"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 4
+    },
+    {
+      "id": "e790c238411e",
+      "title": "比亚迪腾势：将持续加强闪充场站管理，持续优化改善充电桩被燃油车占位问题",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/017/634.htm",
+      "published": "2026-10-25T08:51:31+00:00",
+      "summary": [
+        "IT之家 10 月 25 日消息，比亚迪腾势在最新一期百问百答中回应了许多车主对于“闪充桩被燃油车占位”问题，官方称将持续加强场站管理，完善占位管控机制，逐步改善充电桩被占的情况，车主还可以拨打闪充专属热线 400030666 反馈",
+        "除此之外，比亚迪也推荐车主使用交管 12123 App 的“一键挪车”功能",
+        "用户打开 12123，在首页更多里面找到一键挪车，输入占位车辆的号牌，再上传现场照片提交，平台就会通知车主过来挪车"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "9730ec27361e",
@@ -99,7 +120,7 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "55a3645b46a9",
@@ -113,25 +134,6 @@
       "published": "2026-10-24T15:00:00+00:00",
       "summary": [
         "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "1c2f361dd35c",
-      "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-      "published": "2026-10-24T14:00:00+00:00",
-      "summary": [
-        "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this is a lot of what I want from a touchscreen MacBook. Like the Apple silicon in modern MacBook Pros, RTX Spark is [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
