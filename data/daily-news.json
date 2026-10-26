@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "generated": "2026-10-25T23:32:42.086544+08:00",
+  "date": "2026-10-26",
+  "generated": "2026-10-26T11:11:51.647836+08:00",
   "total": 6,
   "defaultDisplay": 6,
   "news": [
@@ -19,64 +19,64 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "aab16b771856",
-      "title": "The hottest AI wearables and gadgets you should know about",
+      "id": "41208e707565",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "published": "2026-10-25T14:10:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "published": "2026-10-24T19:00:00+00:00",
       "summary": [
-        "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more."
+        "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "5c92719d28ad",
-      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+      "id": "809a1031acbd",
+      "title": "苹果发 iPhone 折叠屏官方文档，排查铰链故障；触屏 MacBook 或周三发布；《流浪地球 3》将曝光，春节上映｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/114741",
-      "published": "2026-10-25T06:30:31+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/372863",
+      "published": "2026-10-26T00:34:07+00:00",
       "summary": [
-        "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考",
-        "我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点",
-        "文章代表作者个人观点 ...查看全文"
+        "张雪时隔 17 年圆梦「水上漂」，在家乡麻阳刷新吉尼斯纪录 10 月 25 日，「张雪机车」创始人张雪驾驶改装摩托车 MX450，在湖南省怀化市麻阳苗族自治县郭公坪镇小坡村，成功挑战「改装摩托车在开阔水域行驶最远距离」吉尼斯世界纪录",
+        "这场挑战要追溯到 2009 年",
+        "当时 22 岁的张雪在央视节目中骑着一辆车轮上焊着铁皮的摩托车冲向水面，四次尝试全部落水，最远只滑出 20 米，离他自己定下的 26 米目标差了一口气"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 3
     },
     {
-      "id": "aa5f35698b7c",
-      "title": "国产武侠游戏《影之刃零》10 月 27 日 10:00 开启预下载，游戏本体约 145G",
+      "id": "5438f0609152",
+      "title": "小米汽车 App“车辆助手”第二批公测开启招募，对话交互可查询车辆状态、即时 / 定时控车等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/017/716.htm",
-      "published": "2026-10-25T14:53:30+00:00",
+      "sourceUrl": "https://www.ithome.com/1/017/807.htm",
+      "published": "2026-10-26T03:09:20+00:00",
       "summary": [
-        "IT之家 10 月 25 日消息，国产武侠游戏《影之刃零》今晚宣布将于 10 月 27 日 10:00 开启预下载，并公布官方配置要求",
-        "官方提醒，为保障良好的游戏体验，请将游戏安装在固态硬盘 (SSD) 中；游戏本体约 145G，由于预下载机制，请预留至少 300G 可用磁盘空间；请务必将显卡驱动更新至最新版本",
-        "IT之家注意到，《影之刃零》将于 10 月 29 日 10 点正式解锁，登陆 PS5 与 PC 平台，国区数字标准版售价 268 元，数字豪华版售价 328 元"
+        "IT之家 10 月 26 日消息，小米汽车今日宣布，小米汽车 App「车辆助手」公测（第二批）体验官开启招募",
+        "据介绍，该功能可在 App 内对话交互，即可查询车辆状态、即时 / 定时控车，创建小米超级任务，还能总结驾驶风格、记忆用车习惯",
+        "官方表示，本功能尚在测试迭代，面向全量车主招募体验官，本次将结合报名信息综合筛选体验官"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -85,40 +85,40 @@
       "rank": 4
     },
     {
-      "id": "9730ec27361e",
-      "title": "What to expect from Apple’s ‘Pro and tell’ event",
+      "id": "9bfef0e6e8d1",
+      "title": "Now you can watch Instagram Reels on your Apple TV",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
-      "published": "2026-10-24T14:15:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv",
+      "published": "2026-10-25T16:20:17+00:00",
       "summary": [
-        "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another launch, focused on the MacBook Pro, it looks like. Its \"Pro and tell\" event is scheduled for October 28th at 1PM ET in Los Angeles. [&#8230;]"
+        "Instagram is continuing its expansion into living rooms with Instagram for TV, for Apple TV. The company first started testing a version of the platform focused on Reels, live streams, and other video content, blown up for a bigger screen in December of last year. Then, in June, it launched a slew of new features [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 5
     },
     {
-      "id": "55a3645b46a9",
-      "title": "These clever apps show off the iPhone Duo’s potential",
+      "id": "227785d1c8cb",
+      "title": "The best apps for tracking your reading and discovering new books",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
-      "published": "2026-10-24T15:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+      "published": "2026-10-26T01:10:00+00:00",
       "summary": [
-        "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone."
+        "There are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 6
     }
