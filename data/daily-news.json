@@ -1,9 +1,28 @@
 {
   "date": "2026-10-27",
-  "generated": "2026-10-27T11:41:55.249440+08:00",
+  "generated": "2026-10-27T17:35:38.447815+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "e3684c2635c4",
+      "title": "How solid-state transformers could help power the AI boom",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "published": "2026-10-27T09:00:00+00:00",
+      "summary": [
+        "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade.&#160; As the world races to meet rising electricity demand from&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "cb685d5b4cbc",
       "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
@@ -19,43 +38,24 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "636dd8e40f57",
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "published": "2026-10-26T23:34:58+00:00",
-      "summary": [
-        "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "658d2f8edb65",
-      "title": "剑指美股人形和仿生机器人第一股，FFR 完成对 FFAI 的合并交易并挂牌上市",
+      "id": "6956b5ba5002",
+      "title": "Manus，刚刚悄悄发布了自己的 2.0 宣言",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/018/301.htm",
-      "published": "2026-10-27T03:26:24+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373004",
+      "published": "2026-10-27T08:49:29+00:00",
       "summary": [
-        "IT之家 10 月 27 日消息，Faraday Future 官微今天（27 日）上午宣布，FFR 已完成对 FFAI 机器人的合并交易，所有相关业务及资产已装入 FFR，并按计划向 FFAI 发行并交付了相应普通股及无投票权可转换优先股，此举标志着 FFR 在纳斯达克挂牌上市",
-        "根据公告，FFR 任命贾跃亭担任 CEO，Jerry Wang 担任执行董事长",
-        "FFR 目前已完成“Built in USA”加速计划第一阶段，集结 FF 机器人世界 2.0，正加快将先发优势转化为竞争优势，依托“四核全智”生态、EAI 技术优势、“一脑多形、多形多能”技术路线，打造美国领先的 Physical AI 与机器人生态平台"
+        "10 月 26 日，Manus 联合创始人、产品合伙人张涛（网名 HideCloud）最近在自己的公众号「潜云思绪」写了一篇长文，标题叫《用 Manus 改造 Manus》",
+        "文章开头是一个让他印象很深的画面",
+        "他给工程师提了几条需求和 Bug，过一会儿去看进展，发现对方电脑上开着一排 Codex 和 Manus 的 Session"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -64,64 +64,65 @@
       "rank": 3
     },
     {
-      "id": "a1330c6ce927",
-      "title": "闪迪哨兵 microSD 存储卡上市：行车记录仪、安防监控双版本",
+      "id": "d4b9b8aa8053",
+      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/018/323.htm",
-      "published": "2026-10-27T03:33:00+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/505551.html",
+      "published": "2026-10-26T16:06:31+00:00",
       "summary": [
-        "IT之家 10 月 27 日消息，Sandisk（闪迪）此前推出的 SANDISK Guardian 哨兵系列 microSD 存储卡现已上市",
-        "这批存储卡分为适合行车记录仪的 Dash Cam 和适合安防监控的 Security Cam 两个分支版本，两者均覆盖 32GB / 64GB / 128GB / 256GB / 512GB 共五个容量点，享受 2 年质保闪迪哨兵行车记录仪 microSD 卡专为复杂驾驶环境下实现持续、高耐久性视频录制而设计，能够应对长途驾驶过程中的高温及潮湿，支持从 FHD 至 4K UHD 的高分辨率视频录制",
-        "其到手价如下：32GB：189 元；64GB：219 元；128GB：329 元；256GB：659 元；512GB：1299 元"
+        "地球最富兄妹俩堂堂来袭",
+        "7名联创仍紧握50.1%总投票权"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "374b951a34a8",
-      "title": "派早报：Apple 发布 iPad mini (A20 Pro) 等",
+      "id": "5255c7ab983d",
+      "title": "iPhone Duo 裂屏，是苹果新 CEO 接班后第一次「大考」",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117600",
-      "published": "2026-10-27T00:27:58+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373008",
+      "published": "2026-10-27T09:24:34+00:00",
       "summary": [
-        "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换",
-        "前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合",
-        "欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文"
+        "头图图片来源：iFixit2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请",
+        "它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着",
+        "这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "f243688bda14",
-      "title": "Five weird details from Anthropic’s IPO filing",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-      "published": "2026-10-26T17:10:23+00:00",
+      "id": "ebac306ddfe3",
+      "title": "WPS 赚钱京东花：WPS 京东 PLUS 联合会员 268 元，单个会员 1 年仅需 59 元",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/018/545.htm",
+      "published": "2026-10-27T09:35:08+00:00",
       "summary": [
-        "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to [&#8230;]"
+        "WPS 超级会员 3 年日常 288 元，今日买超会 3 年送联合会员 1 年，券后实付 268 元赠 30 元电影券包",
+        "下单前加入店铺会员，付款后可兑换 30 元京东 E 卡，折合仅需 238 元",
+        "折合仅需 238 元，单会员单年折合仅需 59.5 元"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 6
     },
     {
@@ -144,6 +145,25 @@
       "rank": 7
     },
     {
+      "id": "f243688bda14",
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "published": "2026-10-26T17:10:23+00:00",
+      "summary": [
+        "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
       "id": "16567a8dd2cb",
       "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
       "category": "product",
@@ -158,26 +178,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "b4f9635c8b51",
-      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
-      "published": "2026-10-26T19:22:40+00:00",
-      "summary": [
-        "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 9
     }
