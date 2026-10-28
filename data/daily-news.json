@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "generated": "2026-10-28T11:58:16.019239+08:00",
-  "total": 12,
+  "generated": "2026-10-28T18:27:10.518214+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,70 +57,51 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "6956b5ba5002",
-      "title": "Manus，刚刚悄悄发布了自己的 2.0 宣言",
+      "id": "dfa86f36295a",
+      "title": "当即梦把剧本、导演和剪辑放进同一个工作室，我们看到了视频生成的下一步",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373004",
-      "published": "2026-10-27T08:49:29+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373066",
+      "published": "2026-10-28T08:04:17+00:00",
       "summary": [
-        "10 月 26 日，Manus 联合创始人、产品合伙人张涛（网名 HideCloud）最近在自己的公众号「潜云思绪」写了一篇长文，标题叫《用 Manus 改造 Manus》",
-        "文章开头是一个让他印象很深的画面",
-        "他给工程师提了几条需求和 Bug，过一会儿去看进展，发现对方电脑上开着一排 Codex 和 Manus 的 Session"
+        "对于短剧创作者来说，最不缺的可能就是新的故事灵感",
+        "在日常创作中，一个新的人物设定、一段有冲突的情节，甚至刷到的一条社会新闻，都可能成为下一部短剧的起点",
+        "但短剧行业的生产节奏越来越快"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "8982722f4155",
-      "title": "多款主流固态硬盘 SSD 单周跌幅超过 10%，渠道报价明显松动",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "bc5118b46e4e",
+      "title": "告别任天堂 Switch 模拟器：《塞尔达传说：王国之泪》第三方 Windows 原生移植项目发布",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/018/843.htm",
-      "published": "2026-10-28T03:52:40+00:00",
+      "sourceUrl": "https://www.ithome.com/1/019/136.htm",
+      "published": "2026-10-28T10:25:12+00:00",
       "summary": [
-        "IT之家 10 月 28 日消息，“CFM 闪存市场”昨日（10 月 27 日）发布博文，报道称本周（10 月 26 日至 11 月 1 日）国内渠道市场固态硬盘 SSD 报价出现大面积、较大幅度下调，多款主流容量产品单周跌幅超过 10%",
-        "从最新渠道报价看，SSD 价格几乎全线回落：120GB SATA SSD 报 15 美元（IT之家注：现汇率约合 100.2 元人民币），本周环比下降 11.76%；240GB SATA SSD 报 32 美元（现汇率约合 213.8 元人民币），本周环比下降 11.11%；256GB PCIe 3.0 SSD 报 33 美元（现汇率约合 220.5 元人民币），本周环比下降 13.16%",
-        "512GB PCIe 4.0 SSD 报 65 美元（现汇率约合 434.3 元人民币），周跌 7.14%；1TB PCIe 4.0 SSD 报 120 美元（现汇率约合 801.7 元人民币），周跌 7.69%；2TB PCIe 4.0 SSD 报 240 美元（现汇率约合 1,603 元人民币），周跌 4.00%"
+        "IT之家 10 月 28 日消息，开发者 NotRexed 今日在 GitHub 上发布了一项名为 SkyboundTOTK 的非官方移植项目，尝试将任天堂游戏《塞尔达传说：王国之泪》移植至 Windows 平台，从而实现无需 Switch 模拟器、直接在 PC 上运行游戏",
+        "据 Notebookcheck 今日报道，SkyboundTOTK 采用静态重编译技术，将游戏原有代码转换为可在 PC 上运行的程序",
+        "在图形功能方面，SkyboundTOTK 已支持 AMD 初代 FSR 技术，并允许用户单独调整图像锐化程度"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "5eaeebf34f11",
-      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/505615.html",
-      "published": "2026-10-27T07:25:51+00:00",
-      "summary": [
-        "GDPS全球开发者先锋大会将持续推动应用成果落地转化和国际产业交流合作"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": true,
-      "rank": 6
     },
     {
       "id": "dc7ecde40842",
@@ -137,30 +118,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "5255c7ab983d",
-      "title": "iPhone Duo 裂屏，是苹果新 CEO 接班后第一次「大考」",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373008",
-      "published": "2026-10-27T09:24:34+00:00",
-      "summary": [
-        "头图图片来源：iFixit2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请",
-        "它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着",
-        "这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "109acab68249",
@@ -179,7 +139,26 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 7
+    },
+    {
+      "id": "298e50473163",
+      "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
+      "published": "2026-10-28T05:20:32+00:00",
+      "summary": [
+        "Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
     },
     {
       "id": "c372745ec78a",
@@ -196,28 +175,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "0ec9dae75184",
-      "title": "Who’s really in charge at Anthropic after the IPO?",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "published": "2026-10-27T21:38:28+00:00",
-      "summary": [
-        "Here's a clear explanation of Anthropic's incredibly complex governance structure."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
       "score": 4.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
     },
     {
       "id": "5c190d1e9649",
@@ -234,9 +194,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 10
     }
   ]
 }
