@@ -1,40 +1,40 @@
 {
-  "date": "2026-10-28",
-  "generated": "2026-10-28T18:27:10.518214+08:00",
+  "date": "2026-10-29",
+  "generated": "2026-10-29T01:53:11.550070+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "092cb86201fb",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "id": "7fbbcf0aac9e",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "published": "2026-10-27T23:34:27+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "published": "2026-10-28T17:00:00+00:00",
       "summary": [
-        "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February."
+        "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "e36bd78a13d6",
-      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "id": "b01917f8b2b4",
+      "title": "AI execs may be too out of touch to build for the general public",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-      "published": "2026-10-27T21:44:34+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "published": "2026-10-28T15:53:52+00:00",
       "summary": [
-        "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access."
+        "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,21 +43,21 @@
       "rank": 2
     },
     {
-      "id": "e046e2cf55c1",
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "id": "625cd70e8749",
+      "title": "The Download: dead startups fueling AI and interspecies communication",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "published": "2026-10-27T16:14:18+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+      "published": "2026-10-28T12:10:00+00:00",
       "summary": [
-        "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application. You [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,24 +78,24 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "bc5118b46e4e",
-      "title": "告别任天堂 Switch 模拟器：《塞尔达传说：王国之泪》第三方 Windows 原生移植项目发布",
+      "id": "e35eee77421f",
+      "title": "发光 Logo 回归：苹果首款触控屏 MacBook Pro“苹果标”又会亮了",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/019/136.htm",
-      "published": "2026-10-28T10:25:12+00:00",
+      "sourceUrl": "https://www.ithome.com/1/019/244.htm",
+      "published": "2026-10-28T17:48:23+00:00",
       "summary": [
-        "IT之家 10 月 28 日消息，开发者 NotRexed 今日在 GitHub 上发布了一项名为 SkyboundTOTK 的非官方移植项目，尝试将任天堂游戏《塞尔达传说：王国之泪》移植至 Windows 平台，从而实现无需 Switch 模拟器、直接在 PC 上运行游戏",
-        "据 Notebookcheck 今日报道，SkyboundTOTK 采用静态重编译技术，将游戏原有代码转换为可在 PC 上运行的程序",
-        "在图形功能方面，SkyboundTOTK 已支持 AMD 初代 FSR 技术，并允许用户单独调整图像锐化程度"
+        "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），值得一提的是，该机重新为 A 面带回了发光苹果 Logo",
+        "回顾历史，苹果从 1999 年 PowerBook G3 系列开始为笔记本 A 面引入发光苹果 Logo，相应 Logo 并没有配备任何独立的 LED 光源，而是直接“借用”了屏幕自身的背光",
+        "具体而言，苹果在 CNC 切割铝合金 A 面时，会在正中央镂空切出苹果 Logo 的形状，并在该孔位嵌入一块高透光率、表面经过磨砂雾面处理的白色聚碳酸酯（塑料）导光板"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -118,7 +118,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
@@ -137,7 +137,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 7
     },
@@ -156,7 +156,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 8
     },
@@ -175,26 +175,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "5c190d1e9649",
-      "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+      "id": "75838f37239f",
+      "title": "Apple launches its new touchscreen MacBook Pro",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1020145/iphone-duo-crackgate-broken-screen-hinge",
-      "published": "2026-10-27T22:55:05+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+      "published": "2026-10-28T17:26:10+00:00",
       "summary": [
-        "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of issue or crack would appear in the middle of the screen above the hinge, with lines appearing [&#8230;]"
+        "Apple's new touchscreen MacBook Pro starts at $2,899"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     }
