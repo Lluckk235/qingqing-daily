@@ -1,47 +1,9 @@
 {
   "date": "2026-10-29",
-  "generated": "2026-10-29T01:53:11.550070+08:00",
-  "total": 10,
+  "generated": "2026-10-29T12:22:02.125452+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "7fbbcf0aac9e",
-      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-      "published": "2026-10-28T17:00:00+00:00",
-      "summary": [
-        "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "b01917f8b2b4",
-      "title": "AI execs may be too out of touch to build for the general public",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
-      "published": "2026-10-28T15:53:52+00:00",
-      "summary": [
-        "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "625cd70e8749",
       "title": "The Download: dead startups fueling AI and interspecies communication",
@@ -57,9 +19,66 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "5933d0c1b673",
+      "title": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream",
+      "published": "2026-10-28T19:37:31+00:00",
+      "summary": [
+        "What do drones, routers, and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US government’s xenophobic stance — and they might not be the last. Originally, the US government was just worried [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "5536851b9ba2",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "published": "2026-10-28T23:05:39+00:00",
+      "summary": [
+        "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
       "score": 7,
       "isNativeCN": false,
       "rank": 3
+    },
+    {
+      "id": "52fa9eb7caab",
+      "title": "Creating AI value with enterprise context",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "published": "2026-10-28T20:32:02+00:00",
+      "summary": [
+        "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 4
     },
     {
       "id": "dfa86f36295a",
@@ -78,106 +97,108 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "e35eee77421f",
-      "title": "发光 Logo 回归：苹果首款触控屏 MacBook Pro“苹果标”又会亮了",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/019/244.htm",
-      "published": "2026-10-28T17:48:23+00:00",
-      "summary": [
-        "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），值得一提的是，该机重新为 A 面带回了发光苹果 Logo",
-        "回顾历史，苹果从 1999 年 PowerBook G3 系列开始为笔记本 A 面引入发光苹果 Logo，相应 Logo 并没有配备任何独立的 LED 光源，而是直接“借用”了屏幕自身的背光",
-        "具体而言，苹果在 CNC 切割铝合金 A 面时，会在正中央镂空切出苹果 Logo 的形状，并在该孔位嵌入一块高透光率、表面经过磨砂雾面处理的白色聚碳酸酯（塑料）导光板"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "dc7ecde40842",
-      "title": "派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等",
+      "id": "2ffa91168a4f",
+      "title": "吉利汽车 2026 财年第三季度归母净利润 48.37 亿元，同比增长 28%",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/019/407.htm",
+      "published": "2026-10-29T04:03:01+00:00",
+      "summary": [
+        "IT之家 10 月 29 日消息，吉利汽车控股有限公司今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度营业总收入：2725.64 亿元，同比增长 13%毛利润：489.3 亿元毛利率：17.95%归母净利润：139.28 亿元，同比增长 7%扣非净利润：148.96 亿元，同比增长 41%资产负债率：67.48%2026 财年第三财季营业总收入：989.64 亿元，同比增长 10%归母净利润：48.37 亿元，同比增长 28%扣非净利润：52.12 亿元，同比增长 32% AI 解读吉利汽车 2026 年前三季度营收及归母净利润均低于市场机构一致预期，核心利润表现显著优于市场预期",
+        "公司主营业务及本次财报亮点吉利汽车控股有限公司是中国领先的汽车制造商，主营乘用车研发、生产和销售，旗下拥有吉利、领克、极氪、沃尔沃等多个品牌，业务涵盖燃油车及新能源汽车领域",
+        "2026 年前三季度（截至 9 月 30 日止九个月）：实现收入 2725.64 亿元，同比增长 13%；母公司拥有人应占利润为 139.28 亿元，同比增长 7%；母公司拥有人应占核心利润为 148.96 亿元，同比增长 41%，核心利润增速显著高于归母净利润增速，主要由于期内录得外汇汇兑净亏损而去年同期录得净收益；整体毛利率约 17.95%，较去年同期的 16.42% 有所提升，反映产品结构及平均销售价格改善"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "7c150d933043",
+      "title": "「推翻」乔布斯的触屏 MacBook 来了，22999 元起",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373084",
+      "published": "2026-10-28T18:27:03+00:00",
+      "summary": [
+        "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通",
+        "演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来",
+        "这行不通，人体工学上糟透了"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "98b0a985508c",
+      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117684",
-      "published": "2026-10-28T00:37:25+00:00",
+      "sourceUrl": "https://sspai.com/post/117750",
+      "published": "2026-10-29T00:26:49+00:00",
       "summary": [
-        "小米发布 REDMI K100 等新品，广电总局发布有线电视与 IPTV 运营服务新规等"
+        "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "109acab68249",
-      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
-      "published": "2026-10-27T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out&#8230;"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "298e50473163",
-      "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
-      "published": "2026-10-28T05:20:32+00:00",
-      "summary": [
-        "Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "c372745ec78a",
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "id": "edad344f449a",
+      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "published": "2026-10-28T01:15:28+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "published": "2026-10-28T23:15:00+00:00",
       "summary": [
-        "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic."
+        "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "65911ac3f4f5",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "published": "2026-10-28T21:34:30+00:00",
+      "summary": [
+        "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 10
     },
     {
       "id": "75838f37239f",
@@ -190,13 +211,13 @@
       "sourceUrl": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
       "published": "2026-10-28T17:26:10+00:00",
       "summary": [
-        "Apple's new touchscreen MacBook Pro starts at $2,899"
+        "Apple's new touchscreen MacBook Pro starts at $2,899."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
