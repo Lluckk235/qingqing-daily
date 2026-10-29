@@ -1,9 +1,28 @@
 {
   "date": "2026-10-29",
-  "generated": "2026-10-29T12:22:02.125452+08:00",
+  "generated": "2026-10-29T22:56:14.013742+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "f0cfa3978ff4",
+      "title": "Amazon’s AI shopping assistant can now edit your grocery lists and gift registries",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
+      "published": "2026-10-29T13:52:48+00:00",
+      "summary": [
+        "Amazon is adding several new features to its AI shopping assistant, including ways to create, edit, and move items between shopping lists and gift registries. As an example, Amazon says you can now ask Alexa for Shopping to \"Create a new shopping list\" or \"Show me what's left on my wedding registry.\" The ecommerce giant [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "625cd70e8749",
       "title": "The Download: dead startups fueling AI and interspecies communication",
@@ -19,41 +38,22 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "5933d0c1b673",
-      "title": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream",
-      "published": "2026-10-28T19:37:31+00:00",
-      "summary": [
-        "What do drones, routers, and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US government’s xenophobic stance — and they might not be the last. Originally, the US government was just worried [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "5536851b9ba2",
-      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "id": "06df78f9a043",
+      "title": "The Download: AI agent tracking and climate feedback loops",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-      "published": "2026-10-28T23:05:39+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+      "published": "2026-10-29T12:10:00+00:00",
       "summary": [
-        "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -62,65 +62,103 @@
       "rank": 3
     },
     {
-      "id": "52fa9eb7caab",
-      "title": "Creating AI value with enterprise context",
+      "id": "468ea3c00c34",
+      "title": "We urgently need to monitor AI agents’ actions in real time",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-      "published": "2026-10-28T20:32:02+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "published": "2026-10-29T10:11:12+00:00",
       "summary": [
-        "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;"
+        "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "dfa86f36295a",
-      "title": "当即梦把剧本、导演和剪辑放进同一个工作室，我们看到了视频生成的下一步",
+      "id": "f527cb4ca66b",
+      "title": "大众把三年在中国攒的家底，打包成了一颗「星」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373066",
-      "published": "2026-10-28T08:04:17+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373086",
+      "published": "2026-10-29T07:09:14+00:00",
       "summary": [
-        "对于短剧创作者来说，最不缺的可能就是新的故事灵感",
-        "在日常创作中，一个新的人物设定、一段有冲突的情节，甚至刷到的一条社会新闻，都可能成为下一部短剧的起点",
-        "但短剧行业的生产节奏越来越快"
+        "&nbsp; 头图来源：极客公园 10 月 28 日，合肥，大众汽车集团（中国）办了自己的第一次技术日",
+        "这场发布会的主角叫「VEGA」，名字取自织女星，是大众在中国本土自研的一体化技术矩阵",
+        "它把整车平台、电子电气架构和高级驾驶辅助系统三大核心技术打包成了一套体系"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "2ffa91168a4f",
-      "title": "吉利汽车 2026 财年第三季度归母净利润 48.37 亿元，同比增长 28%",
+      "id": "f46850e1f19b",
+      "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/019/407.htm",
-      "published": "2026-10-29T04:03:01+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506281.html",
+      "published": "2026-10-29T03:27:50+00:00",
       "summary": [
-        "IT之家 10 月 29 日消息，吉利汽车控股有限公司今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度（2026 年 1 月～2026 年 9 月）及第三财季（2026 年 7 月～2026 年 9 月）报告：2026 财年前三季度营业总收入：2725.64 亿元，同比增长 13%毛利润：489.3 亿元毛利率：17.95%归母净利润：139.28 亿元，同比增长 7%扣非净利润：148.96 亿元，同比增长 41%资产负债率：67.48%2026 财年第三财季营业总收入：989.64 亿元，同比增长 10%归母净利润：48.37 亿元，同比增长 28%扣非净利润：52.12 亿元，同比增长 32% AI 解读吉利汽车 2026 年前三季度营收及归母净利润均低于市场机构一致预期，核心利润表现显著优于市场预期",
-        "公司主营业务及本次财报亮点吉利汽车控股有限公司是中国领先的汽车制造商，主营乘用车研发、生产和销售，旗下拥有吉利、领克、极氪、沃尔沃等多个品牌，业务涵盖燃油车及新能源汽车领域",
-        "2026 年前三季度（截至 9 月 30 日止九个月）：实现收入 2725.64 亿元，同比增长 13%；母公司拥有人应占利润为 139.28 亿元，同比增长 7%；母公司拥有人应占核心利润为 148.96 亿元，同比增长 41%，核心利润增速显著高于归母净利润增速，主要由于期内录得外汇汇兑净亏损而去年同期录得净收益；整体毛利率约 17.95%，较去年同期的 16.42% 有所提升，反映产品结构及平均销售价格改善"
+        "10月29日，文远知行披露旗下子公司景烁科技首次融资进展"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "b7712a604c7f",
+      "title": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506042.html",
+      "published": "2026-10-28T08:55:26+00:00",
+      "summary": [
+        "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "ce70895bdf56",
+      "title": "酷狗音乐 22 周年 · 鸿蒙特别版 App 官宣“即将上线”，为 HarmonyOS 7 全新设计",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/019/787.htm",
+      "published": "2026-10-29T14:52:32+00:00",
+      "summary": [
+        "IT之家 10 月 29 日消息，酷狗音乐官方今日正式官宣 22 周年 · 鸿蒙特别版“即将上线”，号称为 HarmonyOS 7 全新设计",
+        "从官方预热海报可以看到，酷狗音乐 22 周年 · 鸿蒙特别版 App 采用沉浸光感设计，播放页唱片也融合了 HarmonyOS 7 的光感与玻璃特性",
+        "同时，歌单、排行榜、专辑页也全部焕新（接入沉浸光感），并内置 idol 设计彩蛋"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "7c150d933043",
@@ -139,28 +177,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "98b0a985508c",
-      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117750",
-      "published": "2026-10-29T00:26:49+00:00",
-      "summary": [
-        "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "edad344f449a",
@@ -177,45 +196,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "65911ac3f4f5",
-      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-      "published": "2026-10-28T21:34:30+00:00",
-      "summary": [
-        "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "75838f37239f",
-      "title": "Apple launches its new touchscreen MacBook Pro",
+      "id": "704fa4f310e2",
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
-      "published": "2026-10-28T17:26:10+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "published": "2026-10-29T13:00:00+00:00",
       "summary": [
-        "Apple's new touchscreen MacBook Pro starts at $2,899."
+        "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 11
     }
