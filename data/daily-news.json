@@ -1,78 +1,78 @@
 {
   "date": "2026-10-30",
-  "generated": "2026-10-30T12:21:45.894437+08:00",
-  "total": 11,
+  "generated": "2026-10-30T22:49:20.132498+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "db83db5c214c",
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "id": "30b5f07a33cd",
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "published": "2026-10-29T19:56:19+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "published": "2026-10-30T13:54:25+00:00",
       "summary": [
-        "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
+        "DoorDash said that it is open to working with third-party agent makers"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "8439773cf284",
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "id": "20dbf8891676",
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "published": "2026-10-29T18:45:31+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "published": "2026-10-30T13:01:14+00:00",
       "summary": [
-        "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in [&#8230;]"
+        "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "67918afa799a",
-      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "id": "fccdd8518019",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-      "published": "2026-10-29T22:27:23+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "published": "2026-10-30T11:30:00+00:00",
       "summary": [
-        "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday."
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "894e10f47934",
-      "title": "Intel says it&#8217;s selling every affordable laptop chip it can make",
+      "id": "55b8332d80ab",
+      "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
-      "published": "2026-10-29T23:42:21+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
+      "published": "2026-10-30T09:00:00+00:00",
       "summary": [
-        "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has \"seen significant growth in Wildcat Lake. It's coming exactly at the right time because it's cost-optimized and we're seeing a [&#8230;]"
+        "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa shot up between 1990 and 2023—by a whopping 71%. By 2023,&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -81,105 +81,65 @@
       "rank": 4
     },
     {
-      "id": "f527cb4ca66b",
-      "title": "大众把三年在中国攒的家底，打包成了一颗「星」",
+      "id": "5d2ee45e0e83",
+      "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373086",
-      "published": "2026-10-29T07:09:14+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373190",
+      "published": "2026-10-30T05:49:25+00:00",
       "summary": [
-        "&nbsp; 头图来源：极客公园 10 月 28 日，合肥，大众汽车集团（中国）办了自己的第一次技术日",
-        "这场发布会的主角叫「VEGA」，名字取自织女星，是大众在中国本土自研的一体化技术矩阵",
-        "它把整车平台、电子电气架构和高级驾驶辅助系统三大核心技术打包成了一套体系"
+        "作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒",
+        "一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务&hellip;&hellip; 但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升",
+        "写提示词、等待 AI 生成是一部分；生成效果不理想，手动在 IDE 中 修改是另一部分"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "80050621373f",
-      "title": "2027 款东风奕派 007 上市：纯电续航最长 675km，限时补贴价 10.99 万元起",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/012.htm",
-      "published": "2026-10-30T04:06:31+00:00",
+      "id": "a206df60a536",
+      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506771.html",
+      "published": "2026-10-30T08:50:44+00:00",
       "summary": [
-        "IT之家 10 月 30 日消息，2027 款东风奕派 007 已上市，新车共推出 2 款车型，售价区间 11.59-13.59 万元，限时补贴价 10.99-12.99 万元",
-        "即日起至购车还可享受总价值 38800 元的多重礼遇",
-        "此次改款的核心变化集中在纯电续航能力提升与辅助驾驶配置加码，其中 2027 款 675 激光雷达版 CLTC 纯电续航达到 675km，并搭载激光雷达及天元 T200 辅助驾驶系统"
+        "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "f46850e1f19b",
-      "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506281.html",
-      "published": "2026-10-29T03:27:50+00:00",
+      "id": "705fa1871fa2",
+      "title": "雷柏 VT4 V2 系列中尺寸抓握鼠标发售：4 版本可选，199 元起",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/373.htm",
+      "published": "2026-10-30T14:39:14+00:00",
       "summary": [
-        "10月29日，文远知行披露旗下子公司景烁科技首次融资进展"
+        "IT之家 10 月 30 日消息，雷柏 (RAPOO) 今日启动了 VT4 V2 系列鼠标的销售",
+        "其采用中尺寸模具，三维 123×65×38 (mm)，横卧点宽度 58mm，针对抓握姿势优化",
+        "VT4 V2 系列基于 Nordic nRF54 系列主控，在 USB-C 和 2.4GHz 模式下支持 8kHz 回报率，拥有 8kHz 按键回报率，支持＞20000fps 的高帧率模式"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
-    },
-    {
-      "id": "7c150d933043",
-      "title": "「推翻」乔布斯的触屏 MacBook 来了，22999 元起",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373084",
-      "published": "2026-10-28T18:27:03+00:00",
-      "summary": [
-        "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通",
-        "演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来",
-        "这行不通，人体工学上糟透了"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "98b0a985508c",
-      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117750",
-      "published": "2026-10-29T00:26:49+00:00",
-      "summary": [
-        "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
-      "rank": 9
     },
     {
       "id": "fb19cfa884d9",
@@ -196,9 +156,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "5d9d7808457b",
@@ -215,9 +175,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 9
+    },
+    {
+      "id": "67918afa799a",
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "published": "2026-10-29T22:27:23+00:00",
+      "summary": [
+        "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
