@@ -1,82 +1,82 @@
 {
-  "date": "2026-10-29",
-  "generated": "2026-10-29T22:56:14.013742+08:00",
+  "date": "2026-10-30",
+  "generated": "2026-10-30T12:21:45.894437+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "f0cfa3978ff4",
-      "title": "Amazon’s AI shopping assistant can now edit your grocery lists and gift registries",
+      "id": "db83db5c214c",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "published": "2026-10-29T19:56:19+00:00",
+      "summary": [
+        "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "8439773cf284",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "published": "2026-10-29T18:45:31+00:00",
+      "summary": [
+        "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "67918afa799a",
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
+      "published": "2026-10-29T22:27:23+00:00",
+      "summary": [
+        "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "894e10f47934",
+      "title": "Intel says it&#8217;s selling every affordable laptop chip it can make",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
-      "published": "2026-10-29T13:52:48+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
+      "published": "2026-10-29T23:42:21+00:00",
       "summary": [
-        "Amazon is adding several new features to its AI shopping assistant, including ways to create, edit, and move items between shopping lists and gift registries. As an example, Amazon says you can now ask Alexa for Shopping to \"Create a new shopping list\" or \"Show me what's left on my wedding registry.\" The ecommerce giant [&#8230;]"
+        "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has \"seen significant growth in Wildcat Lake. It's coming exactly at the right time because it's cost-optimized and we're seeing a [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "625cd70e8749",
-      "title": "The Download: dead startups fueling AI and interspecies communication",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
-      "published": "2026-10-28T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "06df78f9a043",
-      "title": "The Download: AI agent tracking and climate feedback loops",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
-      "published": "2026-10-29T12:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "468ea3c00c34",
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-      "published": "2026-10-29T10:11:12+00:00",
-      "summary": [
-        "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,9 +97,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "80050621373f",
+      "title": "2027 款东风奕派 007 上市：纯电续航最长 675km，限时补贴价 10.99 万元起",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/012.htm",
+      "published": "2026-10-30T04:06:31+00:00",
+      "summary": [
+        "IT之家 10 月 30 日消息，2027 款东风奕派 007 已上市，新车共推出 2 款车型，售价区间 11.59-13.59 万元，限时补贴价 10.99-12.99 万元",
+        "即日起至购车还可享受总价值 38800 元的多重礼遇",
+        "此次改款的核心变化集中在纯电续航能力提升与辅助驾驶配置加码，其中 2027 款 675 激光雷达版 CLTC 纯电续航达到 675km，并搭载激光雷达及天元 T200 辅助驾驶系统"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "f46850e1f19b",
@@ -116,49 +137,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "b7712a604c7f",
-      "title": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506042.html",
-      "published": "2026-10-28T08:55:26+00:00",
-      "summary": [
-        "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 7
-    },
-    {
-      "id": "ce70895bdf56",
-      "title": "酷狗音乐 22 周年 · 鸿蒙特别版 App 官宣“即将上线”，为 HarmonyOS 7 全新设计",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/019/787.htm",
-      "published": "2026-10-29T14:52:32+00:00",
-      "summary": [
-        "IT之家 10 月 29 日消息，酷狗音乐官方今日正式官宣 22 周年 · 鸿蒙特别版“即将上线”，号称为 HarmonyOS 7 全新设计",
-        "从官方预热海报可以看到，酷狗音乐 22 周年 · 鸿蒙特别版 App 采用沉浸光感设计，播放页唱片也融合了 HarmonyOS 7 的光感与玻璃特性",
-        "同时，歌单、排行榜、专辑页也全部焕新（接入沉浸光感），并内置 idol 设计彩蛋"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 8
     },
     {
       "id": "7c150d933043",
@@ -177,45 +158,64 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": true,
+      "rank": 8
+    },
+    {
+      "id": "98b0a985508c",
+      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/117750",
+      "published": "2026-10-29T00:26:49+00:00",
+      "summary": [
+        "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 9
     },
     {
-      "id": "edad344f449a",
-      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "id": "fb19cfa884d9",
+      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
-      "published": "2026-10-28T23:15:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+      "published": "2026-10-29T21:20:47+00:00",
       "summary": [
-        "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
+        "The biggest ouch of the report was its negative free cash flow of $2.4 billion."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "704fa4f310e2",
-      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "id": "5d9d7808457b",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
-      "published": "2026-10-29T13:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "published": "2026-10-29T19:14:36+00:00",
       "summary": [
-        "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot."
+        "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 11
     }
