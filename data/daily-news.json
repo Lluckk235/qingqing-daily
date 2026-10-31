@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
-  "generated": "2026-10-31T12:02:01.313232+08:00",
-  "total": 12,
+  "generated": "2026-10-31T22:16:42.484439+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,7 +57,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
@@ -76,135 +76,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "10e813be1bcc",
-      "title": "不再“一刀切”：微软 Win11 预览版可单独管控应用摄像头、麦克风、定位权限",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/451.htm",
-      "published": "2026-10-31T03:53:07+00:00",
+      "id": "b716adbdb45c",
+      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/10/506866.html",
+      "published": "2026-10-31T05:11:19+00:00",
       "summary": [
-        "IT之家 10 月 31 日消息，微软昨日（10 月 30 日）发布博文，邀请 Windows Insider 项目成员，在 Windows 11 25H2 Beta 26220.9836，以及 Windows 11 Experimental（Future Platforms）预览版 Build 29698.1000 中，进一步精细化应用权限管控",
-        "根据微软官方更新日志内容，在上述 Windows 11 预览版中，微软补齐隐私能力，桌面应用现在可以按单个程序分别管理摄像头、麦克风和位置权限",
-        "IT之家援引 NeoWin 媒体报道，传统桌面应用此前操控这类敏感权限，用户只能通过设备级总开关统一控制，用户难以判断究竟是哪个程序在调用摄像头或获取位置信息"
+        "AI算力利用“九九成”"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "ced68f1f5930",
-      "title": "印度自己的空间站 BAS 规划公布：模块化设计，2028 年开造",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/437.htm",
-      "published": "2026-10-31T02:27:39+00:00",
+      "id": "74ff0e0cef7c",
+      "title": "国行 Apple 智能官网正式上线：千问接入，11 月推送",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373238",
+      "published": "2026-10-30T22:26:23+00:00",
       "summary": [
-        "IT之家 10 月 31 日消息，据印度政府科技与技术部生物技术司披露的信息，在 10 月 27 日开幕的印度“新兴科学技术与创新大会”上，印度空间研究组织 Bharatiya Antariksh Station 项目（BAS 项目）主管 K. Kalpana 女士公布了印度自己的空间站 BAS 的相关规划",
-        "BAS 规划设计为一座重 54 吨、由 5 个模块组成的空间站，轨道高度 450 公里，拥有 100 立方米适居容积，60 千瓦发电，具备通用对接能力，将容纳 3 至 4 名长期宇航员及 3 名短期宇航员访客",
-        "每个模块各司其职，形成一个统一的、电学集成的轨道复合体，设计注重高容错性和资源共享"
+        "头图图片来源：Apple10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出",
+        "苹果中国官网的 Apple 智能页面也改了口",
+        "9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "1c4387eab495",
-      "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/444.htm",
-      "published": "2026-10-31T03:25:09+00:00",
+      "id": "7d0596c0ce27",
+      "title": "一图流 | 一张图看懂中国版 Apple 智能",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/117953",
+      "published": "2026-10-31T04:10:39+00:00",
       "summary": [
-        "IT之家 10 月 31 日消息，Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO",
-        "据彭博社今日报道，招股文件显示，Anthropic 计划通过未来在服务器、建筑和电力等领域投入近 9,000 亿美元（IT之家注：现汇率约合 6 万亿元人民币）债务，远超资产负债表上报告的流动负债",
-        "根据 Anthropic 提交给美国证券交易委员会的文件信息，其资产负债表规模和健康状况显示，该公司目前包括 1,175 亿美元（现汇率约合 7,836.74 亿元人民币）的负债和 1,120 亿美元（现汇率约合 7,469.91 亿元人民币）的现金"
+        "中国版 Apple 智能即将登陆 iPhone，一起看看还有这些细节"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 7
-    },
-    {
-      "id": "cf754039148a",
-      "title": "新款小米 SU7 Ultra 无伪装实车曝光，消息称预计 2027 年上市",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/441.htm",
-      "published": "2026-10-31T02:45:40+00:00",
-      "summary": [
-        "IT之家 10 月 31 日消息，据蓝鲸新闻从知情人士处获悉，新款小米 SU7 Ultra 预计在 2027 年上市",
-        "知情人士透露，新车将对外观造型进行调整升级，整套空气动力学套件全面优化，并搭载 DRS 鹅颈尾翼，相比在售版本改动幅度较大",
-        "IT之家注意到，新款小米 SU7 Ultra 无伪装实车现已曝光"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "bd71f9ee85a4",
-      "title": "微软更新 Win11 26H2 26340.9843 预览版：重构搜索体验，增强 XBOX 游戏模式",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/448.htm",
-      "published": "2026-10-31T03:38:59+00:00",
-      "summary": [
-        "IT之家 10 月 31 日消息，微软昨日（10 月 30 日）发布博文，邀请 Beta 和 Experimental 通道 Windows Insider 项目成员，测试适用于 Windows 11 25H2/26H2 的预览版更新",
-        "一、Beta 频道 Windows 11 25H2 26220.9836 预览版Beta 频道 Windows Insider 项目成员安装 Windows 11 25H2 更新后，版本号升至 Build 26220.9836 ，IT之家附上相关更新内容如下：1.1、安全安全密钥的 PIN 码输入界面已更新",
-        "“其他用户”图标已被移除，以提供更直观、更便捷的登录体验"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 9
-    },
-    {
-      "id": "4403c783c218",
-      "title": "微软 Win11 26H1 更新预览版：重构搜索体验，自动播放对话框支持深色主题",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/445.htm",
-      "published": "2026-10-31T03:25:44+00:00",
-      "summary": [
-        "IT之家 10 月 31 日消息，微软公司今天（10 月 31 日）发布博文，邀请 Beta 和 Experimental 通道 Windows Insider 项目成员，测试适用于 Windows 11 26H1 的预览版更新",
-        "一、Beta 频道 Windows 11 26H1 28020.3382 预览版Beta 频道 Windows Insider 项目成员安装 Windows 11 26H1 更新后，版本号升至 Build 28020.3382，IT之家附上相关更新内容如下：1.1、常规此版本包含少量小的修复和改进",
-        "1.2、搜索简化主搜索页面，以减少视觉干扰，并方便用户快速返回最近的搜索记录"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 10
     },
     {
       "id": "d12607a6e474",
@@ -221,28 +154,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 8
     },
     {
-      "id": "ffe1ba5a4718",
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "id": "3f35d1d70306",
+      "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "published": "2026-10-30T22:32:53+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "published": "2026-10-30T21:48:53+00:00",
       "summary": [
-        "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [&#8230;]"
+        "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 9
     }
   ]
 }
