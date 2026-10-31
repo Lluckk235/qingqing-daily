@@ -1,47 +1,9 @@
 {
-  "date": "2026-10-30",
-  "generated": "2026-10-30T22:49:20.132498+08:00",
-  "total": 10,
+  "date": "2026-10-31",
+  "generated": "2026-10-31T12:02:01.313232+08:00",
+  "total": 12,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "30b5f07a33cd",
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "published": "2026-10-30T13:54:25+00:00",
-      "summary": [
-        "DoorDash said that it is open to working with third-party agent makers"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "20dbf8891676",
-      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-      "published": "2026-10-30T13:01:14+00:00",
-      "summary": [
-        "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "fccdd8518019",
       "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
@@ -57,9 +19,9 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "55b8332d80ab",
@@ -76,127 +38,211 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 4
+      "rank": 2
     },
     {
-      "id": "5d2ee45e0e83",
-      "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
+      "id": "d2ae3dfb1d7f",
+      "title": "Cracks are emerging in the AI spending boom",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373190",
-      "published": "2026-10-30T05:49:25+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "published": "2026-10-30T21:17:40+00:00",
       "summary": [
-        "作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒",
-        "一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务&hellip;&hellip; 但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升",
-        "写提示词、等待 AI 生成是一部分；生成效果不理想，手动在 IDE 中 修改是另一部分"
+        "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "c9dcfb62ccca",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "published": "2026-10-30T17:47:12+00:00",
+      "summary": [
+        "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "10e813be1bcc",
+      "title": "不再“一刀切”：微软 Win11 预览版可单独管控应用摄像头、麦克风、定位权限",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/451.htm",
+      "published": "2026-10-31T03:53:07+00:00",
+      "summary": [
+        "IT之家 10 月 31 日消息，微软昨日（10 月 30 日）发布博文，邀请 Windows Insider 项目成员，在 Windows 11 25H2 Beta 26220.9836，以及 Windows 11 Experimental（Future Platforms）预览版 Build 29698.1000 中，进一步精细化应用权限管控",
+        "根据微软官方更新日志内容，在上述 Windows 11 预览版中，微软补齐隐私能力，桌面应用现在可以按单个程序分别管理摄像头、麦克风和位置权限",
+        "IT之家援引 NeoWin 媒体报道，传统桌面应用此前操控这类敏感权限，用户只能通过设备级总开关统一控制，用户难以判断究竟是哪个程序在调用摄像头或获取位置信息"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "a206df60a536",
-      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/10/506771.html",
-      "published": "2026-10-30T08:50:44+00:00",
+      "id": "ced68f1f5930",
+      "title": "印度自己的空间站 BAS 规划公布：模块化设计，2028 年开造",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/437.htm",
+      "published": "2026-10-31T02:27:39+00:00",
       "summary": [
-        "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化"
+        "IT之家 10 月 31 日消息，据印度政府科技与技术部生物技术司披露的信息，在 10 月 27 日开幕的印度“新兴科学技术与创新大会”上，印度空间研究组织 Bharatiya Antariksh Station 项目（BAS 项目）主管 K. Kalpana 女士公布了印度自己的空间站 BAS 的相关规划",
+        "BAS 规划设计为一座重 54 吨、由 5 个模块组成的空间站，轨道高度 450 公里，拥有 100 立方米适居容积，60 千瓦发电，具备通用对接能力，将容纳 3 至 4 名长期宇航员及 3 名短期宇航员访客",
+        "每个模块各司其职，形成一个统一的、电学集成的轨道复合体，设计注重高容错性和资源共享"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "705fa1871fa2",
-      "title": "雷柏 VT4 V2 系列中尺寸抓握鼠标发售：4 版本可选，199 元起",
+      "id": "1c4387eab495",
+      "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/444.htm",
+      "published": "2026-10-31T03:25:09+00:00",
+      "summary": [
+        "IT之家 10 月 31 日消息，Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO",
+        "据彭博社今日报道，招股文件显示，Anthropic 计划通过未来在服务器、建筑和电力等领域投入近 9,000 亿美元（IT之家注：现汇率约合 6 万亿元人民币）债务，远超资产负债表上报告的流动负债",
+        "根据 Anthropic 提交给美国证券交易委员会的文件信息，其资产负债表规模和健康状况显示，该公司目前包括 1,175 亿美元（现汇率约合 7,836.74 亿元人民币）的负债和 1,120 亿美元（现汇率约合 7,469.91 亿元人民币）的现金"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "cf754039148a",
+      "title": "新款小米 SU7 Ultra 无伪装实车曝光，消息称预计 2027 年上市",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/441.htm",
+      "published": "2026-10-31T02:45:40+00:00",
+      "summary": [
+        "IT之家 10 月 31 日消息，据蓝鲸新闻从知情人士处获悉，新款小米 SU7 Ultra 预计在 2027 年上市",
+        "知情人士透露，新车将对外观造型进行调整升级，整套空气动力学套件全面优化，并搭载 DRS 鹅颈尾翼，相比在售版本改动幅度较大",
+        "IT之家注意到，新款小米 SU7 Ultra 无伪装实车现已曝光"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 8
+    },
+    {
+      "id": "bd71f9ee85a4",
+      "title": "微软更新 Win11 26H2 26340.9843 预览版：重构搜索体验，增强 XBOX 游戏模式",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/020/373.htm",
-      "published": "2026-10-30T14:39:14+00:00",
+      "sourceUrl": "https://www.ithome.com/1/020/448.htm",
+      "published": "2026-10-31T03:38:59+00:00",
       "summary": [
-        "IT之家 10 月 30 日消息，雷柏 (RAPOO) 今日启动了 VT4 V2 系列鼠标的销售",
-        "其采用中尺寸模具，三维 123×65×38 (mm)，横卧点宽度 58mm，针对抓握姿势优化",
-        "VT4 V2 系列基于 Nordic nRF54 系列主控，在 USB-C 和 2.4GHz 模式下支持 8kHz 回报率，拥有 8kHz 按键回报率，支持＞20000fps 的高帧率模式"
+        "IT之家 10 月 31 日消息，微软昨日（10 月 30 日）发布博文，邀请 Beta 和 Experimental 通道 Windows Insider 项目成员，测试适用于 Windows 11 25H2/26H2 的预览版更新",
+        "一、Beta 频道 Windows 11 25H2 26220.9836 预览版Beta 频道 Windows Insider 项目成员安装 Windows 11 25H2 更新后，版本号升至 Build 26220.9836 ，IT之家附上相关更新内容如下：1.1、安全安全密钥的 PIN 码输入界面已更新",
+        "“其他用户”图标已被移除，以提供更直观、更便捷的登录体验"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 9
     },
     {
-      "id": "fb19cfa884d9",
-      "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+      "id": "4403c783c218",
+      "title": "微软 Win11 26H1 更新预览版：重构搜索体验，自动播放对话框支持深色主题",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/445.htm",
+      "published": "2026-10-31T03:25:44+00:00",
+      "summary": [
+        "IT之家 10 月 31 日消息，微软公司今天（10 月 31 日）发布博文，邀请 Beta 和 Experimental 通道 Windows Insider 项目成员，测试适用于 Windows 11 26H1 的预览版更新",
+        "一、Beta 频道 Windows 11 26H1 28020.3382 预览版Beta 频道 Windows Insider 项目成员安装 Windows 11 26H1 更新后，版本号升至 Build 28020.3382，IT之家附上相关更新内容如下：1.1、常规此版本包含少量小的修复和改进",
+        "1.2、搜索简化主搜索页面，以减少视觉干扰，并方便用户快速返回最近的搜索记录"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 10
+    },
+    {
+      "id": "d12607a6e474",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
-      "published": "2026-10-29T21:20:47+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "published": "2026-10-30T21:52:03+00:00",
       "summary": [
-        "The biggest ouch of the report was its negative free cash flow of $2.4 billion."
+        "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 11
     },
     {
-      "id": "5d9d7808457b",
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "id": "ffe1ba5a4718",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "published": "2026-10-29T19:14:36+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "published": "2026-10-30T22:32:53+00:00",
       "summary": [
-        "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll."
+        "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "67918afa799a",
-      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/",
-      "published": "2026-10-29T22:27:23+00:00",
-      "summary": [
-        "Some estimates say hackers stole billions in crypto from Binance, the world's largest cryptocurrency exchange, during a cyberattack on Thursday."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 10
+      "rank": 12
     }
   ]
 }
