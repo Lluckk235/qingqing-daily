@@ -1,9 +1,28 @@
 {
-  "date": "2026-11-01",
-  "generated": "2026-11-01T22:43:44.751722+08:00",
+  "date": "2026-11-02",
+  "generated": "2026-11-02T12:24:34.198197+08:00",
   "total": 7,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "cf5e1b5d84c4",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "published": "2026-11-01T21:55:23+00:00",
+      "summary": [
+        "Data centers are deeply unpopular. But what if we called them something else?"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "8462b9fc7109",
       "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
@@ -19,62 +38,43 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "0289b26f177b",
-      "title": "I built an AI Tamagotchi before Meta could",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-      "published": "2026-10-31T16:05:00+00:00",
-      "summary": [
-        "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "29a8bbdb55f2",
-      "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+      "id": "b8ce70dc3eb8",
+      "title": "Binance resumes withdrawals following $6.3 billion breach",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-      "published": "2026-10-31T15:12:19+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+      "published": "2026-11-01T16:20:10+00:00",
       "summary": [
-        "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter results for files, actions, or web results. [&#8230;]"
+        "The cryptocurrency exchange said it's now covered 95% of the stolen assets."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "9e986553aa4b",
-      "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+      "id": "1122c92f08b5",
+      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373248",
-      "published": "2026-11-01T09:57:50+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373252",
+      "published": "2026-11-02T00:27:02+00:00",
       "summary": [
-        "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」",
-        "先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营",
-        "第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万"
+        "&nbsp; 苹果 CEO：不会为了做 AI 而做产品 苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护",
+        "过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线",
+        "特努斯是苹果资深高管，9 月初正式出任 CEO"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -83,23 +83,44 @@
       "rank": 4
     },
     {
-      "id": "7d0596c0ce27",
-      "title": "一图流 | 一张图看懂中国版 Apple 智能",
+      "id": "fe784e8254b9",
+      "title": "理想新一代 MEGA 前舱 29 英寸 6K 全景屏出现短期供应断货问题，汤靖称要到年底左右才能恢复",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/117953",
-      "published": "2026-10-31T04:10:39+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/020/932.htm",
+      "published": "2026-11-02T04:16:44+00:00",
       "summary": [
-        "中国版 Apple 智能即将登陆 iPhone，一起看看还有这些细节"
+        "IT之家 11 月 2 日消息，理想汽车产品线负责人汤靖今日发文，向新一代 MEGA 待交付用户汇报了最新量产情况",
+        "他表示，临时接到合作伙伴通知，新一代 MEGA 前舱的 29 英寸 6K 全景屏出现了短期的供应断货问题，要到年底左右才能恢复",
+        "按照理想汽车的生产和交付计划，此次将影响 11 月 10 日到 12 月 17 日生产下线的车辆，涉及 9 月 11 日 17 点 06 分到 10 月 26 日 9 点 52 分锁单的所有用户"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "83a842b3635c",
+      "title": "Apple’s HomeView could add security camera features",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+      "published": "2026-11-01T17:16:07+00:00",
+      "summary": [
+        "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode with motion detection, live streaming, and recording options, as well as privacy functions. According to pdfu, there is a setup page that even explicitly [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 6
     },
     {
       "id": "21a6f75a84ec",
@@ -113,25 +134,6 @@
       "published": "2026-11-01T14:00:00+00:00",
       "summary": [
         "When I first heard about the new $149 HomePod Mini 2 at Apple's Welcome Home event last month, I was disappointed. It's been six years since Apple launched its entry-level smart speaker, and all it got in the second gen was a chip bump, some color glowy stuff, and better AirPlay? For $50 more than [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "95aaac6adb35",
-      "title": "Happy Pikmin Day Eve",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
-      "published": "2026-10-31T17:50:12+00:00",
-      "summary": [
-        "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin Bloom, and announced the Hello! Pikmin series of shorts. Players [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
