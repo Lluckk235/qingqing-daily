@@ -1,21 +1,21 @@
 {
   "date": "2026-11-03",
-  "generated": "2026-11-03T13:20:37.052280+08:00",
-  "total": 10,
+  "generated": "2026-11-03T23:48:04.616273+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "30470ccd0474",
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "id": "245ee58e8a60",
+      "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "published": "2026-11-03T00:35:52+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+      "published": "2026-11-03T13:10:00+00:00",
       "summary": [
-        "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion."
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,86 +24,63 @@
       "rank": 1
     },
     {
-      "id": "b86b88ec9ca0",
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "id": "5a465e187c01",
+      "title": "How “reverse game theory” could keep AI agents in check",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "published": "2026-11-02T22:14:50+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "published": "2026-11-03T10:43:41+00:00",
       "summary": [
-        "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return."
+        "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "fe0a73dac493",
-      "title": "微软 Surface 鼠标（第 2 代）国行开售：688 元，支持高级触觉反馈",
+      "id": "53493b342330",
+      "title": "GTA VI&#8217;s download will need up to 212GB of hard drive space",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/021/492.htm",
-      "published": "2026-11-03T04:24:12+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
+      "published": "2026-11-03T15:15:00+00:00",
       "summary": [
-        "IT之家 11 月 3 日消息，微软 Surface 蓝牙无线鼠标（第 2 代）国行版于今日正式开售，定价为 688 元",
-        "该鼠标专为 Surface 生态打造，采用硅胶顶盖材质，整体造型圆润简洁，亮铂金配色与 Surface 笔记本外观风格统一，可无缝融入微软设备桌面生态",
-        "京东微软全新 Surface 蓝牙无线鼠标（第 2 代）688 元直达链接该鼠标搭载 微软蓝影追踪技术（Microsoft BlueTrack），成像速率动态调节最高可达每秒 4000 帧，X-Y 分辨率为 39.4 点 / 毫米，追踪速度最高达每秒 762 毫米；传感器默认 1000 dpi，支持在 400 dpi 至 2400 dpi 之间调节"
+        "You're going to need a lot of extra storage space on your console if you're planning to play Grand Theft Auto VI later this month. Rockstar Games confirmed on Tuesday that the pre-load file will require up to 212GB \"depending on your device.\" Rockstar says you can start pre-loading the game on the PlayStation 5 [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
       "score": 5,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "3ebd90727479",
-      "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
+      "id": "4664eacd73e1",
+      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373358",
-      "published": "2026-11-03T00:40:51+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373424",
+      "published": "2026-11-03T11:54:26+00:00",
       "summary": [
-        "Anthropic 更新 IPO 招股书：第三季度营收近 170 亿美元，算力承诺达 8954 亿美元 11 月 2 日，Anthropic 向美国证券交易委员会提交更新后的 S-1 招股文件，首次补充截至今年 9 月底的第三季度财务数据",
-        "Anthropic 第三季度营收达到 169.6 亿美元，较第二季度增长 47%，但增速低于第二季度的 144%",
-        "公司第三季度营业亏损为 5.67 亿美元，而第二季度曾实现 9.74 亿美元营业利润"
+        "作者｜苏子华 编辑｜郑玄 &nbsp; 博尔赫斯写过一则著名的寓言",
+        "一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流",
+        "后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 4
-    },
-    {
-      "id": "3cbd145954c2",
-      "title": "工信部：今年前三季度规上电子信息制造业营收 14.9 万亿元同比增 21%，利润总额翻倍",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/021/491.htm",
-      "published": "2026-11-03T04:15:25+00:00",
-      "summary": [
-        "IT之家 11 月 3 日消息，工信部今日发布《2026 年 1—9 月份电子信息制造业运行情况》",
-        "IT之家从数据中获悉，2026 年前三季度，我国电子信息制造业生产增长较快，出口持续上行，效益增势突出，投资继续增长，地区间营收分化明显",
-        "一、生产增长较快前三季度，规模以上电子信息制造业增加值同比增长 15.8%，增速较去年同期高 4.9 个百分点"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 5
     },
     {
       "id": "95273248a7e9",
@@ -120,28 +97,30 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
-      "id": "565de663962f",
-      "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
+      "id": "30006cc877fe",
+      "title": "广汽埃安 AION V 纯电 SUV 新车申报：165kW + 磷酸铁锂电池",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507260.html",
-      "published": "2026-11-02T07:47:38+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/021/853.htm",
+      "published": "2026-11-03T15:46:52+00:00",
       "summary": [
-        "上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态"
+        "IT之家 11 月 3 日消息，工信部发布第 413 批《道路机动车辆生产企业及产品公告》新产品公示，广汽埃安新能源汽车股份有限公司申报的埃安（AION）AION V 纯电动多用途乘用车完成申报，产品型号为 AHC6460BEVJ1A",
+        "IT之家注意到，新车定位紧凑型纯电 SUV，车身长宽高分别为 4580mm、1854mm、1660mm，轴距为 2765mm，整备质量 1940kg，总质量 2400kg，额定载客 5 人，前后轮距均为 1600mm，接近角 / 离去角为 18°/27°，前悬 / 后悬为 908mm / 907mm，轮胎规格为 215/55R18",
+        "外观方面，新车采用埃安家族化设计语言，车尾配备“AION”字母标识，并带有“埃安”与“V”字样，尾部采用竖向排列的尾灯组，后包围配备黑色护板与红色反光条"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "94857e285856",
@@ -158,47 +137,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
-      "id": "d8eae6c851cc",
-      "title": "Ford promises not to sell your driving habits to data brokers",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1024386/ford-customer-driving-data-privacy-promise-data-brokers",
-      "published": "2026-11-02T19:05:46+00:00",
-      "summary": [
-        "Ford vowed to never sell customer driving data to third-party data brokers as part of a new privacy promise aimed at setting the automaker apart from competitors that have faced legal and regulatory blowback for sharing telematics with data brokers without authorization. As part of its new promise, Ford says it will strive to protect [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "dc645454d4f3",
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "id": "74ef1aa5540c",
+      "title": "Apple restricts dating apps and AI companions to users 18 and up",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "published": "2026-11-03T01:49:52+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "published": "2026-11-03T15:38:27+00:00",
       "summary": [
-        "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call."
+        "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     }
   ]
 }
