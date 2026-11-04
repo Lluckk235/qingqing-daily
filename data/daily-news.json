@@ -1,27 +1,46 @@
 {
   "date": "2026-11-04",
-  "generated": "2026-11-04T12:49:41.618523+08:00",
-  "total": 9,
+  "generated": "2026-11-04T23:57:22.836203+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "faa8b68df590",
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "id": "966745d9c7f0",
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "published": "2026-11-04T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "5a5d2de4de04",
+      "title": "Securing the agentic enterprise with data lineage",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-      "published": "2026-11-04T00:42:10+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "published": "2026-11-04T13:00:00+00:00",
       "summary": [
-        "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent [&#8230;]"
+        "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "72683f747424",
@@ -38,9 +57,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "bee6449d9d70",
@@ -59,9 +78,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "6f63d30a2912",
+      "title": "微信鸿蒙版 App 推 8.0.23.34 正式版更新，更多用户灰度合并发图功能",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/022/470.htm",
+      "published": "2026-11-04T15:56:19+00:00",
+      "summary": [
+        "IT之家 11 月 4 日消息，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.34 正式版更新",
+        "和往常一样，本次更新的说明依旧为“修复了一些已知问题”",
+        "据用户反馈，8.0.23 版本的微信新增了如下特性：部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细；更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐；发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注；发现-直播-更多直播新增搜索按钮；听一听主页面右下角新增小微分支入口浮动按钮，并根据当前页面内容弹出对应提示词，可快速使用听一听相关问小微功能，播放页面点击分享新增问小微（主页面右下角浮动按钮为逐步开放）；公众号图标焕新，对齐其他端；好友昵称、群昵称、备注、微信号、地区等信息支持长按复制；服务号信息流页面已关注的服务号发布的文章支持长按，选择不再关注或删除文章消息；聊天中的图片或视频点开右下角此聊天中的图片视频按钮样式更改；服务号信息流-推荐的贴图长按新增转发；聊天工具新增问小微（逐步开放，需账号灰度到小微主体）；直播页面支持显示当前直播转发分享人数；听一听浮标样式焕新；在具有管理权限的群聊中查看群成员资料，进群方式中邀请该群员进群的群员昵称变更为蓝色可点击状态；支持展示其他端设置的朋友圈点赞彩蛋；视频号内容点击分享新增问小微（逐步开放，需账号灰度到小微主体）；服务号的通知提醒红字部分新增新通知的服务号名称提醒，由 [n 条消息] 变更为 [xxx 等 n 条消息]；修复打开图片延时这个老大难问题；群收款右上角新增导入，支持在发起群收款时导入账单、群接龙、历史群收款（逐步开放，支持 8.0.22 及以上版本）；灰度开放了合并发图功能；灰度开启群消息免打扰之后可设置部分消息仍通知功能；修复了一些已知问题"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 3
+      "rank": 5
     },
     {
       "id": "24a738199903",
@@ -78,28 +118,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "426e8cd23b33",
-      "title": "派早报：Apple 智能国行版开放测试、拓竹发布 H3C 3D 打印机等",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/118402",
-      "published": "2026-11-04T00:00:00+00:00",
-      "summary": [
-        "Surface 鼠标第 2 代国行预售，Windows 11 优化 8 GB 内存表现等"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 6,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "id": "7f0dc1e44720",
+      "title": "Titan OS raises $46 million to expand its smart TV OS internationally",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/",
+      "published": "2026-11-04T15:00:00+00:00",
+      "summary": [
+        "Titan OS has raised $110 million in funding to date"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
     },
     {
       "id": "656673d20b5c",
@@ -116,47 +156,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 6
-    },
-    {
-      "id": "0df359f195da",
-      "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
-      "published": "2026-11-04T01:15:34+00:00",
-      "summary": [
-        "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "440a684b7c6c",
-      "title": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1025971/canva-changes-layoffs",
-      "published": "2026-11-03T22:59:36+00:00",
-      "summary": [
-        "Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. \"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs,\" says Perkins. \"Sadly, it will also mean saying goodbye to teammates and friends who have [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
       "score": 5,
       "isNativeCN": false,
       "rank": 8
+    },
+    {
+      "id": "68d558c33c88",
+      "title": "The fight for tech accountability starts now",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1026289/midterms-2026-results-ai-data-center-big-tech-accountability",
+      "published": "2026-11-04T15:02:25+00:00",
+      "summary": [
+        "When Donald Trump began his second term as president, Silicon Valley gratefully embraced moral nihilism. Google, Amazon, Microsoft, and more collectively donated millions to Trump's inauguration fund to ensure his favor in a new era of gangster tech regulation. Meta overhauled its content policy to allow calling gay people mentally ill and women property. Elon [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
     },
     {
       "id": "82ae81c61d6c",
@@ -173,9 +194,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
