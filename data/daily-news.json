@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-03",
-  "generated": "2026-11-03T23:48:04.616273+08:00",
-  "total": 8,
+  "date": "2026-11-04",
+  "generated": "2026-11-04T12:49:41.618523+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "245ee58e8a60",
-      "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
+      "id": "faa8b68df590",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-      "published": "2026-11-03T13:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "published": "2026-11-04T00:42:10+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to&#8230;"
+        "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,141 +24,158 @@
       "rank": 1
     },
     {
-      "id": "5a465e187c01",
-      "title": "How “reverse game theory” could keep AI agents in check",
+      "id": "72683f747424",
+      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-      "published": "2026-11-03T10:43:41+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+      "published": "2026-11-03T17:56:52+00:00",
       "summary": [
-        "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;"
+        "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "53493b342330",
-      "title": "GTA VI&#8217;s download will need up to 212GB of hard drive space",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1025271/gta-vi-storage-space-rockstar-games",
-      "published": "2026-11-03T15:15:00+00:00",
-      "summary": [
-        "You're going to need a lot of extra storage space on your console if you're planning to play Grand Theft Auto VI later this month. Rockstar Games confirmed on Tuesday that the pre-load file will require up to 212GB \"depending on your device.\" Rockstar says you can start pre-loading the game on the PlayStation 5 [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "4664eacd73e1",
-      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
+      "id": "bee6449d9d70",
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373424",
-      "published": "2026-11-03T11:54:26+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373427",
+      "published": "2026-11-04T00:28:02+00:00",
       "summary": [
-        "作者｜苏子华 编辑｜郑玄 &nbsp; 博尔赫斯写过一则著名的寓言",
-        "一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流",
-        "后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂"
+        "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送 11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等",
+        "国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问",
+        "国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 3
+    },
+    {
+      "id": "24a738199903",
+      "title": "国行 Apple 智能上手：这些功能已经准备好",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/118404",
+      "published": "2026-11-04T02:41:10+00:00",
+      "summary": [
+        "iOS 27.3 Beta 带来了姗姗来迟的国行版 Apple 智能，这些细节你值得了解"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "95273248a7e9",
-      "title": "派评 | 近期值得关注的 App",
+      "id": "426e8cd23b33",
+      "title": "派早报：Apple 智能国行版开放测试、拓竹发布 H3C 3D 打印机等",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/118240",
-      "published": "2026-11-02T09:57:55+00:00",
+      "sourceUrl": "https://sspai.com/post/118402",
+      "published": "2026-11-04T00:00:00+00:00",
       "summary": [
-        "能看见、更聪明的 Android 智能点击器，纯纯写作迎来 iOS 版本，Photon Cam 为 iPhone 旧机型解锁相机新功能等"
+        "Surface 鼠标第 2 代国行预售，Windows 11 优化 8 GB 内存表现等"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "30006cc877fe",
-      "title": "广汽埃安 AION V 纯电 SUV 新车申报：165kW + 磷酸铁锂电池",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/021/853.htm",
-      "published": "2026-11-03T15:46:52+00:00",
-      "summary": [
-        "IT之家 11 月 3 日消息，工信部发布第 413 批《道路机动车辆生产企业及产品公告》新产品公示，广汽埃安新能源汽车股份有限公司申报的埃安（AION）AION V 纯电动多用途乘用车完成申报，产品型号为 AHC6460BEVJ1A",
-        "IT之家注意到，新车定位紧凑型纯电 SUV，车身长宽高分别为 4580mm、1854mm、1660mm，轴距为 2765mm，整备质量 1940kg，总质量 2400kg，额定载客 5 人，前后轮距均为 1600mm，接近角 / 离去角为 18°/27°，前悬 / 后悬为 908mm / 907mm，轮胎规格为 215/55R18",
-        "外观方面，新车采用埃安家族化设计语言，车尾配备“AION”字母标识，并带有“埃安”与“V”字样，尾部采用竖向排列的尾灯组，后包围配备黑色护板与红色反光条"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "94857e285856",
-      "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+      "id": "656673d20b5c",
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
-      "published": "2026-11-02T17:54:11+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "published": "2026-11-03T21:05:55+00:00",
       "summary": [
-        "Marvell's planned purchase of Lumentum is one of the biggest acquisitions in tech history. And they both have the same strategic investor: Nvidia."
+        "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 6
+    },
+    {
+      "id": "0df359f195da",
+      "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
+      "published": "2026-11-04T01:15:34+00:00",
+      "summary": [
+        "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "74ef1aa5540c",
-      "title": "Apple restricts dating apps and AI companions to users 18 and up",
+      "id": "440a684b7c6c",
+      "title": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1025971/canva-changes-layoffs",
+      "published": "2026-11-03T22:59:36+00:00",
+      "summary": [
+        "Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. \"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs,\" says Perkins. \"Sadly, it will also mean saying goodbye to teammates and friends who have [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "82ae81c61d6c",
+      "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-      "published": "2026-11-03T15:38:27+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
+      "published": "2026-11-04T01:02:53+00:00",
       "summary": [
-        "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content."
+        "Ahead of the release of Rockstar Games&#8217; Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     }
   ]
 }
