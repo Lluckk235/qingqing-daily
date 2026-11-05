@@ -1,9 +1,47 @@
 {
-  "date": "2026-11-04",
-  "generated": "2026-11-04T23:57:22.836203+08:00",
+  "date": "2026-11-05",
+  "generated": "2026-11-05T13:05:47.716703+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "d13217a5b492",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "published": "2026-11-04T21:56:01+00:00",
+      "summary": [
+        "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "423e16ab4854",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "published": "2026-11-04T21:25:44+00:00",
+      "summary": [
+        "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "966745d9c7f0",
       "title": "The Download: blended meat, restored sight, and the agentic web",
@@ -19,108 +57,110 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "5a5d2de4de04",
-      "title": "Securing the agentic enterprise with data lineage",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "published": "2026-11-04T13:00:00+00:00",
-      "summary": [
-        "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "72683f747424",
-      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-      "published": "2026-11-03T17:56:52+00:00",
-      "summary": [
-        "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "bee6449d9d70",
-      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373427",
-      "published": "2026-11-04T00:28:02+00:00",
+      "id": "626a0cda25c4",
+      "title": "Sequoia hits rewind, undoing 20 years of expansion",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+      "published": "2026-11-04T17:11:15+00:00",
       "summary": [
-        "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送 11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等",
-        "国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问",
-        "国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力"
+        "Sequoia is consolidating into a smaller, Bay Area–centered firm, shutting down the programs and offices it built during a 20-year expansion while announcing roughly $10 billion in new funds."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": true,
+      "score": 4.5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "6f63d30a2912",
-      "title": "微信鸿蒙版 App 推 8.0.23.34 正式版更新，更多用户灰度合并发图功能",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/022/470.htm",
-      "published": "2026-11-04T15:56:19+00:00",
+      "id": "42b170ad5769",
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507696.html",
+      "published": "2026-11-05T02:01:51+00:00",
       "summary": [
-        "IT之家 11 月 4 日消息，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.34 正式版更新",
-        "和往常一样，本次更新的说明依旧为“修复了一些已知问题”",
-        "据用户反馈，8.0.23 版本的微信新增了如下特性：部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细；更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐；发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注；发现-直播-更多直播新增搜索按钮；听一听主页面右下角新增小微分支入口浮动按钮，并根据当前页面内容弹出对应提示词，可快速使用听一听相关问小微功能，播放页面点击分享新增问小微（主页面右下角浮动按钮为逐步开放）；公众号图标焕新，对齐其他端；好友昵称、群昵称、备注、微信号、地区等信息支持长按复制；服务号信息流页面已关注的服务号发布的文章支持长按，选择不再关注或删除文章消息；聊天中的图片或视频点开右下角此聊天中的图片视频按钮样式更改；服务号信息流-推荐的贴图长按新增转发；聊天工具新增问小微（逐步开放，需账号灰度到小微主体）；直播页面支持显示当前直播转发分享人数；听一听浮标样式焕新；在具有管理权限的群聊中查看群成员资料，进群方式中邀请该群员进群的群员昵称变更为蓝色可点击状态；支持展示其他端设置的朋友圈点赞彩蛋；视频号内容点击分享新增问小微（逐步开放，需账号灰度到小微主体）；服务号的通知提醒红字部分新增新通知的服务号名称提醒，由 [n 条消息] 变更为 [xxx 等 n 条消息]；修复打开图片延时这个老大难问题；群收款右上角新增导入，支持在发起群收款时导入账单、群接龙、历史群收款（逐步开放，支持 8.0.22 及以上版本）；灰度开放了合并发图功能；灰度开启群消息免打扰之后可设置部分消息仍通知功能；修复了一些已知问题"
+        "Data + AI 技术实践巡展 · 上海站"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "24a738199903",
-      "title": "国行 Apple 智能上手：这些功能已经准备好",
+      "id": "039f5073b9b4",
+      "title": "丰田汽车 2027 财年半年报归母净利润 2.24 万亿日元，同比增长 26.1%",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/022/667.htm",
+      "published": "2026-11-05T05:03:12+00:00",
+      "summary": [
+        "IT之家 11 月 5 日消息，丰田汽车今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年报（2026 年 4 月 1 日～2026 年 9 月 30 日）报告：营业总收入：26.96 万亿日元（IT之家注：现汇率约合 1.14 万亿元人民币），同比增长 9.5%归母净利润：2.24 万亿日元（现汇率约合 944.74 亿元人民币），同比增长 26.1%基本每股收益：185.97 日元（现汇率约合 7.8 元人民币），同比增长 36.67%稀释每股收益：185.97 日元（现汇率约合 7.8 元人民币），同比增长 36.67% AI 解读本次丰田汽车 2027 财年上半年（2026 年 4 月～9 月）合并业绩，营业收入、归母净利润均超出市场分析师预期，营业利润实现六个季度以来首次同比增长",
+        "公司业务与财报亮点丰田汽车是全球最大的汽车制造商之一，核心业务包括汽车设计、制造、销售以及配套金融服务，本次披露为 2027 财年中間期（前 2 个财季累计）的合并业绩快报",
+        "营业收入达 26.96 万亿日元（现汇率约合 1.14 万亿元人民币），同比增长 9.5%；其中汽车事业营收 23.98 万亿日元（现汇率约合 1.01 万亿元人民币），金融事业营收 2.76 万亿日元（现汇率约合 1,164.06 亿元人民币）"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "3b21a4031e18",
+      "title": "微博 CEO 王高飞：企业家 IP 不只是个人流量还是长期信任资产，警惕三种运营误区",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/118404",
-      "published": "2026-11-04T02:41:10+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/022/666.htm",
+      "published": "2026-11-05T04:53:30+00:00",
       "summary": [
-        "iOS 27.3 Beta 带来了姗姗来迟的国行版 Apple 智能，这些细节你值得了解"
+        "IT之家 11 月 5 日消息，世界互联网大会乌镇峰会互联网企业家论坛于 11 月 4 日在浙江乌镇举行",
+        "微博 CEO 王高飞出席论坛并发表题为“共建可信企业 IP，让中国企业家的声音走向世界”的主旨演讲",
+        "据新浪科技报道，王高飞表示，企业家日益成为品牌对外叙事的重要主体"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "id": "56ec5d8279ab",
+      "title": "索尼 Xperia 10 VIII/10 VII 手机推送 Android 17 更新，无缘安卓 iOS 文件互传功能",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/022/664.htm",
+      "published": "2026-11-05T04:27:42+00:00",
+      "summary": [
+        "IT之家 11 月 5 日消息，科技媒体 Android Authority 昨日（11 月 4 日）发布博文，报道称索尼已面向 Xperia 10 VIII 与 Xperia 10 VII 推送安卓 17 更新，但上述两款手机无法完整体验安卓 17 的全部新功能",
+        "IT之家附上相关截图如下：根据官方声明，Xperia 10 VIII 与 Xperia 10 VII 两款手机升级安卓 17 后，在个性化界面上有所升级",
+        "本次更新扩展“壁纸和样式”功能，带来新的壁纸与时钟设计，并支持用户自定义图标的形状和样式"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "7f0dc1e44720",
@@ -133,68 +173,30 @@
       "sourceUrl": "https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/",
       "published": "2026-11-04T15:00:00+00:00",
       "summary": [
-        "Titan OS has raised $110 million in funding to date"
+        "Titan OS has raised $110 million in funding to date."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "656673d20b5c",
-      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-      "published": "2026-11-03T21:05:55+00:00",
-      "summary": [
-        "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "68d558c33c88",
-      "title": "The fight for tech accountability starts now",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/policy/1026289/midterms-2026-results-ai-data-center-big-tech-accountability",
-      "published": "2026-11-04T15:02:25+00:00",
-      "summary": [
-        "When Donald Trump began his second term as president, Silicon Valley gratefully embraced moral nihilism. Google, Amazon, Microsoft, and more collectively donated millions to Trump's inauguration fund to ensure his favor in a new era of gangster tech regulation. Meta overhauled its content policy to allow calling gay people mentally ill and women property. Elon [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "82ae81c61d6c",
-      "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
+      "id": "ed6829364166",
+      "title": "X says its updated web app is way faster",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
-      "published": "2026-11-04T01:02:53+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
+      "published": "2026-11-05T00:25:12+00:00",
       "summary": [
-        "Ahead of the release of Rockstar Games&#8217; Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and [&#8230;]"
+        "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 10
     }
