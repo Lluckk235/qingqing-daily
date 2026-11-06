@@ -1,28 +1,9 @@
 {
   "date": "2026-11-06",
-  "generated": "2026-11-06T13:04:51.975398+08:00",
-  "total": 9,
+  "generated": "2026-11-06T23:38:55.481862+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "c6a1ad423927",
-      "title": "Airbnb is working on an AI travel agent",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-      "published": "2026-11-06T00:06:12+00:00",
-      "summary": [
-        "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
     {
       "id": "560f077b27e2",
       "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
@@ -38,87 +19,106 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "759260a1403a",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "published": "2026-11-05T19:48:28+00:00",
+      "summary": [
+        "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "e6e83cdc65f9",
-      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "id": "1c848d9c6bf2",
+      "title": "Amazon will let you text Alexa your shopping list",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "published": "2026-11-06T14:00:00+00:00",
+      "summary": [
+        "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "51dda1debcfd",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "published": "2026-11-06T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "7b334546f13d",
+      "title": "AI 时代没有标准答案的问题，我们面对面聊",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373554",
-      "published": "2026-11-06T01:01:57+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373636",
+      "published": "2026-11-06T12:09:13+00:00",
       "summary": [
-        "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日 据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧",
-        "当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）",
-        "纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间"
+        "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾",
+        "今天，再来揭晓「小场深谈」的最新进展",
+        "10 月底，我们在「小场深谈」的预热文章里做了一次调研，请大家投票选出最想聊的话题"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 3
-    },
-    {
-      "id": "dfed868335f8",
-      "title": "本田中国 10 月汽车销量 28652 辆，同比下降 52.2%",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/023/221.htm",
-      "published": "2026-11-06T05:04:06+00:00",
-      "summary": [
-        "IT之家 11 月 6 日消息，据财联社今日报道，本田中国 10 月汽车销量 28,652 辆，同比下降 52.2%",
-        "本田技研工业（中国）投资有限公司总经理、本田技研科技（中国）有限公司总经理五十岚雅行曾明确表态，中国市场的意义早已不止于销售，更是推进电动化与智能化变革的重要市场，立场今后也不会改变，未来本田将一如既往深耕中国",
-        "据悉，本田在智能化领域已选定 Momenta 与华为，双方分别签署战略合作协议，Momenta 的领航辅助驾驶技术与华为的鸿蒙座舱将从 2027 年上市车型起陆续导入"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "4fbc94614159",
-      "title": "Apple 官网排版细节鉴赏",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/115399",
-      "published": "2026-11-05T02:57:22+00:00",
-      "summary": [
-        "Apple 独一无二的品牌价值，正是从这些细节中凝聚的"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "0567b8872620",
-      "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
+      "id": "20c1c927df1b",
+      "title": "不法分子冒名发送虚假短信谎称车辆涉气囊召回，上汽通用官方发布声明提醒车主提高警惕",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507688.html",
-      "published": "2026-11-05T01:42:43+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/023/599.htm",
+      "published": "2026-11-06T15:35:29+00:00",
       "summary": [
-        "11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布"
+        "IT之家 11 月 6 日消息，上汽通用汽车官方今晚发布声明，称近日有不法分子冒用“上汽通用”名义，向凯迪拉克、别克、雪佛兰品牌车主发送虚假短信，谎称车辆涉及气囊召回，“以逾期召回将取消质保服务”相要挟，将不明链接谎称为上汽通用官网地址，诱导车主提供个人信息、办理所谓召回手续",
+        "上汽通用汽车郑重声明：1.上汽通用汽车官方从未发布过上述短信和链接，亦未委托任何第三方通过短信、彩信或社交平台向车主发送上述召回信息；2.上述虚假短信中提及的产品召回纯属虚构；3.上汽通用汽车已对该侵权行为取证，将追究相关主体法律责任，并提醒广大车主提高警惕，切勿点击可疑链接、回复相关信息或向不明来源提供个人及车辆信息，谨防上当受骗",
+        "综合IT之家此前报道，已有多家车企遭遇被不法分子冒名发布虚假召回短信的情况"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 3.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
@@ -137,47 +137,85 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 7
     },
     {
-      "id": "3ceac8608e40",
-      "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
+      "id": "92e87df29431",
+      "title": "Fox bought Roku",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
-      "published": "2026-11-05T15:40:34+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close",
+      "published": "2026-11-06T15:00:56+00:00",
       "summary": [
-        "Zipline raised $1.5 billion and ramped up its partnership with Walmart."
+        "Fox has officially closed its $22 billion acquisition of Roku, the companies announced on Friday. With Roku under its umbrella, Fox now controls a major streaming platform that reaches more than 100 million households in the US. First announced in June, the deal will allow Fox to bring Fox Sports, news content, and local stations [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "b18925fcf2c1",
-      "title": "Blue Origin’s next launch now won’t happen until 2027",
+      "id": "f7fc70a3a032",
+      "title": "TikTok&#8217;s For You page needs to change, says the EU",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+      "published": "2026-11-06T14:00:49+00:00",
+      "summary": [
+        "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to sadness, isolation, or body image. The findings come months after [&#8230;]"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "feb6f1d325a7",
+      "title": "How Remedy designed Control Resonant’s wildest mission: ‘Anything kind of goes’",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
-      "published": "2026-11-05T20:47:14+00:00",
+      "sourceUrl": "https://www.theverge.com/games/1028159/control-resonant-recursions-and-iterations-mission-design-time-travel",
+      "published": "2026-11-06T13:00:00+00:00",
       "summary": [
-        "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have brought [&#8230;]"
+        "Note: Some spoilers for Control Resonant's \"Recursions and Iterations\" mission follow. One of Control Resonant's most memorable missions involves time travel - kind of. There are certainly multiple timelines intersecting, or maybe overlapping, or maybe running in parallel. As protagonist Dylan Faden, you meet some of the researchers who are trapped in and investigating these [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
+    },
+    {
+      "id": "bacb3f0e9b0a",
+      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "published": "2026-11-06T14:10:00+00:00",
+      "summary": [
+        "Amazon said that the feature will roll out to millions of users in coming weeks."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 11
     }
   ]
 }
