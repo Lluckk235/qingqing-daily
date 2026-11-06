@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-05",
-  "generated": "2026-11-05T13:05:47.716703+08:00",
-  "total": 10,
+  "date": "2026-11-06",
+  "generated": "2026-11-06T13:04:51.975398+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "d13217a5b492",
-      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "id": "c6a1ad423927",
+      "title": "Airbnb is working on an AI travel agent",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "published": "2026-11-04T21:56:01+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "published": "2026-11-06T00:06:12+00:00",
       "summary": [
-        "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
+        "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "423e16ab4854",
-      "title": "OpenAI is already trying to shape the 2028 election",
+      "id": "560f077b27e2",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "published": "2026-11-04T21:25:44+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "published": "2026-11-05T22:40:55+00:00",
       "summary": [
-        "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests."
+        "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -43,162 +43,141 @@
       "rank": 2
     },
     {
-      "id": "966745d9c7f0",
-      "title": "The Download: blended meat, restored sight, and the agentic web",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-      "published": "2026-11-04T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "626a0cda25c4",
-      "title": "Sequoia hits rewind, undoing 20 years of expansion",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
-      "published": "2026-11-04T17:11:15+00:00",
-      "summary": [
-        "Sequoia is consolidating into a smaller, Bay Area–centered firm, shutting down the programs and offices it built during a 20-year expansion while announcing roughly $10 billion in new funds."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "42b170ad5769",
-      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "id": "e6e83cdc65f9",
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/507696.html",
-      "published": "2026-11-05T02:01:51+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373554",
+      "published": "2026-11-06T01:01:57+00:00",
       "summary": [
-        "Data + AI 技术实践巡展 · 上海站"
+        "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日 据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧",
+        "当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）",
+        "纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
+      "rank": 3
+    },
+    {
+      "id": "dfed868335f8",
+      "title": "本田中国 10 月汽车销量 28652 辆，同比下降 52.2%",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/023/221.htm",
+      "published": "2026-11-06T05:04:06+00:00",
+      "summary": [
+        "IT之家 11 月 6 日消息，据财联社今日报道，本田中国 10 月汽车销量 28,652 辆，同比下降 52.2%",
+        "本田技研工业（中国）投资有限公司总经理、本田技研科技（中国）有限公司总经理五十岚雅行曾明确表态，中国市场的意义早已不止于销售，更是推进电动化与智能化变革的重要市场，立场今后也不会改变，未来本田将一如既往深耕中国",
+        "据悉，本田在智能化领域已选定 Momenta 与华为，双方分别签署战略合作协议，Momenta 的领航辅助驾驶技术与华为的鸿蒙座舱将从 2027 年上市车型起陆续导入"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 4
+    },
+    {
+      "id": "4fbc94614159",
+      "title": "Apple 官网排版细节鉴赏",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/115399",
+      "published": "2026-11-05T02:57:22+00:00",
+      "summary": [
+        "Apple 独一无二的品牌价值，正是从这些细节中凝聚的"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "039f5073b9b4",
-      "title": "丰田汽车 2027 财年半年报归母净利润 2.24 万亿日元，同比增长 26.1%",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/022/667.htm",
-      "published": "2026-11-05T05:03:12+00:00",
+      "id": "0567b8872620",
+      "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/507688.html",
+      "published": "2026-11-05T01:42:43+00:00",
       "summary": [
-        "IT之家 11 月 5 日消息，丰田汽车今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年报（2026 年 4 月 1 日～2026 年 9 月 30 日）报告：营业总收入：26.96 万亿日元（IT之家注：现汇率约合 1.14 万亿元人民币），同比增长 9.5%归母净利润：2.24 万亿日元（现汇率约合 944.74 亿元人民币），同比增长 26.1%基本每股收益：185.97 日元（现汇率约合 7.8 元人民币），同比增长 36.67%稀释每股收益：185.97 日元（现汇率约合 7.8 元人民币），同比增长 36.67% AI 解读本次丰田汽车 2027 财年上半年（2026 年 4 月～9 月）合并业绩，营业收入、归母净利润均超出市场分析师预期，营业利润实现六个季度以来首次同比增长",
-        "公司业务与财报亮点丰田汽车是全球最大的汽车制造商之一，核心业务包括汽车设计、制造、销售以及配套金融服务，本次披露为 2027 财年中間期（前 2 个财季累计）的合并业绩快报",
-        "营业收入达 26.96 万亿日元（现汇率约合 1.14 万亿元人民币），同比增长 9.5%；其中汽车事业营收 23.98 万亿日元（现汇率约合 1.01 万亿元人民币），金融事业营收 2.76 万亿日元（现汇率约合 1,164.06 亿元人民币）"
+        "11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 3.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "3b21a4031e18",
-      "title": "微博 CEO 王高飞：企业家 IP 不只是个人流量还是长期信任资产，警惕三种运营误区",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/022/666.htm",
-      "published": "2026-11-05T04:53:30+00:00",
-      "summary": [
-        "IT之家 11 月 5 日消息，世界互联网大会乌镇峰会互联网企业家论坛于 11 月 4 日在浙江乌镇举行",
-        "微博 CEO 王高飞出席论坛并发表题为“共建可信企业 IP，让中国企业家的声音走向世界”的主旨演讲",
-        "据新浪科技报道，王高飞表示，企业家日益成为品牌对外叙事的重要主体"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "56ec5d8279ab",
-      "title": "索尼 Xperia 10 VIII/10 VII 手机推送 Android 17 更新，无缘安卓 iOS 文件互传功能",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/022/664.htm",
-      "published": "2026-11-05T04:27:42+00:00",
-      "summary": [
-        "IT之家 11 月 5 日消息，科技媒体 Android Authority 昨日（11 月 4 日）发布博文，报道称索尼已面向 Xperia 10 VIII 与 Xperia 10 VII 推送安卓 17 更新，但上述两款手机无法完整体验安卓 17 的全部新功能",
-        "IT之家附上相关截图如下：根据官方声明，Xperia 10 VIII 与 Xperia 10 VII 两款手机升级安卓 17 后，在个性化界面上有所升级",
-        "本次更新扩展“壁纸和样式”功能，带来新的壁纸与时钟设计，并支持用户自定义图标的形状和样式"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "7f0dc1e44720",
-      "title": "Titan OS raises $46 million to expand its smart TV OS internationally",
+      "id": "6247b6836c7e",
+      "title": "Food delivery startup Wonder files for IPO as it explores its next big bite",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/",
-      "published": "2026-11-04T15:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
+      "published": "2026-11-05T17:11:48+00:00",
       "summary": [
-        "Titan OS has raised $110 million in funding to date."
+        "Following years of fundraising, acquisitions, and expansion, food delivery startup Wonder is moving closer to becoming a publicly traded company."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "3ceac8608e40",
+      "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
+      "published": "2026-11-05T15:40:34+00:00",
+      "summary": [
+        "Zipline raised $1.5 billion and ramped up its partnership with Walmart."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 4,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
-      "id": "ed6829364166",
-      "title": "X says its updated web app is way faster",
+      "id": "b18925fcf2c1",
+      "title": "Blue Origin’s next launch now won’t happen until 2027",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster",
-      "published": "2026-11-05T00:25:12+00:00",
+      "sourceUrl": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
+      "published": "2026-11-05T20:47:14+00:00",
       "summary": [
-        "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. [&#8230;]"
+        "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have brought [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     }
   ]
 }
