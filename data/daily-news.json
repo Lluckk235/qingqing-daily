@@ -1,66 +1,9 @@
 {
-  "date": "2026-11-06",
-  "generated": "2026-11-06T23:38:55.481862+08:00",
-  "total": 11,
+  "date": "2026-11-07",
+  "generated": "2026-11-07T12:38:42.394559+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "560f077b27e2",
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "published": "2026-11-05T22:40:55+00:00",
-      "summary": [
-        "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "759260a1403a",
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-      "published": "2026-11-05T19:48:28+00:00",
-      "summary": [
-        "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "1c848d9c6bf2",
-      "title": "Amazon will let you text Alexa your shopping list",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
-      "published": "2026-11-06T14:00:00+00:00",
-      "summary": [
-        "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 3
-    },
     {
       "id": "51dda1debcfd",
       "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
@@ -76,24 +19,81 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "088b136dac7f",
+      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
+      "published": "2026-11-06T19:47:02+00:00",
+      "summary": [
+        "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "dcfedcc7440b",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "published": "2026-11-06T18:44:20+00:00",
+      "summary": [
+        "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "41cd6da548e0",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published": "2026-11-06T22:53:46+00:00",
+      "summary": [
+        "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
       "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "7b334546f13d",
-      "title": "AI 时代没有标准答案的问题，我们面对面聊",
+      "id": "35984e5fed1d",
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373636",
-      "published": "2026-11-06T12:09:13+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373643",
+      "published": "2026-11-07T03:35:36+00:00",
       "summary": [
-        "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾",
-        "今天，再来揭晓「小场深谈」的最新进展",
-        "10 月底，我们在「小场深谈」的预热文章里做了一次调研，请大家投票选出最想聊的话题"
+        "&nbsp; 头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作",
+        "在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告",
+        "故障分析还没开始，大半天已经过去了"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,38 +102,36 @@
       "rank": 5
     },
     {
-      "id": "20c1c927df1b",
-      "title": "不法分子冒名发送虚假短信谎称车辆涉气囊召回，上汽通用官方发布声明提醒车主提高警惕",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/023/599.htm",
-      "published": "2026-11-06T15:35:29+00:00",
+      "id": "53c8a40c524c",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "published": "2026-11-06T23:46:18+00:00",
       "summary": [
-        "IT之家 11 月 6 日消息，上汽通用汽车官方今晚发布声明，称近日有不法分子冒用“上汽通用”名义，向凯迪拉克、别克、雪佛兰品牌车主发送虚假短信，谎称车辆涉及气囊召回，“以逾期召回将取消质保服务”相要挟，将不明链接谎称为上汽通用官网地址，诱导车主提供个人信息、办理所谓召回手续",
-        "上汽通用汽车郑重声明：1.上汽通用汽车官方从未发布过上述短信和链接，亦未委托任何第三方通过短信、彩信或社交平台向车主发送上述召回信息；2.上述虚假短信中提及的产品召回纯属虚构；3.上汽通用汽车已对该侵权行为取证，将追究相关主体法律责任，并提醒广大车主提高警惕，切勿点击可疑链接、回复相关信息或向不明来源提供个人及车辆信息，谨防上当受骗",
-        "综合IT之家此前报道，已有多家车企遭遇被不法分子冒名发布虚假召回短信的情况"
+        "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [&#8230;]"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 7,
-      "isNativeCN": true,
+      "isNativeCN": false,
       "rank": 6
     },
     {
-      "id": "6247b6836c7e",
-      "title": "Food delivery startup Wonder files for IPO as it explores its next big bite",
+      "id": "fc41e3f3d482",
+      "title": "Fox completes its $22B acquisition of Roku",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
-      "published": "2026-11-05T17:11:48+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+      "published": "2026-11-06T16:05:36+00:00",
       "summary": [
-        "Following years of fundraising, acquisitions, and expansion, food delivery startup Wonder is moving closer to becoming a publicly traded company."
+        "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -142,80 +140,61 @@
       "rank": 7
     },
     {
-      "id": "92e87df29431",
-      "title": "Fox bought Roku",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/streaming/1028629/fox-roku-acquisition-close",
-      "published": "2026-11-06T15:00:56+00:00",
-      "summary": [
-        "Fox has officially closed its $22 billion acquisition of Roku, the companies announced on Friday. With Roku under its umbrella, Fox now controls a major streaming platform that reaches more than 100 million households in the US. First announced in June, the deal will allow Fox to bring Fox Sports, news content, and local stations [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "f7fc70a3a032",
-      "title": "TikTok&#8217;s For You page needs to change, says the EU",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
-      "published": "2026-11-06T14:00:49+00:00",
-      "summary": [
-        "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to sadness, isolation, or body image. The findings come months after [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "feb6f1d325a7",
-      "title": "How Remedy designed Control Resonant’s wildest mission: ‘Anything kind of goes’",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1028159/control-resonant-recursions-and-iterations-mission-design-time-travel",
-      "published": "2026-11-06T13:00:00+00:00",
-      "summary": [
-        "Note: Some spoilers for Control Resonant's \"Recursions and Iterations\" mission follow. One of Control Resonant's most memorable missions involves time travel - kind of. There are certainly multiple timelines intersecting, or maybe overlapping, or maybe running in parallel. As protagonist Dylan Faden, you meet some of the researchers who are trapped in and investigating these [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 10
-    },
-    {
-      "id": "bacb3f0e9b0a",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "id": "b30360389155",
+      "title": "The Duo apps are coming, says Apple",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "published": "2026-11-06T14:10:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "published": "2026-11-06T21:38:05+00:00",
       "summary": [
-        "Amazon said that the feature will roll out to millions of users in coming weeks."
+        "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 8
+    },
+    {
+      "id": "4d25f5d785f0",
+      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "published": "2026-11-06T18:10:10+00:00",
+      "summary": [
+        "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "d14db64e1c1b",
+      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "published": "2026-11-06T16:50:01+00:00",
+      "summary": [
+        "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
