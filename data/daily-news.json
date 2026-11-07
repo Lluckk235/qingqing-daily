@@ -1,46 +1,27 @@
 {
   "date": "2026-11-07",
-  "generated": "2026-11-07T12:38:42.394559+08:00",
+  "generated": "2026-11-07T22:39:57.198507+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "51dda1debcfd",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "published": "2026-11-06T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "088b136dac7f",
-      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "d36485a6e1db",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
-      "published": "2026-11-06T19:47:02+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "published": "2026-11-07T12:30:00+00:00",
       "summary": [
-        "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]"
+        "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [&#8230;]"
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "dcfedcc7440b",
@@ -57,26 +38,45 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "51dda1debcfd",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "published": "2026-11-06T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "41cd6da548e0",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "7ca1e0316573",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "published": "2026-11-06T22:53:46+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "published": "2026-11-07T05:01:54+00:00",
       "summary": [
-        "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
+        "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,9 +97,49 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "75e0cd9b0070",
+      "title": "比亚迪仰望鼎曜超豪华行政旗舰轿车官图发布：对开车门带雨伞、车内四座布局后排设香槟杯座",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/023/820.htm",
+      "published": "2026-11-07T14:33:26+00:00",
+      "summary": [
+        "IT之家 11 月 7 日现场消息，今晚，在阿布扎比，比亚迪旗下超豪华行政旗舰轿车 —— 仰望鼎曜迎来全球首秀",
+        "新车拥有东方底蕴与前沿科技，宣称“呈现超越寻常的旗舰豪华体验”",
+        "IT之家注意到，仰望汽车官方刚刚发布了仰望鼎曜的官图，展示了新车更多设计细节"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "15b9edf8dd85",
+      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/508165.html",
+      "published": "2026-11-06T09:19:00+00:00",
+      "summary": [
+        "11月5日，阿里巴巴发布《2026 AI向善行动报告》"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "53c8a40c524c",
@@ -116,9 +156,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 8
     },
     {
       "id": "fc41e3f3d482",
@@ -137,7 +177,7 @@
       "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "b30360389155",
@@ -154,45 +194,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "4d25f5d785f0",
-      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-      "published": "2026-11-06T18:10:10+00:00",
-      "summary": [
-        "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "d14db64e1c1b",
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-      "published": "2026-11-06T16:50:01+00:00",
-      "summary": [
-        "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 10
     }
