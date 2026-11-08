@@ -1,9 +1,47 @@
 {
-  "date": "2026-11-07",
-  "generated": "2026-11-07T22:39:57.198507+08:00",
+  "date": "2026-11-08",
+  "generated": "2026-11-08T12:26:38.917126+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "cfab3383e278",
+      "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
+      "published": "2026-11-07T16:00:00+00:00",
+      "summary": [
+        "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and selling records, obviously, but it's also become so much more. It's a shockingly comprehensive database that covers not just albums and singles, but all the various versions [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "ff59ab9d8295",
+      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+      "published": "2026-11-07T17:24:07+00:00",
+      "summary": [
+        "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "d36485a6e1db",
       "title": "Why a new report on Anthropic automating AI development is alarming researchers",
@@ -19,9 +57,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "dcfedcc7440b",
@@ -38,108 +76,30 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "51dda1debcfd",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "published": "2026-11-06T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "7ca1e0316573",
-      "title": "Sequoia shutting down its Scouts program marks the end of an era",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
-      "published": "2026-11-07T05:01:54+00:00",
-      "summary": [
-        "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "35984e5fed1d",
-      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "id": "7f5cd7c23221",
+      "title": "创业者做 Personal Agent，有没有一线生机？",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373643",
-      "published": "2026-11-07T03:35:36+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373650",
+      "published": "2026-11-08T02:40:20+00:00",
       "summary": [
-        "&nbsp; 头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作",
-        "在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告",
-        "故障分析还没开始，大半天已经过去了"
+        "最近一阶段，Personal Agent 很热",
+        "有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏",
+        "虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "75e0cd9b0070",
-      "title": "比亚迪仰望鼎曜超豪华行政旗舰轿车官图发布：对开车门带雨伞、车内四座布局后排设香槟杯座",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/023/820.htm",
-      "published": "2026-11-07T14:33:26+00:00",
-      "summary": [
-        "IT之家 11 月 7 日现场消息，今晚，在阿布扎比，比亚迪旗下超豪华行政旗舰轿车 —— 仰望鼎曜迎来全球首秀",
-        "新车拥有东方底蕴与前沿科技，宣称“呈现超越寻常的旗舰豪华体验”",
-        "IT之家注意到，仰望汽车官方刚刚发布了仰望鼎曜的官图，展示了新车更多设计细节"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "15b9edf8dd85",
-      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508165.html",
-      "published": "2026-11-06T09:19:00+00:00",
-      "summary": [
-        "11月5日，阿里巴巴发布《2026 AI向善行动报告》"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": true,
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "53c8a40c524c",
@@ -156,28 +116,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "fc41e3f3d482",
-      "title": "Fox completes its $22B acquisition of Roku",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
-      "published": "2026-11-06T16:05:36+00:00",
-      "summary": [
-        "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 6
     },
     {
       "id": "b30360389155",
@@ -194,7 +135,64 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "274da77cbef3",
+      "title": "Parents want safer phones for kids. These companies are answering the call.",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
+      "published": "2026-11-07T19:00:00+00:00",
+      "summary": [
+        "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "d18845134cdd",
+      "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
+      "published": "2026-11-07T17:18:00+00:00",
+      "summary": [
+        "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "7ca1e0316573",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "published": "2026-11-07T05:01:54+00:00",
+      "summary": [
+        "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     }
