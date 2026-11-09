@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-08",
-  "generated": "2026-11-08T22:45:29.333276+08:00",
-  "total": 10,
+  "date": "2026-11-09",
+  "generated": "2026-11-09T12:39:15.778412+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "d36485a6e1db",
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "id": "3fa60b95a7a4",
+      "title": "Apple is racing to make Siri more agentic",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "published": "2026-11-07T12:30:00+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "published": "2026-11-08T19:18:19+00:00",
       "summary": [
-        "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [&#8230;]"
+        "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "c350b1638a53",
-      "title": "AI broke the cybersecurity world. What’s next?",
+      "id": "a6c5d0754483",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-      "published": "2026-11-07T15:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "published": "2026-11-08T22:54:50+00:00",
       "summary": [
-        "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say [&#8230;]"
+        "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,43 +57,43 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "cfab3383e278",
-      "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
+      "id": "ff59ab9d8295",
+      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
-      "published": "2026-11-07T16:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+      "published": "2026-11-07T17:24:07+00:00",
       "summary": [
-        "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and selling records, obviously, but it's also become so much more. It's a shockingly comprehensive database that covers not just albums and singles, but all the various versions [&#8230;]"
+        "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "7b966cc20754",
-      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "id": "3c0e33b496ec",
+      "title": "实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373653",
-      "published": "2026-11-08T09:52:45+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373644",
+      "published": "2026-11-09T03:57:03+00:00",
       "summary": [
-        "作者｜宇航猿 编辑｜靖宇 最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下",
-        "整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步",
-        "但奇怪的是，它确实带来了一种真切的陪伴感"
+        "&nbsp; 头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相",
+        "腾讯给它的定位是&mdash;&mdash;首次跻身最强开源模型之列",
+        "过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,99 +102,63 @@
       "rank": 5
     },
     {
-      "id": "6d4c80f7295c",
-      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508344.html",
-      "published": "2026-11-07T08:11:25+00:00",
+      "id": "bb30916dcf9f",
+      "title": "金河田：若二手显卡端子老化致使热烧毁，显卡损坏不属于电源质保范围",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/024/137.htm",
+      "published": "2026-11-09T04:36:41+00:00",
       "summary": [
-        "融资缩水，硅谷投资人也谨慎了"
+        "IT之家 11 月 9 日消息，电源等 PC 组件品牌金河田 (Golden Field) 今日发布重要公告《搭配二手显卡供电接口风险及售后说明》：金河田表示，电源连接器的可靠性必须建立在“配对端子镀层完好、插拔循环在规范限值内、无氧化”的前提下",
+        "而二手显卡普遍存在 12V 正极导针氧化发黑的问题，这会带来接触电阻升高，进而在高功率下电流分配失衡，最终端子烧毁；这种情况并非电源工艺缺陷",
+        "在面对此类售后问题时，金河田将进行故障溯源分析"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "5780609b8590",
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508449.html",
-      "published": "2026-11-07T09:38:56+00:00",
-      "summary": [
-        "AI写代码太快，基础设施跟不上了"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "274da77cbef3",
-      "title": "Parents want safer phones for kids. These companies are answering the call.",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "published": "2026-11-07T19:00:00+00:00",
-      "summary": [
-        "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "d18845134cdd",
-      "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
-      "published": "2026-11-07T17:18:00+00:00",
-      "summary": [
-        "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "6f1f59390033",
-      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
+      "id": "e256f79db0a7",
+      "title": "Chatbots might be coming to Apple’s HomeView",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
-      "published": "2026-11-07T17:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+      "published": "2026-11-08T15:00:30+00:00",
       "summary": [
-        "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizzy, [&#8230;]"
+        "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like ChatGPT and Claude could be added to [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 7
+    },
+    {
+      "id": "f34f9a96381f",
+      "title": "Apps to distract you from the endless cycle of doomscrolling",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
+      "published": "2026-11-08T22:00:00+00:00",
+      "summary": [
+        "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 8
     }
   ]
 }
