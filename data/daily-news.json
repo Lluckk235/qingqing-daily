@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-10",
-  "generated": "2026-11-10T13:55:52.584579+08:00",
+  "date": "2026-11-11",
+  "generated": "2026-11-11T00:04:48.204261+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "5a616de11141",
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "id": "c31928bbebfd",
+      "title": "The Download: Pelosi’s successor targets AI and data centers face power woes",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "published": "2026-11-10T00:28:49+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+      "published": "2026-11-10T13:10:00+00:00",
       "summary": [
-        "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,40 +24,40 @@
       "rank": 1
     },
     {
-      "id": "d916d20f0c2f",
-      "title": "What could China get from Jensen Huang?",
+      "id": "5ab46a1f966a",
+      "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "published": "2026-11-09T23:51:58+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "published": "2026-11-10T15:29:30+00:00",
       "summary": [
-        "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about [&#8230;]"
+        "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "18869a47a8da",
-      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "id": "b4da20579111",
+      "title": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
-      "published": "2026-11-09T20:55:34+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
+      "published": "2026-11-10T15:45:27+00:00",
       "summary": [
-        "Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah."
+        "The remote access giant also urged its self-hosted customers to take down their own servers amid a \"critical security incident,\" fearing the possibility of cyberattacks."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
@@ -78,9 +78,28 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 4
+    },
+    {
+      "id": "51a304eca619",
+      "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/508991.html",
+      "published": "2026-11-10T07:50:26+00:00",
+      "summary": [
+        "TensorWorld物原科技在一个月内已拿到过亿美元融资"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": true,
+      "rank": 5
     },
     {
       "id": "2670d45e9c6d",
@@ -99,104 +118,83 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "1d720238ae98",
-      "title": "索尼预热国行版 MDR-3R 有线耳机，11 月 17 日发布",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/024/797.htm",
-      "published": "2026-11-10T05:54:16+00:00",
-      "summary": [
-        "IT之家 11 月 10 日消息，索尼中国今天发布视频，预热一款 11 月 17 日中午 12:00 发布的神秘新品",
-        "从官方给出的暗示（轮廓、颜色）我们不难看出，这款产品是 MDR-3R 有线耳机",
-        "IT之家了解到，索尼已经在海外市场推出新款 MDR-3R 有线耳机，采用了 1979 年初代 Walkman TPS-L2 的经典设计，加入 USB-C 接口、内置麦克风和线控功能，官方售价 59.99 美元（IT之家注：现汇率约合 401.1 元人民币）"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "59ea7e94a927",
-      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508694.html",
-      "published": "2026-11-09T08:34:03+00:00",
-      "summary": [
-        "11月9日，千问办公发布2.0版本"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "55ff5cbc62ee",
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "id": "8e00065e3edc",
+      "title": "Anthropic targets $1.4 trillion IPO",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "published": "2026-11-10T01:27:12+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "published": "2026-11-10T14:06:54+00:00",
       "summary": [
-        "The AI company is expected to set its valuation range this week, the Wall Street Journal reported."
+        "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the New York Times. The Wall Street Journal reports [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 7
+    },
+    {
+      "id": "4a764cf5bac7",
+      "title": "Apple TV makes sign language interpretation a built-in accessibility feature",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
+      "published": "2026-11-10T16:00:00+00:00",
+      "summary": [
+        "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "f6ddfb88ac21",
-      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "086a8b8d2c3a",
+      "title": "New WhatsApp head wants to make the app easier to use, give its AI more chops",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
-      "published": "2026-11-09T17:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/new-whatsapp-head-wants-to-make-the-app-easier-to-use-give-its-ai-more-chops/",
+      "published": "2026-11-10T15:00:00+00:00",
       "summary": [
-        "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service."
+        "Kunal Shah said that AI on WhatsApp will remind people of their appointment than booking"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "5223c7a83160",
-      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "id": "ca5bae48d29b",
+      "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-      "published": "2026-11-09T19:09:58+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "published": "2026-11-10T13:30:00+00:00",
       "summary": [
-        "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set [&#8230;]"
+        "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 10
     }
