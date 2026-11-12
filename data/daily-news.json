@@ -1,9 +1,28 @@
 {
-  "date": "2026-11-12",
-  "generated": "2026-11-12T13:44:30.520083+08:00",
+  "date": "2026-11-13",
+  "generated": "2026-11-13T00:33:50.913911+08:00",
   "total": 10,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "cfcba6f2e65c",
+      "title": "The Download: COP31’s climate challenge and the quest for immortality",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+      "published": "2026-11-12T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "4b8a3ddcbba9",
       "title": "Meta is losing its longtime head of  infrastructure",
@@ -19,87 +38,87 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "63c379e63905",
-      "title": "The Download: preserving minds and weighing open AI risks",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
-      "published": "2026-11-11T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "a3a0c9996cbe",
-      "title": "United won’t let your AI agent book your flight",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "published": "2026-11-11T21:54:21+00:00",
-      "summary": [
-        "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "a12c5f3d8f2d",
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "id": "4eeb3832c09f",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-      "published": "2026-11-11T15:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "published": "2026-11-12T16:32:33+00:00",
       "summary": [
-        "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
+        "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
       "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "a8b4ef01f1e0",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "published": "2026-11-12T15:18:14+00:00",
+      "summary": [
+        "This is the investment firm's largest fund to date."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "4cd472d9c01a",
-      "title": "体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子",
+      "id": "9d1a837dbe38",
+      "title": "穿了 33 年皮衣的那个人，离开了英伟达",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373860",
-      "published": "2026-11-12T03:44:41+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/373906",
+      "published": "2026-11-12T15:55:51+00:00",
       "summary": [
-        "作者 | siqi 编辑 | 郑玄 &nbsp; 在智能硬件和具身圈里，可能是今年最受关注的产品之一 Beni 终于开售了",
-        "我第一次听说 Beni，是今年上半年，这款产品背后的创业团队妙动科技拿到了包括经纬、红杉、美团的多轮投资",
-        "他们的两位核心合伙人，一位是前大疆（DJI）高管，另一位曾先后任大疆技术总监和特斯拉 Optimus 人形机器人团队核心算法与控制工程师"
+        "美国时间 11 月 12 日美股开盘前，英伟达官方宣布，黄仁勋辞去总裁、首席执行官和董事会成员职务，即刻生效",
+        "首席财务官科莱特&middot;克雷斯（Colette Kress）出任临时 CEO，同时继续兼管财务；董事哈维&middot;琼斯（Harvey C. Jones）出任董事会主席",
+        "董事会已经开始物色正式 CEO，公司内外的人选都会考虑"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "e61911924786",
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509381.html",
+      "published": "2026-11-12T10:11:29+00:00",
+      "summary": [
+        "全世界都在踩刹车，达里奥一个人踩油门"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "e1efc44f1637",
@@ -116,28 +135,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "e9c722f4dfeb",
-      "title": "苹果揭秘 iPhone 18 Pro / Max 提示小圆点：硬件死守隐私红线，不亮绝不放行麦克风 / 摄像头调用",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/043.htm",
-      "published": "2026-11-12T05:28:40+00:00",
-      "summary": [
-        "IT之家 11 月 12 日消息，苹果公司今天（11 月 12 日）发布新博文，详细介绍了面向 iPhone 18 Pro 等设备的全新“安全隔离区”（Secure Exclaves）架构，并揭秘了指示灯这个隐私“守门员”",
-        "iPhone 18 Pro 等用户主要依赖设备上的指示灯（硬件 LED 或屏幕上的小圆点）来判断摄像头或麦克风是否被打开，那么这个提示小圆点会不会被恶意软件遮住或调暗，让用户在不知情时遭到偷拍、偷听",
-        "对此苹果公司在新博文中指出，针对该顾虑，苹果公司专门设立了一个名为“指示器控制器”（Exclave Indicator Controller）的隔离组件作为总闸门"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
     },
@@ -156,45 +154,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "b2b9c84339af",
-      "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "085a26d0c383",
+      "title": "Apple’s HomeView is my new favorite smart display — but not my daughter’s",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
-      "published": "2026-11-11T17:09:58+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit",
+      "published": "2026-11-12T14:00:00+00:00",
       "summary": [
-        "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying [&#8230;]"
+        "The HomeView nails everything I want from a smart display. It's superb at controlling my smart home; it's an excellent hands-free kitchen companion, a good speaker, and a gorgeous digital photo frame. It's also the first Apple smart speaker with Siri AI, which is an improvement, if still slow at times. But Apple has fallen [&#8230;]"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "99cf28c285f7",
-      "title": "X launches its own clipping feature to spur influencer engagement",
+      "id": "e9304c6be4ed",
+      "title": "Whoop just launched a social network",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
-      "published": "2026-11-11T01:02:13+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/",
+      "published": "2026-11-12T16:00:00+00:00",
       "summary": [
-        "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral."
+        "Whoop is launching a social network that lets members share their sleep, recovery and workout data, but the bigger bet is on becoming more of a personal health brand, with CEO Will Ahmed hinting at acquisitions to come."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 10
     }
