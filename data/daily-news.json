@@ -1,46 +1,27 @@
 {
-  "date": "2026-11-11",
-  "generated": "2026-11-11T23:50:47.299189+08:00",
-  "total": 11,
+  "date": "2026-11-12",
+  "generated": "2026-11-12T13:44:30.520083+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "a12c5f3d8f2d",
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "4b8a3ddcbba9",
+      "title": "Meta is losing its longtime head of  infrastructure",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-      "published": "2026-11-11T15:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "published": "2026-11-11T20:12:01+00:00",
       "summary": [
-        "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
+        "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 1
-    },
-    {
-      "id": "c469d7bbc40a",
-      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
-      "published": "2026-11-11T14:00:00+00:00",
-      "summary": [
-        "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
     },
     {
       "id": "63c379e63905",
@@ -57,43 +38,62 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "a3a0c9996cbe",
+      "title": "United won’t let your AI agent book your flight",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "published": "2026-11-11T21:54:21+00:00",
+      "summary": [
+        "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "b4da20579111",
-      "title": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "a12c5f3d8f2d",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/",
-      "published": "2026-11-10T15:45:27+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "published": "2026-11-11T15:00:00+00:00",
       "summary": [
-        "The remote access giant also urged its self-hosted customers to take down their own servers amid a \"critical security incident,\" fearing the possibility of cyberattacks."
+        "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 3.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "30e231a0c41f",
-      "title": "谷歌 DeepMind 发布 AlphaGenome 2 基因序列模型：识别致病变异能力提升近一倍",
+      "id": "4cd472d9c01a",
+      "title": "体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/025/822.htm",
-      "published": "2026-11-11T15:19:51+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/373860",
+      "published": "2026-11-12T03:44:41+00:00",
       "summary": [
-        "IT之家 11 月 11 日消息，谷歌 DeepMind 发布新一代 DNA 序列模型 AlphaGenome 2，可预测 DNA 序列及其变异对特定人体细胞类型的影响，为科研人员挖掘疾病的细胞驱动因素提供全新工具",
-        "人体每个细胞携带相同的 DNA 蓝图，但不同细胞类型会通过开关不同基因完成特定功能",
-        "全球的人类细胞图谱项目已对数百万细胞的基因表达进行绘制，但预测细微 DNA 变异如何影响细胞基因表达，仍是尚未解决的难题"
+        "作者 | siqi 编辑 | 郑玄 &nbsp; 在智能硬件和具身圈里，可能是今年最受关注的产品之一 Beni 终于开售了",
+        "我第一次听说 Beni，是今年上半年，这款产品背后的创业团队妙动科技拿到了包括经纬、红杉、美团的多轮投资",
+        "他们的两位核心合伙人，一位是前大疆（DJI）高管，另一位曾先后任大疆技术总监和特斯拉 Optimus 人形机器人团队核心算法与控制工程师"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,57 +102,57 @@
       "rank": 5
     },
     {
-      "id": "51a304eca619",
-      "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/508991.html",
-      "published": "2026-11-10T07:50:26+00:00",
+      "id": "e1efc44f1637",
+      "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/118935",
+      "published": "2026-11-12T00:22:09+00:00",
       "summary": [
-        "TensorWorld物原科技在一个月内已拿到过亿美元融资"
+        "Arm 发布 Cortex-M42 处理器、任天堂宣布「轻松登入」功能将下线等"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "2670d45e9c6d",
-      "title": "中国汽车市场，不止一种赢法 | 极客车间",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373765",
-      "published": "2026-11-10T05:43:08+00:00",
+      "id": "e9c722f4dfeb",
+      "title": "苹果揭秘 iPhone 18 Pro / Max 提示小圆点：硬件死守隐私红线，不亮绝不放行麦克风 / 摄像头调用",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/026/043.htm",
+      "published": "2026-11-12T05:28:40+00:00",
       "summary": [
-        "对消费者来说，当下的中国汽车消费市场，新品琳琅满目、供给充沛到足以挑花眼",
-        "锚定一个预算区间，从外观设计、内饰风格，到舒适配置、智能化能力，总能找到各有所长的产品",
-        "选择足够丰富，也让一个问题变得更值得讨论：参数和价格之外，我们究竟为什么选择一辆车"
+        "IT之家 11 月 12 日消息，苹果公司今天（11 月 12 日）发布新博文，详细介绍了面向 iPhone 18 Pro 等设备的全新“安全隔离区”（Secure Exclaves）架构，并揭秘了指示灯这个隐私“守门员”",
+        "iPhone 18 Pro 等用户主要依赖设备上的指示灯（硬件 LED 或屏幕上的小圆点）来判断摄像头或麦克风是否被打开，那么这个提示小圆点会不会被恶意软件遮住或调暗，让用户在不知情时遭到偷拍、偷听",
+        "对此苹果公司在新博文中指出，针对该顾虑，苹果公司专门设立了一个名为“指示器控制器”（Exclave Indicator Controller）的隔离组件作为总闸门"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 3.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "6fc8f319c68f",
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "id": "b577d6b06f32",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-      "published": "2026-11-10T19:57:52+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "published": "2026-11-11T16:14:44+00:00",
       "summary": [
-        "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company."
+        "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -161,42 +161,23 @@
       "rank": 8
     },
     {
-      "id": "1402e0e9e7e3",
-      "title": "Apple is killing its Support Community forum next week",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "b2b9c84339af",
+      "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
-      "published": "2026-11-11T12:19:10+00:00",
+      "sourceUrl": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "published": "2026-11-11T17:09:58+00:00",
       "summary": [
-        "It's the end of the road for the Apple Support Community. The dedicated discussion forum, which gave Apple users a place to exchange advice, troubleshoot, and generally chat about Apple products, has been placed into read-only mode, with a message from the company announcing that the Support Community will shut down for good on November [&#8230;]"
+        "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying [&#8230;]"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "4a764cf5bac7",
-      "title": "Apple TV makes sign language interpretation a built-in accessibility feature",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
-      "published": "2026-11-10T16:00:00+00:00",
-      "summary": [
-        "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 10
     },
     {
       "id": "99cf28c285f7",
@@ -213,9 +194,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 10
     }
   ]
 }
