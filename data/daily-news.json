@@ -1,9 +1,66 @@
 {
   "date": "2026-11-13",
-  "generated": "2026-11-13T13:02:43.433855+08:00",
-  "total": 10,
+  "generated": "2026-11-13T23:54:27.763735+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "2c7a6e6b19ce",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "published": "2026-11-13T14:00:00+00:00",
+      "summary": [
+        "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "ec08047f3be7",
+      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "published": "2026-11-13T14:57:55+00:00",
+      "summary": [
+        "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "2f156a26578b",
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "published": "2026-11-13T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
     {
       "id": "cfcba6f2e65c",
       "title": "The Download: COP31’s climate challenge and the quest for immortality",
@@ -19,192 +76,107 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "0a010acdd07c",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "published": "2026-11-12T19:11:00+00:00",
-      "summary": [
-        "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "0deb78fa341d",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "published": "2026-11-12T17:17:58+00:00",
-      "summary": [
-        "The airline said it will not allow customers to use AI agents to book flights and manage reservations."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "0e9bb83d6861",
-      "title": "海康威视：海康机器人已完成股份制改制及上市辅导备案",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/667.htm",
-      "published": "2026-11-13T04:16:39+00:00",
-      "summary": [
-        "IT之家 11 月 13 日消息，海康威视今日（11 月 13 日）在互动平台表示，海康机器人已完成股份制改制及上市辅导备案，IPO 相关进展请以官方披露信息为准",
-        "IT之家查询公开资料获悉，海康机器人是面向全球的机器视觉和移动机器人产品及解决方案提供商，业务聚焦工业物联网、智慧物流和智能制造，前身为海康威视机器视觉业务部，2016 年独立成立",
-        "2026 年 7 月 6 日，随着一台叉取机器人走下产线，海康机器人正式宣布，其移动机器人全品类累计下线突破 20 万台"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "ae1e5a10564c",
-      "title": "Anthropic IPO 认购需求约为 6 倍：拟募资最高 644 亿美元，目标估值约 1.4 万亿美元",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "61337fdcf1bd",
+      "title": "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/671.htm",
-      "published": "2026-11-13T04:49:58+00:00",
+      "sourceUrl": "https://www.ithome.com/1/026/994.htm",
+      "published": "2026-11-13T15:49:08+00:00",
       "summary": [
-        "IT之家 11 月 13 日消息，据彭博社今日报道，Anthropic 计划进行的首次公开募股（IPO）认购需求持续增长，目前投资者提交的认购订单数量已达到可供认购股份数量的约 6 倍",
-        "根据 Anthropic 提交的文件，公司及其联合创始人计划通过 IPO 募资最高 644 亿美元（现汇率约合 4,305.19 亿元人民币），同时通过同步进行的私募配售募资 260 亿美元，两项融资合计最高达 904 亿美元",
-        "Anthropic 目前的目标完全稀释后估值约为 1.4 万亿美元（IT之家注：现汇率约合 9.36 万亿元人民币）"
+        "IT之家 11 月 13 日消息，OpenAI 今天（13 日）宣布推出支付功能 ChatGPT Wallet，让旗下 dot AI 智能体代替用户购物",
+        "ChatGPT Wallet 由 OpenAI 与美国运通、万事达卡和 Visa 合作开发，用户使用现有信用卡付款时，仍可享受原有的积分奖励和权益保障",
+        "符合条件的用户只需录入一次银行卡信息，随后便可让 dot 智能体帮忙寻找商品，每笔交易都需要通过安全验证才能完成"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "9be01ebb3168",
-      "title": "消息称三星电子正谈判收购数据中心散热企业 Modine",
+      "id": "2336fe3db57e",
+      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/661.htm",
-      "published": "2026-11-13T04:05:20+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509995.html",
+      "published": "2026-11-13T09:02:39+00:00",
       "summary": [
-        "IT之家 11 月 13 日消息，彭博社当地时间昨日报道称，三星电子正就收购数据中心冷却系统制造商 Modine 的潜在交易进行谈判",
-        "该交易最早可能在未来几周内完成，不过谈判尚未得出最终决定，交易仍可能被取消",
-        "其它潜在收购方也可能加入竞逐 Modine 的行列"
+        "一个时代结束了"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "5dc8573acd14",
-      "title": "苹果票房最高电影《F1: 狂飙飞车》后皮特再接 Apple TV 新片：把故事搬到纽约高空",
+      "id": "0a7d3381b5c7",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/672.htm",
-      "published": "2026-11-13T04:55:31+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/118999",
+      "published": "2026-11-13T09:39:22+00:00",
       "summary": [
-        "IT之家 11 月 13 日消息，科技媒体 9to5Mac 昨日（11 月 12 日）发布博文，报道称继苹果史上最卖座的电影《F1: 狂飙飞车》之后，Apple TV 再度携手布拉德 · 皮特（Brad Pitt），推进名为《Connector》（直译为连接者）的电影项目",
-        "阵容方面，消息称《Connector》电影由布拉德 · 皮特主演，由达里尔斯 · 马德尔（Darius Marder）执导",
-        "马德尔的长片导演处女作《金属之声》(Sound of Metal) 于 2021 年获得第 73 届美国导演工会奖最佳新人电影导演奖以及第 93 届奥斯卡金像奖最佳音响与最佳剪辑奖"
+        "📅本周新预告《银翼杀手2099》终极预告11月10日，剧集《银翼杀手2099》发布了终极预告，将于11月25日上线PrimeVideo",
+        "亨特·莎弗、杨紫琼主演，2099年的洛杉矶，为了彻底结束逃亡生活 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "07d679b31603",
-      "title": "Rust 1.100.0 稳定版发布：版本号首次迈入三位数，带来多项语言与标准库更新，永不返回类型历经 10 年终于转正",
+      "id": "2db197f2172c",
+      "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/669.htm",
-      "published": "2026-11-13T04:30:10+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/509716.html",
+      "published": "2026-11-13T07:12:42+00:00",
       "summary": [
-        "IT之家 11 月 13 日消息，Rust 团队于当地时间 11 月 12 日正式发布了最新的 Rust 1.100.0 稳定版，标志着 Rust 版本号首次迈入三位数阶段",
-        "本次更新带来了多项语言和标准库功能稳定化，同时改进了 Cargo 依赖管理、构建缓存及软件供应链安全机制",
-        "Rust 官方介绍称，Rust 1.100 最受关注的变化之一是 never type（永不返回类型）正式稳定"
+        "比亚迪正在把规模优势转化为技术与品牌价值"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 8
     },
     {
-      "id": "2978c96ab080",
-      "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+      "id": "912732aa4095",
+      "title": "Apple announces release dates for the first Apple Home Collection smart devices",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
-      "published": "2026-11-12T23:43:22+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
+      "published": "2026-11-13T15:22:14+00:00",
       "summary": [
-        "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements visible to other Whoop wearers, post Story-like \"Moments\" with photos and captions, and add comments and reactions on other members' posts. Whoop claims its platform is \"entirely human,\" [&#8230;]"
+        "The first few smart home devices and accessories that Apple co-developed with LG Electronics and Schneider Electric for its new Apple Home Collection are now available for preorder through the company's online store, with delivery expected in mid-December. Apple announced the collection a month ago as part of a stronger push into the smart home [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 9
-    },
-    {
-      "id": "e7cafad97fdf",
-      "title": "启境 GT7 迎上市以来最大规模 OTA：华为乾崑智驾 ADS 5.0.2 上线，新增手势泊出、园区领航等",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/660.htm",
-      "published": "2026-11-13T03:58:08+00:00",
-      "summary": [
-        "IT之家 11 月 13 日消息，启境汽车今日宣布启境 GT7 迎上市以来最大规模 OTA，带来华为乾崑智驾 ADS 5.0.2、鸿蒙座舱 HarmonySpace6、三电性能升级等",
-        "智驾方面，新版本新增手势泊出、园区领航、车道级导航、主动涉水检测；座舱方面，鸿蒙座舱 6 率先升级紫貂奇奇、乾崑分享、工具栏自定义、调音魔方、“云瞰”远程语音提醒、竖向菜单栏、星环散射体辅助驾驶场景交互等；三电方面，86 度电池车型快充时间缩短，并带来动力电池极低温保温功能、超级冷却模式等",
-        "IT之家注意到，启境 GT7 于今年 6 月上市，是广汽集团与华为乾崑联合打造的高端智能新能源汽车品牌“启境”旗下首款车型，官方指导价 20.99 万元起"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 10
     }
   ]
 }
