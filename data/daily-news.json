@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-13",
-  "generated": "2026-11-13T23:54:27.763735+08:00",
+  "date": "2026-11-14",
+  "generated": "2026-11-14T12:55:01.778312+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "2c7a6e6b19ce",
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "published": "2026-11-13T14:00:00+00:00",
-      "summary": [
-        "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "ec08047f3be7",
-      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+      "id": "26d265ce671c",
+      "title": "AI agent startup LangChain hits $3B valuation",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "published": "2026-11-13T14:57:55+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published": "2026-11-13T19:37:57+00:00",
       "summary": [
-        "The ride-sharing giant said driver's license information stored by AI cloud company Fireworks AI was stolen during a security incident."
+        "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "b5d8e3ece75e",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "published": "2026-11-13T20:45:10+00:00",
+      "summary": [
+        "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,47 +57,45 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "cfcba6f2e65c",
-      "title": "The Download: COP31’s climate challenge and the quest for immortality",
+      "id": "4f9a42ba49f5",
+      "title": "Amazon has a plan to index the world’s online shopping data",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
-      "published": "2026-11-12T13:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published": "2026-11-13T23:49:11+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations&#8230;"
+        "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "61337fdcf1bd",
-      "title": "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet",
+      "id": "e2eff3c36249",
+      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/026/994.htm",
-      "published": "2026-11-13T15:49:08+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/118153",
+      "published": "2026-11-13T07:00:00+00:00",
       "summary": [
-        "IT之家 11 月 13 日消息，OpenAI 今天（13 日）宣布推出支付功能 ChatGPT Wallet，让旗下 dot AI 智能体代替用户购物",
-        "ChatGPT Wallet 由 OpenAI 与美国运通、万事达卡和 Visa 合作开发，用户使用现有信用卡付款时，仍可享受原有的积分奖励和权益保障",
-        "符合条件的用户只需录入一次银行卡信息，随后便可让 dot 智能体帮忙寻找商品，每笔交易都需要通过安全验证才能完成"
+        "AI 改变的不是科研写作本身，而是我们完成科研写作时的工作方式"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
@@ -116,9 +114,30 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "16979595f472",
+      "title": "苹果推出宝可梦 30 周年限定礼品卡：可领 3 款专属壁纸，日本 11 月 16 日开售",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/027/077.htm",
+      "published": "2026-11-14T04:50:17+00:00",
+      "summary": [
+        "IT之家 11 月 14 日消息，苹果昨日宣布推出宝可梦 30 周年限定版 Apple Gift Card，将于 11 月 16 日至 11 月 30 日在日本全国 11 家 Apple Store 零售店限量发售",
+        "此次活动是苹果与宝可梦合作推出的特别企划，礼品卡采用苹果主题宝可梦“啃果虫”设计",
+        "据苹果官方介绍，这款礼品卡名为 Apple Gift Card Pokémon Special Edition，卡面印有啃果虫形象"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "0a7d3381b5c7",
@@ -136,45 +155,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "2db197f2172c",
-      "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/509716.html",
-      "published": "2026-11-13T07:12:42+00:00",
-      "summary": [
-        "比亚迪正在把规模优势转化为技术与品牌价值"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 8
     },
     {
-      "id": "912732aa4095",
-      "title": "Apple announces release dates for the first Apple Home Collection smart devices",
+      "id": "b77b1e30ac35",
+      "title": "The new Apple TV has a YouTube problem",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
-      "published": "2026-11-13T15:22:14+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+      "published": "2026-11-13T16:55:57+00:00",
       "summary": [
-        "The first few smart home devices and accessories that Apple co-developed with LG Electronics and Schneider Electric for its new Apple Home Collection are now available for preorder through the company's online store, with delivery expected in mid-December. Apple announced the collection a month ago as part of a stronger push into the smart home [&#8230;]"
+        "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 9
     }
