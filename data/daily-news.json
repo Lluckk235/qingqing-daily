@@ -1,46 +1,27 @@
 {
   "date": "2026-11-14",
-  "generated": "2026-11-14T12:55:01.778312+08:00",
-  "total": 9,
+  "generated": "2026-11-14T22:45:05.719040+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "26d265ce671c",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "published": "2026-11-13T19:37:57+00:00",
-      "summary": [
-        "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "b5d8e3ece75e",
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "54c132d185e5",
+      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "published": "2026-11-13T20:45:10+00:00",
+      "sourceUrl": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+      "published": "2026-11-14T14:18:36+00:00",
       "summary": [
-        "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [&#8230;]"
+        "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available in supported service areas\" - meaning you'll only be able to buy one if you live in one [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "2f156a26578b",
@@ -57,45 +38,66 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 2
     },
     {
-      "id": "4f9a42ba49f5",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "published": "2026-11-13T23:49:11+00:00",
-      "summary": [
-        "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "e2eff3c36249",
-      "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+      "id": "26d265ce671c",
+      "title": "AI agent startup LangChain hits $3B valuation",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/118153",
-      "published": "2026-11-13T07:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published": "2026-11-13T19:37:57+00:00",
       "summary": [
-        "AI 改变的不是科研写作本身，而是我们完成科研写作时的工作方式"
+        "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 6,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "a89e40511448",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "published": "2026-11-13T16:00:12+00:00",
+      "summary": [
+        "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 4
+    },
+    {
+      "id": "8b19372afbf6",
+      "title": "智能体帮你联络商家或保险公司，Meta 旗下 Muse 上线代打电话功能",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/027/238.htm",
+      "published": "2026-11-14T13:46:56+00:00",
+      "summary": [
+        "IT之家 11 月 14 日消息，Meta 旗下 AI 智能体 Muse 推出代打电话功能，开通高级付费订阅后，用户就能让 Muse 代自己联系美国商家",
+        "Meta 称，Muse 可以帮助用户处理各种烦琐事务，完成待办事项",
+        "13 日凌晨，Meta 首席 AI 官汪滔在 X 上发文宣布：“Muse 能帮你打完所有不想亲自打的电话"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
@@ -114,30 +116,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": true,
       "rank": 6
-    },
-    {
-      "id": "16979595f472",
-      "title": "苹果推出宝可梦 30 周年限定礼品卡：可领 3 款专属壁纸，日本 11 月 16 日开售",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/027/077.htm",
-      "published": "2026-11-14T04:50:17+00:00",
-      "summary": [
-        "IT之家 11 月 14 日消息，苹果昨日宣布推出宝可梦 30 周年限定版 Apple Gift Card，将于 11 月 16 日至 11 月 30 日在日本全国 11 家 Apple Store 零售店限量发售",
-        "此次活动是苹果与宝可梦合作推出的特别企划，礼品卡采用苹果主题宝可梦“啃果虫”设计",
-        "据苹果官方介绍，这款礼品卡名为 Apple Gift Card Pokémon Special Edition，卡面印有啃果虫形象"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 7
     },
     {
       "id": "0a7d3381b5c7",
@@ -155,28 +136,66 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": true,
-      "rank": 8
+      "rank": 7
     },
     {
-      "id": "b77b1e30ac35",
-      "title": "The new Apple TV has a YouTube problem",
+      "id": "9bafd29c1065",
+      "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-      "published": "2026-11-13T16:55:57+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+      "published": "2026-11-14T14:00:00+00:00",
       "summary": [
-        "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In [&#8230;]"
+        "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a couple of 8BitDo's Zero 2 controllers for games that don't use analog thumbsticks. [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "6174b8bbbd0d",
+      "title": "A gadget to make your dumb house smarter",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "published": "2026-11-14T13:00:00+00:00",
+      "summary": [
+        "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about school apps [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
+    },
+    {
+      "id": "4f9a42ba49f5",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published": "2026-11-13T23:49:11+00:00",
+      "summary": [
+        "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 10
     }
   ]
 }
