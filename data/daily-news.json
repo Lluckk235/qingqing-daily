@@ -1,9 +1,47 @@
 {
   "date": "2026-11-15",
-  "generated": "2026-11-15T12:47:52.096334+08:00",
+  "generated": "2026-11-15T23:19:39.587281+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "3c3511530a6d",
+      "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
+      "published": "2026-11-15T14:00:00+00:00",
+      "summary": [
+        "LG&#8217;s B6E was already one of the most affordable OLED TVs you could buy, but it&#8217;s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "8466bfa20f2d",
+      "title": "An overview of Jensen Huang’s messy days",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "published": "2026-11-15T13:00:00+00:00",
+      "summary": [
+        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
     {
       "id": "17dd6d164624",
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
@@ -19,9 +57,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 1
+      "rank": 3
     },
     {
       "id": "e906ce588cf4",
@@ -38,45 +76,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "0cbac1debe31",
-      "title": "Where was Nvidia’s security team?",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "published": "2026-11-15T00:08:07+00:00",
-      "summary": [
-        "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "54c132d185e5",
-      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
-      "published": "2026-11-14T14:18:36+00:00",
-      "summary": [
-        "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available in supported service areas\" - meaning you'll only be able to buy one if you live in one [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,30 +97,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
-    },
-    {
-      "id": "52eec058b44b",
-      "title": "消息称松下计划下周推出 L 卡口电影摄影机：外形类似索尼 FX3，不支持拍照",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/027/300.htm",
-      "published": "2026-11-15T04:13:50+00:00",
-      "summary": [
-        "IT之家 11 月 15 日消息，消息源 L-Rumors 昨日发文称，三位消息人士透露，松下可能在下周推出一款 L 卡口电影摄影机",
-        "IT之家从原报道获悉，其中一名消息人士表示，这款电影摄影机计划于下周二（11 月 17 日）在大阪发布",
-        "该机融合了松下 EVA-1 和 Lumix S1H 的特点，但不具备静态照片拍摄功能"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
     },
     {
       "id": "6741c7c310ea",
@@ -137,9 +116,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "22131668b1fb",
@@ -156,9 +135,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "881cd2e78568",
@@ -175,7 +154,26 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "0cbac1debe31",
+      "title": "Where was Nvidia’s security team?",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "published": "2026-11-15T00:08:07+00:00",
+      "summary": [
+        "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 4,
       "isNativeCN": false,
       "rank": 9
     }
