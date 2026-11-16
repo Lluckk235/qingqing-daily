@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-16",
-  "generated": "2026-11-16T12:44:21.782133+08:00",
+  "date": "2026-11-17",
+  "generated": "2026-11-17T01:55:40.946217+08:00",
   "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "cac14dbf1b1a",
-      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "id": "78c3bdf8c94d",
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-      "published": "2026-11-16T01:26:56+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "published": "2026-11-16T16:04:28+00:00",
       "summary": [
-        "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical [&#8230;]"
+        "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -24,59 +24,59 @@
       "rank": 1
     },
     {
-      "id": "22756b577313",
-      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "id": "0f553794f8a7",
+      "title": "Building AI that can work across the enterprise",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "published": "2026-11-15T23:30:00+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "published": "2026-11-16T13:00:00+00:00",
       "summary": [
-        "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics."
+        "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "abfdb69abd3a",
-      "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
+      "id": "37d3bd1bd026",
+      "title": "Robert Pattinson is Amazon’s first James Bond",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
-      "published": "2026-11-15T17:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1034192/robert-pattinson-james-bond",
+      "published": "2026-11-16T15:19:34+00:00",
       "summary": [
-        "Amazon’s early Black Friday promos are already underway, and we’ll be highlighting some of our favorites over the next few days on our Shopping page. Among them is the Fanttik S1 Pro Cordless Electric Screwdriver, which is currently matching its all-time low of $39.99 ($40 off) at Amazon for a limited time. Fanttik’s rechargeable tool [&#8230;]"
+        "Robert Pattinson will take on the role of James Bond in Amazon MGM's first film in the 007 franchise. The next James Bond film will be directed by Denis Villeneuve using a script written by Steven Knight, while Amy Pascal and David Heyman will produce. The upcoming James Bond film will be the first from [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "fa17e3f1ecbd",
-      "title": "The tech products we enthusiastically recommend this holiday season",
+      "id": "b63d95711a10",
+      "title": "The Download: testing tech promises and searching for cognitive immortality",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/15/the-tech-products-we-enthusiastically-recommend-this-holiday-season/",
-      "published": "2026-11-15T16:00:00+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+      "published": "2026-11-16T13:10:00+00:00",
       "summary": [
-        "We've been reviewing a bunch of new gadgets at TechCrunch this year, and we have some clear favorites to share for your Black Friday shopping and beyond."
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 6,
       "isNativeCN": false,
       "rank": 4
     },
@@ -97,85 +97,84 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "3fef7e03ce33",
-      "title": "中国与东盟宣布将 2027 年定为人工智能合作年",
+      "id": "24cdfcbe9912",
+      "title": "Rosetta 2 即将退役，Mac 老应用何去何从？",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/027/607.htm",
-      "published": "2026-11-16T04:17:38+00:00",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/118100",
+      "published": "2026-11-16T07:37:51+00:00",
       "summary": [
-        "IT之家 11 月 16 日消息，据央视新闻今日报道，中国与东盟宣布将 2027 年定为人工智能合作年",
-        "此外，中国－东盟自贸区 3.0 版升级议定书将于 2026 年 12 月 1 日生效",
-        "IT之家注：东南亚国家联盟（ASEAN，简称东盟）是一个由东南亚国家组成的政治经济联盟，1967 年 8 月 8 日在泰国曼谷成立，现有文莱、印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越南等 11 个成员国，秘书处设在印度尼西亚雅加达"
+        "Apple在Mac电脑的发展历程中经历过数次架构转换",
+        "其中最广为人知的，当属2005年从PowerPC转向Intelx86架构，以及从2020年启动、由Intelx86转向ARM64架构的AppleS ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "74c2539a1974",
-      "title": "Apple launches new app to study how people use AI for health",
+      "id": "11707ce99073",
+      "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-      "published": "2026-11-16T01:30:00+00:00",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/510436.html",
+      "published": "2026-11-16T07:26:33+00:00",
       "summary": [
-        "Apple's new app for a study will answer everyday medical questions"
+        "余承东重新明确分工"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 4.5,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "171d5d53bd21",
+      "title": "Apple TV is getting video podcasts you can watch for free",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
+      "published": "2026-11-16T14:45:56+00:00",
+      "summary": [
+        "Apple's streaming service will soon have a video podcasts section, the New York Times reports. It will start testing the feature in a developer release today, so expect a new update for iOS 27.3 beta testers to roll out in a few hours. Once it rolls out fully, the new video podcasts section will be [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "598de96b6ec8",
-      "title": "Apple’s first smart glasses are coming together",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
-      "published": "2026-11-15T16:59:16+00:00",
-      "summary": [
-        "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be announced at June's WWDC next year. They likely won't ship right away, however, with Gurman saying only that \"glasses shipments would begin before the end of the [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "3c3511530a6d",
-      "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
+      "id": "33c7d15f513b",
+      "title": "Google Maps can now build trip itineraries with real-time details about each stop",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-      "published": "2026-11-15T14:00:00+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+      "published": "2026-11-16T14:48:13+00:00",
       "summary": [
-        "LG&#8217;s B6E was already one of the most affordable OLED TVs you could buy, but it&#8217;s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 [&#8230;]"
+        "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining."
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
     }
