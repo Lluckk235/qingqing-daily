@@ -1,65 +1,27 @@
 {
   "date": "2026-11-17",
-  "generated": "2026-11-17T01:55:40.946217+08:00",
-  "total": 9,
+  "generated": "2026-11-17T14:31:24.246861+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "78c3bdf8c94d",
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "published": "2026-11-16T16:04:28+00:00",
-      "summary": [
-        "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "0f553794f8a7",
-      "title": "Building AI that can work across the enterprise",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "published": "2026-11-16T13:00:00+00:00",
-      "summary": [
-        "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "37d3bd1bd026",
-      "title": "Robert Pattinson is Amazon’s first James Bond",
+      "id": "cfabe036378d",
+      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1034192/robert-pattinson-james-bond",
-      "published": "2026-11-16T15:19:34+00:00",
+      "sourceUrl": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "published": "2026-11-16T20:29:37+00:00",
       "summary": [
-        "Robert Pattinson will take on the role of James Bond in Amazon MGM's first film in the 007 franchise. The next James Bond film will be directed by Denis Villeneuve using a script written by Steven Knight, while Amy Pascal and David Heyman will produce. The upcoming James Bond film will be the first from [&#8230;]"
+        "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "b63d95711a10",
@@ -76,30 +38,89 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "fc5ac4f1ef68",
+      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+      "published": "2026-11-16T21:01:02+00:00",
+      "summary": [
+        "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "6e394d6d04ab",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "published": "2026-11-16T20:07:13+00:00",
+      "summary": [
+        "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "3ff08ad7486d",
-      "title": "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队",
+      "id": "c011b82cf16e",
+      "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/373994",
-      "published": "2026-11-16T00:47:39+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374075",
+      "published": "2026-11-17T06:24:52+00:00",
       "summary": [
-        "曝黄仁勋考虑重返英伟达担任 CEO，盟友正施压董事会 据英国《金融时报》周日报道，黄仁勋正考虑重返英伟达担任首席执行官",
-        "如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他",
-        "报道称，黄仁勋已经和亲信讨论了重返公司的可能性"
+        "作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了",
+        "Agent 替用户「消费」的时代，终于到来了",
+        "美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "41b461e6dc21",
+      "title": "派早报：OPPO 发布 Reno17 系列、影石发布 Insta360 Toast 墨水屏相纸等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/119160",
+      "published": "2026-11-16T23:57:40+00:00",
+      "summary": [
+        "少数派的近期动态我们已开设专页，汇总展示「优秀作者评选」奖项及结果",
+        "「优秀作者评选」是编辑部自2023年起实行的机制，于每季度结束后，评选该季度贡献突出的现有作者，以及涌现出的有潜力新作者",
+        "获奖者会获 ...查看全文"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "24cdfcbe9912",
@@ -117,66 +138,66 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "11707ce99073",
-      "title": "余承东发布新款问界M8：38万元起售，全系预埋L3架构",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/510436.html",
-      "published": "2026-11-16T07:26:33+00:00",
-      "summary": [
-        "余承东重新明确分工"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "171d5d53bd21",
-      "title": "Apple TV is getting video podcasts you can watch for free",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
-      "published": "2026-11-16T14:45:56+00:00",
+      "id": "7517b8cd010a",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "published": "2026-11-16T23:32:32+00:00",
       "summary": [
-        "Apple's streaming service will soon have a video podcasts section, the New York Times reports. It will start testing the feature in a developer release today, so expect a new update for iOS 27.3 beta testers to roll out in a few hours. Once it rolls out fully, the new video podcasts section will be [&#8230;]"
+        "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "33c7d15f513b",
-      "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+      "id": "33e1c8cd3da1",
+      "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+      "published": "2026-11-16T19:26:55+00:00",
+      "summary": [
+        "Apple's latest iOS 27.3 developer beta introduces a limited face unlock feature for the iPhone Duo, alongside other improvements."
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 9
+    },
+    {
+      "id": "e35c13cf814e",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-      "published": "2026-11-16T14:48:13+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "published": "2026-11-16T23:17:34+00:00",
       "summary": [
-        "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining."
+        "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
