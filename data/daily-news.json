@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-17",
-  "generated": "2026-11-17T14:31:24.246861+08:00",
-  "total": 10,
+  "date": "2026-11-18",
+  "generated": "2026-11-18T01:22:19.677694+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "cfabe036378d",
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "id": "7e0475dea8c7",
+      "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "published": "2026-11-16T20:29:37+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+      "published": "2026-11-17T13:10:00+00:00",
       "summary": [
-        "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,68 +38,89 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "fc5ac4f1ef68",
-      "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+      "id": "1bfde3fe2b8c",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-      "published": "2026-11-16T21:01:02+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "published": "2026-11-17T17:20:41+00:00",
       "summary": [
-        "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps."
+        "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "6e394d6d04ab",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "id": "4f9052a37fe1",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "published": "2026-11-16T20:07:13+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "published": "2026-11-17T16:32:55+00:00",
       "summary": [
-        "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident."
+        "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "c011b82cf16e",
-      "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
+      "id": "f9e61f39ffb4",
+      "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374075",
-      "published": "2026-11-17T06:24:52+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374103",
+      "published": "2026-11-17T11:18:55+00:00",
       "summary": [
-        "作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了",
-        "Agent 替用户「消费」的时代，终于到来了",
-        "美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生"
+        "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题",
+        "作者｜Li Yuan编辑｜郑玄最大规模具身大模型挑战赛总决赛结果出炉，排名第三的队伍 SST 只额外采集了 13 条数据",
+        "他们没有大量补数据，而是让 DeepSeek 先理解任务，再用视觉分割模型标出目标物体，最后交给 LingBot-VLA 2.0 完成动作，并在真机评测中拿到 65.87 分"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "cbe2223378c4",
+      "title": "大疆多款产品“如期”涨价：涉 Osmo Pocket 4/4P/Nano，最高涨 560 元",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/028/567.htm",
+      "published": "2026-11-17T16:46:49+00:00",
+      "summary": [
+        "IT之家 11 月 18 日消息，不久前，大疆通过官网发布《关于 DJI 大疆部分产品建议零售价调整的说明》，受全球半导体、存储等多项关键零部件成本持续大幅上涨影响，经审慎评估，大疆决定自 2026 年 11 月 18 日 00:00 起，对部分产品的建议零售价进行调整",
+        "时间来到今天（18 日）零时过后，大疆 Osmo Pocket 4P 标准套装、Osmo Pocket 4 标准套装及多个套装版本等产品的价格“如期”上涨，部分产品涨幅达到 560 元",
+        "IT之家汇总目前已知的价格变动如下：Osmo Pocket 4P标准套装 3799 元 → 4099 元，上涨 300 元；Vlog 套装 4299 元 → 4859 元，上涨 560 元"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "41b461e6dc21",
@@ -118,29 +139,47 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "24cdfcbe9912",
-      "title": "Rosetta 2 即将退役，Mac 老应用何去何从？",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/118100",
-      "published": "2026-11-16T07:37:51+00:00",
-      "summary": [
-        "Apple在Mac电脑的发展历程中经历过数次架构转换",
-        "其中最广为人知的，当属2005年从PowerPC转向Intelx86架构，以及从2020年启动、由Intelx86转向ARM64架构的AppleS ...查看全文"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 5,
       "isNativeCN": true,
       "rank": 7
+    },
+    {
+      "id": "d9a30601c5db",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "published": "2026-11-17T14:50:58+00:00",
+      "summary": [
+        "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
+      "id": "ade583b060f1",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "published": "2026-11-17T14:26:46+00:00",
+      "summary": [
+        "Science Corp. raised a $400 million Series D to scale up its anti-blindness business."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 9
     },
     {
       "id": "7517b8cd010a",
@@ -157,47 +196,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     },
     {
-      "id": "33e1c8cd3da1",
-      "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+      "id": "24928ca5de8b",
+      "title": "Meta launches Direct, a stand-alone messaging app for Instagram",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
-      "published": "2026-11-16T19:26:55+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/",
+      "published": "2026-11-17T15:01:46+00:00",
       "summary": [
-        "Apple's latest iOS 27.3 developer beta introduces a limited face unlock feature for the iPhone Duo, alongside other improvements."
+        "Direct is launching in Turkey and Thailand, and can be used with or without an Instagram account."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "e35c13cf814e",
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "published": "2026-11-16T23:17:34+00:00",
-      "summary": [
-        "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 10
+      "rank": 11
     }
   ]
 }
