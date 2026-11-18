@@ -1,9 +1,28 @@
 {
   "date": "2026-11-18",
-  "generated": "2026-11-18T01:22:19.677694+08:00",
-  "total": 11,
+  "generated": "2026-11-18T13:53:51.949461+08:00",
+  "total": 12,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "ea62a9e60a8f",
+      "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
+      "published": "2026-11-17T22:38:41+00:00",
+      "summary": [
+        "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5.5,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "7e0475dea8c7",
       "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
@@ -19,108 +38,127 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "b63d95711a10",
-      "title": "The Download: testing tech promises and searching for cognitive immortality",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-      "published": "2026-11-16T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "1bfde3fe2b8c",
-      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "id": "9ae58745782c",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-      "published": "2026-11-17T17:20:41+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "published": "2026-11-17T18:04:16+00:00",
       "summary": [
-        "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled."
+        "The company uses agentic AI to make supply chains faster and more reliable."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "4f9052a37fe1",
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "id": "a1592a2be395",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "published": "2026-11-17T16:32:55+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "published": "2026-11-17T21:00:55+00:00",
       "summary": [
-        "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases."
+        "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "f9e61f39ffb4",
-      "title": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
+      "id": "6ac73b66d71f",
+      "title": "微软 Win11 测试新提醒：切换本地账号前，先备份 BitLocker 密钥",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/028/764.htm",
+      "published": "2026-11-18T05:41:42+00:00",
+      "summary": [
+        "IT之家 11 月 18 日消息，科技媒体 Windows Latest 昨日（11 月 17 日）发布博文，报道称微软正在测试一项 Windows 11 新功能：当用户从微软账户切换为本地账户后，系统会提醒其备份 BitLocker 恢复密钥，以避免日后因密钥丢失而无法访问加密硬盘",
+        "在 Windows 11 Build 26340.10013 预览版中，微软正在测试“从微软账户安全切换至本地账户”的新提示",
+        "微软为降低数据丢失风险，用户在“设置”中切换账户类型时，系统将提示备份 BitLocker 恢复密钥，并更新相关说明"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "493726efccd2",
+      "title": "影视飓风、Manus、影石、OPPO......极客公园创新大会 2027 嘉宾阵容更新！",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374103",
-      "published": "2026-11-17T11:18:55+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374125",
+      "published": "2026-11-18T04:12:11+00:00",
       "summary": [
-        "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题",
-        "作者｜Li Yuan编辑｜郑玄最大规模具身大模型挑战赛总决赛结果出炉，排名第三的队伍 SST 只额外采集了 13 条数据",
-        "他们没有大量补数据，而是让 DeepSeek 先理解任务，再用视觉分割模型标出目标物体，最后交给 LingBot-VLA 2.0 完成动作，并在真机评测中拿到 65.87 分"
+        "首批嘉宾公布以来，IF 2027 收到了超出预期的关注， 短短几天早鸟票已经售罄",
+        "今年 IF 大会的主题是：「Revaluation 价值，另有答案」",
+        "过去一年，AI 正在以超出预期的速度改变世界"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "cbe2223378c4",
-      "title": "大疆多款产品“如期”涨价：涉 Osmo Pocket 4/4P/Nano，最高涨 560 元",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/028/567.htm",
-      "published": "2026-11-17T16:46:49+00:00",
-      "summary": [
-        "IT之家 11 月 18 日消息，不久前，大疆通过官网发布《关于 DJI 大疆部分产品建议零售价调整的说明》，受全球半导体、存储等多项关键零部件成本持续大幅上涨影响，经审慎评估，大疆决定自 2026 年 11 月 18 日 00:00 起，对部分产品的建议零售价进行调整",
-        "时间来到今天（18 日）零时过后，大疆 Osmo Pocket 4P 标准套装、Osmo Pocket 4 标准套装及多个套装版本等产品的价格“如期”上涨，部分产品涨幅达到 560 元",
-        "IT之家汇总目前已知的价格变动如下：Osmo Pocket 4P标准套装 3799 元 → 4099 元，上涨 300 元；Vlog 套装 4299 元 → 4859 元，上涨 560 元"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "620be7902356",
+      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/510821.html",
+      "published": "2026-11-18T04:28:57+00:00",
+      "summary": [
+        "具身全栈玩家"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "9d8e962ee2e4",
+      "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/510726.html",
+      "published": "2026-11-18T01:03:42+00:00",
+      "summary": [
+        "英伟达公布了老黄离职后的首份财报"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "41b461e6dc21",
@@ -139,60 +177,22 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": true,
-      "rank": 7
-    },
-    {
-      "id": "d9a30601c5db",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "published": "2026-11-17T14:50:58+00:00",
-      "summary": [
-        "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "ade583b060f1",
-      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-      "published": "2026-11-17T14:26:46+00:00",
-      "summary": [
-        "Science Corp. raised a $400 million Series D to scale up its anti-blindness business."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "7517b8cd010a",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "id": "1bbe22dae05f",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "published": "2026-11-16T23:32:32+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "published": "2026-11-18T00:16:50+00:00",
       "summary": [
-        "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA."
+        "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
@@ -201,23 +201,42 @@
       "rank": 10
     },
     {
-      "id": "24928ca5de8b",
-      "title": "Meta launches Direct, a stand-alone messaging app for Instagram",
+      "id": "eb7f7c11cb75",
+      "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/",
-      "published": "2026-11-17T15:01:46+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+      "published": "2026-11-17T18:55:40+00:00",
       "summary": [
-        "Direct is launching in Turkey and Thailand, and can be used with or without an Instagram account."
+        "Apple's status page confirms its services are facing outages, but has not confirmed the cause."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 11
+    },
+    {
+      "id": "89d219e3614d",
+      "title": "iFixit’s Apple HomeView teardown reveals a device that will be difficult to repair",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+      "published": "2026-11-17T22:25:41+00:00",
+      "summary": [
+        "After finding recent versions of Apple's iPads and HomePods much easier to disassemble for battery replacements or other repairs, iFixit assumed it would be the same story for Apple's new HomeView hub that looks like a seven-inch tablet stuck to a smart speaker. The reality was much different and by the time they got the [&#8230;]"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 12
     }
   ]
 }
