@@ -1,105 +1,86 @@
 {
   "date": "2026-11-19",
-  "generated": "2026-11-19T00:56:03.466524+08:00",
-  "total": 11,
+  "generated": "2026-11-19T13:53:57.102642+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "1294e01be55f",
-      "title": "The AI Hype Index: AI is everywhere",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "published": "2026-11-18T14:42:44+00:00",
+      "id": "066ed1b0e3fa",
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "published": "2026-11-18T19:40:36+00:00",
       "summary": [
-        "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and&#8230;"
+        "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional [&#8230;]"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "10e24888b35f",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "id": "fac74cc95111",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "published": "2026-11-18T12:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "published": "2026-11-18T22:58:11+00:00",
       "summary": [
-        "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market."
+        "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "5b7aff406793",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "90ca97b0101b",
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "published": "2026-11-18T13:00:00+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "published": "2026-11-18T19:56:39+00:00",
       "summary": [
-        "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained."
+        "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "7e0475dea8c7",
-      "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
-      "published": "2026-11-17T13:10:00+00:00",
-      "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and&#8230;"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 4
-    },
-    {
-      "id": "517bdd03ab63",
-      "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
+      "id": "1f098d1dd2e7",
+      "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374175",
-      "published": "2026-11-18T13:40:28+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374177",
+      "published": "2026-11-19T01:03:37+00:00",
       "summary": [
-        "「基本不可用，不推荐」",
-        "OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上扔下一句毫不留情的评价",
-        "紧接着，拥有大批开发者拥趸的 Theo Browne，发了一篇长文《我为什么讨厌 GPT-6.2 Astra》"
+        "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为公司高管和董事购买了责任保险，最高赔付额度达 9.5 亿美元，但公司自身没有购买通常用于覆盖证券诉讼辩护费用、和解金与判决赔偿的企业责任保险",
+        "这意味着，如果围绕黄仁勋突然辞去 CEO 职务引发的诉讼最终胜诉，涉及股价暴跌的赔偿需要由公司自行承担",
+        "英伟达目前持有超过 500 亿美元现金储备"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "620be7902356",
@@ -116,87 +97,85 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
+      "isNativeCN": true,
+      "rank": 5
+    },
+    {
+      "id": "9fb93aa91aa7",
+      "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "少数派",
+      "sourceDomain": "sspai.com",
+      "sourceUrl": "https://sspai.com/post/119239",
+      "published": "2026-11-19T00:29:30+00:00",
+      "summary": [
+        "AMD 更新虚幻引擎 FSR 插件、Google Wallet 登陆 iOS 等"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "9d8e962ee2e4",
-      "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "e190e3a70471",
+      "title": "安谋科技深度解析Arm Cortex-M42，发布“星辰100e”AIoT原型平台，助力打造AI性能更强的嵌入式设计",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "量子位",
       "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/510726.html",
-      "published": "2026-11-18T01:03:42+00:00",
+      "sourceUrl": "https://www.qbitai.com/2026/11/511079.html",
+      "published": "2026-11-19T04:02:39+00:00",
       "summary": [
-        "英伟达公布了老黄离职后的首份财报"
+        "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "6a68b8edd0d3",
-      "title": "华为 Mate 90 系列手机推 HarmonyOS 7.0.0.115 升级，“悄悄”上线完全体 3D 空间壁纸功能",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/029/125.htm",
-      "published": "2026-11-18T16:55:39+00:00",
+      "id": "dcfcb32bd475",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "published": "2026-11-18T22:11:15+00:00",
       "summary": [
-        "IT之家 11 月 19 日消息，华为 Mate 90 系列手机已率先开启鸿蒙 HarmonyOS 7.0.0.115 SP11 版本升级，系统包大小约 10.31GB，带来了 AI 快捷栏等功能",
-        "据博主 @怪咖学徒_ &nbsp;反馈，在升级 HarmonyOS 7.0.0.115 版本后，华为 Mate 90 系列手机“悄悄”上线了完全体 3D 空间壁纸功能，支持重力感应特性",
-        "从视频演示效果来看，该功能可将壁纸 3D 空间化，手机晃动，壁纸内容也会跟随晃动"
+        "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis."
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
-      "isNativeCN": true,
+      "score": 5.5,
+      "isNativeCN": false,
       "rank": 8
     },
     {
-      "id": "5ce12b7ab9f6",
-      "title": "全球首个医疗健康AI独立评测与分析平台InclusionMed正式上线",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/510916.html",
-      "published": "2026-11-18T07:24:50+00:00",
-      "summary": [
-        "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5.5,
-      "isNativeCN": true,
-      "rank": 9
-    },
-    {
-      "id": "a4f76ab24900",
-      "title": "Instagram’s ‘school safety’ push was also a way to get more teens on the app",
+      "id": "a06cecf19c75",
+      "title": "Absolute Batman can save DC Studios",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor",
-      "published": "2026-11-18T14:59:05+00:00",
+      "sourceUrl": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
+      "published": "2026-11-18T21:20:00+00:00",
       "summary": [
-        "Meta's initiative to make Instagram safer for schools stemmed from efforts to increase user \"acquisition,\" \"friending,\" and \"invites,\" according to a report from NPR. Internal documents revealed as part of a group of child safety lawsuits against Meta reference a \"Project Gryffindor\" - a school program that would \"fuel organic and unattributed acquisition\" of users. [&#8230;]"
+        "With James Gunn and Peter Safran out as the co-heads of DC Studios following Skydance's acquisition of Warner Bros. Discovery, it's unclear what will become of the cinematic universe that was building around movies like last year's Superman. Though Gunn's Man of Tomorrow feature might still come out, it seems like his larger vision for [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "d5373fa6c678",
@@ -213,9 +192,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 10
     }
   ]
 }
