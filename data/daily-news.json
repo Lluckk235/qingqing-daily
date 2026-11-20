@@ -1,47 +1,9 @@
 {
   "date": "2026-11-20",
-  "generated": "2026-11-20T01:02:40.972607+08:00",
+  "generated": "2026-11-20T13:42:49.312420+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "38c66bd23a6e",
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-      "published": "2026-11-19T15:16:45+00:00",
-      "summary": [
-        "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "3beff62fefd8",
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-      "published": "2026-11-19T16:19:41+00:00",
-      "summary": [
-        "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "511c0dc52d7f",
       "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
@@ -57,49 +19,108 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
-      "id": "89e78470e096",
-      "title": "Anthropic starts trading on Wall Street",
+      "id": "61d965a794d6",
+      "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "published": "2026-11-19T16:52:01+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+      "published": "2026-11-19T19:35:52+00:00",
       "summary": [
-        "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [&#8230;]"
+        "Back in my day, the only “Doorbuster” sales were at physical retail stores. But now, you can get ultra-low prices before Black Friday whether you want to shop in-store or online. One that stands out is the previous-generation Sony WH-1000XM5 noise-canceling headphones, which are marked down to their lowest price ever, just $169.99 at Best [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "15417601d21a",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "published": "2026-11-20T00:56:01+00:00",
+      "summary": [
+        "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "ffcfd7e32e09",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "published": "2026-11-19T18:09:11+00:00",
+      "summary": [
+        "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows."
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "6032d775a880",
-      "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
+      "id": "c6c69bfe98f4",
+      "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374196",
-      "published": "2026-11-19T06:10:00+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374235",
+      "published": "2026-11-20T01:04:08+00:00",
       "summary": [
-        "作者｜Wildcard 编辑｜靖宇 谷歌，这次是真的回来了",
-        "11 月 18 日，Google DeepMind 点亮了Gemini 4 Neon的霓虹灯牌",
-        "这是 Gemini 4 系列在短短 7 周内甩出的第 4 款元素模型"
+        "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%",
+        "该股开盘即报 111.5 美元（现汇率约合 744.9 元人民币），较发行价高出约 34.3%；盘中一度突破 115 美元（现汇率约合 768.3 元人民币），随后回落至 100 美元（现汇率约合 668.1 元人民币）下方",
+        "按收盘价计算，Anthropic 市值约为 1.27 万亿美元（现汇率约合 8.48 万亿元人民币），成为全球最受关注的 AI 公司之一"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
+    },
+    {
+      "id": "0e8202a66f2a",
+      "title": "华为星芒 OSTA O1 Pro 配置汇总：麒麟 9030S 处理器、2 亿 RYYB 主摄，今日发布",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/029/873.htm",
+      "published": "2026-11-20T05:30:26+00:00",
+      "summary": [
+        "IT之家 11 月 20 日消息，博主 @数码闲聊站 今日汇总了华为星芒 OSTA O1 Pro 主要配置，新机将于今日 14:30 举行的华为鸿蒙智行享界 V8 及星芒品牌发布会正式亮相",
+        "IT之家附华为星芒 OSTA O1 Pro 主要配置：6.39 英寸 1.5K LTPS 直屏，16:9.5 比例，1.05mm 极窄四等边麒麟 9030S 处理器200Mp 1/1.28\" RYYB 主摄 +50Mp 3.7X RYYB 潜望长焦 + 红枫镜头7000mAh 电池 +66W 有线充 + 无线充侧边指纹，机身厚度 6.68mm / 重量 200g12GB+256GB/12GB+512GB/16GB+512GB/16GB+1TB新机采用颇具辨识度的阔直板形态，提供星芒紫、星云白、星空黑三款配色",
+        "目前，IT之家拿到了星芒 OSTA O1 Pro 主打的星芒紫配色"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
     },
     {
       "id": "9fb93aa91aa7",
@@ -116,32 +137,32 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 6
-    },
-    {
-      "id": "e190e3a70471",
-      "title": "安谋科技深度解析Arm Cortex-M42，发布“星辰100e”AIoT原型平台，助力打造AI性能更强的嵌入式设计",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/511079.html",
-      "published": "2026-11-19T04:02:39+00:00",
-      "summary": [
-        "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 7
     },
     {
+      "id": "cc5563ff1b11",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "published": "2026-11-20T00:43:50+00:00",
+      "summary": [
+        "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 8
+    },
+    {
       "id": "e73ee03b16d6",
-      "title": "Anthropic hits NASDAQ exchange at $110, $27 above IPO price",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
@@ -154,64 +175,45 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "0391667c2f0f",
-      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-      "published": "2026-11-19T14:25:37+00:00",
-      "summary": [
-        "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety [&#8230;]"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 9
     },
     {
-      "id": "dcfcb32bd475",
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "id": "38cbde179199",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "published": "2026-11-18T22:11:15+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "published": "2026-11-19T19:10:45+00:00",
       "summary": [
-        "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis."
+        "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "01dab3c9eb89",
-      "title": "Microsoft is killing its great tasks app in favor of its worse tasks app",
+      "id": "f74033dad4cc",
+      "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1037558/microsoft-to-do-shutdown-planner",
-      "published": "2026-11-19T16:28:12+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+      "published": "2026-11-19T22:33:26+00:00",
       "summary": [
-        "In 2015 Microsoft acquired a to-do list app called Wunderlist, for a price rumored to be as high as $200 million. Wunderlist fans were worried that Microsoft would make their beloved app soulless and corporate, or worse, hide it behind some convoluted enterprise subscription. But against all odds, Microsoft was a good steward: The app [&#8230;]"
+        "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 11
     }
