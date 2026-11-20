@@ -1,120 +1,119 @@
 {
-  "date": "2026-11-20",
-  "generated": "2026-11-20T13:42:49.312420+08:00",
+  "date": "2026-11-21",
+  "generated": "2026-11-21T00:41:43.803809+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "511c0dc52d7f",
-      "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+      "id": "e7bc21e40b78",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published": "2026-11-20T16:34:13+00:00",
+      "summary": [
+        "Anthropic mathematician Levent Alp&#246;ge claims he has solved the Riemann hypothesis, one of mathematics' most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics, and add to the upheaval [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 1
+    },
+    {
+      "id": "da5d0e942173",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "published": "2026-11-20T12:30:47+00:00",
+      "summary": [
+        "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "258a045520db",
+      "title": "The Download: inside the quest to make our minds immortal",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "MIT Tech Review",
       "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
-      "published": "2026-11-19T13:10:00+00:00",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
+      "published": "2026-11-20T13:10:00+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life support outside the body&#8230;"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond&#8230;"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "61d965a794d6",
-      "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
-      "published": "2026-11-19T19:35:52+00:00",
-      "summary": [
-        "Back in my day, the only “Doorbuster” sales were at physical retail stores. But now, you can get ultra-low prices before Black Friday whether you want to shop in-store or online. One that stands out is the previous-generation Sony WH-1000XM5 noise-canceling headphones, which are marked down to their lowest price ever, just $169.99 at Best [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 4.5,
-      "isNativeCN": false,
-      "rank": 2
-    },
-    {
-      "id": "15417601d21a",
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "published": "2026-11-20T00:56:01+00:00",
-      "summary": [
-        "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "ffcfd7e32e09",
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
+      "id": "9c652f409ab4",
+      "title": "The U.S. national cyber director is stepping down",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-      "published": "2026-11-19T18:09:11+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
+      "published": "2026-11-20T09:14:19+00:00",
       "summary": [
-        "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows."
+        "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown."
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6.5,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "c6c69bfe98f4",
-      "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+      "id": "e08c2fbcf95f",
+      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374235",
-      "published": "2026-11-20T01:04:08+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374282",
+      "published": "2026-11-20T08:24:30+00:00",
       "summary": [
-        "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%",
-        "该股开盘即报 111.5 美元（现汇率约合 744.9 元人民币），较发行价高出约 34.3%；盘中一度突破 115 美元（现汇率约合 768.3 元人民币），随后回落至 100 美元（现汇率约合 668.1 元人民币）下方",
-        "按收盘价计算，Anthropic 市值约为 1.27 万亿美元（现汇率约合 8.48 万亿元人民币），成为全球最受关注的 AI 公司之一"
+        "作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了",
+        "卸任亚马逊 CEO 五年后，杰夫&middot;贝佐斯没忍住，又给自己找了个班上",
+        "当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克&middot;巴贾杰（Vik Bajaj）罕见同台"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "0e8202a66f2a",
-      "title": "华为星芒 OSTA O1 Pro 配置汇总：麒麟 9030S 处理器、2 亿 RYYB 主摄，今日发布",
+      "id": "bdb14e9ece4d",
+      "title": "QQ 鸿蒙版 App 获 9.2.90 邀测升级：新增支持互动标识、表情搜索等功能",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/029/873.htm",
-      "published": "2026-11-20T05:30:26+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/279.htm",
+      "published": "2026-11-20T16:00:13+00:00",
       "summary": [
-        "IT之家 11 月 20 日消息，博主 @数码闲聊站 今日汇总了华为星芒 OSTA O1 Pro 主要配置，新机将于今日 14:30 举行的华为鸿蒙智行享界 V8 及星芒品牌发布会正式亮相",
-        "IT之家附华为星芒 OSTA O1 Pro 主要配置：6.39 英寸 1.5K LTPS 直屏，16:9.5 比例，1.05mm 极窄四等边麒麟 9030S 处理器200Mp 1/1.28\" RYYB 主摄 +50Mp 3.7X RYYB 潜望长焦 + 红枫镜头7000mAh 电池 +66W 有线充 + 无线充侧边指纹，机身厚度 6.68mm / 重量 200g12GB+256GB/12GB+512GB/16GB+512GB/16GB+1TB新机采用颇具辨识度的阔直板形态，提供星芒紫、星云白、星空黑三款配色",
-        "目前，IT之家拿到了星芒 OSTA O1 Pro 主打的星芒紫配色"
+        "IT之家 11 月 21 日消息，QQ 鸿蒙版 App 昨日在华为应用市场（App Gallery）开启 9.2.90 (3680) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/11/20-2026/12/11",
+        "IT之家附 QQ 鸿蒙版 App 本次升级内容如下：新增支持查看历史头像好友设置页新增“他的线索”新增支持互动标识新增支持表情搜索修复一些已知体验问题目前 QQ 鸿蒙版已获 5.2 万个评分（评分 2.5），已支持单聊、群聊、多人语音或视频通话、抢红包，刷空间好友动态、短视频、频道、扫一扫、手机 / 平板双端登录等功能"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,21 +122,22 @@
       "rank": 6
     },
     {
-      "id": "9fb93aa91aa7",
-      "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等",
+      "id": "8e1bff89b94a",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "少数派",
       "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/119239",
-      "published": "2026-11-19T00:29:30+00:00",
+      "sourceUrl": "https://sspai.com/post/119337",
+      "published": "2026-11-20T09:54:01+00:00",
       "summary": [
-        "AMD 更新虚幻引擎 FSR 插件、Google Wallet 登陆 iOS 等"
+        "📅本周新预告《克里夫·布斯的惊险再冒险》终极预告11月18日，《好莱坞往事》续集电影《克里夫·布斯的惊险再冒险》发布了终极预告，将于11月25日在北美上映，12月23日上线Netflix",
+        "大卫·芬奇执 ...查看全文"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4.5,
+      "score": 5.5,
       "isNativeCN": true,
       "rank": 7
     },
@@ -156,7 +156,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 8
     },
@@ -194,7 +194,7 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     },
@@ -213,7 +213,7 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 11
     }
