@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generated": "2026-11-22T13:03:28.423934+08:00",
+  "generated": "2026-11-22T23:55:22.772466+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 1
     },
@@ -43,59 +43,59 @@
       "rank": 2
     },
     {
-      "id": "3f8dc1fbea0d",
-      "title": "Can Anthropic afford to put safety first?",
+      "id": "564b8081b7bd",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "published": "2026-11-21T15:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "published": "2026-11-22T13:00:00+00:00",
       "summary": [
-        "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [&#8230;]"
+        "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "7e169213c5b0",
-      "title": "告别“全损音质”：微软 Win11 系统将改进蓝牙耳机开麦体验",
+      "id": "8f620e8f1407",
+      "title": "研华 ASR-A505 单板计算机曝光，搭载英特尔 \"Nova Lake H\" 处理器",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/535.htm",
-      "published": "2026-11-22T01:14:10+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/716.htm",
+      "published": "2026-11-22T14:45:34+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，据科技媒体 Windows Latest 今天报道，Windows 用户多年来应该都有一个抱怨，就是使用蓝牙耳机开麦时，耳边的声音宛如“全损音质”一般",
-        "例如，当你一边玩游戏或通过 Discord 开麦，然后使用蓝牙耳机听音乐时，耳机播放的声音就会突然变得沉闷、模糊",
-        "这个问题从 Windows 7 就开始有，只要麦克风处于工作状态，蓝牙耳机的音质就会变得非常差"
+        "IT之家 11 月 22 日消息，根据研华 (Advantech) 泄露到网络上的一份演示文稿，该企业正在开发一款基于英特尔第 4 代酷睿 Ultra 处理器 \"Nova Lake H\" 的“四英寸级”单板计算机 (SBC) ASR-A505",
+        "该 SBC 板载一颗 \"8P+4E+4LE\" 的 16 核心 16 线程 CPU，配备 18MB 的 LLC 缓存，基频 2.0GHz、睿频可达 4.8GHz；搭配最大频率 2.3GHz 的锐炫独显",
+        "IT之家注：\"8P+4E+4LE\" 与此前所有爆料都不符，更可能是 4 个性能核 + 8 个能效核 + 4 个低功耗能效核"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "5fbbe6f51e06",
-      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+      "id": "c08ea1f01f1a",
+      "title": "美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/563.htm",
-      "published": "2026-11-22T04:18:50+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/717.htm",
+      "published": "2026-11-22T15:15:55+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）",
-        "随后全新的“Tesla Reality View”迅速引发网友热议",
-        "博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建"
+        "IT之家 11 月 22 日消息，美国加利福尼亚州帕洛阿尔托的初创公司 Architect Labs 在一篇研究博客中宣布，其人工智能系统已经自主发现、设计并验证了一款名为 Frostbite 的通用 CPU",
+        "这款处理器采用全新的指令集，从底层开始重新设计，试图摆脱传统 CPU 的部分架构限制",
+        "在 25 项工作负载测试中，由 4 个计算单元组成的 Frostbite 集群，每瓦性能达到一款尺寸相近、已经完成硅验证的双发射顺序执行 CPU 核心的 4.59 倍"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -104,86 +104,86 @@
       "rank": 5
     },
     {
-      "id": "50894509fbe0",
-      "title": "品牌全球销量破百万：长城坦克首支单曲《百万分之一》定档 11 月 25 日“唱响”",
+      "id": "3bda59ba5074",
+      "title": "苹果首款折叠屏手机 iPhone Duo 开启百亿补贴，电商平台优惠千元到手 14499 元起",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/550.htm",
-      "published": "2026-11-22T02:39:52+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/710.htm",
+      "published": "2026-11-22T13:17:56+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，长城汽车旗下坦克 SUV 官方微博今日宣布，品牌首支单曲《百万分之一》将于 11 月 25 日“唱响”",
-        "据IT之家此前报道，本月初，长城汽车宣布，坦克品牌全球销量 100 万辆",
-        "公开信息显示，2020 年 7 月，长城汽车在成都车展上正式发布了“坦克 · WEY”平台，并亮相了该平台首款车型 —— WEY 坦克 300"
+        "IT之家 11 月 22 日消息，苹果首款折叠屏手机 iPhone Duo 于 10 月 23 日发售，上市约一个月后，目前该机已陆续开始在电商平台开始补贴，以拼多多为例，目前该机已开启百亿补贴，相对于上市价（15999 元起）优惠千元，到手价 14499 元起",
+        "参考IT之家先前报道，有消息称苹果 iPhone Duo 折叠屏手机首销期（首销日 + 后三天）的 SO（销量）接近 200K（20 万）",
+        "iPhone Duo 采用可折叠设计，配备了苹果迄今面积最大的 iPhone 显示屏"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "046ab496be5f",
-      "title": "小鹏辟谣：警惕冒用小鹏汽车名义的“召回领赔偿”诈骗",
+      "id": "835f2139f1b5",
+      "title": "Nomadic 无人机停高压电线上就能充电，每架可负责监测 25 公里电网线路",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/537.htm",
-      "published": "2026-11-22T01:23:45+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/708.htm",
+      "published": "2026-11-22T12:56:39+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，小鹏集团官方微博 @小鹏辟谣 昨日发文，提醒车主警惕冒用小鹏汽车名义的“召回领赔偿”诈骗",
-        "近日，多家车企的车主收到不法分子冒用车企名义制作、传播的虚假召回通知，声称车主可领取赔偿，引导车主访问附带网站或扫描二维码，联系所谓“在线客服”登记个人及车辆信息",
-        "为防患于未然，保护广大鹏友的合法权益，小鹏汽车在此郑重提示：一、官方渠道说明与甄别小鹏汽车不会通过陌生短信、陌生链接、陌生二维码推送以“召回领赔偿”为由的通知"
+        "IT之家 11 月 22 日消息，科技初创公司 Nomadic 本周展示了旗下的 NOMAD 无人机，同时宣布完成 600 万美元（IT之家注：现汇率约合 4,016 万元人民币）种子轮融资",
+        "这款四旋翼无人机有一项与其名字相呼应的独特能力：几乎可以一直飞行，无需返回基地",
+        "NOMAD 无人机能够停靠在高压输电线上，直接从线路获取电能并为自身充电，随后继续执行下一项任务"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": true,
       "rank": 7
     },
     {
-      "id": "22fc31acfcea",
-      "title": "终抵千万里程碑：曝华为 Mate 80 系列手机终端销量破 1000 万台，标准版占比近 58%",
+      "id": "025529787c96",
+      "title": "雷诺集团 CEO 福兰反思职业生涯最大失误：当年未能指出在华销量目标不切实际",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/560.htm",
-      "published": "2026-11-22T03:56:29+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/707.htm",
+      "published": "2026-11-22T12:47:05+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，据博主 @智慧芯片案内人 透露，截至 W46（11 月 9 日-11 月 15 日），某厂 M80 系列手机销量已突破 1000 万台，其中标准版占比接近 58%",
-        "从评论区讨论来看，M80 预计指的是华为 Mate 80 系列手机",
-        "华为 Mate 80 / Pro / Pro Max / RS 手机已于 2025 年 11 月 25 日发布，搭载麒麟 9020 / 9030 / 9030 Pro 处理器，首发鸿蒙 Harmony OS 6 系统，定价 4699 元起，涨价后 5499 元起（后增加了一款 Pro Max 风驰版机型）"
+        "IT之家 11 月 22 日消息，据欧洲汽车新闻报道，雷诺集团首席执行官福兰（Francois Provost）直言，当年未能向时任首席执行官卡洛斯 · 戈恩（Carlos Ghosn）指出其在华销量目标不切实际，是自己职业生涯中最大的失误",
+        "福兰于 2025 年 7 月出任雷诺首席执行官，他曾在 2016 年和 2017 年负责该车企在华业务运营",
+        "戈恩则于 2005 年至 2019 年 1 月期间担任雷诺集团首席执行官"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 8
     },
     {
-      "id": "01aa646518ed",
-      "title": "极氪提醒防范虚假召回信息：不会以召回为由，要求车主提交隐私信息",
+      "id": "4118e05a470c",
+      "title": "韩国最大电力公司韩电再曝大规模数据泄露，152 万人信息外泄",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/030/559.htm",
-      "published": "2026-11-22T03:37:13+00:00",
+      "sourceUrl": "https://www.ithome.com/1/030/706.htm",
+      "published": "2026-11-22T12:24:05+00:00",
       "summary": [
-        "IT之家 11 月 22 日消息，极氪法务部 11 月 22 日发布声明称，有不法分子冒用极氪名义向车主发送虚假召回短信，诱导车主点击非官方链接并输入手机号及验证码",
-        "据声明介绍，此类短信以车辆 “存在安全隐患”“逾期取消质保” 等表述制造紧迫感，同时附带非官方虚假网站链接，诱导车主跳转至仿冒页面，在输入手机号和验证码登录后，联系所谓“客服”办理召回手续；这类操作很可能造成个人信息泄露和财产损失",
-        "极氪在声明中表示，上述短信及所附链接、文件等均非极氪官方发布，请车主切勿点击可疑链接、回复相关信息或向不明身份人员提供个人及车辆信息"
+        "IT之家 11 月 22 日消息，韩国最大电力公司韩国电力公社（IT之家注：KEPCO，简称“韩电”）今日表示，已确认发生另一起涉及约 152 万用户个人信息的数据泄露事件",
+        "上个月，该公司披露了一起影响 35,528 名内部员工、退休人员及合作方员工的信息泄露事件",
+        "据介绍，本次泄露的信息中大量包含了居民登录号码（韩国身份证号）、电话号码、地址、账号、卡号等"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 5,
       "isNativeCN": true,
       "rank": 9
     },
@@ -202,26 +202,26 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "e262e9837ef1",
-      "title": "Startup sues Apple in India over tap-to-share contacts feature",
+      "id": "370b84aac2ab",
+      "title": "Your questions about Apple HomeView’s audio, answered",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
-      "published": "2026-11-21T04:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "published": "2026-11-22T13:00:00+00:00",
       "summary": [
-        "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India."
+        "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 11
     }
