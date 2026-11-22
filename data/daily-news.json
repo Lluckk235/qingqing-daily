@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-21",
-  "generated": "2026-11-21T23:54:24.269210+08:00",
-  "total": 9,
+  "date": "2026-11-22",
+  "generated": "2026-11-22T13:03:28.423934+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "258a045520db",
-      "title": "The Download: inside the quest to make our minds immortal",
+      "id": "e32b819c8690",
+      "title": "Amazon is complaining about NYC Council on shipping labels, too",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
-      "published": "2026-11-20T13:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+      "published": "2026-11-21T21:59:31+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond&#8230;"
+        "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act would effectively ban the sort of third-party arrangements Amazon currently [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -24,21 +24,21 @@
       "rank": 1
     },
     {
-      "id": "9c652f409ab4",
-      "title": "The US national cyber director is stepping down",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
+      "id": "f9419135fce5",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
-      "published": "2026-11-20T09:14:19+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "2026-11-21T17:00:00+00:00",
       "summary": [
-        "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown."
+        "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
       ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,88 +57,154 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "b86580389642",
-      "title": "The most misunderstood graph in AI just got a major update",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "published": "2026-11-20T18:15:15+00:00",
+      "id": "7e169213c5b0",
+      "title": "告别“全损音质”：微软 Win11 系统将改进蓝牙耳机开麦体验",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/535.htm",
+      "published": "2026-11-22T01:14:10+00:00",
       "summary": [
-        "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely&#8230;"
+        "IT之家 11 月 22 日消息，据科技媒体 Windows Latest 今天报道，Windows 用户多年来应该都有一个抱怨，就是使用蓝牙耳机开麦时，耳边的声音宛如“全损音质”一般",
+        "例如，当你一边玩游戏或通过 Discord 开麦，然后使用蓝牙耳机听音乐时，耳机播放的声音就会突然变得沉闷、模糊",
+        "这个问题从 Windows 7 就开始有，只要麦克风处于工作状态，蓝牙耳机的音质就会变得非常差"
       ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
+      "score": 7,
+      "isNativeCN": true,
       "rank": 4
     },
     {
-      "id": "e08c2fbcf95f",
-      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
+      "id": "5fbbe6f51e06",
+      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374282",
-      "published": "2026-11-20T08:24:30+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/563.htm",
+      "published": "2026-11-22T04:18:50+00:00",
       "summary": [
-        "作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了",
-        "卸任亚马逊 CEO 五年后，杰夫&middot;贝佐斯没忍住，又给自己找了个班上",
-        "当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克&middot;巴贾杰（Vik Bajaj）罕见同台"
+        "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）",
+        "随后全新的“Tesla Reality View”迅速引发网友热议",
+        "博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "8e1bff89b94a",
-      "title": "本周看什么 | 最近值得一看的 10 部作品",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "少数派",
-      "sourceDomain": "sspai.com",
-      "sourceUrl": "https://sspai.com/post/119337",
-      "published": "2026-11-20T09:54:01+00:00",
+      "id": "50894509fbe0",
+      "title": "品牌全球销量破百万：长城坦克首支单曲《百万分之一》定档 11 月 25 日“唱响”",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/550.htm",
+      "published": "2026-11-22T02:39:52+00:00",
       "summary": [
-        "📅本周新预告《克里夫·布斯的惊险再冒险》终极预告11月18日，《好莱坞往事》续集电影《克里夫·布斯的惊险再冒险》发布了终极预告，将于11月25日在北美上映，12月23日上线Netflix",
-        "大卫·芬奇执 ...查看全文"
+        "IT之家 11 月 22 日消息，长城汽车旗下坦克 SUV 官方微博今日宣布，品牌首支单曲《百万分之一》将于 11 月 25 日“唱响”",
+        "据IT之家此前报道，本月初，长城汽车宣布，坦克品牌全球销量 100 万辆",
+        "公开信息显示，2020 年 7 月，长城汽车在成都车展上正式发布了“坦克 · WEY”平台，并亮相了该平台首款车型 —— WEY 坦克 300"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "e11423916808",
-      "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+      "id": "046ab496be5f",
+      "title": "小鹏辟谣：警惕冒用小鹏汽车名义的“召回领赔偿”诈骗",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/537.htm",
+      "published": "2026-11-22T01:23:45+00:00",
+      "summary": [
+        "IT之家 11 月 22 日消息，小鹏集团官方微博 @小鹏辟谣 昨日发文，提醒车主警惕冒用小鹏汽车名义的“召回领赔偿”诈骗",
+        "近日，多家车企的车主收到不法分子冒用车企名义制作、传播的虚假召回通知，声称车主可领取赔偿，引导车主访问附带网站或扫描二维码，联系所谓“在线客服”登记个人及车辆信息",
+        "为防患于未然，保护广大鹏友的合法权益，小鹏汽车在此郑重提示：一、官方渠道说明与甄别小鹏汽车不会通过陌生短信、陌生链接、陌生二维码推送以“召回领赔偿”为由的通知"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "22fc31acfcea",
+      "title": "终抵千万里程碑：曝华为 Mate 80 系列手机终端销量破 1000 万台，标准版占比近 58%",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/560.htm",
+      "published": "2026-11-22T03:56:29+00:00",
+      "summary": [
+        "IT之家 11 月 22 日消息，据博主 @智慧芯片案内人 透露，截至 W46（11 月 9 日-11 月 15 日），某厂 M80 系列手机销量已突破 1000 万台，其中标准版占比接近 58%",
+        "从评论区讨论来看，M80 预计指的是华为 Mate 80 系列手机",
+        "华为 Mate 80 / Pro / Pro Max / RS 手机已于 2025 年 11 月 25 日发布，搭载麒麟 9020 / 9030 / 9030 Pro 处理器，首发鸿蒙 Harmony OS 6 系统，定价 4699 元起，涨价后 5499 元起（后增加了一款 Pro Max 风驰版机型）"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 8
+    },
+    {
+      "id": "01aa646518ed",
+      "title": "极氪提醒防范虚假召回信息：不会以召回为由，要求车主提交隐私信息",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/030/559.htm",
+      "published": "2026-11-22T03:37:13+00:00",
+      "summary": [
+        "IT之家 11 月 22 日消息，极氪法务部 11 月 22 日发布声明称，有不法分子冒用极氪名义向车主发送虚假召回短信，诱导车主点击非官方链接并输入手机号及验证码",
+        "据声明介绍，此类短信以车辆 “存在安全隐患”“逾期取消质保” 等表述制造紧迫感，同时附带非官方虚假网站链接，诱导车主跳转至仿冒页面，在输入手机号和验证码登录后，联系所谓“客服”办理召回手续；这类操作很可能造成个人信息泄露和财产损失",
+        "极氪在声明中表示，上述短信及所附链接、文件等均非极氪官方发布，请车主切勿点击可疑链接、回复相关信息或向不明身份人员提供个人及车辆信息"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 9
+    },
+    {
+      "id": "0a2e9e2641fc",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
-      "published": "2026-11-21T12:00:00+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "published": "2026-11-21T20:03:37+00:00",
       "summary": [
-        "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up [&#8230;]"
+        "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [&#8230;]"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 10
     },
     {
       "id": "e262e9837ef1",
@@ -155,28 +221,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "233360398ca6",
-      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-      "published": "2026-11-21T14:00:00+00:00",
-      "summary": [
-        "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 11
     }
   ]
 }
