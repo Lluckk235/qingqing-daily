@@ -1,67 +1,86 @@
 {
   "date": "2026-11-24",
-  "generated": "2026-11-24T03:49:19.854492+08:00",
-  "total": 8,
+  "generated": "2026-11-24T16:22:52.964466+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "389c89635cfd",
-      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "id": "fc410e023e94",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
-      "published": "2026-11-23T19:14:46+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "published": "2026-11-23T22:05:50+00:00",
       "summary": [
-        "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem"
+        "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "ced394d4b6ae",
-      "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+      "id": "dd1199899b51",
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-      "published": "2026-11-23T19:04:52+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "published": "2026-11-23T13:10:00+00:00",
       "summary": [
-        "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device [&#8230;]"
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
     },
     {
-      "id": "93f082c1d868",
-      "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+      "id": "9e7018dce346",
+      "title": "华为星芒O1 Pro，如何把手机 AI 再往前努一小步",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374304",
-      "published": "2026-11-23T01:22:36+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374417",
+      "published": "2026-11-24T07:47:16+00:00",
       "summary": [
-        "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 &middot; 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛",
-        "他认为，传统 AI 能力评测基准会随着技术进步迅速过时，而困惑度（Perplexity）可以作为衡量模型预训练进展的参考指标（困惑度用于衡量 AI 模型预测下一个文本 Token 的能力，数值越低，代表模型的预测能力越强）",
-        "帕霍茨基还公布了 OpenAI 内部使用的部分模型评测数据：GPT-3.5 的对数困惑度约为 0.99，GPT-4 约为 0.91"
+        "随着 iOS 27.2 的更新，中国大陆用户日盼夜盼的苹果智能，终于露出了一小手，但各种原因吧，仍然是犹抱琵琶半遮面",
+        "如果对消费电子看得比较多的同学，可能会感到现在手机 AI 比较割裂",
+        "既有大厂在一点点摸索，上了 AI，但是散落在键盘、录音、文字记录、笔记等等各个功能之中；然后也有来自字节、阶跃这样的挑战者，走的是 Rabbit R1 的路子，想用一个 AI 助手，一杆子捅到底，然后被互联网大厂南墙撞得头破血流"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 7,
       "isNativeCN": true,
       "rank": 3
+    },
+    {
+      "id": "f11eb6d7a4ec",
+      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/512348.html",
+      "published": "2026-11-24T06:15:38+00:00",
+      "summary": [
+        "11月19日，方程豹钛9上市，售价27.99万元起"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 4
     },
     {
       "id": "c39342c954ac",
@@ -80,51 +99,49 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 4
-    },
-    {
-      "id": "f336a30ea118",
-      "title": "距离发售尚有三年，《暗黑破坏神 5》职业、装备体系与世界观细节公开",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/031/230.htm",
-      "published": "2026-11-23T15:32:15+00:00",
-      "summary": [
-        "IT之家 11 月 23 日消息，距离《暗黑破坏神 5》（Diablo 5）正式发售至少还有三年，但暴雪已经陆续公布了这款新作的一些令人期待的信息",
-        "在最近一届暴雪嘉年华（BlizzCon）上，《暗黑破坏神 5》作为重磅消息之一正式亮相",
-        "在《暗黑破坏神 5》推出之前，《暗黑破坏神 4》仍将持续获得重要更新"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 7,
+      "score": 4.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "b281b8bd57df",
-      "title": "离功能补完更近一步：微信鸿蒙版 App 获 8.0.24.19 大版本邀测升级",
+      "id": "31ac76847f80",
+      "title": "华为“发钱”了：鸿蒙一亿感恩有礼活动细则公开，设备使用一天 = 100 积分，最高价值 883 元",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/031/229.htm",
-      "published": "2026-11-23T15:23:51+00:00",
+      "sourceUrl": "https://www.ithome.com/1/031/541.htm",
+      "published": "2026-11-24T08:09:07+00:00",
       "summary": [
-        "IT之家 11 月 23 日消息，据用户反馈，微信鸿蒙版 App 今晚开启了 8.0.24.19 大版本的邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/11/23-2026/12/23",
-        "又一大版本的发布意味着微信鸿蒙版离功能补完又近一步",
-        "博主 @熠熠玩数码 此前透露，微信鸿蒙版 App 的适配已经接近尾声，大量功能逐步灰度开放中"
+        "IT之家 11 月 24 日现场消息，在今天的 HUAWEI Mate X8 及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布推出“鸿蒙一亿感恩有礼”—— 鸿蒙设备使用 1 天 = 100 积分 = 1 元",
+        "用户可前往我的华为 App 进行领取",
+        "IT之家注意到，目前活动已在我的华为 App 上线，并公布了具体细则"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "e14822a08d8a",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/512330.html",
+      "published": "2026-11-24T03:30:46+00:00",
+      "summary": [
+        "中国AI数据平台加速崛起"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": true,
+      "rank": 7
     },
     {
       "id": "ca5d392ce76c",
@@ -141,28 +158,28 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 7
+      "rank": 8
     },
     {
-      "id": "4ae15e716f50",
-      "title": "Uber now lets you book rides that record the drive by default",
+      "id": "81e3c4c2ccb4",
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
-      "published": "2026-11-23T14:00:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "published": "2026-11-23T23:25:01+00:00",
       "summary": [
-        "The option, which uses the front camera of the Uber driver's phone to record the entire drive, will show up as \"Recorded Rides\" in the app."
+        "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     }
   ]
 }
