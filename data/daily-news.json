@@ -1,47 +1,9 @@
 {
   "date": "2026-11-25",
-  "generated": "2026-11-25T05:54:44.296175+08:00",
-  "total": 12,
+  "generated": "2026-11-25T14:58:49.480878+08:00",
+  "total": 11,
   "defaultDisplay": 6,
   "news": [
-    {
-      "id": "a50411e7e7f2",
-      "title": "GTA VI PC recompilation project shut down by Take-Two",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "published": "2026-11-24T21:39:14+00:00",
-      "summary": [
-        "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "1d2d0947e63b",
-      "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
-      "published": "2026-11-24T21:09:04+00:00",
-      "summary": [
-        "Iran is the chief suspect behind the dozens of cyberattacks targeting oil and chemical shipping vessels."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 2
-    },
     {
       "id": "84cfd1b9e3c3",
       "title": "Even the best AI agents struggle with everyday life",
@@ -57,9 +19,9 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "bc914d95aadb",
@@ -76,51 +38,68 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 2
+    },
+    {
+      "id": "a50411e7e7f2",
+      "title": "GTA VI PC recompilation project shut down by Take-Two",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
+      "published": "2026-11-24T21:39:14+00:00",
+      "summary": [
+        "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "1d2d0947e63b",
+      "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
+      "published": "2026-11-24T21:09:04+00:00",
+      "summary": [
+        "Iran is the chief suspect behind the dozens of cyberattacks targeting oil and chemical shipping vessels."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "b6a94c79a7ac",
-      "title": "惠普 2026 财年全年归母净利润 24.25 亿美元，同比下降 4.1%",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/031/901.htm",
-      "published": "2026-11-24T21:23:11+00:00",
-      "summary": [
-        "IT之家 11 月 25 日消息，惠普今日发布 2026 财年（2025 年 11 月 1 日～2026 年 10 月 31 日）全年及第四财季（2026 年 8 月 1 日～2026 年 10 月 31 日）报告： 2026 财年全年 营业总收入：605.27 亿美元（IT之家注：现汇率约合 4042.78 亿元人民币），同比增长 9.5% 毛利润：115.96 亿美元（现汇率约合 774.53 亿元人民币） 毛利率：19.16% 归母净利润：24.25 亿美元（现汇率约合 161.97 亿元人民币），同比下降 4.1% 经营现金流：39.76 亿美元（现汇率约合 265.57 亿元人民币），同比增长 7.5% 自由现金流：33.3 亿美元（现汇率约合 222.42 亿元人民币），同比增长 13.5% 基本每股收益：2.64 美元（现汇率约合 17.63 元人民币） 稀释每股收益：2.62 美元（现汇率约合 17.5 元人民币），同比下降 1.1% 资产负债率：98.89% 2026 财年第四财季 营业总收入：160.04 亿美元（现汇率约合 1068.96 亿元人民币），同比增长 9.3%，环比增长 2% 毛利润：28 亿美元（现汇率约合 187.02 亿元人民币），环比下降 4.92% 毛利率：17.5%，环比下降 1.29 个百分点 归母净利润：7.69 亿美元（现汇率约合 51.36 亿元人民币），同比下降 3.3% 经营现金流：9.32 亿美元（现汇率约合 62.25 亿元人民币），同比下降 42.6% 自由现金流：8 亿美元（现汇率约合 53.43 亿元人民币），同比下降 45.9% 基本每股收益：0.85 美元（现汇率约合 5.68 元人民币） 稀释每股收益：0.84 美元（现汇率约合 5.61 元人民币） 资产负债率：98.89% AI 解读 惠普 2026 财年全年及第四财季业绩整体超出市场预期，全年 GAAP 稀释每股收益处于此前指引区间上限，非 GAAP 稀释每股收益超出指引上限",
-        "公司与业绩亮点概览惠普（HP Inc.）是全球领先的科技企业，核心业务覆盖个人系统（ PC ）、打印两大板块，业务遍及 180 多个国家和地区，主打 AI 驱动的终端设备、软件与订阅服务",
-        "本次披露为 2026 财年全年及第四财季业绩：2026 财年全年：实现营业收入 605.27 亿美元（现汇率约合 4042.78 亿元人民币）、同比增长 9.5%，GAAP 归母净利润 24.25 亿美元（现汇率约合 161.97 亿元人民币）、同比下降 4.1%；全年经营活动现金流净额 39.76 亿美元（现汇率约合 265.57 亿元人民币）、同比增长 7.5%，自由现金流 33.3 亿美元（现汇率约合 222.42 亿元人民币）、同比增长 13.5%；全年通过回购和分红向股东返还 23 亿美元（现汇率约合 153.62 亿元人民币），AI PC 出货占比在第四财季接近 60%"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 7,
-      "isNativeCN": true,
-      "rank": 5
-    },
-    {
-      "id": "728095bc637c",
-      "title": "黄仁勋，离开英伟达的 11 天",
+      "id": "87da5c4ee0a2",
+      "title": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374431",
-      "published": "2026-11-24T09:58:05+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374462",
+      "published": "2026-11-25T05:02:43+00:00",
       "summary": [
-        "作者｜徐珊 编辑｜郑玄 11 月 12 日，执掌英伟达 33 年的黄仁勋因被曝两段婚外情，突然辞去 CEO、总裁及董事职务，即刻生效",
-        "硅谷，迎来一场剧烈的风暴",
-        "11 月 17 日，黄仁勋在社交媒体发声，为给董事会制造麻烦深表后悔，同时明确递出话头，只要符合股东、员工与公司的最佳利益，他随时愿意回归"
+        "作者｜张勇毅 编辑｜郑玄 &nbsp; 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700 Pro 三款机型，补贴后 2899 元起，11 月 27 日开售",
+        "发布会上，全系 2 亿像素主摄、9000mAh 电池和背面那块 1.72 英寸小屏占了不少篇幅",
+        "AI 手机助手 YOYO 豆包，这一代在荣耀 700 上有了专属的背屏显示载体｜图片来源：极客公园 但真正让手机圈竖起耳朵的，是荣耀官方通稿里的一个新称呼"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "f11eb6d7a4ec",
@@ -137,9 +116,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "e14822a08d8a",
@@ -156,9 +135,9 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": true,
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "d52b76df83c9",
@@ -175,9 +154,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "513dfbf73e8d",
@@ -194,9 +173,9 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "658c003c1c48",
@@ -213,28 +192,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 11
+      "rank": 10
     },
     {
-      "id": "a4c005d0b92f",
-      "title": "TikTok was down",
+      "id": "229ae6adf731",
+      "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-      "published": "2026-11-24T20:27:27+00:00",
+      "sourceUrl": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+      "published": "2026-11-24T23:25:46+00:00",
       "summary": [
-        "Earlier on Tuesday, TikTok experienced some issues, with videos, search results, favorites, and other features not loading as they usually do. Videos sometimes wouldn't load in the For You feed on my iPhone, and search results occasionally didn't show up as expected in the app on iOS or Android, or on the web. Even trying [&#8230;]"
+        "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on Wednesday. The Verge reached out to experts on what to expect, and will keep this post updated. What material is the Army planning to detonate? There are [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
-      "rank": 12
+      "rank": 11
     }
   ]
 }
