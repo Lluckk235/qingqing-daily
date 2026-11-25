@@ -1,65 +1,46 @@
 {
-  "date": "2026-11-25",
-  "generated": "2026-11-25T14:58:49.480878+08:00",
+  "date": "2026-11-26",
+  "generated": "2026-11-26T02:25:20.311202+08:00",
   "total": 11,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "84cfd1b9e3c3",
-      "title": "Even the best AI agents struggle with everyday life",
+      "id": "4efa556b512f",
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "published": "2026-11-24T21:33:29+00:00",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "published": "2026-11-25T13:10:00+00:00",
       "summary": [
-        "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems."
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors&#8217; interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data&#8230;"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "bc914d95aadb",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "id": "f73e5ac199d7",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "published": "2026-11-24T21:32:38+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "published": "2026-11-25T14:12:33+00:00",
       "summary": [
-        "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent."
+        "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": false,
       "rank": 2
-    },
-    {
-      "id": "a50411e7e7f2",
-      "title": "GTA VI PC recompilation project shut down by Take-Two",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "published": "2026-11-24T21:39:14+00:00",
-      "summary": [
-        "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 3
     },
     {
       "id": "1d2d0947e63b",
@@ -76,68 +57,112 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 3
+    },
+    {
+      "id": "0c0a6f237867",
+      "title": "The Verge’s guide to the best gifts under $100",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
+      "published": "2026-11-25T17:00:00+00:00",
+      "summary": [
+        "Even in an era of inflation like the one we're living through now, $100 can still buy a lot… if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, [&#8230;]"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "87da5c4ee0a2",
-      "title": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
+      "id": "93a5452a8bbb",
+      "title": "Plaud、影石、小红书、Looki......我们发起了一场 AI 硬件圈的年度聚会",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374462",
-      "published": "2026-11-25T05:02:43+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374487",
+      "published": "2026-11-25T09:33:01+00:00",
       "summary": [
-        "作者｜张勇毅 编辑｜郑玄 &nbsp; 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700 Pro 三款机型，补贴后 2899 元起，11 月 27 日开售",
-        "发布会上，全系 2 亿像素主摄、9000mAh 电池和背面那块 1.72 英寸小屏占了不少篇幅",
-        "AI 手机助手 YOYO 豆包，这一代在荣耀 700 上有了专属的背屏显示载体｜图片来源：极客公园 但真正让手机圈竖起耳朵的，是荣耀官方通稿里的一个新称呼"
+        "在模型飞速演进的 2026 年，硬件世界反而开始告别「爽文叙事」",
+        "前两年聊 AI 硬件，行业里经常讨论做出一个取代智能手机的「下一代超级入口」的终局命题",
+        "听着很过瘾，但真干起来才发现，做硬件这事儿，哪有那么多一步登天"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "f11eb6d7a4ec",
-      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+      "id": "4beaf89751c5",
+      "title": "奕境曾清林：新能源汽车来到智能化下半场，四激光正是面向 L3、一步到位的智驾硬件方案",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/512348.html",
-      "published": "2026-11-24T06:15:38+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/032/533.htm",
+      "published": "2026-11-25T15:59:21+00:00",
       "summary": [
-        "11月19日，方程豹钛9上市，售价27.99万元起"
+        "IT之家 11 月 25 日消息，奕境汽车品牌总经理曾清林刚刚发文，分享了 70% 和 90% 两组数据：70% 来自工信部",
+        "2026 年以来，搭载辅助驾驶功能的乘用车新车，市场渗透率已经达到 70%",
+        "这再次印证，新能源上半场是电动化，现在来到了下半场的智能化"
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 3.5,
+      "score": 6,
       "isNativeCN": true,
       "rank": 6
     },
     {
-      "id": "e14822a08d8a",
-      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "id": "a61ed0981774",
+      "title": "北京汽车 T700 新车申报：1.5T 增程动力、单 / 双电机两种版本",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/512330.html",
-      "published": "2026-11-24T03:30:46+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/032/531.htm",
+      "published": "2026-11-25T15:53:13+00:00",
       "summary": [
-        "中国AI数据平台加速崛起"
+        "IT之家 11 月 25 日消息，工信部发布第 414 批《道路机动车辆生产企业及产品公告》新产品公示，北汽 T700 完成申报",
+        "本次申报的车型由北京汽车集团越野车有限公司生产，隶属于北京牌，定位为插电式增程混合动力运动型乘用车，车尾分别标注“T700”与“北汽集团”字样",
+        "根据外观及动力差异，公示中包含两种版本，整体造型延续方正硬派的方盒子设计语言，配备贯穿式尾灯与银色下护板装饰"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 3.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 7
+    },
+    {
+      "id": "1cd273b80b3b",
+      "title": "蛮啾《蓝色星原：旅谣》今日公测：两百余种奇波可捕捉骑乘，登陆 PC、iOS、安卓、鸿蒙与 PS5",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/032/534.htm",
+      "published": "2026-11-25T16:00:07+00:00",
+      "summary": [
+        "IT之家 11 月 26 日消息，由《碧蓝航线》开发商蛮啾网络打造的幻想大世界 RPG《蓝色星原：旅谣》将于 11 月 26 日 10:00 正式开启公测，登陆 PC、iOS、安卓、鸿蒙与 PS5 平台",
+        "该作由上海蛮啾网络科技有限公司研发并运营，采用 Unity 引擎开发，背景音乐有川井宪次、西木康智等作曲家参与",
+        "海外发行方面，日服由蛮啾网络与悠星联合发行，韩服由 NEXON 代理，东南亚地区由 PlayPark 负责"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "d52b76df83c9",
@@ -156,62 +181,43 @@
       "tags": [],
       "score": 6,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 9
     },
     {
-      "id": "513dfbf73e8d",
-      "title": "Electric truck startup Harbinger gets financing boost from Palmer Luckey’s bank",
+      "id": "38c6ffe96a9a",
+      "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
       "category": "business",
       "categoryLabel": "商业",
       "badge": "INSIGHT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
-      "published": "2026-11-24T17:29:09+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
+      "published": "2026-11-25T13:08:19+00:00",
       "summary": [
-        "Harbinger has tapped Palmer Luckey's Erebor Bank as a new source of capital as the electric truck startup looks to diversify how it funds its growth."
+        "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found."
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "658c003c1c48",
-      "title": "Amazon is knocking almost $50 off six months of Apple TV",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-      "published": "2026-11-24T19:00:00+00:00",
-      "summary": [
-        "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 10
     },
     {
-      "id": "229ae6adf731",
-      "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
+      "id": "3bcea7cbdeef",
+      "title": "X’s latest update for creators focuses on vertical video",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
-      "published": "2026-11-24T23:25:46+00:00",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
+      "published": "2026-11-25T17:28:29+00:00",
       "summary": [
-        "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on Wednesday. The Verge reached out to experts on what to expect, and will keep this post updated. What material is the Army planning to detonate? There are [&#8230;]"
+        "As short-form video ramps up in popularity, X's new creation tools are part of its effort to compete with YouTube and Instagram."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5.5,
+      "score": 5,
       "isNativeCN": false,
       "rank": 11
     }
