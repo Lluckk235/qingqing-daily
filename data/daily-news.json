@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-26",
-  "generated": "2026-11-26T14:51:16.981873+08:00",
-  "total": 8,
+  "date": "2026-11-27",
+  "generated": "2026-11-27T02:07:39.049057+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,9 +38,28 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
       "rank": 2
+    },
+    {
+      "id": "d6d5e4635fe4",
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "published": "2026-11-26T13:10:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a few prosthetics. But his latest&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": false,
+      "rank": 3
     },
     {
       "id": "bf17d49ef61f",
@@ -57,30 +76,70 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4.5,
+      "score": 4,
       "isNativeCN": false,
-      "rank": 3
+      "rank": 4
     },
     {
-      "id": "ce6e0435909d",
-      "title": "黄仁勋复职后首次主持全员大会：向员工道歉；iPhone Duo 零部件成本创历代 iPhone 新高；Anthropic 跌破发行价｜极客早知道",
+      "id": "dd310616e959",
+      "title": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "极客公园",
-      "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374500",
-      "published": "2026-11-26T00:19:57+00:00",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/033/131.htm",
+      "published": "2026-11-26T15:24:56+00:00",
       "summary": [
-        "黄仁勋复职后首次主持全员大会：向员工道歉，称将调整管理方式 当地时间 11 月 24 日，英伟达 CEO 黄仁勋在复职后首次召开的公司全员大会上向员工道歉，承认自己违反了公司行为准则，并表示已经开始接受每日一个半小时的心理治疗",
-        "他称自己犯下了「非常严重的个人错误」，伤害了家人，也辜负了员工，并感谢公司董事会给予自己第二次机会",
-        "黄仁勋承认，以往过于强势的管理方式有时影响员工发挥主动性，今后将征求同事反馈，并接受针对自己的 360 度绩效评估"
+        "IT之家 11 月 26 日消息，据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及关键基础设施运营方发起入侵",
+        "IT之家注意到，该局在公告中表示，五起攻击里有四起攻击得手，相关系统遭到入侵",
+        "遭到攻击的对象包含三家关键基础设施运营主体，据瑞士公共广播公司 SRF 介绍，它们分别是电力、供水以及通信服务供应商"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "id": "e5af68a6c338",
+      "title": "宁德时代预告 30#巧克力电池：首发 100kWh 版本，支持实现 3s 级零百加速",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/033/129.htm",
+      "published": "2026-11-26T15:10:43+00:00",
+      "summary": [
+        "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志正式官宣华为乾崑智驾 × 宁德时代巧克力换电达成合作，并发布了智能补能解决方案",
+        "宁德时代市场联席总裁杨峻还在现场预告了 30#巧克力电池，其定位是“更全能的电池”",
+        "长续航：首发 100kWh 版本，支持实现 700+km 续航；可升级：不同档位电量，按需配电；快补能：99 秒极速换电，超充 10 分钟 400km 续航；强动力：600kW 峰值放电功率，支持实现 3s 零百加速；长寿命：锁止机构一天一换可用 27 年，在网电池终身质保；高安全：振动耐久测试达国标 1.5 倍，巧克力电池管家 7×24 小时监测"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": true,
+      "rank": 6
+    },
+    {
+      "id": "ed1460477a26",
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "published": "2026-11-26T16:00:00+00:00",
+      "summary": [
+        "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 5,
+      "isNativeCN": false,
+      "rank": 7
     },
     {
       "id": "38c6ffe96a9a",
@@ -97,66 +156,47 @@
       ],
       "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
-      "rank": 5
+      "rank": 8
     },
     {
-      "id": "9edb08733a04",
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "id": "9abb0b9c4adf",
+      "title": "Android app developers will soon have to share their address publicly",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "published": "2026-11-26T00:04:34+00:00",
+      "sourceUrl": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "published": "2026-11-26T17:06:24+00:00",
       "summary": [
-        "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required [&#8230;]"
+        "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": false,
-      "rank": 6
+      "rank": 9
     },
     {
-      "id": "ab8a0656e491",
-      "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "published": "2026-11-25T20:31:48+00:00",
-      "summary": [
-        "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a [&#8230;]"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 6.5,
-      "isNativeCN": false,
-      "rank": 7
-    },
-    {
-      "id": "3bcea7cbdeef",
-      "title": "X’s latest update for creators focuses on vertical video",
+      "id": "d7e3971f7f9b",
+      "title": "A month with the iPhone Duo has changed how I use my phone",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
-      "published": "2026-11-25T17:28:29+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+      "published": "2026-11-26T17:00:00+00:00",
       "summary": [
-        "As short-form video ramps up in popularity, X's new creation tools are part of its effort to compete with YouTube and Instagram."
+        "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate."
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 4,
+      "score": 5,
       "isNativeCN": false,
-      "rank": 8
+      "rank": 10
     }
   ]
 }
