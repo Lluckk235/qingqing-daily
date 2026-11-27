@@ -1,46 +1,65 @@
 {
-  "date": "2026-11-27",
-  "generated": "2026-11-27T14:43:09.758443+08:00",
-  "total": 9,
+  "date": "2026-11-28",
+  "generated": "2026-11-28T01:50:14.675263+08:00",
+  "total": 10,
   "defaultDisplay": 6,
   "news": [
     {
-      "id": "68617ed988fe",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "id": "4c9ff179b519",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "TechCrunch",
       "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "published": "2026-11-25T20:03:27+00:00",
+      "sourceUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published": "2026-11-26T20:03:54+00:00",
       "summary": [
-        "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences."
+        "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China."
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 1
     },
     {
-      "id": "bac2d3e3f4a6",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "id": "74bc116bc122",
+      "title": "Here are the best Black Friday deals you can grab for $30 or less",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "published": "2026-11-25T19:44:24+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1039645/black-friday-best-cheap-tech-deals-under-30-2026",
+      "published": "2026-11-27T17:30:00+00:00",
       "summary": [
-        "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development."
+        "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug will let you control the Christmas tree lights from your phone. You [&#8230;]"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 5.5,
+      "score": 4,
       "isNativeCN": false,
       "rank": 2
+    },
+    {
+      "id": "bb3f88b0f4ba",
+      "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "MIT Tech Review",
+      "sourceDomain": "technologyreview.com",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+      "published": "2026-11-27T13:00:00+00:00",
+      "summary": [
+        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world&#8217;s brightest young scientists, entrepreneurs, and inventors in our Innovators Under 35 list.&#8230;"
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 7,
+      "isNativeCN": false,
+      "rank": 3
     },
     {
       "id": "d6d5e4635fe4",
@@ -57,70 +76,91 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
-      "rank": 3
-    },
-    {
-      "id": "089906e435f0",
-      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-      "published": "2026-11-26T19:00:00+00:00",
-      "summary": [
-        "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks [&#8230;]"
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
       "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "03f91c00ffb6",
-      "title": "荣威家越 07 纯电版上市：行业首搭豆包座舱助手，13.28 万元起",
+      "id": "6c5bf6f03d89",
+      "title": "大厂的应届生名额，正在先让给 AI 预算",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/348.htm",
-      "published": "2026-11-27T05:58:17+00:00",
+      "source": "极客公园",
+      "sourceDomain": "geekpark.net",
+      "sourceUrl": "http://www.geekpark.net/news/374601",
+      "published": "2026-11-27T09:26:31+00:00",
       "summary": [
-        "IT之家 11 月 27 日消息，在今天的广州车展发布会上，荣威家越 07 纯电版正式发布，官方指导价 &nbsp;13.28 至 14.98 万元",
-        "该车全系标配 800V 碳化硅平台 + 651km 超长纯电续航 + 80.6kWh 大电池，电机峰值功率达 245kW，峰值扭矩达 430N·m ，零百加速 5.9 秒",
-        "荣威家越 07 长宽高为 4900*1910*1745mm，轴距 2908mm，提供龙晶紫、玛瑙灰、宝石蓝、珍溪黑、钻石白、翡翠绿等宝石车色，可选绵云青空、坚果可可、云绒暖灰内饰色"
+        "在 AI 时代，最敢给自身组织结构动刀、同时也最能整活的大厂微软，又成为了新的 AI 组织实践者",
+        "但这次微软带来的不是好消息，而是公开承认「微软已经延缓了应届生的招聘进度」",
+        "不久前的 The Pragmatic Engineer 播客里，主持人问微软 CEO 萨提亚&middot;纳德拉「微软还招不招应届生」时，纳德拉在节目上公开承认微软应届生招聘的确放慢了，还表示「很多公司都这样」"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "e4c2a5cf24ff",
-      "title": "华硕 ROG 战刃 4 Ace Max 鼠标上线：模具尺寸更大，核心规格不变",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
+      "id": "dfd9c86ca5a6",
+      "title": "恒大汽车：香港联交所上市委员会决定取消公司的上市地位，最快 12 月 14 日摘牌",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/352.htm",
-      "published": "2026-11-27T06:14:32+00:00",
+      "sourceUrl": "https://www.ithome.com/1/033/767.htm",
+      "published": "2026-11-27T14:38:10+00:00",
       "summary": [
-        "IT之家 11 月 27 日消息，华硕 (ASUS) 在今年 8 月的 gamescom 2026 科隆游戏展新品发布中提到了 ROG Gladius IV Ace Max 鼠标",
-        "这一型号是 ROG 战刃 4 Ace (Gladius IV Ace) 的更大尺寸版本",
-        "而在近期，ROG 战刃 4 Ace 的 Max 版本也正式上线华硕官网"
+        "IT之家 11 月 27 日消息，恒大汽车今日在港交所发布公告称，公司于 2026 年 11 月 27 日接获联交所函件，联交所上市委员会已决定根据上市规则第 6.01A (1) 条取消公司上市地位，原因是公司未能于 2026 年 9 月 30 日的复牌截止时间达成所有复牌指引",
+        "根据上市规则第 2B 章，恒大汽车有权在除牌决定发出日期起计七个营业日内，将决定提交上市复核委员会复核",
+        "若公司决定不申请复核，股份的最后上市日期为 2026 年 12 月 11 日，上市地位将自 2026 年 12 月 14 日上午 9 时起取消"
       ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "whyImportant": "影响公司经营、市场预期或商业模式",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
+    },
+    {
+      "id": "c466808a8968",
+      "title": "魏牌高山右舵版车型在香港市场上市，今年第四季度还将登陆澳洲",
+      "category": "business",
+      "categoryLabel": "商业",
+      "badge": "INSIGHT",
+      "source": "IT之家",
+      "sourceDomain": "ithome.com",
+      "sourceUrl": "https://www.ithome.com/1/033/771.htm",
+      "published": "2026-11-27T15:04:07+00:00",
+      "summary": [
+        "IT之家 11 月 27 日消息，在今天进行的 2026 广州车展中，魏牌宣布旗下魏牌高山右舵版（WEY G9）今日于香港市场正式上市",
+        "据介绍，魏牌高山车型依托原生平台实现左舵与右舵版本同步开发，并根据不同地区的通行法规与用车习惯进行属地化适配",
+        "此外魏牌还预热该车将于今年四季度登陆澳洲市场"
+      ],
+      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "tags": [],
+      "score": 6,
+      "isNativeCN": true,
+      "rank": 7
+    },
+    {
+      "id": "e98891caa18c",
+      "title": "DeepSeek APP突然更新账单，网友：要收费了？",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/513305.html",
+      "published": "2026-11-27T07:29:10+00:00",
+      "summary": [
+        "网页App双端亮出聊天账单"
+      ],
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
+      "tags": [],
+      "score": 6.5,
+      "isNativeCN": true,
+      "rank": 8
     },
     {
       "id": "0e9a61fea528",
@@ -137,47 +177,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": true,
-      "rank": 7
+      "rank": 9
     },
     {
-      "id": "9abb0b9c4adf",
-      "title": "Android app developers will soon have to share their address publicly",
+      "id": "f8e8d69c92e9",
+      "title": "The best Black Friday deals on AirPods, MacBooks, and other Apple gear",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "published": "2026-11-26T17:06:24+00:00",
+      "sourceUrl": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+      "published": "2026-11-27T16:30:37+00:00",
       "summary": [
-        "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. [&#8230;]"
+        "Black Friday is one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised the cost of some of its most popular gear. Some [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
+      "score": 7,
       "isNativeCN": false,
-      "rank": 8
-    },
-    {
-      "id": "bf17d49ef61f",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "category": "finance",
-      "categoryLabel": "金融/市场",
-      "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "published": "2026-11-25T22:44:32+00:00",
-      "summary": [
-        "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
-      ],
-      "whyImportant": "影响风险偏好、资产定价或投资情绪",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
