@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
-  "generated": "2026-11-27T02:07:39.049057+08:00",
-  "total": 10,
+  "generated": "2026-11-27T14:43:09.758443+08:00",
+  "total": 9,
   "defaultDisplay": 6,
   "news": [
     {
@@ -19,7 +19,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 1
     },
@@ -38,7 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6,
+      "score": 5.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,43 +57,43 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 6,
+      "score": 5,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "bf17d49ef61f",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "id": "089906e435f0",
+      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "published": "2026-11-25T22:44:32+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
+      "published": "2026-11-26T19:00:00+00:00",
       "summary": [
-        "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+        "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 4,
+      "score": 4.5,
       "isNativeCN": false,
       "rank": 4
     },
     {
-      "id": "dd310616e959",
-      "title": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵",
+      "id": "03f91c00ffb6",
+      "title": "荣威家越 07 纯电版上市：行业首搭豆包座舱助手，13.28 万元起",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/131.htm",
-      "published": "2026-11-26T15:24:56+00:00",
+      "sourceUrl": "https://www.ithome.com/1/033/348.htm",
+      "published": "2026-11-27T05:58:17+00:00",
       "summary": [
-        "IT之家 11 月 26 日消息，据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及关键基础设施运营方发起入侵",
-        "IT之家注意到，该局在公告中表示，五起攻击里有四起攻击得手，相关系统遭到入侵",
-        "遭到攻击的对象包含三家关键基础设施运营主体，据瑞士公共广播公司 SRF 介绍，它们分别是电力、供水以及通信服务供应商"
+        "IT之家 11 月 27 日消息，在今天的广州车展发布会上，荣威家越 07 纯电版正式发布，官方指导价 &nbsp;13.28 至 14.98 万元",
+        "该车全系标配 800V 碳化硅平台 + 651km 超长纯电续航 + 80.6kWh 大电池，电机峰值功率达 245kW，峰值扭矩达 430N·m ，零百加速 5.9 秒",
+        "荣威家越 07 长宽高为 4900*1910*1745mm，轴距 2908mm，提供龙晶紫、玛瑙灰、宝石蓝、珍溪黑、钻石白、翡翠绿等宝石车色，可选绵云青空、坚果可可、云绒暖灰内饰色"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
@@ -102,19 +102,19 @@
       "rank": 5
     },
     {
-      "id": "e5af68a6c338",
-      "title": "宁德时代预告 30#巧克力电池：首发 100kWh 版本，支持实现 3s 级零百加速",
+      "id": "e4c2a5cf24ff",
+      "title": "华硕 ROG 战刃 4 Ace Max 鼠标上线：模具尺寸更大，核心规格不变",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/129.htm",
-      "published": "2026-11-26T15:10:43+00:00",
+      "sourceUrl": "https://www.ithome.com/1/033/352.htm",
+      "published": "2026-11-27T06:14:32+00:00",
       "summary": [
-        "IT之家 11 月 26 日现场消息，在今晚的 2026 华为乾崑生态大会上，华为智能汽车解决方案 BU CEO 靳玉志正式官宣华为乾崑智驾 × 宁德时代巧克力换电达成合作，并发布了智能补能解决方案",
-        "宁德时代市场联席总裁杨峻还在现场预告了 30#巧克力电池，其定位是“更全能的电池”",
-        "长续航：首发 100kWh 版本，支持实现 700+km 续航；可升级：不同档位电量，按需配电；快补能：99 秒极速换电，超充 10 分钟 400km 续航；强动力：600kW 峰值放电功率，支持实现 3s 零百加速；长寿命：锁止机构一天一换可用 27 年，在网电池终身质保；高安全：振动耐久测试达国标 1.5 倍，巧克力电池管家 7×24 小时监测"
+        "IT之家 11 月 27 日消息，华硕 (ASUS) 在今年 8 月的 gamescom 2026 科隆游戏展新品发布中提到了 ROG Gladius IV Ace Max 鼠标",
+        "这一型号是 ROG 战刃 4 Ace (Gladius IV Ace) 的更大尺寸版本",
+        "而在近期，ROG 战刃 4 Ace 的 Max 版本也正式上线华硕官网"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
@@ -123,42 +123,23 @@
       "rank": 6
     },
     {
-      "id": "ed1460477a26",
-      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "published": "2026-11-26T16:00:00+00:00",
+      "id": "0e9a61fea528",
+      "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
+      "source": "量子位",
+      "sourceDomain": "qbitai.com",
+      "sourceUrl": "https://www.qbitai.com/2026/11/513211.html",
+      "published": "2026-11-27T04:05:18+00:00",
       "summary": [
-        "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
+        "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 5,
-      "isNativeCN": false,
+      "score": 6,
+      "isNativeCN": true,
       "rank": 7
-    },
-    {
-      "id": "38c6ffe96a9a",
-      "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-      "published": "2026-11-25T13:08:19+00:00",
-      "summary": [
-        "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found."
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 3.5,
-      "isNativeCN": false,
-      "rank": 8
     },
     {
       "id": "9abb0b9c4adf",
@@ -175,28 +156,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6,
-      "isNativeCN": false,
-      "rank": 9
-    },
-    {
-      "id": "d7e3971f7f9b",
-      "title": "A month with the iPhone Duo has changed how I use my phone",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "TechCrunch",
-      "sourceDomain": "techcrunch.com",
-      "sourceUrl": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
-      "published": "2026-11-26T17:00:00+00:00",
-      "summary": [
-        "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate."
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
       "score": 5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
+    },
+    {
+      "id": "bf17d49ef61f",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "category": "finance",
+      "categoryLabel": "金融/市场",
+      "badge": "ANALYSIS",
+      "source": "TechCrunch",
+      "sourceDomain": "techcrunch.com",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published": "2026-11-25T22:44:32+00:00",
+      "summary": [
+        "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+      ],
+      "whyImportant": "影响风险偏好、资产定价或投资情绪",
+      "tags": [],
+      "score": 3.5,
+      "isNativeCN": false,
+      "rank": 9
     }
   ]
 }
