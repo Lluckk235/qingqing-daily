@@ -1,9 +1,28 @@
 {
   "date": "2026-11-28",
-  "generated": "2026-11-28T01:50:14.675263+08:00",
-  "total": 10,
+  "generated": "2026-11-28T14:16:50.552038+08:00",
+  "total": 8,
   "defaultDisplay": 6,
   "news": [
+    {
+      "id": "9409604c2ec3",
+      "title": "We found 60-odd Black Friday deals we love for $100 or less",
+      "category": "ai-tech",
+      "categoryLabel": "AI 技术",
+      "badge": "AI NEWS",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "published": "2026-11-28T01:30:00+00:00",
+      "summary": [
+        "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve seen. Below, we’ve rounded up a range of great stuff [&#8230;]"
+      ],
+      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
+      "tags": [],
+      "score": 4,
+      "isNativeCN": false,
+      "rank": 1
+    },
     {
       "id": "4c9ff179b519",
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
@@ -19,26 +38,7 @@
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 4,
-      "isNativeCN": false,
-      "rank": 1
-    },
-    {
-      "id": "74bc116bc122",
-      "title": "Here are the best Black Friday deals you can grab for $30 or less",
-      "category": "ai-tech",
-      "categoryLabel": "AI 技术",
-      "badge": "AI NEWS",
-      "source": "The Verge",
-      "sourceDomain": "theverge.com",
-      "sourceUrl": "https://www.theverge.com/gadgets/1039645/black-friday-best-cheap-tech-deals-under-30-2026",
-      "published": "2026-11-27T17:30:00+00:00",
-      "summary": [
-        "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug will let you control the Christmas tree lights from your phone. You [&#8230;]"
-      ],
-      "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
-      "tags": [],
-      "score": 4,
+      "score": 3.5,
       "isNativeCN": false,
       "rank": 2
     },
@@ -57,22 +57,22 @@
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
-      "score": 7,
+      "score": 6,
       "isNativeCN": false,
       "rank": 3
     },
     {
-      "id": "d6d5e4635fe4",
-      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "id": "ff65b12f3778",
+      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
       "category": "finance",
       "categoryLabel": "金融/市场",
       "badge": "ANALYSIS",
-      "source": "MIT Tech Review",
-      "sourceDomain": "technologyreview.com",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
-      "published": "2026-11-26T13:10:00+00:00",
+      "source": "The Verge",
+      "sourceDomain": "theverge.com",
+      "sourceUrl": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "published": "2026-11-27T23:32:00+00:00",
       "summary": [
-        "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a few prosthetics. But his latest&#8230;"
+        "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon, Best Buy, [&#8230;]"
       ],
       "whyImportant": "影响风险偏好、资产定价或投资情绪",
       "tags": [],
@@ -81,67 +81,46 @@
       "rank": 4
     },
     {
-      "id": "6c5bf6f03d89",
-      "title": "大厂的应届生名额，正在先让给 AI 预算",
+      "id": "c86d07337879",
+      "title": "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作",
       "category": "ai-tech",
       "categoryLabel": "AI 技术",
       "badge": "AI NEWS",
       "source": "极客公园",
       "sourceDomain": "geekpark.net",
-      "sourceUrl": "http://www.geekpark.net/news/374601",
-      "published": "2026-11-27T09:26:31+00:00",
+      "sourceUrl": "http://www.geekpark.net/news/374621",
+      "published": "2026-11-28T00:53:50+00:00",
       "summary": [
-        "在 AI 时代，最敢给自身组织结构动刀、同时也最能整活的大厂微软，又成为了新的 AI 组织实践者",
-        "但这次微软带来的不是好消息，而是公开承认「微软已经延缓了应届生的招聘进度」",
-        "不久前的 The Pragmatic Engineer 播客里，主持人问微软 CEO 萨提亚&middot;纳德拉「微软还招不招应届生」时，纳德拉在节目上公开承认微软应届生招聘的确放慢了，还表示「很多公司都这样」"
+        "OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作",
+        "今年 7 月，苹果曾以窃取商业机密为由起诉 OpenAI",
+        "随着 OpenAI 反诉，这场官司从苹果一方起诉变成了双方互诉"
       ],
       "whyImportant": "影响 AI 应用、基础设施或行业竞争格局",
       "tags": [],
-      "score": 6.5,
+      "score": 7,
       "isNativeCN": true,
       "rank": 5
     },
     {
-      "id": "dfd9c86ca5a6",
-      "title": "恒大汽车：香港联交所上市委员会决定取消公司的上市地位，最快 12 月 14 日摘牌",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
+      "id": "775fb52e4d0b",
+      "title": "小米 18 标准版开放预约，预计下周官宣预热",
+      "category": "product",
+      "categoryLabel": "产品",
+      "badge": "PRODUCT",
       "source": "IT之家",
       "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/767.htm",
-      "published": "2026-11-27T14:38:10+00:00",
+      "sourceUrl": "https://www.ithome.com/1/033/834.htm",
+      "published": "2026-11-28T05:13:49+00:00",
       "summary": [
-        "IT之家 11 月 27 日消息，恒大汽车今日在港交所发布公告称，公司于 2026 年 11 月 27 日接获联交所函件，联交所上市委员会已决定根据上市规则第 6.01A (1) 条取消公司上市地位，原因是公司未能于 2026 年 9 月 30 日的复牌截止时间达成所有复牌指引",
-        "根据上市规则第 2B 章，恒大汽车有权在除牌决定发出日期起计七个营业日内，将决定提交上市复核委员会复核",
-        "若公司决定不申请复核，股份的最后上市日期为 2026 年 12 月 11 日，上市地位将自 2026 年 12 月 14 日上午 9 时起取消"
+        "IT之家 11 月 28 日消息，小米官方今日已经在小米商城、京东、天猫等平台开启小米 18 标准版（M261DB）的预约活动，但未透露任何有价值信息",
+        "结合此前爆料，小米 18 标准版预计在 12 月发布，有望在下周官宣并开启预热宣传",
+        "京东 Xiaomi 18 手机即将发布 0 元预约赢新品手机 5G 手机 旗舰手机 新品上市待公布直达链接实际上，小米 18 标准版的预约活动早在 11 月 20 日前后就已在部分门店启动"
       ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
+      "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
       "score": 7,
       "isNativeCN": true,
       "rank": 6
-    },
-    {
-      "id": "c466808a8968",
-      "title": "魏牌高山右舵版车型在香港市场上市，今年第四季度还将登陆澳洲",
-      "category": "business",
-      "categoryLabel": "商业",
-      "badge": "INSIGHT",
-      "source": "IT之家",
-      "sourceDomain": "ithome.com",
-      "sourceUrl": "https://www.ithome.com/1/033/771.htm",
-      "published": "2026-11-27T15:04:07+00:00",
-      "summary": [
-        "IT之家 11 月 27 日消息，在今天进行的 2026 广州车展中，魏牌宣布旗下魏牌高山右舵版（WEY G9）今日于香港市场正式上市",
-        "据介绍，魏牌高山车型依托原生平台实现左舵与右舵版本同步开发，并根据不同地区的通行法规与用车习惯进行属地化适配",
-        "此外魏牌还预热该车将于今年四季度登陆澳洲市场"
-      ],
-      "whyImportant": "影响公司经营、市场预期或商业模式",
-      "tags": [],
-      "score": 6,
-      "isNativeCN": true,
-      "rank": 7
     },
     {
       "id": "e98891caa18c",
@@ -158,47 +137,28 @@
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 6.5,
+      "score": 6,
       "isNativeCN": true,
-      "rank": 8
-    },
-    {
-      "id": "0e9a61fea528",
-      "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
-      "category": "product",
-      "categoryLabel": "产品",
-      "badge": "PRODUCT",
-      "source": "量子位",
-      "sourceDomain": "qbitai.com",
-      "sourceUrl": "https://www.qbitai.com/2026/11/513211.html",
-      "published": "2026-11-27T04:05:18+00:00",
-      "summary": [
-        "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0"
-      ],
-      "whyImportant": "反映用户需求、产品趋势或增长方向",
-      "tags": [],
-      "score": 5,
-      "isNativeCN": true,
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "f8e8d69c92e9",
-      "title": "The best Black Friday deals on AirPods, MacBooks, and other Apple gear",
+      "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
       "category": "product",
       "categoryLabel": "产品",
       "badge": "PRODUCT",
       "source": "The Verge",
       "sourceDomain": "theverge.com",
       "sourceUrl": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
-      "published": "2026-11-27T16:30:37+00:00",
+      "published": "2026-11-27T23:53:19+00:00",
       "summary": [
-        "Black Friday is one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised the cost of some of its most popular gear. Some [&#8230;]"
+        "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised [&#8230;]"
       ],
       "whyImportant": "反映用户需求、产品趋势或增长方向",
       "tags": [],
-      "score": 7,
+      "score": 6.5,
       "isNativeCN": false,
-      "rank": 10
+      "rank": 8
     }
   ]
 }
